@@ -1,0 +1,7 @@
+*.pyc
+__pycache__/
+.venv/
+.examtopics_cache/
+clean_pages/
+*_smoke*.txt
+* dumps.txt
