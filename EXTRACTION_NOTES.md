@@ -149,3 +149,64 @@ The DOP-C02-style older exams will have far more comment evidence.
 - ~45 questions: no public answer evidence exists (no votes, no comments,
   official answer paywalled). These genuinely cannot be confirmed from public
   data and need a logged-in contributor account or manual subject-matter review.
+
+## Large/older exams with NON-CONTIGUOUS question ids (AZ-400 case)
+
+### The problem we hit
+The first AZ-400 run returned only **367 of 564** questions. Root cause: the
+original `extract_all_questions.py` assumed an exam's internal question-ids
+are one contiguous block (`first_id .. first_id + total`). That holds for NEW
+exams (AI-300, AI-103) but NOT for older/large ones.
+
+Probing the id range proved it. AZ-400 ids start at 812027 but only run
+~370 ids before the numbering switches to OTHER exams:
+
+```
+812027 -> AZ-400
+812327 -> AZ-400
+812427 -> AZ-500   <- AZ-400 block ends here
+812827 -> DP-203
+813027 -> MS-900
+...
+```
+
+ExamTopics assigns question-ids in batches over time, so an exam that has been
+updated across years has its questions scattered across multiple id ranges.
+A single contiguous id-walk can only ever see one batch.
+
+### What worked: use the discussion LISTING scan as the primary id source
+The discussion listing (`/discussions/<provider>/<page>/`) finds question URLs
+by **exam name**, independent of internal id. For AZ-400 it found **559**
+links vs the id-walk's 367. This is the reliable source for completeness on any
+exam, new or old.
+
+`extract_all_questions.py` now merges TWO url sources and dedupes by question:
+1. **Discussion listing scan** (primary) - `FastDiscussionScanner.scan(...)`.
+   Catches every question regardless of id contiguity. Slowest part (~1491
+   listing pages for microsoft) but cached for 6h, so re-runs are fast.
+2. **Sequential id-walk** (supplement) - the AJAX `exam-question/<id>` map.
+   Catches brand-new questions that may not have a discussion-listing entry yet.
+
+Then it fetches every canonical discussion page (captcha-free), parses, filters
+to the exact exam header, and dedupes by (topic, question_no).
+
+### Result
+AZ-400: **559 of 564** (all 19 topics, 0 duplicates). The ~5 gap = questions
+with no public discussion thread AND ids outside the contiguous block; those
+live only on the captcha-gated exam-view pages and are not publicly reachable.
+
+### Rule of thumb
+- New exam, few hundred questions, recently published -> id-walk alone is fine
+  and fast.
+- Older or large exam (AZ-104, AZ-400, etc.) -> the listing scan is REQUIRED;
+  the id-walk alone will silently miss large chunks. The merged approach now in
+  `extract_all_questions.py` handles both automatically, so just run:
+
+```
+python extract_all_questions.py microsoft az-400
+```
+
+### Performance note
+The listing scan is the bottleneck for big providers (microsoft = 1491 pages).
+It is cached (`.examtopics_cache`, 6h TTL), so the first run is slow but repeat
+runs for OTHER microsoft exams reuse the same cached listing pages and are fast.
