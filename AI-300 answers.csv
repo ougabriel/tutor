@@ -1,0 +1,61 @@
+topic,question,official,community,community_votes,comment_consensus,best_answer,agreement,confidence,url
+2,1,B,B,3,B,B,agree,HIGH (official + community agree),https://www.examtopics.com/discussions/microsoft/view/404549-exam-ai-300-topic-2-question-1-discussion/
+2,2,D,D,1,D,D,agree,HIGH (official + community agree),https://www.examtopics.com/discussions/microsoft/view/404550-exam-ai-300-topic-2-question-2-discussion/
+2,3,[image: https://img.examtopics.com/ai-300/image2.png],,,,[image: https://img.examtopics.com/ai-300/image2.png],agree,HIGH (official answer),https://www.examtopics.com/discussions/microsoft/view/404551-exam-ai-300-topic-2-question-3-discussion/
+2,4,B,,,,B,agree,HIGH (official answer),https://www.examtopics.com/discussions/microsoft/view/404552-exam-ai-300-topic-2-question-4-discussion/
+2,5,,B,3,B,B,agree,MEDIUM-HIGH (strong community consensus),https://www.examtopics.com/discussions/microsoft/view/404553-exam-ai-300-topic-2-question-5-discussion/
+2,6,,C,2,C,C,agree,LOW (few votes),https://www.examtopics.com/discussions/microsoft/view/404554-exam-ai-300-topic-2-question-6-discussion/
+2,7,,C,2,C,C,agree,LOW (few votes),https://www.examtopics.com/discussions/microsoft/view/404555-exam-ai-300-topic-2-question-7-discussion/
+2,8,,D,7,D,D,agree,MEDIUM-HIGH (strong community consensus),https://www.examtopics.com/discussions/microsoft/view/404556-exam-ai-300-topic-2-question-8-discussion/
+2,9,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404557-exam-ai-300-topic-2-question-9-discussion/
+2,10,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404558-exam-ai-300-topic-2-question-10-discussion/
+2,11,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404559-exam-ai-300-topic-2-question-11-discussion/
+2,12,,B,3,B,B,agree,MEDIUM-HIGH (strong community consensus),https://www.examtopics.com/discussions/microsoft/view/404560-exam-ai-300-topic-2-question-12-discussion/
+2,13,,B,2,A,B,DISAGREE,LOW (signals disagree),https://www.examtopics.com/discussions/microsoft/view/404561-exam-ai-300-topic-2-question-13-discussion/
+2,14,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404562-exam-ai-300-topic-2-question-14-discussion/
+2,15,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404563-exam-ai-300-topic-2-question-15-discussion/
+2,16,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404564-exam-ai-300-topic-2-question-16-discussion/
+2,17,,B,2,B,B,agree,LOW (few votes),https://www.examtopics.com/discussions/microsoft/view/404565-exam-ai-300-topic-2-question-17-discussion/
+2,18,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404566-exam-ai-300-topic-2-question-18-discussion/
+3,1,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404567-exam-ai-300-topic-3-question-1-discussion/
+3,2,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404600-exam-ai-300-topic-3-question-2-discussion/
+3,3,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404601-exam-ai-300-topic-3-question-3-discussion/
+3,4,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404602-exam-ai-300-topic-3-question-4-discussion/
+3,5,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404603-exam-ai-300-topic-3-question-5-discussion/
+3,6,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404604-exam-ai-300-topic-3-question-6-discussion/
+3,7,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404605-exam-ai-300-topic-3-question-7-discussion/
+3,8,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404606-exam-ai-300-topic-3-question-8-discussion/
+3,9,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404568-exam-ai-300-topic-3-question-9-discussion/
+3,10,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404569-exam-ai-300-topic-3-question-10-discussion/
+3,11,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404570-exam-ai-300-topic-3-question-11-discussion/
+3,12,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404571-exam-ai-300-topic-3-question-12-discussion/
+3,13,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404572-exam-ai-300-topic-3-question-13-discussion/
+3,14,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404573-exam-ai-300-topic-3-question-14-discussion/
+3,15,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404574-exam-ai-300-topic-3-question-15-discussion/
+4,1,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404575-exam-ai-300-topic-4-question-1-discussion/
+4,2,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404576-exam-ai-300-topic-4-question-2-discussion/
+4,3,,AD,4,AD,AD,agree,MEDIUM-HIGH (strong community consensus),https://www.examtopics.com/discussions/microsoft/view/404577-exam-ai-300-topic-4-question-3-discussion/
+4,4,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404578-exam-ai-300-topic-4-question-4-discussion/
+4,5,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404579-exam-ai-300-topic-4-question-5-discussion/
+4,6,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404580-exam-ai-300-topic-4-question-6-discussion/
+4,7,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404607-exam-ai-300-topic-4-question-7-discussion/
+4,8,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404608-exam-ai-300-topic-4-question-8-discussion/
+4,9,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404609-exam-ai-300-topic-4-question-9-discussion/
+4,10,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404610-exam-ai-300-topic-4-question-10-discussion/
+4,11,,A,2,A,A,agree,LOW (few votes),https://www.examtopics.com/discussions/microsoft/view/404611-exam-ai-300-topic-4-question-11-discussion/
+4,12,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404612-exam-ai-300-topic-4-question-12-discussion/
+4,13,,B,3,B,B,agree,MEDIUM-HIGH (strong community consensus),https://www.examtopics.com/discussions/microsoft/view/404613-exam-ai-300-topic-4-question-13-discussion/
+5,1,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404614-exam-ai-300-topic-5-question-1-discussion/
+5,2,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404615-exam-ai-300-topic-5-question-2-discussion/
+5,3,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404616-exam-ai-300-topic-5-question-3-discussion/
+5,4,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404617-exam-ai-300-topic-5-question-4-discussion/
+5,5,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404618-exam-ai-300-topic-5-question-5-discussion/
+5,6,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404619-exam-ai-300-topic-5-question-6-discussion/
+5,7,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404620-exam-ai-300-topic-5-question-7-discussion/
+6,1,,ADE,3,ADE,ADE,agree,MEDIUM-HIGH (strong community consensus),https://www.examtopics.com/discussions/microsoft/view/404621-exam-ai-300-topic-6-question-1-discussion/
+6,2,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404622-exam-ai-300-topic-6-question-2-discussion/
+6,3,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404623-exam-ai-300-topic-6-question-3-discussion/
+6,4,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404624-exam-ai-300-topic-6-question-4-discussion/
+6,5,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404625-exam-ai-300-topic-6-question-5-discussion/
+6,6,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404626-exam-ai-300-topic-6-question-6-discussion/
+6,7,,,,,,agree,NONE (no answer data / image answer),https://www.examtopics.com/discussions/microsoft/view/404627-exam-ai-300-topic-6-question-7-discussion/
