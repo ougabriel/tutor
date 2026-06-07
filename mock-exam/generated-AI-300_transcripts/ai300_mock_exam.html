@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI-300 Mock Exam — Interactive</title>
+<style>
+  :root{
+    --bg:#0f172a; --panel:#1e293b; --panel2:#273449; --ink:#e2e8f0; --muted:#94a3b8;
+    --accent:#38bdf8; --accent2:#0ea5e9; --good:#22c55e; --bad:#ef4444; --warn:#f59e0b;
+    --line:#334155; --chip:#0b1220;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+  header{position:sticky;top:0;z-index:50;background:linear-gradient(180deg,#0b1220,#0f172a);border-bottom:1px solid var(--line);padding:14px 20px;box-shadow:0 2px 12px rgba(0,0,0,.4)}
+  .hwrap{max-width:980px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:14px;justify-content:space-between}
+  h1{font-size:18px;margin:0;color:#fff}
+  .sub{color:var(--muted);font-size:12px;margin-top:2px}
+  .stats{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+  .stat{text-align:center;min-width:60px}
+  .stat .v{font-size:18px;font-weight:700;color:var(--accent)}
+  .stat .l{font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+  .bar{height:6px;background:var(--panel2);border-radius:4px;overflow:hidden;width:100%;margin-top:10px}
+  .bar > i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--good));transition:width .3s}
+  main{max-width:980px;margin:0 auto;padding:22px 20px 120px}
+  .intro{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin-bottom:22px}
+  .intro h2{margin:0 0 8px;font-size:15px;color:#fff}
+  .intro p{margin:6px 0;color:var(--muted);font-size:13px}
+  .controls{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;align-items:center}
+  select,button{font:inherit}
+  button{cursor:pointer;border:none;border-radius:8px;padding:10px 16px;font-weight:600;font-size:13px}
+  .btn-primary{background:var(--accent2);color:#04293a}
+  .btn-primary:hover{background:var(--accent)}
+  .btn-ghost{background:var(--panel2);color:var(--ink);border:1px solid var(--line)}
+  .btn-ghost:hover{border-color:var(--accent)}
+  select{background:var(--panel2);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:9px 12px}
+  .sectionhdr{margin:30px 0 8px;padding:8px 14px;background:var(--chip);border-left:3px solid var(--accent);border-radius:6px;font-weight:700;font-size:14px;color:#fff}
+  .scenario{background:#172033;border:1px dashed var(--line);border-radius:10px;padding:14px 16px;margin:10px 0 6px;font-size:13px;color:#cbd5e1}
+  .q{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:14px 0;scroll-margin-top:90px}
+  .q.correct{border-color:var(--good);box-shadow:0 0 0 1px var(--good) inset}
+  .q.wrong{border-color:var(--bad);box-shadow:0 0 0 1px var(--bad) inset}
+  .qhead{display:flex;gap:10px;align-items:flex-start;margin-bottom:12px}
+  .qnum{flex:0 0 auto;background:var(--chip);color:var(--accent);font-weight:700;font-size:12px;border-radius:6px;padding:3px 9px;white-space:nowrap}
+  .qtype{flex:0 0 auto;font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:var(--warn);border:1px solid var(--warn);border-radius:6px;padding:2px 7px;margin-left:auto}
+  .qtext{font-size:14.5px;color:#f1f5f9}
+  .qtext code{background:#0b1220;padding:1px 6px;border-radius:4px;color:#7dd3fc;font-size:13px}
+  .opts{margin-top:12px;display:flex;flex-direction:column;gap:8px}
+  label.opt{display:flex;gap:10px;align-items:flex-start;background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:10px 12px;cursor:pointer;transition:.12s;font-size:13.5px}
+  label.opt:hover{border-color:var(--accent)}
+  label.opt input{margin-top:3px}
+  label.opt .ltr{font-weight:700;color:var(--muted);flex:0 0 auto}
+  .opt.opt-correct{background:rgba(34,197,94,.12);border-color:var(--good)}
+  .opt.opt-chosen-wrong{background:rgba(239,68,68,.12);border-color:var(--bad)}
+  .exp{margin-top:12px;padding:11px 14px;background:#0b1220;border-left:3px solid var(--accent);border-radius:6px;font-size:13px;color:#cbd5e1;display:none}
+  .exp.show{display:block}
+  .exp b{color:#fff}
+  .verdict{font-size:12px;font-weight:700;margin-top:8px;display:none}
+  .verdict.show{display:block}
+  .verdict.ok{color:var(--good)} .verdict.no{color:var(--bad)}
+  .footbar{position:fixed;bottom:0;left:0;right:0;background:linear-gradient(0deg,#0b1220,#0f172a);border-top:1px solid var(--line);padding:12px 20px;z-index:50}
+  .footwrap{max-width:980px;margin:0 auto;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+  .result{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px;margin:22px 0;display:none}
+  .result.show{display:block}
+  .result h2{margin:0 0 6px;color:#fff}
+  .scorebig{font-size:40px;font-weight:800}
+  .pass{color:var(--good)} .fail{color:var(--bad)}
+  .dgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-top:16px}
+  .dcard{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px}
+  .dcard .dt{font-size:12px;color:var(--muted)}
+  .dcard .dv{font-size:20px;font-weight:700;margin-top:4px}
+  .pill{display:inline-block;font-size:11px;padding:2px 8px;border-radius:20px;margin-left:6px}
+  .pill.ok{background:rgba(34,197,94,.2);color:var(--good)}
+  .pill.no{background:rgba(239,68,68,.2);color:var(--bad)}
+  .hide{display:none!important}
+  .checkbtn{margin-top:12px;background:var(--accent2);color:#04293a;border:none;border-radius:8px;padding:8px 14px;font-weight:600;font-size:12.5px;cursor:pointer}
+  .checkbtn:hover{background:var(--accent)}
+  .checkbtn:disabled{opacity:.5;cursor:default}
+</style>
+</head>
+<body>
+<header>
+  <div class="hwrap">
+    <div>
+      <h1>AI-300 Mock Exam <span style="color:var(--muted);font-weight:400;font-size:13px">· Operationalize ML &amp; Generative AI</span></h1>
+      <div class="sub">Interactive practice · options shuffled each load · 700/1000 to pass (target &ge;80%)</div>
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="v" id="s-answered">0</div><div class="l">Answered</div></div>
+      <div class="stat"><div class="v" id="s-total">0</div><div class="l">Total</div></div>
+      <div class="stat"><div class="v" id="s-timer">00:00</div><div class="l">Time</div></div>
+    </div>
+  </div>
+  <div class="bar"><i id="progbar"></i></div>
+</header>
+
+<main>
+  <div class="intro">
+    <h2>How this works</h2>
+    <p>Pick an answer for each question. Questions marked <b>(select all that apply)</b> need more than one choice. Hit <b>Submit &amp; Grade</b> at any time to score what you've answered, see your per-domain breakdown, and reveal explanations.</p>
+    <p><b>Study mode</b> (toggle below) adds a <b>Check answer</b> button under each question so you can see the correct answer and explanation instantly after choosing, before moving on — ideal for learning. It's off in the timed 50-question exam.</p>
+    <p>Answer-option order is randomized every time you open or reset, so you can't memorize positions. This is original practice content modeled on the official AI-300 blueprint and the AI-300T00 course — not live exam material.</p>
+    <div class="controls">
+      <select id="filter">
+        <option value="exam50">★ Random 50-question exam (blueprint-weighted, fresh mix)</option>
+        <option value="all" selected>All sections (Set A + Set B + cases)</option>
+        <option value="A">Set A only (Q1–80 + cases)</option>
+        <option value="B">Set B only (Q81–164 + case)</option>
+        <option value="1">Domain 1 — MLOps infra</option>
+        <option value="2">Domain 2 — Model lifecycle</option>
+        <option value="3">Domain 3 — GenAIOps infra</option>
+        <option value="4">Domain 4 — QA &amp; observability</option>
+        <option value="5">Domain 5 — Optimization</option>
+        <option value="cs">Case studies only</option>
+      </select>
+      <button class="btn-ghost" id="shuffleQ">Shuffle question order: <span id="shuffleState">off</span></button>
+      <button class="btn-ghost" id="studyToggle">Study mode (instant feedback): <span id="studyState">off</span></button>
+    </div>
+  </div>
+
+  <div class="result" id="result"></div>
+  <div id="exam"></div>
+</main>
+
+<div class="footbar">
+  <div class="footwrap">
+    <div style="font-size:12px;color:var(--muted)" id="footnote">Answer questions, then grade.</div>
+    <div style="display:flex;gap:10px">
+      <button class="btn-ghost" id="pauseBtn">⏸ Pause</button>
+      <button class="btn-ghost" id="resetBtn">Reset</button>
+      <button class="btn-primary" id="gradeBtn">Submit &amp; Grade</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ===================== QUESTION BANK =====================
+   sec: 1..5 = domains, "cs" = case study
+   set: "A" or "B"
+   correct: array of indices into opts that are correct (in original, pre-shuffle order)
+   group: optional scenario heading text shown above the first question of a case
+*/
+const QUESTIONS = [
+{id:"Q1",set:"A",sec:1,text:"You are creating an Azure Machine Learning workspace with Bicep. The team needs the workspace to store secrets, model artifacts, and metrics securely. Which three Azure resources are automatically provisioned as dependent resources when you create a workspace? <i>(select all that apply)</i>",opts:["Azure Key Vault","Azure Storage account","Azure Application Insights","Azure SQL Database","Azure Cosmos DB"],correct:[0,1,2],exp:"A workspace auto-provisions an associated Storage account (data/artifacts), Key Vault (secrets), and Application Insights (telemetry); a Container Registry is added on first image build. SQL Database and Cosmos DB are not dependencies."},
+{id:"Q2",set:"A",sec:1,text:"Your team wants to connect an existing Azure Data Lake Storage Gen2 account so data scientists can reference data without embedding credentials in code. What should you create?",opts:["A compute instance","A datastore","A data asset of type uri_file","An environment"],correct:[1],exp:"A datastore stores the secure connection information to a storage service so data can be referenced without credentials in code. A data asset points to specific data."},
+{id:"Q3",set:"A",sec:1,text:"You must let data scientists create/run jobs and register models, but NOT create/delete the workspace or manage role assignments. Which built-in RBAC role fits?",opts:["Owner","Contributor","AzureML Data Scientist","Reader"],correct:[2],exp:"AzureML Data Scientist allows running experiments and creating assets but cannot create/delete the workspace or manage role assignments. Owner/Contributor are too broad; Reader too narrow."},
+{id:"Q4",set:"A",sec:1,text:"You want compute that scales to zero when idle and scales out for training jobs submitted via the SDK. Which compute target should you create?",opts:["Compute instance","Compute cluster (AmlCompute)","Attached AKS cluster","Serverless Spark compute"],correct:[1],exp:"A compute cluster (AmlCompute) scales between min (often 0) and max nodes on demand. A compute instance is single-node interactive."},
+{id:"Q5",set:"A",sec:1,text:"Which two statements about using Bicep to deploy an ML workspace are true? <i>(select all that apply)</i>",opts:["Bicep is a declarative IaC language that compiles to ARM JSON","Bicep deployments are imperative and run like a shell script","Bicep supports idempotent deployments that converge to the declared state","Bicep can only be deployed from the Azure portal"],correct:[0,2],exp:"Bicep is declarative (compiles to ARM JSON) and idempotent. It is not imperative and can run in any CI/CD pipeline."},
+{id:"Q6",set:"A",sec:1,text:"In a GitHub Actions workflow you want to authenticate to Azure WITHOUT storing a long-lived service principal secret. Which approach should you use?",opts:["Store the client secret in a GitHub repository variable","Use OpenID Connect (OIDC) workload identity federation with a federated credential","Hard-code a SAS token in the workflow YAML","Use the workspace primary key as a GitHub secret"],correct:[1],exp:"OIDC workload identity federation avoids storing long-lived secrets — GitHub presents a short-lived token trusted by a federated credential on the app registration."},
+{id:"Q7",set:"A",sec:1,text:"You need to restrict inbound network access to a workspace so it is reachable only from within a virtual network. Which feature should you configure?",opts:["A managed online endpoint with key auth","A managed virtual network / private endpoint for the workspace","A data drift monitor","A compute instance schedule"],correct:[1],exp:"A managed virtual network / private endpoint restricts workspace access to a VNet; the other options don't control workspace network ingress."},
+{id:"Q8",set:"A",sec:1,text:"A reusable training step (data prep) must be shared and versioned so multiple pipelines can consume it. Which asset should you create?",opts:["A component","A datastore","A compute cluster","An endpoint"],correct:[0],exp:"A component is a reusable, versioned, self-contained step (code + interface + environment) shared across pipelines."},
+{id:"Q9",set:"A",sec:1,text:"You want to share a registered model and environment from a central team to multiple project workspaces in different resource groups. What should you use?",opts:["A workspace datastore","A Machine Learning registry","A compute instance image","A managed identity"],correct:[1],exp:"A registry shares models, components, and environments across multiple workspaces/regions."},
+{id:"Q10",set:"A",sec:1,text:"You configure a managed identity for a compute cluster so jobs can read storage without keys. Which identity type lets you assign the SAME identity to multiple resources and manage its lifecycle independently?",opts:["System-assigned managed identity","User-assigned managed identity","Service principal with client secret","Shared access signature"],correct:[1],exp:"A user-assigned managed identity can be attached to multiple resources and managed independently. System-assigned is tied 1:1 to a single resource."},
+{id:"Q11",set:"A",sec:1,text:"Which asset defines the Python packages, conda dependencies, and base Docker image used to execute a training job?",opts:["A data asset","An environment","A compute target","A datastore"],correct:[1],exp:"An environment defines the Docker base image plus conda/pip dependencies used to run jobs."},
+{id:"Q12",set:"A",sec:1,text:"Your CI pipeline needs to create/update workspace resources from the command line in a GitHub Actions runner. Which tool combination is most appropriate?",opts:["az ml CLI (v2) extension plus Azure CLI authentication","The Machine Learning designer drag-and-drop UI","The Azure portal Cloud Shell only","kubectl against the workspace"],correct:[0],exp:"The az ml CLI v2 with Azure CLI auth is the standard tool for scripted workspace operations in CI/CD."},
+{id:"Q13",set:"A",sec:1,text:"You want changes pushed to a Git repo to automatically trigger a training run. Which GitHub Actions concept defines WHEN a workflow runs?",opts:["A job","A runner","A trigger / on: event (such as push or pull_request)","A secret"],correct:[2],exp:"The on: event (e.g., push, pull_request) defines when a workflow runs. Jobs/runners are execution; secrets are config."},
+{id:"Q14",set:"A",sec:1,text:"For source control of an ML project, which practice best supports collaboration and traceable change history?",opts:["Store notebooks only on each data scientist's compute instance","Use a Git repository with branches and pull requests, integrated with the workspace","Email zipped notebooks between team members","Keep one shared notebook edited live by everyone"],correct:[1],exp:"Git with branches and pull requests integrated with the workspace gives collaboration and traceability."},
+
+{id:"Q15",set:"A",sec:2,text:"You want to log parameters, metrics, and model artifacts during training so runs can be compared in the studio. Which framework is natively integrated for experiment tracking?",opts:["TensorBoard only","MLflow","Azure Monitor Logs","Application Insights"],correct:[1],exp:"MLflow is natively integrated in Azure ML for tracking params, metrics, and artifacts."},
+{id:"Q16",set:"A",sec:2,text:"You start an AutoML classification job and want it to stop spending compute once the metric stops improving. Which setting should you enable?",opts:["Featurization","Early termination / early stopping","Cross-validation folds = 1","Forecasting horizon"],correct:[1],exp:"Early termination/early stopping halts compute spend once the primary metric plateaus."},
+{id:"Q17",set:"A",sec:2,text:"You set the AutoML primary metric to accuracy for an imbalanced fraud dataset where positives are rare. Which is the best critique?",opts:["Accuracy is ideal because it always reflects minority-class performance","Accuracy can be misleading on imbalanced data; AUC-weighted or a precision/recall-based metric is usually better","AutoML does not support classification metrics","Accuracy and AUC are identical"],correct:[1],exp:"On imbalanced data accuracy is misleading (a model predicting the majority class scores high). Prefer AUC-weighted or precision/recall-based metrics."},
+{id:"Q18",set:"A",sec:2,text:"You need to automate hyperparameter tuning across a search space and terminate poorly performing runs early. Which capability should you use?",opts:["A sweep job","A batch endpoint","A data asset","A model registry"],correct:[0],exp:"A sweep job automates hyperparameter tuning over a search space with early-termination policies."},
+{id:"Q19",set:"A",sec:2,text:"In a sweep job you want the search to focus more attempts in promising regions based on prior results, rather than testing fixed combinations. Which sampling method should you choose?",opts:["Grid sampling","Random sampling","Bayesian sampling","No sampling"],correct:[2],exp:"Bayesian sampling uses results from prior runs to focus on promising regions. Grid/random don't adapt."},
+{id:"Q20",set:"A",sec:2,text:"You are training a large deep learning model that does not fit on a single GPU and want to split work across GPUs/nodes. Which approach does Azure ML support?",opts:["Distributed training (e.g., PyTorch DDP / distribution config with process_count_per_instance)","A compute instance with one CPU core","A batch endpoint","AutoML featurization"],correct:[0],exp:"Azure ML supports distributed training via a distribution config (e.g., PyTorch DDP) across multiple processes/nodes."},
+{id:"Q21",set:"A",sec:2,text:"You want a repeatable, multi-step workflow (prep → train → evaluate → register) where each step is independently versioned and the whole flow can be scheduled. What should you build?",opts:["A single monolithic notebook","A pipeline job composed of components","A managed online endpoint","A data drift monitor"],correct:[1],exp:"A pipeline job composed of components gives repeatable, independently versioned, schedulable multi-step workflows."},
+{id:"Q22",set:"A",sec:2,text:"After running 30 training jobs with different configs, you need to compare logged metrics to choose the best model. Where do you do this most efficiently?",opts:["By reading raw stdout logs for each job","In the studio Jobs view, comparing logged MLflow metrics across runs","By re-running every job","In the Azure billing portal"],correct:[1],exp:"The studio Jobs view lets you compare logged MLflow metrics across runs side by side."},
+{id:"Q23",set:"A",sec:2,text:"You registered a model with MLflow. Which advantage does the MLflow model format provide when deploying to a managed online endpoint?",opts:["It requires a custom scoring script and explicit environment for every deployment","It enables no-code deployment because packaging includes signature and dependencies","It disables autoscaling","It prevents versioning"],correct:[1],exp:"The MLflow format packages the signature and dependencies, enabling no-code deployment."},
+{id:"Q24",set:"A",sec:2,text:"You want to evaluate a trained classification model for fairness across sensitive groups and inspect feature importance before production. Which capability supports this?",opts:["The Responsible AI dashboard / scorecard","A datastore","A compute schedule","A SAS token"],correct:[0],exp:"The Responsible AI dashboard/scorecard provides fairness assessment and feature importance/explanations."},
+{id:"Q25",set:"A",sec:2,text:"You need to keep older model versions for audit but prevent them from being used in new deployments. What is the appropriate lifecycle action?",opts:["Delete the models permanently","Archive the model version","Move them to a different subscription","Rename the workspace"],correct:[1],exp:"Archiving retains the version for audit while keeping it out of new deployment candidate lists."},
+{id:"Q26",set:"A",sec:2,text:"A trained model must serve low-latency, synchronous predictions to a web app, one request at a time. Which deployment target is appropriate?",opts:["A managed batch endpoint","A managed online endpoint","A compute instance notebook","A datastore"],correct:[1],exp:"A managed online endpoint serves low-latency synchronous, per-request predictions."},
+{id:"Q27",set:"A",sec:2,text:"You need to score millions of records on a schedule with no requirement for immediate per-request responses. Which deployment target is appropriate?",opts:["A managed online endpoint","A batch endpoint","A real-time Kubernetes endpoint with autoscale to 1","A compute instance"],correct:[1],exp:"A batch endpoint handles large-volume scheduled scoring without per-request latency needs."},
+{id:"Q28",set:"A",sec:2,text:"You deploy a new model version to a managed online endpoint but want to send only 10% of live traffic to it while the previous version handles the rest. What should you configure?",opts:["Two separate endpoints with manual DNS switching","Traffic split across deployments under one endpoint","A batch endpoint","Data drift monitoring"],correct:[1],exp:"A traffic split across deployments under one endpoint enables canary validation (e.g., 10/90)."},
+{id:"Q29",set:"A",sec:2,text:"A newly rolled-out deployment shows elevated error rates. You need to quickly return all traffic to the previous known-good deployment. Which capability enables this safe rollback?",opts:["Re-training the model","Shifting endpoint traffic allocation back to the previous deployment (blue/green)","Deleting the workspace","Archiving the dataset"],correct:[1],exp:"Blue/green deployments let you instantly shift traffic back to the previous deployment for safe rollback."},
+{id:"Q30",set:"A",sec:2,text:"You call a managed online endpoint and receive HTTP 502/503 errors. Which is the most appropriate first troubleshooting step?",opts:["Delete the endpoint and recreate the workspace","Inspect the deployment/container logs (get-logs) and check the scoring script and health probe","Increase the exam timeout","Switch to a batch endpoint"],correct:[1],exp:"Inspect deployment/container logs (get-logs) and check the scoring script and health probe first."},
+{id:"Q31",set:"A",sec:2,text:"A model deployed three months ago is producing degraded predictions; incoming feature distributions have shifted away from the training data. What is this called?",opts:["Data drift","Overfitting at training time","Hyperparameter leakage","Quantization"],correct:[0],exp:"This is data drift — input feature distributions shifting away from training data over time."},
+{id:"Q32",set:"A",sec:2,text:"You want to be alerted automatically and trigger retraining when data drift exceeds a configured threshold. Which combination achieves this?",opts:["A data drift monitor with a threshold plus an alert/trigger that starts a retraining pipeline","A single static accuracy report run once","A compute instance schedule only","Manual weekly inspection only"],correct:[0],exp:"A data drift monitor with a threshold, wired to an alert/trigger that starts a retraining pipeline, automates the response."},
+{id:"Q33",set:"A",sec:2,text:"Which metric is most appropriate to monitor for a deployed regression model's prediction quality over time?",opts:["Accuracy","Precision","Root Mean Squared Error (RMSE) / MAE","F1 score"],correct:[2],exp:"RMSE/MAE are regression error metrics. Accuracy/precision/F1 are for classification."},
+{id:"Q34",set:"A",sec:2,text:"You package a model that depends on a feature retrieval specification so the same feature transformations apply at inference as during training. Why bundle the feature retrieval spec with the model?",opts:["It reduces the model file size only","It prevents training/serving skew by ensuring consistent feature computation","It disables logging","It is required to create a datastore"],correct:[1],exp:"Bundling the feature retrieval spec prevents training/serving skew by ensuring identical feature computation at inference."},
+{id:"Q35",set:"A",sec:2,text:"Two training jobs produced models A and B. You must decide which to promote. Which approach gives the most reliable comparison?",opts:["Compare on the metric logged on each job's own training split","Compare both on the same held-out evaluation dataset using the same primary metric","Pick the one that finished fastest","Pick the one with the larger file size"],correct:[1],exp:"Comparing both on the same held-out evaluation set with the same metric is the fair, reliable basis for promotion."},
+{id:"Q36",set:"A",sec:2,text:"You want to run experimentation and quick data exploration interactively before formalizing a training pipeline. Which resource is best suited?",opts:["A batch endpoint","A compute instance running notebooks","A managed online endpoint","A registry"],correct:[1],exp:"A compute instance running notebooks is best for interactive experimentation and exploration."},
+
+{id:"Q37",set:"A",sec:3,text:"In Microsoft Foundry, which statement best describes the relationship between a hub and a project?",opts:["A project contains multiple hubs, each with separate billing","A hub provides shared configuration, security, and connections; projects are workspaces created under it for specific apps","Hubs and projects are the same object with different names","Projects must be created before any hub exists"],correct:[1],exp:"A hub provides shared config/security/connections; projects are created under it for specific apps."},
+{id:"Q38",set:"A",sec:3,text:"You need Foundry to access Azure OpenAI and Azure AI Search without storing keys in application code. Which approach should you configure?",opts:["Embed API keys in the prompt","Use managed identity and RBAC with connections in Foundry","Store keys in a public GitHub repo","Disable authentication"],correct:[1],exp:"Use managed identity and RBAC with Foundry connections — no keys in code."},
+{id:"Q39",set:"A",sec:3,text:"Your organization requires traffic to Foundry and dependent resources stay off the public internet. Which two configurations support this? <i>(select all that apply)</i>",opts:["Private endpoints for the resources","A managed virtual network for the Foundry hub","Assigning the Owner role to all users","Publishing the endpoint with anonymous access"],correct:[0,1],exp:"Private endpoints plus a managed virtual network keep traffic off the public internet. The other two do the opposite."},
+{id:"Q40",set:"A",sec:3,text:"You want to deploy Foundry infrastructure repeatably across dev, test, and prod as code. Which tools are appropriate? <i>(select all that apply)</i>",opts:["Bicep templates","Azure CLI (az) deployment commands","Manually clicking through the portal each time","Editing resources directly in production only"],correct:[0,1],exp:"Bicep and Azure CLI are valid IaC approaches; manual portal clicks and prod-only edits are not."},
+{id:"Q41",set:"A",sec:3,text:"A workload needs to call an LLM with predictable, reserved capacity and consistent latency at high volume. What should you configure for the deployment?",opts:["Serverless API endpoint with default quota","Provisioned throughput units (PTUs)","A batch endpoint","A compute instance"],correct:[1],exp:"PTUs reserve dedicated capacity for predictable latency at high volume."},
+{id:"Q42",set:"A",sec:3,text:"You want to quickly consume a foundation model via a pay-per-token HTTP endpoint without managing compute. Which deployment option fits?",opts:["Managed compute with dedicated VMs","Serverless API endpoint","Provisioned throughput only","A Kubernetes cluster you manage"],correct:[1],exp:"A serverless API endpoint offers pay-per-token consumption without managing compute."},
+{id:"Q43",set:"A",sec:3,text:"A team needs to host an open-weight model that is not offered as a serverless API and requires dedicated GPU compute they control. Which option fits?",opts:["Serverless API endpoint","Managed compute deployment","A datastore","A prompt flow only"],correct:[1],exp:"Managed compute deployment provides dedicated GPU compute for models not offered as serverless APIs."},
+{id:"Q44",set:"A",sec:3,text:"You must choose a model for a cost-sensitive, high-volume summarization feature where a smaller, cheaper model meets quality bars. Which selection principle is best?",opts:["Always choose the largest, most capable model regardless of cost","Select the smallest/cheapest model that meets quality and latency requirements, validated by evaluation","Choose a model at random","Choose based only on context window size"],correct:[1],exp:"Pick the smallest/cheapest model meeting quality and latency requirements, validated by evaluation."},
+{id:"Q45",set:"A",sec:3,text:"Your team revises prompts frequently and needs to track changes, review them, and roll back. What is the recommended practice?",opts:["Store prompts only in a chat window","Version-control prompts in a Git repository with reviews","Keep prompts in a single shared document edited live","Hard-code prompts and never change them"],correct:[1],exp:"Version-control prompts in Git with reviews for traceability and rollback."},
+{id:"Q46",set:"A",sec:3,text:"You want to compare two different prompt designs against the same test inputs before shipping. What should you create?",opts:["Prompt variants and compare their performance","Two separate Foundry hubs","A new subscription","A batch endpoint"],correct:[0],exp:"Create prompt variants and compare their performance on the same inputs."},
+{id:"Q47",set:"A",sec:3,text:"You are deploying multiple model versions to production and need a strategy to introduce a new version safely. Which approach fits?",opts:["Replace the production version instantly with no validation","Progressive/staged rollout with the ability to roll back","Delete the old version before testing the new one","Deploy only to a developer laptop"],correct:[1],exp:"Progressive/staged rollout with rollback mirrors safe deployment practice."},
+{id:"Q48",set:"A",sec:3,text:"Which identity construct should back a Foundry connection to Azure AI Search so access can be granted via RBAC and rotated centrally?",opts:["A user-assigned or system-assigned managed identity","A shared password in the app config","An anonymous connection","A SAS token embedded in the prompt"],correct:[0],exp:"A managed identity lets access be RBAC-governed and centrally rotated."},
+{id:"Q49",set:"A",sec:3,text:"You need to grant a data scientist permission to use a Foundry project and run evaluations, but not manage the hub's networking or role assignments. What is the correct principle?",opts:["Grant Owner at the subscription scope","Apply least-privilege RBAC by assigning a scoped project-level role","Disable RBAC entirely","Share the admin's credentials"],correct:[1],exp:"Apply least-privilege RBAC with a scoped project-level role."},
+{id:"Q50",set:"A",sec:3,text:"You want IaC for Foundry validated in a pull request before being applied. Which GitHub Actions pattern supports this?",opts:["Run a what-if/validation step on pull_request, then deploy on merge to main","Deploy directly to production on every commit with no review","Only deploy manually from a laptop","Store the Bicep file but never run it"],correct:[0],exp:"Run validation/what-if on pull_request, then apply on merge to main."},
+{id:"Q51",set:"A",sec:3,text:"When deploying a foundation model, which factor is LEAST relevant to selecting between a serverless API endpoint and managed compute?",opts:["Whether the model is offered as a serverless API","Throughput, latency, and cost predictability requirements","Need for dedicated/isolated compute and custom configuration","The font used in the client application"],correct:[3],exp:"The client application's font is irrelevant to choosing serverless vs managed compute."},
+{id:"Q52",set:"A",sec:3,text:"Which statement about provisioned throughput units (PTUs) is correct?",opts:["PTUs reserve dedicated model-processing capacity for stable high-volume throughput","PTUs are billed strictly per token with no reserved capacity","PTUs are only available for batch endpoints","PTUs disable monitoring"],correct:[0],exp:"PTUs reserve dedicated model-processing capacity for stable high-volume throughput."},
+{id:"Q53",set:"A",sec:3,text:"You need prompt changes to flow through the same review/CI process as code. Which artifact should live in the repo alongside application code?",opts:["Prompt templates / prompt flow definitions","The model weights binary only","Customer PII","The Azure subscription key"],correct:[0],exp:"Prompt templates/prompt flow definitions belong in the repo. Never commit keys or PII."},
+{id:"Q54",set:"A",sec:3,text:"A Foundry project must connect to an existing Azure OpenAI deployment in another resource group. What is the correct mechanism?",opts:["Copy the model weights into the project","Create a connection in the project that references the Azure OpenAI resource","Recreate the model from scratch","Embed the endpoint key in every prompt"],correct:[1],exp:"Create a connection referencing the external Azure OpenAI resource (cross-RG is fine)."},
+
+{id:"Q55",set:"A",sec:4,text:"You must evaluate whether a RAG chatbot's answers are supported by the retrieved source documents and not fabricated. Which AI quality metric measures this?",opts:["Fluency","Groundedness","Latency","Throughput"],correct:[1],exp:"Groundedness measures whether answers are supported by the retrieved sources."},
+{id:"Q56",set:"A",sec:4,text:"Which set of metrics are the standard AI quality (generation quality) metrics in Foundry evaluations?",opts:["Groundedness, relevance, coherence, fluency","CPU, memory, disk, network","RMSE, MAE, R²","Precision, recall, accuracy, F1 only"],correct:[0],exp:"The standard AI quality metrics are groundedness, relevance, coherence, fluency."},
+{id:"Q57",set:"A",sec:4,text:"You want to detect whether the model produces hateful, violent, sexual, or self-harm content. Which evaluation category should you configure?",opts:["Performance metrics","Risk and safety evaluations (content harm)","Token cost metrics","Data drift"],correct:[1],exp:"Risk and safety evaluations detect harmful content categories."},
+{id:"Q58",set:"A",sec:4,text:"To run a comprehensive evaluation you need a curated set of inputs with expected/ground-truth references mapped to the app's inputs and outputs. What must you prepare?",opts:["A test dataset with data mapping","A managed online endpoint","A PTU reservation","A private endpoint"],correct:[0],exp:"Prepare a test dataset with data mapping to the app's inputs/outputs."},
+{id:"Q59",set:"A",sec:4,text:"You want evaluations to run automatically whenever a new prompt or model version is committed, gating release on quality thresholds. What should you set up?",opts:["A one-time manual evaluation","An automated evaluation workflow integrated into CI","A data drift monitor for tabular features","A compute cluster autoscaler"],correct:[1],exp:"An automated evaluation workflow integrated into CI gates releases on quality thresholds."},
+{id:"Q60",set:"A",sec:4,text:"Which metric specifically asks 'Is the answer pertinent to the user's question?'",opts:["Relevance","Fluency","Groundedness","Coherence"],correct:[0],exp:"Relevance measures whether the answer is pertinent to the question."},
+{id:"Q61",set:"A",sec:4,text:"You need to track end-to-end request behavior of a deployed GenAI app, including the steps a request takes through retrieval and generation, to debug a slow path. Which capability should you use?",opts:["Tracing","A datastore","A model registry","A sweep job"],correct:[0],exp:"Tracing captures the steps/spans of a request for debugging slow paths."},
+{id:"Q62",set:"A",sec:4,text:"Which three are key operational/performance metrics to monitor for a production GenAI endpoint? <i>(select all that apply)</i>",opts:["Latency","Throughput","Response time","Disk fragmentation of the client device"],correct:[0,1,2],exp:"Latency, throughput, and response time are key operational metrics. Client disk fragmentation is irrelevant."},
+{id:"Q63",set:"A",sec:4,text:"Your finance team needs to control GenAI spend. Which metric is the primary cost driver to track for LLM usage?",opts:["Token consumption","Number of Git branches","Number of datastores","Compute instance color"],correct:[0],exp:"Token consumption is the primary LLM cost driver."},
+{id:"Q64",set:"A",sec:4,text:"Foundry continuous monitoring reports rising groundedness failures over a week. What is the most appropriate response?",opts:["Ignore it; quality metrics don't change over time","Investigate retrieval quality and source data, and consider re-tuning RAG / prompts","Delete the evaluation dataset","Increase PTUs to fix groundedness"],correct:[1],exp:"Investigate retrieval quality/source data and re-tune RAG/prompts. PTUs don't fix groundedness."},
+{id:"Q65",set:"A",sec:4,text:"You want detailed logs and the ability to debug a production issue by replaying what the model received and returned. Which two capabilities support this? <i>(select all that apply)</i>",opts:["Detailed logging","Tracing of requests/spans","Disabling all telemetry","Removing the endpoint"],correct:[0,1],exp:"Detailed logging and tracing enable debugging/replay. Disabling telemetry or removing the endpoint do not."},
+{id:"Q66",set:"A",sec:4,text:"A custom business rule must be checked on every model response (e.g., the answer must include a disclaimer). How can you incorporate this into evaluation?",opts:["Use a custom evaluation metric/evaluator alongside built-in metrics","It is impossible to add custom checks","Only built-in metrics can ever be used","Change the model architecture"],correct:[0],exp:"Add a custom evaluator/metric alongside built-in metrics."},
+
+{id:"Q67",set:"A",sec:5,text:"Your RAG system returns too many irrelevant chunks, diluting answer quality. Which two tuning levers most directly improve retrieval precision? <i>(select all that apply)</i>",opts:["Adjusting the similarity threshold","Tuning chunk size and overlap","Increasing the model's temperature","Changing the client's screen resolution"],correct:[0,1],exp:"Tune the similarity threshold and chunk size/overlap to improve retrieval precision. Temperature and screen resolution don't affect retrieval."},
+{id:"Q68",set:"A",sec:5,text:"You combine keyword (BM25) search with vector similarity search and re-rank results to improve recall and precision. What is this approach called?",opts:["Hybrid search","Pure lexical search","Fine-tuning","Quantization"],correct:[0],exp:"Combining keyword + vector search with re-ranking is hybrid search."},
+{id:"Q69",set:"A",sec:5,text:"For a highly domain-specific corpus (legal terminology), generic embeddings retrieve poorly. Which action most directly improves retrieval relevance?",opts:["Select or fine-tune a domain-appropriate embedding model","Increase the chat model temperature","Reduce the number of PTUs","Remove the system prompt"],correct:[0],exp:"Select/fine-tune a domain-appropriate embedding model to improve domain retrieval."},
+{id:"Q70",set:"A",sec:5,text:"You want to objectively compare two retrieval configurations in production-like conditions. Which approach is most appropriate?",opts:["A/B testing with relevance metrics","Guessing based on a single query","Choosing the configuration with the prettier UI","Disabling evaluation"],correct:[0],exp:"A/B testing with relevance metrics gives an objective comparison."},
+{id:"Q71",set:"A",sec:5,text:"Very large chunks cause the model to receive too much irrelevant text per retrieval, while very small chunks lose context. What does this illustrate?",opts:["Chunk size is a tunable tradeoff affecting retrieval and answer quality","Chunk size has no effect on RAG","Smaller is always better","Larger is always better"],correct:[0],exp:"Chunk size is a tunable tradeoff — too large adds noise, too small loses context."},
+{id:"Q72",set:"A",sec:5,text:"When should you choose fine-tuning over RAG?",opts:["When you need the model to learn a consistent style/format or specialized task behavior that prompting/retrieval can't reliably achieve","Whenever you have any documents to reference at runtime","Only to reduce token cost on a single query","Never; RAG always replaces fine-tuning"],correct:[0],exp:"Fine-tune for consistent style/format/specialized behavior beyond what prompting/RAG can reliably deliver."},
+{id:"Q73",set:"A",sec:5,text:"You lack enough labeled examples to fine-tune a model for a niche task. Which technique can help create additional training examples?",opts:["Generate and curate synthetic data","Delete the existing data","Lower the temperature to 0","Increase chunk overlap"],correct:[0],exp:"Generate and curate synthetic data to supplement scarce labeled examples."},
+{id:"Q74",set:"A",sec:5,text:"After fine-tuning, the model performs well on training examples but poorly on new inputs. What is the most likely problem and remedy?",opts:["Overfitting; use more/diverse data, regularization, and validate on held-out data","Underfitting; remove all data","Data drift in the datastore","The embedding dimension is too small only"],correct:[0],exp:"This is overfitting; remedy with more/diverse data, regularization, and held-out validation."},
+{id:"Q75",set:"A",sec:5,text:"You must manage a fine-tuned model from development through production. Which practice aligns with GenAIOps lifecycle management?",opts:["Version the fine-tuned model, evaluate it, and promote through environments with rollback","Deploy directly to production with no evaluation","Keep only one copy and overwrite it each time","Never track which dataset produced it"],correct:[0],exp:"Version, evaluate, and promote the fine-tuned model through environments with rollback."},
+{id:"Q76",set:"A",sec:5,text:"Which two metrics best indicate whether a fine-tuned model is improving during training? <i>(select all that apply)</i>",opts:["Training loss","Validation loss/metric on held-out data","Number of GitHub stars","Client device battery level"],correct:[0,1],exp:"Training loss and validation loss/metric on held-out data indicate learning progress (watch the gap for overfitting)."},
+{id:"Q77",set:"A",sec:5,text:"A RAG answer is grounded but the model occasionally rephrases facts inaccurately. Lowering which generation parameter typically reduces creative deviation?",opts:["Temperature (and/or top-p)","Chunk overlap","Number of datastores","PTU count"],correct:[0],exp:"Lowering temperature (and/or top-p) reduces creative deviation/rephrasing."},
+{id:"Q78",set:"A",sec:5,text:"You want to improve recall so relevant documents aren't missed, while controlling precision with re-ranking. Which combined strategy is appropriate?",opts:["Hybrid search (semantic + keyword) followed by a re-ranking step","Reducing the index to a single document","Disabling vector search","Setting temperature to maximum"],correct:[0],exp:"Hybrid search followed by re-ranking balances recall and precision."},
+{id:"Q79",set:"A",sec:5,text:"Which statement about embeddings is correct in a RAG context?",opts:["Embeddings convert text into vectors so semantically similar text is close in vector space, enabling similarity search","Embeddings are the final chat responses returned to users","Embeddings are only used for billing","Embeddings replace the need for any retrieval index"],correct:[0],exp:"Embeddings map text to vectors so similar meanings are nearby, enabling semantic similarity search."},
+{id:"Q80",set:"A",sec:5,text:"You fine-tuned a model and now must decide whether it is production-ready. Which evidence best supports the decision?",opts:["Evaluation results on a representative held-out dataset meeting defined quality and safety thresholds","The model trained without errors","The fine-tuning job was cheap","The model file is small"],correct:[0],exp:"Production readiness is best supported by evaluation on a representative held-out dataset meeting quality and safety thresholds."},
+
+/* ---------- Case Study 1 (Set A) ---------- */
+{id:"CS1-1",set:"A",sec:"cs",group:"Contoso Manufacturing (MLOps). Predictive-maintenance models estimate the probability a machine fails within 30 days. A central platform team owns a workspace and wants reproducible infrastructure, automated retraining, and safe production deployment. Data scientists work in feature branches in GitHub. Models must be auditable. Production scoring runs nightly over millions of sensor records. A separate real-time API needs single-record predictions for the ops dashboard with sub-second latency.",text:"The platform team wants every workspace (dev, test, prod) provisioned identically and re-creatable on demand. What should they implement?",opts:["Manually create each workspace in the portal and document the clicks","Bicep templates deployed via GitHub Actions","Copy the dev workspace storage account into prod","A single shared workspace for all environments"],correct:[1],exp:"Bicep + GitHub Actions gives identical, re-creatable environments as code."},
+{id:"CS1-2",set:"A",sec:"cs",group:"Contoso Manufacturing (MLOps). Predictive-maintenance models estimate the probability a machine fails within 30 days. A central platform team owns a workspace and wants reproducible infrastructure, automated retraining, and safe production deployment. Data scientists work in feature branches in GitHub. Models must be auditable. Production scoring runs nightly over millions of sensor records. A separate real-time API needs single-record predictions for the ops dashboard with sub-second latency.",text:"For the nightly scoring over millions of records, which deployment is correct?",opts:["Managed online endpoint","Batch endpoint","Compute instance notebook run manually","A registry"],correct:[1],exp:"A batch endpoint suits large-volume scheduled scoring."},
+{id:"CS1-3",set:"A",sec:"cs",group:"Contoso Manufacturing (MLOps). Predictive-maintenance models estimate the probability a machine fails within 30 days. A central platform team owns a workspace and wants reproducible infrastructure, automated retraining, and safe production deployment. Data scientists work in feature branches in GitHub. Models must be auditable. Production scoring runs nightly over millions of sensor records. A separate real-time API needs single-record predictions for the ops dashboard with sub-second latency.",text:"For the operations dashboard's sub-second single-record predictions, which deployment is correct?",opts:["Batch endpoint","Managed online endpoint","A pipeline job","A datastore"],correct:[1],exp:"A managed online endpoint serves low-latency, per-request predictions."},
+{id:"CS1-4",set:"A",sec:"cs",group:"Contoso Manufacturing (MLOps). Predictive-maintenance models estimate the probability a machine fails within 30 days. A central platform team owns a workspace and wants reproducible infrastructure, automated retraining, and safe production deployment. Data scientists work in feature branches in GitHub. Models must be auditable. Production scoring runs nightly over millions of sensor records. A separate real-time API needs single-record predictions for the ops dashboard with sub-second latency.",text:"Data scientists must compare many training runs and reproduce the winning run later. Which practice should the team standardize?",opts:["MLflow experiment tracking with logged params, metrics, and artifacts","Saving screenshots of accuracy numbers","Emailing model files","Deleting runs after training"],correct:[0],exp:"MLflow tracking enables comparison and reproducibility."},
+{id:"CS1-5",set:"A",sec:"cs",group:"Contoso Manufacturing (MLOps). Predictive-maintenance models estimate the probability a machine fails within 30 days. A central platform team owns a workspace and wants reproducible infrastructure, automated retraining, and safe production deployment. Data scientists work in feature branches in GitHub. Models must be auditable. Production scoring runs nightly over millions of sensor records. A separate real-time API needs single-record predictions for the ops dashboard with sub-second latency.",text:"Sensor feature distributions change seasonally. The team must detect this and trigger retraining automatically. What should they configure?",opts:["A data drift monitor with thresholds wired to a retraining pipeline trigger","A manual quarterly review only","A larger compute instance","A second subscription"],correct:[0],exp:"A drift monitor with thresholds wired to a retraining trigger automates the response."},
+{id:"CS1-6",set:"A",sec:"cs",group:"Contoso Manufacturing (MLOps). Predictive-maintenance models estimate the probability a machine fails within 30 days. A central platform team owns a workspace and wants reproducible infrastructure, automated retraining, and safe production deployment. Data scientists work in feature branches in GitHub. Models must be auditable. Production scoring runs nightly over millions of sensor records. A separate real-time API needs single-record predictions for the ops dashboard with sub-second latency.",text:"A new model version must be validated on live traffic before full cutover on the real-time endpoint. Which strategy fits?",opts:["Blue/green deployment with traffic split, enabling rollback","Delete the old deployment first","Deploy only to a laptop","Skip validation"],correct:[0],exp:"Blue/green with traffic split lets you validate on live traffic and roll back."},
+{id:"CS1-7",set:"A",sec:"cs",group:"Contoso Manufacturing (MLOps). Predictive-maintenance models estimate the probability a machine fails within 30 days. A central platform team owns a workspace and wants reproducible infrastructure, automated retraining, and safe production deployment. Data scientists work in feature branches in GitHub. Models must be auditable. Production scoring runs nightly over millions of sensor records. A separate real-time API needs single-record predictions for the ops dashboard with sub-second latency.",text:"Before promoting a model, the team must check fairness across machine types and review feature importance. Which tool should they use?",opts:["Responsible AI dashboard","A datastore","A SAS token","A sweep job"],correct:[0],exp:"The Responsible AI dashboard provides fairness assessment and feature importance."},
+
+/* ---------- Case Study 2 (Set A) ---------- */
+{id:"CS2-1",set:"A",sec:"cs",group:"Fabrikam Support Copilot (GenAIOps). A customer-support copilot in Foundry uses RAG over a product-documentation corpus in Azure AI Search and an Azure OpenAI chat model. Requirements: no keys in code, private networking, prompt changes reviewed like code, automated quality and safety evaluation gating releases, production observability for latency and token cost, and ongoing RAG accuracy improvements. Peak traffic requires predictable latency.",text:"Fabrikam must connect Foundry to Azure OpenAI and Azure AI Search without keys in application code. What should they configure?",opts:["Managed identity with RBAC and Foundry connections","Hard-coded keys in the prompt","Anonymous access","SAS tokens in the client"],correct:[0],exp:"Managed identity + RBAC + Foundry connections; no keys in code."},
+{id:"CS2-2",set:"A",sec:"cs",group:"Fabrikam Support Copilot (GenAIOps). A customer-support copilot in Foundry uses RAG over a product-documentation corpus in Azure AI Search and an Azure OpenAI chat model. Requirements: no keys in code, private networking, prompt changes reviewed like code, automated quality and safety evaluation gating releases, production observability for latency and token cost, and ongoing RAG accuracy improvements. Peak traffic requires predictable latency.",text:"Peak traffic requires predictable latency and reserved capacity for the chat model. What should they deploy?",opts:["Pay-as-you-go serverless with default quota","Provisioned throughput units (PTUs)","A batch endpoint","A compute instance"],correct:[1],exp:"PTUs provide reserved capacity and predictable latency at peak."},
+{id:"CS2-3",set:"A",sec:"cs",group:"Fabrikam Support Copilot (GenAIOps). A customer-support copilot in Foundry uses RAG over a product-documentation corpus in Azure AI Search and an Azure OpenAI chat model. Requirements: no keys in code, private networking, prompt changes reviewed like code, automated quality and safety evaluation gating releases, production observability for latency and token cost, and ongoing RAG accuracy improvements. Peak traffic requires predictable latency.",text:"Prompt changes must be reviewed and reversible. What should Fabrikam do?",opts:["Version-control prompts in Git with pull-request review","Edit prompts live in production chat","Store prompts in screenshots","Never change prompts"],correct:[0],exp:"Version-control prompts in Git with PR review."},
+{id:"CS2-4",set:"A",sec:"cs",group:"Fabrikam Support Copilot (GenAIOps). A customer-support copilot in Foundry uses RAG over a product-documentation corpus in Azure AI Search and an Azure OpenAI chat model. Requirements: no keys in code, private networking, prompt changes reviewed like code, automated quality and safety evaluation gating releases, production observability for latency and token cost, and ongoing RAG accuracy improvements. Peak traffic requires predictable latency.",text:"Releases must be gated on answer quality and safety. Which evaluation setup is correct?",opts:["Automated evaluation workflow measuring groundedness/relevance/coherence/fluency plus risk-and-safety checks, integrated into CI","One manual review at launch only","Only measure latency","Only measure token cost"],correct:[0],exp:"Automated quality + risk/safety evaluation integrated into CI gates releases."},
+{id:"CS2-5",set:"A",sec:"cs",group:"Fabrikam Support Copilot (GenAIOps). A customer-support copilot in Foundry uses RAG over a product-documentation corpus in Azure AI Search and an Azure OpenAI chat model. Requirements: no keys in code, private networking, prompt changes reviewed like code, automated quality and safety evaluation gating releases, production observability for latency and token cost, and ongoing RAG accuracy improvements. Peak traffic requires predictable latency.",text:"The copilot sometimes invents details not in the docs. Which metric detects this, and which RAG levers help fix it?",opts:["Groundedness; tune retrieval (similarity threshold, chunk size, hybrid search, better embeddings) and lower temperature","Fluency; increase temperature","Throughput; add PTUs","Accuracy; delete the index"],correct:[0],exp:"Groundedness detects fabrication; fix via retrieval tuning and lower temperature."},
+{id:"CS2-6",set:"A",sec:"cs",group:"Fabrikam Support Copilot (GenAIOps). A customer-support copilot in Foundry uses RAG over a product-documentation corpus in Azure AI Search and an Azure OpenAI chat model. Requirements: no keys in code, private networking, prompt changes reviewed like code, automated quality and safety evaluation gating releases, production observability for latency and token cost, and ongoing RAG accuracy improvements. Peak traffic requires predictable latency.",text:"Finance wants to track and control spend. Which metric is primary, and where is it observed?",opts:["Token consumption, via Foundry observability/monitoring","Number of Git commits, via the portal","Disk usage on user laptops","Count of prompt variants"],correct:[0],exp:"Token consumption via Foundry observability is the primary cost metric."},
+{id:"CS2-7",set:"A",sec:"cs",group:"Fabrikam Support Copilot (GenAIOps). A customer-support copilot in Foundry uses RAG over a product-documentation corpus in Azure AI Search and an Azure OpenAI chat model. Requirements: no keys in code, private networking, prompt changes reviewed like code, automated quality and safety evaluation gating releases, production observability for latency and token cost, and ongoing RAG accuracy improvements. Peak traffic requires predictable latency.",text:"All traffic to Foundry and dependent resources must avoid the public internet. Which two configurations apply? <i>(select all that apply)</i>",opts:["Private endpoints","Managed virtual network for the hub","Anonymous public endpoint","Owner role for everyone"],correct:[0,1],exp:"Private endpoints + managed VNet isolate from the public internet."},
+{id:"CS2-8",set:"A",sec:"cs",group:"Fabrikam Support Copilot (GenAIOps). A customer-support copilot in Foundry uses RAG over a product-documentation corpus in Azure AI Search and an Azure OpenAI chat model. Requirements: no keys in code, private networking, prompt changes reviewed like code, automated quality and safety evaluation gating releases, production observability for latency and token cost, and ongoing RAG accuracy improvements. Peak traffic requires predictable latency.",text:"To improve answer relevance on Fabrikam's domain-specific corpus, which action is most effective?",opts:["Select/fine-tune a domain-appropriate embedding model and use hybrid search with re-ranking","Increase temperature to maximum","Reduce the corpus to one document","Remove the system prompt"],correct:[0],exp:"Domain embedding model + hybrid search with re-ranking improves relevance."},
+
+/* ===================== SET B ===================== */
+{id:"Q81",set:"B",sec:1,text:"You author a Bicep template that creates a workspace plus dependent resources. You run the same template again with no changes. What happens?",opts:["A second duplicate workspace is created","The deployment is idempotent and converges to the same declared state with no duplicates","The deployment fails because Bicep cannot run twice","All existing resources are deleted and recreated"],correct:[1],exp:"Bicep is idempotent; re-running converges to the declared state without duplicates."},
+{id:"Q82",set:"B",sec:1,text:"A GitHub Actions workflow must run az ml commands using OIDC. Which Azure object must you configure with a federated credential that trusts the GitHub repo?",opts:["A storage account","A Microsoft Entra ID app registration / service principal","A compute cluster","A managed online endpoint"],correct:[1],exp:"Configure a federated credential on a Microsoft Entra app registration / service principal that trusts the repo."},
+{id:"Q83",set:"B",sec:1,text:"You want data scientists to read data through a datastore, but the credentials must never be visible to them. Which approach best meets this?",opts:["Account key stored and shown in the notebook","Credential-based datastore using a Key Vault-backed secret, or identity-based access via managed identity","Anonymous public access","Hard-coded SAS token in each script"],correct:[1],exp:"Use a credential-based datastore backed by a Key Vault secret, or identity-based access via managed identity — credentials stay hidden."},
+{id:"Q84",set:"B",sec:1,text:"Which asset is 'a packaged, versioned, reusable training step that exposes typed inputs and outputs'?",opts:["Data asset","Environment","Component","Endpoint"],correct:[2],exp:"A component is the packaged, versioned, reusable step with typed inputs/outputs."},
+{id:"Q85",set:"B",sec:1,text:"Which statement correctly distinguishes a compute instance from a compute cluster?",opts:["A compute instance is single-node, personal, interactive; a compute cluster is multi-node and scales for jobs","They are identical","A compute instance auto-scales to many nodes; a cluster is single-node","A cluster is only for notebooks"],correct:[0],exp:"Compute instance = single-node interactive; compute cluster = multi-node scalable for jobs."},
+{id:"Q86",set:"B",sec:1,text:"You define a curated training environment and want it reusable and versioned across jobs. What should you do?",opts:["Register the environment (or put it in a registry) and reference it by name:version","Paste dependencies into each script","Install packages manually on every node each run","Use a different environment for every run intentionally"],correct:[0],exp:"Register the environment and reference it by name:version for reuse and reproducibility."},
+{id:"Q87",set:"B",sec:1,text:"Your security team requires the workspace have no public endpoint and be reachable only via the corporate network. Which design meets this? <i>(select all that apply)</i>",opts:["Configure a private endpoint for the workspace","Enable the managed virtual network and disable public network access","Assign every user the Owner role","Expose the workspace with a public IP and key auth"],correct:[0,1],exp:"Private endpoint + managed VNet with public access disabled removes the public endpoint."},
+{id:"Q88",set:"B",sec:1,text:"Which data asset type should you choose when you need to reference a schema/parsing definition over one or more files (e.g., for AutoML or pandas loading)?",opts:["uri_file","uri_folder","mltable","secret"],correct:[2],exp:"mltable carries a schema/parsing definition over one or more files."},
+{id:"Q89",set:"B",sec:1,text:"A team wants the SAME workload identity used by both a compute cluster and an online endpoint, centrally managed. Which identity should they create?",opts:["System-assigned managed identity on each resource","A single user-assigned managed identity assigned to both","A personal user account","A SAS token"],correct:[1],exp:"A single user-assigned managed identity can be shared and centrally managed across resources."},
+{id:"Q90",set:"B",sec:1,text:"Which Azure CLI extension provides v2 commands (az ml job create, az ml model create, az ml online-endpoint create)?",opts:["az aks","az ml","az storage","az network"],correct:[1],exp:"The az ml extension provides v2 CLI commands."},
+{id:"Q91",set:"B",sec:1,text:"You want a pull request to validate infra changes without applying them, applying only on merge to main. Which two practices support this? <i>(select all that apply)</i>",opts:["Run az deployment ... what-if (or Bicep build/validate) on pull_request","Gate the apply step behind a merge to main (and optionally an environment approval)","Apply directly to production on every commit","Disable the workflow entirely"],correct:[0,1],exp:"Validate/what-if on pull_request, then gate apply behind merge to main."},
+{id:"Q92",set:"B",sec:1,text:"What is the primary purpose of the workspace's associated Azure Key Vault?",opts:["To store training data","To securely hold connection strings, keys, and credentials referenced by the workspace","To serve model predictions","To run notebooks"],correct:[1],exp:"Key Vault securely holds secrets/keys/connection strings referenced by the workspace."},
+{id:"Q93",set:"B",sec:1,text:"You must restrict who can deploy to production endpoints while letting all data scientists train models. Which approach aligns with least privilege?",opts:["Give everyone Owner","Use scoped RBAC: training-capable role for data scientists; deployment permissions for a smaller group","Disable RBAC","Share one admin account"],correct:[1],exp:"Scoped RBAC — broad training rights for data scientists, deployment rights for a smaller group."},
+{id:"Q94",set:"B",sec:1,text:"Application Insights is provisioned with the workspace primarily to support which capability?",opts:["Storing model files","Telemetry, logging, and monitoring of jobs and deployed endpoints","Hyperparameter sampling","Datastore authentication"],correct:[1],exp:"Application Insights supports telemetry/logging/monitoring of jobs and endpoints."},
+
+{id:"Q95",set:"B",sec:2,text:"You call mlflow.autolog() before fitting a scikit-learn model. What does this do?",opts:["Automatically logs parameters, metrics, and the model without manual log calls","Deletes prior runs","Deploys the model to an endpoint","Creates a datastore"],correct:[0],exp:"mlflow.autolog() auto-logs params, metrics, and the model without manual calls."},
+{id:"Q96",set:"B",sec:2,text:"You submit a training script to a compute cluster using a command job. Which elements must the command job specify? <i>(select all that apply)</i>",opts:["The command to run (e.g., python train.py --reg 0.1)","The environment","The compute target","The exam pass score"],correct:[0,1,2],exp:"A command job specifies the command, environment, and compute. (Pass score is irrelevant.)"},
+{id:"Q97",set:"B",sec:2,text:"In AutoML for classification you enable featurization. Which task does it perform automatically?",opts:["Handling missing values, encoding categoricals, and scaling/normalizing features","Deploying the model","Creating a private endpoint","Writing the scoring script"],correct:[0],exp:"Featurization handles missing values, encodes categoricals, and scales features automatically."},
+{id:"Q98",set:"B",sec:2,text:"You set a timeout and max trials, and enable early termination on an AutoML job. What is the combined effect?",opts:["It bounds cost/time by limiting how long and how many models are tried and abandoning unpromising runs","It guarantees the global optimal model","It disables metric logging","It forces grid search"],correct:[0],exp:"These settings bound cost/time and abandon unpromising runs; they don't guarantee a global optimum."},
+{id:"Q99",set:"B",sec:2,text:"In a sweep job you choose the Bandit early-termination policy with a slack factor. What does it do?",opts:["Terminates runs whose primary metric falls outside a slack range of the best run so far","Doubles the number of trials","Disables sampling","Increases the learning rate automatically"],correct:[0],exp:"The Bandit policy terminates runs whose metric falls outside a slack factor/amount of the best run."},
+{id:"Q100",set:"B",sec:2,text:"Which sweep early-termination policy stops runs that fall below the median of running averages of all runs?",opts:["Median stopping policy","Bandit policy","Truncation selection policy","No policy"],correct:[0],exp:"The Median stopping policy stops runs below the median of running averages."},
+{id:"Q101",set:"B",sec:2,text:"You want a sweep to try learning_rate from a uniform range and batch_size from a fixed choice set, exploring randomly across a large space. Which sampling fits best?",opts:["Random sampling","Grid sampling","Bayesian sampling without a search space","No sampling"],correct:[0],exp:"Random sampling explores a large mixed space (uniform + choice) efficiently."},
+{id:"Q102",set:"B",sec:2,text:"A pipeline has prep, train, evaluate components. train must receive the output of prep. How is this wired?",opts:["By passing the prep component's output as the input to the train component","By emailing the file between steps","By hard-coding a local path","Steps cannot share data"],correct:[0],exp:"Wire the prep output as the train input within the pipeline."},
+{id:"Q103",set:"B",sec:2,text:"You register a model produced by an MLflow run. Which two artifacts enable reproducibility and no-code deployment? <i>(select all that apply)</i>",opts:["The model signature (input/output schema)","The conda/pip dependencies","The trainer's laptop wallpaper","The Azure billing invoice"],correct:[0,1],exp:"MLflow captures the signature and dependencies, enabling reproducibility and no-code deployment."},
+{id:"Q104",set:"B",sec:2,text:"After comparing 20 sweep trials, you select the best trial by the primary metric. What is the next lifecycle step to make it usable in production?",opts:["Register the model (and version it)","Delete the workspace","Disable MLflow","Convert it to a datastore"],correct:[0],exp:"Register (and version) the model to make the best trial usable in production."},
+{id:"Q105",set:"B",sec:2,text:"You deploy an MLflow model to a managed online endpoint. Why might you NOT need to author a custom scoring script?",opts:["Because the MLflow flavor provides the inference logic and dependencies automatically","Because online endpoints never run code","Because scoring scripts are illegal","Because the model is not used at inference"],correct:[0],exp:"The MLflow flavor provides inference logic + dependencies, so no custom scoring script is needed."},
+{id:"Q106",set:"B",sec:2,text:"For a custom (non-MLflow) model deployment to an online endpoint, which two files do you typically provide? <i>(select all that apply)</i>",opts:["A scoring script with init() and run() functions","An environment specifying dependencies","A billing report","A drift threshold"],correct:[0,1],exp:"Custom deployments need a scoring script (init/run) and an environment."},
+{id:"Q107",set:"B",sec:2,text:"In the scoring script, what is the purpose of the init() function?",opts:["It runs once when the deployment starts, typically to load the model into memory","It runs on every request to load the model fresh each time","It deletes the endpoint","It sends alerts"],correct:[0],exp:"init() runs once at startup, typically to load the model."},
+{id:"Q108",set:"B",sec:2,text:"In the scoring script, what is the purpose of the run(data) function?",opts:["It executes for each scoring request, performs prediction, and returns the result","It runs only at deployment startup","It provisions compute","It configures RBAC"],correct:[0],exp:"run(data) executes per request to predict and return results."},
+{id:"Q109",set:"B",sec:2,text:"You deploy a batch endpoint to score a large dataset. Which compute is appropriate and how is output typically handled?",opts:["A compute cluster that scales out; results written to a datastore/output location","A single compute instance returning each row synchronously","A serverless API endpoint per record","A Key Vault"],correct:[0],exp:"Batch endpoints use a scaling compute cluster and write results to a datastore/output location."},
+{id:"Q110",set:"B",sec:2,text:"Two deployments (blue and green) sit under one online endpoint. You set blue=100, green=0, then gradually shift to green. What is this called?",opts:["Blue/green (progressive) deployment","Data drift","Featurization","Bayesian sampling"],correct:[0],exp:"Gradually shifting traffic from blue to green is blue/green (progressive) deployment."},
+{id:"Q111",set:"B",sec:2,text:"An online endpoint returns errors after deployment; you run get-logs. Which two common root causes do logs help find? <i>(select all that apply)</i>",opts:["A scoring script exception (e.g., model path wrong)","Missing dependency in the environment","The pass mark of the exam","The color of the dashboard"],correct:[0,1],exp:"Logs reveal scoring-script exceptions and missing environment dependencies."},
+{id:"Q112",set:"B",sec:2,text:"To compute data drift, which comparison does a drift monitor make?",opts:["Statistical comparison of feature distributions between baseline and current data","Comparison of two source-code branches","Comparison of token counts","Comparison of RBAC roles"],correct:[0],exp:"Drift monitors do a statistical comparison of feature distributions (baseline vs current)."},
+{id:"Q113",set:"B",sec:2,text:"A production classification model degrades and drift exceeds threshold. Which automated response best fits MLOps?",opts:["Trigger a retraining pipeline and/or fire an alert to the team","Delete all logs","Increase the model file size","Switch to a batch endpoint with no retraining"],correct:[0],exp:"Trigger retraining and/or alert when drift/perf thresholds are exceeded."},
+{id:"Q114",set:"B",sec:2,text:"Which statement about model registration and versioning is correct?",opts:["Registering a model with an existing name creates a new version, preserving prior versions","Registering overwrites and deletes prior versions","Models cannot be versioned","Versions are random and unordered"],correct:[0],exp:"Registering with an existing name creates a new version and preserves prior versions."},
+{id:"Q115",set:"B",sec:2,text:"You evaluate a model with the Responsible AI dashboard. Which two insights does it provide? <i>(select all that apply)</i>",opts:["Fairness/disparity across cohorts","Feature importance / explanations","The Azure region price list","The Git commit message"],correct:[0,1],exp:"The RAI dashboard shows fairness/disparity and feature importance/explanations."},
+{id:"Q116",set:"B",sec:2,text:"You want to keep a model version for audit/compliance but stop it appearing as a candidate for new deployments. What do you do?",opts:["Archive the version","Delete the workspace","Rename the storage account","Remove MLflow"],correct:[0],exp:"Archive the version to retain it for audit while excluding it from new deployments."},
+{id:"Q117",set:"B",sec:2,text:"Which primary metric is appropriate for an AutoML regression task?",opts:["Normalized RMSE or R²","Accuracy","AUC weighted","Precision"],correct:[0],exp:"For regression use Normalized RMSE or R². The others are classification metrics."},
+{id:"Q118",set:"B",sec:2,text:"You need distributed training across 4 GPUs on 2 nodes for a deep learning model. Which configuration concept applies?",opts:["Set a distribution (e.g., PyTorch) with process_count_per_instance and instance_count on a GPU cluster","Use a single CPU compute instance","Use a batch endpoint","Use AutoML featurization only"],correct:[0],exp:"Use a distribution config (e.g., PyTorch) with process_count_per_instance and instance_count on a GPU cluster."},
+{id:"Q119",set:"B",sec:2,text:"You want every training run's metrics centrally comparable in the studio. Which logging approach is recommended?",opts:["Log metrics with MLflow (mlflow.log_metric) or autolog","Print to stdout only","Save metrics to the local laptop","Don't log metrics"],correct:[0],exp:"Log with MLflow so metrics are centrally comparable."},
+{id:"Q120",set:"B",sec:2,text:"A model is promoted from a sweep job's best trial. To guard against picking a model that only looks good on its own split, what should you do before promotion?",opts:["Evaluate the candidate on a common held-out test set","Promote whichever trial finished first","Promote the largest model","Skip evaluation"],correct:[0],exp:"Evaluate the candidate on a common held-out test set before promotion."},
+
+{id:"Q121",set:"B",sec:3,text:"In Foundry you create a project to build a support agent. Which statement about projects and the hub is correct?",opts:["The project inherits shared connections, security, and compute config from its hub","Each project needs its own separate hub with no sharing","Projects cannot use connections","Hubs are created automatically inside projects"],correct:[0],exp:"A project inherits shared connections/security/compute config from its hub."},
+{id:"Q122",set:"B",sec:3,text:"Your agent uses GPT-4.1 connected to built-in tools such as code interpreter and file search. What does connecting tools to the model enable?",opts:["The model can call the tool to perform actions/retrieve data and use the returned values in its response","The model is replaced by the tool","Tools disable the model","Tools only change billing"],correct:[0],exp:"Connected tools let the model call them and use returned values in its response (agentic behavior)."},
+{id:"Q123",set:"B",sec:3,text:"You must connect a Foundry project to Azure AI Search and Azure OpenAI without storing keys in code. What should you configure?",opts:["Foundry connections backed by managed identity + RBAC","Keys pasted into the system prompt","Anonymous access","A SAS token in the agent name"],correct:[0],exp:"Use Foundry connections backed by managed identity + RBAC."},
+{id:"Q124",set:"B",sec:3,text:"A high-volume production chat workload requires predictable latency and reserved capacity. Which deployment option should you choose?",opts:["Provisioned throughput units (PTUs)","Pay-as-you-go serverless with shared quota","A batch endpoint","A compute instance notebook"],correct:[0],exp:"PTUs give reserved capacity and predictable latency at high volume."},
+{id:"Q125",set:"B",sec:3,text:"A team wants to consume a model on a pay-per-token basis with no infrastructure to manage. Which option fits?",opts:["Serverless API endpoint","Managed compute with dedicated VMs","PTUs only","A datastore"],correct:[0],exp:"A serverless API endpoint is pay-per-token with no infra to manage."},
+{id:"Q126",set:"B",sec:3,text:"You hit a quota limitation error when deploying a model in Foundry. What are two appropriate remedies? <i>(select all that apply)</i>",opts:["Request a quota increase for the model/region","Choose a different region or a smaller deployment within available quota","Delete the Foundry hub permanently","Disable evaluation"],correct:[0,1],exp:"Request a quota increase or use a different region/smaller deployment within quota."},
+{id:"Q127",set:"B",sec:3,text:"You want to manage prompts like code, with branches, reviews, and rollback. Where should prompts live?",opts:["In a Git repository, versioned alongside the app","Only in the chat playground","In screenshots","In an email thread"],correct:[0],exp:"Keep prompts in a Git repository versioned with the app."},
+{id:"Q128",set:"B",sec:3,text:"You create a prompt variant on a new Git branch and want to know if it outperforms the baseline. What should you do?",opts:["Evaluate both variants on the same test data and compare metrics","Merge it without testing","Delete the baseline","Pick the longer prompt"],correct:[0],exp:"Evaluate both variants on the same test data and compare metrics."},
+{id:"Q129",set:"B",sec:3,text:"Which two are valid IaC tools for deploying Foundry infrastructure repeatably? <i>(select all that apply)</i>",opts:["Bicep","Azure CLI","Manual portal clicks","Editing prod by hand"],correct:[0,1],exp:"Bicep and Azure CLI are valid IaC tools."},
+{id:"Q130",set:"B",sec:3,text:"You must select a foundation model for a task. Which factors should drive the choice? <i>(select all that apply)</i>",opts:["Required quality on the task (validated by evaluation)","Latency and cost constraints","Context window and modality needs","The developer's favorite color"],correct:[0,1,2],exp:"Drive model choice by quality, latency/cost, and context window/modality — not favorite color."},
+{id:"Q131",set:"B",sec:3,text:"You deploy an open-weight model that is not available as a serverless API and needs dedicated GPUs you control. Which option fits?",opts:["Managed compute deployment","Serverless API endpoint","A prompt variant","A datastore"],correct:[0],exp:"Managed compute deployment gives dedicated GPUs for non-serverless models."},
+{id:"Q132",set:"B",sec:3,text:"Which statement about RBAC and managed identity in Foundry is correct?",opts:["Managed identity lets resources authenticate without secrets; RBAC grants least-privilege access to those identities","Managed identity requires a password in code","RBAC disables managed identity","They cannot be used together"],correct:[0],exp:"Managed identity authenticates without secrets; RBAC grants least privilege to those identities."},
+{id:"Q133",set:"B",sec:3,text:"You want network isolation so Foundry and its dependencies aren't reachable from the public internet. Which two configurations apply? <i>(select all that apply)</i>",opts:["Managed virtual network for the hub","Private endpoints on dependent resources","Public anonymous endpoints","Owner role for all users"],correct:[0,1],exp:"Managed VNet + private endpoints isolate from the public internet."},
+{id:"Q134",set:"B",sec:3,text:"A new model version must be introduced to production gradually with the ability to revert. Which strategy applies?",opts:["Progressive rollout with rollback capability","Instant full replacement, no test","Delete old version first","Deploy only to a laptop"],correct:[0],exp:"Progressive rollout with rollback introduces a new version safely."},
+{id:"Q135",set:"B",sec:3,text:"You connect a Foundry project to an Azure OpenAI deployment in a different resource group. What mechanism do you use?",opts:["A connection referencing the external Azure OpenAI resource","Copy the weights into the project","Recreate the model","Put the key in the prompt"],correct:[0],exp:"Use a connection referencing the external Azure OpenAI resource (cross-RG is fine)."},
+{id:"Q136",set:"B",sec:3,text:"Which artifact, stored in source control, ensures prompt changes flow through CI review like code?",opts:["Prompt template / prompt flow definition files","Model weights binary","The subscription key","Customer PII"],correct:[0],exp:"Store prompt template / prompt flow definition files in source control."},
+
+{id:"Q137",set:"B",sec:4,text:"A RAG agent answers from connected documents. Which metric measures how well the answer is supported by those documents?",opts:["Groundedness","Fluency","Latency","Token count"],correct:[0],exp:"Groundedness measures support by source documents."},
+{id:"Q138",set:"B",sec:4,text:"You configure an evaluation with four built-in AI quality metrics. Which set is standard?",opts:["Groundedness, relevance, coherence, fluency","Precision, recall, RMSE, MAE","CPU, RAM, disk, net","Cost, latency, drift, RBAC"],correct:[0],exp:"Standard AI quality metrics: groundedness, relevance, coherence, fluency."},
+{id:"Q139",set:"B",sec:4,text:"You must run manual evaluation today and automated evaluation later. Which statement contrasts them correctly?",opts:["Manual evaluation has a human review responses; automated uses evaluators/metrics to score at scale, suitable for CI","They are identical","Manual evaluation runs in CI; automated needs a human for each item","Automated evaluation cannot use built-in metrics"],correct:[0],exp:"Manual = human review; automated = evaluators/metrics at scale, CI-suitable."},
+{id:"Q140",set:"B",sec:4,text:"You want to detect harmful content (hate, sexual, violence, self-harm) in model outputs. Which evaluation category applies?",opts:["Risk and safety evaluations","AI quality metrics only","Token cost metrics","Data drift"],correct:[0],exp:"Risk and safety evaluations detect harmful content categories."},
+{id:"Q141",set:"B",sec:4,text:"To evaluate at scale you provide a dataset of inputs and expected references, mapped to the agent's input/output fields. What is this called?",opts:["Test dataset with data mapping","A datastore","A PTU plan","A private endpoint"],correct:[0],exp:"A test dataset with data mapping maps inputs/references to the agent's fields."},
+{id:"Q142",set:"B",sec:4,text:"You want a record of each request's steps (retrieval, tool calls, generation) to debug a slow or wrong answer. Which capability provides this?",opts:["Tracing (spans for each step)","A model registry","A sweep job","A datastore"],correct:[0],exp:"Tracing records spans for each request step."},
+{id:"Q143",set:"B",sec:4,text:"Which three operational metrics should you monitor for a production GenAI endpoint? <i>(select all that apply)</i>",opts:["Latency","Throughput","Response time","Laptop battery level"],correct:[0,1,2],exp:"Operational metrics: latency, throughput, response time."},
+{id:"Q144",set:"B",sec:4,text:"Finance needs to forecast GenAI spend. Which metric is the main cost driver?",opts:["Token consumption (input + output tokens)","Number of branches","Number of datastores","Number of evaluators"],correct:[0],exp:"Token consumption (input + output) is the main cost driver."},
+{id:"Q145",set:"B",sec:4,text:"Continuous monitoring shows groundedness declining over two weeks. What is the best first action?",opts:["Investigate retrieval quality and source documents; re-tune RAG/prompts","Add PTUs","Delete the test dataset","Ignore it"],correct:[0],exp:"Investigate retrieval/source data and re-tune RAG/prompts."},
+{id:"Q146",set:"B",sec:4,text:"You add a business rule check (each answer must include a safety disclaimer) to your evaluation suite. How?",opts:["Implement a custom evaluator alongside built-in metrics","It cannot be done","Change the model architecture","Remove all built-in metrics"],correct:[0],exp:"Implement a custom evaluator alongside built-in metrics."},
+{id:"Q147",set:"B",sec:4,text:"During batch testing of an agent you log traces for each interaction. What benefit does this provide?",opts:["You can inspect inputs, intermediate steps, and outputs to diagnose failures","It increases token cost only with no benefit","It deletes the agent","It disables evaluation"],correct:[0],exp:"Traces let you inspect inputs, intermediate steps, and outputs to diagnose failures."},
+{id:"Q148",set:"B",sec:4,text:"Which metric answers 'Is the response logically consistent and well-structured?'",opts:["Coherence","Groundedness","Latency","Throughput"],correct:[0],exp:"Coherence = logical consistency/structure."},
+{id:"Q149",set:"B",sec:4,text:"You set quality thresholds (e.g., groundedness ≥ 4) that a release must meet. Where is this best enforced?",opts:["In an automated evaluation step in the CI pipeline that gates deployment","By manual memory","In the billing portal","In a datastore"],correct:[0],exp:"Enforce thresholds in an automated evaluation step that gates deployment in CI."},
+{id:"Q150",set:"B",sec:4,text:"Which statement about token cost monitoring is correct?",opts:["Both prompt (input) and completion (output) tokens contribute to cost and should be tracked","Only output tokens cost anything","Tokens are free","Token count is unrelated to cost"],correct:[0],exp:"Both input and output tokens contribute to cost and should be tracked."},
+
+{id:"Q151",set:"B",sec:5,text:"Your RAG app retrieves too many loosely related chunks. Which two levers most directly improve precision? <i>(select all that apply)</i>",opts:["Raise the similarity threshold","Reduce/optimize chunk size and overlap","Increase temperature","Change client screen resolution"],correct:[0,1],exp:"Raise the similarity threshold and optimize chunk size/overlap to improve precision."},
+{id:"Q152",set:"B",sec:5,text:"You combine vector search with keyword (BM25) and then re-rank. What is this called and what does re-ranking add?",opts:["Hybrid search; re-ranking reorders candidates by relevance to improve top-k precision","Fine-tuning; re-ranking trains the model","Quantization; re-ranking compresses vectors","Drift; re-ranking detects distribution change"],correct:[0],exp:"Hybrid search; re-ranking reorders candidates by relevance to improve top-k precision."},
+{id:"Q153",set:"B",sec:5,text:"Generic embeddings retrieve poorly on a specialized medical corpus. Which action most directly helps?",opts:["Select or fine-tune a domain-appropriate embedding model","Increase temperature","Remove the retrieval index","Reduce PTUs"],correct:[0],exp:"Select/fine-tune a domain-appropriate embedding model."},
+{id:"Q154",set:"B",sec:5,text:"You must objectively choose between two retrieval configs. Which method gives statistically meaningful comparison?",opts:["A/B testing with relevance metrics over many queries","One query gut-check","Picking the prettier config","Disabling evaluation"],correct:[0],exp:"A/B testing with relevance metrics over many queries gives a meaningful comparison."},
+{id:"Q155",set:"B",sec:5,text:"When is fine-tuning preferable to RAG?",opts:["When you need consistent style/format/specialized behavior that prompting and retrieval can't reliably produce","Whenever any documents exist","To save cost on one query","Never"],correct:[0],exp:"Fine-tune when you need consistent style/format/specialized behavior beyond prompting/RAG."},
+{id:"Q156",set:"B",sec:5,text:"You lack labeled examples for a niche generation task. Which technique helps create training data?",opts:["Generate and curate synthetic data (then review for quality)","Delete data","Set temperature to 0 permanently","Increase chunk overlap"],correct:[0],exp:"Generate and curate synthetic data (then review)."},
+{id:"Q157",set:"B",sec:5,text:"A fine-tuned model scores high on training data but poorly on new inputs. What is happening and what's the fix?",opts:["Overfitting; add more/diverse data, regularize, and validate on held-out data","Underfitting; remove all data","Drift in a datastore","The index is too large"],correct:[0],exp:"Overfitting; fix with more/diverse data, regularization, held-out validation."},
+{id:"Q158",set:"B",sec:5,text:"Which two signals indicate a fine-tuning run is progressing well? <i>(select all that apply)</i>",opts:["Decreasing training loss","Decreasing/stable validation loss on held-out data","More GitHub stars","Higher client battery"],correct:[0,1],exp:"Training loss decreasing and validation loss stable/decreasing indicate good progress."},
+{id:"Q159",set:"B",sec:5,text:"A grounded RAG answer still occasionally rephrases facts loosely. Which generation parameter should you lower?",opts:["Temperature (and/or top-p)","Chunk overlap","PTU count","Number of datastores"],correct:[0],exp:"Lower temperature/top-p to reduce loose rephrasing."},
+{id:"Q160",set:"B",sec:5,text:"To avoid missing relevant documents (improve recall) while keeping precision via reordering, which strategy fits?",opts:["Hybrid search plus a re-ranking step","Index only one document","Disable vector search","Max temperature"],correct:[0],exp:"Hybrid search + re-ranking balances recall and precision."},
+{id:"Q161",set:"B",sec:5,text:"Which statement about embeddings in RAG is correct?",opts:["Embeddings map text to vectors so similar meanings are nearby, enabling semantic similarity search","Embeddings are the final user-facing answers","Embeddings only affect billing","Embeddings remove the need for an index"],correct:[0],exp:"Embeddings map text to vectors for semantic similarity search."},
+{id:"Q162",set:"B",sec:5,text:"You manage a fine-tuned model from dev to prod. Which practice aligns with GenAIOps?",opts:["Version it, evaluate against held-out data and safety thresholds, promote through environments with rollback","Deploy to prod with no evaluation","Overwrite one copy each time","Don't track its training data"],correct:[0],exp:"Version, evaluate, promote with rollback through environments."},
+{id:"Q163",set:"B",sec:5,text:"Chunk size is set very large. What is the likely retrieval-quality effect?",opts:["Each retrieved chunk carries more irrelevant text, diluting the signal the model sees","Retrieval always improves","No effect at all","It removes the need for embeddings"],correct:[0],exp:"Very large chunks dilute signal with irrelevant text."},
+{id:"Q164",set:"B",sec:5,text:"You decide a fine-tuned model is production-ready. Which evidence best supports that decision?",opts:["Evaluation on a representative held-out dataset meeting defined quality and safety thresholds","The job finished without errors","It was cheap to train","The file is small"],correct:[0],exp:"Evaluation on a representative held-out dataset meeting quality/safety thresholds supports readiness."},
+
+/* ---------- Case Study 3 (Set B) ---------- */
+{id:"CS3-1",set:"B",sec:"cs",group:"Adventure Works End-to-End AIOps. The team operationalizes both a traditional ML model (demand forecasting) and a generative AI agent (a travel-planning assistant in Foundry). Requirements: all infra as code in Bicep via GitHub Actions with OIDC (no stored secrets); experiment tracking and reproducibility; AutoML to find a baseline forecaster then a sweep job to tune it; a training pipeline of reusable components; a real-time online endpoint for the forecaster with blue/green rollout; data drift monitoring with automated retraining; the agent uses RAG over a knowledge base with tools, PTUs at peak, prompt variants version-controlled, automated quality+safety evaluation gating releases, and observability for latency and token cost.",text:"The team must deploy identical infra to dev/test/prod with no stored service-principal secret in GitHub. Which combination meets this?",opts:["Bicep + GitHub Actions authenticating via OIDC workload identity federation","Manual portal clicks documented in a wiki","A client secret stored in a repo variable","Copy resources between environments by hand"],correct:[0],exp:"Bicep + GitHub Actions with OIDC federation; no stored secret."},
+{id:"CS3-2",set:"B",sec:"cs",group:"Adventure Works End-to-End AIOps. The team operationalizes both a traditional ML model (demand forecasting) and a generative AI agent (a travel-planning assistant in Foundry). Requirements: all infra as code in Bicep via GitHub Actions with OIDC (no stored secrets); experiment tracking and reproducibility; AutoML to find a baseline forecaster then a sweep job to tune it; a training pipeline of reusable components; a real-time online endpoint for the forecaster with blue/green rollout; data drift monitoring with automated retraining; the agent uses RAG over a knowledge base with tools, PTUs at peak, prompt variants version-controlled, automated quality+safety evaluation gating releases, and observability for latency and token cost.",text:"For the demand forecaster, the team first wants a strong baseline with minimal manual modeling, then fine-grained tuning. Which sequence fits?",opts:["AutoML to find a baseline model, then a sweep job to tune hyperparameters","A sweep job only, never AutoML","A manual single training run only","Skip training; deploy a random model"],correct:[0],exp:"AutoML baseline, then sweep job to tune."},
+{id:"CS3-3",set:"B",sec:"cs",group:"Adventure Works End-to-End AIOps. The team operationalizes both a traditional ML model (demand forecasting) and a generative AI agent (a travel-planning assistant in Foundry). Requirements: all infra as code in Bicep via GitHub Actions with OIDC (no stored secrets); experiment tracking and reproducibility; AutoML to find a baseline forecaster then a sweep job to tune it; a training pipeline of reusable components; a real-time online endpoint for the forecaster with blue/green rollout; data drift monitoring with automated retraining; the agent uses RAG over a knowledge base with tools, PTUs at peak, prompt variants version-controlled, automated quality+safety evaluation gating releases, and observability for latency and token cost.",text:"The training workflow (prep → train → evaluate → register) must be reusable and independently versioned. What should they build?",opts:["A pipeline job composed of registered components","One giant notebook cell","A batch endpoint","A datastore"],correct:[0],exp:"A pipeline job composed of registered components."},
+{id:"CS3-4",set:"B",sec:"cs",group:"Adventure Works End-to-End AIOps. The team operationalizes both a traditional ML model (demand forecasting) and a generative AI agent (a travel-planning assistant in Foundry). Requirements: all infra as code in Bicep via GitHub Actions with OIDC (no stored secrets); experiment tracking and reproducibility; AutoML to find a baseline forecaster then a sweep job to tune it; a training pipeline of reusable components; a real-time online endpoint for the forecaster with blue/green rollout; data drift monitoring with automated retraining; the agent uses RAG over a knowledge base with tools, PTUs at peak, prompt variants version-controlled, automated quality+safety evaluation gating releases, and observability for latency and token cost.",text:"The forecaster serves real-time predictions; a new version must be validated on a slice of live traffic before full cutover. Which approach?",opts:["Blue/green deployment with traffic split and rollback on one online endpoint","Two endpoints with manual DNS edits","A batch endpoint","Delete the old deployment first"],correct:[0],exp:"Blue/green traffic split with rollback on one online endpoint."},
+{id:"CS3-5",set:"B",sec:"cs",group:"Adventure Works End-to-End AIOps. The team operationalizes both a traditional ML model (demand forecasting) and a generative AI agent (a travel-planning assistant in Foundry). Requirements: all infra as code in Bicep via GitHub Actions with OIDC (no stored secrets); experiment tracking and reproducibility; AutoML to find a baseline forecaster then a sweep job to tune it; a training pipeline of reusable components; a real-time online endpoint for the forecaster with blue/green rollout; data drift monitoring with automated retraining; the agent uses RAG over a knowledge base with tools, PTUs at peak, prompt variants version-controlled, automated quality+safety evaluation gating releases, and observability for latency and token cost.",text:"Forecast inputs shift seasonally; the team needs automatic detection and retraining. What should they configure?",opts:["A data drift monitor with thresholds wired to a retraining pipeline trigger/alert","A manual annual review","A larger compute instance","A second subscription"],correct:[0],exp:"Drift monitor + threshold wired to a retraining trigger/alert."},
+{id:"CS3-6",set:"B",sec:"cs",group:"Adventure Works End-to-End AIOps. The team operationalizes both a traditional ML model (demand forecasting) and a generative AI agent (a travel-planning assistant in Foundry). Requirements: all infra as code in Bicep via GitHub Actions with OIDC (no stored secrets); experiment tracking and reproducibility; AutoML to find a baseline forecaster then a sweep job to tune it; a training pipeline of reusable components; a real-time online endpoint for the forecaster with blue/green rollout; data drift monitoring with automated retraining; the agent uses RAG over a knowledge base with tools, PTUs at peak, prompt variants version-controlled, automated quality+safety evaluation gating releases, and observability for latency and token cost.",text:"The travel agent must keep predictable latency during peak booking season. Which model deployment option fits?",opts:["Provisioned throughput units (PTUs)","Pay-as-you-go shared quota only","A batch endpoint","A compute instance"],correct:[0],exp:"PTUs for predictable peak latency."},
+{id:"CS3-7",set:"B",sec:"cs",group:"Adventure Works End-to-End AIOps. The team operationalizes both a traditional ML model (demand forecasting) and a generative AI agent (a travel-planning assistant in Foundry). Requirements: all infra as code in Bicep via GitHub Actions with OIDC (no stored secrets); experiment tracking and reproducibility; AutoML to find a baseline forecaster then a sweep job to tune it; a training pipeline of reusable components; a real-time online endpoint for the forecaster with blue/green rollout; data drift monitoring with automated retraining; the agent uses RAG over a knowledge base with tools, PTUs at peak, prompt variants version-controlled, automated quality+safety evaluation gating releases, and observability for latency and token cost.",text:"The agent sometimes invents attractions not in the knowledge base. Which metric flags this and which fixes apply? <i>(select all that apply)</i>",opts:["Groundedness flags it","Tune retrieval (threshold, chunk size, hybrid search, better embeddings) and lower temperature","Increase temperature to be more creative","Delete the knowledge base"],correct:[0,1],exp:"Groundedness flags fabrication; fix via retrieval tuning and lower temperature."},
+{id:"CS3-8",set:"B",sec:"cs",group:"Adventure Works End-to-End AIOps. The team operationalizes both a traditional ML model (demand forecasting) and a generative AI agent (a travel-planning assistant in Foundry). Requirements: all infra as code in Bicep via GitHub Actions with OIDC (no stored secrets); experiment tracking and reproducibility; AutoML to find a baseline forecaster then a sweep job to tune it; a training pipeline of reusable components; a real-time online endpoint for the forecaster with blue/green rollout; data drift monitoring with automated retraining; the agent uses RAG over a knowledge base with tools, PTUs at peak, prompt variants version-controlled, automated quality+safety evaluation gating releases, and observability for latency and token cost.",text:"Releases of the agent must be blocked unless quality and safety thresholds are met. What should the team implement?",opts:["An automated evaluation workflow (groundedness/relevance/coherence/fluency + risk-and-safety) gating the CI/CD release","A single manual check at launch","Only latency monitoring","No evaluation"],correct:[0],exp:"Automated quality + risk/safety evaluation gating the release."},
+{id:"CS3-9",set:"B",sec:"cs",group:"Adventure Works End-to-End AIOps. The team operationalizes both a traditional ML model (demand forecasting) and a generative AI agent (a travel-planning assistant in Foundry). Requirements: all infra as code in Bicep via GitHub Actions with OIDC (no stored secrets); experiment tracking and reproducibility; AutoML to find a baseline forecaster then a sweep job to tune it; a training pipeline of reusable components; a real-time online endpoint for the forecaster with blue/green rollout; data drift monitoring with automated retraining; the agent uses RAG over a knowledge base with tools, PTUs at peak, prompt variants version-controlled, automated quality+safety evaluation gating releases, and observability for latency and token cost.",text:"Prompt changes for the agent must be reviewed and reversible, with variants compared before shipping. What should they do?",opts:["Version prompts in Git, create variants on branches, evaluate and compare before merge","Edit prompts live in production","Store prompts in screenshots","Never change prompts"],correct:[0],exp:"Version prompts in Git, branch variants, evaluate before merge."},
+{id:"CS3-10",set:"B",sec:"cs",group:"Adventure Works End-to-End AIOps. The team operationalizes both a traditional ML model (demand forecasting) and a generative AI agent (a travel-planning assistant in Foundry). Requirements: all infra as code in Bicep via GitHub Actions with OIDC (no stored secrets); experiment tracking and reproducibility; AutoML to find a baseline forecaster then a sweep job to tune it; a training pipeline of reusable components; a real-time online endpoint for the forecaster with blue/green rollout; data drift monitoring with automated retraining; the agent uses RAG over a knowledge base with tools, PTUs at peak, prompt variants version-controlled, automated quality+safety evaluation gating releases, and observability for latency and token cost.",text:"Finance needs ongoing visibility into agent spend and performance. Which two should observability track? <i>(select all that apply)</i>",opts:["Token consumption (input + output)","Latency / response time","Number of Git branches","Datastore color"],correct:[0,1],exp:"Token consumption + latency/response time."},
+];
+</script>
+<script>
+const SEC_NAMES = {
+  "1":"Domain 1 — Design & implement an MLOps infrastructure (15–20%)",
+  "2":"Domain 2 — Implement ML model lifecycle & operations (25–30%)",
+  "3":"Domain 3 — Design & implement a GenAIOps infrastructure (20–25%)",
+  "4":"Domain 4 — Generative AI quality assurance & observability (10–15%)",
+  "5":"Domain 5 — Optimize generative AI systems & model performance (10–15%)",
+  "cs":"Case studies (mixed domains)"
+};
+const PASS_PCT = 70;     // 700/1000
+const TARGET_PCT = 80;   // study target
+
+let view = [];           // currently displayed questions (post filter/shuffle)
+let graded = false;
+let timerInt = null, startTs = null;
+let elapsedSec = 0;      // accumulated seconds (survives pause)
+let paused = false;      // timer paused state
+
+const $ = s => document.querySelector(s);
+const examEl = $("#exam");
+
+function shuffle(a){ for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
+
+// pick n random items from arr (no repeats)
+function sample(arr,n){ return shuffle(arr.slice()).slice(0,Math.min(n,arr.length)); }
+
+// Blueprint-weighted target counts for a 50-question exam (mirrors official AI-300 weightings)
+const EXAM50_PLAN = { "1":9, "2":14, "3":11, "4":6, "5":6, "cs":4 }; // = 50
+
+let examMode = false; // true when in random 50-question mode
+let studyMode = false; // true when instant per-question feedback is on
+
+function buildExam50(){
+  examMode = true;
+  let picked = [];
+  Object.keys(EXAM50_PLAN).forEach(sec=>{
+    const pool = QUESTIONS.filter(q=>String(q.sec)===sec);
+    picked = picked.concat(sample(pool, EXAM50_PLAN[sec]));
+  });
+  // top up to 50 if any pool was short
+  if(picked.length < 50){
+    const ids = new Set(picked.map(q=>q.id));
+    const rest = QUESTIONS.filter(q=>!ids.has(q.id));
+    picked = picked.concat(sample(rest, 50 - picked.length));
+  }
+  shuffle(picked); // exam mode always randomizes question order
+  return picked.slice(0,50);
+}
+
+function buildView(){
+  const f = $("#filter").value;
+  examMode = false;
+  let list;
+  if(f==="exam50"){
+    list = buildExam50();
+  } else {
+    list = QUESTIONS.filter(q=>{
+      if(f==="all") return true;
+      if(f==="A"||f==="B") return q.set===f;
+      if(f==="cs") return q.sec==="cs";
+      return String(q.sec)===f;
+    });
+    if($("#shuffleQ").dataset.on==="1") shuffle(list);
+  }
+  // attach a per-render shuffled option order
+  view = list.map(q=>{
+    const order = shuffle(q.opts.map((_,i)=>i));
+    return {...q, _order:order};
+  });
+}
+
+function render(){
+  buildView();
+  graded = false;
+  examEl.innerHTML = "";
+  $("#result").classList.remove("show");
+  let lastSec = null, lastGroup = null;
+  if(examMode){
+    const banner=document.createElement("div");
+    banner.className="sectionhdr";
+    banner.innerHTML="★ Random 50-question exam — blueprint-weighted mix, fresh each load. 75-minute countdown. Domains are interleaved like the real exam.";
+    examEl.appendChild(banner);
+  }
+  view.forEach((q,idx)=>{
+    if(!examMode && q.sec!==lastSec){
+      const h=document.createElement("div");
+      h.className="sectionhdr";
+      h.textContent=SEC_NAMES[q.sec]||("Section "+q.sec);
+      examEl.appendChild(h); lastSec=q.sec; lastGroup=null;
+    }
+    if(q.group && q.group!==lastGroup){
+      const s=document.createElement("div");
+      s.className="scenario";
+      s.innerHTML="<b>Scenario.</b> "+q.group;
+      examEl.appendChild(s); lastGroup=q.group;
+    }
+    const multi = q.correct.length>1;
+    const card=document.createElement("div");
+    card.className="q"; card.id="q"+idx; card.dataset.idx=idx;
+    let html = '<div class="qhead">'
+      + '<span class="qnum">'+(examMode?("#"+(idx+1)):q.id)+'</span>'
+      + '<span class="qtext">'+q.text+'</span>'
+      + '<span class="qtype">'+(multi?"select all":"single")+'</span></div>';
+    html += '<div class="opts">';
+    q._order.forEach((origIdx,pos)=>{
+      const ltr = String.fromCharCode(65+pos);
+      const inputType = multi?"checkbox":"radio";
+      html += '<label class="opt" data-orig="'+origIdx+'">'
+        + '<input type="'+inputType+'" name="q'+idx+'" value="'+origIdx+'">'
+        + '<span class="ltr">'+ltr+'.</span><span>'+q.opts[origIdx]+'</span></label>';
+    });
+    html += '</div>';
+    html += '<div class="verdict" id="v'+idx+'"></div>';
+    html += '<div class="exp" id="e'+idx+'"><b>Explanation.</b> '+q.exp+'</div>';
+    if(studyMode && !examMode){
+      html += '<button class="checkbtn" id="c'+idx+'" data-idx="'+idx+'">Check answer</button>';
+    }
+    card.innerHTML=html;
+    examEl.appendChild(card);
+  });
+  examEl.addEventListener("change", onAnswerChange);
+  if(studyMode && !examMode) examEl.addEventListener("click", onCheckClick);
+  $("#s-total").textContent = view.length;
+  const tl=document.querySelector('.stats .stat:last-child .l');
+  if(tl) tl.textContent = examMode ? "Time left" : "Time";
+  updateProgress();
+  startTimer();
+}
+
+function onAnswerChange(){ if(!graded) updateProgress(); }
+
+// Reveal correct answer + explanation for ONE question (used by study mode).
+// Returns true if the user's answer was correct.
+function revealQuestion(idx){
+  const q=view[idx];
+  const card=$("#q"+idx);
+  const chosen=[...examEl.querySelectorAll('input[name="q'+idx+'"]:checked')].map(i=>+i.value);
+  const correct=q.correct.slice().sort();
+  const isRight = chosen.length===correct.length && chosen.slice().sort().every((v,i)=>v===correct[i]);
+  card.querySelectorAll("label.opt").forEach(lab=>{
+    const o=+lab.dataset.orig;
+    lab.classList.remove("opt-correct","opt-chosen-wrong");
+    if(q.correct.includes(o)) lab.classList.add("opt-correct");
+    if(chosen.includes(o) && !q.correct.includes(o)) lab.classList.add("opt-chosen-wrong");
+  });
+  card.classList.remove("correct","wrong");
+  card.classList.add(isRight?"correct":"wrong");
+  const v=$("#v"+idx);
+  v.textContent = isRight ? "✓ Correct" : (chosen.length? "✗ Incorrect" : "✗ Select an answer first");
+  v.className="verdict show "+(isRight?"ok":"no");
+  $("#e"+idx).classList.add("show");
+  return isRight;
+}
+
+function onCheckClick(ev){
+  const btn=ev.target.closest(".checkbtn");
+  if(!btn) return;
+  const idx=+btn.dataset.idx;
+  const answered = examEl.querySelector('input[name="q'+idx+'"]:checked');
+  revealQuestion(idx);
+  if(answered){
+    btn.disabled=true;
+    btn.textContent="Answer shown";
+  }
+}
+
+function answeredCount(){
+  let n=0;
+  view.forEach((q,idx)=>{
+    if(examEl.querySelector('input[name="q'+idx+'"]:checked')) n++;
+  });
+  return n;
+}
+function updateProgress(){
+  const a=answeredCount(), t=view.length;
+  $("#s-answered").textContent=a;
+  $("#progbar").style.width=(t?Math.round(a/t*100):0)+"%";
+  $("#footnote").textContent = a+" of "+t+" answered.";
+}
+
+const EXAM50_SECONDS = 75*60; // 75-minute countdown for random exam mode
+
+function renderTime(){
+  let show, danger=false;
+  if(examMode){
+    const left=EXAM50_SECONDS-elapsedSec;
+    if(left<=0){ clearInterval(timerInt); $("#s-timer").textContent="00:00"; if(!graded) grade(); return; }
+    danger = left<=300; // last 5 min
+    show=left;
+  } else {
+    show=elapsedSec;
+  }
+  const m=String(Math.floor(show/60)).padStart(2,"0");
+  const ss=String(show%60).padStart(2,"0");
+  const t=$("#s-timer");
+  t.textContent=(paused?"⏸ ":"")+m+":"+ss;
+  t.style.color = danger ? "var(--bad)" : (paused ? "var(--warn)" : "");
+}
+
+function startTimer(){
+  clearInterval(timerInt);
+  elapsedSec=0; paused=false;
+  const pb=$("#pauseBtn"); if(pb){ pb.disabled=false; pb.style.opacity=""; }
+  setPauseBtn();
+  startTs=Date.now();
+  renderTime();
+  timerInt=setInterval(()=>{
+    if(paused) return;
+    elapsedSec++;
+    renderTime();
+  },1000);
+}
+
+function setPauseBtn(){
+  const b=$("#pauseBtn");
+  if(!b) return;
+  b.textContent = paused ? "▶ Resume" : "⏸ Pause";
+}
+
+function togglePause(){
+  if(graded) return;
+  paused=!paused;
+  setPauseBtn();
+  renderTime();
+  $("#footnote").textContent = paused
+    ? "Timer paused — take your break. Click Resume to continue."
+    : (answeredCount()+" of "+view.length+" answered.");
+}
+
+function grade(){
+  graded=true; clearInterval(timerInt); paused=false;
+  const pb=$("#pauseBtn"); if(pb){ pb.disabled=true; pb.style.opacity=".5"; }
+  const perSec={}; let totalCorrect=0;
+  view.forEach((q,idx)=>{
+    const card=$("#q"+idx);
+    const chosen=[...examEl.querySelectorAll('input[name="q'+idx+'"]:checked')].map(i=>+i.value);
+    const correct=q.correct.slice().sort();
+    const isRight = chosen.length===correct.length && chosen.slice().sort().every((v,i)=>v===correct[i]);
+    // mark options
+    card.querySelectorAll("label.opt").forEach(lab=>{
+      const o=+lab.dataset.orig;
+      if(q.correct.includes(o)) lab.classList.add("opt-correct");
+      if(chosen.includes(o) && !q.correct.includes(o)) lab.classList.add("opt-chosen-wrong");
+      lab.querySelector("input").disabled=true;
+    });
+    card.classList.add(isRight?"correct":"wrong");
+    const v=$("#v"+idx);
+    v.textContent = isRight ? "✓ Correct" : (chosen.length? "✗ Incorrect" : "✗ Not answered");
+    v.className="verdict show "+(isRight?"ok":"no");
+    $("#e"+idx).classList.add("show");
+    const sec=q.sec;
+    perSec[sec]=perSec[sec]||{c:0,t:0};
+    perSec[sec].t++; if(isRight){perSec[sec].c++; totalCorrect++;}
+  });
+  showResult(totalCorrect, view.length, perSec);
+}
+
+function showResult(correct,total,perSec){
+  const pct = total? Math.round(correct/total*100):0;
+  const passed = pct>=PASS_PCT;
+  const r=$("#result"); r.classList.add("show");
+  let cards="";
+  Object.keys(perSec).sort().forEach(s=>{
+    const d=perSec[s], p=Math.round(d.c/d.t*100);
+    const ok=p>=TARGET_PCT;
+    cards += '<div class="dcard"><div class="dt">'+(SEC_NAMES[s]||s)+'</div>'
+      + '<div class="dv">'+d.c+'/'+d.t+' <span class="pill '+(ok?"ok":"no")+'">'+p+'%</span></div></div>';
+  });
+  r.innerHTML = '<h2>Your result</h2>'
+    + '<div class="scorebig '+(passed?"pass":"fail")+'">'+pct+'%</div>'
+    + '<div style="color:var(--muted);font-size:13px">'+correct+' / '+total+' correct · '
+    + (passed?'<span class="pass">At/above the 70% pass line</span>':'<span class="fail">Below the 70% pass line</span>')
+    + ' · target for confidence is 80%</div>'
+    + '<div class="dgrid">'+cards+'</div>'
+    + '<div style="margin-top:14px;font-size:13px;color:var(--muted)">Scroll down — every question now shows the correct answer (green) and an explanation. Red marks an option you chose incorrectly. Focus revision on any domain below 75%.</div>';
+  r.scrollIntoView({behavior:"smooth"});
+  $("#footnote").textContent="Graded: "+correct+"/"+total+" ("+pct+"%).";
+}
+
+$("#gradeBtn").addEventListener("click", grade);
+$("#pauseBtn").addEventListener("click", togglePause);
+$("#resetBtn").addEventListener("click", ()=>{ render(); window.scrollTo({top:0,behavior:"smooth"}); });
+$("#filter").addEventListener("change", ()=>{
+  if($("#filter").value==="exam50" && studyMode){
+    studyMode=false; $("#studyState").textContent="off";
+  }
+  const sbtn=$("#studyToggle");
+  if($("#filter").value==="exam50"){ sbtn.disabled=true; sbtn.style.opacity=".5"; }
+  else { sbtn.disabled=false; sbtn.style.opacity=""; }
+  render(); window.scrollTo({top:0,behavior:"smooth"});
+});
+$("#shuffleQ").addEventListener("click", ()=>{
+  const b=$("#shuffleQ"); const on=b.dataset.on==="1";
+  b.dataset.on=on?"0":"1"; $("#shuffleState").textContent=on?"off":"on"; render();
+});
+$("#studyToggle").addEventListener("click", ()=>{
+  if($("#filter").value==="exam50") return; // not available in timed exam mode
+  studyMode=!studyMode;
+  $("#studyState").textContent=studyMode?"on":"off";
+  render();
+});
+
+render();
+</script>
+</body>
+</html>
