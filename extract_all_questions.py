@@ -34,6 +34,16 @@ from tqdm import tqdm
 
 from examtopics.matching import display_slug, normalize_provider
 from examtopics.settings import BASE_URL, DEFAULT_RETRIES, DEFAULT_TIMEOUT_MS, REQUEST_HEADERS
+from examtopics.cache import HtmlCache
+from examtopics.http_client import HttpFetcher
+from examtopics.fast_scanner import FastDiscussionScanner
+from examtopics.matching import build_page_numbers
+from examtopics.settings import (
+    DEFAULT_CACHE_DIR,
+    DEFAULT_CACHE_TTL_SECONDS,
+    DEFAULT_DELAY_RANGE,
+    DEFAULT_REQUEST_WORKERS,
+)
 
 WORKERS = 12
 TIMEOUT = DEFAULT_TIMEOUT_MS // 1000
@@ -206,63 +216,78 @@ def main():
         total = 0
     print(f"Exam {exam_label}: first question id {first_id}, {total} questions total.")
 
-    # Candidate question ids: sequential from first_id. Add a small buffer in
-    # case a couple of ids are skipped, then filter by exam match.
-    span = (total + 5) if total else 80
+    # ----- URL SOURCE 1: discussion listing scan -----------------------------
+    # The discussion listing finds question URLs by exam name regardless of
+    # their internal id, so it works even when an exam's question-ids are not
+    # contiguous (true for older/large exams like AZ-400). This is the primary
+    # source for completeness.
+    cache = HtmlCache(Path(DEFAULT_CACHE_DIR), DEFAULT_CACHE_TTL_SECONDS)
+    listing_fetcher = HttpFetcher(
+        timeout=TIMEOUT, retries=DEFAULT_RETRIES, cache=cache, refresh_cache=False
+    )
+    scanner = FastDiscussionScanner(provider, listing_fetcher, delay_range=DEFAULT_DELAY_RANGE)
+    listing_urls = []
+    try:
+        total_pages = scanner.get_num_pages()
+        page_numbers = build_page_numbers(total_pages, 1, None, None)
+        print(f"Scanning {len(page_numbers)} discussion listing pages for {exam_label}...")
+        listing_urls = scanner.scan(page_numbers, exam, workers=DEFAULT_REQUEST_WORKERS)
+        print(f"Listing scan found {len(listing_urls)} discussion links.")
+    except Exception as exc:  # noqa: BLE001
+        print(f"Listing scan failed ({exc}); relying on id-walk only.")
+
+    # ----- URL SOURCE 2: sequential id-walk ----------------------------------
+    # Catches questions that have no discussion-listing entry (e.g. brand-new
+    # questions). Walk the contiguous id block starting at first_id.
+    span = (total + 10) if total else 80
     candidate_ids = list(range(first_id, first_id + span))
 
-    # Step 1: map each qid -> discussion id (ajax, captcha-free).
     qid_to_did = {}
 
     def map_one(qid):
         return qid, discussion_id_for(qid, referer)
 
-    with ThreadPoolExecutor(max_workers=WORKERS) as ex:
-        futs = {ex.submit(map_one, qid): qid for qid in candidate_ids}
-        with tqdm(total=len(futs), desc="Mapping IDs", unit="q") as pbar:
-            for fut in as_completed(futs):
-                qid, did = fut.result()
-                if did:
-                    qid_to_did[qid] = did
-                pbar.update(1)
+    if candidate_ids:
+        with ThreadPoolExecutor(max_workers=WORKERS) as ex:
+            futs = {ex.submit(map_one, qid): qid for qid in candidate_ids}
+            with tqdm(total=len(futs), desc="Mapping IDs", unit="q") as pbar:
+                for fut in as_completed(futs):
+                    qid, did = fut.result()
+                    if did:
+                        qid_to_did[qid] = did
+                    pbar.update(1)
 
-    # Step 2: fetch each discussion page and parse, keep only this exam.
+    # Merge both URL sources, deduped by canonical discussion URL.
+    all_urls = set()
+    for url in listing_urls:
+        all_urls.add(url)
+    for did in qid_to_did.values():
+        all_urls.add(f"{BASE_URL}/discussions/{provider}/view/{did}-x/")
+    print(f"Total candidate question URLs: {len(all_urls)}")
+
+    # ----- Fetch + parse each question page (captcha-free) -------------------
     results = {}
 
-    def fetch_one(qid, did):
-        url = f"{BASE_URL}/discussions/{provider}/view/{did}-x/"
+    def fetch_one(url):
         r = get(url, referer=referer)
         if r.status_code != 200:
             return None
         return parse_question_page(r.text, r.url, exam_label)
 
     with ThreadPoolExecutor(max_workers=WORKERS) as ex:
-        futs = {ex.submit(fetch_one, qid, did): qid for qid, did in qid_to_did.items()}
+        futs = {ex.submit(fetch_one, url): url for url in all_urls}
         with tqdm(total=len(futs), desc="Fetching Questions", unit="q") as pbar:
             for fut in as_completed(futs):
-                qid = futs[fut]
                 try:
                     item = fut.result()
-                    if item and (
-                        item.get("exam") is None
-                        or item["exam"].upper() == exam_label
-                    ):
-                        # Only keep questions that actually belong to this exam.
-                        if item.get("exam") and item["exam"].upper() == exam_label:
-                            results[qid] = item
+                    if item and item.get("exam") and item["exam"].upper() == exam_label:
+                        key = (item["topic"], item["question_no"])
+                        results[key] = item
                 except Exception as exc:  # noqa: BLE001
-                    print(f"\nFailed qid {qid}: {exc}")
+                    print(f"\nFailed: {exc}")
                 pbar.update(1)
 
-    items = sorted(results.values(), key=sort_key)
-    # Dedupe by (topic, question_no)
-    seen, unique = set(), []
-    for it in items:
-        key = (it["topic"], it["question_no"])
-        if key in seen:
-            continue
-        seen.add(key)
-        unique.append(it)
+    unique = sorted(results.values(), key=sort_key)
 
     out_path = Path(f"{exam_label} questions.txt")
     with out_path.open("w", encoding="utf-8") as fh:
