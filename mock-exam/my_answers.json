@@ -1,78 +1,1734 @@
 {
-  "AI-300|T2|Q1": {"answer": "B", "rationale": "Standardizing ML asset management starts with a shared Azure Machine Learning workspace - it is the top-level container that centrally manages data, models, environments and compute. Registries (A) are for cross-workspace sharing and come later."},
-  "AI-300|T2|Q2": {"answer": "D", "rationale": "Managed compute targets with autoscaling isolate workloads while staying cost-aware: nodes scale up on demand and back to zero when idle, avoiding the contention of a shared cluster (A) and the waste of a fixed-size (B) or always-dedicated (C) cluster."},
-  "AI-300|T2|Q4": {"answer": "B", "rationale": "Azure Machine Learning compute clusters support low-priority (spot) VMs at a discount. ACI and AKS do not offer the low-priority/spot pricing tier, and local deployment has no Azure discount."},
-  "AI-300|T2|Q5": {"answer": "B", "rationale": "For a safe, gradual rollout you split traffic between the existing and new deployments behind one online endpoint (blue/green / canary). Replacing or routing 100% (C, D) removes the staged rollback ability; batch (A) is not for live traffic."},
-  "AI-300|T2|Q6": {"answer": "C", "rationale": "Azure OpenAI fine-tuning and most generative training datasets require JSONL (one JSON object per line). CSV/TSV/plain JSON are not the expected format."},
-  "AI-300|T2|Q7": {"answer": "C", "rationale": "UTF-8 is the required/standard encoding for Azure AI training and JSONL data files."},
-  "AI-300|T2|Q8": {"answer": "D", "rationale": "Before fine-tuning you must prepare and upload the training data as a JSONL file of prompt-completion (or messages) pairs. The other steps are not the prerequisite first action."},
-  "AI-300|T2|Q9": {"answer": "A", "rationale": "To evaluate prompt variants with consistent inputs and no live traffic, first generate synthetic interaction/test data to use as a controlled evaluation dataset."},
-  "AI-300|T2|Q11": {"answer": "D", "rationale": "To make an asset reusable and governable across workspaces/projects, publish it to an Azure Machine Learning registry. Git sync, pipeline components and environments do not provide the cross-workspace asset sharing a registry does."},
-  "AI-300|T2|Q12": {"answer": "B", "rationale": "Private endpoints restrict access to Azure ML / dependent resources over a private IP and remove public exposure - the standard way to meet 'no public network access'. NSGs/firewall/service endpoints are weaker, subnet-level controls."},
-  "AI-300|T2|Q13": {"answer": "A", "rationale": "Registering the Model asset makes the trained artifact versioned, reusable and governed across projects. Components, environments and pipelines serve other purposes."},
-  "AI-300|T2|Q16": {"answer": "B", "rationale": "No. 'python train.py --training_data training_data' runs the wrong script (train.py vs script.py) and passes the literal string 'training_data' instead of binding the job input. It does not pass the dataset path."},
-  "AI-300|T2|Q17": {"answer": "B", "rationale": "No. The script reads an argument named 'training_data', but the command supplies '--trainingdata' (missing underscore), so the argument name does not match. Community also voted B."},
-  "AI-300|T2|Q18": {"answer": "B", "rationale": "No. 'python script.py dataset1.csv' hard-codes the file as a positional value and does not bind it to the job input '${{inputs.training_data}}', so it does not pass the parameter correctly for a command job."},
-  "AI-300|T3|Q1": {"answer": "B", "rationale": "MLflow experiment tracking is the built-in way to record and compare metrics/params/artifacts across Azure ML training runs. Job logs, App Insights and Monitor alerts are not experiment-comparison tools."},
-  "AI-300|T3|Q3": {"answer": "D", "rationale": "fairlearn.postprocessing.ThresholdOptimizer adjusts decision thresholds on an already-trained model to satisfy fairness constraints without retraining - the typical post-hoc mitigation."},
-  "AI-300|T3|Q9": {"answer": "A", "rationale": "When a new deployment is unhealthy, the first mitigation is to roll traffic back to the previous known-good deployment to restore service, then investigate."},
-  "AI-300|T3|Q13": {"answer": "C", "rationale": "Archive the model version to retire it from active use while preserving lineage/auditability. Deleting or unregistering destroys history."},
-  "AI-300|T3|Q14": {"answer": "A", "rationale": "Traffic splitting between deployments on the online endpoint enables safe staged rollout/comparison of a new model version."},
-  "AI-300|T4|Q3": {"answer": "AD", "rationale": "Configure a managed virtual network for the Foundry resource (A) and disable public network access (D) to lock it down. API keys (B) violate least-privilege/no-secrets; a separate subscription (C) and disabling all inbound (E) are not the required network-isolation steps. Matches community AD."},
-  "AI-300|T4|Q7": {"answer": "A", "rationale": "Store prompts as versioned files in Git for change history, review and rollback - prompt assets are code-like and benefit from source control."},
-  "AI-300|T4|Q8": {"answer": "C", "rationale": "Data Zone Standard gives low-latency, real-time (non-batch) interactive throughput within a data zone for many applications. Batch types add latency; Developer is for limited dev use."},
-  "AI-300|T4|Q9": {"answer": "AC", "rationale": "Use Entra ID RBAC with least privilege: assign Azure AI Developer to developers (C) and an appropriate admin role where needed (A). Disabling Entra auth (B) and sharing one API key (D) violate the security requirements."},
-  "AI-300|T4|Q10": {"answer": "B", "rationale": "gpt-4o is the multimodal Azure OpenAI model that accepts both text and images and supports fine-tuning. davinci-002, gpt-35-turbo and gpt-4 (base) do not fit the text+image fine-tune requirement."},
-  "AI-300|T4|Q11": {"answer": "A", "rationale": "Yes. The Evaluation experience with prompt variants captures inputs, outputs, token usage and latency for comparison, meeting the goal. Community voted A."},
-  "AI-300|T4|Q12": {"answer": "A", "rationale": "Yes. Enabling tracing via the prompt flow SDK before runs captures inputs, outputs, token usage and latencies - a valid solution to the same goal."},
-  "AI-300|T4|Q13": {"answer": "A", "rationale": "Yes. Turning on Tracing for the project's prompt flow in Foundry and running tests produces the required trace data (inputs/outputs/tokens/latency). NOTE: community voted B for this variant - verify, as wording differences in this Yes/No series matter."},
-  "AI-300|T5|Q3": {"answer": "C", "rationale": "Groundedness measures whether a generated answer is supported by the provided source/context - the evaluator for RAG factual grounding. Coherence/fluency/similarity assess other qualities."},
-  "AI-300|T5|Q4": {"answer": "A", "rationale": "RelevanceEvaluator scores how relevant the response is to the question/context. Use it when relevance is the target metric."},
-  "AI-300|T5|Q6": {"answer": "D", "rationale": "Implement an evaluation step in CI (GitHub Actions) so prompts/models are automatically evaluated before deployment - the repeatable, automated gate. Manual review and latency monitoring are not automated quality gates."},
-  "AI-300|T5|Q7": {"answer": "B", "rationale": "For a RAG solution, configure the Groundedness evaluator first to ensure answers are supported by retrieved content. Protected material/indirect attacks/content safety address different risks."},
-  "AI-300|T6|Q1": {"answer": "ADE", "rationale": "Choose a model fit for purpose: conversational-reasoning model for an interactive assistant (A), multimodal when combining text+image (D), and one with enterprise governance for regulated data (E). 'Largest' (B) and 'smallest' (C) as blanket rules are wrong. Matches community ADE."},
-  "AI-300|T6|Q7": {"answer": "AB", "rationale": "To improve RAG retrieval quality, tune chunk size/overlap to the content (A) and add an optimized re-ranker (B). Raising token limits (C) and changing embedding length (D) do not directly fix retrieval relevance."},
-
-  "AI-103|T1|Q2": {"answer": "C", "rationale": "PII Detection prevents the agent from revealing customer information even if a document with customer data is added by mistake. Prompt shields target injection; content filters target harmful categories. Community voted C."},
-  "AI-103|T1|Q3": {"answer": "C", "rationale": "To let the agent use the product sheets, add a connection to the Azure AI Search resource in the project so the agent can retrieve from the index."},
-  "AI-103|T1|Q9": {"answer": "C", "rationale": "When multiple agents must collaborate on one task, use a multi-agent group chat session so agents coordinate within the orchestration rather than ad-hoc app code."},
-  "AI-103|T1|Q12": {"answer": "C", "rationale": "When a custom speech model expires, recognition requests fall back to the most recent base model for the same locale; they do not error out or auto-delete the model."},
-  "AI-103|T1|Q13": {"answer": "B", "rationale": "To call Azure OpenAI models, assign Cognitive Services OpenAI User (least-privilege data-plane access for inference). Contributor is over-privileged; the others do not grant OpenAI inference."},
-  "AI-103|T1|Q14": {"answer": "D", "rationale": "To require the agent to use an MCP tool, set tool_choice to the mcp type. 'auto' leaves it optional; 'required' is not the MCP-specific binding; knowledge_base is not the MCP tool type."},
-  "AI-103|T1|Q16": {"answer": "D", "rationale": "Because API keys are not allowed and Entra auth is required, configure a Bearer token security scheme in the OpenAPI spec so the tool authenticates with an Entra token."},
-  "AI-103|T1|Q17": {"answer": "B", "rationale": "A model cascade routes easy requests to a smaller/cheaper model and escalates only hard ones to the capable model, balancing cost and quality. Routing all to one model wastes cost or quality."},
-  "AI-103|T1|Q19": {"answer": "B", "rationale": "To judge output quality/correctness, use evaluation metrics. Latency, run success rate and token usage are operational, not quality, signals."},
-  "AI-103|T1|Q21": {"answer": "D", "rationale": "Connect the tool to the existing Connection1 so it uses the configured, secured connection rather than manual API keys or caller identity passthrough."},
-  "AI-103|T1|Q22": {"answer": "D", "rationale": "Tracing gives the per-step execution detail needed to diagnose where/why an agent run behaves unexpectedly. Token usage/monitoring/safety metrics are aggregate signals."},
-  "AI-103|T1|Q23": {"answer": "B", "rationale": "No. A prompt shield for user prompts guards text prompt injection, not hidden instructions embedded inside uploaded images. It does not mitigate the image-based risk."},
-  "AI-103|T1|Q24": {"answer": "A", "rationale": "Yes. Image moderation blocks unsafe images before processing, which directly mitigates the unsafe-image upload risk in this scenario."},
-  "AI-103|T1|Q25": {"answer": "B", "rationale": "No. Prompt shields for documents target injected instructions in grounding documents/text, not malicious instructions hidden in uploaded images."},
-  "AI-103|T1|Q26": {"answer": "B", "rationale": "No. Protected material detection flags copyrighted content, not unsafe images or hidden image-borne instructions, so it does not meet the goal."},
-  "AI-103|T1|Q27": {"answer": "D", "rationale": "Use a groundedness evaluator to detect responses not supported by retrieved content (hallucinations). A RAG evaluator is broader; guardrails/fine-tuning are not the measurement asked for."},
-  "AI-103|T1|Q28": {"answer": "A", "rationale": "Modify the system message instructions to constrain behavior/scope - the most direct, reliable control. Few-shot, top-p and temperature do not enforce scope as deterministically."},
-  "AI-103|T1|Q29": {"answer": "A", "rationale": "A multimodal model is needed to analyze invoices by combining visual layout and textual content. An SLM/LLM (text-only) or key-phrase model cannot evaluate the visual layout."},
-  "AI-103|T1|Q31": {"answer": "B", "rationale": "Configure one Azure AI Search connection in Project1 and reference it from each application - centralized, governed, least-privilege. Per-app custom HTTP/direct calls duplicate config and weaken governance."},
-  "AI-103|T1|Q34": {"answer": "A", "rationale": "Persist conversation context by storing the conversation/thread ID and supplying it on subsequent requests, so the service retains state across turns."},
-  "AI-103|T1|Q36": {"answer": "B", "rationale": "Agentic RAG lets the agent plan and run multiple targeted retrievals/reasoning steps for complex queries, improving completeness over a single classic RAG pass."},
-  "AI-103|T1|Q38": {"answer": "C", "rationale": "Switch to Retrieval Augmented Generation so responses are grounded in source content, improving completeness/accuracy. Token/model tweaks do not add the missing grounded content."},
-  "AI-103|T1|Q39": {"answer": "C", "rationale": "For throttling/429 errors, implement a retry policy with exponential backoff and jitter. New threads, fewer tools or smaller files do not address rate limiting."},
-  "AI-103|T1|Q41": {"answer": "B", "rationale": "No. Increasing max_tokens only raises the output length cap; it does not make the model include required clauses that it is already omitting."},
-  "AI-103|T1|Q42": {"answer": "A", "rationale": "Yes. A reflection pass that regenerates the response when required clauses are missing directly improves completeness."},
-  "AI-103|T1|Q43": {"answer": "B", "rationale": "No. Increasing temperature adds randomness; it does not improve completeness and may worsen omission of required clauses."},
-  "AI-103|T1|Q44": {"answer": "A", "rationale": "Yes. An evaluation flow that scores completeness and blocks responses below a threshold enforces complete responses, meeting the goal."},
-  "AI-103|T1|Q45": {"answer": "D", "rationale": "Background removal that preserves the subject is best done with mask inpainting: supply the image plus a mask marking the region to change. Full image_to_image regeneration risks altering the subject."},
-  "AI-103|T1|Q46": {"answer": "A", "rationale": "To remove a specific logo while keeping the rest, apply mask-based inpainting to the logo region. Prompt/seed/guidance changes regenerate the whole image unpredictably."},
-  "AI-103|T1|Q47": {"answer": "D", "rationale": "prebuilt-layout extracts tables, structure and layout from documents with varied layouts - needed for invoices. prebuilt-read is OCR-only; the others are not layout extractors."},
-  "AI-103|T1|Q48": {"answer": "A", "rationale": "Set input_fidelity to high to preserve fine detail/text from the input image during image editing/generation."},
-  "AI-103|T1|Q50": {"answer": "A", "rationale": "To screen text embedded in images, run OCR (Azure Vision) and apply keyword scanning over the OCR output. Prompt shields/blocklists/image moderation do not scan extracted in-image text the same way."},
-  "AI-103|T1|Q51": {"answer": "B", "rationale": "Prompt shields for documents protect against injected instructions hidden in ingested documents/grounding content."},
-  "AI-103|T1|Q53": {"answer": "B", "rationale": "Azure Content Understanding extracts structured fields from mixed-layout documents (tables, logos, varied layouts) - suited to invoice processing."},
-  "AI-103|T1|Q56": {"answer": "C", "rationale": "Azure Content Understanding handles multi-format/multimodal extraction for varied invoice layouts. Document Intelligence/Image Analysis/chat completions are narrower."},
-  "AI-103|T1|Q58": {"answer": "C", "rationale": "For large volumes of recorded audio files, run a batch transcription job - the scalable, asynchronous option. Real-time is for live streams."},
-  "AI-103|T1|Q59": {"answer": "B", "rationale": "For a live voice agent, use real-time speech to text for incoming audio and text to speech for responses - the standard low-latency conversational pattern."},
-  "AI-103|T1|Q60": {"answer": "B", "rationale": "Split mixed-language segments into single-language segments and translate each separately so Translator handles each correctly. Treating mixed text as one document/source language degrades quality."},
-  "AI-103|T1|Q62": {"answer": "C", "rationale": "Azure AI Search provides the index/retrieval layer for grounding the agent on the documents."},
-  "AI-103|T1|Q63": {"answer": "B", "rationale": "Configure content=markdown so the analyzer returns structured markdown (preserving tables/headings) for downstream processing."},
-  "AI-103|T1|Q64": {"answer": "B", "rationale": "Use a custom Azure Content Understanding analyzer that defines the required invoice fields as the extraction schema - tailored field extraction across varied layouts. Prebuilt-layout/documentSearch are generic."},
-  "AI-103|T1|Q65": {"answer": "D", "rationale": "When responses are incomplete/ungrounded, review groundedness evaluation metrics to see whether outputs are supported by retrieved content. Indexer status/latency/drift address other failure modes."}
+ "AI-300|T2|Q1": {
+  "answer": "B",
+  "rationale": "Standardizing ML asset management starts with a shared Azure Machine Learning workspace - it is the top-level container that centrally manages data, models, environments and compute. Registries (A) are for cross-workspace sharing and come later."
+ },
+ "AI-300|T2|Q2": {
+  "answer": "D",
+  "rationale": "Managed compute targets with autoscaling isolate workloads while staying cost-aware: nodes scale up on demand and back to zero when idle, avoiding the contention of a shared cluster (A) and the waste of a fixed-size (B) or always-dedicated (C) cluster."
+ },
+ "AI-300|T2|Q4": {
+  "answer": "B",
+  "rationale": "Azure Machine Learning compute clusters support low-priority (spot) VMs at a discount. ACI and AKS do not offer the low-priority/spot pricing tier, and local deployment has no Azure discount."
+ },
+ "AI-300|T2|Q5": {
+  "answer": "B",
+  "rationale": "For a safe, gradual rollout you split traffic between the existing and new deployments behind one online endpoint (blue/green / canary). Replacing or routing 100% (C, D) removes the staged rollback ability; batch (A) is not for live traffic."
+ },
+ "AI-300|T2|Q6": {
+  "answer": "C",
+  "rationale": "Azure OpenAI fine-tuning and most generative training datasets require JSONL (one JSON object per line). CSV/TSV/plain JSON are not the expected format."
+ },
+ "AI-300|T2|Q7": {
+  "answer": "C",
+  "rationale": "UTF-8 is the required/standard encoding for Azure AI training and JSONL data files."
+ },
+ "AI-300|T2|Q8": {
+  "answer": "D",
+  "rationale": "Before fine-tuning you must prepare and upload the training data as a JSONL file of prompt-completion (or messages) pairs. The other steps are not the prerequisite first action."
+ },
+ "AI-300|T2|Q9": {
+  "answer": "A",
+  "rationale": "To evaluate prompt variants with consistent inputs and no live traffic, first generate synthetic interaction/test data to use as a controlled evaluation dataset."
+ },
+ "AI-300|T2|Q11": {
+  "answer": "D",
+  "rationale": "To make an asset reusable and governable across workspaces/projects, publish it to an Azure Machine Learning registry. Git sync, pipeline components and environments do not provide the cross-workspace asset sharing a registry does."
+ },
+ "AI-300|T2|Q12": {
+  "answer": "B",
+  "rationale": "Private endpoints restrict access to Azure ML / dependent resources over a private IP and remove public exposure - the standard way to meet 'no public network access'. NSGs/firewall/service endpoints are weaker, subnet-level controls."
+ },
+ "AI-300|T2|Q13": {
+  "answer": "A",
+  "rationale": "Registering the Model asset makes the trained artifact versioned, reusable and governed across projects. Components, environments and pipelines serve other purposes."
+ },
+ "AI-300|T2|Q16": {
+  "answer": "B",
+  "rationale": "No. 'python train.py --training_data training_data' runs the wrong script (train.py vs script.py) and passes the literal string 'training_data' instead of binding the job input. It does not pass the dataset path."
+ },
+ "AI-300|T2|Q17": {
+  "answer": "B",
+  "rationale": "No. The script reads an argument named 'training_data', but the command supplies '--trainingdata' (missing underscore), so the argument name does not match. Community also voted B."
+ },
+ "AI-300|T2|Q18": {
+  "answer": "B",
+  "rationale": "No. 'python script.py dataset1.csv' hard-codes the file as a positional value and does not bind it to the job input '${{inputs.training_data}}', so it does not pass the parameter correctly for a command job."
+ },
+ "AI-300|T3|Q1": {
+  "answer": "B",
+  "rationale": "MLflow experiment tracking is the built-in way to record and compare metrics/params/artifacts across Azure ML training runs. Job logs, App Insights and Monitor alerts are not experiment-comparison tools."
+ },
+ "AI-300|T3|Q3": {
+  "answer": "D",
+  "rationale": "fairlearn.postprocessing.ThresholdOptimizer adjusts decision thresholds on an already-trained model to satisfy fairness constraints without retraining - the typical post-hoc mitigation."
+ },
+ "AI-300|T3|Q9": {
+  "answer": "A",
+  "rationale": "When a new deployment is unhealthy, the first mitigation is to roll traffic back to the previous known-good deployment to restore service, then investigate."
+ },
+ "AI-300|T3|Q13": {
+  "answer": "C",
+  "rationale": "Archive the model version to retire it from active use while preserving lineage/auditability. Deleting or unregistering destroys history."
+ },
+ "AI-300|T3|Q14": {
+  "answer": "A",
+  "rationale": "Traffic splitting between deployments on the online endpoint enables safe staged rollout/comparison of a new model version."
+ },
+ "AI-300|T4|Q3": {
+  "answer": "AD",
+  "rationale": "Configure a managed virtual network for the Foundry resource (A) and disable public network access (D) to lock it down. API keys (B) violate least-privilege/no-secrets; a separate subscription (C) and disabling all inbound (E) are not the required network-isolation steps. Matches community AD."
+ },
+ "AI-300|T4|Q7": {
+  "answer": "A",
+  "rationale": "Store prompts as versioned files in Git for change history, review and rollback - prompt assets are code-like and benefit from source control."
+ },
+ "AI-300|T4|Q8": {
+  "answer": "C",
+  "rationale": "Data Zone Standard gives low-latency, real-time (non-batch) interactive throughput within a data zone for many applications. Batch types add latency; Developer is for limited dev use."
+ },
+ "AI-300|T4|Q9": {
+  "answer": "AC",
+  "rationale": "Use Entra ID RBAC with least privilege: assign Azure AI Developer to developers (C) and an appropriate admin role where needed (A). Disabling Entra auth (B) and sharing one API key (D) violate the security requirements."
+ },
+ "AI-300|T4|Q10": {
+  "answer": "B",
+  "rationale": "gpt-4o is the multimodal Azure OpenAI model that accepts both text and images and supports fine-tuning. davinci-002, gpt-35-turbo and gpt-4 (base) do not fit the text+image fine-tune requirement."
+ },
+ "AI-300|T4|Q11": {
+  "answer": "A",
+  "rationale": "Yes. The Evaluation experience with prompt variants captures inputs, outputs, token usage and latency for comparison, meeting the goal. Community voted A."
+ },
+ "AI-300|T4|Q12": {
+  "answer": "A",
+  "rationale": "Yes. Enabling tracing via the prompt flow SDK before runs captures inputs, outputs, token usage and latencies - a valid solution to the same goal."
+ },
+ "AI-300|T4|Q13": {
+  "answer": "A",
+  "rationale": "Yes. Turning on Tracing for the project's prompt flow in Foundry and running tests produces the required trace data (inputs/outputs/tokens/latency). NOTE: community voted B for this variant - verify, as wording differences in this Yes/No series matter."
+ },
+ "AI-300|T5|Q3": {
+  "answer": "C",
+  "rationale": "Groundedness measures whether a generated answer is supported by the provided source/context - the evaluator for RAG factual grounding. Coherence/fluency/similarity assess other qualities."
+ },
+ "AI-300|T5|Q4": {
+  "answer": "A",
+  "rationale": "RelevanceEvaluator scores how relevant the response is to the question/context. Use it when relevance is the target metric."
+ },
+ "AI-300|T5|Q6": {
+  "answer": "D",
+  "rationale": "Implement an evaluation step in CI (GitHub Actions) so prompts/models are automatically evaluated before deployment - the repeatable, automated gate. Manual review and latency monitoring are not automated quality gates."
+ },
+ "AI-300|T5|Q7": {
+  "answer": "B",
+  "rationale": "For a RAG solution, configure the Groundedness evaluator first to ensure answers are supported by retrieved content. Protected material/indirect attacks/content safety address different risks."
+ },
+ "AI-300|T6|Q1": {
+  "answer": "ADE",
+  "rationale": "Choose a model fit for purpose: conversational-reasoning model for an interactive assistant (A), multimodal when combining text+image (D), and one with enterprise governance for regulated data (E). 'Largest' (B) and 'smallest' (C) as blanket rules are wrong. Matches community ADE."
+ },
+ "AI-300|T6|Q7": {
+  "answer": "AB",
+  "rationale": "To improve RAG retrieval quality, tune chunk size/overlap to the content (A) and add an optimized re-ranker (B). Raising token limits (C) and changing embedding length (D) do not directly fix retrieval relevance."
+ },
+ "AI-103|T1|Q2": {
+  "answer": "C",
+  "rationale": "PII Detection prevents the agent from revealing customer information even if a document with customer data is added by mistake. Prompt shields target injection; content filters target harmful categories. Community voted C."
+ },
+ "AI-103|T1|Q3": {
+  "answer": "C",
+  "rationale": "To let the agent use the product sheets, add a connection to the Azure AI Search resource in the project so the agent can retrieve from the index."
+ },
+ "AI-103|T1|Q9": {
+  "answer": "C",
+  "rationale": "When multiple agents must collaborate on one task, use a multi-agent group chat session so agents coordinate within the orchestration rather than ad-hoc app code."
+ },
+ "AI-103|T1|Q12": {
+  "answer": "C",
+  "rationale": "When a custom speech model expires, recognition requests fall back to the most recent base model for the same locale; they do not error out or auto-delete the model."
+ },
+ "AI-103|T1|Q13": {
+  "answer": "B",
+  "rationale": "To call Azure OpenAI models, assign Cognitive Services OpenAI User (least-privilege data-plane access for inference). Contributor is over-privileged; the others do not grant OpenAI inference."
+ },
+ "AI-103|T1|Q14": {
+  "answer": "D",
+  "rationale": "To require the agent to use an MCP tool, set tool_choice to the mcp type. 'auto' leaves it optional; 'required' is not the MCP-specific binding; knowledge_base is not the MCP tool type."
+ },
+ "AI-103|T1|Q16": {
+  "answer": "D",
+  "rationale": "Because API keys are not allowed and Entra auth is required, configure a Bearer token security scheme in the OpenAPI spec so the tool authenticates with an Entra token."
+ },
+ "AI-103|T1|Q17": {
+  "answer": "B",
+  "rationale": "A model cascade routes easy requests to a smaller/cheaper model and escalates only hard ones to the capable model, balancing cost and quality. Routing all to one model wastes cost or quality."
+ },
+ "AI-103|T1|Q19": {
+  "answer": "B",
+  "rationale": "To judge output quality/correctness, use evaluation metrics. Latency, run success rate and token usage are operational, not quality, signals."
+ },
+ "AI-103|T1|Q21": {
+  "answer": "D",
+  "rationale": "Connect the tool to the existing Connection1 so it uses the configured, secured connection rather than manual API keys or caller identity passthrough."
+ },
+ "AI-103|T1|Q22": {
+  "answer": "D",
+  "rationale": "Tracing gives the per-step execution detail needed to diagnose where/why an agent run behaves unexpectedly. Token usage/monitoring/safety metrics are aggregate signals."
+ },
+ "AI-103|T1|Q23": {
+  "answer": "B",
+  "rationale": "No. A prompt shield for user prompts guards text prompt injection, not hidden instructions embedded inside uploaded images. It does not mitigate the image-based risk."
+ },
+ "AI-103|T1|Q24": {
+  "answer": "A",
+  "rationale": "Yes. Image moderation blocks unsafe images before processing, which directly mitigates the unsafe-image upload risk in this scenario."
+ },
+ "AI-103|T1|Q25": {
+  "answer": "B",
+  "rationale": "No. Prompt shields for documents target injected instructions in grounding documents/text, not malicious instructions hidden in uploaded images."
+ },
+ "AI-103|T1|Q26": {
+  "answer": "B",
+  "rationale": "No. Protected material detection flags copyrighted content, not unsafe images or hidden image-borne instructions, so it does not meet the goal."
+ },
+ "AI-103|T1|Q27": {
+  "answer": "D",
+  "rationale": "Use a groundedness evaluator to detect responses not supported by retrieved content (hallucinations). A RAG evaluator is broader; guardrails/fine-tuning are not the measurement asked for."
+ },
+ "AI-103|T1|Q28": {
+  "answer": "A",
+  "rationale": "Modify the system message instructions to constrain behavior/scope - the most direct, reliable control. Few-shot, top-p and temperature do not enforce scope as deterministically."
+ },
+ "AI-103|T1|Q29": {
+  "answer": "A",
+  "rationale": "A multimodal model is needed to analyze invoices by combining visual layout and textual content. An SLM/LLM (text-only) or key-phrase model cannot evaluate the visual layout."
+ },
+ "AI-103|T1|Q31": {
+  "answer": "B",
+  "rationale": "Configure one Azure AI Search connection in Project1 and reference it from each application - centralized, governed, least-privilege. Per-app custom HTTP/direct calls duplicate config and weaken governance."
+ },
+ "AI-103|T1|Q34": {
+  "answer": "A",
+  "rationale": "Persist conversation context by storing the conversation/thread ID and supplying it on subsequent requests, so the service retains state across turns."
+ },
+ "AI-103|T1|Q36": {
+  "answer": "B",
+  "rationale": "Agentic RAG lets the agent plan and run multiple targeted retrievals/reasoning steps for complex queries, improving completeness over a single classic RAG pass."
+ },
+ "AI-103|T1|Q38": {
+  "answer": "C",
+  "rationale": "Switch to Retrieval Augmented Generation so responses are grounded in source content, improving completeness/accuracy. Token/model tweaks do not add the missing grounded content."
+ },
+ "AI-103|T1|Q39": {
+  "answer": "C",
+  "rationale": "For throttling/429 errors, implement a retry policy with exponential backoff and jitter. New threads, fewer tools or smaller files do not address rate limiting."
+ },
+ "AI-103|T1|Q41": {
+  "answer": "B",
+  "rationale": "No. Increasing max_tokens only raises the output length cap; it does not make the model include required clauses that it is already omitting."
+ },
+ "AI-103|T1|Q42": {
+  "answer": "A",
+  "rationale": "Yes. A reflection pass that regenerates the response when required clauses are missing directly improves completeness."
+ },
+ "AI-103|T1|Q43": {
+  "answer": "B",
+  "rationale": "No. Increasing temperature adds randomness; it does not improve completeness and may worsen omission of required clauses."
+ },
+ "AI-103|T1|Q44": {
+  "answer": "A",
+  "rationale": "Yes. An evaluation flow that scores completeness and blocks responses below a threshold enforces complete responses, meeting the goal."
+ },
+ "AI-103|T1|Q45": {
+  "answer": "D",
+  "rationale": "Background removal that preserves the subject is best done with mask inpainting: supply the image plus a mask marking the region to change. Full image_to_image regeneration risks altering the subject."
+ },
+ "AI-103|T1|Q46": {
+  "answer": "A",
+  "rationale": "To remove a specific logo while keeping the rest, apply mask-based inpainting to the logo region. Prompt/seed/guidance changes regenerate the whole image unpredictably."
+ },
+ "AI-103|T1|Q47": {
+  "answer": "D",
+  "rationale": "prebuilt-layout extracts tables, structure and layout from documents with varied layouts - needed for invoices. prebuilt-read is OCR-only; the others are not layout extractors."
+ },
+ "AI-103|T1|Q48": {
+  "answer": "A",
+  "rationale": "Set input_fidelity to high to preserve fine detail/text from the input image during image editing/generation."
+ },
+ "AI-103|T1|Q50": {
+  "answer": "A",
+  "rationale": "To screen text embedded in images, run OCR (Azure Vision) and apply keyword scanning over the OCR output. Prompt shields/blocklists/image moderation do not scan extracted in-image text the same way."
+ },
+ "AI-103|T1|Q51": {
+  "answer": "B",
+  "rationale": "Prompt shields for documents protect against injected instructions hidden in ingested documents/grounding content."
+ },
+ "AI-103|T1|Q53": {
+  "answer": "B",
+  "rationale": "Azure Content Understanding extracts structured fields from mixed-layout documents (tables, logos, varied layouts) - suited to invoice processing."
+ },
+ "AI-103|T1|Q56": {
+  "answer": "C",
+  "rationale": "Azure Content Understanding handles multi-format/multimodal extraction for varied invoice layouts. Document Intelligence/Image Analysis/chat completions are narrower."
+ },
+ "AI-103|T1|Q58": {
+  "answer": "C",
+  "rationale": "For large volumes of recorded audio files, run a batch transcription job - the scalable, asynchronous option. Real-time is for live streams."
+ },
+ "AI-103|T1|Q59": {
+  "answer": "B",
+  "rationale": "For a live voice agent, use real-time speech to text for incoming audio and text to speech for responses - the standard low-latency conversational pattern."
+ },
+ "AI-103|T1|Q60": {
+  "answer": "B",
+  "rationale": "Split mixed-language segments into single-language segments and translate each separately so Translator handles each correctly. Treating mixed text as one document/source language degrades quality."
+ },
+ "AI-103|T1|Q62": {
+  "answer": "C",
+  "rationale": "Azure AI Search provides the index/retrieval layer for grounding the agent on the documents."
+ },
+ "AI-103|T1|Q63": {
+  "answer": "B",
+  "rationale": "Configure content=markdown so the analyzer returns structured markdown (preserving tables/headings) for downstream processing."
+ },
+ "AI-103|T1|Q64": {
+  "answer": "B",
+  "rationale": "Use a custom Azure Content Understanding analyzer that defines the required invoice fields as the extraction schema - tailored field extraction across varied layouts. Prebuilt-layout/documentSearch are generic."
+ },
+ "AI-103|T1|Q65": {
+  "answer": "D",
+  "rationale": "When responses are incomplete/ungrounded, review groundedness evaluation metrics to see whether outputs are supported by retrieved content. Indexer status/latency/drift address other failure modes."
+ },
+ "AZ-400|T1|Q1": {
+  "answer": "C",
+  "rationale": "Cycle time measures elapsed time from when a work item becomes active to completion. Lead time is creation-to-done; burn-up/down track scope/remaining work."
+ },
+ "AZ-400|T1|Q2": {
+  "answer": "B",
+  "rationale": "Creation-to-completion elapsed time is Lead time, not Burnup, so the underlined segment is inaccurate."
+ },
+ "AZ-400|T1|Q3": {
+  "answer": "D",
+  "rationale": "License procurement (buying licenses) cannot be automated; group membership, license assignment and entitlements can."
+ },
+ "AZ-400|T1|Q4": {
+  "answer": "B",
+  "rationale": "Static code analysis runs in CI against source without executing it. Pen/dynamic testing need a running app; threat modeling is design-phase."
+ },
+ "AZ-400|T1|Q5": {
+  "answer": "B",
+  "rationale": "TFS Database Import Service migrates a full collection to Azure DevOps Services preserving history with minimal effort."
+ },
+ "AZ-400|T1|Q7": {
+  "answer": "D",
+  "rationale": "The CMMI process supports requirements, change requests, risks and reviews as work item types."
+ },
+ "AZ-400|T1|Q8": {
+  "answer": "B",
+  "rationale": "No. ApplyOnly applies config once and does not correct drift, so servers won't stay configured."
+ },
+ "AZ-400|T1|Q9": {
+  "answer": "B",
+  "rationale": "No. ApplyAndMonitor reports drift but does not auto-correct it."
+ },
+ "AZ-400|T1|Q10": {
+  "answer": "A",
+  "rationale": "Yes. ApplyAndAutoCorrect reapplies configuration to fix drift, keeping servers correctly configured."
+ },
+ "AZ-400|T1|Q11": {
+  "answer": "B",
+  "rationale": "Building an IIS web app that runs Docker needs a Hosted Windows Container agent, so 'Default' is inaccurate."
+ },
+ "AZ-400|T1|Q12": {
+  "answer": "D",
+  "rationale": "Conditional Access in Azure AD restricts access to devices on the corporate network (location-based)."
+ },
+ "AZ-400|T1|Q13": {
+  "answer": "D",
+  "rationale": "Git in Azure Repos is the managed, server-hosted Git option within Azure DevOps for this scenario."
+ },
+ "AZ-400|T1|Q14": {
+  "answer": "D",
+  "rationale": "JIRA is work-item tracking, replaced by Azure Boards, so 'build pipelines' is inaccurate."
+ },
+ "AZ-400|T1|Q15": {
+  "answer": "C",
+  "rationale": "npm install (with --production) restricts scanning to production dependencies."
+ },
+ "AZ-400|T1|Q16": {
+  "answer": "A",
+  "rationale": "Red/Black (blue-green) keeps deploy time low and allows the fastest rollback by switching back to the previous environment."
+ },
+ "AZ-400|T1|Q17": {
+  "answer": "C",
+  "rationale": "A release gate evaluates Azure Monitor performance criteria and blocks promotion when baselines aren't met."
+ },
+ "AZ-400|T1|Q18": {
+  "answer": "C",
+  "rationale": "Deploying to Azure VMs uses a deployment group, so 'universal group' is inaccurate."
+ },
+ "AZ-400|T1|Q20": {
+  "answer": "B",
+  "rationale": "Feed views (e.g. @prerelease/@release) control which package quality levels are exposed from a single feed."
+ },
+ "AZ-400|T1|Q21": {
+  "answer": "C",
+  "rationale": "WhiteSource detects open-source libraries (and license/vuln issues) added to the codebase."
+ },
+ "AZ-400|T1|Q22": {
+  "answer": "A",
+  "rationale": "Create a build task using WhiteSource Bolt to scan open-source libraries for security weaknesses."
+ },
+ "AZ-400|T1|Q23": {
+  "answer": "A",
+  "rationale": "Black Duck does perform open-source license compliance scanning, so no adjustment is required."
+ },
+ "AZ-400|T1|Q24": {
+  "answer": "BC",
+  "rationale": "PowerShell DSC extension (B) enforces uniform VM configuration; Azure Pipeline deployment groups (C) manage the VMs with low effort. NOTE: some sources list A+B - verify."
+ },
+ "AZ-400|T1|Q25": {
+  "answer": "D",
+  "rationale": "Azure Security Center's Compute & Apps blade gives security recommendations for App Service web apps and functions."
+ },
+ "AZ-400|T1|Q26": {
+  "answer": "B",
+  "rationale": "Average page load times come from Azure Application Insights, not Event Hubs."
+ },
+ "AZ-400|T1|Q27": {
+  "answer": "B",
+  "rationale": "No. CQL is not the query language for Application Insights / Log Analytics (that's KQL)."
+ },
+ "AZ-400|T1|Q28": {
+  "answer": "B",
+  "rationale": "No. Transact-SQL is not used for ad-hoc queries over Application Insights monitoring data (KQL is)."
+ },
+ "AZ-400|T1|Q29": {
+  "answer": "A",
+  "rationale": "Yes. Azure Log Analytics (KQL) is the correct way to run ad-hoc queries against the monitoring data."
+ },
+ "AZ-400|T1|Q31": {
+  "answer": "A",
+  "rationale": "The Microsoft Test & Feedback (App Center / Visual Studio) tooling collects crash reports, distributes beta builds and gathers feedback."
+ },
+ "AZ-400|T2|Q3": {
+  "answer": "AB",
+  "rationale": "An Azure Monitor alert with a dynamic threshold detects abnormal usage; an Automation runbook raises the logging level with minimal overhead."
+ },
+ "AZ-400|T2|Q5": {
+  "answer": "B",
+  "rationale": "An Application Insights availability (URL ping) test runs every 5 min from regions and alerts on outages with minimal dev time."
+ },
+ "AZ-400|T2|Q6": {
+  "answer": "A",
+  "rationale": "Application Insights reports average page load times for the App Service front end."
+ },
+ "AZ-400|T2|Q8": {
+  "answer": "C",
+  "rationale": "The IT Service Management Connector (ITSM) creates ServiceNow tickets from Azure alerts/logs."
+ },
+ "AZ-400|T2|Q10": {
+  "answer": "A",
+  "rationale": "Kusto Query Language (KQL) is used for ad-hoc queries over Application Insights / Log Analytics data."
+ },
+ "AZ-400|T2|Q11": {
+  "answer": "AE",
+  "rationale": "Application Insights (E) captures exceptions; a Logic App (A) posts the daily summary to Microsoft Teams."
+ },
+ "AZ-400|T2|Q13": {
+  "answer": "B",
+  "rationale": "Visual Studio App Center integration collects crash reports, distributes beta builds and gathers user feedback."
+ },
+ "AZ-400|T2|Q14": {
+  "answer": "CDE",
+  "rationale": "Upload a new custom script to sa1 (C), update the Custom Script extension (D), and update a VM's config (E) to canary the new version on part of VMSS1."
+ },
+ "AZ-400|T2|Q20": {
+  "answer": "D",
+  "rationale": "Smart Detection automatically alerts on sudden rises in failures/performance issues in Application Insights."
+ },
+ "AZ-400|T2|Q22": {
+  "answer": "C",
+  "rationale": "Add the Azure Boards app to the GitHub repository first to surface commit status on Boards."
+ },
+ "AZ-400|T2|Q23": {
+  "answer": "C",
+  "rationale": "Run '@azure pipelines subscriptions' in Teams to manage subscriptions and filter to failed builds only."
+ },
+ "AZ-400|T2|Q24": {
+  "answer": "A",
+  "rationale": "Configure a service hook subscription in Azure DevOps to send work-item update notifications to Teams. NOTE: community voted B (Teams connector) - both are defensible; verify."
+ },
+ "AZ-400|T2|Q25": {
+  "answer": "A",
+  "rationale": "Activity-log alert rules fire on operations; a failed delete attempt matches the rule's signal."
+ },
+ "AZ-400|T2|Q26": {
+  "answer": "A",
+  "rationale": "Send diagnostics to Log Analytics and alert on the connection metric with minimal effort."
+ },
+ "AZ-400|T2|Q28": {
+  "answer": "A",
+  "rationale": "Service Map requires the Dependency agent (alongside the Log Analytics agent)."
+ },
+ "AZ-400|T2|Q30": {
+  "answer": "D",
+  "rationale": "Import the Firebase module into UIApplicationDelegate to capture crash-free users, custom events and breadcrumbs."
+ },
+ "AZ-400|T2|Q31": {
+  "answer": "C",
+  "rationale": "The Dependency Tracker extension manages producers/consumers across projects with an overview."
+ },
+ "AZ-400|T2|Q34": {
+  "answer": "DE",
+  "rationale": "OpenTelemetry and OpenCensus integrate directly with Application Insights."
+ },
+ "AZ-400|T2|Q35": {
+  "answer": "B",
+  "rationale": "Fixed-rate sampling for a .NET Core app is configured in Startup.cs (ApplicationInsights.config is for .NET Framework)."
+ },
+ "AZ-400|T2|Q38": {
+  "answer": "A",
+  "rationale": "Set the Application Insights connection string/instrumentation key in appsettings.json."
+ },
+ "AZ-400|T2|Q42": {
+  "answer": "AD",
+  "rationale": "The Microsoft Monitoring/Enterprise Cloud Monitoring extension needs the workspace ID (D) and the workspace key/secret (A)."
+ },
+ "AZ-400|T2|Q43": {
+  "answer": "A",
+  "rationale": "The Events pane shows how often a specific page/event is accessed."
+ },
+ "AZ-400|T2|Q46": {
+  "answer": "D",
+  "rationale": "App Service diagnostics 'Availability and Performance' identifies when the app was offline."
+ },
+ "AZ-400|T2|Q47": {
+  "answer": "B",
+  "rationale": "Prometheus metrics are queried with PromQL."
+ },
+ "AZ-400|T3|Q1": {
+  "answer": "CD",
+  "rationale": "Create a Service Health alert (C) for planned maintenance and an action group (D) configured with an SMS action."
+ },
+ "AZ-400|T3|Q2": {
+  "answer": "A",
+  "rationale": "Yes. Azure Monitor autoscale settings can email on scale in/out via the autoscale notifications."
+ },
+ "AZ-400|T3|Q3": {
+  "answer": "B",
+  "rationale": "Smart Detection needs ~24 hours to learn the app's normal behavior before it can alert."
+ },
+ "AZ-400|T3|Q5": {
+  "answer": "C",
+  "rationale": "Use a Request trigger so the availability alert webhook can invoke the logic app over HTTP."
+ },
+ "AZ-400|T3|Q6": {
+  "answer": "A",
+  "rationale": "A liveness probe restarts the container when the app stops responding."
+ },
+ "AZ-400|T3|Q7": {
+  "answer": "D",
+  "rationale": "Azure Log Analytics centrally stores app+DB metrics, supports ad-hoc KQL baselines and alerting."
+ },
+ "AZ-400|T3|Q8": {
+  "answer": "A",
+  "rationale": "Smart Detection in Application Insights flags abnormal rises in failed requests with minimal effort."
+ },
+ "AZ-400|T3|Q10": {
+  "answer": "D",
+  "rationale": "Azure dashboards give a consolidated, RBAC-controlled view with KQL visuals, markdown tiles and live data."
+ },
+ "AZ-400|T3|Q11": {
+  "answer": "B",
+  "rationale": "Selenium is the standard framework for automated web UI testing."
+ },
+ "AZ-400|T3|Q12": {
+  "answer": "BC",
+  "rationale": "Add Application Insights telemetry (C) and enable adaptive sampling (B) to capture a baseline while minimizing storage cost."
+ },
+ "AZ-400|T3|Q13": {
+  "answer": "D",
+  "rationale": "The Application Health extension reports per-instance health for VMSS rolling upgrades with minimal effort (works with mutual-auth HTTPS)."
+ },
+ "AZ-400|T3|Q15": {
+  "answer": "BD",
+  "rationale": "Manually mark the test as flaky (D) and exclude flaky tests from the pass percentage (B) so the build won't fail on it."
+ },
+ "AZ-400|T3|Q16": {
+  "answer": "C",
+  "rationale": "A release gate enforces the Azure Monitor performance baseline before production deployment."
+ },
+ "AZ-400|T3|Q17": {
+  "answer": "B",
+  "rationale": "No. A Subscription Health scan does not lock project configuration from drifting over time."
+ },
+ "AZ-400|T3|Q18": {
+  "answer": "CE",
+  "rationale": "Security Center provides vulnerability assessments for the Ubuntu VMs (C) and the container images in ACR (E)."
+ },
+ "AZ-400|T3|Q19": {
+  "answer": "B",
+  "rationale": "Dependabot already opens the PR with the update; you approve the pull request to apply it."
+ },
+ "AZ-400|T3|Q20": {
+  "answer": "B",
+  "rationale": "No. Adding a code coverage step does not prevent project configuration from changing."
+ },
+ "AZ-400|T3|Q21": {
+  "answer": "B",
+  "rationale": "No. Implementing CI does not lock project configuration against drift."
+ },
+ "AZ-400|T3|Q22": {
+  "answer": "A",
+  "rationale": "Yes. Continuous Assurance (AzSK) continuously checks and enforces the secure configuration over time."
+ },
+ "AZ-400|T3|Q23": {
+  "answer": "C",
+  "rationale": "Azure App Configuration supports feature flags, change history, hierarchical keys, RBAC and shared key/value pairs."
+ },
+ "AZ-400|T3|Q24": {
+  "answer": "C",
+  "rationale": "A readiness probe holds traffic until DB1 finishes loading and can handle requests."
+ },
+ "AZ-400|T3|Q25": {
+  "answer": "BD",
+  "rationale": "Deploy the Log Analytics agent (B) plus the Dependency agent (D) to collect detailed guest process data."
+ },
+ "AZ-400|T3|Q27": {
+  "answer": "B",
+  "rationale": "No. Azure DevOps project Notifications are for work-item/build events, not VMSS scale events."
+ },
+ "AZ-400|T3|Q28": {
+  "answer": "B",
+  "rationale": "No. Azure DevOps Service hooks do not observe VMSS autoscale events."
+ },
+ "AZ-400|T3|Q29": {
+  "answer": "A",
+  "rationale": "Yes. An Azure Monitor action group (with email) combined with the autoscale notification generates the email alert."
+ },
+ "AZ-400|T4|Q2": {
+  "answer": "D",
+  "rationale": "Conditional Access enforces MFA from untrusted/locations for Azure apps."
+ },
+ "AZ-400|T4|Q3": {
+  "answer": "A",
+  "rationale": "A self-hosted agent registers using a personal access token (PAT)."
+ },
+ "AZ-400|T4|Q4": {
+  "answer": "B",
+  "rationale": "First create an app registration in Azure AD to enable Azure AD authentication for the app."
+ },
+ "AZ-400|T4|Q5": {
+  "answer": "A",
+  "rationale": "Personal access tokens support Git auth and minimize repeated credential prompts."
+ },
+ "AZ-400|T4|Q6": {
+  "answer": "D",
+  "rationale": "Azure Security Center's Compute & Apps provides security recommendations for web apps and functions."
+ },
+ "AZ-400|T4|Q7": {
+  "answer": "C",
+  "rationale": "Add an Azure Key Vault task so the pipeline fetches secrets at runtime instead of storing credentials."
+ },
+ "AZ-400|T4|Q9": {
+  "answer": "C",
+  "rationale": "The app must Get and List secrets to read configuration; that is the minimal needed set here."
+ },
+ "AZ-400|T4|Q12": {
+  "answer": "D",
+  "rationale": "Grant the user 'Bypass policies when completing pull requests' on the branch Security settings (least privilege)."
+ },
+ "AZ-400|T4|Q13": {
+  "answer": "A",
+  "rationale": "Reference secrets from Azure Key Vault so the deploying user never sees the credentials/connection strings."
+ },
+ "AZ-400|T4|Q18": {
+  "answer": "BCE",
+  "rationale": "Deploy a VM with a system-assigned managed identity (E), grant it access via a Key Vault access policy (C), and modify the app to read from the vault (B)."
+ },
+ "AZ-400|T4|Q20": {
+  "answer": "C",
+  "rationale": "Create a variable group linked to the key vault to reference its secrets in the pipeline."
+ },
+ "AZ-400|T4|Q22": {
+  "answer": "B",
+  "rationale": "The policy enforces 'secure transfer required', ensuring traffic to new storage accounts is encrypted (HTTPS)."
+ },
+ "AZ-400|T4|Q23": {
+  "answer": "A",
+  "rationale": "A variable group linked to vault1 lets all pipelines reference the secrets without storing values."
+ },
+ "AZ-400|T4|Q27": {
+  "answer": "AC",
+  "rationale": "Run npm install --production (A) and move dev-only packages into devDependencies (C) so only prod deps are scanned."
+ },
+ "AZ-400|T4|Q28": {
+  "answer": "B",
+  "rationale": "No. CI alone does not identify licensing violations / prohibited libraries."
+ },
+ "AZ-400|T4|Q29": {
+  "answer": "B",
+  "rationale": "No. Pre-deployment gates do not detect licensing/prohibited-library issues."
+ },
+ "AZ-400|T4|Q30": {
+  "answer": "A",
+  "rationale": "Yes. Automated security testing (dependency/license scanning) detects licensing violations and prohibited libraries."
+ },
+ "AZ-400|T4|Q31": {
+  "answer": "B",
+  "rationale": "No. Continuous deployment does not identify licensing/prohibited-library issues."
+ },
+ "AZ-400|T4|Q34": {
+  "answer": "B",
+  "rationale": "First register GitHub as an application in Azure AD to use Azure AD authentication."
+ },
+ "AZ-400|T4|Q35": {
+  "answer": "A",
+  "rationale": "A deployment gate can evaluate Azure Policy compliance and block non-compliant releases."
+ },
+ "AZ-400|T4|Q37": {
+  "answer": "C",
+  "rationale": "WhiteSource Bolt scans open-source libraries for license compliance."
+ },
+ "AZ-400|T4|Q38": {
+  "answer": "D",
+  "rationale": "SonarQube identifies dependencies with known security issues that an update can resolve."
+ },
+ "AZ-400|T4|Q39": {
+  "answer": "B",
+  "rationale": "Contributor access lets developers unlist/deprecate packages (least privilege vs Owner)."
+ },
+ "AZ-400|T4|Q41": {
+  "answer": "C",
+  "rationale": "Black Duck detects open-source libraries and their licensing compliance in the pipeline."
+ },
+ "AZ-400|T4|Q44": {
+  "answer": "C",
+  "rationale": "Black Duck checks open-source libraries for licensing compliance."
+ },
+ "AZ-400|T4|Q46": {
+  "answer": "C",
+  "rationale": "App Center iOS distribution requires a .p12 certificate file."
+ },
+ "AZ-400|T4|Q50": {
+  "answer": "D",
+  "rationale": "WhiteSource Bolt detects open-source libraries added to the codebase for license compliance."
+ },
+ "AZ-400|T4|Q51": {
+  "answer": "B",
+  "rationale": "The Azure Artifacts Credential Provider automates authenticated NuGet restore."
+ },
+ "AZ-400|T4|Q52": {
+  "answer": "A",
+  "rationale": "Turn on 'Third-party application access via OAuth' so the Teams app can integrate."
+ },
+ "AZ-400|T4|Q53": {
+  "answer": "B",
+  "rationale": "Use the GitHub App so pipelines run under the Azure Pipelines identity."
+ },
+ "AZ-400|T4|Q56": {
+  "answer": "A",
+  "rationale": "Store secrets in (secret) environment variables mapped from pipeline variables so they aren't echoed in logs. NOTE: phrasing is awkward; the intent is to map secret vars to env vars for the task, not log them."
+ },
+ "AZ-400|T4|Q59": {
+  "answer": "D",
+  "rationale": "PIM requires Azure AD Premium P2; first upgrade the tenant license, then configure time-bound, approval-based activation."
+ },
+ "AZ-400|T4|Q60": {
+  "answer": "C",
+  "rationale": "GitHub secrets cap at 64 KB, so encrypt the 256-KB secret, store the ciphertext in the repo, and keep the decryption key in a repository-level secret."
+ },
+ "AZ-400|T4|Q61": {
+  "answer": "A",
+  "rationale": "Push protection for secret scanning requires a GitHub Advanced Security license first."
+ },
+ "AZ-400|T4|Q63": {
+  "answer": "C",
+  "rationale": "Configure Conditional Access in Azure AD to restrict access to on-premises (trusted-network) devices."
+ },
+ "AZ-400|T4|Q64": {
+  "answer": "B",
+  "rationale": "A user-assigned managed identity gives multiple VMs one auto-managed identity that can be granted privileges."
+ },
+ "AZ-400|T4|Q66": {
+  "answer": "B",
+  "rationale": "Recreate the secret at the repository level so all workflows can use it (environment-level scopes to one environment)."
+ },
+ "AZ-400|T4|Q68": {
+  "answer": "C",
+  "rationale": "A user-assigned managed identity shared by the three servers minimizes permission grants (one grant) with least privilege."
+ },
+ "AZ-400|T4|Q69": {
+  "answer": "A",
+  "rationale": "Microsoft Defender for Containers scans images for vulnerabilities before deployment to Kubernetes."
+ },
+ "AZ-400|T4|Q71": {
+  "answer": "A",
+  "rationale": "Mend Bolt (formerly WhiteSource Bolt) finds security vulnerabilities in open-source dependencies."
+ },
+ "AZ-400|T4|Q72": {
+  "answer": "AE",
+  "rationale": "Dependabot scans when the dependency graph changes (A) and when a new security advisory is added (E)."
+ },
+ "AZ-400|T4|Q76": {
+  "answer": "C",
+  "rationale": "GitHub's encrypted-secrets REST API requires sealing secrets with libsodium."
+ },
+ "AZ-400|T4|Q78": {
+  "answer": "B",
+  "rationale": "Add a branch policy status check on the main branch so the custom security validation must pass before deployment."
+ },
+ "AZ-400|T5|Q1": {
+  "answer": "C",
+  "rationale": "SonarCloud provides continuous code inspection for known problematic patterns."
+ },
+ "AZ-400|T5|Q2": {
+  "answer": "A",
+  "rationale": "Yes. Reducing code coupling and dependency cycles reduces technical debt."
+ },
+ "AZ-400|T5|Q3": {
+  "answer": "BC",
+  "rationale": "Integrate SonarQube (C) for quality/debt analysis and use pre-deployment approvals (B) to gate on it."
+ },
+ "AZ-400|T5|Q4": {
+  "answer": "A",
+  "rationale": "For a Java/Gradle project, add the Gradle task (it runs SonarQube analysis)."
+ },
+ "AZ-400|T5|Q6": {
+  "answer": "C",
+  "rationale": "For a Java/Maven project, add the Maven task to run SonarQube analysis."
+ },
+ "AZ-400|T5|Q8": {
+  "answer": "B",
+  "rationale": "Integrate Azure DevOps with SonarQube to manage technical debt."
+ },
+ "AZ-400|T5|Q11": {
+  "answer": "B",
+  "rationale": "For a Maven (Java) build, select Run PMD to detect unused variables and empty catch blocks."
+ },
+ "AZ-400|T5|Q12": {
+  "answer": "ABE",
+  "rationale": "Create a feed (B), publish the package to it (A), and add the feed URL to NuGet Package Manager in Visual Studio (E)."
+ },
+ "AZ-400|T5|Q13": {
+  "answer": "AB",
+  "rationale": "git filter-branch (A) and BFG Repo-Cleaner (B) both remove a file and its history."
+ },
+ "AZ-400|T5|Q14": {
+  "answer": "CE",
+  "rationale": "Use 'Never assign certain team members' to exclude the team leader (C) and set Load balance routing (E) to equalize reviews."
+ },
+ "AZ-400|T5|Q15": {
+  "answer": "D",
+  "rationale": "Use 'Import a Git repository' in Azure Repos to clone from GitHub."
+ },
+ "AZ-400|T5|Q16": {
+  "answer": "B",
+  "rationale": "No. Increasing code duplication increases technical debt."
+ },
+ "AZ-400|T5|Q17": {
+  "answer": "B",
+  "rationale": "No (per the series scoring): increasing test coverage helps quality but is not the recommended debt-reduction change in this set's answer key."
+ },
+ "AZ-400|T5|Q18": {
+  "answer": "A",
+  "rationale": "Yes. Reducing code complexity reduces technical debt."
+ },
+ "AZ-400|T5|Q19": {
+  "answer": "A",
+  "rationale": "In a Maven build task select Run PMD to detect unused variables/empty catch blocks in Java."
+ },
+ "AZ-400|T5|Q20": {
+  "answer": "B",
+  "rationale": "Create a new (public) feed for the package to share it with anonymous external users with minimal publication points. NOTE: community voted B; verify against current Azure Artifacts public-feed behavior."
+ },
+ "AZ-400|T5|Q21": {
+  "answer": "AC",
+  "rationale": "Clear 'Automatically watch teams' (A) and 'Automatically watch repositories' (C) so you're only notified for participation/mentions."
+ },
+ "AZ-400|T5|Q22": {
+  "answer": "C",
+  "rationale": "Configure the Automation account's Source control settings to auto-sync and publish the runbook on commit."
+ },
+ "AZ-400|T5|Q23": {
+  "answer": "BD",
+  "rationale": "Add the non-default branch to on:push in the workflow (B) and update the PR code to re-trigger (D)."
+ },
+ "AZ-400|T5|Q25": {
+  "answer": "B",
+  "rationale": "Reference a SHA-based hash to pin a fixed, immutable template version."
+ },
+ "AZ-400|T5|Q34": {
+  "answer": "B",
+  "rationale": "Use the Microsoft Teams for GitHub app and subscribe the channel to commit notifications (minimal effort)."
+ },
+ "AZ-400|T5|Q35": {
+  "answer": "C",
+  "rationale": "A (client-side) hook/webhook mechanism runs the script before the rebase operation."
+ },
+ "AZ-400|T5|Q38": {
+  "answer": "B",
+  "rationale": "A bug fix on the current 11.2.0 line bumps the patch to 11.2.1 under SemVer."
+ },
+ "AZ-400|T5|Q40": {
+  "answer": "B",
+  "rationale": "Dependabot alerts notify owners of vulnerable dependencies/malware."
+ },
+ "AZ-400|T5|Q41": {
+  "answer": "D",
+  "rationale": "On a public repo, the secret scanning partner is notified first when a matching pattern is committed."
+ },
+ "AZ-400|T5|Q42": {
+  "answer": "C",
+  "rationale": "CodeQL actions scan all repository code for vulnerabilities."
+ },
+ "AZ-400|T5|Q44": {
+  "answer": "B",
+  "rationale": "git clone --filter=blob:none does a partial (blobless) clone that keeps full history for searching /src while minimizing clone time."
+ },
+ "AZ-400|T5|Q45": {
+  "answer": "AD",
+  "rationale": "Proxying an upstream feed cushions upstream availability outages (A) and avoids consuming your storage quota for upstream packages (D)."
+ },
+ "AZ-400|T5|Q46": {
+  "answer": "A",
+  "rationale": "BFG Repo-Cleaner removes a large/sensitive file from history and shrinks the repo."
+ },
+ "AZ-400|T5|Q49": {
+  "answer": "A",
+  "rationale": "Branch policies enforce linked work items, build validation and required reviewers."
+ },
+ "AZ-400|T5|Q50": {
+  "answer": "BE",
+  "rationale": "Use Git LFS for the versioned 3-GB file tied to commits (B); alternatively store in Azure blob with versioning (E)."
+ },
+ "AZ-400|T5|Q51": {
+  "answer": "CE",
+  "rationale": "bfg --delete-files (C) and git filter-repo --invert-paths (E) both purge the file from history."
+ },
+ "AZ-400|T5|Q52": {
+  "answer": "D",
+  "rationale": "Push a GitHub Actions CodeQL workflow to the repositories to enable code scanning."
+ },
+ "AZ-400|T5|Q54": {
+  "answer": "BC",
+  "rationale": "git tag v3.0.5 (C) creates the tag; git push origin v3.0.5 (B) publishes it to the remote."
+ },
+ "AZ-400|T5|Q55": {
+  "answer": "DE",
+  "rationale": "Create a main-branch protection rule (D) requiring review and a CODEOWNERS file (E) assigning the security team as required reviewers."
+ },
+ "AZ-400|T6|Q1": {
+  "answer": "C",
+  "rationale": "Teams own Epics and Features autonomously while contributing to shared higher-level goals."
+ },
+ "AZ-400|T6|Q2": {
+  "answer": "A",
+  "rationale": "Kanban boards visualize the flow of work in an agile methodology."
+ },
+ "AZ-400|T6|Q3": {
+  "answer": "CDE",
+  "rationale": "Blameless retrospectives ask what went well (D), what could have gone better (C), and what to try next (E) - not who to blame."
+ },
+ "AZ-400|T6|Q4": {
+  "answer": "D",
+  "rationale": "A single long-running (main) branch with short-lived feature branches supports parallel work, releasable main, abandonable features and experimentation."
+ },
+ "AZ-400|T6|Q5": {
+  "answer": "B",
+  "rationale": "No. The build-completed event fires on build, not on developer commits to a branch; use a code-pushed event."
+ },
+ "AZ-400|T6|Q6": {
+  "answer": "D",
+  "rationale": "Jira integrates with Azure DevOps for work-item tracking and deployment status with minimal effort among the options."
+ },
+ "AZ-400|T6|Q7": {
+  "answer": "D",
+  "rationale": "GitHub Codespaces is a browser-accessible (tablet/Chromebook) cloud dev environment with debugging and GitHub integration."
+ },
+ "AZ-400|T6|Q8": {
+  "answer": "B",
+  "rationale": "No. An email subscription notifies people, not Jenkins; use a service hook with the code-pushed event."
+ },
+ "AZ-400|T6|Q9": {
+  "answer": "A",
+  "rationale": "Yes. A service hook subscription using the code-pushed event notifies Jenkins on commits."
+ },
+ "AZ-400|T6|Q10": {
+  "answer": "B",
+  "rationale": "No. A build pipeline trigger builds on commit; it does not send the notification to Jenkins."
+ },
+ "AZ-400|T6|Q11": {
+  "answer": "B",
+  "rationale": "Git is distributed, so developers have the full history offline."
+ },
+ "AZ-400|T6|Q12": {
+  "answer": "D",
+  "rationale": "Visual Studio Codespaces is the browser-accessible cloud dev environment meeting all requirements."
+ },
+ "AZ-400|T6|Q13": {
+  "answer": "D",
+  "rationale": "Create a service hook subscription to send build notifications to the Slack channel."
+ },
+ "AZ-400|T6|Q14": {
+  "answer": "BD",
+  "rationale": "Create a logic app with an HTTP request trigger (B) and point an Azure Monitor action group webhook at it (D) to post to Teams."
+ },
+ "AZ-400|T6|Q16": {
+  "answer": "C",
+  "rationale": "A code wiki needs a Git repository first; create a repo in Project1."
+ },
+ "AZ-400|T6|Q17": {
+  "answer": "D",
+  "rationale": "Microsoft Teams provides channels with history, cross-platform clients, guest access and Azure DevOps integration."
+ },
+ "AZ-400|T6|Q18": {
+  "answer": "B",
+  "rationale": "Application Insights availability tests email the team when the front end stops returning 200."
+ },
+ "AZ-400|T6|Q19": {
+  "answer": "A",
+  "rationale": "Create a .order file at the wiki root to control page ordering in the navigation pane."
+ },
+ "AZ-400|T6|Q21": {
+  "answer": "D",
+  "rationale": "Slack offers channels with history, cross-platform clients, guest access and Azure DevOps integration."
+ },
+ "AZ-400|T6|Q22": {
+  "answer": "AE",
+  "rationale": "Compile-time template parameters use the ${{ }} syntax: ${{parameters.outputfile}} (A) and ${{parameters['outputfile']}} (E)."
+ },
+ "AZ-400|T6|Q23": {
+  "answer": "B",
+  "rationale": "Use a Docker Registry service connection to pull a public container image."
+ },
+ "AZ-400|T6|Q24": {
+  "answer": "D",
+  "rationale": "Run '@azure boards link' first to connect the channel to the board (then create work items)."
+ },
+ "AZ-400|T6|Q25": {
+  "answer": "D",
+  "rationale": "Azure Repos commit keyword 'Fixes #123' transitions the work item to Resolved."
+ },
+ "AZ-400|T6|Q26": {
+  "answer": "A",
+  "rationale": "Export AzLog logs in JSON format for LogRhythm ingestion via the storage account."
+ },
+ "AZ-400|T6|Q28": {
+  "answer": "CE",
+  "rationale": "AB# linking works from the PR title (C) and description (E)."
+ },
+ "AZ-400|T6|Q30": {
+  "answer": "DE",
+  "rationale": "Azure Boards authenticates to GitHub via GitHub username/password credentials (D) or a personal access token (E)."
+ },
+ "AZ-400|T6|Q31": {
+  "answer": "B",
+  "rationale": "Use AB#715 in the GitHub commit to update the linked Azure Boards work item."
+ },
+ "AZ-400|T6|Q32": {
+  "answer": "A",
+  "rationale": "Cycle time measures from work start to closed (lead time is creation to closed)."
+ },
+ "AZ-400|T6|Q33": {
+  "answer": "A",
+  "rationale": "In Azure Repos, 'Fixes #456, #457, #458' links all three and resolves them (matches this item's key)."
+ },
+ "AZ-400|T6|Q34": {
+  "answer": "B",
+  "rationale": "CODEOWNERS lives in the .github/ directory (or repo root)."
+ },
+ "AZ-400|T6|Q36": {
+  "answer": "D",
+  "rationale": "For GitHub-linked boards, '#AB456, #AB457, #AB458 Completed #AB456' links all and completes 456."
+ },
+ "AZ-400|T6|Q37": {
+  "answer": "A",
+  "rationale": "az acr task run triggers an existing ACR Task immediately."
+ },
+ "AZ-400|T6|Q38": {
+  "answer": "A",
+  "rationale": "'#AB456, #AB457, #AB458 Completed #AB456' links all three and sets 456 to done (GitHub-linked board)."
+ },
+ "AZ-400|T6|Q39": {
+  "answer": "B",
+  "rationale": "Add a Successor link on itemA pointing to itemB to express the dependency."
+ },
+ "AZ-400|T6|Q40": {
+  "answer": "B",
+  "rationale": "Add a Successor link from itemA to itemB to define the dependency."
+ },
+ "AZ-400|T6|Q41": {
+  "answer": "C",
+  "rationale": "Both services support webhook notifications for build status changes."
+ },
+ "AZ-400|T6|Q43": {
+  "answer": "C",
+  "rationale": "Create a (Slack) subscription so a successful build posts to the incoming webhook channel."
+ },
+ "AZ-400|T6|Q44": {
+  "answer": "AB",
+  "rationale": "Link via the work item's Development > Add link with the PR URL (A), or add #AB123 to the PR description (B)."
+ },
+ "AZ-400|T6|Q46": {
+  "answer": "D",
+  "rationale": "From itemA, add a Successor link to itemB to define the dependency."
+ },
+ "AZ-400|T6|Q47": {
+  "answer": "D",
+  "rationale": "Cycle time tracks how long to close a work item once work has commenced."
+ },
+ "AZ-400|T6|Q48": {
+  "answer": "D",
+  "rationale": "'Fixes #123' in an Azure Repos commit resolves the work item."
+ },
+ "AZ-400|T6|Q49": {
+  "answer": "AB",
+  "rationale": "Link from the work item's Development settings with the commit URL (A), or add AB#123 to the commit message (B)."
+ },
+ "AZ-400|T6|Q50": {
+  "answer": "C",
+  "rationale": "Install the Azure Boards app for GitHub first to surface board status in README."
+ },
+ "AZ-400|T6|Q51": {
+  "answer": "A",
+  "rationale": "Among the (malformed) options, '#123 fixed' is the closest valid Azure Repos transition keyword to resolve the item."
+ },
+ "AZ-400|T6|Q52": {
+  "answer": "B",
+  "rationale": "Add a Successor link from itemA to itemB to define the dependency."
+ },
+ "AZ-400|T7|Q2": {
+  "answer": "C",
+  "rationale": "Use 'extends: template: template1.yml' so the template wraps and runs before the user steps."
+ },
+ "AZ-400|T7|Q3": {
+  "answer": "D",
+  "rationale": "Intermittent start delays are queue waits; purchase an additional parallel job to start sooner."
+ },
+ "AZ-400|T7|Q4": {
+  "answer": "B",
+  "rationale": "No. A Microsoft-hosted agent cannot reach the on-premises dependency system."
+ },
+ "AZ-400|T7|Q5": {
+  "answer": "B",
+  "rationale": "Azure DevOps uses a personal access token (PAT) to authenticate with a third-party CI tool."
+ },
+ "AZ-400|T7|Q7": {
+  "answer": "B",
+  "rationale": "No. An Octopus Tentacle is for deployment, not for building with on-prem dependency access into Server artifacts."
+ },
+ "AZ-400|T7|Q8": {
+  "answer": "A",
+  "rationale": "Yes. A self-hosted on-prem agent in the Default pool can reach the on-prem dependency system and publish Server artifacts."
+ },
+ "AZ-400|T7|Q9": {
+  "answer": "B",
+  "rationale": "No. A hosted agent cannot access the on-premises dependency management system."
+ },
+ "AZ-400|T7|Q10": {
+  "answer": "B",
+  "rationale": "No. A hosted Ubuntu agent cannot reach the on-premises dependency system."
+ },
+ "AZ-400|T7|Q11": {
+  "answer": "A",
+  "rationale": "Squash merge consolidates a topic branch's commits into a single commit on master."
+ },
+ "AZ-400|T7|Q12": {
+  "answer": "CDE",
+  "rationale": "Create a PAT in Azure DevOps (D), add it to Jenkins (C), and create a service hook in Azure DevOps (E)."
+ },
+ "AZ-400|T7|Q14": {
+  "answer": "C",
+  "rationale": "JaCoCo provides Java code coverage that publishes to the pipeline."
+ },
+ "AZ-400|T7|Q17": {
+  "answer": "A",
+  "rationale": "Cobertura is a supported Java code-coverage format to publish to the pipeline."
+ },
+ "AZ-400|T7|Q18": {
+  "answer": "A",
+  "rationale": "A self-hosted agent preserves the working directory between runs, enabling incremental builds."
+ },
+ "AZ-400|T7|Q20": {
+  "answer": "D",
+  "rationale": "Contributor lets the PM create and share work item queries (least privilege vs admin)."
+ },
+ "AZ-400|T7|Q21": {
+  "answer": "A",
+  "rationale": "ARM templates plus the PowerShell DSC extension keep VMs consistently configured with low effort."
+ },
+ "AZ-400|T7|Q22": {
+  "answer": "B",
+  "rationale": "Upstream sources let one feed combine your packages with public/authenticated remote feeds."
+ },
+ "AZ-400|T7|Q27": {
+  "answer": "A",
+  "rationale": "Branch policies on the default branch enforce PRs, required reviewers and feature-branch workflow."
+ },
+ "AZ-400|T7|Q28": {
+  "answer": "B",
+  "rationale": "No. Fast-forward merges keep all individual commits, not reducing history volume."
+ },
+ "AZ-400|T7|Q29": {
+  "answer": "A",
+  "rationale": "Yes. Squash merges collapse PR commits into one, reducing master history volume."
+ },
+ "AZ-400|T7|Q30": {
+  "answer": "B",
+  "rationale": "No. An explicit (merge-commit) merge keeps all commits plus a merge commit."
+ },
+ "AZ-400|T7|Q31": {
+  "answer": "B",
+  "rationale": "No. A three-way merge retains the full commit history."
+ },
+ "AZ-400|T7|Q32": {
+  "answer": "A",
+  "rationale": "Multi-stage Docker builds minimize final image size and attack surface by excluding build tooling."
+ },
+ "AZ-400|T7|Q33": {
+  "answer": "A",
+  "rationale": "Use a smaller base image on the FROM line (line 1) to minimize image size. NOTE: depends on the exhibit; verify the FROM line number."
+ },
+ "AZ-400|T7|Q34": {
+  "answer": "B",
+  "rationale": "No. 'Batch changes' tunes CI batching but is not what enables a build to run on check-in (Enable continuous integration is)."
+ },
+ "AZ-400|T7|Q36": {
+  "answer": "A",
+  "rationale": "Configure the File System Agent plug-in to report only explicitly referenced libraries."
+ },
+ "AZ-400|T7|Q37": {
+  "answer": "A",
+  "rationale": "Scan images in the CI pipeline (earliest) plus a scheduled scan of the image registry."
+ },
+ "AZ-400|T7|Q38": {
+  "answer": "D",
+  "rationale": "Run self-hosted agents on VMs in Azure Stack so the hybrid build supports Erlang/Hack with minimal overhead."
+ },
+ "AZ-400|T7|Q39": {
+  "answer": "DE",
+  "rationale": "Create a PAT in Azure DevOps (D) and run config.cmd on the build server to register the agent (E)."
+ },
+ "AZ-400|T7|Q40": {
+  "answer": "ACD",
+  "rationale": "A service principal connection needs the tenant ID (A), client secret (C) and app/client ID (D)."
+ },
+ "AZ-400|T7|Q42": {
+  "answer": "C",
+  "rationale": "A multi-stage Dockerfile runs tests in a build stage without publishing results to the pipeline."
+ },
+ "AZ-400|T7|Q43": {
+  "answer": "D",
+  "rationale": "Percentage of time spent on rework is a meaningful technical-debt metric."
+ },
+ "AZ-400|T7|Q44": {
+  "answer": "B",
+  "rationale": "Use the GitHub App authentication to support the GitHub Checks API."
+ },
+ "AZ-400|T7|Q45": {
+  "answer": "B",
+  "rationale": "No. A release pipeline PR trigger does not cause a build to run on code check-in."
+ },
+ "AZ-400|T7|Q46": {
+  "answer": "B",
+  "rationale": "No. Release pre-deployment 'After stage' does not trigger a build on check-in."
+ },
+ "AZ-400|T7|Q47": {
+  "answer": "B",
+  "rationale": "No. 'Batch changes' on release pre-deployment conditions does not trigger a build on check-in."
+ },
+ "AZ-400|T7|Q50": {
+  "answer": "CE",
+  "rationale": "Increase parallel jobs (C) and add an agent pool (E) so the 10 architecture jobs run concurrently."
+ },
+ "AZ-400|T7|Q51": {
+  "answer": "B",
+  "rationale": "Configure flaky tests so unreliable third-party-dependent tests don't fail the build."
+ },
+ "AZ-400|T7|Q53": {
+  "answer": "A",
+  "rationale": "Yes. Enabling continuous integration on the build pipeline triggers a build on check-in."
+ },
+ "AZ-400|T7|Q54": {
+  "answer": "AC",
+  "rationale": "Full .NET Framework container builds need Windows images: vs2017-win2016 (A) and win1803 (C)."
+ },
+ "AZ-400|T7|Q56": {
+  "answer": "B",
+  "rationale": "Deployment queue settings can deploy only the latest build when several are pending."
+ },
+ "AZ-400|T7|Q57": {
+  "answer": "D",
+  "rationale": "Static code analysis runs during the build phase."
+ },
+ "AZ-400|T7|Q62": {
+  "answer": "A",
+  "rationale": "Rebase rewrites history to bring the experimentation branch changes onto main."
+ },
+ "AZ-400|T7|Q63": {
+  "answer": "A",
+  "rationale": "Yes. A custom container image with packages preinstalled removes the npm install time."
+ },
+ "AZ-400|T7|Q64": {
+  "answer": "A",
+  "rationale": "Yes. Pipeline caching of npm packages reduces repeated install time."
+ },
+ "AZ-400|T7|Q66": {
+  "answer": "B",
+  "rationale": "No. Two standalone templates require two separate deployments; a single linked/main template is the intended solution."
+ },
+ "AZ-400|T7|Q67": {
+  "answer": "B",
+  "rationale": "No. A single template cannot target two different resource groups in one deployment."
+ },
+ "AZ-400|T7|Q68": {
+  "answer": "B",
+  "rationale": "No. A Kubernetes/Helm deployment is not the way to copy build artifacts onto generic on-prem servers."
+ },
+ "AZ-400|T7|Q69": {
+  "answer": "B",
+  "rationale": "No. A Docker build doesn't deploy arbitrary artifacts to on-prem servers via a self-hosted agent download."
+ },
+ "AZ-400|T7|Q70": {
+  "answer": "A",
+  "rationale": "Yes. A self-hosted agent on the on-prem server with a Download/Publish Artifacts task deploys the artifacts."
+ },
+ "AZ-400|T7|Q71": {
+  "answer": "C",
+  "rationale": "Create an ACR Task that auto-rebuilds Image1 when its Docker Hub base image updates."
+ },
+ "AZ-400|T7|Q72": {
+  "answer": "B",
+  "rationale": "No (per this series' key): the Octopus polled-Tentacle option is marked as not meeting the goal here."
+ },
+ "AZ-400|T7|Q73": {
+  "answer": "B",
+  "rationale": "No. A main+nested template still deploys both groups but the keyed correct design is separate linked templates per group."
+ },
+ "AZ-400|T7|Q74": {
+  "answer": "A",
+  "rationale": "Yes. A main template with two linked templates, one per resource group, correctly deploys both."
+ },
+ "AZ-400|T7|Q76": {
+  "answer": "B",
+  "rationale": "Feed views (@prerelease/@release) release multiple builds from one feed while limiting in-development packages."
+ },
+ "AZ-400|T7|Q77": {
+  "answer": "D",
+  "rationale": "Use container jobs so the two pipelines' conflicting dependencies are isolated, reusing the same agent (minimal cost)."
+ },
+ "AZ-400|T7|Q79": {
+  "answer": "D",
+  "rationale": "License procurement must be done manually; memberships, user adds and entitlements can be automated."
+ },
+ "AZ-400|T7|Q81": {
+  "answer": "D",
+  "rationale": "For a Java project, add the Gradle task to run SonarQube analysis."
+ },
+ "AZ-400|T7|Q82": {
+  "answer": "A",
+  "rationale": "For a Java/Maven project, add the Maven task to run SonarQube analysis."
+ },
+ "AZ-400|T7|Q83": {
+  "answer": "B",
+  "rationale": "Add a post-deployment task that runs a security and compliance assessment to verify Policy1 compliance."
+ },
+ "AZ-400|T7|Q85": {
+  "answer": "C",
+  "rationale": "Install the Azure Repos app for Teams and subscribe to PR notifications (minimal effort)."
+ },
+ "AZ-400|T7|Q87": {
+  "answer": "D",
+  "rationale": "Create @prerelease and @release views, set @release default, and promote packages to @release after testing."
+ },
+ "AZ-400|T7|Q88": {
+  "answer": "A",
+  "rationale": "Create an @release view set as default and promote packages to it after they pass tests (minimal effort)."
+ },
+ "AZ-400|T7|Q89": {
+  "answer": "B",
+  "rationale": "Modify the pipeline's retention settings to reduce disk used by older packages/artifacts."
+ },
+ "AZ-400|T8|Q5": {
+  "answer": "D",
+  "rationale": "Use Azure DevTest Labs release tasks to auto-create/delete VMs from the ARM template, minimizing cost."
+ },
+ "AZ-400|T8|Q9": {
+  "answer": "C",
+  "rationale": "Cherry-pick creates a new branch with only the selected commits from the pull request."
+ },
+ "AZ-400|T8|Q11": {
+  "answer": "B",
+  "rationale": "Azure Container Instances run the short daily job and stop, minimizing cost vs always-on VMs."
+ },
+ "AZ-400|T8|Q13": {
+  "answer": "C",
+  "rationale": "Use the Azure PowerShell (or ARM template deployment) task to deploy the Visual Studio Resource Group project. NOTE: community voted C; an ARM template deployment task is also valid - verify."
+ },
+ "AZ-400|T8|Q16": {
+  "answer": "A",
+  "rationale": "Modify the pipeline's Integrations options to automatically add release info to associated work items."
+ },
+ "AZ-400|T8|Q18": {
+  "answer": "D",
+  "rationale": "Helm v2 requires Tiller installed in the AKS namespace for the deploy task."
+ },
+ "AZ-400|T8|Q22": {
+  "answer": "BD",
+  "rationale": "Terraform tooling on Windows here uses Node.js (C) and Yeoman (D) per the keyed answer. NOTE: community voted B/D - verify against the exact option set."
+ },
+ "AZ-400|T8|Q28": {
+  "answer": "B",
+  "rationale": "No. 'Time between re-evaluation of gates' is for gates, not the approval timeout."
+ },
+ "AZ-400|T8|Q29": {
+  "answer": "B",
+  "rationale": "No. Gate re-evaluation time doesn't control the approval timeout."
+ },
+ "AZ-400|T8|Q30": {
+  "answer": "A",
+  "rationale": "Yes. Modify the pre-deployment approval Timeout setting to allow up to eight hours."
+ },
+ "AZ-400|T8|Q32": {
+  "answer": "B",
+  "rationale": "No. The failing approval is pre-deployment, so changing the post-deployment timeout doesn't help."
+ },
+ "AZ-400|T8|Q34": {
+  "answer": "C",
+  "rationale": "Purchasing self-hosted parallel jobs lets the existing on-prem agents run more builds concurrently."
+ },
+ "AZ-400|T8|Q36": {
+  "answer": "B",
+  "rationale": "The Azure SQL Database Deployment task deploys a DACPAC."
+ },
+ "AZ-400|T8|Q38": {
+  "answer": "BD",
+  "rationale": "Add a ServiceNow pre-deployment gate before Prod (B) or a post-deployment gate after QA (D) to enforce change management."
+ },
+ "AZ-400|T8|Q39": {
+  "answer": "A",
+  "rationale": "A feature flag lets you ship App1 with the new service disabled and enable it once App2 is live."
+ },
+ "AZ-400|T8|Q40": {
+  "answer": "B",
+  "rationale": "Register the devices on the Apple Developer portal so the unprovisioned ones can install the iOS app."
+ },
+ "AZ-400|T8|Q41": {
+  "answer": "EF",
+  "rationale": "Register the device IDs in the Apple Developer portal (F) and distribute a new release to the devices (E)."
+ },
+ "AZ-400|T8|Q42": {
+  "answer": "A",
+  "rationale": "Select 'Register devices and sign my app' so App Center provisions and re-signs for the unprovisioned devices."
+ },
+ "AZ-400|T8|Q44": {
+  "answer": "DE",
+  "rationale": "A self-hosted agent (D) reaches the firewalled Bitbucket server and an External Git service connection (E) links it to Azure DevOps."
+ },
+ "AZ-400|T8|Q46": {
+  "answer": "AD",
+  "rationale": "An unattended agent config needs authorization credentials/PAT (A) and the organization URL (D)."
+ },
+ "AZ-400|T8|Q49": {
+  "answer": "B",
+  "rationale": "Enable 'Batch changes' so the system waits for the current build to finish before queuing the next."
+ },
+ "AZ-400|T8|Q50": {
+  "answer": "B",
+  "rationale": "git commit --no-verify bypasses the client-side commit-msg hook."
+ },
+ "AZ-400|T8|Q51": {
+  "answer": "A",
+  "rationale": "Select 'Register devices and sign my app' to distribute to provisioned and unprovisioned devices."
+ },
+ "AZ-400|T8|Q54": {
+  "answer": "A",
+  "rationale": "Register the devices on the Apple Developer portal so the iOS app can install on unprovisioned devices."
+ },
+ "AZ-400|T8|Q55": {
+  "answer": "B",
+  "rationale": "Use PyPI as the upstream source repository type for Python packages."
+ },
+ "AZ-400|T9|Q5": {
+  "answer": "A",
+  "rationale": "A single web app with two deployment slots gives near-zero-downtime swaps and instant rollback by swapping back."
+ },
+ "AZ-400|T9|Q6": {
+  "answer": "A",
+  "rationale": "A bug fix on the 3.4.x line bumps the patch to 3.4.4 under SemVer."
+ },
+ "AZ-400|T9|Q7": {
+  "answer": "B",
+  "rationale": "Playwright is a modern framework for automated web UI testing."
+ },
+ "AZ-400|T9|Q8": {
+  "answer": "B",
+  "rationale": "Azure Artifacts resolves to the highest non-prerelease stable version available (1.4.0 here, given 2.x are prerelease)."
+ },
+ "AZ-400|T9|Q11": {
+  "answer": "BD",
+  "rationale": "Query the TaskAgentPoolSizeSnapshots endpoint (B) or view the org-level pool consumption report (D) to detect pool exhaustion."
+ },
+ "AZ-400|T9|Q12": {
+  "answer": "D",
+  "rationale": "Configure a deployment gate with the Security and compliance assessment task to enforce Azure Policy before prod."
+ },
+ "AZ-400|T9|Q14": {
+  "answer": "A",
+  "rationale": "Yes. Flaky test management minimizes effort on intermittent, source-unrelated test failures."
+ },
+ "AZ-400|T9|Q15": {
+  "answer": "B",
+  "rationale": "No. A Test Results Trend widget visualizes trends but doesn't reduce flaky-test troubleshooting."
+ },
+ "AZ-400|T9|Q16": {
+  "answer": "B",
+  "rationale": "No. TIA selects which tests to run; it doesn't address intermittent flaky failures."
+ },
+ "AZ-400|T9|Q17": {
+  "answer": "B",
+  "rationale": "'**/* ' includes everything recursively and '!*.dll' excludes DLLs in an .artifactignore file."
+ },
+ "AZ-400|T9|Q19": {
+  "answer": "B",
+  "rationale": "No. Increasing code coverage does not reduce flaky-test troubleshooting effort."
+ },
+ "AZ-400|T9|Q20": {
+  "answer": "D",
+  "rationale": "Intermittent timeouts from queueing are best addressed by purchasing more parallel jobs (minimal effort)."
+ },
+ "AZ-400|T9|Q21": {
+  "answer": "B",
+  "rationale": "Assign the Deployment Environments User role so User1 can provision an environment (least privilege)."
+ },
+ "AZ-400|T9|Q25": {
+  "answer": "D",
+  "rationale": "An Azure Pipelines deployment gate evaluates performance baselines before releasing (minimal effort)."
+ },
+ "AZ-400|T9|Q27": {
+  "answer": "C",
+  "rationale": "Define modules first so Template3 can reuse logic from Template1 and Template2."
+ },
+ "AZ-400|T9|Q28": {
+  "answer": "A",
+  "rationale": "Create a service principal first so the self-hosted agent VMs can authenticate to Azure for Bicep deployments."
+ },
+ "AZ-400|T9|Q31": {
+  "answer": "D",
+  "rationale": "Blue/green lets users test the new version via a specific (staging) URL, swap to promote, and swap back to revert quickly."
+ },
+ "AZ-400|T9|Q32": {
+  "answer": "C",
+  "rationale": "For a GitHub-linked board, 'Fixes #AB456, #AB457, #AB458' links all and sets state. NOTE: community voted C; the AB# form is the GitHub-linking syntax - verify exact option text."
+ },
+ "AZ-400|T9|Q33": {
+  "answer": "A",
+  "rationale": "Progressive exposure (ring-based) gradually rolls out and controls how many users get new code."
+ },
+ "AZ-400|T9|Q35": {
+  "answer": "AC",
+  "rationale": "Review the agent pool historical graph (A) or query the TaskAgentPoolSizeSnapshots endpoint (C)."
+ },
+ "AZ-400|T9|Q37": {
+  "answer": "A",
+  "rationale": ".trx result files are the VSTest format."
+ },
+ "AZ-400|T9|Q38": {
+  "answer": "C",
+  "rationale": "Test Impact Analysis runs only the tests affected by the change, cutting time while preserving coverage."
+ },
+ "AZ-400|T9|Q39": {
+  "answer": "B",
+  "rationale": "Add a post-deployment gate on the Production-A stage that queries Azure Monitor for active alerts before marking complete."
+ },
+ "AZ-400|T9|Q40": {
+  "answer": "D",
+  "rationale": "@Local/@Latest/@Release exist by default-ish; the @Prerelease view must be created manually. NOTE: community voted D; verify against current default Artifacts views."
+ },
+ "AZ-400|T9|Q41": {
+  "answer": "A",
+  "rationale": "Use a smaller base image on the FROM line to minimize image size. NOTE: depends on the exhibit; verify the FROM line number."
+ },
+ "AZ-400|T9|Q42": {
+  "answer": "D",
+  "rationale": "Add a check on the Staging environment that queries Azure Monitor Alerts before promoting to Production (minimal effort)."
+ },
+ "AZ-400|T9|Q43": {
+  "answer": "B",
+  "rationale": "No (per this YAML series' key); the shown dependsOn/condition layout does not satisfy all four ordering requirements."
+ },
+ "AZ-400|T9|Q44": {
+  "answer": "B",
+  "rationale": "No (per this YAML series' key); the shown layout fails one of the ordering/always-run requirements."
+ },
+ "AZ-400|T9|Q45": {
+  "answer": "A",
+  "rationale": "Yes (per this YAML series' key); the shown dependsOn with condition: always() for Publish_Test_Results meets the requirements."
+ },
+ "AZ-400|T9|Q47": {
+  "answer": "C",
+  "rationale": "A pre-deployment gate can query Azure Boards for active work items before deploying to production."
+ },
+ "AZ-400|T9|Q48": {
+  "answer": "A",
+  "rationale": "Bicep uses iif() for inline conditionals: iif(isComplete, '1a', '2a')."
+ },
+ "AZ-400|T9|Q49": {
+  "answer": "B",
+  "rationale": "No (per this trigger series' key); the shown trigger/pr+path layout does not meet 'only on PR with /webapp change'."
+ },
+ "AZ-400|T9|Q50": {
+  "answer": "B",
+  "rationale": "No (per this trigger series' key); the shown layout does not satisfy the PR + path-filter requirement."
+ },
+ "AZ-400|T9|Q51": {
+  "answer": "B",
+  "rationale": "No (per this trigger series' key); the shown elements do not correctly restrict to PR + /webapp path."
+ },
+ "AZ-400|T9|Q58": {
+  "answer": "A",
+  "rationale": "Yes (per this test series' key); the shown YAML fails on test failure, publishes results, and runs unless cancelled."
+ },
+ "AZ-400|T9|Q59": {
+  "answer": "B",
+  "rationale": "No (per this test series' key); the shown YAML misses one of the fail/publish/always-run requirements."
+ },
+ "AZ-400|T9|Q61": {
+  "answer": "AD",
+  "rationale": "Free parallel jobs are granted to public projects and (limited) to qualifying private projects per the exhibit; Project1 and Project2 meet the criteria. NOTE: depends on the table - verify."
+ },
+ "AZ-400|T9|Q63": {
+  "answer": "B",
+  "rationale": "Configure a branch policy on the main branch requiring the >90% code-coverage check before merge."
+ },
+ "AZ-400|T9|Q65": {
+  "answer": "A",
+  "rationale": "Grant the permission at the pipeline level so User1 can delete the temporary stage (least privilege)."
+ },
+ "AZ-400|T12|Q1": {
+  "answer": "C",
+  "rationale": "Modify the LCM ConfigurationMode property to set how the node applies/corrects configuration."
+ },
+ "AZ-400|T14|Q1": {
+  "answer": "C",
+  "rationale": "Conditional Access policies in Azure AD control access to Azure DevOps per the requirements."
+ },
+ "AZ-400|T14|Q2": {
+  "answer": "D",
+  "rationale": "Use a personal access token (PAT) to authenticate Azure Pipelines for controlling the build."
+ },
+ "AZ-400|T15|Q2": {
+  "answer": "A",
+  "rationale": "git rebase replays the POC branch onto the default branch to meet the linear-history requirement. NOTE: community voted A; if a squash is required the answer would be merge --squash - verify against the requirements."
+ },
+ "AZ-400|T16|Q1": {
+  "answer": "B",
+  "rationale": "Use GitHub Importer to migrate the repository into GitHub."
+ },
+ "AZ-400|T17|Q2": {
+  "answer": "D",
+  "rationale": "Create the project in SonarQube first before wiring up the Azure DevOps service endpoint/analysis."
+ },
+ "AZ-400|T17|Q3": {
+  "answer": "C",
+  "rationale": "Add a Docker task to the build pipeline to build/push the container for Project4."
+ },
+ "AZ-400|T18|Q1": {
+  "answer": "A",
+  "rationale": "Change the ConfigurationMode parameter value so DSC enforces/auto-corrects configuration."
+ },
+ "AZ-400|T18|Q2": {
+  "answer": "D",
+  "rationale": "Feature isolation (short-lived feature branches off main) suits the suite's parallel, releasable workflow."
+ },
+ "AZ-400|T18|Q3": {
+  "answer": "B",
+  "rationale": "Use a deployment gate to enforce the code-quality restriction on the release pipeline."
+ },
+ "AZ-400|T19|Q2": {
+  "answer": "B",
+  "rationale": "Export the database as a BACPAC (schema + data) to prepare a new environment deployment."
+ },
+ "AZ-400|T19|Q3": {
+  "answer": "B",
+  "rationale": "Use Azure Application Insights to monitor App1 per the technical requirements."
+ },
+ "AZ-400|T7|Q1": {
+  "answer": "B",
+  "rationale": "No. A Microsoft-hosted agent cannot access the on-premises dependency management system."
+ },
+ "AZ-400|T7|Q65": {
+  "answer": "B",
+  "rationale": "No. Parallel jobs run jobs concurrently but do not remove the npm install time within a single job."
+ },
+ "AZ-400|T8|Q56": {
+  "answer": "ABD",
+  "rationale": "A GitHub action version can be pinned by SHA hash (A), tag (B) or branch (D)."
+ },
+ "AZ-400|T8|Q57": {
+  "answer": "A",
+  "rationale": "Analytics parses logs from multiple sources and helps identify root cause."
+ },
+ "AZ-400|T8|Q58": {
+  "answer": "B",
+  "rationale": "No. Pipeline artifacts pass files between stages; they do not eliminate the npm install time."
+ },
+ "AZ-400|T8|Q59": {
+  "answer": "BC",
+  "rationale": "Jekyll (B) and DocFX (C) compile Markdown into a static documentation website."
+ },
+ "AZ-400|T8|Q60": {
+  "answer": "C",
+  "rationale": "A service principal sign-in needs the application (client) ID, a client secret, and the tenant ID."
+ },
+ "AZ-400|T8|Q63": {
+  "answer": "D",
+  "rationale": "DSC structure is Configuration > Node > Resource."
+ },
+ "AZ-400|T8|Q64": {
+  "answer": "D",
+  "rationale": "Install the Azure Pipelines app for Teams and subscribe to failure notifications (minimal effort)."
+ },
+ "AZ-400|T8|Q68": {
+  "answer": "D",
+  "rationale": "Azure Traffic Manager gradually shifts a growing subset of users to environment2 (weighted routing)."
+ },
+ "AZ-400|T8|Q70": {
+  "answer": "D",
+  "rationale": "In CalVer, an optional tag like 'beta' goes in the modifier segment."
+ },
+ "AZ-400|T8|Q72": {
+  "answer": "A",
+  "rationale": "Create a task group so the three tasks can be reused across new pipelines. NOTE: for YAML pipelines a template is preferred; community voted C - verify per pipeline type."
+ },
+ "AZ-400|T8|Q74": {
+  "answer": "A",
+  "rationale": "Defect escape rate compares defects found in development vs those that escape to released code."
+ },
+ "AZ-400|T8|Q75": {
+  "answer": "B",
+  "rationale": "Pester is the PowerShell test framework for unit/integration testing DSC configurations."
+ },
+ "AZ-400|T8|Q76": {
+  "answer": "C",
+  "rationale": "A branch policy can require all PR comments to be resolved before completion (minimal effort)."
+ },
+ "AZ-400|T9|Q1": {
+  "answer": "A",
+  "rationale": "Use a smaller base image on the FROM line to minimize image size. NOTE: depends on the exhibit; verify the FROM line number."
+ },
+ "AZ-400|T9|Q2": {
+  "answer": "D",
+  "rationale": "Use container jobs to isolate the two pipelines' conflicting dependencies on one agent (minimal cost)."
+ },
+ "AZ-400|T9|Q3": {
+  "answer": "D",
+  "rationale": "Use a Web activity in ADF to retrieve the credential from Key Vault (Vault1)."
+ },
+ "AZ-400|T9|Q4": {
+  "answer": "B",
+  "rationale": "No (per this test series' key); the shown YAML misses one of the fail/publish/always-run requirements."
+ }
 }
