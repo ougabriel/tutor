@@ -100,11 +100,18 @@ def load_my_answers():
     return {}
 
 
+def load_images():
+    p = Path("question_images.json")
+    if p.exists():
+        return json.loads(p.read_text(encoding="utf-8"))
+    return {}
+
+
 def answer_key(exam, q):
     return f"{exam}|T{q['topic']}|Q{q['question']}"
 
 
-def build_html(exams, my_answers):
+def build_html(exams, my_answers, images):
     # exams: list of (label, questions)
     data = {}
     for label, questions in exams:
@@ -121,6 +128,7 @@ def build_html(exams, my_answers):
                 "choices": q["choices"],
                 "community": q["community"],
                 "type": q["type"],
+                "images": images.get(key, []),
                 "kiro_answer": mine.get("answer"),
                 "kiro_rationale": mine.get("rationale"),
             })
@@ -169,6 +177,10 @@ PAGE_TEMPLATE = r"""<!DOCTYPE html>
   .qhead .qtype { font-size:11px; color:var(--muted); border:1px solid var(--line);
                   padding:2px 8px; border-radius:20px; }
   .qtext { white-space:pre-wrap; line-height:1.5; margin-bottom:14px; font-size:14px; }
+  .qimages { margin:4px 0 14px; }
+  .qimages img { max-width:100%; border:1px solid var(--line); border-radius:8px;
+                 background:#fff; margin:6px 0; display:block; cursor:zoom-in; }
+  .qimages .imglabel { font-size:11px; color:var(--muted); margin-bottom:4px; }
   .choice { padding:9px 12px; border:1px solid var(--line); border-radius:8px; margin-bottom:7px;
             cursor:pointer; font-size:14px; }
   .choice:hover { border-color:var(--accent); }
@@ -306,6 +318,21 @@ function renderCard(q){
   card.appendChild(head);
 
   card.appendChild(el("div","qtext",esc(q.text)));
+
+  // Inline images (HOTSPOT / drag-drop / exhibits) pulled from ExamTopics CDN
+  if(q.images && q.images.length){
+    const wrap = el("div","qimages");
+    wrap.appendChild(el("div","imglabel","Exhibit / drag-drop image"+(q.images.length>1?"s":"")+" (click to open full size):"));
+    q.images.forEach(src=>{
+      const im = el("img");
+      im.src = src;
+      im.loading = "lazy";
+      im.alt = "Question exhibit image";
+      im.onclick = ()=>window.open(src, "_blank");
+      wrap.appendChild(im);
+    });
+    card.appendChild(wrap);
+  }
 
   const kiro = (q.kiro_answer||"").toUpperCase();
   const multi = kiro.length > 1; // e.g. "AD" => choose multiple
@@ -468,8 +495,10 @@ def main():
               f"({sum(1 for q in questions if q['choices'])} with text choices)")
 
     my_answers = load_my_answers()
-    Path(OUTPUT_FILE).write_text(build_html(exams, my_answers), encoding="utf-8")
-    print(f"Wrote {OUTPUT_FILE} with {len(exams)} exam menu(s).")
+    images = load_images()
+    Path(OUTPUT_FILE).write_text(build_html(exams, my_answers, images), encoding="utf-8")
+    print(f"Wrote {OUTPUT_FILE} with {len(exams)} exam menu(s). "
+          f"{len(images)} questions have inline images.")
 
 
 if __name__ == "__main__":
