@@ -1930,5 +1930,285 @@
  "AI-103|T1|Q49": {
   "answer": "Enable prompt shields for documents; treat uploaded screenshots as untrusted third-party content",
   "rationale": "Screenshots with malicious text = document-level injection. Prompt shields for documents detect this."
+ },
+ "AZ-400|T1|Q6": {
+  "answer": "Self-hosted agent (to reach on-prem Bitbucket behind firewall) + External Git service connection in Azure DevOps",
+  "rationale": "A self-hosted agent behind the firewall can reach Bitbucket. An External Git service connection links Azure DevOps to the Bitbucket repo."
+ },
+ "AZ-400|T1|Q19": {
+  "answer": "Terraform + Azure CLI (or Terraform + AzureRM provider)",
+  "rationale": "Deploying Azure resource groups via Terraform requires the Terraform framework and the Azure CLI (or AzureRM provider) for authentication."
+ },
+ "AZ-400|T1|Q30": {
+  "answer": "Azure Application Insights (capture exceptions) + Azure Logic Apps (send daily summary to Teams)",
+  "rationale": "App Insights collects exceptions. A Logic App aggregates them daily and posts to Teams."
+ },
+ "AZ-400|T2|Q1": {
+  "answer": "Velocity -> Velocity widget; Lead time -> Lead time widget; Cycle time -> Cycle time widget; Burndown -> Burndown widget; Cumulative Flow -> Cumulative Flow Diagram widget",
+  "rationale": "Each metric maps directly to its named widget in Azure Boards dashboards."
+ },
+ "AZ-400|T2|Q2": {
+  "answer": "Depends on the KQL query shown - typically: the query filters on page performance metrics, and the statements test threshold/alerting behavior of the results",
+  "rationale": "Without seeing the specific KQL, standard App Insights page load queries use requests | where name == 'home' | summarize avg(duration). Cannot give exact dropdown selections without the exhibit."
+ },
+ "AZ-400|T2|Q4": {
+  "answer": "Probe type: livenessProbe (confirms responding + initiates shutdown if unresponsive); periodSeconds: 15 (4 times per minute = every 15s); failureThreshold: 1-3 (initiate shutdown on failure)",
+  "rationale": "A liveness probe checks health and restarts the pod if unresponsive. 4 checks/minute = periodSeconds 15. failureThreshold determines when to shut down."
+ },
+ "AZ-400|T2|Q9": {
+  "answer": "Pilot users providing feedback via browser: Stakeholder access level; Developers requesting feedback: Basic access level",
+  "rationale": "Stakeholders can use Test & Feedback extension (browser-based). Basic is needed to create/manage feedback requests. Least privilege."
+ },
+ "AZ-400|T2|Q12": {
+  "answer": "How users navigate the app: User Flows; Page views and load times: Page views (Usage); Custom events: Events; How many return: Retention; Session analysis: Sessions",
+  "rationale": "App Insights Usage tools: User Flows for navigation, Page views for load, Events for custom events, Retention for return rates, Sessions for session analysis."
+ },
+ "AZ-400|T2|Q18": {
+  "answer": "Event | where TimeGenerated > ago(7d) | summarize dcount(EventID) by Computer",
+  "rationale": "To get distinct event IDs per VM: filter by time, then summarize dcount(EventID) by Computer."
+ },
+ "AZ-400|T2|Q19": {
+  "answer": "requests | where success == false | top 10 by timestamp desc (or summarize count() by name | top 10 by count_)",
+  "rationale": "For top 10 failed pages: filter requests where success==false, then top 10."
+ },
+ "AZ-400|T2|Q21": {
+  "answer": "@azure pipelines subscribe <pipeline URL>; then @azure pipelines subscriptions to filter for failures only",
+  "rationale": "Subscribe to the pipeline in Teams, then manage subscriptions to filter to failure events."
+ },
+ "AZ-400|T2|Q27": {
+  "answer": "Signal: Percentage CPU; Threshold: 70%; Aggregation type: Average; Period: 5 minutes; Frequency: 1 minute",
+  "rationale": "Alert on avg CPU > 70% over 5-min window, evaluated every 1 minute."
+ },
+ "AZ-400|T2|Q29": {
+  "answer": "Variable name: System.Debug; Value: true",
+  "rationale": "Setting System.Debug = true enables detailed/verbose pipeline logging."
+ },
+ "AZ-400|T2|Q32": {
+  "answer": "Use Mermaid syntax in markdown: ```mermaid graph LR; A-->B; B-->C``` (or flowchart/sequence diagram)",
+  "rationale": "GitHub markdown supports Mermaid diagrams for showing relationships between phases."
+ },
+ "AZ-400|T2|Q33": {
+  "answer": "Use Application Insights adaptive sampling configured via the Azure portal (not code-based fixed sampling); this avoids redeployment",
+  "rationale": "Portal-based adaptive sampling can be modified without redeploying. Code-based (Startup.cs) sampling requires redeployment."
+ },
+ "AZ-400|T2|Q36": {
+  "answer": "Logs | where TimeGenerated > ago(2d) | where Location contains 'Asia' (or equivalent ordering of filter then time range)",
+  "rationale": "Query: start with table, filter by time (ago(2d)), filter by location containing Asia."
+ },
+ "AZ-400|T2|Q37": {
+  "answer": "performanceCounters | where timestamp > ago(24h) | summarize avg(value) by bin(timestamp, 1h) | render timechart; plus threshold line at 75",
+  "rationale": "Hourly CPU: summarize avg by 1h bins over 24h, render as timechart. Add threshold with extend threshold=75."
+ },
+ "AZ-400|T2|Q39": {
+  "answer": "Perf | where TimeGenerated > ago(7d) | where CounterName == 'Available MBytes' | summarize avg(CounterValue) by bin(TimeGenerated, 1h) | render timechart",
+  "rationale": "Free memory on Windows = Available MBytes counter. Avg per hour over 7 days, rendered as timechart."
+ },
+ "AZ-400|T2|Q40": {
+  "answer": "requests | where timestamp > ago(1h) | where client_City in ('London','Paris') | where resultCode == '404' | project timestamp, url, resultCode, duration",
+  "rationale": "Filter by time, cities, 404 code, then project the required fields."
+ },
+ "AZ-400|T2|Q41": {
+  "answer": "Bottlenecks in a single iteration: Cumulative Flow Diagram; How long to close after started: Cycle Time",
+  "rationale": "CFD shows bottlenecks/WIP in an iteration. Cycle time = start to close."
+ },
+ "AZ-400|T2|Q44": {
+  "answer": "User1 (read logs): Log Analytics Reader; User2 (write/manage): Log Analytics Contributor",
+  "rationale": "Reader for read-only access. Contributor for edit/manage. Least privilege."
+ },
+ "AZ-400|T2|Q45": {
+  "answer": "How long to close a work item: Lead Time; Completed backlog items: Velocity; Time to restore failed services: MTTR (Mean Time to Restore) or a custom widget",
+  "rationale": "Lead Time = creation to close. Velocity = completed items. MTTR = service restoration time."
+ },
+ "AZ-400|T2|Q48": {
+  "answer": "Depends on the specific KQL query shown - cannot determine exact answers without seeing the exhibit",
+  "rationale": "KQL interpretation questions require seeing the actual query to determine what the result set contains."
+ },
+ "AZ-400|T2|Q52": {
+  "answer": "Register the Microsoft.ChangeAnalysis resource provider; az provider register --namespace Microsoft.ChangeAnalysis",
+  "rationale": "Enabling Change Analysis requires registering the Microsoft.ChangeAnalysis resource provider on the subscription."
+ },
+ "AZ-400|T3|Q4": {
+  "answer": "Depends on the customer preferences shown in the table - typical mapping: formal change management = CMMI; lightweight agile = Agile or Scrum; minimal/basic tracking = Basic",
+  "rationale": "CMMI for formal processes with change requests/risks. Agile for user stories. Scrum for sprint-based. Basic for minimal tracking."
+ },
+ "AZ-400|T3|Q14": {
+  "answer": "Depends on the test configuration exhibit - typically: the test runs from multiple locations, checks the custom domain, and alerts on availability drops",
+  "rationale": "App Insights availability tests hit the URL from configured locations and alert on failures. Cannot give exact dropdown selections without the exhibit."
+ },
+ "AZ-400|T3|Q26": {
+  "answer": "1. Create an action group; 2. Add a webhook action to the action group (pointing to the third-party system); 3. Associate the action group with the alert rule",
+  "rationale": "Alert -> action group -> webhook action forwards details to the third-party system with minimal effort."
+ },
+ "AZ-400|T3|Q30": {
+  "answer": "Number of dependencies: line thickness or connection count; Risk level: node color",
+  "rationale": "In the Dependency Tracker risk graph, connections show dependency count and colors indicate risk level."
+ },
+ "AZ-400|T4|Q1": {
+  "answer": "Identity: System-assigned managed identity for DF1; Access policy: Grant DF1's identity Get permission on KV1 secrets",
+  "rationale": "Data Factory authenticates to Key Vault via its managed identity. Grant the identity Get secret permission (least privilege) on KV1."
+ },
+ "AZ-400|T4|Q10": {
+  "answer": "1. Create an ARM template with the resource definitions; 2. Create a release pipeline with an Azure Resource Group Deployment task; 3. Configure the service connection to the subscription",
+  "rationale": "ARM deployment via release pipeline needs the template, a deployment task, and an authenticated service connection."
+ },
+ "AZ-400|T4|Q11": {
+  "answer": "Organization level: Administrator role (to manage agent pools); Project level: User role (to use the pool in pipelines)",
+  "rationale": "Administrator at org level manages pools. User at project level allows authoring pipelines that use the pool. Least privilege."
+ },
+ "AZ-400|T4|Q16": {
+  "answer": "1. Create a Microsoft Entra (Azure AD) server application; 2. Create a Microsoft Entra client application; 3. Create the AKS cluster with RBAC enabled referencing the Azure AD apps",
+  "rationale": "AKS RBAC with Azure AD needs server + client app registrations, then the cluster created with --aad-server-app-id and --aad-client-app-id."
+ },
+ "AZ-400|T4|Q17": {
+  "answer": "Authentication method: Managed Service Identity (MSI) / Workload identity federation; Scope: Azure Key Vault",
+  "rationale": "MSI/workload identity avoids persisting credentials. The endpoint targets Key Vault for secret retrieval."
+ },
+ "AZ-400|T4|Q19": {
+  "answer": "Organization level access control: Use distribution groups in App Center (organization-level) to control who accesses builds",
+  "rationale": "App Center distribution groups at the organization level control access to builds across all three apps."
+ },
+ "AZ-400|T4|Q21": {
+  "answer": "Group1 (read secrets): Reader; Group2 (manage connections): User; Group3 (administer): Administrator or Creator",
+  "rationale": "Least privilege: Reader for viewing, User for using service connections in pipelines, Administrator/Creator for creating them."
+ },
+ "AZ-400|T4|Q24": {
+  "answer": "1. Register an OAuth application in GitHub Enterprise Server; 2. Create a GitHub service connection in Azure DevOps using OAuth; 3. Link the connection to Project1",
+  "rationale": "OAuth-based GitHub integration: register OAuth app on GitHub, create a service connection using that OAuth registration, then link to the project."
+ },
+ "AZ-400|T4|Q25": {
+  "answer": "1. Create a variable group in Azure DevOps linked to the key vault; 2. Authorize the pipeline to access the variable group; 3. Reference the secret variable in the pipeline tasks",
+  "rationale": "Variable group linked to KV retrieves the secret at runtime. Authorize the pipeline, then reference the variable."
+ },
+ "AZ-400|T4|Q26": {
+  "answer": "User1 (create repos): Contributors; User2 (edit wiki pages): Contributors (or Project Valid Users if wiki is a code wiki with repo access)",
+  "rationale": "Contributors can create repos and edit wikis. Least privilege for both tasks."
+ },
+ "AZ-400|T4|Q33": {
+  "answer": "Effect: deny (or audit); Condition: field 'tags[organization]' notEquals 'Contoso'; scope: resource groups",
+  "rationale": "The policy denies (or audits) resource group creation when the organization tag doesn't equal Contoso."
+ },
+ "AZ-400|T4|Q36": {
+  "answer": "1. Create a Service Principal (or use AKS identity); 2. Install the Virtual Kubelet connector (ACI connector); 3. Create a pod spec that targets the virtual node",
+  "rationale": "ACI as a virtual node in AKS: authenticate, install the virtual kubelet/ACI connector, then schedule pods on the virtual node."
+ },
+ "AZ-400|T4|Q40": {
+  "answer": "Depends on the dashboard permissions exhibit - typically: teams with 'Edit' permission can modify; teams with 'View' only can see but not edit",
+  "rationale": "Dashboard permissions determine which teams can view vs edit. Cannot give exact Yes/No without seeing the permissions exhibit."
+ },
+ "AZ-400|T4|Q42": {
+  "answer": "Azure Artifacts feed connection: .npmrc file (with registry URL + auth token reference); Credential storage: user-level .npmrc file (with the PAT or credential)",
+  "rationale": "Node.js packages: .npmrc in the project sets the registry, and user-level .npmrc stores credentials (not checked in)."
+ },
+ "AZ-400|T4|Q43": {
+  "answer": "Tool: WhiteSource Bolt (or Mend Bolt); Integration: Add as a build task in the pipeline",
+  "rationale": "WhiteSource/Mend Bolt scans open-source libraries for vulnerabilities as a build pipeline task."
+ },
+ "AZ-400|T4|Q45": {
+  "answer": "1. az ad sp create-for-rbac (create service principal); 2. az aks create --enable-rbac --service-principal <appId> --client-secret <secret>; 3. az aks get-credentials (connect to the cluster)",
+  "rationale": "Create SP, then create AKS with RBAC + that SP, then get credentials to connect."
+ },
+ "AZ-400|T4|Q48": {
+  "answer": "1. Create a service connection scoped to webapp1; 2. Assign the service connection to Pipeline1 only (restrict pipeline permissions); 3. Remove Pipeline2's access to the service connection",
+  "rationale": "Scope the service connection to Pipeline1 only so Pipeline2 cannot access webapp1."
+ },
+ "AZ-400|T4|Q49": {
+  "answer": "IDE/coding phase: Static code analysis (e.g., SonarQube); CI/build phase: Dependency scanning (WhiteSource); Pre-production: Dynamic analysis / penetration testing (OWASP ZAP); Production: Monitoring / runtime protection",
+  "rationale": "Security tools per stage: static in IDE/CI, dependency scanning in build, dynamic/pen testing pre-prod, monitoring in prod."
+ },
+ "AZ-400|T4|Q54": {
+  "answer": "1. Create a Log Analytics cluster with CMK; 2. Configure the encryption key; 3. Link the workspace to the cluster",
+  "rationale": "Customer-managed key for Log Analytics: create a dedicated cluster, configure the key, then link workspaces."
+ },
+ "AZ-400|T4|Q55": {
+  "answer": "1. Create a Log Analytics cluster; 2. Configure the encryption key on the cluster; 3. Link the workspace to the cluster; 4. Verify encryption status",
+  "rationale": "CMK for Log Analytics: create dedicated cluster, assign key, link workspace."
+ },
+ "AZ-400|T4|Q57": {
+  "answer": "Lead developer (create repos): Contributors group; Tester (run pipelines, manage test plans): Contributors group; Admin (manage project settings): Project Administrators group",
+  "rationale": "Contributors create repos and run pipelines. Project Administrators manage settings. Least privilege."
+ },
+ "AZ-400|T4|Q58": {
+  "answer": "User who manages pipelines: Build Administrators; User who manages repos: Project Administrators (or Contributors with elevated repo permissions); User who views only: Readers",
+  "rationale": "Match each user's task to the minimal permission group."
+ },
+ "AZ-400|T4|Q62": {
+  "answer": "1. Install Git LFS (git lfs install); 2. Track binary files (git lfs track '*.bin'); 3. Add .gitattributes to the repository (git add .gitattributes)",
+  "rationale": "Git LFS stores large binary files outside the repo while Git tracks metadata. Install, track the file pattern, commit .gitattributes."
+ },
+ "AZ-400|T4|Q65": {
+  "answer": "Store password: Create a secret in Vault1; Access by pipeline: Create a variable group linked to Vault1 (or use the Azure Key Vault task in the pipeline)",
+  "rationale": "Store as a KV secret, then access via variable group linked to the vault or a Key Vault pipeline task."
+ },
+ "AZ-400|T4|Q67": {
+  "answer": "User1 (push code): Write role; User2 (review PRs): Write role (or Maintain); User3 (manage repo, no sensitive data): Admin role with branch protection preventing access to secrets",
+  "rationale": "Write allows push/PR review. Admin manages the repo. Branch protection + secret scanning prevent sensitive data access."
+ },
+ "AZ-400|T4|Q70": {
+  "answer": "1. Deploy the application; 2. Start the OWASP ZAP proxy/spider against the app; 3. Run active scan; 4. Publish the ZAP report as a pipeline artifact",
+  "rationale": "OWASP ZAP in CI: deploy target, spider/proxy, active scan, then publish results."
+ },
+ "AZ-400|T4|Q73": {
+  "answer": "Depends on the PAT policy exhibit - typically: policies restrict PAT lifetime, require SSO, and limit scopes",
+  "rationale": "PAT policies control max lifetime, SSO requirement, and scope restrictions. Cannot give exact Yes/No without the exhibit."
+ },
+ "AZ-400|T4|Q74": {
+  "answer": "1. Initialize CodeQL (or Microsoft Security DevOps); 2. Build the code (autobuild or manual build step); 3. Run the analysis and publish results",
+  "rationale": "Code scanning pipeline: init the scanner, build (so it can trace code paths), then analyze and report."
+ },
+ "AZ-400|T4|Q77": {
+  "answer": "Test1 (spider + passive only, no active): ZAP Baseline Scan action; Test2 (spider + AJAX spider): ZAP Full Scan action",
+  "rationale": "Baseline = passive only (no attacks). Full scan includes the AJAX spider and active scanning."
+ },
+ "AZ-400|T5|Q5": {
+  "answer": "Documents as plain text: Markdown (.md); Flow charts as plain text (minimize files, easy merge): Mermaid diagrams embedded in Markdown",
+  "rationale": "Markdown stores docs as plain text. Mermaid diagrams are text-based, embeddable in .md, and merge-friendly (no binary .bmp)."
+ },
+ "AZ-400|T5|Q7": {
+  "answer": "1. Prepare Analysis Configuration (SonarQube Begin task); 2. Build the solution (MSBuild/dotnet build); 3. Run Code Analysis (SonarQube Analyze/End task); 4. Publish Quality Gate Result",
+  "rationale": "SonarQube for .NET: Begin (configure), Build (compile), End/Analyze (run analysis), Publish QG result."
+ },
+ "AZ-400|T5|Q9": {
+  "answer": "1. Identify shared code across projects; 2. Extract shared code into its own repository/project; 3. Package the shared code and publish to an Azure Artifacts feed",
+  "rationale": "Find shared code, extract to its own module, package and publish to a feed for consumption."
+ },
+ "AZ-400|T5|Q10": {
+  "answer": "1. Create a NuGet package (dotnet pack); 2. Create an Azure Artifacts feed; 3. Push the package to the feed (dotnet nuget push); 4. Install/consume the package from the feed in a test project",
+  "rationale": "Pack, create feed, push to feed, then consume from feed to verify."
+ },
+ "AZ-400|T5|Q24": {
+  "answer": "Trigger path: releases/**; Scan path: src/**; Exclude: **/*.md",
+  "rationale": "Trigger on releases/ prefix, scan src/ subdirectories, exclude *.md files."
+ },
+ "AZ-400|T5|Q26": {
+  "answer": "1. git clone --bare <GitHub-repo-URL>; 2. cd <repo>.git; 3. git push --mirror <Azure-Repos-URL>",
+  "rationale": "Bare clone preserves all branches/history. Mirror push sends everything to the Azure Repos remote."
+ },
+ "AZ-400|T5|Q27": {
+  "answer": "git submodule add https://github.com/contoso/afeed",
+  "rationale": "git submodule add clones a repo as a subdirectory, keeping it linked as a submodule."
+ },
+ "AZ-400|T5|Q28": {
+  "answer": "git reflog expire --expire=now --all; git gc --prune=now --aggressive",
+  "rationale": "Expire reflog entries, then garbage collect with prune=now to permanently remove unreachable objects."
+ },
+ "AZ-400|T5|Q29": {
+  "answer": "1. Generate an SSH key pair (ssh-keygen); 2. Add the public key to Azure DevOps (SSH public keys in user settings); 3. Add the private key to the SSH agent (ssh-add); 4. Clone using the SSH URL",
+  "rationale": "Generate key, register public key in Azure DevOps, load private key, then use SSH URL."
+ },
+ "AZ-400|T5|Q30": {
+  "answer": "1. git log --diff-filter=D --summary (find the commit that deleted the file); 2. git checkout <commit>^ -- <filename> (restore the file from the parent of the deleting commit); 3. git commit (commit the restored file)",
+  "rationale": "Find delete commit, checkout file from its parent, commit the restoration."
+ },
+ "AZ-400|T5|Q31": {
+  "answer": "git checkout HEAD~3 -- App.exe.config (or git show HEAD~3:App.exe.config > App.exe.config)",
+  "rationale": "HEAD~3 references the third most recent revision. Checkout that revision of the file."
+ },
+ "AZ-400|T5|Q32": {
+  "answer": "Production code: main (or master) branch; Preproduction code: develop branch",
+  "rationale": "In GitFlow, main/master holds production releases and develop holds preproduction/integration code."
+ },
+ "AZ-400|T5|Q33": {
+  "answer": "git clone --filter=blob:none --sparse <repo-url>; git sparse-checkout set src/web",
+  "rationale": "Sparse checkout with --filter clones only the src/web directory."
  }
 }
