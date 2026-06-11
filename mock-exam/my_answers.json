@@ -2210,5 +2210,413 @@
  "AZ-400|T5|Q33": {
   "answer": "git clone --filter=blob:none --sparse <repo-url>; git sparse-checkout set src/web",
   "rationale": "Sparse checkout with --filter clones only the src/web directory."
+ },
+ "AZ-400|T5|Q36": {
+  "answer": "git remote add repo1 <GitHub-URL>; git fetch repo1; git merge repo1/main (or git pull repo1 main)",
+  "rationale": "Add the GitHub repo as a remote, fetch changes, then merge into the Azure Repos branch."
+ },
+ "AZ-400|T5|Q37": {
+  "answer": "1. git reflog (find the commit hash of the deleted branch tip); 2. git branch features/feature11 <commit-hash>; 3. git checkout features/feature11",
+  "rationale": "Reflog shows the last commit of the deleted branch; recreate the branch at that commit."
+ },
+ "AZ-400|T5|Q39": {
+  "answer": "git lfs install; git lfs track '*.psd'; git add .gitattributes",
+  "rationale": "Install LFS, track the PSD file extension, and commit the .gitattributes tracking config."
+ },
+ "AZ-400|T5|Q43": {
+  "answer": "Require reviewers on PRs: Branch policy (minimum reviewers); Require linked work items: Branch policy (work item linking); Require build validation: Branch policy (build validation)",
+  "rationale": "All three are configured as branch policies on the target branch."
+ },
+ "AZ-400|T5|Q47": {
+  "answer": "Alert on vulnerabilities: Dependabot alerts; Auto-open PR on update: Dependabot security updates (or version updates)",
+  "rationale": "Alerts notify of vulnerable dependencies. Security/version updates auto-create PRs when dependencies need updating."
+ },
+ "AZ-400|T5|Q48": {
+  "answer": "git clone --filter=blob:none --sparse <repo-URL>; git sparse-checkout set directory1",
+  "rationale": "Sparse checkout with blobless filter minimizes transferred data while cloning only directory1."
+ },
+ "AZ-400|T5|Q53": {
+  "answer": "![Build Status](https://github.com/<owner>/<repo>/actions/workflows/<workflow>.yml/badge.svg)",
+  "rationale": "GitHub Actions badge URL format: github.com/owner/repo/actions/workflows/filename.yml/badge.svg"
+ },
+ "AZ-400|T5|Q56": {
+  "answer": "dotnet nuget push <package>.nupkg --source github (or the GitHub Packages NuGet source URL)",
+  "rationale": "Push a NuGet package to GitHub Packages using dotnet nuget push with the github source."
+ },
+ "AZ-400|T5|Q59": {
+  "answer": "1. Create a service principal / federated credential for GitHub; 2. Grant the SP access to the key vault (Get secret permission); 3. Configure the GitHub workflow to authenticate via OIDC and retrieve the secret",
+  "rationale": "Authenticate GitHub to Azure (SP/OIDC), grant KV access, then retrieve secrets in the workflow."
+ },
+ "AZ-400|T6|Q15": {
+  "answer": "/azrepos subscribe https://dev.azure.com/contoso/contoso-app; then /azrepos subscriptions to filter for pull requests",
+  "rationale": "The Azure Repos Slack app: subscribe to the project, then filter subscriptions to PR events."
+ },
+ "AZ-400|T6|Q20": {
+  "answer": "Sign-on URL / Reply URL: https://github.com/orgs/org1/saml/consume; Identifier (Entity ID): https://github.com/orgs/org1",
+  "rationale": "GitHub SAML SSO configuration uses the org's SAML consume URL for reply and the org URL as entity ID."
+ },
+ "AZ-400|T6|Q27": {
+  "answer": "1. Register an application in Azure AD; 2. Generate a client secret for the app; 3. Configure Exabeam with the app's client ID, secret, and tenant ID for OAuth",
+  "rationale": "OAuth integration: register app in Azure AD, get credentials, configure them in Exabeam."
+ },
+ "AZ-400|T6|Q29": {
+  "answer": "Time from creation to close: Lead Time widget; Time from started to close: Cycle Time widget",
+  "rationale": "Lead Time = creation to close. Cycle Time = active/started to close."
+ },
+ "AZ-400|T6|Q35": {
+  "answer": "Time to complete a work item: Lead Time (or Cycle Time); Percentage of defects found in production: Defect Escape Rate",
+  "rationale": "Lead/Cycle Time measures work item duration. Defect Escape Rate measures what % of bugs reach production."
+ },
+ "AZ-400|T6|Q42": {
+  "answer": "Depends on the work items table - typical Agile states: New items = New; Active work = Active; Completed = Closed/Resolved",
+  "rationale": "In Agile process: New (not started), Active (in progress), Closed (done). Map each item to its current lifecycle stage."
+ },
+ "AZ-400|T6|Q45": {
+  "answer": "Frequent deployment failures: Deployment frequency + Change failure rate; Long lead time: Lead time for changes; Slow recovery: Mean Time to Restore (MTTR)",
+  "rationale": "DORA metrics: deployment frequency, change failure rate, lead time, MTTR."
+ },
+ "AZ-400|T6|Q55": {
+  "answer": "Bugs detected by customers (not internally): Defect Escape Rate; Long time to detect failures: Mean Time to Detect (MTTD)",
+  "rationale": "High escape rate = bugs reaching customers. High MTTD = slow failure detection."
+ },
+ "AZ-400|T7|Q6": {
+  "answer": "Depends on project requirements table - typical mapping: distributed work offline = Git; large binary centralized = TFVC; cross-platform = Git",
+  "rationale": "Git for distributed/offline/cross-platform. TFVC for centralized large-binary projects."
+ },
+ "AZ-400|T7|Q13": {
+  "answer": "Same as T7|Q6 - depends on the requirements table: distributed = Git; centralized with locking = TFVC",
+  "rationale": "Match each project's needs (offline, locking, distributed) to Git or TFVC."
+ },
+ "AZ-400|T7|Q15": {
+  "answer": "Depends on the pipeline exhibit - typically tests YAML pipeline stage/job structure and conditional execution",
+  "rationale": "Cannot give exact answers without seeing the specific pipeline exhibit."
+ },
+ "AZ-400|T7|Q16": {
+  "answer": ".NET Framework: windows-latest (or vs2019-win2016); .NET Core/Node: ubuntu-latest; iOS/macOS: macOS-latest; Docker: ubuntu-latest (or windows for Windows containers)",
+  "rationale": "Match each app type to the appropriate hosted agent image."
+ },
+ "AZ-400|T7|Q19": {
+  "answer": "Web app (zero downtime): rolling or canary strategy; Database migration (sequential): runOnce strategy; Batch job: runOnce",
+  "rationale": "Rolling/canary minimize downtime for web apps. runOnce for sequential operations."
+ },
+ "AZ-400|T7|Q23": {
+  "answer": "1. Import the DSC configuration to Azure Automation; 2. Compile the DSC configuration; 3. Assign the node configuration to the VMs (register nodes)",
+  "rationale": "After installing DSC and running register.py: import config, compile it, assign to nodes."
+ },
+ "AZ-400|T7|Q25": {
+  "answer": "FROM mcr.microsoft.com/dotnet/sdk AS build (build stage); COPY/RUN build commands; FROM mcr.microsoft.com/dotnet/aspnet AS runtime (smaller runtime image); COPY from build stage",
+  "rationale": "Multi-stage: SDK image for build, then copy only published output to smaller aspnet runtime image."
+ },
+ "AZ-400|T7|Q26": {
+  "answer": "Require minimum reviewers: Branch policy (minimum number of reviewers); Require successful build: Branch policy (build validation); Check for linked work items: Branch policy (work item linking); Check for credential scanning: Branch policy (status check from credential scanner)",
+  "rationale": "All requirements are configured as branch policies."
+ },
+ "AZ-400|T7|Q35": {
+  "answer": "Containers published internally: Azure Container Registry (private); AKS create/manage containers: Managed identity (or service principal) with AcrPull role",
+  "rationale": "ACR for private internal images. AKS uses a managed identity with AcrPull to pull from ACR."
+ },
+ "AZ-400|T7|Q41": {
+  "answer": "1. Create a DSC configuration script (defining the Windows feature); 2. Compile the configuration into a MOF file; 3. Apply the DSC extension to the VMs referencing the MOF",
+  "rationale": "Author DSC config, compile to MOF, apply via the DSC VM extension."
+ },
+ "AZ-400|T7|Q48": {
+  "answer": "1. Deploy the web app (target); 2. Start OWASP ZAP container; 3. Run ZAP spider against the app; 4. Run ZAP active scan; 5. Collect/publish the ZAP HTML report",
+  "rationale": "Deploy target, start ZAP, spider, active scan, publish report."
+ },
+ "AZ-400|T7|Q49": {
+  "answer": "Cache key: hashFiles('**/package-lock.json'); Path: node_modules; Task: Cache@2",
+  "rationale": "Cache the node_modules directory keyed on the package-lock.json hash using the Cache task."
+ },
+ "AZ-400|T7|Q52": {
+  "answer": "1. Create a service connection to the subscription; 2. Create a deployment group (register the VMs as targets); 3. Add an Azure Resource Group Deployment task; 4. Deploy to the deployment group",
+  "rationale": "Service connection authenticates; deployment group targets the VMs; tasks deploy."
+ },
+ "AZ-400|T7|Q55": {
+  "answer": "JIRA -> Azure Boards; Jenkins -> Azure Pipelines; Octopus -> Azure Pipelines (release/deployment)",
+  "rationale": "Boards replaces JIRA (work items). Pipelines replaces both Jenkins (CI) and Octopus (CD)."
+ },
+ "AZ-400|T7|Q58": {
+  "answer": "1. Create an Azure Artifacts feed; 2. Configure upstream sources (add the multiple public feeds as upstreams); 3. Update project package configs to point to the single Azure Artifacts feed",
+  "rationale": "One feed with upstream sources consolidates packages from multiple public feeds."
+ },
+ "AZ-400|T7|Q59": {
+  "answer": "Depends on the pipeline exhibit - cannot determine exact answers without the graphic",
+  "rationale": "Pipeline-exhibit interpretation requires seeing the actual YAML/stages shown."
+ },
+ "AZ-400|T7|Q61": {
+  "answer": "1. Create a DSC configuration; 2. Upload/import the configuration to Azure Automation; 3. Compile the configuration; 4. Onboard VMs as DSC nodes; 5. Assign the node configuration",
+  "rationale": "Author, import, compile, onboard nodes, assign configuration."
+ },
+ "AZ-400|T7|Q75": {
+  "answer": "Source code: Azure Repos (Git); Logs from tests/builds: Azure Pipelines (pipeline artifacts/logs); Large binary assets: Azure Artifacts (Universal Packages or Git LFS); Common library: Azure Artifacts (NuGet/npm feed)",
+  "rationale": "Repos for code, Pipelines for build logs, Artifacts for binaries and shared libraries."
+ },
+ "AZ-400|T7|Q80": {
+  "answer": "Migration approach: TFS Database Import Service; Upgrade to: Latest TFS RTW release first, then import to Azure DevOps",
+  "rationale": "Database Import Service preserves changeset dates, work item revision dates, and all artifacts with minimal effort."
+ },
+ "AZ-400|T7|Q84": {
+  "answer": "Install IIS: WindowsFeature resource with Name = 'Web-Server' and Ensure = 'Present'; Update home page: File resource targeting inetpub/wwwroot/index.html with Contents = '<html>...</html>'",
+  "rationale": "DSC WindowsFeature installs IIS. File resource writes the default page content."
+ },
+ "AZ-400|T7|Q86": {
+  "answer": "Deployment mode: Incremental (to not affect other resources); Overwrite existing: the ARM deployment naturally updates existing resources in Incremental mode",
+  "rationale": "Incremental mode updates the Data Factory without deleting other resources in the group. (Complete mode would delete them.)"
+ },
+ "AZ-400|T8|Q1": {
+  "answer": "git reflog expire --expire=now --all; git gc --prune=now --aggressive",
+  "rationale": "Expire reflogs and aggressively garbage-collect to minimize repo data size."
+ },
+ "AZ-400|T8|Q4": {
+  "answer": "1. kubectl create serviceaccount tiller -n kube-system; 2. kubectl create clusterrolebinding tiller --clusterrole=cluster-admin --serviceaccount=kube-system:tiller; 3. helm init --service-account tiller",
+  "rationale": "Create Tiller service account, bind cluster-admin role, then init Helm with that account."
+ },
+ "AZ-400|T8|Q6": {
+  "answer": "Internal testers (employees): Private distribution group; External beta users: Public distribution group; Specific named testers: Shared distribution group",
+  "rationale": "Private = org-internal. Public = open registration. Shared = cross-org named users."
+ },
+ "AZ-400|T8|Q8": {
+  "answer": "Persistent storage that survives pod restarts: PersistentVolumeClaim (PVC); Temporary storage per pod: emptyDir; Shared across pods: Azure Files PVC (ReadWriteMany)",
+  "rationale": "PVC for persistent, emptyDir for ephemeral, Azure Files for shared multi-pod access."
+ },
+ "AZ-400|T8|Q10": {
+  "answer": "1. Add Config.json to .gitignore; 2. Run git rm --cached Config.json (remove from tracking); 3. Commit the .gitignore and the removal",
+  "rationale": "Add to .gitignore, remove from index with --cached, commit. Future changes won't be tracked."
+ },
+ "AZ-400|T8|Q12": {
+  "answer": "git tag -a 'Release v3.0' -m 'Release date' (annotated tag with name and message)",
+  "rationale": "An annotated tag (-a) stores the tagger name, email, date, and message."
+ },
+ "AZ-400|T8|Q14": {
+  "answer": "Service connection: Scope to specific resource group (least privilege); Pipeline permissions: Restrict to the specific pipeline",
+  "rationale": "Scope the service connection to the target resource group and restrict pipeline access."
+ },
+ "AZ-400|T8|Q15": {
+  "answer": "1. Create a service connection to the Azure subscription; 2. Add an Azure Resource Group Deployment task; 3. Configure the task to reference the GitHub template URL",
+  "rationale": "Authenticate (service connection), add ARM deployment task, point it at the GitHub template."
+ },
+ "AZ-400|T8|Q20": {
+  "answer": "Depends on the release pipeline exhibit - cannot determine exact answers without seeing the graphic",
+  "rationale": "Release pipeline exhibit interpretation requires the actual image."
+ },
+ "AZ-400|T8|Q21": {
+  "answer": "Azure VMs: Azure Pipelines deployment group; On-premises VMs: Azure Pipelines deployment group (with self-hosted agent); Azure App Service: Azure App Service deploy task",
+  "rationale": "Deployment groups handle VM targets (Azure and on-prem with agents). App Service has its own task."
+ },
+ "AZ-400|T8|Q25": {
+  "answer": "Feature flags for selective users: Feature toggle (progressive exposure); Existing deployment stays active for rollback: Blue/green deployment",
+  "rationale": "Feature toggles control feature access per user subset. Blue/green keeps the old deployment available for instant rollback."
+ },
+ "AZ-400|T8|Q26": {
+  "answer": "1. Create a test method in Visual Studio (automated test); 2. Build the project containing the test; 3. Associate the automated test to the test case in Azure DevOps",
+  "rationale": "Author the automated test, build, then link it to the manual test case."
+ },
+ "AZ-400|T8|Q27": {
+  "answer": "1. Create a Kubernetes service connection; 2. Add a Kubernetes deployment task (or Helm deploy task); 3. Configure the task with the cluster namespace and container image",
+  "rationale": "Service connection authenticates to AKS. Deployment task applies the manifests."
+ },
+ "AZ-400|T8|Q31": {
+  "answer": "Depends on the application requirements table - typical: zero-downtime web = Blue/green or Rolling; database with rollback = Blue/green; gradual rollout = Canary",
+  "rationale": "Match each app's needs to the strategy that meets its rollback/downtime requirements."
+ },
+ "AZ-400|T8|Q33": {
+  "answer": "1. Create a DSC configuration in Azure Automation; 2. Compile the configuration; 3. Register VMs as DSC nodes (onboard); 4. Assign the node configuration to the VMs",
+  "rationale": "Central management via Azure Automation DSC: author, compile, register nodes, assign config."
+ },
+ "AZ-400|T8|Q37": {
+  "answer": "Use a nested template or linked template with a parameters file that uses reference() and resourceId() to dynamically generate the Key Vault resource ID",
+  "rationale": "Dynamic Key Vault resource ID in ARM: use resourceId() function referencing the vault's resource group and name."
+ },
+ "AZ-400|T8|Q45": {
+  "answer": "Branch lifetime: Short-lived (feature branch); Branch type: Feature branch (off develop or main)",
+  "rationale": "New functionality = short-lived feature branch in GitFlow."
+ },
+ "AZ-400|T8|Q47": {
+  "answer": "chmod 750 /var/opt/microsoft/omsagent (or similar permissions on the OMS agent directory)",
+  "rationale": "Grant the Log Analytics agent read/execute on its directory (750 or appropriate permission level)."
+ },
+ "AZ-400|T8|Q48": {
+  "answer": "Get-AzOperationalInsightsWorkspace (or Get-AzLogAnalyticsWorkspace)",
+  "rationale": "PowerShell cmdlet to list Log Analytics workspaces and their properties."
+ },
+ "AZ-400|T8|Q52": {
+  "answer": "Configuration 'IISConfig' { Node 'localhost' { WindowsFeature 'IIS' { Name = 'Web-Server'; Ensure = 'Present' } } }",
+  "rationale": "DSC structure: Configuration > Node > WindowsFeature resource with Name='Web-Server' and Ensure='Present'."
+ },
+ "AZ-400|T8|Q53": {
+  "answer": "Web server: WindowsFeature with Name = 'Web-Server'; Email server: WindowsFeature with Name = 'SMTP-Server' (or 'Web-Mgmt-Tools' depending on the role)",
+  "rationale": "DSC WindowsFeature resources for each role: Web-Server for IIS, SMTP-Server for email."
+ },
+ "AZ-400|T8|Q61": {
+  "answer": "Depends on the DSC config and LCM settings shown - typically: ConfigurationMode=ApplyAndAutoCorrect means drift is corrected; RefreshMode=Push means config is pushed manually",
+  "rationale": "ApplyAndAutoCorrect fixes drift automatically. Push mode waits for manual refresh. Cannot give exact Yes/No without seeing the specific config."
+ },
+ "AZ-400|T8|Q62": {
+  "answer": "performanceCounters | where timestamp > ago(7d) | where name == 'CPU' | summarize avg(value) by bin(timestamp, 1h), cloud_RoleName | render timechart",
+  "rationale": "Filter to CPU counter, last week, average per hour per server, render as timechart."
+ },
+ "AZ-400|T8|Q65": {
+  "answer": "AppEvents | where TimeGenerated > ago(30d) | summarize clicks=count() by UserId, bin(TimeGenerated, 1d) | where clicks >= 3 | summarize total=sum(clicks) by UserId | sort by total desc",
+  "rationale": "Count clicks per user per day, filter >=3 daily clicks, aggregate total, sort descending."
+ },
+ "AZ-400|T8|Q66": {
+  "answer": "Depends on the ARM template deployment task exhibit - cannot determine exact answers without the graphic",
+  "rationale": "ARM deployment task interpretation requires seeing the configured values in the exhibit."
+ },
+ "AZ-400|T8|Q67": {
+  "answer": "Highest to lowest precedence: 1. Runtime parameters; 2. Job-level variables; 3. Stage-level variables; 4. Pipeline-level (root) variables",
+  "rationale": "Azure Pipelines variable precedence: runtime > job > stage > pipeline (root YAML)."
+ },
+ "AZ-400|T8|Q69": {
+  "answer": "Bug fix: Patch version increment; New backward-compatible feature: Minor version increment; Breaking change: Major version increment",
+  "rationale": "SemVer: patch for fixes, minor for features, major for breaking changes."
+ },
+ "AZ-400|T8|Q71": {
+  "answer": "AzureDiagnostics | where ResourceProvider == 'MICROSOFT.AUTOMATION' | where Category == 'DscNodeStatus' | where ResultType != 'Compliant'",
+  "rationale": "Query Automation DSC diagnostics for nodes where status is not Compliant."
+ },
+ "AZ-400|T8|Q73": {
+  "answer": "Configure Azure Monitor alerts triggered by deployment events; create an action group with notification actions",
+  "rationale": "Post-deployment alerting: configure alert rules on deployment metrics + action group for notifications."
+ },
+ "AZ-400|T8|Q77": {
+  "answer": "1. Create an agentless job; 2. Add a gate (e.g., Query Azure Monitor, Invoke REST API); 3. Configure the gate evaluation settings",
+  "rationale": "Release gates are added as agentless jobs that evaluate conditions before proceeding."
+ },
+ "AZ-400|T9|Q9": {
+  "answer": "resource storageAccount 'Microsoft.Storage/storageAccounts@2023-01-01' = { name: '<name>'; location: resourceGroup().location; kind: 'StorageV2'; sku: { name: 'Standard_LRS' } }",
+  "rationale": "Bicep storage account: resource keyword, type@apiVersion, with name/location/kind/sku properties."
+ },
+ "AZ-400|T9|Q10": {
+  "answer": "on: push paths: 'src/**'; scan directories: src/**; exclude: '**/*.md'; trigger prefix: releases/",
+  "rationale": "Same as T5|Q24 pattern: trigger on releases/, scan src/, exclude *.md."
+ },
+ "AZ-400|T9|Q13": {
+  "answer": "Bug fix: Patch; New feature (backward-compatible): Minor; Breaking change: Major",
+  "rationale": "SemVer: Major.Minor.Patch - patch for fixes, minor for features, major for breaking."
+ },
+ "AZ-400|T9|Q18": {
+  "answer": "Dockerfile: FROM <image>; Build: docker build -t ghcr.io/<owner>/<image>:<tag>; Push: docker push ghcr.io/<owner>/<image>:<tag>",
+  "rationale": "GitHub Container Registry uses ghcr.io/<owner>/<image>:<tag> for image naming."
+ },
+ "AZ-400|T9|Q22": {
+  "answer": "Cache task key: hashFiles('**/packages.lock.json') or similar lockfile; Cache path: $(Pipeline.Workspace)/.nuget or node_modules depending on tech",
+  "rationale": "Pipeline caching: key on lockfile hash, path to the package cache directory."
+ },
+ "AZ-400|T9|Q23": {
+  "answer": "Depends on the subscription/App Service plan requirements shown - typically: Standard or Premium tier for deployment slots; correct region for the plan",
+  "rationale": "Cannot determine exact answers without the full exhibit table."
+ },
+ "AZ-400|T9|Q24": {
+  "answer": "NuGet restore task with a nuget.config pointing to the Azure Artifacts feed; cache key: packages.lock.json",
+  "rationale": "Restore NuGet packages from an Azure Artifacts feed using the restore task with caching."
+ },
+ "AZ-400|T9|Q26": {
+  "answer": "Depends on the standards table - typically: IaC -> Bicep/ARM templates; CI/CD -> Azure Pipelines; Monitoring -> Azure Monitor; Security -> Microsoft Defender",
+  "rationale": "Map each standard to the Azure DevOps/Azure component that implements it."
+ },
+ "AZ-400|T9|Q29": {
+  "answer": "Role: Contributor (or specific role depending on what User1 needs to do); Scope: resource group or subscription level (least privilege)",
+  "rationale": "Grant the minimum role at the narrowest scope that satisfies the requirement."
+ },
+ "AZ-400|T9|Q30": {
+  "answer": "1. Create an Azure Traffic Manager profile (weighted routing); 2. Add endpoints for each deployment; 3. Configure traffic weights/percentages for progressive rollout",
+  "rationale": "Traffic Manager with weighted routing enables gradual traffic shifting between deployments."
+ },
+ "AZ-400|T9|Q34": {
+  "answer": "Depends on the YAML definition shown - tests pipeline stage dependencies, conditions, and execution order",
+  "rationale": "Cannot give exact Yes/No without seeing the specific YAML."
+ },
+ "AZ-400|T9|Q36": {
+  "answer": "1. Create a GitHub App; 2. Install the app on the repository; 3. Configure the workflow to use the app's token; 4. Trigger the workflow on the desired event",
+  "rationale": "GitHub Actions with a GitHub App: create, install, authenticate with app token, configure trigger."
+ },
+ "AZ-400|T9|Q46": {
+  "answer": "Depends on the pipeline YAML shown - tests stage/job ordering and condition evaluation",
+  "rationale": "Cannot determine exact True/False without seeing the specific pipeline definition."
+ },
+ "AZ-400|T9|Q52": {
+  "answer": "Web app testing: Functional/integration tests; Database testing: Integration tests; Load testing: Performance/load tests",
+  "rationale": "Match each testing scope to the appropriate test type."
+ },
+ "AZ-400|T9|Q53": {
+  "answer": "AzureDiagnostics | where ResourceProvider == 'MICROSOFT.AUTOMATION' | where Category == 'DscNodeStatus' | where ResultType == 'Failed' or != 'Compliant'",
+  "rationale": "Query Automation DSC node status for non-compliant/failed nodes."
+ },
+ "AZ-400|T9|Q54": {
+  "answer": "git init; git checkout -b main; Use a workflow starter template that includes the required task",
+  "rationale": "Initialize repo, create main branch, add the starter workflow with the specified task."
+ },
+ "AZ-400|T9|Q60": {
+  "answer": "Depends on the Dockerfile shown - typically tests multi-stage build understanding (build stage vs runtime stage, COPY --from)",
+  "rationale": "Multi-stage Dockerfile questions test understanding of build vs runtime stages."
+ },
+ "AZ-400|T9|Q62": {
+  "answer": "Depends on the pipeline YAML shown - tests stage dependencies and condition logic",
+  "rationale": "Cannot give exact True/False without the specific pipeline definition."
+ },
+ "AZ-400|T9|Q64": {
+  "answer": "Branch protection rule on main; Require status checks (build passes) before merge; Require PR review before release",
+  "rationale": "Protect main with status checks (build) and required reviews before the release can proceed."
+ },
+ "AZ-400|T10|Q1": {
+  "answer": "Signal type: Metric; Metric: Percentage CPU; Operator: Greater than; Threshold: 80 (or per technical requirements); Aggregation: Average; Period: 5 minutes",
+  "rationale": "Configure the VM alert per the technical requirements (CPU threshold, evaluation period)."
+ },
+ "AZ-400|T11|Q1": {
+  "answer": "AppCenter.start('{app-secret}', withServices: [Analytics.self, Crashes.self])",
+  "rationale": "Initialize App Center with the app secret and the Analytics + Crashes services."
+ },
+ "AZ-400|T12|Q2": {
+  "answer": "1. Create feature branches from main; 2. Create pull requests for code review; 3. Merge to main after approval (squash or no-fast-forward merge per policy)",
+  "rationale": "Standard code flow: feature branches, PR review, merge to main."
+ },
+ "AZ-400|T12|Q3": {
+  "answer": "1. Import DSC configuration to Azure Automation; 2. Compile the configuration; 3. Assign/register the computers in Pool7 as DSC nodes with the compiled configuration",
+  "rationale": "Import, compile, then assign nodes to the configuration."
+ },
+ "AZ-400|T13|Q1": {
+  "answer": "Retain releases deployed to production: maximum days (or keep forever); Other releases: shorter retention period (e.g., 30 days)",
+  "rationale": "Keep production releases longer for rollback; shorter retention for non-production."
+ },
+ "AZ-400|T13|Q2": {
+  "answer": "Store secrets in Azure Key Vault; Connect via managed identity or service connection from the pipeline",
+  "rationale": "Key Vault for secrets; managed identity or service connection for pipeline access."
+ },
+ "AZ-400|T13|Q3": {
+  "answer": "Developers (consume packages): Reader; Build service (push packages): Contributor; Admins (manage feed): Owner",
+  "rationale": "Reader to consume, Contributor to publish, Owner to administer feeds."
+ },
+ "AZ-400|T14|Q3": {
+  "answer": "1. Register the app in Azure AD; 2. Configure redirect URIs; 3. Grant API permissions and configure the app to use MSAL/OAuth",
+  "rationale": "App registration, redirect URIs, and API permissions for Azure AD authentication."
+ },
+ "AZ-400|T15|Q1": {
+  "answer": "Jenkins -> Azure Pipelines; JIRA -> Azure Boards; Subversion/Git on-prem -> Azure Repos; Octopus -> Azure Pipelines (releases)",
+  "rationale": "Map each existing tool to its Azure DevOps equivalent service."
+ },
+ "AZ-400|T17|Q1": {
+  "answer": "Path filter: include the project path; Branch filter: include main (or the target branch)",
+  "rationale": "Pipeline triggers use path and branch filters to scope when the pipeline runs."
+ },
+ "AZ-400|T17|Q4": {
+  "answer": "1. Download the agent package; 2. Configure the agent (run config.cmd with PAT and org URL); 3. Install and start the agent as a service",
+  "rationale": "Self-hosted build agent setup: download, configure with PAT, run as service."
+ },
+ "AZ-400|T17|Q5": {
+  "answer": "1. Create a service connection; 2. Create a build pipeline; 3. Create a release pipeline (or stage) to deploy to the target",
+  "rationale": "Standard pipeline setup: authenticate (service connection), build, then release/deploy."
+ },
+ "AZ-400|T18|Q4": {
+  "answer": "Production releases: Keep forever (or maximum retention); Non-production: 30 days (or shorter)",
+  "rationale": "Same as T13|Q1: longer retention for production deployments."
+ },
+ "AZ-400|T18|Q5": {
+  "answer": "Build agents: Microsoft-hosted (or self-hosted if on-prem access needed); Release agents: Same consideration based on deployment targets",
+  "rationale": "Use Microsoft-hosted for cloud-only builds. Self-hosted if the pipeline needs access to on-premises resources."
+ },
+ "AZ-400|T19|Q1": {
+  "answer": "Availability: Availability test widget (or App Insights); Performance: App Insights Performance widget; Build success rate: Build history or deployment status widget",
+  "rationale": "Map each monitoring requirement to the appropriate Azure DevOps/App Insights dashboard widget."
  }
 }
