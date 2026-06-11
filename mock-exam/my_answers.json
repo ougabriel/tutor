@@ -1928,8 +1928,8 @@
   "rationale": "Evaluate on PR. Branch protection blocks merge if evaluation fails."
  },
  "AI-103|T1|Q49": {
-  "answer": "Enable prompt shields for documents; treat uploaded screenshots as untrusted third-party content",
-  "rationale": "Screenshots with malicious text = document-level injection. Prompt shields for documents detect this."
+  "answer": "Prompt shields action: Set action to block; Additional mitigation: Enable Spotlighting",
+  "rationale": "Set action to block actively stops indirect prompt injection from processing further. Spotlighting demarcates third-party content (screenshots with embedded text) as lower trust, preventing the model from treating malicious embedded instructions as user instructions. OCR or blocklists do not separate trust boundaries between user prompts and third-party artifact text."
  },
  "AZ-400|T1|Q6": {
   "answer": "Self-hosted agent (to reach on-prem Bitbucket behind firewall) + External Git service connection in Azure DevOps",
