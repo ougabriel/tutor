@@ -1748,8 +1748,8 @@
   "rationale": "Use advanced data parsing to reingest the documents so the indexer extracts richer, layout-aware content (handles images/tables in PDFs better)."
  },
  "AI-103|T1|Q55": {
-  "answer": "D",
-  "rationale": "Use outputFieldMappings to write the OCR-extracted image data into a searchable field in the index."
+  "answer": "A",
+  "rationale": "Use an indexer to extract image data into a normalized_images collection so embedded images in the PDFs are processed and their content is made searchable in the index."
  },
  "AI-103|T1|Q57": {
   "answer": "C",
