@@ -1752,8 +1752,8 @@
   "rationale": "Use outputFieldMappings to write the OCR-extracted image data into a searchable field in the index."
  },
  "AI-103|T1|Q57": {
-  "answer": "B",
-  "rationale": "Provide labeled samples so the analyzer learns the expected field positions/formats for the varied invoice layouts."
+  "answer": "C",
+  "rationale": "The requirement is per-field confidence scores AND source grounding (location within the original PDF). Enable estimateFieldSourceAndConfidence (C) provides both: a confidence score per extracted field and a reference to where in the source document the value was found. Labeled samples (B) train the model but do not add confidence/source metadata to the output."
  },
  "AI-103|T1|Q61": {
   "answer": "AC",
