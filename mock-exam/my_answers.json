@@ -1770,5 +1770,165 @@
  "AI-300|T3|Q11": {
   "answer": "AB",
   "rationale": "To register a trained model: first locate and capture the model artifacts from the training run outputs (A), then register the model in the workspace (B). Tagging experiments and exporting locally are not the registration steps."
+ },
+ "AI-300|T2|Q3": {
+  "answer": "Managed online endpoint for synchronous predictions; Batch endpoint for scheduled scoring of millions of records",
+  "rationale": "Synchronous single-request predictions = managed online endpoint. Scheduled batch scoring of millions of records = batch endpoint. These are the two managed inference options matching each usage pattern."
+ },
+ "AI-300|T2|Q10": {
+  "answer": "Store templates in a Git repository (trigger on push); Use a CI/CD pipeline (e.g., GitHub Actions) to deploy ARM/Bicep automatically",
+  "rationale": "Changes in IaC templates trigger provisioning via a CI/CD pipeline (GitHub Actions with az deployment). Git provides the change-detection trigger; the pipeline executes without manual intervention."
+ },
+ "AI-300|T2|Q14": {
+  "answer": "Use mltable as the data asset type; reference the MLTable folder path containing the YAML definition",
+  "rationale": "To materialize data into a Pandas DataFrame using an MLTable folder as the blueprint, use the mltable asset type and point to the folder containing the MLTable YAML."
+ },
+ "AI-300|T2|Q15": {
+  "answer": "Use uri_folder as the asset type; set the path to wasbs://mlcontainer1@mlstorage1.blob.core.windows.net/",
+  "rationale": "To reference all blobs in a container as one data asset, use uri_folder with the wasbs:// path pointing to the container."
+ },
+ "AI-300|T3|Q2": {
+  "answer": "Data drift monitor to detect distribution changes; Alert rule / action trigger when thresholds exceeded",
+  "rationale": "A data drift monitor detects input distribution changes (baseline vs current). An alert/action (e.g., Azure Monitor alert or pipeline trigger) fires when the configured threshold is exceeded."
+ },
+ "AI-300|T3|Q4": {
+  "answer": "HTTP 5xx errors -> check deployment logs (get-logs); Unexpected predictions -> verify scoring script logic and model version; Timeout errors -> check resource allocation / scaling",
+  "rationale": "Server errors = container/scoring logs. Wrong predictions = scoring script/model issue. Timeouts = resource/scaling issue. Standard endpoint troubleshooting per MS Learn."
+ },
+ "AI-300|T3|Q6": {
+  "answer": "Monitor performance metrics -> Azure Monitor / data drift monitor; Automated response -> Azure Monitor alert with action group (webhook/pipeline trigger)",
+  "rationale": "Use a monitoring solution (Azure Monitor metrics/data drift) to track performance. When thresholds are exceeded, an alert with an action group notifies downstream systems or triggers remediation."
+ },
+ "AI-300|T3|Q7": {
+  "answer": "Centralized location for runs -> MLflow experiment in the workspace; Capture performance values -> mlflow.log_metric() / mlflow.autolog()",
+  "rationale": "MLflow experiments centralize runs for comparison. Calling mlflow.log_metric or mlflow.autolog captures metrics to the run history."
+ },
+ "AI-300|T3|Q10": {
+  "answer": "Depends on the script shown in the image - typically: Yes if mlflow.log_param/log_metric are called; No if only print statements are used",
+  "rationale": "MLflow experiment tracking requires explicit mlflow.log_param / mlflow.log_metric calls (or autolog). Print statements alone do NOT log to the experiment run history. Cannot provide exact Yes/No without seeing the script image."
+ },
+ "AI-300|T3|Q12": {
+  "answer": "1. Configure a data drift or performance monitor with thresholds; 2. Create an alert rule that fires when threshold exceeded; 3. Configure an action group to notify stakeholders; 4. Trigger a retraining pipeline",
+  "rationale": "The sequence: monitor -> alert rule -> notify (action group) -> retrain. This is the standard MLOps automated-retraining pattern per MS Learn."
+ },
+ "AI-300|T3|Q15": {
+  "answer": "Depends on the evaluation metrics shown in the image - typically: Yes if fine-tuned scores are higher on quality metrics without safety regression; No if safety metrics degraded",
+  "rationale": "Improved performance = higher groundedness/relevance/coherence WITHOUT regression in safety metrics. Cannot provide exact Yes/No without seeing the numeric results in the image."
+ },
+ "AI-300|T4|Q1": {
+  "answer": "1. Create a Dockerfile or conda YAML defining dependencies; 2. Build/register an environment in the workspace; 3. Version the environment; 4. Reference the environment by name:version in pipeline jobs",
+  "rationale": "To ensure consistent, versioned runtime dependencies: define them in a Dockerfile/conda spec, register as an environment, version it, and reference by name:version. This allows updates without modifying training code."
+ },
+ "AI-300|T4|Q2": {
+  "answer": "Centralized governance and shared connections -> Hub; Team isolation (isolated workspace) -> Project",
+  "rationale": "In Microsoft Foundry, a Hub provides centralized governance, security, and shared connections. Projects under the hub give each team an isolated workspace."
+ },
+ "AI-300|T4|Q4": {
+  "answer": "Authenticate without secrets in code -> Managed identity; Grant least-privilege access to resources -> RBAC role assignments on the managed identity",
+  "rationale": "Managed identity authenticates without stored secrets. RBAC role assignments grant least-privilege access to specific resources (storage, vector DB) per the security policy."
+ },
+ "AI-300|T4|Q5": {
+  "answer": "Multi-region customer support -> Global Standard deployment; Data-residency-restricted marketing -> Data Zone Standard deployment",
+  "rationale": "Global Standard serves across regions (no data residency constraint). Data Zone Standard keeps data within a specific geographic zone for residency compliance."
+ },
+ "AI-300|T4|Q6": {
+  "answer": "Track prompt changes -> Git repository (version control with commit history); Review before production -> Pull request review; Rollback on issues -> Git revert/checkout previous version; Same governance as code -> store prompts in the same repo with branch policies",
+  "rationale": "Prompts managed like code: Git for history/tracking, PRs for review, Git revert for rollback, branch policies for governance."
+ },
+ "AI-300|T5|Q1": {
+  "answer": "Track changes with audit/rollback history -> Git commits on main branch; Compare variants without affecting production -> Feature branches (one per variant)",
+  "rationale": "Git commits provide audit trail and rollback. Feature branches let you compare prompt variants in isolation without affecting the production (main) branch."
+ },
+ "AI-300|T5|Q2": {
+  "answer": "1. Enable tracing / Application Insights for the deployed endpoint; 2. Configure latency metrics collection; 3. Create a dashboard or alert for latency monitoring under load",
+  "rationale": "Enable tracing/App Insights, configure metric collection, then monitor via dashboard/alerts. This is the standard observability setup for GenAI endpoints."
+ },
+ "AI-300|T5|Q5": {
+  "answer": "Continuous runtime monitoring -> Azure Monitor / Application Insights with alerts; Release-time validation -> Automated evaluation workflow in CI/CD pipeline",
+  "rationale": "Runtime = continuous monitoring (Azure Monitor/App Insights + alerts). Release-time = automated evaluation in CI that gates deployment on quality/safety thresholds."
+ },
+ "AI-300|T6|Q2": {
+  "answer": "Track changes across contributors -> Git version control (prompts stored in repo); Use updated prompts without redeployment -> External prompt store / prompt flow definitions loaded at runtime (not baked into the app image)",
+  "rationale": "Git gives traceability across contributors. Decoupling prompts from the app deployment (runtime-loaded prompt templates) avoids redeployment on prompt changes."
+ },
+ "AI-300|T6|Q3": {
+  "answer": "Model selection -> GPT-4.1 or GPT-4o (supports 200k+ context, low latency); Deployment type -> Serverless API or Global Standard; Testing -> Playground in Foundry portal",
+  "rationale": "GPT-4.1/4o supports large context (200k tokens) and fast generation. Deploy as serverless/standard for low latency. Test interactively in the Foundry playground before integration."
+ },
+ "AI-300|T6|Q4": {
+  "answer": "Depends on the config shown - typically: Yes if reducing chunk overlap/size resolves duplication; Yes if aligning chunk boundaries to policy sections improves relevance",
+  "rationale": "Duplicated content = excessive chunk overlap or too-large chunks spanning sections. Fix by reducing overlap and aligning chunk boundaries to document sections. Cannot give exact Yes/No without seeing the specific config values."
+ },
+ "AI-300|T6|Q5": {
+  "answer": "Depends on the dataset shown - DPO/preference fine-tuning requires: a prompt, a chosen (preferred) response, and a rejected response per row",
+  "rationale": "Preference comparison data (for DPO/RLHF) must have prompt + chosen + rejected columns. If the dataset has this structure, it is valid. Cannot give exact Yes/No without seeing the actual data excerpt."
+ },
+ "AI-300|T6|Q6": {
+  "answer": "Exact policy identifiers (low semantic similarity) -> Keyword (BM25) search; Natural-language questions (semantic match) -> Vector/semantic search",
+  "rationale": "Keyword/BM25 search matches exact identifiers regardless of semantic similarity. Vector/semantic search prioritizes meaning-based relevance even without exact keyword matches. Together they form hybrid search."
+ },
+ "AI-103|T1|Q1": {
+  "answer": "Deployment type: Global Standard; Model version: Pin to a specific version",
+  "rationale": "Global Standard = scalable, no reserved capacity, dynamic scaling. Pin the model version for continuity/consistency. Deploy to EU region for data residency."
+ },
+ "AI-103|T1|Q4": {
+  "answer": "Yes (telemetry distinguishable); Yes (secrets not stored in spans)",
+  "rationale": "enable_content_recording=False prevents content from spans. LangChain and OTel use separate instrumentors, distinguishable in App Insights."
+ },
+ "AI-103|T1|Q5": {
+  "answer": "Pipeline1: prebuilt-layout analyzer (cost-effective high-volume); Pipeline2: agentic/generative pipeline with custom analyzer and reference data",
+  "rationale": "Prebuilt = cost-effective at scale for standalone PDFs. Agentic pipeline = multi-step reasoning across documents."
+ },
+ "AI-103|T1|Q6": {
+  "answer": "Auth: DefaultAzureCredential(); API: client.responses.create(model=deployment_name)",
+  "rationale": "DefaultAzureCredential uses managed identity. Responses API called via client.responses.create()."
+ },
+ "AI-103|T1|Q7": {
+  "answer": "Condition: !IsBlank(Topic.Var01); Message: Upper(Topic.Var01)",
+  "rationale": "Power Fx: !IsBlank checks for value. Upper() converts to uppercase."
+ },
+ "AI-103|T1|Q8": {
+  "answer": "Image source: Blob URL; Auth: Managed identity with Storage Blob Data Reader role",
+  "rationale": "Content Safety reads the blob URL. Least privilege = managed identity + Storage Blob Data Reader."
+ },
+ "AI-103|T1|Q11": {
+  "answer": "Pause: approval/human-in-the-loop step; Continue: proceed to refund tool call after approval granted",
+  "rationale": "An approval step blocks workflow until a human approves the sensitive refund action."
+ },
+ "AI-103|T1|Q15": {
+  "answer": "Unsupported answers: Groundedness metric; Policy violations: Content safety / risk-and-safety metrics",
+  "rationale": "Groundedness detects ungrounded answers. Content safety detects policy violations."
+ },
+ "AI-103|T1|Q18": {
+  "answer": "No relevant info increase: Inference/retrieval failure; HTTP 429: Resource limits (rate limit exceeded)",
+  "rationale": "Empty retrieval = inference issue. 429 = quota/rate limit hit."
+ },
+ "AI-103|T1|Q20": {
+  "answer": "Force retrieval: tool_choice=required; Auth: agent managed identity; Isolation: dedicated user-assigned managed identity; Audit: enable tracing",
+  "rationale": "required tool_choice forces retrieval. Dedicated managed identity isolates and enables audit."
+ },
+ "AI-103|T1|Q30": {
+  "answer": "Set tool_choice to required (or specify the tool function name)",
+  "rationale": "tool_choice=required ensures the agent always calls a tool rather than responding directly."
+ },
+ "AI-103|T1|Q32": {
+  "answer": "Calculations: Code interpreter; Public websites: Bing grounding/web search; Uploaded documents: File search",
+  "rationale": "Code interpreter = computation. Bing = live web. File search = uploaded docs."
+ },
+ "AI-103|T1|Q35": {
+  "answer": "temperature=0 (maximize determinism); keep reasoning quality high",
+  "rationale": "Temperature 0 produces the most deterministic output, reducing wording variation for validation matching."
+ },
+ "AI-103|T1|Q37": {
+  "answer": "Retain preferences: Memory/thread persistence; Upload documents: File search tool",
+  "rationale": "Memory retains context across sessions. File search allows runtime document upload."
+ },
+ "AI-103|T1|Q40": {
+  "answer": "Trigger: on pull_request; Step: run evaluation; Gate: branch protection status check must pass",
+  "rationale": "Evaluate on PR. Branch protection blocks merge if evaluation fails."
+ },
+ "AI-103|T1|Q49": {
+  "answer": "Enable prompt shields for documents; treat uploaded screenshots as untrusted third-party content",
+  "rationale": "Screenshots with malicious text = document-level injection. Prompt shields for documents detect this."
  }
 }
