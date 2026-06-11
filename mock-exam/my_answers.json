@@ -272,8 +272,8 @@
   "rationale": "Azure Content Understanding handles multi-format/multimodal extraction for varied invoice layouts. Document Intelligence/Image Analysis/chat completions are narrower."
  },
  "AI-103|T1|Q58": {
-  "answer": "C",
-  "rationale": "For large volumes of recorded audio files, run a batch transcription job - the scalable, asynchronous option. Real-time is for live streams."
+  "answer": "D",
+  "rationale": "The requirement is near-real-time transcription of a continuous audio stream (within seconds). Real-time speech to text (D) processes streaming audio with low latency. Batch transcription (C) is for recorded files processed after the fact."
  },
  "AI-103|T1|Q59": {
   "answer": "B",
