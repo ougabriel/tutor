@@ -1924,8 +1924,8 @@
   "rationale": "Memory retains context across sessions. File search allows runtime document upload."
  },
  "AI-103|T1|Q40": {
-  "answer": "Trigger: on pull_request; Step: run evaluation; Gate: branch protection status check must pass",
-  "rationale": "Evaluate on PR. Branch protection blocks merge if evaluation fails."
+  "answer": "Authentication: Azure Login action with OpenID Connect (OIDC); If evaluation results NOT met: Fail the workflow",
+  "rationale": "OIDC is the recommended secure, passwordless auth for GitHub Actions to Azure/Foundry. Setting the workflow to Fail when evaluation thresholds are not met leverages GitHub Branch Protection (require status checks to pass) to automatically block the PR from merging."
  },
  "AI-103|T1|Q49": {
   "answer": "Prompt shields action: Set action to block; Additional mitigation: Enable Spotlighting",
