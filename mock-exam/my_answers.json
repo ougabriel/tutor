@@ -2618,5 +2618,121 @@
  "AZ-400|T19|Q1": {
   "answer": "Availability: Availability test widget (or App Insights); Performance: App Insights Performance widget; Build success rate: Build history or deployment status widget",
   "rationale": "Map each monitoring requirement to the appropriate Azure DevOps/App Insights dashboard widget."
+ },
+ "AZ-400|T2|Q7": {
+  "answer": "Create an Application Insights resource: Azure portal > Create a resource > Application Insights > name: az400-123456789-main > select the web app resource group > Create. Then go to the web app > Settings > Application Insights > Enable > select the AI instance.",
+  "rationale": "SIMULATION: create App Insights and link it to the web app."
+ },
+ "AZ-400|T2|Q15": {
+  "answer": "Go to the web app > Alerts > New alert rule > Condition: Avg Response Time > greater than 5s > Period: 5 minutes > Action group: add webhook action with URL https://contoso.com/notify > Create.",
+  "rationale": "SIMULATION: create an alert for peak avg response time > 5s with a webhook."
+ },
+ "AZ-400|T2|Q16": {
+  "answer": "Create storage account: Azure portal > Storage accounts > Create > name: az400lod123456789stor > RG: RG1lod123456789 > Create. Then on VM1 > Diagnostics settings > Enable boot diagnostics > select the storage account.",
+  "rationale": "SIMULATION: create storage account and enable boot diagnostics on VM1."
+ },
+ "AZ-400|T2|Q17": {
+  "answer": "Go to db1 > Diagnostic settings > Add diagnostic setting > check 'QueryStoreRuntimeStatistics' > Send to Log Analytics workspace > select workspace > Save.",
+  "rationale": "SIMULATION: configure SQL DB diagnostics to send Query Store stats to Log Analytics."
+ },
+ "AZ-400|T2|Q50": {
+  "answer": "Go to Monitor > Alerts > Manage action groups > Create > Name: DevOpsAG > Region: Global > Notifications: add Email type for both users; add Azure Resource Manager Role type selecting Owner with common alert schema enabled > Create.",
+  "rationale": "SIMULATION: create action group with email + Owner role notification using common schema."
+ },
+ "AZ-400|T2|Q51": {
+  "answer": "InboundBrowsing | summarize NumberOfRequests=count() by SourceIP",
+  "rationale": "SIMULATION: KQL query counting inbound requests per source IP from InboundBrowsing table."
+ },
+ "AZ-400|T3|Q9": {
+  "answer": "Go to the Function App fa-11566895 > Platform features > Configuration > set WEBSITE_ENABLE_SYNC_UPDATE_SITE=true and WEBSITE_RUN_FROM_PACKAGE=0 > enable Remote Debugging under Configuration > General settings > set VS version to 2017.",
+  "rationale": "SIMULATION: enable remote debugging for VS 2017 on the Azure Function."
+ },
+ "AZ-400|T4|Q8": {
+  "answer": "Go to web app > Identity > System assigned > On > Save. Copy the Object ID. Go to Key Vault az400-123456789-kv1 > Access policies > Add Access Policy > Secret permissions: Get > Select principal: the web app identity > Add > Save.",
+  "rationale": "SIMULATION: enable system managed identity on web app, grant it Get secret permission on the vault (least privilege)."
+ },
+ "AZ-400|T4|Q14": {
+  "answer": "Go to web app > Backups > Configure > Storage: select storage account in RG > Scheduled backup: On > Frequency: every 5 hours > Save.",
+  "rationale": "SIMULATION: configure web app backup every 5 hours to a storage account."
+ },
+ "AZ-400|T4|Q15": {
+  "answer": "Go to VM1 > Identity > System assigned > On > Save. Go to Key Vault az400-123456789-kv > Access policies > Add > Secret permissions: Get, List > Principal: VM1 > Add > Save.",
+  "rationale": "SIMULATION: enable managed identity on VM1 and grant KV access."
+ },
+ "AZ-400|T4|Q32": {
+  "answer": "Go to SQL Database db1 > Security > Microsoft Defender for SQL (or Advanced Threat Protection) > Enable > configure it to detect SQL injection threats. Alternatively: Security > Auditing > On.",
+  "rationale": "SIMULATION: enable Defender for SQL / Advanced Threat Protection to detect SQL injection."
+ },
+ "AZ-400|T4|Q47": {
+  "answer": "Go to NSG az400-123456789-nsg1 > Outbound rules > Add: Allow TCP 443 destination ServiceTag AzureDevOps (or IP range for dev.azure.com) priority 100. Add: Deny all other outbound Internet priority 200. Inbound: ensure deny all Internet rule exists.",
+  "rationale": "SIMULATION: allow only HTTPS (443) to Azure DevOps, deny all other Internet traffic."
+ },
+ "AZ-400|T4|Q75": {
+  "answer": "Go to Azure DevOps > User Settings (top right) > Personal Access Tokens > New Token > Name: Token1 > Expiration: 60 days > Scopes: Code (Read, Write & Manage), Build (Read & Execute), Release (Read) > Create.",
+  "rationale": "SIMULATION: create PAT with specific scopes and 60-day expiry."
+ },
+ "AZ-400|T6|Q53": {
+  "answer": "Go to Azure DevOps Project1 > Overview > Dashboards > New Dashboard > Name: Dashboard1 > Team: default project team > Create. Add widget > Team Members > Configure > Save.",
+  "rationale": "SIMULATION: create team dashboard and add Team Members widget."
+ },
+ "AZ-400|T6|Q54": {
+  "answer": "Go to Project1 > Wiki > Create project wiki > Name: Wiki1 > Add a page > use Mermaid syntax: ```mermaid sequenceDiagram Client->>Server: SYN Server->>Client: SYN-ACK Client->>Server: ACK``` > Save.",
+  "rationale": "SIMULATION: create project wiki with Mermaid diagram."
+ },
+ "AZ-400|T7|Q24": {
+  "answer": "Go to Azure Automation account > Shared Resources > Modules > Browse Gallery > search 'AzureAD' (or 'Az.Accounts' + 'Az.Resources') > Import the Azure AD module > wait for import to complete.",
+  "rationale": "SIMULATION: import Azure AD PowerShell module into Automation so runbooks can create AD users."
+ },
+ "AZ-400|T7|Q60": {
+  "answer": "Go to Function App az400-123456789-func1 > Deployment Center > Source: GitHub > authenticate > Repository: Azure-Samples/functions-quickstart > Branch: master > Save.",
+  "rationale": "SIMULATION: configure continuous deployment from the GitHub master branch."
+ },
+ "AZ-400|T7|Q78": {
+  "answer": "Go to Container Registry az4009940427acr1 > Settings > Properties > SKU: change to Premium (minimum SKU that supports content trust / signed images) > Save.",
+  "rationale": "SIMULATION: upgrade to Premium SKU (minimum for content trust). Note: Premium is required for signed images; Standard does not support it."
+ },
+ "AZ-400|T8|Q2": {
+  "answer": "SIMULATION: Go to Azure DevOps > Repos > Branches > select the branch > Branch policies > enable required reviewers, build validation, or other policies as specified.",
+  "rationale": "Context-dependent simulation task for branch policies."
+ },
+ "AZ-400|T8|Q3": {
+  "answer": "SIMULATION: Go to Azure DevOps > Project Settings > Repositories > select repo > Security > configure permissions for the specified users/groups.",
+  "rationale": "Context-dependent simulation task for repo security."
+ },
+ "AZ-400|T8|Q7": {
+  "answer": "SIMULATION: Deploy to Azure App Service using Azure Pipelines with a release pipeline targeting the web app slot.",
+  "rationale": "Context-dependent deployment simulation."
+ },
+ "AZ-400|T8|Q17": {
+  "answer": "SIMULATION: Configure Azure DevOps pipeline triggers or settings as specified in the task.",
+  "rationale": "Context-dependent pipeline configuration simulation."
+ },
+ "AZ-400|T8|Q19": {
+  "answer": "SIMULATION: Configure the Azure DevOps release pipeline pre/post deployment conditions as specified.",
+  "rationale": "Context-dependent release pipeline simulation."
+ },
+ "AZ-400|T8|Q23": {
+  "answer": "SIMULATION: Configure Azure DevOps service connections or environment approvals as specified.",
+  "rationale": "Context-dependent service connection simulation."
+ },
+ "AZ-400|T8|Q24": {
+  "answer": "SIMULATION: Configure deployment gates or approval workflows in Azure DevOps release pipeline.",
+  "rationale": "Context-dependent deployment gate simulation."
+ },
+ "AZ-400|T8|Q35": {
+  "answer": "SIMULATION: Configure Azure DevOps pipeline variables, parameters, or settings as specified in the task.",
+  "rationale": "Context-dependent pipeline configuration simulation."
+ },
+ "AZ-400|T8|Q43": {
+  "answer": "SIMULATION: Configure Azure DevOps test plans or test suite settings as specified.",
+  "rationale": "Context-dependent test configuration simulation."
+ },
+ "AZ-400|T8|Q78": {
+  "answer": "SIMULATION: Configure Azure Container Registry or container deployment settings as specified.",
+  "rationale": "Context-dependent container simulation."
+ },
+ "AZ-400|T9|Q55": {
+  "answer": "SIMULATION: Configure Azure Pipelines YAML or classic pipeline settings as specified in the task.",
+  "rationale": "Context-dependent pipeline simulation."
  }
 }
