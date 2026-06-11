@@ -1730,5 +1730,45 @@
  "AZ-400|T9|Q4": {
   "answer": "B",
   "rationale": "No (per this test series' key); the shown YAML misses one of the fail/publish/always-run requirements."
+ },
+ "AI-103|T1|Q10": {
+  "answer": "C",
+  "rationale": "Set the project property to the project ID of the Foundry project so the SDK/agent connects to the correct project."
+ },
+ "AI-103|T1|Q33": {
+  "answer": "BC",
+  "rationale": "Application Insights (B) provides the telemetry platform and OpenTelemetry (C) provides the instrumentation SDK to collect and export observability data."
+ },
+ "AI-103|T1|Q52": {
+  "answer": "D",
+  "rationale": "Configure an Azure Content Understanding in Foundry Tools analyzer first to define how the multi-format documents (tables, logos, varied layouts) should be processed."
+ },
+ "AI-103|T1|Q54": {
+  "answer": "A",
+  "rationale": "Use advanced data parsing to reingest the documents so the indexer extracts richer, layout-aware content (handles images/tables in PDFs better)."
+ },
+ "AI-103|T1|Q55": {
+  "answer": "D",
+  "rationale": "Use outputFieldMappings to write the OCR-extracted image data into a searchable field in the index."
+ },
+ "AI-103|T1|Q57": {
+  "answer": "B",
+  "rationale": "Provide labeled samples so the analyzer learns the expected field positions/formats for the varied invoice layouts."
+ },
+ "AI-103|T1|Q61": {
+  "answer": "ACD",
+  "rationale": "The indexing pipeline needs Azure OpenAI Embedding (A) for vectorization, Text Split (C) for chunking, and Merge (D) to recombine the pieces. Entity Recognition and Language Detection are not required for this RAG indexing use case."
+ },
+ "AI-300|T3|Q5": {
+  "answer": "BE",
+  "rationale": "For monitoring a deployed online endpoint, the performance metrics to track are Requests per minute (B) and Request latency (E). Feature count and dataset size are training-time concerns."
+ },
+ "AI-300|T3|Q8": {
+  "answer": "DE",
+  "rationale": "To assess responsible AI before deployment: evaluate feature importance for prediction transparency (D) and analyze error rates across defined demographic cohorts (E) for fairness. Latency and schema compatibility are operational, not responsible-AI, checks."
+ },
+ "AI-300|T3|Q11": {
+  "answer": "AB",
+  "rationale": "To register a trained model: first locate and capture the model artifacts from the training run outputs (A), then register the model in the workspace (B). Tagging experiments and exporting locally are not the registration steps."
  }
 }
