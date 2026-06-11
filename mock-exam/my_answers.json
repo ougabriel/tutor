@@ -1756,8 +1756,8 @@
   "rationale": "Provide labeled samples so the analyzer learns the expected field positions/formats for the varied invoice layouts."
  },
  "AI-103|T1|Q61": {
-  "answer": "ACD",
-  "rationale": "The indexing pipeline needs Azure OpenAI Embedding (A) for vectorization, Text Split (C) for chunking, and Merge (D) to recombine the pieces. Entity Recognition and Language Detection are not required for this RAG indexing use case."
+  "answer": "AC",
+  "rationale": "The indexing pipeline needs two built-in skills: Azure OpenAI Embedding (A) to vectorize text for vector/semantic search, and Text Split (C) to chunk the PDF content into pieces that fit the embedding model token limit. Entity Recognition, Language Detection and Key Phrase Extraction are NLP enrichment skills not required for RAG indexing. Merge is optional and not one of the two core skills asked for."
  },
  "AI-300|T3|Q5": {
   "answer": "BE",
