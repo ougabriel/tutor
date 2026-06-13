@@ -1852,8 +1852,8 @@
   "rationale": "Git repository: Provides version control - track changes, view history, handle branches, and attribute contributions across multiple users.\n\nAgent latest published version reference: A dynamic pointer (latest published version) allows consumer applications to automatically use updated prompts as soon as they are pushed live, eliminating the need for full application redeployment."
  },
  "AI-300|T6|Q3": {
-  "answer": "Model selection -> GPT-4.1 or GPT-4o (supports 200k+ context, low latency); Deployment type -> Serverless API or Global Standard; Testing -> Playground in Foundry portal",
-  "rationale": "GPT-4.1/4o supports large context (200k tokens) and fast generation. Deploy as serverless/standard for low latency. Test interactively in the Foundry playground before integration."
+  "answer": "Requirement | Selection\n---|---\nSelect a model | GPT-4.1-Mini\nSelect a deployment type | Serverless endpoint\nTest the model | Microsoft Foundry Chat playground",
+  "rationale": "GPT-4.1-Mini: Supports 200k token context for long transcript summarization. Whisper=audio, Ada-002=embeddings, Phi-3-Mini=insufficient context.\n\nServerless endpoint: Low latency, auto-scaling, pay-as-you-go, no infra management.\n\nChat playground: Interactive testing interface before app integration. Prompt flow is orchestration, not quick testing."
  },
  "AI-300|T6|Q4": {
   "answer": "Depends on the config shown - typically: Yes if reducing chunk overlap/size resolves duplication; Yes if aligning chunk boundaries to policy sections improves relevance",
