@@ -120,8 +120,8 @@
   "rationale": "Implement an evaluation step in CI (GitHub Actions) so prompts/models are automatically evaluated before deployment - the repeatable, automated gate. Manual review and latency monitoring are not automated quality gates."
  },
  "AI-300|T5|Q7": {
-  "answer": "B",
-  "rationale": "For a RAG solution, configure the Groundedness evaluator first to ensure answers are supported by retrieved content. Protected material/indirect attacks/content safety address different risks."
+  "answer": "D",
+  "rationale": "Content safety evaluator scans AI outputs for harm categories: hate/unfairness, violence, sexual content, and self-harm.\n\nWhy not the others:\n- Protected material: checks for copyrighted text or proprietary data in outputs\n- Groundedness: checks if responses are based on provided source data (hallucination prevention)\n- Indirect attacks: measures vulnerability to prompt injection hidden in retrieved context documents"
  },
  "AI-300|T6|Q1": {
   "answer": "ADE",
