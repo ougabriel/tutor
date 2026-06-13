@@ -1864,8 +1864,8 @@
   "rationale": "No: The first record does not provide a usable preference signal (likely because preferred and rejected are identical or missing contrast).\n\nYes: The second record has distinct preferred vs non-preferred outputs, providing a valid training signal.\n\nYes: Each output contains a valid assistant message in the format required for DPO.\n\nYes: DPO requires contrasting pairs (different preferred vs non-preferred) to produce usable training signals."
  },
  "AI-300|T6|Q6": {
-  "answer": "Exact policy identifiers (low semantic similarity) -> Keyword (BM25) search; Natural-language questions (semantic match) -> Vector/semantic search",
-  "rationale": "Keyword/BM25 search matches exact identifiers regardless of semantic similarity. Vector/semantic search prioritizes meaning-based relevance even without exact keyword matches. Together they form hybrid search."
+  "answer": "Retrieval Requirement | Configuration\n---|---\nExact identifier matching | Keyword-based retrieval with lexical scoring\nNatural-language relevance | Semantic ranking over vector search results",
+  "rationale": "Keyword-based (BM25): Exact policy identifiers require precise alphanumeric matching. Lexical search ensures exact matches are retrieved and ranked highly even when semantic similarity is low.\n\nSemantic ranking over vector search: Natural-language questions use synonyms/phrasing that may not match document keywords exactly. Vector search + semantic ranking evaluates conceptual context and intent, prioritizing semantically relevant documents over strict keyword matches."
  },
  "AI-103|T1|Q1": {
   "answer": "Deployment type: Global Standard; Model version: Pin to a specific version",
