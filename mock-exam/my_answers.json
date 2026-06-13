@@ -1776,8 +1776,8 @@
   "rationale": "Synchronous single-request predictions = managed online endpoint. Scheduled batch scoring of millions of records = batch endpoint. These are the two managed inference options matching each usage pattern."
  },
  "AI-300|T2|Q10": {
-  "answer": "Store templates in a Git repository (trigger on push); Use a CI/CD pipeline (e.g., GitHub Actions) to deploy ARM/Bicep automatically",
-  "rationale": "Changes in IaC templates trigger provisioning via a CI/CD pipeline (GitHub Actions with az deployment). Git provides the change-detection trigger; the pipeline executes without manual intervention."
+  "answer": "Trigger provisioning on template changes: Store templates in a Git repository with a CI/CD pipeline triggered on push/merge; Authentication: Use a service principal with workload identity federation (OIDC) or a service connection; Execute without manual intervention: Use a GitHub Actions workflow (or Azure Pipelines) that runs az deployment commands automatically",
+  "rationale": "Git + CI trigger detects changes. OIDC / service principal authenticates the pipeline to Azure without manual credentials. The pipeline (GitHub Actions or Azure Pipelines) executes the deployment automatically."
  },
  "AI-300|T2|Q14": {
   "answer": "Use mltable as the data asset type; reference the MLTable folder path containing the YAML definition",
