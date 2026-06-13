@@ -114,6 +114,16 @@ let graded = false;
 
 function el(tag, cls, html){ const e=document.createElement(tag); if(cls)e.className=cls; if(html!=null)e.innerHTML=html; return e; }
 function esc(s){ return (s||"").replace(/[&<>]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c])); }
+function formatQText(s){
+  // Add visual paragraph breaks before known section headings to improve readability
+  const markers = /^(Case Study|Background|Current Environment|Business Requirements|Technical Requirements|Security|Compliance|Problem Statement|Planned Changes|Issues|Requirements|Overview|Existing Environment|Data Environment|Note:|Solution:|You need|You have|You manage|You plan|You discover|You are|The company|The team|Which|What should|How should|Does this meet|Does the solution)/gm;
+  s = s.replace(markers, '\n$1');
+  // Also add spacing before lines that end with " -" (section headers like "Background -")
+  s = s.replace(/\n([A-Z][^\n]{2,50} -)\n/g, '\n\n$1\n');
+  // Collapse 3+ newlines to 2
+  s = s.replace(/\n{3,}/g, '\n\n');
+  return s.trim();
+}
 
 function renderSidebar(){
   const list = document.getElementById("exam-list");
@@ -177,7 +187,7 @@ function renderCard(q){
   head.appendChild(el("span","qtype",esc(q.type)));
   card.appendChild(head);
 
-  card.appendChild(el("div","qtext",esc(q.text)));
+  card.appendChild(el("div","qtext",formatQText(esc(q.text))));
 
   // Inline images (HOTSPOT / drag-drop / exhibits) pulled from ExamTopics CDN
   if(q.images && q.images.length){
