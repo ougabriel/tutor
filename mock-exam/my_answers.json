@@ -1820,8 +1820,8 @@
   "rationale": "1. Define: Specify required packages in a Conda .yml or Dockerfile.\n\n2. Register: Registering in the workspace makes the environment centralized, immutable, and versioned - no need to edit code for updates.\n\n3. Reference: Pipelines and jobs load the registered environment by its workspace reference identifier.\n\n4. Version: When packages need updating, create a new version of the environment artifact rather than modifying training scripts."
  },
  "AI-300|T4|Q2": {
-  "answer": "Centralized governance and shared connections -> Hub; Team isolation (isolated workspace) -> Project",
-  "rationale": "In Microsoft Foundry, a Hub provides centralized governance, security, and shared connections. Projects under the hub give each team an isolated workspace."
+  "answer": "Requirement | Configuration\n---|---\nIsolated workspace for each team | A Microsoft Foundry project per team\nSecurity and governance across teams | A shared Microsoft Foundry resource (Hub)",
+  "rationale": "Projects: The primary unit of isolation and collaboration. A project per team ensures development workflows, data assets, models, and agent configurations remain completely isolated.\n\nResources (Hubs): The centralized management layer. A shared resource/hub allows IT to centrally configure RBAC, network isolation policies, and shared connections that cascade down to all child projects."
  },
  "AI-300|T4|Q4": {
   "answer": "Authenticate without secrets in code -> Managed identity; Grant least-privilege access to resources -> RBAC role assignments on the managed identity",
