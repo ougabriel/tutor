@@ -1844,8 +1844,8 @@
   "rationale": "1. Set up endpoint: Must have a deployed endpoint running under production load before tracking any metrics.\n\n2. Enable logging: Telemetry and diagnostic logging must be turned on - metric collection relies on capturing raw transactional data.\n\n3. Configure monitoring metrics: Once logs flow, configure specific performance/latency metrics to observe.\n\nNote: Apply a term blocklist and Generate token embeddings relate to content safety/vectors, not performance monitoring."
  },
  "AI-300|T5|Q5": {
-  "answer": "Continuous runtime monitoring -> Azure Monitor / Application Insights with alerts; Release-time validation -> Automated evaluation workflow in CI/CD pipeline",
-  "rationale": "Runtime = continuous monitoring (Azure Monitor/App Insights + alerts). Release-time = automated evaluation in CI that gates deployment on quality/safety thresholds."
+  "answer": "Requirement | Mechanism\n---|---\nRuntime monitoring | Diagnostic logs (Observability metrics)\nRelease validation | Evaluation workflow",
+  "rationale": "Runtime monitoring -> Diagnostic logs: Captures exact timestamped events, execution paths, error traces, and API failure statuses to debug why specific calls time out during live production traffic.\n\nRelease validation -> Evaluation workflow: Executes automated tests (groundedness, fluency, relevance, content safety thresholds) on a golden test dataset before rolling updates to production, preventing regressions in safety and answer quality."
  },
  "AI-300|T6|Q2": {
   "answer": "Track changes across contributors -> Git version control (prompts stored in repo); Use updated prompts without redeployment -> External prompt store / prompt flow definitions loaded at runtime (not baked into the app image)",
