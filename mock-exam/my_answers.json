@@ -1760,8 +1760,8 @@
   "rationale": "The indexing pipeline needs two built-in skills: Azure OpenAI Embedding (A) to vectorize text for vector/semantic search, and Text Split (C) to chunk the PDF content into pieces that fit the embedding model token limit. Entity Recognition, Language Detection and Key Phrase Extraction are NLP enrichment skills not required for RAG indexing. Merge is optional and not one of the two core skills asked for."
  },
  "AI-300|T3|Q5": {
-  "answer": "BE",
-  "rationale": "For monitoring a deployed online endpoint, the performance metrics to track are Requests per minute (B) and Request latency (E). Feature count and dataset size are training-time concerns."
+  "answer": "BCE",
+  "rationale": "The three correct metrics to monitor for an Azure ML online endpoint are: B. Requests per minute (tracks incoming traffic volume to correlate spikes with performance dips), C. Connections active (monitors concurrent open connections to detect bottlenecks or thread exhaustion), E. Request latency (directly measures response time to quantify performance degradation). Feature count and Dataset size are static data attributes, not real-time operational performance metrics."
  },
  "AI-300|T3|Q8": {
   "answer": "DE",
