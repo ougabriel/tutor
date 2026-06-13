@@ -1824,8 +1824,8 @@
   "rationale": "Projects: The primary unit of isolation and collaboration. A project per team ensures development workflows, data assets, models, and agent configurations remain completely isolated.\n\nResources (Hubs): The centralized management layer. A shared resource/hub allows IT to centrally configure RBAC, network isolation policies, and shared connections that cascade down to all child projects."
  },
  "AI-300|T4|Q4": {
-  "answer": "Authenticate without secrets in code -> Managed identity; Grant least-privilege access to resources -> RBAC role assignments on the managed identity",
-  "rationale": "Managed identity authenticates without stored secrets. RBAC role assignments grant least-privilege access to specific resources (storage, vector DB) per the security policy."
+  "answer": "Requirement | Configuration\n---|---\nAllow Foundry workloads to access Azure resources with key-less authentication | Managed identity\nControl which users can manage projects and deployments | Role-based access control (RBAC) role assignment",
+  "rationale": "Managed identity: Provides an automatically managed identity in Microsoft Entra ID for key-less authentication to resources that support Entra auth - eliminates secret keys.\n\nRBAC role assignment: Controls user access and permissions to specific resources (projects, deployments) based on assigned roles, enforcing least privilege."
  },
  "AI-300|T4|Q5": {
   "answer": "Multi-region customer support -> Global Standard deployment; Data-residency-restricted marketing -> Data Zone Standard deployment",
