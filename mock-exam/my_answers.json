@@ -1832,8 +1832,8 @@
   "rationale": "Global Standard serves across regions (no data residency constraint). Data Zone Standard keeps data within a specific geographic zone for residency compliance."
  },
  "AI-300|T4|Q6": {
-  "answer": "Track prompt changes -> Git repository (version control with commit history); Review before production -> Pull request review; Rollback on issues -> Git revert/checkout previous version; Same governance as code -> store prompts in the same repo with branch policies",
-  "rationale": "Prompts managed like code: Git for history/tracking, PRs for review, Git revert for rollback, branch policies for governance."
+  "answer": "Requirement | Action\n---|---\nTrack changes and maintain history | Store prompts in a Git repository\nReview updates before production use | Use gated pull requests for prompt changes\nRoll back to a specific prompt version | Store prompts in a Git repository",
+  "rationale": "Git repository provides version history and rollback (commit history). Gated pull requests enforce review before changes reach production. Both 'track history' and 'rollback' map to Git because commit history enables both capabilities."
  },
  "AI-300|T5|Q1": {
   "answer": "Track changes with audit/rollback history -> Git commits on main branch; Compare variants without affecting production -> Feature branches (one per variant)",
