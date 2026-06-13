@@ -1860,8 +1860,8 @@
   "rationale": "Yes: High chunk overlap (400) means adjacent chunks share 1/3 of content, causing duplication.\n\nYes: Similarity threshold of 0.90 is highly restrictive - can filter out relevant chunks that lack exact semantic match (false negatives).\n\nNo: Lowering the threshold permits LESS similar chunks, increasing noise and worsening dilution.\n\nNo: Keyword search matches exact words only - cannot preserve semantic relevance as it lacks conceptual understanding."
  },
  "AI-300|T6|Q5": {
-  "answer": "Depends on the dataset shown - DPO/preference fine-tuning requires: a prompt, a chosen (preferred) response, and a rejected response per row",
-  "rationale": "Preference comparison data (for DPO/RLHF) must have prompt + chosen + rejected columns. If the dataset has this structure, it is valid. Cannot give exact Yes/No without seeing the actual data excerpt."
+  "answer": "Statement | Answer\n---|---\nThe first record provides a usable preference signal for preference-based fine-tuning | No\nThe second record provides a usable preference signal for preference-based fine-tuning | Yes\nEach preferred and non-preferred output contains a valid assistant message as required for direct preference optimization | Yes\nBoth records must contain different preferred and non-preferred outputs to produce usable training signals | Yes",
+  "rationale": "No: The first record does not provide a usable preference signal (likely because preferred and rejected are identical or missing contrast).\n\nYes: The second record has distinct preferred vs non-preferred outputs, providing a valid training signal.\n\nYes: Each output contains a valid assistant message in the format required for DPO.\n\nYes: DPO requires contrasting pairs (different preferred vs non-preferred) to produce usable training signals."
  },
  "AI-300|T6|Q6": {
   "answer": "Exact policy identifiers (low semantic similarity) -> Keyword (BM25) search; Natural-language questions (semantic match) -> Vector/semantic search",
