@@ -1808,8 +1808,8 @@
   "rationale": "Yes: mlflow.log_param() and mlflow.log_metric() track params and metrics per run.\n\nNo: The artifact path is hardcoded as 'model' in mlflow.sklearn.log_model(model, 'model') - it does NOT use the experiment name.\n\nYes: mlflow.set_experiment('classification-experiment') explicitly associates runs with a named experiment."
  },
  "AI-300|T3|Q12": {
-  "answer": "1. Configure a data drift or performance monitor with thresholds; 2. Create an alert rule that fires when threshold exceeded; 3. Configure an action group to notify stakeholders; 4. Trigger a retraining pipeline",
-  "rationale": "The sequence: monitor -> alert rule -> notify (action group) -> retrain. This is the standard MLOps automated-retraining pattern per MS Learn."
+  "answer": "Step | Action\n---|---\n1 | Monitor baseline metrics from production traffic\n2 | Define performance thresholds for monitored metrics\n3 | Configure alerts to notify stakeholders\n4 | Enable scheduled or event-based retraining",
+  "rationale": "1. Establish Baseline: Collect and monitor real-time production traffic data to compare against a baseline dataset.\n\n2. Set Thresholds: Define acceptable drops in accuracy so Azure can identify when performance is outside limits.\n\n3. Alerting: Configure alerts to automatically notify stakeholders when a threshold is breached.\n\n4. Automation: Enable scheduled or event-triggered pipelines to automatically initiate retraining when performance drops.\n\nNote: 'Manually inspect prediction logs after failures' is incorrect - the team wants full automation, not manual intervention."
  },
  "AI-300|T3|Q15": {
   "answer": "Depends on the evaluation metrics shown in the image - typically: Yes if fine-tuned scores are higher on quality metrics without safety regression; No if safety metrics degraded",
