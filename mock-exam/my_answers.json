@@ -1816,8 +1816,8 @@
   "rationale": "Yes: Groundedness score increased from 0.82 to 0.91 (improvement).\n\nNo: Hallucination rate decreased from 0.06 to 0.05 (improvement, not regression).\n\nNo: Latency increased slightly by 10ms - a minor trade-off, not a functional failure.\n\nYes: Groundedness, relevance, and hallucination metrics all showed positive improvements, indicating better overall response quality."
  },
  "AI-300|T4|Q1": {
-  "answer": "1. Create a Dockerfile or conda YAML defining dependencies; 2. Build/register an environment in the workspace; 3. Version the environment; 4. Reference the environment by name:version in pipeline jobs",
-  "rationale": "To ensure consistent, versioned runtime dependencies: define them in a Dockerfile/conda spec, register as an environment, version it, and reference by name:version. This allows updates without modifying training code."
+  "answer": "Step | Action\n---|---\n1 | Define the required dependencies in an environment specification\n2 | Register the environment in the Azure Machine Learning workspace\n3 | Reference the environment in training jobs and pipelines\n4 | Create a new version of the environment when dependencies change",
+  "rationale": "1. Define: Specify required packages in a Conda .yml or Dockerfile.\n\n2. Register: Registering in the workspace makes the environment centralized, immutable, and versioned - no need to edit code for updates.\n\n3. Reference: Pipelines and jobs load the registered environment by its workspace reference identifier.\n\n4. Version: When packages need updating, create a new version of the environment artifact rather than modifying training scripts."
  },
  "AI-300|T4|Q2": {
   "answer": "Centralized governance and shared connections -> Hub; Team isolation (isolated workspace) -> Project",
