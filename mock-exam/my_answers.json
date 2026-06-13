@@ -1812,8 +1812,8 @@
   "rationale": "1. Establish Baseline: Collect and monitor real-time production traffic data to compare against a baseline dataset.\n\n2. Set Thresholds: Define acceptable drops in accuracy so Azure can identify when performance is outside limits.\n\n3. Alerting: Configure alerts to automatically notify stakeholders when a threshold is breached.\n\n4. Automation: Enable scheduled or event-triggered pipelines to automatically initiate retraining when performance drops.\n\nNote: 'Manually inspect prediction logs after failures' is incorrect - the team wants full automation, not manual intervention."
  },
  "AI-300|T3|Q15": {
-  "answer": "Depends on the evaluation metrics shown in the image - typically: Yes if fine-tuned scores are higher on quality metrics without safety regression; No if safety metrics degraded",
-  "rationale": "Improved performance = higher groundedness/relevance/coherence WITHOUT regression in safety metrics. Cannot provide exact Yes/No without seeing the numeric results in the image."
+  "answer": "Statement | Answer\n---|---\nThe fine-tuned model shows improved grounding compared to the baseline | Yes\nThe fine-tuned model introduced a regression in hallucination behavior | No\nThe fine-tuned model's response latency indicates a functional failure | No\nThe evaluation results indicate that fine-tuning improved overall response quality | Yes",
+  "rationale": "Yes: Groundedness score increased from 0.82 to 0.91 (improvement).\n\nNo: Hallucination rate decreased from 0.06 to 0.05 (improvement, not regression).\n\nNo: Latency increased slightly by 10ms - a minor trade-off, not a functional failure.\n\nYes: Groundedness, relevance, and hallucination metrics all showed positive improvements, indicating better overall response quality."
  },
  "AI-300|T4|Q1": {
   "answer": "1. Create a Dockerfile or conda YAML defining dependencies; 2. Build/register an environment in the workspace; 3. Version the environment; 4. Reference the environment by name:version in pipeline jobs",
