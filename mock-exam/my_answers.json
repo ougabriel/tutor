@@ -108,8 +108,8 @@
   "rationale": "Yes. Turning on Tracing for the project's prompt flow in Foundry and running tests produces the required trace data (inputs/outputs/tokens/latency). NOTE: community voted B for this variant - verify, as wording differences in this Yes/No series matter."
  },
  "AI-300|T5|Q3": {
-  "answer": "C",
-  "rationale": "Groundedness measures whether a generated answer is supported by the provided source/context - the evaluator for RAG factual grounding. Coherence/fluency/similarity assess other qualities."
+  "answer": "D",
+  "rationale": "Fluency evaluates language proficiency - whether sentences are grammatically correct, syntactically sound, natural-sounding, and easy to read.\n\nOther evaluators:\n- Coherence: logical flow of ideas throughout the text\n- Groundedness: responses supported by source information (hallucination check)\n- Textual similarity: semantic overlap between generated response and ground-truth reference"
  },
  "AI-300|T5|Q4": {
   "answer": "A",
