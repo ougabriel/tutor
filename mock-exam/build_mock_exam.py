@@ -197,8 +197,10 @@ PAGE_TEMPLATE = r"""<!DOCTYPE html>
   .pill.kiro { background:rgba(63,185,80,.18); color:var(--good); border:1px solid var(--good); }
   .pill.comm { background:rgba(76,154,255,.16); color:var(--accent); border:1px solid var(--accent); }
   .pill.none { background:transparent; color:var(--muted); border:1px solid var(--line); }
-  .rationale { font-size:13px; color:#cdd7e0; line-height:1.5; margin-top:6px;
-               background:var(--panel2); padding:10px 12px; border-radius:8px; }
+  .rationale { font-size:13px; color:#cdd7e0; line-height:1.6; margin-top:6px;
+               background:var(--panel2); padding:12px 14px; border-radius:8px; white-space:pre-wrap; }
+  .ans-answer { font-size:13px; color:var(--text); line-height:1.6; margin-top:8px; margin-bottom:4px;
+                background:var(--panel2); padding:10px 14px; border-radius:8px; white-space:pre-wrap; border-left:3px solid var(--good); }
   .choice.kiro-correct { border-color:var(--good); background:rgba(63,185,80,.12); }
   .choice.graded-correct { border-color:var(--good); background:rgba(63,185,80,.18); }
   .choice.graded-wrong { border-color:#f85149; background:rgba(248,81,73,.16); }
@@ -263,6 +265,18 @@ function formatQText(s){
   // Collapse 3+ newlines to 2
   s = s.replace(/\n{3,}/g, '\n\n');
   return s.trim();
+}
+function formatAnswer(s){
+  // Format answer/rationale text with proper line breaks for readability
+  // Break on numbered items like "1. " "2. " etc.
+  s = s.replace(/(\d+)\.\s+/g, '\n$1. ');
+  // Break on semicolons separating distinct answer parts
+  s = s.replace(/;\s*/g, ';\n');
+  // Break before "Reasoning:" or "Explanation:" labels
+  s = s.replace(/(Reasoning|Explanation|Rationale|Why):/g, '\n$1:');
+  // Collapse leading newline
+  s = s.replace(/^\n/, '');
+  return s;
 }
 
 function renderSidebar(){
@@ -388,12 +402,15 @@ function renderCard(q){
   // Kiro answer
   const kr = el("div","ans-row");
   if(q.kiro_answer){
-    kr.innerHTML = "<span class='lbl'>Kiro's suggested answer</span> <span class='pill kiro'>"+esc(q.kiro_answer)+"</span>";
+    kr.innerHTML = "<span class='lbl'>Kiro's suggested answer</span>";
+    const ansBlock = el("div","ans-answer",formatAnswer(esc(q.kiro_answer)));
+    ans.appendChild(kr);
+    ans.appendChild(ansBlock);
   } else {
     kr.innerHTML = "<span class='lbl'>Kiro's suggested answer</span> <span class='pill none'>Not yet reviewed</span>";
+    ans.appendChild(kr);
   }
-  ans.appendChild(kr);
-  if(q.kiro_rationale){ ans.appendChild(el("div","rationale",esc(q.kiro_rationale))); }
+  if(q.kiro_rationale){ ans.appendChild(el("div","rationale",formatAnswer(esc(q.kiro_rationale)))); }
 
   // Community answer
   const cr = el("div","ans-row");
