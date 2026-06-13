@@ -1796,8 +1796,8 @@
   "rationale": "Review deployment logs diagnoses initialization errors or container crashes after a new deployment. Validate scoring script and model version resolves cases where the service runs but outputs flawed data (code logic errors or wrong model file). Adjust autoscaling configuration resolves performance bottlenecks and timeout errors by dynamically scaling nodes to handle increased request volumes."
  },
  "AI-300|T3|Q6": {
-  "answer": "Monitor performance metrics -> Azure Monitor / data drift monitor; Automated response -> Azure Monitor alert with action group (webhook/pipeline trigger)",
-  "rationale": "Use a monitoring solution (Azure Monitor metrics/data drift) to track performance. When thresholds are exceeded, an alert with an action group notifies downstream systems or triggers remediation."
+  "answer": "Automated response: Configure alert rules; Infrastructure optimization: Enable autoscaling.",
+  "rationale": "Alert rules detect when monitoring thresholds are breached and automatically trigger action groups (webhooks, Logic Apps) to notify downstream systems. Autoscaling adjusts compute resources based on workload demands for performance and cost optimization. Note: Trigger retraining pipeline handles data drift over time but does not fit the specific requirements asked here."
  },
  "AI-300|T3|Q7": {
   "answer": "Centralized location for runs -> MLflow experiment in the workspace; Capture performance values -> mlflow.log_metric() / mlflow.autolog()",
