@@ -1804,8 +1804,8 @@
   "rationale": "1. Setting the MLflow tracking URI points the logging backend to the Azure ML workspace, ensuring all runs are centrally tracked in the experiment history. 2. MLflow metrics logging APIs (mlflow.log_metric) capture hyperparameter performance values, loss, and accuracy dynamically during training loops."
  },
  "AI-300|T3|Q10": {
-  "answer": "Depends on the script shown in the image - typically: Yes if mlflow.log_param/log_metric are called; No if only print statements are used",
-  "rationale": "MLflow experiment tracking requires explicit mlflow.log_param / mlflow.log_metric calls (or autolog). Print statements alone do NOT log to the experiment run history. Cannot provide exact Yes/No without seeing the script image."
+  "answer": "Statement | Answer\n---|---\nThe code ensures that training parameters and metrics are tracked for each run | Yes\nThe code uses the experiment name to define the artifact path of the logged model | No\nThe code associates the run with a named experiment | Yes",
+  "rationale": "Yes: mlflow.log_param() and mlflow.log_metric() track params and metrics per run.\n\nNo: The artifact path is hardcoded as 'model' in mlflow.sklearn.log_model(model, 'model') - it does NOT use the experiment name.\n\nYes: mlflow.set_experiment('classification-experiment') explicitly associates runs with a named experiment."
  },
  "AI-300|T3|Q12": {
   "answer": "1. Configure a data drift or performance monitor with thresholds; 2. Create an alert rule that fires when threshold exceeded; 3. Configure an action group to notify stakeholders; 4. Trigger a retraining pipeline",
