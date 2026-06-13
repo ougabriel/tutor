@@ -1848,8 +1848,8 @@
   "rationale": "Runtime monitoring -> Diagnostic logs: Captures exact timestamped events, execution paths, error traces, and API failure statuses to debug why specific calls time out during live production traffic.\n\nRelease validation -> Evaluation workflow: Executes automated tests (groundedness, fluency, relevance, content safety thresholds) on a golden test dataset before rolling updates to production, preventing regressions in safety and answer quality."
  },
  "AI-300|T6|Q2": {
-  "answer": "Track changes across contributors -> Git version control (prompts stored in repo); Use updated prompts without redeployment -> External prompt store / prompt flow definitions loaded at runtime (not baked into the app image)",
-  "rationale": "Git gives traceability across contributors. Decoupling prompts from the app deployment (runtime-loaded prompt templates) avoids redeployment on prompt changes."
+  "answer": "Requirement | Configuration\n---|---\nTrack prompt changes across teams | Git repository\nApply prompt updates without redeployment | Agent latest published version reference",
+  "rationale": "Git repository: Provides version control - track changes, view history, handle branches, and attribute contributions across multiple users.\n\nAgent latest published version reference: A dynamic pointer (latest published version) allows consumer applications to automatically use updated prompts as soon as they are pushed live, eliminating the need for full application redeployment."
  },
  "AI-300|T6|Q3": {
   "answer": "Model selection -> GPT-4.1 or GPT-4o (supports 200k+ context, low latency); Deployment type -> Serverless API or Global Standard; Testing -> Playground in Foundry portal",
