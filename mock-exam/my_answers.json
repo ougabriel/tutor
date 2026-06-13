@@ -1788,8 +1788,8 @@
   "rationale": "To reference all blobs in a container as one data asset, use uri_folder with the wasbs:// path pointing to the container."
  },
  "AI-300|T3|Q2": {
-  "answer": "Data drift monitor to detect distribution changes; Alert rule / action trigger when thresholds exceeded",
-  "rationale": "A data drift monitor detects input distribution changes (baseline vs current). An alert/action (e.g., Azure Monitor alert or pipeline trigger) fires when the configured threshold is exceeded."
+  "answer": "1. Detect changes in input data distribution: Enable data drift monitoring. 2. Trigger action when thresholds are exceeded: Configure alerts.",
+  "rationale": "1. Data drift monitoring tracks changes in model input data distribution over time compared to baseline training data, detecting when distributions shift. 2. Azure ML integrates with Azure Monitor to set up alerts - when drift metrics breach predefined thresholds, alerts automatically notify the team or trigger automated workflows (like retraining webhooks)."
  },
  "AI-300|T3|Q4": {
   "answer": "HTTP 5xx errors -> check deployment logs (get-logs); Unexpected predictions -> verify scoring script logic and model version; Timeout errors -> check resource allocation / scaling",
