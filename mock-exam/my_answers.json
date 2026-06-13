@@ -1800,8 +1800,8 @@
   "rationale": "Alert rules detect when monitoring thresholds are breached and automatically trigger action groups (webhooks, Logic Apps) to notify downstream systems. Autoscaling adjusts compute resources based on workload demands for performance and cost optimization. Note: Trigger retraining pipeline handles data drift over time but does not fit the specific requirements asked here."
  },
  "AI-300|T3|Q7": {
-  "answer": "Centralized location for runs -> MLflow experiment in the workspace; Capture performance values -> mlflow.log_metric() / mlflow.autolog()",
-  "rationale": "MLflow experiments centralize runs for comparison. Calling mlflow.log_metric or mlflow.autolog captures metrics to the run history."
+  "answer": "1. Ensure runs are recorded in workspace experiment history: MLflow tracking URI. 2. Record performance values during model training: MLflow metrics logging.",
+  "rationale": "1. Setting the MLflow tracking URI points the logging backend to the Azure ML workspace, ensuring all runs are centrally tracked in the experiment history. 2. MLflow metrics logging APIs (mlflow.log_metric) capture hyperparameter performance values, loss, and accuracy dynamically during training loops."
  },
  "AI-300|T3|Q10": {
   "answer": "Depends on the script shown in the image - typically: Yes if mlflow.log_param/log_metric are called; No if only print statements are used",
