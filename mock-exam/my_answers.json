@@ -112,8 +112,8 @@
   "rationale": "Fluency evaluates language proficiency - whether sentences are grammatically correct, syntactically sound, natural-sounding, and easy to read.\n\nOther evaluators:\n- Coherence: logical flow of ideas throughout the text\n- Groundedness: responses supported by source information (hallucination check)\n- Textual similarity: semantic overlap between generated response and ground-truth reference"
  },
  "AI-300|T5|Q4": {
-  "answer": "A",
-  "rationale": "RelevanceEvaluator scores how relevant the response is to the question/context. Use it when relevance is the target metric."
+  "answer": "D",
+  "rationale": "CoherenceEvaluator measures how naturally, smoothly, and logically consistent a response flows. It only requires query + response text (no external knowledge base or reference context needed).\n\nWhy not the others:\n- RelevanceEvaluator: requires retrieved context/external knowledge base\n- SimilarityEvaluator: requires reference text (ground truth)\n- QAEvaluator: composite that relies on external context/data sources (Groundedness, Relevance)"
  },
  "AI-300|T5|Q6": {
   "answer": "D",
