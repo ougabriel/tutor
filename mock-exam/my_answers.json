@@ -1792,8 +1792,8 @@
   "rationale": "1. Data drift monitoring tracks changes in model input data distribution over time compared to baseline training data, detecting when distributions shift. 2. Azure ML integrates with Azure Monitor to set up alerts - when drift metrics breach predefined thresholds, alerts automatically notify the team or trigger automated workflows (like retraining webhooks)."
  },
  "AI-300|T3|Q4": {
-  "answer": "HTTP 5xx errors -> check deployment logs (get-logs); Unexpected predictions -> verify scoring script logic and model version; Timeout errors -> check resource allocation / scaling",
-  "rationale": "Server errors = container/scoring logs. Wrong predictions = scoring script/model issue. Timeouts = resource/scaling issue. Standard endpoint troubleshooting per MS Learn."
+  "answer": "1. Requests fail after deployment updates: Review deployment logs. 2. Endpoint responds but returns incorrect results: Validate scoring script and model version. 3. Endpoint times out under increased traffic: Adjust autoscaling configuration.",
+  "rationale": "Review deployment logs diagnoses initialization errors or container crashes after a new deployment. Validate scoring script and model version resolves cases where the service runs but outputs flawed data (code logic errors or wrong model file). Adjust autoscaling configuration resolves performance bottlenecks and timeout errors by dynamically scaling nodes to handle increased request volumes."
  },
  "AI-300|T3|Q6": {
   "answer": "Monitor performance metrics -> Azure Monitor / data drift monitor; Automated response -> Azure Monitor alert with action group (webhook/pipeline trigger)",
