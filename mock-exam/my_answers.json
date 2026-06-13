@@ -1836,8 +1836,8 @@
   "rationale": "Git repository provides version history and rollback (commit history). Gated pull requests enforce review before changes reach production. Both 'track history' and 'rollback' map to Git because commit history enables both capabilities."
  },
  "AI-300|T5|Q1": {
-  "answer": "Track changes with audit/rollback history -> Git commits on main branch; Compare variants without affecting production -> Feature branches (one per variant)",
-  "rationale": "Git commits provide audit trail and rollback. Feature branches let you compare prompt variants in isolation without affecting the production (main) branch."
+  "answer": "Requirement | Source Control Approach\n---|---\nTrack prompt changes with audit and rollback | Git repository\nCompare prompt variants without affecting production | Branch-based workflow",
+  "rationale": "Git repository: Records changes over time with a verifiable log (who, what, when). Enables auditing and rollback to previous states if an iteration fails.\n\nBranch-based workflow: Separate feature branches allow designing and comparing multiple prompt variants in parallel, fully isolated from the main/production prompt."
  },
  "AI-300|T5|Q2": {
   "answer": "1. Enable tracing / Application Insights for the deployed endpoint; 2. Configure latency metrics collection; 3. Create a dashboard or alert for latency monitoring under load",
