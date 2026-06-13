@@ -1840,8 +1840,8 @@
   "rationale": "Git repository: Records changes over time with a verifiable log (who, what, when). Enables auditing and rollback to previous states if an iteration fails.\n\nBranch-based workflow: Separate feature branches allow designing and comparing multiple prompt variants in parallel, fully isolated from the main/production prompt."
  },
  "AI-300|T5|Q2": {
-  "answer": "1. Enable tracing / Application Insights for the deployed endpoint; 2. Configure latency metrics collection; 3. Create a dashboard or alert for latency monitoring under load",
-  "rationale": "Enable tracing/App Insights, configure metric collection, then monitor via dashboard/alerts. This is the standard observability setup for GenAI endpoints."
+  "answer": "Step | Action\n---|---\n1 | Set up the model endpoint in Foundry\n2 | Enable logging\n3 | Configure monitoring metrics",
+  "rationale": "1. Set up endpoint: Must have a deployed endpoint running under production load before tracking any metrics.\n\n2. Enable logging: Telemetry and diagnostic logging must be turned on - metric collection relies on capturing raw transactional data.\n\n3. Configure monitoring metrics: Once logs flow, configure specific performance/latency metrics to observe.\n\nNote: Apply a term blocklist and Generate token embeddings relate to content safety/vectors, not performance monitoring."
  },
  "AI-300|T5|Q5": {
   "answer": "Continuous runtime monitoring -> Azure Monitor / Application Insights with alerts; Release-time validation -> Automated evaluation workflow in CI/CD pipeline",
