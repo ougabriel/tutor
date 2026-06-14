@@ -40,8 +40,8 @@
   "rationale": "Private endpoints restrict access to Azure ML / dependent resources over a private IP and remove public exposure - the standard way to meet 'no public network access'. NSGs/firewall/service endpoints are weaker, subnet-level controls."
  },
  "AI-300|T2|Q13": {
-  "answer": "A",
-  "rationale": "Registering the Model asset makes the trained artifact versioned, reusable and governed across projects. Components, environments and pipelines serve other purposes."
+  "answer": "B",
+  "rationale": "Component is a self-contained piece of code that performs a specific step in an ML workflow. Registering a component allows teams to share, reuse, and version that step across projects.\n\nWhy not others:\n- Model (A): Only saves the output file of a training run, not the reusable workflow step definition\n- Environment (C): Defines runtime context (Docker/Python libs) but not functional workflow steps or logic\n- Pipeline (D): Orchestrates multiple steps together; individual reusable building blocks are managed as components"
  },
  "AI-300|T2|Q16": {
   "answer": "B",
