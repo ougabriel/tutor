@@ -1780,8 +1780,8 @@
   "rationale": "Git + CI trigger detects changes. OIDC / service principal authenticates the pipeline to Azure without manual credentials. The pipeline (GitHub Actions or Azure Pipelines) executes the deployment automatically."
  },
  "AI-300|T2|Q14": {
-  "answer": "Import: from azure.ai.ml.entities import Data; or: import mltable; Asset type: mltable (MLTable); Path: path to the folder containing the MLTable YAML file; Materialization: tbl = mltable.load(uri); df = tbl.to_pandas_dataframe()",
-  "rationale": "To materialize MLTable data to a Pandas DataFrame with SDK v2: import mltable, load the MLTable from its folder URI, then call to_pandas_dataframe(). The asset type is mltable and the path points to the folder containing the MLTable YAML definition."
+  "answer": "Dropdown | Selection\n---|---\nFirst dropdown | load\nSecond dropdown | ./sample_data\n\nComplete code:\nimport mltable\ntbl = mltable.load(\"./sample_data\")\ndf = tbl.to_pandas_dataframe()",
+  "rationale": "mltable.load(): Reads an existing MLTable definition from a directory path and returns an MLTable object with data loading configurations.\n\n./sample_data: The load() function expects the path to the DIRECTORY containing the MLTable artifact file, not a path to the file itself or a glob pattern."
  },
  "AI-300|T2|Q15": {
   "answer": "Use uri_folder as the asset type; set the path to wasbs://mlcontainer1@mlstorage1.blob.core.windows.net/",
