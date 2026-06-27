@@ -1876,8 +1876,8 @@
   "rationale": "Statement 1 (No): LangChain components do not automatically send trace data to Azure Monitor unless an explicit tracer (such as AzureOpenTelemetryTracer) or an automatic instrumentor is registered and configured.\nStatement 2 (Yes): The OTEL_SERVICE_NAME environment variable sets the service.name attribute in OpenTelemetry. Azure Application Insights reads this to distinguish and group different components or microservices on the Application Map.\nStatement 3 (No): Setting enable_content_recording=False explicitly tells the tracer to omit prompt inputs, outputs, and tool call arguments to adhere to security compliance and protect sensitive information or credentials."
  },
  "AI-103|T1|Q5": {
-  "answer": "Pipeline1: prebuilt-layout analyzer (cost-effective high-volume); Pipeline2: agentic/generative pipeline with custom analyzer and reference data",
-  "rationale": "Prebuilt = cost-effective at scale for standalone PDFs. Agentic pipeline = multi-step reasoning across documents."
+  "answer": "Pipeline1: Single-file task in standard mode\nPipeline2: Multi-file task in pro mode",
+  "rationale": "Pipeline1 = Single-file task in standard mode: The requirement is a cost-effective, high-volume approach for processing standalone (individual) PDF invoices. Standard mode is optimized to minimize cost and latency when processing single files with straightforward field extraction, without complex cross-file analysis.\nPipeline2 = Multi-file task in pro mode: The requirement calls for cross-document validation, multi-step reasoning, and reference data. Pro mode is designed for advanced cases where you process multiple input files in a single request, apply reasoning across different files, and leverage reference data to guide extraction and verification."
  },
  "AI-103|T1|Q6": {
   "answer": "Auth: DefaultAzureCredential(); API: client.responses.create(model=deployment_name)",
