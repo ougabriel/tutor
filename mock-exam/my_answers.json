@@ -1900,8 +1900,8 @@
   "rationale": "Groundedness evaluation metrics measure how well the model responses are supported by the source context or retrieved documents, ideal for identifying unsupported answers.\nRisk and safety metrics track harmful content, jailbreak attempts, and policy violations to ensure the application meets its safety guidelines."
  },
  "AI-103|T1|Q18": {
-  "answer": "No relevant info increase: Inference/retrieval failure; HTTP 429: Resource limits (rate limit exceeded)",
-  "rationale": "Empty retrieval = inference issue. 429 = quota/rate limit hit."
+  "answer": "Metrics to enable: Model Availability Rate and Provisioned Utilization\nDiagnostic log to collect: RequestResponse",
+  "rationale": "Metrics: Periodic HTTP 429 (Rate Limit Exceeded) errors during peak hours point to a resource-limit problem. Provisioned Utilization shows whether your Provisioned Throughput Units (PTUs) are saturated at 100%, while Model Availability Rate helps distinguish underlying service unavailability from plain quota exhaustion.\nDiagnostic log: An increase in \"No relevant information found\" responses is an inference/grounding failure. The RequestResponse log category records the actual input prompts and completion payloads, letting you debug why the RAG system/agent is failing to locate context."
  },
  "AI-103|T1|Q20": {
   "answer": "Force retrieval: tool_choice=required; Auth: agent managed identity; Isolation: dedicated user-assigned managed identity; Audit: enable tracing",
