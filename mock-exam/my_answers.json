@@ -1924,8 +1924,8 @@
   "rationale": "Persistent agent memory: Microsoft Foundry Agent Service has a managed long-term memory layer that captures, consolidates, and stores user preferences and context across multiple distinct sessions and threads. Short-term/orchestration-managed context is limited to a single session and resets afterward.\nFile Search tool: Allows real-time document attachment and extraction during a chat session, automatically setting up an isolated vector indexing flow to ground the model with accurate context from user-uploaded data."
  },
  "AI-103|T1|Q40": {
-  "answer": "Authentication: Azure Login action with OpenID Connect (OIDC); If evaluation results NOT met: Fail the workflow",
-  "rationale": "OIDC is the recommended secure, passwordless auth for GitHub Actions to Azure/Foundry. Setting the workflow to Fail when evaluation thresholds are not met leverages GitHub Branch Protection (require status checks to pass) to automatically block the PR from merging."
+  "answer": "Authentication method: An Azure Login action that uses OpenID Connect (OIDC)\nIf the evaluation results are NOT met, configure the workflow to: Fail",
+  "rationale": "Authentication: Microsoft recommends OpenID Connect (OIDC) via the standard azure/login GitHub action for CI/CD, enabling secure keyless authentication and avoiding long-lived credentials like Personal Access Tokens (PATs).\nIf results are NOT met = Fail: Setting the workflow step/job to Fail is the standard way to block a pull request from merging. GitHub branch protection rules then automatically prevent merging when a required check fails."
  },
  "AI-103|T1|Q49": {
   "answer": "Prompt shields action: Set action to block; Additional mitigation: Enable Spotlighting",
