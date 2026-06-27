@@ -164,8 +164,8 @@
   "rationale": "A model cascade routes easy requests to a smaller/cheaper model and escalates only hard ones to the capable model, balancing cost and quality. Routing all to one model wastes cost or quality."
  },
  "AI-103|T1|Q19": {
-  "answer": "B",
-  "rationale": "To judge output quality/correctness, use evaluation metrics. Latency, run success rate and token usage are operational, not quality, signals."
+  "answer": "D",
+  "rationale": "Token usage."
  },
  "AI-103|T1|Q21": {
   "answer": "D",
