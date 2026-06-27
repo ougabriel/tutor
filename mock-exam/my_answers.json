@@ -1912,8 +1912,8 @@
   "rationale": "tool_choice=required ensures the agent always calls a tool rather than responding directly."
  },
  "AI-103|T1|Q32": {
-  "answer": "Calculations: Code interpreter; Public websites: Bing grounding/web search; Uploaded documents: File search",
-  "rationale": "Code interpreter = computation. Bing = live web. File search = uploaded docs."
+  "answer": "Access up-to-date information from public websites: Grounding with Bing Search\nPerform calculations during conversations: Code interpreter\nRetrieve information from documents uploaded directly to the agent: File search",
+  "rationale": "Grounding with Bing Search connects the agent to the web to fetch live, real-time public data.\nCode interpreter lets the agent write and execute Python to perform precise mathematical calculations.\nFile search acts as a Retrieval-Augmented Generation (RAG) tool to index and query information from locally uploaded user documents."
  },
  "AI-103|T1|Q35": {
   "answer": "temperature=0 (maximize determinism); keep reasoning quality high",
