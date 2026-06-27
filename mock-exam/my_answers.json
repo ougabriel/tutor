@@ -1888,8 +1888,8 @@
   "rationale": "If/else condition = Not(IsBlank(Local.Var01)): IsBlank checks whether a scalar variable is empty or null; wrapping it in Not() confirms the variable actually contains a value. (IsEmpty is only for collections/tables.)\nSend message = {Upper(Local.Var01)}: The variable is scoped as a local variable (Local.Var01). Upper() converts the text to uppercase, and curly braces {} are used for expression interpolation within messages."
  },
  "AI-103|T1|Q8": {
-  "answer": "Image source: Blob URL; Auth: Managed identity with Storage Blob Data Reader role",
-  "rationale": "Content Safety reads the blob URL. Least privilege = managed identity + Storage Blob Data Reader."
+  "answer": "Guardrails: Select User input, Output, Tool response, and Tool call; set Action to Block.\nStorage access: A system-assigned managed identity assigned the Storage Blob Data Reader role.",
+  "rationale": "Guardrails: To fully protect the app from harmful content during agent runs, safety evaluation must cover all interaction points. Selecting User input, Output, Tool response, and Tool call gives comprehensive end-to-end moderation of both agent-generated and user-provided content. Action = Block proactively stops unsafe content from being returned or processed further.\nStorage access: Least privilege dictates the minimum access needed. Azure AI Content Safety only needs to READ the image via the blob URL. Storage Blob Data Reader grants read access; Storage Blob Data Contributor adds read/write/delete and violates least privilege. A system-assigned managed identity avoids embedding credentials or access keys in code."
  },
  "AI-103|T1|Q11": {
   "answer": "Pause: approval/human-in-the-loop step; Continue: proceed to refund tool call after approval granted",
