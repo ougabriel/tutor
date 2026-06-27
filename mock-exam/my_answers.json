@@ -140,8 +140,8 @@
   "rationale": "To let the agent use the product sheets, add a connection to the Azure AI Search resource in the project so the agent can retrieve from the index."
  },
  "AI-103|T1|Q9": {
-  "answer": "C",
-  "rationale": "When multiple agents must collaborate on one task, use a multi-agent group chat session so agents coordinate within the orchestration rather than ad-hoc app code."
+  "answer": "A",
+  "rationale": "A workflow. Microsoft Foundry Workflows provide a graph-based, deterministic orchestration layer for defining rigid step-by-step logic, conditional branching (if/else), loops, and shared state across specialized agents. Using the native Workflows feature (visual designer or YAML) lets you define the exact orchestration between TriageAgent, PolicyAgent, and ActionAgent with minimal development effort, without custom multi-agent routing code.\nWhy not B/D: Coordinating separate agent runs or managing threads manually in app code requires significant custom development and boilerplate.\nWhy not C: A multi-agent group chat session is non-deterministic and open-ended (the LLMs decide who speaks next), failing the strict deterministic, step-based requirement."
  },
  "AI-103|T1|Q12": {
   "answer": "C",
