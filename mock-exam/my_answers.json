@@ -1732,8 +1732,8 @@
   "rationale": "No (per this test series' key); the shown YAML misses one of the fail/publish/always-run requirements."
  },
  "AI-103|T1|Q10": {
-  "answer": "C",
-  "rationale": "Set the project property to the project ID of the Foundry project so the SDK/agent connects to the correct project."
+  "answer": "B",
+  "rationale": "The custom speech project ID. When using the Speech to text REST API for custom fine-tuned speech models in Azure AI Foundry, the project property must point to the unique identifier of the Custom Speech project where the model was trained and published, not the general Foundry project ID, workspace URL, or endpoint URL. Any other value produces an invalid project ID error."
  },
  "AI-103|T1|Q33": {
   "answer": "BC",
