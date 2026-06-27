@@ -184,8 +184,8 @@
   "rationale": "Image moderation evaluates an image visual features to block inappropriate/harmful content like nudity, violence, or gore. Indirect prompt injection involves textual instructions hidden inside an image (e.g., stylized text or adversarial noise meant to be picked up by OCR). Image moderation does not analyze or detect malicious text-based commands, so it leaves the model vulnerable. The correct approach is text-based content safety controls (Prompt Shields / jailbreak risk detection) applied to the extracted text before it is fed into the generative AI model."
  },
  "AI-103|T1|Q25": {
-  "answer": "B",
-  "rationale": "No. Prompt shields for documents target injected instructions in grounding documents/text, not malicious instructions hidden in uploaded images."
+  "answer": "A (Yes)",
+  "rationale": "The threat is an indirect prompt injection attack where malicious instructions are hidden inside external data. In Azure AI Content Safety, Prompt Shield for documents is specifically designed to analyze external materials, uploaded files, and parsed content for hidden adversarial instructions. It blocks these embedded commands from hijacking the LLM session, neutralizing the risk before the model processes the extracted text."
  },
  "AI-103|T1|Q26": {
   "answer": "B",
