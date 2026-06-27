@@ -1896,8 +1896,8 @@
   "rationale": "First dropdown = ask_question: The ask_question step type prompts for human interaction/input (human-in-the-loop), pausing the workflow until a response or approval is submitted.\nSecond dropdown = approval == \"approved\": To ensure the refund executes only after human confirmation, the condition must verify that the approval step output/state evaluates to \"approved\"."
  },
  "AI-103|T1|Q15": {
-  "answer": "Unsupported answers: Groundedness metric; Policy violations: Content safety / risk-and-safety metrics",
-  "rationale": "Groundedness detects ungrounded answers. Content safety detects policy violations."
+  "answer": "Unsupported responses: Groundedness evaluation metrics\nPolicy violations: Risk and safety metrics",
+  "rationale": "Groundedness evaluation metrics measure how well the model responses are supported by the source context or retrieved documents, ideal for identifying unsupported answers.\nRisk and safety metrics track harmful content, jailbreak attempts, and policy violations to ensure the application meets its safety guidelines."
  },
  "AI-103|T1|Q18": {
   "answer": "No relevant info increase: Inference/retrieval failure; HTTP 429: Resource limits (rate limit exceeded)",
