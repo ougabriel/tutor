@@ -1904,8 +1904,8 @@
   "rationale": "Metrics: Periodic HTTP 429 (Rate Limit Exceeded) errors during peak hours point to a resource-limit problem. Provisioned Utilization shows whether your Provisioned Throughput Units (PTUs) are saturated at 100%, while Model Availability Rate helps distinguish underlying service unavailability from plain quota exhaustion.\nDiagnostic log: An increase in \"No relevant information found\" responses is an inference/grounding failure. The RequestResponse log category records the actual input prompts and completion payloads, letting you debug why the RAG system/agent is failing to locate context."
  },
  "AI-103|T1|Q20": {
-  "answer": "Force retrieval: tool_choice=required; Auth: agent managed identity; Isolation: dedicated user-assigned managed identity; Audit: enable tracing",
-  "rationale": "required tool_choice forces retrieval. Dedicated managed identity isolates and enables audit."
+  "answer": "Set tool_choice to: required\nConfigure the tool to authenticate by: Using a distinct agent identity bound to the client application",
+  "rationale": "tool_choice = required: This forces the model to execute a tool (the retrieval step) on every workflow run before generating a final response. The default auto lets the model decide whether to call it, which violates the requirement.\nAuthenticate using a distinct agent identity bound to the client application: This meets the security criteria - an identity isolated from other project resources, authenticated via the published agent's own dedicated credentials, with support for separate audit tracing. Storing keys in prompts is insecure, and a shared project identity lacks resource isolation."
  },
  "AI-103|T1|Q30": {
   "answer": "Set tool_choice to required (or specify the tool function name)",
