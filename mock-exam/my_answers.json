@@ -1884,8 +1884,8 @@
   "rationale": "First box = DefaultAzureCredential: standard azure.identity class to authenticate automatically using a Microsoft Entra managed identity (system- and user-assigned) in production.\nSecond box = create: With the Foundry SDK / OpenAI-compatible client, generating a chat completion via the Responses API uses openai_client.responses.create()."
  },
  "AI-103|T1|Q7": {
-  "answer": "Condition: !IsBlank(Topic.Var01); Message: Upper(Topic.Var01)",
-  "rationale": "Power Fx: !IsBlank checks for value. Upper() converts to uppercase."
+  "answer": "If/else condition: Not(IsBlank(Local.Var01))\nSend message: {Upper(Local.Var01)}",
+  "rationale": "If/else condition = Not(IsBlank(Local.Var01)): IsBlank checks whether a scalar variable is empty or null; wrapping it in Not() confirms the variable actually contains a value. (IsEmpty is only for collections/tables.)\nSend message = {Upper(Local.Var01)}: The variable is scoped as a local variable (Local.Var01). Upper() converts the text to uppercase, and curly braces {} are used for expression interpolation within messages."
  },
  "AI-103|T1|Q8": {
   "answer": "Image source: Blob URL; Auth: Managed identity with Storage Blob Data Reader role",
