@@ -156,8 +156,8 @@
   "rationale": "To require the agent to use an MCP tool, set tool_choice to the mcp type. 'auto' leaves it optional; 'required' is not the MCP-specific binding; knowledge_base is not the MCP tool type."
  },
  "AI-103|T1|Q16": {
-  "answer": "D",
-  "rationale": "Because API keys are not allowed and Entra auth is required, configure a Bearer token security scheme in the OpenAPI spec so the tool authenticates with an Entra token."
+  "answer": "C",
+  "rationale": "An API key security scheme. In an OpenAPI 3.0 spec, defining a security scheme of type apiKey with in: header instructs the Microsoft Foundry proxy layer to automatically attach the credential value to the HTTP request headers.\nWhy not A (header parameter): a standard per-operation header parameter requires passing the value manually on each tool invocation instead of auto-injecting from the project connection.\nWhy not B (Azure Key Vault connection): that is a cloud resource component outside the OpenAPI specification standard.\nWhy not D (Bearer token security scheme): used for OAuth2/JWT tokens, not static API keys."
  },
  "AI-103|T1|Q17": {
   "answer": "B",
