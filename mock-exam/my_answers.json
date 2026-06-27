@@ -256,8 +256,8 @@
   "rationale": "Set input_fidelity to high to preserve fine detail/text from the input image during image editing/generation."
  },
  "AI-103|T1|Q50": {
-  "answer": "A",
-  "rationale": "To screen text embedded in images, run OCR (Azure Vision) and apply keyword scanning over the OCR output. Prompt shields/blocklists/image moderation do not scan extracted in-image text the same way."
+  "answer": "D",
+  "rationale": "Implement image moderation. Azure AI Content Safety provides image moderation that detects harmful content across categories like violence, hate, sexual content, and self-harm, assigning a severity score (typically 0-6) per category so you can set thresholds to auto-block images above a chosen severity.\nWhy not A: keyword scanning on OCR output only checks text within images and misses purely visual harmful content.\nWhy not B: Prompt Shields protect against prompt injection/jailbreak in text prompts, not photo uploads.\nWhy not C: blocklists are text/regex lists for banned words or phrases, not for classifying image content."
  },
  "AI-103|T1|Q51": {
   "answer": "B",
