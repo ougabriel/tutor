@@ -1872,8 +1872,8 @@
   "rationale": "Deployment type = Standard: The requirements state model-processed data must remain confined to a specific region (e.g., the EU Azure region) and scale dynamically without reserved throughput capacity, so a regional Standard deployment is used instead of a Global option.\n\nVersion update policy = Once the current version expires: To minimize unexpected behavioral changes in the customer-facing assistant while still meeting security/compliance before a model version is deprecated, updating Once the current version expires gives maximum predictability over the deployment lifespan."
  },
  "AI-103|T1|Q4": {
-  "answer": "Yes (telemetry distinguishable); Yes (secrets not stored in spans)",
-  "rationale": "enable_content_recording=False prevents content from spans. LangChain and OTel use separate instrumentors, distinguishable in App Insights."
+  "answer": "Statement | Answer\nThe LangChain service will appear in Traces without configuring a tracer. | No\nSetting different OTEL_SERVICE_NAME values separates the services in Application Insights. | Yes\nWhen using enable_content_recording=False, prompts and tool data will be captured in the telemetry. | No",
+  "rationale": "Statement 1 (No): LangChain components do not automatically send trace data to Azure Monitor unless an explicit tracer (such as AzureOpenTelemetryTracer) or an automatic instrumentor is registered and configured.\nStatement 2 (Yes): The OTEL_SERVICE_NAME environment variable sets the service.name attribute in OpenTelemetry. Azure Application Insights reads this to distinguish and group different components or microservices on the Application Map.\nStatement 3 (No): Setting enable_content_recording=False explicitly tells the tracer to omit prompt inputs, outputs, and tool call arguments to adhere to security compliance and protect sensitive information or credentials."
  },
  "AI-103|T1|Q5": {
   "answer": "Pipeline1: prebuilt-layout analyzer (cost-effective high-volume); Pipeline2: agentic/generative pipeline with custom analyzer and reference data",
