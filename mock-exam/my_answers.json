@@ -288,8 +288,8 @@
   "rationale": "Azure AI Search provides the index/retrieval layer for grounding the agent on the documents."
  },
  "AI-103|T1|Q63": {
-  "answer": "B",
-  "rationale": "Configure content=markdown so the analyzer returns structured markdown (preserving tables/headings) for downstream processing."
+  "answer": "D",
+  "rationale": "Set output_content_format=ContentFormat.MARKDOWN. To enable Markdown output in Azure AI Document Intelligence (preserving sections, headers, and table structures from PDFs), explicitly pass the output_content_format parameter with a markdown value (ContentFormat.MARKDOWN / DocumentContentFormat.MARKDOWN). This built-in option minimizes development effort - no custom parsing/conversion logic needed."
  },
  "AI-103|T1|Q64": {
   "answer": "B",
