@@ -132,8 +132,8 @@
   "rationale": "To improve RAG retrieval quality, tune chunk size/overlap to the content (A) and add an optimized re-ranker (B). Raising token limits (C) and changing embedding length (D) do not directly fix retrieval relevance."
  },
  "AI-103|T1|Q2": {
-  "answer": "C",
-  "rationale": "PII Detection prevents the agent from revealing customer information even if a document with customer data is added by mistake. Prompt shields target injection; content filters target harmful categories. Community voted C."
+  "answer": "B",
+  "rationale": "Prompt shields. The security requirement states Agent1 must be protected from malicious instructions potentially hidden within images. Azure AI Content Safety Prompt Shields are specifically designed to detect and block prompt injection attacks, including indirect prompt injection where malicious instructions are hidden inside embedded text within documents or images."
  },
  "AI-103|T1|Q3": {
   "answer": "C",
