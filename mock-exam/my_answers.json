@@ -216,8 +216,8 @@
   "rationale": "Agentic RAG lets the agent plan and run multiple targeted retrievals/reasoning steps for complex queries, improving completeness over a single classic RAG pass."
  },
  "AI-103|T1|Q38": {
-  "answer": "C",
-  "rationale": "Switch to Retrieval Augmented Generation so responses are grounded in source content, improving completeness/accuracy. Token/model tweaks do not add the missing grounded content."
+  "answer": "A",
+  "rationale": "Add a retry evaluation before the responses are returned. Implement an evaluation step (e.g., LLM-as-a-judge or a validation check) in application logic; if a response is incomplete or missing key info from the retrieved documents, trigger a retry/refinement prompt to regenerate a better response.\nWhy not B: decreasing max_tokens limits output length and would truncate responses, making them less complete.\nWhy not C: the agent already generates summaries from retrieved policy documents, so a RAG pattern is already in use.\nWhy not D: smaller model deployments have less reasoning capability, likely reducing summary quality and completeness."
  },
  "AI-103|T1|Q39": {
   "answer": "C",
