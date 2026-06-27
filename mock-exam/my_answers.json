@@ -1892,8 +1892,8 @@
   "rationale": "Guardrails: To fully protect the app from harmful content during agent runs, safety evaluation must cover all interaction points. Selecting User input, Output, Tool response, and Tool call gives comprehensive end-to-end moderation of both agent-generated and user-provided content. Action = Block proactively stops unsafe content from being returned or processed further.\nStorage access: Least privilege dictates the minimum access needed. Azure AI Content Safety only needs to READ the image via the blob URL. Storage Blob Data Reader grants read access; Storage Blob Data Contributor adds read/write/delete and violates least privilege. A system-assigned managed identity avoids embedding credentials or access keys in code."
  },
  "AI-103|T1|Q11": {
-  "answer": "Pause: approval/human-in-the-loop step; Continue: proceed to refund tool call after approval granted",
-  "rationale": "An approval step blocks workflow until a human approves the sensitive refund action."
+  "answer": "First dropdown (type under id: approval): ask_question\nSecond dropdown (condition under id: execute_refund): approval == \"approved\"",
+  "rationale": "First dropdown = ask_question: The ask_question step type prompts for human interaction/input (human-in-the-loop), pausing the workflow until a response or approval is submitted.\nSecond dropdown = approval == \"approved\": To ensure the refund executes only after human confirmation, the condition must verify that the approval step output/state evaluates to \"approved\"."
  },
  "AI-103|T1|Q15": {
   "answer": "Unsupported answers: Groundedness metric; Policy violations: Content safety / risk-and-safety metrics",
