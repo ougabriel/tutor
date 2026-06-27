@@ -200,8 +200,8 @@
   "rationale": "Modify the system message instructions to constrain behavior/scope - the most direct, reliable control. Few-shot, top-p and temperature do not enforce scope as deterministically."
  },
  "AI-103|T1|Q29": {
-  "answer": "A",
-  "rationale": "A multimodal model is needed to analyze invoices by combining visual layout and textual content. An SLM/LLM (text-only) or key-phrase model cannot evaluate the visual layout."
+  "answer": "D",
+  "rationale": "A large language model (LLM). Deep, multi-step reasoning across long contexts and generating highly detailed text are core LLM capabilities. Small Language Models (SLMs) are efficient but generally lack the complex reasoning and context-handling capacity for deep multi-step workflows. Multimodal models handle multiple data types (images, audio), which is not needed here since the grounding source is entirely text documentation."
  },
  "AI-103|T1|Q31": {
   "answer": "B",
