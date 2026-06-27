@@ -1868,8 +1868,8 @@
   "rationale": "Keyword-based (BM25): Exact policy identifiers require precise alphanumeric matching. Lexical search ensures exact matches are retrieved and ranked highly even when semantic similarity is low.\n\nSemantic ranking over vector search: Natural-language questions use synonyms/phrasing that may not match document keywords exactly. Vector search + semantic ranking evaluates conceptual context and intent, prioritizing semantically relevant documents over strict keyword matches."
  },
  "AI-103|T1|Q1": {
-  "answer": "Deployment type: Global Standard; Model version: Pin to a specific version",
-  "rationale": "Global Standard = scalable, no reserved capacity, dynamic scaling. Pin the model version for continuity/consistency. Deploy to EU region for data residency."
+  "answer": "Deployment type: Standard; Version update policy: Once the current version expires",
+  "rationale": "Deployment type = Standard: The requirements state model-processed data must remain confined to a specific region (e.g., the EU Azure region) and scale dynamically without reserved throughput capacity, so a regional Standard deployment is used instead of a Global option.\n\nVersion update policy = Once the current version expires: To minimize unexpected behavioral changes in the customer-facing assistant while still meeting security/compliance before a model version is deprecated, updating Once the current version expires gives maximum predictability over the deployment lifespan."
  },
  "AI-103|T1|Q4": {
   "answer": "Yes (telemetry distinguishable); Yes (secrets not stored in spans)",
