@@ -1880,8 +1880,8 @@
   "rationale": "Pipeline1 = Single-file task in standard mode: The requirement is a cost-effective, high-volume approach for processing standalone (individual) PDF invoices. Standard mode is optimized to minimize cost and latency when processing single files with straightforward field extraction, without complex cross-file analysis.\nPipeline2 = Multi-file task in pro mode: The requirement calls for cross-document validation, multi-step reasoning, and reference data. Pro mode is designed for advanced cases where you process multiple input files in a single request, apply reasoning across different files, and leverage reference data to guide extraction and verification."
  },
  "AI-103|T1|Q6": {
-  "answer": "Auth: DefaultAzureCredential(); API: client.responses.create(model=deployment_name)",
-  "rationale": "DefaultAzureCredential uses managed identity. Responses API called via client.responses.create()."
+  "answer": "First box: DefaultAzureCredential\nSecond box: create",
+  "rationale": "First box = DefaultAzureCredential: standard azure.identity class to authenticate automatically using a Microsoft Entra managed identity (system- and user-assigned) in production.\nSecond box = create: With the Foundry SDK / OpenAI-compatible client, generating a chat completion via the Responses API uses openai_client.responses.create()."
  },
  "AI-103|T1|Q7": {
   "answer": "Condition: !IsBlank(Topic.Var01); Message: Upper(Topic.Var01)",
