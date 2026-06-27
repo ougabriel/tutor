@@ -1920,8 +1920,8 @@
   "rationale": "Temperature 0 produces the most deterministic output, reducing wording variation for validation matching."
  },
  "AI-103|T1|Q37": {
-  "answer": "Retain preferences: Memory/thread persistence; Upload documents: File search tool",
-  "rationale": "Memory retains context across sessions. File search allows runtime document upload."
+  "answer": "To retain user preferences across conversations: Agent memory that uses persistent storage\nTo enable users to provide contextual grounding during chats: File search tool",
+  "rationale": "Persistent agent memory: Microsoft Foundry Agent Service has a managed long-term memory layer that captures, consolidates, and stores user preferences and context across multiple distinct sessions and threads. Short-term/orchestration-managed context is limited to a single session and resets afterward.\nFile Search tool: Allows real-time document attachment and extraction during a chat session, automatically setting up an isolated vector indexing flow to ground the model with accurate context from user-uploaded data."
  },
  "AI-103|T1|Q40": {
   "answer": "Authentication: Azure Login action with OpenID Connect (OIDC); If evaluation results NOT met: Fail the workflow",
