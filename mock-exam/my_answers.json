@@ -180,8 +180,8 @@
   "rationale": "No. A prompt shield for user prompts guards text prompt injection, not hidden instructions embedded inside uploaded images. It does not mitigate the image-based risk."
  },
  "AI-103|T1|Q24": {
-  "answer": "A",
-  "rationale": "Yes. Image moderation blocks unsafe images before processing, which directly mitigates the unsafe-image upload risk in this scenario."
+  "answer": "B (No)",
+  "rationale": "Image moderation evaluates an image visual features to block inappropriate/harmful content like nudity, violence, or gore. Indirect prompt injection involves textual instructions hidden inside an image (e.g., stylized text or adversarial noise meant to be picked up by OCR). Image moderation does not analyze or detect malicious text-based commands, so it leaves the model vulnerable. The correct approach is text-based content safety controls (Prompt Shields / jailbreak risk detection) applied to the extracted text before it is fed into the generative AI model."
  },
  "AI-103|T1|Q25": {
   "answer": "B",
