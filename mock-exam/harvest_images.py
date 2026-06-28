@@ -82,6 +82,10 @@ def extract_images(html: str):
         src = img.get("src") or img.get("data-src") or ""
         src = src.strip()
         if src and ("img.examtopics" in src or "/assets/media" in src or src.lower().endswith((".png", ".jpg", ".jpeg", ".gif"))):
+            # ExamTopics serves some images as site-relative paths (/assets/media/...).
+            # Prefix the domain so they resolve when embedded on another host.
+            if src.startswith("/"):
+                src = "https://www.examtopics.com" + src
             if src not in urls:
                 urls.append(src)
     # also capture answer-area images (drag-drop answers are often images)

@@ -1,4 +1,4 @@
-AI-102-Focus - Overlap topics for AI-103 (105 questions)
+AI-102 & AI-103 Focus - Overlap topics shared by AI-102 and AI-103 (105 questions)
 Source: filtered from AI-102 (OpenAI, Content Safety, Document Intelligence, Foundry, identity)
 
 ======================================================================
