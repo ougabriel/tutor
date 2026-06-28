@@ -1,4 +1,4 @@
-MD-102 - Extracted Questions (403 of 409)
+MD-102 - Extracted Questions (404 of 409)
 Source: ExamTopics question/discussion pages
 
 ======================================================================
@@ -3627,7 +3627,7 @@ B. 60 days
 C. 90 days
 D. 365 days
 
-Suggested Answer (community most voted): B
+Suggested Answer (community most voted): A
 
 ======================================================================
 Topic 1 - Question 191
@@ -5853,7 +5853,7 @@ Does this meet the goal?
 A. Yes
 B. No
 
-Suggested Answer (community most voted): B
+Suggested Answer (community most voted): A
 
 ======================================================================
 Topic 1 - Question 332
@@ -6561,6 +6561,27 @@ Lab Instance: 48262079
 You need to ensure that when the members of a group named sg-Engineering join their Windows devices to Microsoft Entra, the devices are enrolled automatically in Microsoft Intune. The solution must affect only the sg-Engineering group members.
 
 ======================================================================
+Topic 1 - Question 378
+https://www.examtopics.com/discussions/microsoft/view/333129-exam-md-102-topic-1-question-378-discussion/
+======================================================================
+
+SIMULATION
+-
+Username and password
+-
+Use the following login credentials as needed:
+To enter your username, place your cursor in the Sign in box and select the username below.
+To enter your password, place your cursor in the Enter password box and select the password below.
+Microsoft 365 Username: [email protected]
+Microsoft 365 Password: i7A4$3o^HGD3L~=c[9xuOhM%^4:s11Ai
+If the Microsoft Edge browser or Microsoft 365 portal does not load successfully, select the Microsoft Edge browser icon from the task bar, type the URL “https://portal.office.com”, and press Enter.
+The following information is for technical support purposes only:
+Lab Instance: 48262079
+-
+You need to manually register your computer to Windows Autopilot.
+The Get-WindowsAutopilotInfo.ps1 PowerShell script is stored in C:\Scripts.
+
+======================================================================
 Topic 1 - Question 381
 https://www.examtopics.com/discussions/microsoft/view/316702-exam-md-102-topic-1-question-381-discussion/
 ======================================================================
@@ -6908,7 +6929,7 @@ C. Device1 and Device3 only
 D. Device2 and Device3 only
 E. Device1, Device2, and Device3
 
-Suggested Answer (community most voted): D
+Suggested Answer (community most voted): E
 
 ======================================================================
 Topic 1 - Question 402

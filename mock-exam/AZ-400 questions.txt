@@ -1,4 +1,4 @@
-AZ-400 - Extracted Questions (559 of 564)
+AZ-400 - Extracted Questions (560 of 564)
 Source: ExamTopics question/discussion pages
 
 ======================================================================
@@ -1200,6 +1200,21 @@ You are interrogating logs by using KQL.
 You execute the query shown in the following exhibit.
 Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
 NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 2 - Question 49
+https://www.examtopics.com/discussions/microsoft/view/337766-exam-az-400-topic-2-question-49-discussion/
+======================================================================
+
+SIMULATION
+-
+Navigate to https://dev.azure.com, select Start Free, and specify the following credentials:
+•	User: [email protected]
+•	Password: 0123456789
+Use the default setting to sign up for Azure DevOps and create an Azure DevOps organization. Once the organization is created, create a private project named Project1.
+You need to add an external user that has an email address of [email protected] as a stakeholder of the User1-12345678 Azure DevOps organization.
+The user must be added to the most restrictive Azure DevOps group.
+To complete this task, sign in to the Azure DevOps portal as [email protected].
 
 ======================================================================
 Topic 2 - Question 50

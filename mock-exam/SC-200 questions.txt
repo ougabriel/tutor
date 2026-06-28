@@ -1,4 +1,4 @@
-SC-200 - Extracted Questions (411 of 436)
+SC-200 - Extracted Questions (417 of 462)
 Source: ExamTopics question/discussion pages
 
 ======================================================================
@@ -972,7 +972,7 @@ B. Create a device group.
 C. From Advanced features in the Endpoints settings of the Microsoft 365 Defender portal, enable automated investigation.
 D. Configure role-based access control (RBAC).
 
-Suggested Answer (community most voted): D
+Suggested Answer (community most voted): C
 
 ======================================================================
 Topic 1 - Question 56
@@ -2382,6 +2382,25 @@ C. Create asset rues
 D. Assign remediation levels.
 
 Suggested Answer (community most voted): B
+
+======================================================================
+Topic 2 - Question 63
+https://www.examtopics.com/discussions/microsoft/view/408289-exam-sc-200-topic-2-question-63-discussion/
+======================================================================
+
+You have a Microsoft 365 subscription that contains a group named Group1. The subscription uses Microsoft Defender for Endpoint.
+You have 500 devices that run Windows 11. The devices are managed by using Microsoft Intune and are members of Group1.
+You implement security baselines for the devices.
+You discover that some devices fail to receive the security baselines.
+You need to identify which devices failed to receive the security baselines and which baselines were NOT received. The solution must minimize administrative effort
+Which node should you use in the Microsoft Intune admin center?
+
+A. Endpoint security
+B. Apps
+C. Devices
+D. Groups
+
+Suggested Answer (community most voted): A
 
 ======================================================================
 Topic 3 - Question 1
@@ -4883,7 +4902,7 @@ B. an automated alert response in Defender for Endpoint
 C. an endpoint security policy
 D. a custom detection rule
 
-Suggested Answer (community most voted): A
+Suggested Answer (community most voted): B
 
 ======================================================================
 Topic 4 - Question 1
@@ -5458,7 +5477,7 @@ B. Set Live Response to On.
 C. Set Tamper Protection to On.
 D. Set Enable EDR in block mode to On.
 
-Suggested Answer (community most voted): D
+Suggested Answer (community most voted): A
 
 ======================================================================
 Topic 4 - Question 37
@@ -5494,6 +5513,21 @@ How should you configure each retention period? To answer, select the appropriat
 NOTE: Each correct selection is worth one point.
 
 ======================================================================
+Topic 4 - Question 44
+https://www.examtopics.com/discussions/microsoft/view/388703-exam-sc-200-topic-4-question-44-discussion/
+======================================================================
+
+HOTSPOT
+-
+You have a Microsoft Sentinel workspace named Workspace1 that contains a table named CommonSecurityLog.
+You ingest logs into CommonSecurityLog. CommonSecurityLog has an average log ingestion time of five minutes.
+You need to create an analytics rule that has a lookback period of seven minutes and uses the data in the CommonSecurityLog table. The solution must meet the following requirements:
+•	Prevent the same event from being processed twice.
+•	Minimize the number of missed events due to log ingestion delays.
+How should you complete the KQL query that defines the rule? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
 Topic 4 - Question 46
 https://www.examtopics.com/discussions/microsoft/view/382606-exam-sc-200-topic-4-question-46-discussion/
 ======================================================================
@@ -5509,6 +5543,75 @@ C. On each virtual machine, install the Azure Connected Machine agent.
 D. From the Microsoft Defender portal, install the Syslog solution.
 
 Suggested Answer (community most voted): A
+
+======================================================================
+Topic 4 - Question 47
+https://www.examtopics.com/discussions/microsoft/view/382607-exam-sc-200-topic-4-question-47-discussion/
+======================================================================
+
+You have an on-premises virtual machine named VM1 that runs Windows Server.
+You have a Microsoft Sentinel workspace named Workspace1.
+You install the Azure Connected Machine agent on VM1.
+You need to collect events from VM1 and send the events to Workspace1.
+Which two actions should you perform? Each correct answer presents part of the solution.
+NOTE: Each correct answer is worth one point.
+
+A. OnVM1, install the Microsoft Monitoring Agent.
+B. On VM1, install the Log Analytics agent.
+C. From the Microsoft Defender portal, add the Windows Security Events via AMA data connector.
+D. From the Microsoft Defender portal, add the Syslog via AMA data connector.
+E. On VM1, enable the Azure Monitor Agent extensions.
+F. From the Microsoft Defender portal, create a data collection rule (DCR) that targets VM1.
+
+Suggested Answer (community most voted): CF
+
+======================================================================
+Topic 4 - Question 48
+https://www.examtopics.com/discussions/microsoft/view/388701-exam-sc-200-topic-4-question-48-discussion/
+======================================================================
+
+HOTSPOT
+-
+You have an Azure subscription that contains a user named User1 and a Microsoft Sentinel workspace named Workspace1.
+You need to ensure that User1 can create workbooks and playbooks in Workspace1. The solution must meet the following requirements:
+•	Minimize the number of roles assigned to User1.
+•	Follow the principle of least privilege.
+Which roles should you assign to User1, and at which scope should you assign the roles? To answer, select the appropriate options in the answer area.
+NOTE: Each correct solation is worth one point.
+
+======================================================================
+Topic 4 - Question 55
+https://www.examtopics.com/discussions/microsoft/view/416091-exam-sc-200-topic-4-question-55-discussion/
+======================================================================
+
+You have a Microsoft Sentinel workspace named Workspace1.
+In Workspace1, you create a Microsoft Sentinel workbook named WB1.
+You need to add a query to WB1 that will return a list of all the watchlists in Workspace1.
+To what should you set Data source for the query?
+
+A. SQL database
+B. Logs (Analytics)
+C. Storage account
+D. Azure Resource Graph
+
+Suggested Answer (community most voted): D
+
+======================================================================
+Topic 4 - Question 57
+https://www.examtopics.com/discussions/microsoft/view/416093-exam-sc-200-topic-4-question-57-discussion/
+======================================================================
+
+You have an Azure subscription that contains a Microsoft Sentinel workspace and a virtual machine named VM1. VM1 runs Linux and hosts a log forwarder that receives Syslog and Common Event Format (CEF) messages from network appliances on TCP/UDP port 514. VM1 has the Azure Monitor Agent installed and is associated with a single data collection rule (DCR) that collects Syslog facilities.
+You discover that when the appliances send CEF messages by using the local0 facility, the events are ingested into both the CommonSecurityLog table and the Syslog table.
+You need to prevent the CEF messages from being ingested into the Syslog table. The solution must ensure that the CEF messages are still ingested into CommonSecurityLog.
+What should you use?
+
+A. a KQL function
+B. an analytics rule in Microsoft Sentinel
+C. an ingestion-time transformation
+D. a table-level retention setting
+
+Suggested Answer (community most voted): C
 
 ======================================================================
 Topic 5 - Question 1
@@ -6723,7 +6826,7 @@ C. Table3 and Table4 only
 D. Table1, Table3, and Table4 only
 E. Table1, Table2, Table3, and Table4
 
-Suggested Answer (community most voted): B
+Suggested Answer (community most voted): E
 
 ======================================================================
 Topic 7 - Question 1

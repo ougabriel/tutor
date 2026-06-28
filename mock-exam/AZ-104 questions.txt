@@ -245,7 +245,7 @@ Does the solution meet the goal?
 A. Yes
 B. No
 
-Suggested Answer (community most voted): A
+Suggested Answer (community most voted): B
 
 ======================================================================
 Topic 1 - Question 15
@@ -3474,19 +3474,6 @@ C. Azure Blob storage
 D. Azure Data Factory
 
 Suggested Answer (community most voted): C
-
-======================================================================
-Topic 3 - Question 64
-https://www.examtopics.com/discussions/microsoft/view/98315-exam-az-104-topic-3-question-64-discussion/
-======================================================================
-
-HOTSPOT
--
-You have an Azure subscription that contains a storage account named storage1. The storage1 account contains a container named container1.
-You create a blob lifecycle rule named rule1.
-You need to configure rule1 to automatically move blobs that were NOT updated for 45 days from contained to the Cool access tier.
-How should you complete the rule? To answer, select the appropriate options in the answer area.
-NOTE: Each correct selection is worth one point.
 
 ======================================================================
 Topic 3 - Question 65
@@ -9343,6 +9330,22 @@ o	  Start: August 10, 2022
 o	  End: August 13, 2022
 For each of the following statements, select Yes if the statement is true. Otherwise, select No.
 NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 6 - Question 42
+https://www.examtopics.com/discussions/microsoft/view/95894-exam-az-104-topic-6-question-42-discussion/
+======================================================================
+
+You have an Azure subscription that contains a storage account named storage1 in the North Europe Azure region.
+You need to ensure that when blob data is added to storage1, a secondary copy is created in the East US region. The solution must minimize administrative effort.
+What should you configure?
+
+A. operational backup
+B. object replication
+C. geo-redundant storage (GRS)
+D. a lifecycle management rule
+
+Suggested Answer (community most voted): B
 
 ======================================================================
 Topic 6 - Question 43
