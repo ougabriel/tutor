@@ -1,0 +1,1571 @@
+AI-102-Focus - Overlap topics for AI-103 (105 questions)
+Source: filtered from AI-102 (OpenAI, Content Safety, Document Intelligence, Foundry, identity)
+
+======================================================================
+Topic 1 - Question 6
+https://www.examtopics.com/discussions/microsoft/view/74870-exam-ai-102-topic-1-question-6-discussion/
+======================================================================
+
+You are developing a new sales system that will process the video and text from a public-facing website.
+You plan to monitor the sales system to ensure that it provides equitable results regardless of the user's location or background.
+Which two responsible AI principles provide guidance to meet the monitoring requirements? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+
+A. transparency
+B. fairness
+C. inclusiveness
+D. reliability and safety
+E. privacy and security
+
+Suggested Answer (community most voted): BC
+
+======================================================================
+Topic 1 - Question 7
+https://www.examtopics.com/discussions/microsoft/view/74867-exam-ai-102-topic-1-question-7-discussion/
+======================================================================
+
+DRAG DROP -
+You plan to use containerized versions of the Anomaly Detector API on local devices for testing and in on-premises datacenters.
+You need to ensure that the containerized deployments meet the following requirements:
+✑ Prevent billing and API information from being stored in the command-line histories of the devices that run the container.
+✑ Control access to the container images by using Azure role-based access control (Azure RBAC).
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+NOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select.
+Select and Place:
+
+======================================================================
+Topic 1 - Question 11
+https://www.examtopics.com/discussions/microsoft/view/75686-exam-ai-102-topic-1-question-11-discussion/
+======================================================================
+
+You build a custom Form Recognizer model.
+You receive sample files to use for training the model as shown in the following table.
+Which three files can you use to train the model? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+
+A. File1
+B. File2
+C. File3
+D. File4
+E. File5
+F. File6
+
+Suggested Answer (community most voted): ACF
+
+======================================================================
+Topic 1 - Question 13
+https://www.examtopics.com/discussions/microsoft/view/60125-exam-ai-102-topic-1-question-13-discussion/
+======================================================================
+
+You are developing a new sales system that will process the video and text from a public-facing website.
+You plan to notify users that their data has been processed by the sales system.
+Which responsible AI principle does this help meet?
+
+A. transparency
+B. fairness
+C. inclusiveness
+D. reliability and safety
+
+Suggested Answer (community most voted): A
+
+======================================================================
+Topic 1 - Question 23
+https://www.examtopics.com/discussions/microsoft/view/76149-exam-ai-102-topic-1-question-23-discussion/
+======================================================================
+
+DRAG DROP -
+You need to develop an automated call handling system that can respond to callers in their own language. The system will support only French and English.
+Which Azure Cognitive Services service should you use to meet each requirement? To answer, drag the appropriate services to the correct requirements. Each service may be used once, more than once, or not at all. You may need to drag the split bat between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+
+======================================================================
+Topic 1 - Question 24
+https://www.examtopics.com/discussions/microsoft/view/74350-exam-ai-102-topic-1-question-24-discussion/
+======================================================================
+
+You have receipts that are accessible from a URL.
+You need to extract data from the receipts by using Form Recognizer and the SDK. The solution must use a prebuilt model.
+Which client and method should you use?
+
+A. the FormRecognizerClient client and the StartRecognizeContentFromUri method
+B. the FormTrainingClient client and the StartRecognizeContentFromUri method
+C. the FormRecognizerClient client and the StartRecognizeReceiptsFromUri method
+D. the FormTrainingClient client and the StartRecognizeReceiptsFromUri method
+
+Suggested Answer (community most voted): C
+
+======================================================================
+Topic 1 - Question 31
+https://www.examtopics.com/discussions/microsoft/view/82100-exam-ai-102-topic-1-question-31-discussion/
+======================================================================
+
+You have an Azure Cognitive Search instance that indexes purchase orders by using Form Recognizer.
+You need to analyze the extracted information by using Microsoft Power BI. The solution must minimize development effort.
+What should you add to the indexer?
+
+A. a projection group
+B. a table projection
+C. a file projection
+D. an object projection
+
+Suggested Answer (community most voted): B
+
+======================================================================
+Topic 1 - Question 35
+https://www.examtopics.com/discussions/microsoft/view/82103-exam-ai-102-topic-1-question-35-discussion/
+======================================================================
+
+SIMULATION -
+You plan to create a solution to generate captions for images that will be read from Azure Blob Storage.
+You need to create a service in Azure Cognitive Services for the solution. The service must be named captions12345678 and must use the Free pricing tier.
+To complete this task, sign in to the Azure portal.
+
+======================================================================
+Topic 1 - Question 36
+https://www.examtopics.com/discussions/microsoft/view/125119-exam-ai-102-topic-1-question-36-discussion/
+======================================================================
+
+SIMULATION -
+You need to create a Form Recognizer resource named fr12345678.
+Use the Form Recognizer sample labeling tool at https://fott-2-1.azurewebsites.net/ to analyze the invoice located in the C:\Resources\Invoices folder.
+Save the results as C:\Resources\Invoices\Results.json.
+To complete this task, sign in to the Azure portal and open the Form Recognizer sample labeling tool.
+
+======================================================================
+Topic 1 - Question 37
+https://www.examtopics.com/discussions/microsoft/view/82105-exam-ai-102-topic-1-question-37-discussion/
+======================================================================
+
+You have a factory that produces food products.
+You need to build a monitoring solution for staff compliance with personal protective equipment (PPE) requirements. The solution must meet the following requirements:
+* Identify staff who have removed masks or safety glasses.
+* Perform a compliance check every 15 minutes.
+* Minimize development effort.
+* Minimize costs.
+Which service should you use?
+
+A. Face
+B. Computer Vision
+C. Azure Video Analyzer for Media (formerly Video Indexer)
+
+Suggested Answer (community most voted): B
+
+======================================================================
+Topic 1 - Question 45
+https://www.examtopics.com/discussions/microsoft/view/106686-exam-ai-102-topic-1-question-45-discussion/
+======================================================================
+
+You have an Azure IoT hub that receives sensor data from machinery.
+You need to build an app that will perform the following actions:
+• Perform anomaly detection across multiple correlated sensors.
+• Identify the root cause of process stops.
+• Send incident alerts.
+The solution must minimize development time.
+Which Azure service should you use?
+
+A. Azure Metrics Advisor
+B. Form Recognizer
+C. Azure Machine Learning
+D. Anomaly Detector
+
+Suggested Answer (community most voted): A
+
+======================================================================
+Topic 1 - Question 48
+https://www.examtopics.com/discussions/microsoft/view/111815-exam-ai-102-topic-1-question-48-discussion/
+======================================================================
+
+You are building an AI solution that will use Sentiment Analysis results from surveys to calculate bonuses for customer service staff.
+You need to ensure that the solution meets the Microsoft responsible AI principles.
+What should you do?
+
+A. Add a human review and approval step before making decisions that affect the staff's financial situation.
+B. Include the Sentiment Analysis results when surveys return a low confidence score.
+C. Use all the surveys, including surveys by customers who requested that their account be deleted and their data be removed.
+D. Publish the raw survey data to a central location and provide the staff with access to the location.
+
+Suggested Answer (community most voted): A
+
+======================================================================
+Topic 1 - Question 50
+https://www.examtopics.com/discussions/microsoft/view/109884-exam-ai-102-topic-1-question-50-discussion/
+======================================================================
+
+You are developing a monitoring system that will analyze engine sensor data, such as rotation speed, angle, temperature, and pressure. The system must generate an alert in response to atypical values.
+What should you include in the solution?
+
+A. Application Insights in Azure Monitor
+B. metric alerts in Azure Monitor
+C. Multivariate Anomaly Detection
+D. Univariate Anomaly Detection
+
+Suggested Answer (community most voted): C
+
+======================================================================
+Topic 1 - Question 54
+https://www.examtopics.com/discussions/microsoft/view/112133-exam-ai-102-topic-1-question-54-discussion/
+======================================================================
+
+DRAG DROP -
+You are building an app that will scan confidential documents and use the Language service to analyze the contents.
+You provision an Azure Cognitive Services resource.
+You need to ensure that the app can make requests to the Language service endpoint. The solution must ensure that confidential documents remain on-premises.
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+
+======================================================================
+Topic 1 - Question 57
+https://www.examtopics.com/discussions/microsoft/view/122901-exam-ai-102-topic-1-question-57-discussion/
+======================================================================
+
+You are building an app that will use the Speech service.
+You need to ensure that the app can authenticate to the service by using a Microsoft Azure Active Directory (Azure AD), part of Microsoft Entra, token.
+Which two actions should you perform? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+
+A. Enable a virtual network service endpoint.
+B. Configure a custom subdomain.
+C. Request an X.509 certificate.
+D. Create a private endpoint.
+E. Create a Conditional Access policy.
+
+Suggested Answer (community most voted): BD
+
+======================================================================
+Topic 1 - Question 58
+https://www.examtopics.com/discussions/microsoft/view/134922-exam-ai-102-topic-1-question-58-discussion/
+======================================================================
+
+HOTSPOT
+-
+You plan to deploy an Azure OpenAI resource by using an Azure Resource Manager (ARM) template.
+You need to ensure that the resource can respond to 600 requests per minute.
+How should you complete the template? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 1 - Question 59
+https://www.examtopics.com/discussions/microsoft/view/135092-exam-ai-102-topic-1-question-59-discussion/
+======================================================================
+
+DRAG DROP -
+You have an app that manages feedback.
+You need to ensure that the app can detect negative comments by using the Sentiment Analysis API in Azure AI Language. The solution must ensure that the managed feedback remains on your company’s internal network.
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+NOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select.
+
+======================================================================
+Topic 1 - Question 60
+https://www.examtopics.com/discussions/microsoft/view/135042-exam-ai-102-topic-1-question-60-discussion/
+======================================================================
+
+HOTSPOT -
+You have an Azure OpenAI resource named AI1 that hosts three deployments of the GPT 3.5 model. Each deployment is optimized for a unique workload.
+You plan to deploy three apps. Each app will access AI1 by using the REST API and will use the deployment that was optimized for the app's intended workload.
+You need to provide each app with access to AI1 and the appropriate deployment. The solution must ensure that only the apps can access AI1.
+What should you use to provide access to AI1, and what should each app use to connect to its appropriate deployment? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 1 - Question 62
+https://www.examtopics.com/discussions/microsoft/view/135059-exam-ai-102-topic-1-question-62-discussion/
+======================================================================
+
+You have an Azure OpenAI model named AI1.
+You are building a web app named App1 by using the Azure OpenAI SDK.
+You need to configure App1 to connect to AI1.
+What information must you provide?
+
+A. the endpoint, key, and model name
+B. the deployment name, key, and model name
+C. the deployment name, endpoint, and key
+D. the endpoint, key, and model type
+
+Suggested Answer (community most voted): C
+
+======================================================================
+Topic 1 - Question 64
+https://www.examtopics.com/discussions/microsoft/view/135071-exam-ai-102-topic-1-question-64-discussion/
+======================================================================
+
+You plan to perform predictive maintenance.
+You collect IoT sensor data from 100 industrial machines for a year. Each machine has 50 different sensors that generate data at one-minute intervals. In total, you have 5,000 time series datasets.
+You need to identify unusual values in each time series to help predict machinery failures.
+Which Azure service should you use?
+
+A. Azure AI Computer Vision
+B. Cognitive Search
+C. Azure AI Document Intelligence
+D. Azure AI Anomaly Detector
+
+Suggested Answer (community most voted): D
+
+======================================================================
+Topic 1 - Question 66
+https://www.examtopics.com/discussions/microsoft/view/135094-exam-ai-102-topic-1-question-66-discussion/
+======================================================================
+
+You are developing a system that will monitor temperature data from a data stream. The system must generate an alert in response to atypical values. The solution must minimize development effort.
+What should you include in the solution?
+
+A. Multivariate Anomaly Detection
+B. Azure Stream Analytics
+C. metric alerts in Azure Monitor
+D. Univariate Anomaly Detection
+
+Suggested Answer (community most voted): D
+
+======================================================================
+Topic 1 - Question 71
+https://www.examtopics.com/discussions/microsoft/view/150683-exam-ai-102-topic-1-question-71-discussion/
+======================================================================
+
+HOTSPOT
+-
+You have 1,000 scanned images of hand-written survey responses. The surveys do NOT have a consistent layout.
+You have an Azure subscription that contains an Azure AI Document Intelligence resource named AIdoc1.
+You open Document Intelligence Studio and create a new project.
+You need to extract data from the survey responses. The solution must minimize development effort.
+To where should you upload the images, and which type of model should you use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 2 - Question 4
+https://www.examtopics.com/discussions/microsoft/view/77130-exam-ai-102-topic-2-question-4-discussion/
+======================================================================
+
+DRAG DROP -
+You are developing a webpage that will use the Azure Video Analyzer for Media (previously Video Indexer) service to display videos of internal company meetings.
+You embed the Player widget and the Cognitive Insights widget into the page.
+You need to configure the widgets to meet the following requirements:
+✑ Ensure that users can search for keywords.
+✑ Display the names and faces of people in the video.
+✑ Show captions in the video in English (United States).
+How should you complete the URL for each widget? To answer, drag the appropriate values to the correct targets. Each value may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+
+======================================================================
+Topic 2 - Question 12
+https://www.examtopics.com/discussions/microsoft/view/55440-exam-ai-102-topic-2-question-12-discussion/
+======================================================================
+
+DRAG DROP -
+You are developing a call to the Face API. The call must find similar faces from an existing list named employeefaces. The employeefaces list contains 60,000 images.
+How should you complete the body of the HTTP request? To answer, drag the appropriate values to the correct targets. Each value may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+
+======================================================================
+Topic 2 - Question 13
+https://www.examtopics.com/discussions/microsoft/view/54793-exam-ai-102-topic-2-question-13-discussion/
+======================================================================
+
+DRAG DROP -
+You are developing a photo application that will find photos of a person based on a sample image by using the Face API.
+You need to create a POST request to find the photos.
+How should you complete the request? To answer, drag the appropriate values to the correct targets. Each value may be used once, more than once, or not at all.
+You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+
+======================================================================
+Topic 2 - Question 25
+https://www.examtopics.com/discussions/microsoft/view/108276-exam-ai-102-topic-2-question-25-discussion/
+======================================================================
+
+You have an Azure subscription that contains an AI enrichment pipeline in Azure Cognitive Search and an Azure Storage account that has 10 GB of scanned documents and images.
+You need to index the documents and images in the storage account. The solution must minimize how long it takes to build the index.
+What should you do?
+
+A. From the Azure portal, configure parallel indexing.
+B. From the Azure portal, configure scheduled indexing.
+C. Configure field mappings by using the REST API.
+D. Create a text-based indexer by using the REST API.
+
+Suggested Answer (community most voted): A
+
+======================================================================
+Topic 2 - Question 26
+https://www.examtopics.com/discussions/microsoft/view/110625-exam-ai-102-topic-2-question-26-discussion/
+======================================================================
+
+DRAG DROP
+-
+You need to analyze video content to identify any mentions of specific company names.
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+
+======================================================================
+Topic 2 - Question 27
+https://www.examtopics.com/discussions/microsoft/view/108600-exam-ai-102-topic-2-question-27-discussion/
+======================================================================
+
+You have a mobile app that manages printed forms.
+You need the app to send images of the forms directly to Forms Recognizer to extract relevant information. For compliance reasons, the image files must not be stored in the cloud.
+In which format should you send the images to the Form Recognizer API endpoint?
+
+A. raw image binary
+B. form URL encoded
+C. JSON
+
+Suggested Answer (community most voted): A
+
+======================================================================
+Topic 2 - Question 32
+https://www.examtopics.com/discussions/microsoft/view/122477-exam-ai-102-topic-2-question-32-discussion/
+======================================================================
+
+You are building an app that will include one million scanned magazine articles. Each article will be stored as an image file.
+You need to configure the app to extract text from the images. The solution must minimize development effort.
+What should you include in the solution?
+
+A. Computer Vision Image Analysis
+B. the Read API in Computer Vision
+C. Form Recognizer
+D. Azure Cognitive Service for Language
+
+Suggested Answer (community most voted): B
+
+======================================================================
+Topic 2 - Question 33
+https://www.examtopics.com/discussions/microsoft/view/122636-exam-ai-102-topic-2-question-33-discussion/
+======================================================================
+
+You have a 20-GB video file named File1.avi that is stored on a local drive.
+You need to index File1.avi by using the Azure Video Indexer website.
+What should you do first?
+
+A. Upload File1.avi to an Azure Storage queue.
+B. Upload File1.avi to the Azure Video Indexer website.
+C. Upload File1.avi to Microsoft OneDrive.
+D. Upload File1.avi to the www.youtube.com webpage.
+
+Suggested Answer (community most voted): C
+
+======================================================================
+Topic 2 - Question 37
+https://www.examtopics.com/discussions/microsoft/view/135013-exam-ai-102-topic-2-question-37-discussion/
+======================================================================
+
+DRAG DROP -
+You have an app that uses Azure AI and a custom trained classifier to identify products in images.
+You need to add new products to the classifier. The solution must meet the following requirements:
+•	Minimize how long it takes to add the products.
+•	Minimize development effort.
+Which five actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+
+======================================================================
+Topic 3 - Question 27
+https://www.examtopics.com/discussions/microsoft/view/88194-exam-ai-102-topic-3-question-28-discussion/
+======================================================================
+
+You need to measure the public perception of your brand on social media by using natural language processing.
+Which Azure service should you use?
+
+A. Language service
+B. Content Moderator
+C. Computer Vision
+D. Form Recognizer
+
+Suggested Answer (community most voted): A
+
+======================================================================
+Topic 3 - Question 29
+https://www.examtopics.com/discussions/microsoft/view/88196-exam-ai-102-topic-3-question-30-discussion/
+======================================================================
+
+You have the following data sources:
+✑ Finance: On-premises Microsoft SQL Server database
+✑ Sales: Azure Cosmos DB using the Core (SQL) API
+✑ Logs: Azure Table storage
+✑ HR: Azure SQL database
+You need to ensure that you can search all the data by using the Azure Cognitive Search REST API.
+What should you do?
+
+A. Migrate the data in HR to Azure Blob storage.
+B. Migrate the data in HR to the on-premises SQL server.
+C. Export the data in Finance to Azure Data Lake Storage.
+D. Ingest the data in Logs into Azure Sentinel.
+
+Suggested Answer (community most voted): C
+
+======================================================================
+Topic 3 - Question 36
+https://www.examtopics.com/discussions/microsoft/view/102574-exam-ai-102-topic-3-question-36-discussion/
+======================================================================
+
+You are building a social media extension that will convert text to speech. The solution must meet the following requirements:
+•	Support messages of up to 400 characters.
+•	Provide users with multiple voice options.
+•	Minimize costs.
+You create an Azure Cognitive Services resource.
+Which Speech API endpoint provides users with the available voice options?
+
+A. https://uksouth.api.cognitive.microsoft.com/speechtotext/v3.0/models/base
+B. https://uksouth.customvoice.api.speech.microsoft.com/api/texttospeech/v3.0/longaudiosynthesis/voices
+C. https://uksouth.tts.speech.microsoft.com/cognitiveservices/voices/list
+D. https://uksouth.voice.speech.microsoft.com/cognitiveservices/v1?deploymentId={deploymentId}
+
+Suggested Answer (community most voted): C
+
+======================================================================
+Topic 3 - Question 40
+https://www.examtopics.com/discussions/microsoft/view/108982-exam-ai-102-topic-3-question-40-discussion/
+======================================================================
+
+DRAG DROP -
+You develop an app in C# named App1 that performs speech-to-speech translation.
+You need to configure App1 to translate English to German.
+How should you complete the SpeechTranslationConfig object? To answer, drag the appropriate values to the correct targets. Each value may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 3 - Question 42
+https://www.examtopics.com/discussions/microsoft/view/111851-exam-ai-102-topic-3-question-42-discussion/
+======================================================================
+
+DRAG DROP
+-
+You are building a transcription service for technical podcasts.
+Testing reveals that the service fails to transcribe technical terms accurately.
+You need to improve the accuracy of the service.
+Which five actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+
+======================================================================
+Topic 3 - Question 50
+https://www.examtopics.com/discussions/microsoft/view/112140-exam-ai-102-topic-3-question-50-discussion/
+======================================================================
+
+DRAG DROP
+-
+You have a Docker host named Host1 that contains a container base image.
+You have an Azure subscription that contains a custom speech-to-text model named model1.
+You need to run model1 on Host1.
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+
+======================================================================
+Topic 3 - Question 52
+https://www.examtopics.com/discussions/microsoft/view/112143-exam-ai-102-topic-3-question-52-discussion/
+======================================================================
+
+DRAG DROP
+-
+You have a question answering project in Azure Cognitive Service for Language.
+You need to move the project to a Language service instance in a different Azure region.
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+
+======================================================================
+Topic 3 - Question 53
+https://www.examtopics.com/discussions/microsoft/view/112145-exam-ai-102-topic-3-question-53-discussion/
+======================================================================
+
+DRAG DROP
+-
+You are building a customer support chatbot.
+You need to configure the bot to identify the following:
+•	Code names for internal product development
+•	Messages that include credit card numbers
+The solution must minimize development effort.
+Which Azure Cognitive Service for Language feature should you use for each requirement? To answer, drag the appropriate features to the correct requirements. Each feature may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 3 - Question 55
+https://www.examtopics.com/discussions/microsoft/view/123688-exam-ai-102-topic-3-question-55-discussion/
+======================================================================
+
+DRAG DROP
+-
+You have a collection of Microsoft Word documents and PowerPoint presentations in German.
+You need to create a solution to translate the files to French. The solution must meet the following requirements:
+•	Preserve the original formatting of the files.
+•	Support the use of a custom glossary.
+You create a blob container for German files and a blob container for French files. You upload the original files to the container for German files.
+Which three actions should you perform in sequence to complete the solution? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+
+======================================================================
+Topic 3 - Question 58
+https://www.examtopics.com/discussions/microsoft/view/122483-exam-ai-102-topic-3-question-58-discussion/
+======================================================================
+
+DRAG DROP -
+You develop a Python app named App1 that performs speech-to-speech translation.
+You need to configure App1 to translate English to German.
+How should you complete the SpeechTranslationConfig object? To answer, drag the appropriate values to the correct targets. Each value may be used once, more than once or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 3 - Question 63
+https://www.examtopics.com/discussions/microsoft/view/135943-exam-ai-102-topic-3-question-63-discussion/
+======================================================================
+
+You have an Azure subscription that contains an Azure App Service app named App1.
+You provision a multi-service Azure Cognitive Services resource named CSAccount1.
+You need to configure App1 to access CSAccount1. The solution must minimize administrative effort.
+What should you use to configure App1?
+
+A. a system-assigned managed identity and an X.509 certificate
+B. the endpoint URI and an OAuth token
+C. the endpoint URI and a shared access signature (SAS) token
+D. the endpoint URI and subscription key
+
+Suggested Answer (community most voted): D
+
+======================================================================
+Topic 3 - Question 70
+https://www.examtopics.com/discussions/microsoft/view/135087-exam-ai-102-topic-3-question-70-discussion/
+======================================================================
+
+You are designing a content management system.
+You need to ensure that the reading experience is optimized for users who have reduced comprehension and learning differences, such as dyslexia. The solution must minimize development effort.
+Which Azure service should you include in the solution?
+
+A. Azure AI Immersive Reader
+B. Azure AI Translator
+C. Azure AI Document Intelligence
+D. Azure AI Language
+
+Suggested Answer (community most voted): A
+
+======================================================================
+Topic 3 - Question 74
+https://www.examtopics.com/discussions/microsoft/view/135056-exam-ai-102-topic-3-question-74-discussion/
+======================================================================
+
+DRAG DROP -
+You plan to implement an Azure AI Search resource that will use custom skill based on sentiment analysis.
+You need to create a custom model and configure Azure AI Search use the model.
+Which five actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+
+======================================================================
+Topic 3 - Question 77
+https://www.examtopics.com/discussions/microsoft/view/144085-exam-ai-102-topic-3-question-77-discussion/
+======================================================================
+
+You are developing an app that will use the Speech and Language APIs.
+You need to provision resources for the app. The solution must ensure that each service is accessed by using a single endpoint and credential.
+Which type of resource should you create?
+
+A. Azure AI Language
+B. Azure AI Speech
+C. Azure AI Services
+D. Azure AI Content Safety
+
+Suggested Answer (community most voted): C
+
+======================================================================
+Topic 3 - Question 81
+https://www.examtopics.com/discussions/microsoft/view/150396-exam-ai-102-topic-3-question-81-discussion/
+======================================================================
+
+You have an Azure subscription.
+You need to deploy an Azure AI Search resource that will recognize geographic locations.
+Which built-in skill should you include in the skillset for the resource?
+
+A. AzureOpenAIEmbeddingSkill
+B. DocumentExtractionSkill
+C. EntityRecognitionSkill
+D. EntityLinkingSkill
+
+Suggested Answer (community most voted): C
+
+======================================================================
+Topic 4 - Question 3
+https://www.examtopics.com/discussions/microsoft/view/56501-exam-ai-102-topic-4-question-3-discussion/
+======================================================================
+
+You have an existing Azure Cognitive Search service.
+You have an Azure Blob storage account that contains millions of scanned documents stored as images and PDFs.
+You need to make the scanned documents available to search as quickly as possible.
+What should you do?
+
+A. Split the data into multiple blob containers. Create a Cognitive Search service for each container. Within each indexer definition, schedule the same runtime execution pattern.
+B. Split the data into multiple blob containers. Create an indexer for each container. Increase the search units. Within each indexer definition, schedule a sequential execution pattern.
+C. Create a Cognitive Search service for each type of document.
+D. Split the data into multiple virtual folders. Create an indexer for each folder. Increase the search units. Within each indexer definition, schedule the same runtime execution pattern.
+
+Suggested Answer (community most voted): D
+
+======================================================================
+Topic 4 - Question 7
+https://www.examtopics.com/discussions/microsoft/view/77620-exam-ai-102-topic-4-question-7-discussion/
+======================================================================
+
+You have the following data sources:
+✑ Finance: On-premises Microsoft SQL Server database
+✑ Sales: Azure Cosmos DB using the Core (SQL) API
+✑ Logs: Azure Table storage
+HR: Azure SQL database -
+You need to ensure that you can search all the data by using the Azure Cognitive Search REST API.
+What should you do?
+
+A. Configure multiple read replicas for the data in Sales.
+B. Mirror Finance to an Azure SQL database.
+C. Ingest the data in Logs into Azure Data Explorer.
+D. Ingest the data in Logs into Azure Sentinel.
+
+Suggested Answer (community most voted): B
+
+======================================================================
+Topic 4 - Question 9
+https://www.examtopics.com/discussions/microsoft/view/60820-exam-ai-102-topic-4-question-9-discussion/
+======================================================================
+
+DRAG DROP -
+You have a web app that uses Azure Cognitive Search.
+When reviewing billing for the app, you discover much higher than expected charges. You suspect that the query key is compromised.
+You need to prevent unauthorized access to the search endpoint and ensure that users only have read only access to the documents collection. The solution must minimize app downtime.
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+Select and Place:
+
+======================================================================
+Topic 4 - Question 11
+https://www.examtopics.com/discussions/microsoft/view/81122-exam-ai-102-topic-4-question-11-discussion/
+======================================================================
+
+You have an Azure Cognitive Search solution and an enrichment pipeline that performs Sentiment Analysis on social media posts.
+You need to define a knowledge store that will include the social media posts and the Sentiment Analysis results.
+Which two fields should you include in the definition? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+
+A. storageContainer
+B. storageConnectionString
+C. files
+D. tables
+E. objects
+
+Suggested Answer (community most voted): BE
+
+======================================================================
+Topic 4 - Question 15
+https://www.examtopics.com/discussions/microsoft/view/143504-exam-ai-102-topic-4-question-25-discussion/
+======================================================================
+
+HOTSPOT -
+You have an Azure subscription that contains an Azure AI Document Intelligence resource named DI1.
+You create a PDF document named Test.pdf that contains tabular data.
+You need to analyze Test.pdf by using DI1.
+How should you complete the command? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 4 - Question 17
+https://www.examtopics.com/discussions/microsoft/view/135946-exam-ai-102-topic-4-question-17-discussion/
+======================================================================
+
+HOTSPOT -
+You have an app named App1 that uses Azure AI Document Intelligence to analyze medical records and provide pharmaceutical dosage recommendations for patients.
+You send a request to App1 and receive the following response.
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 4 - Question 18
+https://www.examtopics.com/discussions/microsoft/view/134940-exam-ai-102-topic-4-question-18-discussion/
+======================================================================
+
+HOTSPOT -
+You have an Azure subscription that contains an Azure AI Document Intelligence resource named DI1.
+You build an app named App1 that analyzes PDF files for handwritten content by using DI1.
+You need to ensure that App1 will recognize the handwritten content.
+How should you complete the code? To answer, select the appropriate options in the answer area.
+
+======================================================================
+Topic 4 - Question 19
+https://www.examtopics.com/discussions/microsoft/view/135947-exam-ai-102-topic-4-question-19-discussion/
+======================================================================
+
+You have an app named App1 that uses a custom Azure AI Document Intelligence model to recognize contract documents.
+You need to ensure that the model supports an additional contract format. The solution must minimize development effort.
+What should you do?
+
+A. Lower the confidence score threshold of App1.
+B. Create a new training set and add the additional contract format to the new training set. Create and train a new custom model.
+C. Add the additional contract format to the existing training set. Retrain the model.
+D. Lower the accuracy threshold of App1.
+
+Suggested Answer (community most voted): C
+
+======================================================================
+Topic 4 - Question 20
+https://www.examtopics.com/discussions/microsoft/view/135063-exam-ai-102-topic-4-question-20-discussion/
+======================================================================
+
+HOTSPOT
+-
+You have an Azure subscription.
+You need to deploy an Azure AI Document Intelligence resource.
+How should you complete the Azure Resource Manager (ARM) template? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 4 - Question 21
+https://www.examtopics.com/discussions/microsoft/view/136704-exam-ai-102-topic-4-question-21-discussion/
+======================================================================
+
+You are building an app named App1 that will use Azure AI Document Intelligence to extract the following data from scanned documents:
+•	Shipping address
+•	Billing address
+•	Customer ID
+•	Amount due
+•	Due date
+•	Total tax
+•	Subtotal
+You need to identify which model to use for App1. The solution must minimize development effort.
+Which model should you use?
+
+A. custom extraction model
+B. contract
+C. invoice
+D. general document
+
+Suggested Answer (community most voted): C
+
+======================================================================
+Topic 4 - Question 22
+https://www.examtopics.com/discussions/microsoft/view/143493-exam-ai-102-topic-4-question-22-discussion/
+======================================================================
+
+You have the following data sources:
+•	Finance: On-premises Microsoft SQL Server database
+•	Sales: Azure Cosmos DB using the Core (SQL) API
+•	Logs: Azure Table storage
+•	HR: Azure SQL database
+You need to ensure that you can search all the data by using the Azure AI Search REST API.
+What should you do?
+
+A. Migrate the data in HR to Azure Blob storage.
+B. Migrate the data in HR to the on-premises SQL server.
+C. Export the data in Finance to Azure Data Lake Storage.
+D. Migrate the data in Sales to the MongoDB API.
+
+Suggested Answer (community most voted): C
+
+======================================================================
+Topic 4 - Question 23
+https://www.examtopics.com/discussions/microsoft/view/143494-exam-ai-102-topic-4-question-23-discussion/
+======================================================================
+
+You are building an app that will process scanned expense claims and extract and label the following data:
+•	Merchant information
+•	Time of transaction
+•	Date of transaction
+•	Taxes paid
+•	Total cost
+You need to recommend an Azure AI Document Intelligence model for the app. The solution must minimize development effort.
+What should you use?
+
+A. the prebuilt Read model
+B. a custom template model
+C. a custom neural model
+D. the prebuilt receipt model
+
+Suggested Answer (community most voted): D
+
+======================================================================
+Topic 4 - Question 27
+https://www.examtopics.com/discussions/microsoft/view/150443-exam-ai-102-topic-4-question-27-discussion/
+======================================================================
+
+HOTSPOT
+-
+You have an Azure subscription.
+You plan to build a solution that will analyze scanned documents and export relevant fields to a database.
+You need to recommend an Azure AI Document Intelligence model for the following types of documents:
+•	Expenditure request authorization forms
+•	Structured and unstructured survey forms
+•	Structured employment application forms
+The solution must minimize development effort and costs.
+Which type of model should you recommend for each document type? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 4 - Question 28
+https://www.examtopics.com/discussions/microsoft/view/150257-exam-ai-102-topic-4-question-28-discussion/
+======================================================================
+
+You have an Azure subscription that contains an Azure AI Document Intelligence resource named AIdoc1 in the S0 tier.
+You have the files shown in the following table.
+You need to train a custom extraction model by using AIdoc1.
+Which files can you upload to Document Intelligence Studio?
+
+A. File1, File2, and File4 only
+B. File2, and File5 only
+C. File2, File4, and File5 only
+D. File1, File2, File3, File4, and File5
+E. File1 and File2 only
+
+Suggested Answer (community most voted): E
+
+======================================================================
+Topic 4 - Question 29
+https://www.examtopics.com/discussions/microsoft/view/149782-exam-ai-102-topic-4-question-29-discussion/
+======================================================================
+
+You have an Azure subscription that contains an Azure AI Document Intelligence resource named DI1. DI1 uses the Standard S0 pricing tier.
+You have the files shown in the following table.
+Which files can you analyze by using DI1?
+
+A. File 1.pdf only
+B. File2.jpg only
+C. File3.tiff only
+D. File2.jpg and File3.tiff only
+E. File1.pdf, File2.jpg, and File3.tiff
+
+Suggested Answer (community most voted): C
+
+======================================================================
+Topic 4 - Question 30
+https://www.examtopics.com/discussions/microsoft/view/149783-exam-ai-102-topic-4-question-30-discussion/
+======================================================================
+
+HOTSPOT -
+You have an Azure subscription that contains an Azure AI Document Intelligence resource named DI1.
+You build an app named App1 that analyzes PDF files for handwritten content by using DI1.
+You need to ensure that App1 will recognize the handwritten content.
+How should you complete the code? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 4 - Question 31
+https://www.examtopics.com/discussions/microsoft/view/149767-exam-ai-102-topic-4-question-31-discussion/
+======================================================================
+
+DRAG DROP
+-
+You have an Azure subscription that contains a storage account named sa1 and an Azure AI Document Intelligence resource named DI1.
+You need to create and train a custom model in DI1 by using Document Intelligence Studio. The solution must minimize development effort.
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+
+======================================================================
+Topic 4 - Question 32
+https://www.examtopics.com/discussions/microsoft/view/150444-exam-ai-102-topic-4-question-32-discussion/
+======================================================================
+
+DRAG DROP
+-
+You have an Azure subscription that contains an Azure AI Document Intelligence resource named DI1 and a storage account named sa1. The sa1 account contains a blob container named blob1 and an Azure Files share named share1.
+You plan to build a custom model named Model1 in DI1.
+You create sample forms and JSON files for Model1.
+You need to train Model1 and retrieve the ID of the model.
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+NOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select.
+
+======================================================================
+Topic 4 - Question 33
+https://www.examtopics.com/discussions/microsoft/view/149785-exam-ai-102-topic-4-question-33-discussion/
+======================================================================
+
+You have an Azure subscription that contains an Azure AI Document Intelligence resource named AIdoc1.
+You have an app named App1 that uses AIdoc1. App1 analyzes business cards by calling business card model v2.1.
+You need to update App1 to ensure that the app can interpret QR codes. The solution must minimize administrative effort.
+What should you do first?
+
+A. Upgrade the business card model to v3.0.
+B. Implement the read model.
+C. Deploy a custom model.
+D. Implement the contract model.
+
+Suggested Answer (community most voted): B
+
+======================================================================
+Topic 5 - Question 9
+https://www.examtopics.com/discussions/microsoft/view/55006-exam-ai-102-topic-5-question-9-discussion/
+======================================================================
+
+HOTSPOT -
+You are reviewing the design of a chatbot. The chatbot includes a language generation file that contains the following fragment.
+# Greet(user)
+- ${Greeting()}, ${user.name}
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+======================================================================
+Topic 5 - Question 50
+https://www.examtopics.com/discussions/microsoft/view/125072-exam-ai-102-topic-5-question-50-discussion/
+======================================================================
+
+You build a bot.
+You create an Azure Bot resource.
+You need to deploy the bot to Azure.
+What else should you create?
+
+A. only an app registration in Microsoft Azure Active Directory (Azure AD), part of Microsoft Entra, an Azure App Service instance, and an App Service plan
+B. only an app registration in Microsoft Azure Active Directory (Azure AD), part of Microsoft Entra, an Azure Kubernetes Service (AKS) instance, and a container image
+C. only an Azure App Service instance, and an App Service plan
+D. only an Azure Machine Learning workspace and an app registration in Microsoft Azure Active Directory (Azure AD), part of Microsoft Entra
+
+Suggested Answer (community most voted): A
+
+======================================================================
+Topic 6 - Question 1
+https://www.examtopics.com/discussions/microsoft/view/135661-exam-ai-102-topic-6-question-1-discussion/
+======================================================================
+
+DRAG DROP
+-
+You have a monitoring solution that uses the Azure AI Anomaly Detector service.
+You provision a server named Server1 that has intermittent internet access.
+You need to deploy the Azure AI Anomaly Detector to Server1.
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+
+======================================================================
+Topic 7 - Question 1
+https://www.examtopics.com/discussions/microsoft/view/134925-exam-ai-102-topic-7-question-1-discussion/
+======================================================================
+
+You have an Azure subscription. The subscription contains an Azure OpenAI resource that hosts a GPT-4 model named Model1 and an app named App1. App1 uses Model1.
+You need to ensure that App1 will NOT return answers that include hate speech.
+What should you configure for Model1?
+
+A. the Frequency penalty parameter
+B. abuse monitoring
+C. a content filter
+D. the Temperature parameter
+
+Suggested Answer (community most voted): C
+
+======================================================================
+Topic 7 - Question 2
+https://www.examtopics.com/discussions/microsoft/view/134943-exam-ai-102-topic-7-question-2-discussion/
+======================================================================
+
+You have an Azure subscription. The subscription contains an Azure OpenAI resource that hosts a GPT-3.5 Turbo model named Model1.
+You configure Model1 to use the following system message: “You are an AI assistant that helps people solve mathematical puzzles. Explain your answers as if the request is by a 4-year-old.”
+Which type of prompt engineering technique is this an example of?
+
+A. few-shot learning
+B. affordance
+C. chain of thought
+D. priming
+
+Suggested Answer (community most voted): D
+
+======================================================================
+Topic 7 - Question 3
+https://www.examtopics.com/discussions/microsoft/view/134944-exam-ai-102-topic-7-question-3-discussion/
+======================================================================
+
+HOTSPOT
+-
+You build a chatbot by using Azure OpenAI Studio.
+You need to ensure that the responses are more deterministic and less creative.
+Which two parameters should you configure? To answer, select the appropriate parameters in the answer area.
+NOTE: Each correct answer is worth one point.
+
+======================================================================
+Topic 7 - Question 4
+https://www.examtopics.com/discussions/microsoft/view/135146-exam-ai-102-topic-7-question-4-discussion/
+======================================================================
+
+You are building a chatbot for a travel agent. The chatbot will use the Azure OpenAI GPT 3.5 model and will be used to make travel reservations.
+You need to maximize the accuracy of the responses from the chatbot.
+What should you do?
+
+A. Configure the model to include data from the travel agent's database.
+B. Set the Top P parameter for the model to 0.
+C. Set the Temperature parameter for the model to 0.
+D. Modify the system message used by the model to specify that the answers must be accurate.
+
+Suggested Answer (community most voted): C
+
+======================================================================
+Topic 7 - Question 5
+https://www.examtopics.com/discussions/microsoft/view/135054-exam-ai-102-topic-7-question-5-discussion/
+======================================================================
+
+You build a chatbot that uses the Azure OpenAI GPT 3.5 model.
+You need to improve the quality of the responses from the chatbot. The solution must minimize development effort.
+What are two ways to achieve the goal? Each correct answer presents a complete solution.
+NOTE: Each correct answer is worth one point.
+
+A. Fine-tune the model.
+B. Provide grounding content.
+C. Add sample request/response pairs.
+D. Retrain the language model by using your own data.
+E. Train a custom large language model (LLM).
+
+Suggested Answer (community most voted): BC
+
+======================================================================
+Topic 7 - Question 6
+https://www.examtopics.com/discussions/microsoft/view/135215-exam-ai-102-topic-7-question-6-discussion/
+======================================================================
+
+HOTSPOT -
+You have an Azure subscription that contains an Azure OpenAI resource named AI1.
+You build a chatbot that will use AI1 to provide generative answers to specific questions.
+You need to ensure that the responses are more creative and less deterministic.
+How should you complete the code? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 7 - Question 7
+https://www.examtopics.com/discussions/microsoft/view/135487-exam-ai-102-topic-7-question-7-discussion/
+======================================================================
+
+DRAG DROP
+-
+You have an Azure subscription that contains an Azure OpenAI resource named AI1.
+You plan to build an app named App1 that will write press releases by using AI1.
+You need to deploy an Azure OpenAI model for App1. The solution must minimize development effort.
+Which three actions should you perform in sequence in Azure OpenAI Studio? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+
+======================================================================
+Topic 7 - Question 8
+https://www.examtopics.com/discussions/microsoft/view/135102-exam-ai-102-topic-7-question-8-discussion/
+======================================================================
+
+HOTSPOT
+-
+You have an Azure subscription that contains an Azure OpenAI resource named AI1.
+You build a chatbot that will use AI1 to provide generative answers to specific questions.
+You need to ensure that the responses are more creative and less deterministic.
+How should you complete the code? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 7 - Question 9
+https://www.examtopics.com/discussions/microsoft/view/135064-exam-ai-102-topic-7-question-9-discussion/
+======================================================================
+
+HOTSPOT -
+You have an Azure subscription that contains an Azure OpenAI resource.
+You configure a model that has the following settings:
+•	Temperature: 1
+•	Top probabilities: 0.5
+•	Max response tokens: 100
+You ask the model a question and receive the following response.
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 7 - Question 10
+https://www.examtopics.com/discussions/microsoft/view/136127-exam-ai-102-topic-7-question-10-discussion/
+======================================================================
+
+HOTSPOT
+-
+You have an Azure subscription that contains an Azure OpenAI resource named AI1.
+You plan to develop a console app that will answer user questions.
+You need to call AI1 and output the results to the console.
+How should you complete the code? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 7 - Question 11
+https://www.examtopics.com/discussions/microsoft/view/136128-exam-ai-102-topic-7-question-11-discussion/
+======================================================================
+
+HOTSPOT
+-
+You have an Azure subscription that contains an Azure OpenAI resource named AI1.
+You plan to develop a console app that will answer user questions.
+You need to call AI1 and output the results to the console.
+How should you complete the code? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 7 - Question 13
+https://www.examtopics.com/discussions/microsoft/view/143505-exam-ai-102-topic-7-question-13-discussion/
+======================================================================
+
+HOTSPOT
+-
+You have a chatbot that uses Azure OpenAI to generate responses.
+You need to upload company data by using Chat playground. The solution must ensure that the chatbot uses the data to answer user questions.
+How should you complete the code? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 7 - Question 14
+https://www.examtopics.com/discussions/microsoft/view/143924-exam-ai-102-topic-7-question-14-discussion/
+======================================================================
+
+HOTSPOT
+-
+You have an Azure subscription that is linked to a Microsoft Entra tenant. The subscription ID is x1xx11x1-x111-xxxx-xxxx-x1111xxx11x1 and the tenant ID is 1y1y1yyy-1y1y-y1y1-yy11-y1y1y11111y1.
+The subscription contains an Azure OpenAI resource named OpenAI1 that has a primary API key of 1111a111a11a111aaa11a1a1a11a11aa. OpenAI1 has a deployment named embeddings1 that uses the text-embedding-ada-002 model.
+You need to query OpenAI1 and retrieve embeddings for text input.
+How should you complete the code? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 7 - Question 15
+https://www.examtopics.com/discussions/microsoft/view/143643-exam-ai-102-topic-7-question-15-discussion/
+======================================================================
+
+HOTSPOT
+-
+In Azure OpenAI Studio, you are prototyping a chatbot by using Chat playground.
+You need to configure the chatbot to meet the following requirements:
+•	Reduce the repetition of words in conversations.
+•	Reduce the randomness of each response.
+Which two parameters should you modify? To answer, select the appropriate parameters in the answer area.
+NOTE: Each correct answer is worth one point.
+
+======================================================================
+Topic 7 - Question 16
+https://www.examtopics.com/discussions/microsoft/view/143644-exam-ai-102-topic-7-question-16-discussion/
+======================================================================
+
+You have an Azure subscription.
+You need to build an app that will compare documents for semantic similarity. The solution must meet the following requirements:
+•	Return numeric vectors that represent the tokens of each document.
+•	Minimize development effort.
+Which Azure OpenAI model should you use?
+
+A. GPT-3.5
+B. GPT-4
+C. embeddings
+D. DALL-E
+
+Suggested Answer (community most voted): C
+
+======================================================================
+Topic 7 - Question 17
+https://www.examtopics.com/discussions/microsoft/view/149920-exam-ai-102-topic-7-question-17-discussion/
+======================================================================
+
+You have an Azure OpenAI model.
+You have 500 prompt-completion pairs that will be used as training data to fine-tune the model.
+You need to prepare the training data.
+Which format should you use for the training data file?
+
+A. CSV
+B. XML
+C. JSONL
+D. TSV
+
+Suggested Answer (community most voted): C
+
+======================================================================
+Topic 7 - Question 18
+https://www.examtopics.com/discussions/microsoft/view/149574-exam-ai-102-topic-7-question-18-discussion/
+======================================================================
+
+You have a custom Azure OpenAI model.
+You have the files shown in the following table.
+You need to prepare training data for the model by using the OpenAI CLI data preparation tool.
+Which files can you upload to the tool?
+
+A. File1.tsv only
+B. File2.xml only
+C. File3.pdf only
+D. File4.xlsx only
+E. File1.tsv and File4.xslx only
+F. File1.tsv, File2.xml and File4.xslx only
+G. File1.tsv, File2.xml, File3.pdf and File4.xslx
+
+Suggested Answer (community most voted): A
+
+======================================================================
+Topic 7 - Question 19
+https://www.examtopics.com/discussions/microsoft/view/150032-exam-ai-102-topic-7-question-19-discussion/
+======================================================================
+
+You have an Azure subscription that contains an Azure OpenAI resource named OpenAI1 and a user named User1.
+You need to ensure that User1 can upload datasets to OpenAI1 and finetune the existing models. The solution must follow the principle of least privilege.
+Which role should you assign to User1?
+
+A. Cognitive Services OpenAI Contributor
+B. Cognitive Services Contributor
+C. Cognitive Services OpenAI User
+D. Contributor
+
+Suggested Answer (community most voted): A
+
+======================================================================
+Topic 7 - Question 20
+https://www.examtopics.com/discussions/microsoft/view/150420-exam-ai-102-topic-7-question-20-discussion/
+======================================================================
+
+You have an Azure subscription and 10,000 ASCII files.
+You need to identify files that contain specific phrases. The solution must use cosine similarity.
+Which Azure OpenAI model should you use?
+
+A. text-embedding-ada-002
+B. GPT-4
+C. GPT-35 Turbo
+D. GPT-4-32k
+
+Suggested Answer (community most voted): A
+
+======================================================================
+Topic 7 - Question 21
+https://www.examtopics.com/discussions/microsoft/view/150033-exam-ai-102-topic-7-question-21-discussion/
+======================================================================
+
+You have an Azure subscription that contains an Azure OpenAI resource named AI1 and a user named User1.
+You need to ensure that User1 can perform the following actions in Azure OpenAI Studio:
+•	Identify resource endpoints.
+•	View models that are available for deployment.
+•	Generate text and images by using the deployed models.
+The solution must follow the principle of least privilege.
+Which role should you assign to User1?
+
+A. Cognitive Services OpenAI User
+B. Cognitive Services Contributor
+C. Contributor
+D. Cognitive Services OpenAI Contributor
+
+Suggested Answer (community most voted): A
+
+======================================================================
+Topic 7 - Question 22
+https://www.examtopics.com/discussions/microsoft/view/149575-exam-ai-102-topic-7-question-22-discussion/
+======================================================================
+
+HOTSPOT
+-
+You have a chatbot that uses Azure OpenAI to generate responses.
+You need to upload company data by using Chat playground. The solution must ensure that the chatbot uses the data to answer user questions.
+How should you complete the code? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 8 - Question 1
+https://www.examtopics.com/discussions/microsoft/view/150421-exam-ai-102-topic-8-question-1-discussion/
+======================================================================
+
+You have an Azure subscription that contains an Azure OpenAI resource named AI1.
+You build a chatbot that uses AI1 to provide generative answers to specific questions.
+You need to ensure that the chatbot checks all input and output for objectionable content.
+Which type of resource should you create first?
+
+A. Microsoft Defender Threat Intelligence (Defender TI)
+B. Azure AI Content Safety
+C. Log Analytics
+D. Azure Machine Leaning
+
+Suggested Answer (community most voted): B
+
+======================================================================
+Topic 8 - Question 2
+https://www.examtopics.com/discussions/microsoft/view/149577-exam-ai-102-topic-8-question-2-discussion/
+======================================================================
+
+You have an Azure subscription that contains an Azure AI Content Safety resource named CS1.
+You create a test image that contains a circle.
+You submit the test image to CS1 by using the curl command and the following command-line parameters.
+What should you expect as the output?
+
+A. 0
+B. 0.0
+C. 7
+D. 100
+
+Suggested Answer (community most voted): A
+
+======================================================================
+Topic 8 - Question 4
+https://www.examtopics.com/discussions/microsoft/view/149966-exam-ai-102-topic-8-question-4-discussion/
+======================================================================
+
+HOTSPOT
+-
+You have an Azure subscription that contains an Azure AI Content Safety resource named CS1.
+You need to call CS1 to identify whether a user request contains hateful language.
+How should you complete the command? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 8 - Question 5
+https://www.examtopics.com/discussions/microsoft/view/149967-exam-ai-102-topic-8-question-5-discussion/
+======================================================================
+
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You have an Azure subscription that contains an Azure OpenAI resource named AI1 and an Azure AI Content Safety resource named CS1.
+You build a chatbot that uses AI1 to provide generative answers to specific questions and CS1 to check input and output for objectionable content.
+You need to optimize the content filter configurations by running tests on sample questions.
+Solution: From Content Safety Studio, you use the Protected material detection feature to run the tests.
+Does this meet the requirement?
+
+A. Yes
+B. No
+
+Suggested Answer (community most voted): B
+
+======================================================================
+Topic 8 - Question 6
+https://www.examtopics.com/discussions/microsoft/view/149968-exam-ai-102-topic-8-question-6-discussion/
+======================================================================
+
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You have an Azure subscription that contains an Azure OpenAI resource named AI1 and an Azure AI Content Safety resource named CS1.
+You build a chatbot that uses AI1 to provide generative answers to specific questions and CS1 to check input and output for objectionable content.
+You need to optimize the content filter configurations by running tests on sample questions.
+Solution: From Content Safety Studio, you use the Moderate text content feature to run the tests.
+Does this meet the requirement?
+
+A. Yes
+B. No
+
+Suggested Answer (community most voted): A
+
+======================================================================
+Topic 8 - Question 7
+https://www.examtopics.com/discussions/microsoft/view/149969-exam-ai-102-topic-8-question-7-discussion/
+======================================================================
+
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You have an Azure subscription that contains an Azure OpenAI resource named AI1 and an Azure AI Content Safety resource named CS1.
+You build a chatbot that uses AI1 to provide generative answers to specific questions and CS1 to check input and output for objectionable content.
+You need to optimize the content filter configurations by running tests on sample questions.
+Solution: From Content Safety Studio, you use the Monitor online activity feature to run the tests.
+Does this meet the requirement?
+
+A. Yes
+B. No
+
+Suggested Answer (community most voted): B
+
+======================================================================
+Topic 8 - Question 8
+https://www.examtopics.com/discussions/microsoft/view/150482-exam-ai-102-topic-8-question-8-discussion/
+======================================================================
+
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You have an Azure subscription that contains an Azure OpenAI resource named AI1 and an Azure AI Content Safety resource named CS1.
+You build a chatbot that uses AI1 to provide generative answers to specific questions and CS1 to check input and output for objectionable content.
+You need to optimize the content filter configurations by running tests on sample questions.
+Solution: From Content Safety Studio, you use the Safety metaprompt feature to run the tests.
+Does this meet the requirement?
+
+A. Yes
+B. No
+
+Suggested Answer (community most voted): B
+
+======================================================================
+Topic 8 - Question 9
+https://www.examtopics.com/discussions/microsoft/view/149970-exam-ai-102-topic-8-question-9-discussion/
+======================================================================
+
+HOTSPOT
+-
+You have an Azure subscription that contains an Azure AI Content Safety resource.
+You are building a social media app that will enable users to share images.
+You need to configure the app to moderate inappropriate content uploaded by the users.
+How should you complete the code? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 8 - Question 10
+https://www.examtopics.com/discussions/microsoft/view/150483-exam-ai-102-topic-8-question-10-discussion/
+======================================================================
+
+You have an Azure subscription that contains an Azure AI Content Safety resource named CS1.
+You plan to build an app that will analyze user-generated documents and identify obscure offensive terms.
+You need to create a dictionary that will contain the offensive terms. The solution must minimize development effort.
+What should you use?
+
+A. a text classifier
+B. language detection
+C. text moderation
+D. a blocklist
+
+Suggested Answer (community most voted): D
+
+======================================================================
+Topic 8 - Question 11
+https://www.examtopics.com/discussions/microsoft/view/149922-exam-ai-102-topic-8-question-11-discussion/
+======================================================================
+
+HOTSPOT
+-
+You have an Azure subscription that contains an Azure AI Content Safety resource named CS1.
+You need to use the SDK to call CS1 to identify requests that contain harmful content.
+How should you complete the code? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 8 - Question 12
+https://www.examtopics.com/discussions/microsoft/view/149971-exam-ai-102-topic-8-question-12-discussion/
+======================================================================
+
+You have an Azure subscription that contains an Azure OpenAI resource named AI1.
+You build a chatbot that uses AI1 to provide generative answers to specific questions.
+You need to ensure that questions intended to circumvent built-in safety features are blocked.
+Which Azure AI Content Safety feature should you implement?
+
+A. Monitor online activity
+B. Jailbreak risk detection
+C. Moderate text content
+D. Protected material text detection
+
+Suggested Answer (community most voted): B
+
+======================================================================
+Topic 9 - Question 1
+https://www.examtopics.com/discussions/microsoft/view/81465-exam-ai-102-topic-6-question-1-discussion/
+======================================================================
+
+DRAG DROP -
+You are developing the smart e-commerce project.
+You need to design the skillset to include the contents of PDFs in searches.
+How should you complete the skillset design diagram? To answer, drag the appropriate services to the correct stages. Each service may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+
+======================================================================
+Topic 11 - Question 1
+https://www.examtopics.com/discussions/microsoft/view/78075-exam-ai-102-topic-9-question-1-discussion/
+======================================================================
+
+DRAG DROP -
+You are planning the product creation project.
+You need to recommend a process for analyzing videos.
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+Select and Place:
+
+======================================================================
+Topic 12 - Question 1
+https://www.examtopics.com/discussions/microsoft/view/77636-exam-ai-102-topic-10-question-1-discussion/
+======================================================================
+
+DRAG DROP -
+You are developing a solution for the Management-Bookkeepers group to meet the document processing requirements. The solution must contain the following components:
+✑ A From Recognizer resource
+✑ An Azure web app that hosts the Form Recognizer sample labeling tool
+The Management-Bookkeepers group needs to create a custom table extractor by using the sample labeling tool.
+Which three actions should the Management-Bookkeepers group perform in sequence? To answer, move the appropriate cmdlets from the list of cmdlets to the answer area and arrange them in the correct order.
+Select and Place:
+
+======================================================================
+Topic 14 - Question 1
+https://www.examtopics.com/discussions/microsoft/view/76784-exam-ai-102-topic-12-question-1-discussion/
+======================================================================
+
+You need to develop an extract solution for the receipt images. The solution must meet the document processing requirements and the technical requirements.
+You upload the receipt images to the Form Recognizer API for analysis, and the API returns the following JSON.
+Which expression should you use to trigger a manual review of the extracted information by a member of the Consultant-Bookkeeper group?
+
+A. documentResults.docType == "prebuilt:receipt"
+B. documentResults.fields.*.confidence < 0.7
+C. documentResults.fields.ReceiptType.confidence > 0.7
+D. documentResults.fields.MerchantName.confidence < 0.7
+
+Suggested Answer (community most voted): B
+
+======================================================================
+Topic 16 - Question 3
+https://www.examtopics.com/discussions/microsoft/view/75979-exam-ai-102-topic-14-question-3-discussion/
+======================================================================
+
+You are developing the knowledgebase by using Azure Cognitive Search.
+You need to process wiki content to meet the technical requirements.
+What should you include in the solution?
+
+A. an indexer for Azure Blob storage attached to a skillset that contains the language detection skill and the text translation skill
+B. an indexer for Azure Blob storage attached to a skillset that contains the language detection skill
+C. an indexer for Azure Cosmos DB attached to a skillset that contains the document extraction skill and the text translation skill
+D. an indexer for Azure Cosmos DB attached to a skillset that contains the language detection skill and the text translation skill
+
+Suggested Answer (community most voted): D
+
