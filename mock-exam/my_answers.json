@@ -1952,8 +1952,8 @@
     "rationale": "Box 1: The 50th percentile (median) strictly represents the experience of 'most users', i.e. the typical/middle user. Note that many practice dumps list percentile_duration_95, because the 95th percentile is a common industry baseline for ensuring performance does not degrade for the vast majority of users.\nBox 2: Filtering by resultCode targets the specific server response status codes tied to authentication errors (HTTP 401 Unauthorized, 403 Forbidden). Filtering by success == false catches ALL server errors (including 500s), not just authentication errors, though some older practice keys list success based on standard sample alert templates."
   },
   "AZ-400|T2|Q4": {
-    "answer": "Probe type: livenessProbe (confirms responding + initiates shutdown if unresponsive); periodSeconds: 15 (4 times per minute = every 15s); failureThreshold: 1-3 (initiate shutdown on failure)",
-    "rationale": "A liveness probe checks health and restarts the pod if unresponsive. 4 checks/minute = periodSeconds 15. failureThreshold determines when to shut down."
+    "answer": "Top dropdown (probe type): livenessProbe: (many exam keys mark readinessProbe: due to a typo)\nBottom dropdown (interval): periodSeconds: 15",
+    "rationale": "Probe type: A livenessProbe checks container health and initiates a shutdown/restart if the container becomes unresponsive, which matches the requirement to initiate a shutdown when the pod is unresponsive. Note: many certification platforms (ExamTopics/CertLibrary) list readinessProbe: as the official key due to an exam typo, but livenessProbe: is the technically correct choice per Kubernetes documentation.\nInterval: You must check the pod status four times a minute. 60 seconds / 4 = 15, so periodSeconds: 15."
   },
   "AZ-400|T2|Q9": {
     "answer": "Pilot users providing feedback via browser: Stakeholder access level; Developers requesting feedback: Basic access level",
