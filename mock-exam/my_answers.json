@@ -404,8 +404,8 @@
     "rationale": "No. Transact-SQL is not used for ad-hoc queries over Application Insights monitoring data (KQL is)."
   },
   "AZ-400|T1|Q29": {
-    "answer": "A",
-    "rationale": "Yes. Azure Log Analytics (KQL) is the correct way to run ad-hoc queries against the monitoring data."
+    "answer": "A. Yes (official grading key). Note: community most-voted is B. No.",
+    "rationale": "Community most-voted is B (No), but Microsoft official grading typically accepts A (Yes). Reasoning for both sides:\nCase for Yes (official answer logic): The company uses both Azure SQL Database Intelligent Insights and Azure Application Insights. Running ad-hoc queries across both data streams requires a centralized tool. Both services stream their telemetry, logs, and metrics into an Azure Log Analytics workspace, and Log Analytics provides the native portal interface to write custom cross-resource queries that combine database health and application errors into a single view.\nCase for No (community argument): The prompt says you need to utilize the correct query LANGUAGE. Azure Log Analytics is a service/tool, not a language. The actual query language used inside Log Analytics and Application Insights is Kusto Query Language (KQL). Because the solution names the tool rather than the specific language requested, the community argues it fails to directly answer the constraint.\nSummary: Objective = ad-hoc monitoring queries over real-time telemetry; Environment = Azure Log Analytics (the unified workspace where metrics are stored); Language = Kusto Query Language (KQL). For the official AZ-400 exam, the grading key treats using Azure Log Analytics as the correct overarching solution framework, so it accepts A. Yes."
   },
   "AZ-400|T1|Q31": {
     "answer": "A",
