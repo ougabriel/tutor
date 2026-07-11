@@ -1944,8 +1944,8 @@
     "rationale": "App Insights collects exceptions. A Logic App aggregates them daily and posts to Teams."
   },
   "AZ-400|T2|Q1": {
-    "answer": "Velocity -> Velocity widget; Lead time -> Lead time widget; Cycle time -> Cycle time widget; Burndown -> Burndown widget; Cumulative Flow -> Cumulative Flow Diagram widget",
-    "rationale": "Each metric maps directly to its named widget in Azure Boards dashboards."
+    "answer": "Elapsed time from creation of work items to completion: Lead Time\nElapsed time to complete work items once they are active: Cycle Time\nThe remaining work: Burndown",
+    "rationale": "Lead Time: The total elapsed time from the initial creation of a work item until its completion. Maps to the metric 'elapsed time from creation to completion'.\nCycle Time: The time required to finish a work item after work actively begins (when it moves from a new/backlog state into an active state). Maps to 'elapsed time to complete once active'.\nBurndown: A chart that tracks the remaining work over a sprint or project timeline. Maps to 'the remaining work'."
   },
   "AZ-400|T2|Q2": {
     "answer": "Depends on the KQL query shown - typically: the query filters on page performance metrics, and the statements test threshold/alerting behavior of the results",
