@@ -1936,8 +1936,8 @@
     "rationale": "A self-hosted agent behind the firewall can reach Bitbucket. An External Git service connection links Azure DevOps to the Bitbucket repo."
   },
   "AZ-400|T1|Q19": {
-    "answer": "Terraform + Azure CLI (or Terraform + AzureRM provider)",
-    "rationale": "Deploying Azure resource groups via Terraform requires the Terraform framework and the Azure CLI (or AzureRM provider) for authentication."
+    "answer": "Yeoman and Terratest",
+    "rationale": "Yeoman: Used alongside Terraform to scaffold and create base Terraform modules on Azure.\nTerratest: A Go-based framework providing helper functions and patterns for automated testing of infrastructure code, such as verifying real infrastructure deployed in the cloud environment.\nVault and Tiller are not the frameworks designated for this module-creation and testing deployment workflow in the context of this question."
   },
   "AZ-400|T1|Q30": {
     "answer": "Azure Application Insights (capture exceptions) + Azure Logic Apps (send daily summary to Teams)",
