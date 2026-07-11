@@ -1964,8 +1964,8 @@
     "rationale": "User Flows: Visualizes how users navigate between pages and features, revealing usage trends and paths, so it maps to feature usage.\nUsers: Counts and tracks the unique individuals who interact with the application and its specific capabilities, so it maps to the number of people who used the actions/features.\nImpact: Analyzes how non-functional aspects such as page load times and response speeds influence user conversion and behavior, so it maps to the effect of performance on page/feature usage."
   },
   "AZ-400|T2|Q18": {
-    "answer": "Event | where TimeGenerated > ago(7d) | summarize dcount(EventID) by Computer",
-    "rationale": "To get distinct event IDs per VM: filter by time, then summarize dcount(EventID) by Computer."
+    "answer": "Box 1: summarize\nBox 2: makeset(EventID)\n\nCompleted query: Event | where TimeGenerated > ago(12h) | order by TimeGenerated desc | summarize makeset(EventID) by Computer",
+    "rationale": "Box 1 (aggregation operator): To group data by a specific column (Computer), use the summarize operator, which produces a table that aggregates the input rows per group.\nBox 2 (distinct collection function): makeset(EventID) creates a dynamic array of the unique/distinct values in each group, matching the distinct lists shown in the example. makelist(EventID) would include duplicates, so it is incorrect for a distinct requirement."
   },
   "AZ-400|T2|Q19": {
     "answer": "requests | where success == false | top 10 by timestamp desc (or summarize count() by name | top 10 by count_)",
