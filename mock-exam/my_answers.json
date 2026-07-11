@@ -1960,8 +1960,8 @@
     "rationale": "Stakeholders can use Test & Feedback extension (browser-based). Basic is needed to create/manage feedback requests. Least privilege."
   },
   "AZ-400|T2|Q12": {
-    "answer": "How users navigate the app: User Flows; Page views and load times: Page views (Usage); Custom events: Events; How many return: Retention; Session analysis: Sessions",
-    "rationale": "App Insights Usage tools: User Flows for navigation, Page views for load, Events for custom events, Retention for return rates, Sessions for session analysis."
+    "answer": "Feature usage: User Flows\nNumber of people who used the actions and its features: Users\nThe effect that the performance of the application has on the usage of a page or a feature: Impact",
+    "rationale": "User Flows: Visualizes how users navigate between pages and features, revealing usage trends and paths, so it maps to feature usage.\nUsers: Counts and tracks the unique individuals who interact with the application and its specific capabilities, so it maps to the number of people who used the actions/features.\nImpact: Analyzes how non-functional aspects such as page load times and response speeds influence user conversion and behavior, so it maps to the effect of performance on page/feature usage."
   },
   "AZ-400|T2|Q18": {
     "answer": "Event | where TimeGenerated > ago(7d) | summarize dcount(EventID) by Computer",

@@ -116,11 +116,12 @@ def build_html(exams, my_answers, images):
     data = {}
     for label, questions in exams:
         data[label] = []
-        for q in questions:
+        for seq, q in enumerate(questions, start=1):
             key = answer_key(label, q)
             mine = my_answers.get(key, {})
             data[label].append({
                 "key": key,
+                "seq": seq,
                 "topic": q["topic"],
                 "question": q["question"],
                 "url": q["url"],
@@ -174,6 +175,8 @@ PAGE_TEMPLATE = r"""<!DOCTYPE html>
            padding:18px 20px; margin-bottom:16px; }
   .qhead { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; }
   .qhead .qid { font-weight:600; color:var(--accent); }
+  .qhead .qseq { background:var(--pick); color:#fff; padding:2px 9px; border-radius:20px;
+                 font-size:12px; font-weight:700; }
   .qhead .qtype { font-size:11px; color:var(--muted); border:1px solid var(--line);
                   padding:2px 8px; border-radius:20px; }
   .qtext { white-space:pre-wrap; line-height:1.5; margin-bottom:14px; font-size:14px; }
@@ -337,7 +340,10 @@ function renderCard(q){
   const card = el("div","qcard");
   card.dataset.key = q.key;
   const head = el("div","qhead");
-  head.appendChild(el("span","qid","Topic "+q.topic+" · Question "+q.question));
+  const total = DATA[current].length;
+  const qid = el("span","qid");
+  qid.innerHTML = "<span class='qseq'>No. "+q.seq+" / "+total+"</span>&nbsp;·&nbsp;Topic "+q.topic+" · Question "+q.question;
+  head.appendChild(qid);
   head.appendChild(el("span","qtype",esc(q.type)));
   card.appendChild(head);
 
