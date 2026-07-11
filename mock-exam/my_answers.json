@@ -368,8 +368,8 @@
     "rationale": "Deploying to Azure VMs uses a deployment group, so 'universal group' is inaccurate."
   },
   "AZ-400|T1|Q20": {
-    "answer": "B",
-    "rationale": "Feed views (e.g. @prerelease/@release) control which package quality levels are exposed from a single feed."
+    "answer": "B. Make use of views",
+    "rationale": "Control package visibility: In Azure Artifacts, feed views let you share a specific subset of package versions with consumers while hiding others, so a single feed can serve all builds without exposing unstable versions.\nRestrict development releases: Views let you selectively promote tested, validated versions (e.g., to a @release or @prerelease view). Packages still in development remain restricted to internal developers and invisible to general feed consumers.\nA & C (Static & Dynamic Code Analysis): These check source code for vulnerabilities or runtime issues but cannot control package version visibility or feed deployment constraints.\nD (Upstream Sources): Upstream sources bring external dependencies into your feed rather than controlling the visibility of internal packages."
   },
   "AZ-400|T1|Q21": {
     "answer": "C",
@@ -384,8 +384,8 @@
     "rationale": "Black Duck does perform open-source license compliance scanning, so no adjustment is required."
   },
   "AZ-400|T1|Q24": {
-    "answer": "BC",
-    "rationale": "PowerShell DSC extension (B) enforces uniform VM configuration; Azure Pipeline deployment groups (C) manage the VMs with low effort. NOTE: some sources list A+B - verify."
+    "answer": "A. Azure Resource Manager templates; B. The PowerShell Desired State Configuration (DSC) extension for Windows",
+    "rationale": "A. Azure Resource Manager (ARM) templates: Declarative files that define infrastructure blueprints, ensuring all VMs are deployed identically with uniform resource settings and minimal manual provisioning.\nB. PowerShell DSC extension: Applies configuration management policies onto the Windows Server VMs and maintains a uniform configuration state over time, automatically correcting configuration drift without administrative intervention.\nC. Azure pipeline deployment groups: A logical set of target machines with agents installed; they orchestrate application deployment but do not enforce or maintain OS-level uniform configuration or manage drift.\nD. Custom Script Extension for Windows: Runs a script during or after provisioning for one-time setup, but does not continuously track state or enforce drift correction over time.\nE. Azure pipeline stage templates: Define reusable phases within a CI/CD pipeline definition; they handle pipeline structure, not the configuration of target VMs."
   },
   "AZ-400|T1|Q25": {
     "answer": "D",
