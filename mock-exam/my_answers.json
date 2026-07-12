@@ -2012,8 +2012,8 @@
     "rationale": "Cumulative flow diagram (CFD): Shows the count of work items in each backlog column state over time, so you can spot build-ups/bottlenecks at specific workflow stages.\nCycle time: Measures elapsed time from when a work item enters an active/Started state until it is closed (vs Lead time, which is creation to completion).\nSprint burndown: Tracks remaining work across a single defined sprint/iteration and whether the team is on pace to finish the committed scope by the end date."
   },
   "AZ-400|T2|Q44": {
-    "answer": "User1 (read logs): Log Analytics Reader; User2 (write/manage): Log Analytics Contributor",
-    "rationale": "Reader for read-only access. Contributor for edit/manage. Least privilege."
+    "answer": "User1: Log Analytics Reader\nUser2: Monitoring Reader",
+    "rationale": "User1 (Log Analytics Reader): Needs to search/view all log data in a Log Analytics workspace. Log Analytics Reader gives the minimum permissions to view and query workspace logs. Creating private dashboards needs no resource-level write access (private dashboards are saved in the user's own portal state).\nUser2 (Monitoring Reader): Needs only to view autoscale settings and alert activities/settings. Monitoring Reader is designed for ops/support who read monitoring configuration (autoscale rules, alerts) without the ability to modify them, satisfying least privilege."
   },
   "AZ-400|T2|Q45": {
     "answer": "How long to close a work item: Lead Time; Completed backlog items: Velocity; Time to restore failed services: MTTR (Mean Time to Restore) or a custom widget",
