@@ -1,4 +1,4 @@
-AI-300 - Extracted Questions (94 of 107)
+AI-300 - Extracted Questions (95 of 107)
 Source: ExamTopics question/discussion pages
 
 ======================================================================
@@ -576,6 +576,8 @@ A. fairiearn.reductions.ExponentiatedGradient
 B. fairlearn.preprocessing.CorrelationRemover
 C. fairlearn.reductions.GridSearch
 D. fairlearn.postprocessing.ThresholdOptimizer
+
+Suggested Answer (community most voted): D
 
 ======================================================================
 Topic 3 - Question 4
@@ -1435,6 +1437,8 @@ B. SimilarityEvaluator
 C. QAEvaluator
 D. CoherenceEvaluator
 
+Suggested Answer (community most voted): D
+
 ======================================================================
 Topic 5 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/404618-exam-ai-300-topic-5-question-5-discussion/
@@ -1678,6 +1682,23 @@ When generating answers, the solutions display the following results:
 You need to address the issues found during evaluation.
 Which action should you perform first for each issue? To answer, select the appropriate options in the answer area.
 NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 6 - Question 11
+https://www.examtopics.com/discussions/microsoft/view/416084-exam-ai-300-topic-6-question-11-discussion/
+======================================================================
+
+A team is building a Retrieval-Augmented Generation (RAG) system.
+The team observes that the retrieved documents are often irrelevant or incomplete.
+You need to improve retrieval accuracy.
+What should you adjust?
+
+A. Chunk size and overlap
+B. Temperature parameter
+C. Token limits
+D. Embedding strategy
+
+Suggested Answer (community most voted): D
 
 ======================================================================
 Topic 6 - Question 12

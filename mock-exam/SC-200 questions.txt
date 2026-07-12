@@ -1,4 +1,4 @@
-SC-200 - Extracted Questions (417 of 462)
+SC-200 - Extracted Questions (421 of 462)
 Source: ExamTopics question/discussion pages
 
 ======================================================================
@@ -4888,6 +4888,17 @@ D. SecurityAlert
 Suggested Answer (community most voted): A
 
 ======================================================================
+Topic 3 - Question 109
+https://www.examtopics.com/discussions/microsoft/view/408291-exam-sc-200-topic-3-question-109-discussion/
+======================================================================
+
+DRAG DROP
+-
+You have a Microsoft Sentinel workspace named Workspace.
+You need to run a KQL query as a search job.
+Which five actions should you perform in Workspace1 in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+
+======================================================================
 Topic 3 - Question 111
 https://www.examtopics.com/discussions/microsoft/view/408293-exam-sc-200-topic-3-question-111-discussion/
 ======================================================================
@@ -5496,6 +5507,22 @@ D. gpt-35-turbo
 Suggested Answer (community most voted): A
 
 ======================================================================
+Topic 4 - Question 38
+https://www.examtopics.com/discussions/microsoft/view/315710-exam-sc-200-topic-4-question-38-discussion/
+======================================================================
+
+You have an Azure subscription that uses Microsoft Security Copilot.
+You need to temporarily increase the number of security compute units.
+What is the smallest interval of time you can be billed for?
+
+A. 1 second
+B. 1 minute
+C. 1 hour
+D. 1 day
+
+Suggested Answer (community most voted): C
+
+======================================================================
 Topic 4 - Question 39
 https://www.examtopics.com/discussions/microsoft/view/315711-exam-sc-200-topic-4-question-39-discussion/
 ======================================================================
@@ -5511,6 +5538,22 @@ You need to modify the retention periods to meet the following requirements:
 •	Maximize the period during which the table data remains available.
 How should you configure each retention period? To answer, select the appropriate options in the answer area.
 NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 4 - Question 41
+https://www.examtopics.com/discussions/microsoft/view/382605-exam-sc-200-topic-4-question-41-discussion/
+======================================================================
+
+You have a Microsoft 365 subscription that uses Microsoft Defender XDR. The subscription contains 500 devices that are joined to Microsoft Entra, are in the Microsoft Defender for Endpoint default device group, and are managed by using Microsoft Intune.
+You need to implement Microsoft Defender Vulnerability Management. The solution must minimize the administrative effort.
+What should you do first in the Microsoft Defender portal?
+
+A. From Configuration management, configure the Enforcement scope settings.
+B. Configure auto remediation for the default device group.
+C. Set Microsoft Intune connection to On.
+D. Set Live Response to On.
+
+Suggested Answer (community most voted): C
 
 ======================================================================
 Topic 4 - Question 44
@@ -5578,6 +5621,25 @@ You need to ensure that User1 can create workbooks and playbooks in Workspace1. 
 •	Follow the principle of least privilege.
 Which roles should you assign to User1, and at which scope should you assign the roles? To answer, select the appropriate options in the answer area.
 NOTE: Each correct solation is worth one point.
+
+======================================================================
+Topic 4 - Question 52
+https://www.examtopics.com/discussions/microsoft/view/416088-exam-sc-200-topic-4-question-52-discussion/
+======================================================================
+
+You have a Microsoft 365 subscription that uses Microsoft Security Copilot.
+You have the files shown in the following table.
+Each file contains a copy of your company's compliance policy.
+You need to ensure that Security Copilot responses are informed by the compliance policy.
+Which files can be uploaded to Security Copilot?
+
+A. File1.docx only
+B. File3.txt only
+C. File1.docx and File3.txt only
+D. File2.pdf and File3.txt only
+E. File1.docx, File2.pdf, and File3.txt
+
+Suggested Answer (community most voted): D
 
 ======================================================================
 Topic 4 - Question 55

@@ -1,4 +1,4 @@
-AZ-104 - Extracted Questions (605 of 606)
+AZ-104 - Extracted Questions (606 of 606)
 Source: ExamTopics question/discussion pages
 
 ======================================================================
@@ -245,7 +245,7 @@ Does the solution meet the goal?
 A. Yes
 B. No
 
-Suggested Answer (community most voted): B
+Suggested Answer (community most voted): A
 
 ======================================================================
 Topic 1 - Question 15
@@ -3474,6 +3474,19 @@ C. Azure Blob storage
 D. Azure Data Factory
 
 Suggested Answer (community most voted): C
+
+======================================================================
+Topic 3 - Question 64
+https://www.examtopics.com/discussions/microsoft/view/98315-exam-az-104-topic-3-question-64-discussion/
+======================================================================
+
+HOTSPOT
+-
+You have an Azure subscription that contains a storage account named storage1. The storage1 account contains a container named container1.
+You create a blob lifecycle rule named rule1.
+You need to configure rule1 to automatically move blobs that were NOT updated for 45 days from contained to the Cool access tier.
+How should you complete the rule? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
 
 ======================================================================
 Topic 3 - Question 65

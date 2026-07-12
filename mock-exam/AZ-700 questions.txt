@@ -1,4 +1,4 @@
-AZ-700 - Extracted Questions (373 of 387)
+AZ-700 - Extracted Questions (375 of 387)
 Source: ExamTopics question/discussion pages
 
 ======================================================================
@@ -2992,6 +2992,22 @@ What is the smallest IP address prefix that you can use for each IP address rang
 NOTE: Each correct selection is worth one point.
 
 ======================================================================
+Topic 2 - Question 108
+https://www.examtopics.com/discussions/microsoft/view/393699-exam-az-700-topic-2-question-108-discussion/
+======================================================================
+
+HOTSPOT
+-
+You have two on-premises sites named Site1 and Site2. Each site connects to the internet by using a local firewall device.
+You have an Azure subscription that contains two virtual networks named VNet1 and VNet2. VNet1 and VNet2 reside in the East US Azure region and are connected by using virtual network peering.
+You need to configure a Site-to-Site (S2S) VPN solution that meets the following requirements:
+•	Site1 and Site2 must connect directly to the Azure subscription by using their local firewall device.
+•	The computers in Site1 and Site2 must be able to connect to the resources on VNet1 and VNet2.
+•	The solution must include a virtual network gateway that uses three availability zones.
+What is the minimum number of virtual network gateways and local network gateways that you should deploy to Azure? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
 Topic 2 - Question 110
 https://www.examtopics.com/discussions/microsoft/view/393697-exam-az-700-topic-2-question-110-discussion/
 ======================================================================
@@ -3006,6 +3022,22 @@ C. a private endpoint network policy
 D. a service endpoint
 
 Suggested Answer (community most voted): C
+
+======================================================================
+Topic 2 - Question 112
+https://www.examtopics.com/discussions/microsoft/view/413533-exam-az-700-topic-2-question-112-discussion/
+======================================================================
+
+HOTSPOT
+-
+You have an Azure subscription that contains multiple virtual networks.
+From Microsoft Defender for Cloud, you select Regulatory Compliance and view the following compliance controls:
+•	NS-2. Secure cloud services with network controls
+•	NS-8. Detect and disable insecure services and protocols
+•	NS-9. Connect on-premises or cloud network privately
+You need to recommend remediations for the controls.
+What should you include in the recommendation for each control? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
 
 ======================================================================
 Topic 3 - Question 1

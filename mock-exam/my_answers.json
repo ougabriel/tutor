@@ -456,8 +456,8 @@
     "rationale": "Run '@azure pipelines subscriptions' in Teams to manage subscriptions and filter to failed builds only."
   },
   "AZ-400|T2|Q24": {
-    "answer": "A",
-    "rationale": "Configure a service hook subscription in Azure DevOps to send work-item update notifications to Teams. NOTE: community voted B (Teams connector) - both are defensible; verify."
+    "answer": "A. From Azure DevOps, configure a service hook subscription",
+    "rationale": "Service hooks trigger tasks in external services in response to Azure DevOps events and natively support Microsoft Teams integration, so they are the correct way to send Teams notifications when work items are updated.\nB (Teams connectors): Being phased out in favor of Power Automate workflow apps.\nC (external access config): Governs external user collaboration, not event alerts.\nD (add a channel): Creates a communication area but does not link event notifications.\nE (external webhook extension): Standard webhook automation uses native service hooks, not an external extension."
   },
   "AZ-400|T2|Q25": {
     "answer": "A",
@@ -1972,8 +1972,8 @@
     "rationale": "For top 10 failed pages: filter requests where success==false, then top 10."
   },
   "AZ-400|T2|Q21": {
-    "answer": "@azure pipelines subscribe <pipeline URL>; then @azure pipelines subscriptions to filter for failures only",
-    "rationale": "Subscribe to the pipeline in Teams, then manage subscriptions to filter to failure events."
+    "answer": "Dropdown 1: subscribe\nDropdown 2: https://dev.azure.com/contoso/contoso-app/_build\n\nFull command: @azure pipelines subscribe https://dev.azure.com/contoso/contoso-app/_build",
+    "rationale": "Dropdown 1 (command): Use subscribe to start monitoring and receive notifications for a pipeline in a Microsoft Teams channel. @azure pipelines subscribe establishes a new pipeline alert link; @azure pipelines subscriptions is only used later to list or manage existing channel filters (e.g. filtering for failures only).\nDropdown 2 (URL route): The Azure Pipelines app needs a URL that points to the pipeline service page. The _build path is the build/CI pipeline workspace in Azure DevOps. The other options point to the project root (/contoso-app/), package management (/_packaging), or work items (/_work-items), none of which target pipeline operations."
   },
   "AZ-400|T2|Q27": {
     "answer": "Signal: Percentage CPU; Threshold: 70%; Aggregation type: Average; Period: 5 minutes; Frequency: 1 minute",
