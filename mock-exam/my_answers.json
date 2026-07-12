@@ -2000,8 +2000,8 @@
     "rationale": "bin(TimeGenerated, 1h): To compare hourly CPU usage over the last 24 hours, aggregate the records into 1-hour buckets with the bin() function, grouped alongside cloud_RoleInstance in the summarize.\nextend Threshold = 75: To draw a threshold line at 75 percent on the graph, add a calculated column with the constant value 75 using the extend operator."
   },
   "AZ-400|T2|Q39": {
-    "answer": "Perf | where TimeGenerated > ago(7d) | where CounterName == 'Available MBytes' | summarize avg(CounterValue) by bin(TimeGenerated, 1h) | render timechart",
-    "rationale": "Free memory on Windows = Available MBytes counter. Avg per hour over 7 days, rendered as timechart."
+    "answer": "First dropdown: TimeGenerated > ago(7d)\nSecond dropdown: bin(TimeGenerated, 1h)",
+    "rationale": "Time filter: TimeGenerated > ago(7d) restricts the data to the past seven days.\nHourly aggregation: bin(TimeGenerated, 1h) groups the averaged values into one-hour buckets, which produces the per-hour average for the time chart."
   },
   "AZ-400|T2|Q40": {
     "answer": "requests | where timestamp > ago(1h) | where client_City in ('London','Paris') | where resultCode == '404' | project timestamp, url, resultCode, duration",
