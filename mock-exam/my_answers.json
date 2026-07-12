@@ -1976,8 +1976,8 @@
     "rationale": "Dropdown 1 (command): Use subscribe to start monitoring and receive notifications for a pipeline in a Microsoft Teams channel. @azure pipelines subscribe establishes a new pipeline alert link; @azure pipelines subscriptions is only used later to list or manage existing channel filters (e.g. filtering for failures only).\nDropdown 2 (URL route): The Azure Pipelines app needs a URL that points to the pipeline service page. The _build path is the build/CI pipeline workspace in Azure DevOps. The other options point to the project root (/contoso-app/), package management (/_packaging), or work items (/_work-items), none of which target pipeline operations."
   },
   "AZ-400|T2|Q27": {
-    "answer": "Signal: Percentage CPU; Threshold: 70%; Aggregation type: Average; Period: 5 minutes; Frequency: 1 minute",
-    "rationale": "Alert on avg CPU > 70% over 5-min window, evaluated every 1 minute."
+    "answer": "Aggregation granularity (Period): 5 minutes\nThreshold value: Static\nOperator: Greater than",
+    "rationale": "Aggregation granularity (Period): The time window used to aggregate metric data points. Since the alert triggers when average CPU usage exceeds the limit for five minutes, the period is 5 minutes. (The 'once every minute' requirement is the Frequency of evaluation, a separate setting.)\nThreshold value: You are testing against a specific fixed number (70 percent), so the threshold type is Static (not Dynamic).\nOperator: The metric must exceed 70 percent, which maps to Greater than."
   },
   "AZ-400|T2|Q29": {
     "answer": "Variable name: System.Debug; Value: true",
