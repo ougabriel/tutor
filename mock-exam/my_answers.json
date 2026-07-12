@@ -1984,8 +1984,8 @@
     "rationale": "Setting System.Debug = true enables detailed/verbose pipeline logging."
   },
   "AZ-400|T2|Q32": {
-    "answer": "Use Mermaid syntax in markdown: ```mermaid graph LR; A-->B; B-->C``` (or flowchart/sequence diagram)",
-    "rationale": "GitHub markdown supports Mermaid diagrams for showing relationships between phases."
+    "answer": "First box: stateDiagram\nSecond box: Processing",
+    "rationale": "Diagram type: The syntax uses [*] --> (an initial state) and nested state definitions, which are characteristic of a Mermaid stateDiagram.\nComposite state: The diagram shows a nested box containing Incomplete --> Complete. The outer label of this group is Processing, so the code must define it as state Processing { ... }."
   },
   "AZ-400|T2|Q33": {
     "answer": "Use Application Insights adaptive sampling configured via the Azure portal (not code-based fixed sampling); this avoids redeployment",
