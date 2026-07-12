@@ -1988,8 +1988,8 @@
     "rationale": "Diagram type: The syntax uses [*] --> (an initial state) and nested state definitions, which are characteristic of a Mermaid stateDiagram.\nComposite state: The diagram shows a nested box containing Incomplete --> Complete. The outer label of this group is Processing, so the code must define it as state Processing { ... }."
   },
   "AZ-400|T2|Q33": {
-    "answer": "Use Application Insights adaptive sampling configured via the Azure portal (not code-based fixed sampling); this avoids redeployment",
-    "rationale": "Portal-based adaptive sampling can be modified without redeploying. Code-based (Startup.cs) sampling requires redeployment."
+    "answer": "From the code repository of webapp1: Disable adaptive sampling\nFrom AppInsights1: Modify the Usage and estimated costs settings",
+    "rationale": "Disable adaptive sampling: Adaptive sampling is on by default and dynamically adjusts telemetry volume on the client application. Changing it in code requires redeploying webapp1, so you must first disable it.\nModify Usage and estimated costs (ingestion sampling): Ingestion sampling happens at the Application Insights endpoint and filters received telemetry. It is configured in the Azure portal under the AppInsights1 resource's Usage and estimated costs settings, letting you adjust the sampling rate without changing code or redeploying."
   },
   "AZ-400|T2|Q36": {
     "answer": "Logs | where TimeGenerated > ago(2d) | where Location contains 'Asia' (or equivalent ordering of filter then time range)",
