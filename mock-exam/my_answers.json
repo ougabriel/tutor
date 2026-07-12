@@ -1996,8 +1996,8 @@
     "rationale": "Logs + time filter first: In KQL, filter by time before running resource-intensive operations like joins. Restricting Logs to the last two days (ago(2d)) drastically reduces the data volume.\njoin ( Events then ) on RequestId: The 'join ( Events' statement opens a parenthesis that must be closed by ') on RequestId' (there are no inner filters for Events), joining Logs to Events on the shared RequestId column.\nwhere continent == 'Asia' last: The combined result is then filtered to only entries from Asia."
   },
   "AZ-400|T2|Q37": {
-    "answer": "performanceCounters | where timestamp > ago(24h) | summarize avg(value) by bin(timestamp, 1h) | render timechart; plus threshold line at 75",
-    "rationale": "Hourly CPU: summarize avg by 1h bins over 24h, render as timechart. Add threshold with extend threshold=75."
+    "answer": "Box after 'by cloud_RoleInstance,': bin(TimeGenerated, 1h)\nBox before 'Threshold = 75': extend\n\nFull query: performanceCounters | where TimeGenerated > ago(1d) | where counter == \"% Processor Time\" | summarize avg(value) by cloud_RoleInstance, bin(TimeGenerated, 1h) | extend Threshold = 75",
+    "rationale": "bin(TimeGenerated, 1h): To compare hourly CPU usage over the last 24 hours, aggregate the records into 1-hour buckets with the bin() function, grouped alongside cloud_RoleInstance in the summarize.\nextend Threshold = 75: To draw a threshold line at 75 percent on the graph, add a calculated column with the constant value 75 using the extend operator."
   },
   "AZ-400|T2|Q39": {
     "answer": "Perf | where TimeGenerated > ago(7d) | where CounterName == 'Available MBytes' | summarize avg(CounterValue) by bin(TimeGenerated, 1h) | render timechart",
