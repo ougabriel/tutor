@@ -2004,8 +2004,8 @@
     "rationale": "Time filter: TimeGenerated > ago(7d) restricts the data to the past seven days.\nHourly aggregation: bin(TimeGenerated, 1h) groups the averaged values into one-hour buckets, which produces the per-hour average for the time chart."
   },
   "AZ-400|T2|Q40": {
-    "answer": "requests | where timestamp > ago(1h) | where client_City in ('London','Paris') | where resultCode == '404' | project timestamp, url, resultCode, duration",
-    "rationale": "Filter by time, cities, 404 code, then project the required fields."
+    "answer": "Target 1 (time filter): timestamp >= ago(1h)\nTarget 2 (field selection): project",
+    "rationale": "Time filter: ago(1h) looks back exactly one hour from now; using timestamp >= ago(1h) returns everything from that point until now (the last hour). KQL does not use -gt (that is PowerShell syntax).\nField selection: project chooses/renames/drops specific columns, so it returns only timestamp, url, resultCode, and duration. 'select' is SQL, not KQL, and 'extend' adds new columns rather than narrowing to existing ones."
   },
   "AZ-400|T2|Q41": {
     "answer": "Bottlenecks in a single iteration: Cumulative Flow Diagram; How long to close after started: Cycle Time",
