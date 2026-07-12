@@ -2020,8 +2020,8 @@
     "rationale": "Cycle time: Elapsed time to complete a work item after active work has started on it, so it maps to how long it takes to close a work item.\nVelocity: Measures the volume of work (count or effort points of backlog items) delivered/completed within a sprint or iteration, matching the number of completed backlog items.\nLead time: Total time from when a request/issue is created until it is fully resolved, matching how long it takes to restore failed services."
   },
   "AZ-400|T2|Q48": {
-    "answer": "Depends on the specific KQL query shown - cannot determine exact answers without seeing the exhibit",
-    "rationale": "KQL interpretation questions require seeing the actual query to determine what the result set contains."
+    "answer": "Number of columns returned: Six\nData type of the Duration column: timespan",
+    "rationale": "Columns: project selects five columns (StartTime, EndTime, EpisodeId, State, Level), then extend adds one calculated column (Duration). where and order by only affect rows, not columns, so the output has six columns.\nData type: Duration = EndTime - StartTime. In KQL, subtracting one datetime from another yields a timespan. This is reinforced by the comparison to a make_timespan() value later in the query."
   },
   "AZ-400|T2|Q52": {
     "answer": "Register the Microsoft.ChangeAnalysis resource provider; az provider register --namespace Microsoft.ChangeAnalysis",
