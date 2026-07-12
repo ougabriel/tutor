@@ -1,0 +1,295 @@
+AZ-400-Simulation - SIMULATION exercises extracted from AZ-400 (31 questions)
+Source: ExamTopics AZ-400 (simulation/lab tasks only)
+
+======================================================================
+Topic 2 - Question 7
+https://www.examtopics.com/discussions/microsoft/view/79976-exam-az-400-topic-2-question-7-discussion/
+======================================================================
+SIMULATION -
+You need to create an instance of Azure Application Insights named az400-123456789-main and configure the instance to receive telemetry data from an Azure web app named az400-123456789-main.
+To complete this task, sign in to the Microsoft Azure portal.
+
+======================================================================
+Topic 2 - Question 15
+https://www.examtopics.com/discussions/microsoft/view/75423-exam-az-400-topic-2-question-15-discussion/
+======================================================================
+SIMULATION -
+You need to create a notification if the peak average response time of an Azure web app named az400-123456789-main is more than five seconds when evaluated during a five-minute period. The notification must trigger the `https://contoso.com/notify` webhook.
+To complete this task, sign in to the Microsoft Azure portal.
+
+======================================================================
+Topic 2 - Question 16
+https://www.examtopics.com/discussions/microsoft/view/90217-exam-az-400-topic-2-question-16-discussion/
+======================================================================
+SIMULATION -
+You need to create and configure an Azure Storage account named az400lod123456789stor in a resource group named RG1lod123456789 to store the boot diagnostics for a virtual machine named VM1.
+To complete this task, sign in to the Microsoft Azure portal.
+
+======================================================================
+Topic 2 - Question 17
+https://www.examtopics.com/discussions/microsoft/view/57999-exam-az-400-topic-2-question-17-discussion/
+======================================================================
+SIMULATION -
+You have a web app that connects to an Azure SQL Database named db1.
+You need to configure db1 to send Query Store runtime statistics to Azure Log Analytics.
+To complete this task, sign in to the Microsoft Azure portal.
+
+======================================================================
+Topic 2 - Question 49
+https://www.examtopics.com/discussions/microsoft/view/337766-exam-az-400-topic-2-question-49-discussion/
+======================================================================
+SIMULATION
+-
+Navigate to https://dev.azure.com, select Start Free, and specify the following credentials:
+•	User: [email protected]
+•	Password: 0123456789
+Use the default setting to sign up for Azure DevOps and create an Azure DevOps organization. Once the organization is created, create a private project named Project1.
+You need to add an external user that has an email address of [email protected] as a stakeholder of the User1-12345678 Azure DevOps organization.
+The user must be added to the most restrictive Azure DevOps group.
+To complete this task, sign in to the Azure DevOps portal as [email protected].
+
+======================================================================
+Topic 2 - Question 50
+https://www.examtopics.com/discussions/microsoft/view/151125-exam-az-400-topic-2-question-50-discussion/
+======================================================================
+SIMULATION
+-
+For the RG1lod12345678 resource group, you need to create an action group named DevOpsAG that can be triggered in any region by using Alerts.
+The action group must email two users named [email protected] and [email protected] and notify members of the Owner role for the resource.
+Use only the common alert schema for notifying the resource owners.
+
+======================================================================
+Topic 2 - Question 51
+https://www.examtopics.com/discussions/microsoft/view/147259-exam-az-400-topic-2-question-51-discussion/
+======================================================================
+SIMULATION
+-
+You need to write a KQL query that will count the number of inbound requests for each source IP address, for any connection made during the last three months of 2021.
+On Azure Data Explorer by using the following link:
+https://dataexplorer.azure.corn/clusters/help/databases/SecurityLogs
+The requests are contained in a table named InboundBrowsing in the SecurityLogs connection.
+The query must return two columns named NumberOfRequests and SourceIP.
+Export the query result to C:\Samples.
+
+======================================================================
+Topic 3 - Question 9
+https://www.examtopics.com/discussions/microsoft/view/36092-exam-az-400-topic-3-question-9-discussion/
+======================================================================
+SIMULATION -
+You need to ensure that Microsoft Visual Studio 2017 can remotely attach to an Azure Function named fa-11566895.
+To complete this task, sign in to the Microsoft Azure portal.
+
+======================================================================
+Topic 4 - Question 8
+https://www.examtopics.com/discussions/microsoft/view/87016-exam-az-400-topic-4-question-8-discussion/
+======================================================================
+SIMULATION -
+You need to ensure that an Azure web app named az400-123456789-main can retrieve secrets from an Azure key vault named az400-123456789-kv1 by using a system managed identity.
+The solution must use the principle of least privilege.
+To complete this task, sign in to the Microsoft Azure portal.
+
+======================================================================
+Topic 4 - Question 14
+https://www.examtopics.com/discussions/microsoft/view/55151-exam-az-400-topic-4-question-14-discussion/
+======================================================================
+SIMULATION -
+Your company plans to implement a new compliance strategy that will require all Azure web apps to be backed up every five hours.
+You need to back up an Azure web app named az400-123456789-main every five hours to an Azure Storage account in your resource group.
+To complete this task, sign in to the Microsoft Azure portal.
+
+======================================================================
+Topic 4 - Question 15
+https://www.examtopics.com/discussions/microsoft/view/85472-exam-az-400-topic-4-question-15-discussion/
+======================================================================
+SIMULATION -
+You need to configure a virtual machine named VM1 to securely access stored secrets in an Azure Key Vault named az400-123456789-kv.
+To complete this task, sign in to the Microsoft Azure portal.
+
+======================================================================
+Topic 4 - Question 32
+https://www.examtopics.com/discussions/microsoft/view/48958-exam-az-400-topic-4-question-32-discussion/
+======================================================================
+SIMULATION -
+You manage a website that uses an Azure SQL Database named db1 in a resource group named RG1lod11566895.
+You need to modify the SQL database to protect against SQL injection.
+To complete this task, sign in to the Microsoft Azure portal.
+
+======================================================================
+Topic 4 - Question 47
+https://www.examtopics.com/discussions/microsoft/view/16452-exam-az-400-topic-4-question-47-discussion/
+======================================================================
+SIMULATION -
+You need to prepare a network security group (NSG) named az400-123456789-nsg1 to host an Azure DevOps pipeline agent. The solution must allow only the required outbound port for Azure DevOps and deny all other inbound and outbound access to the Internet.
+To complete this task, sign in to the Microsoft Azure portal.
+
+======================================================================
+Topic 4 - Question 75
+https://www.examtopics.com/discussions/microsoft/view/148941-exam-az-400-topic-4-question-75-discussion/
+======================================================================
+SIMULATION
+-
+You need to create a personal access token (PAT) named Token1 that has only the following capabilities:
+•	Read, write, and manage code
+•	Read and execute builds
+•	Read releases
+Token1 must expire in 60 days.
+
+======================================================================
+Topic 6 - Question 53
+https://www.examtopics.com/discussions/microsoft/view/155541-exam-az-400-topic-6-question-53-discussion/
+======================================================================
+SIMULATION
+-
+You need to create a new team dashboard named Dashboard1 for the default project team of Project1.
+The dashboard must display the members of the team.
+
+======================================================================
+Topic 6 - Question 54
+https://www.examtopics.com/discussions/microsoft/view/151191-exam-az-400-topic-6-question-54-discussion/
+======================================================================
+SIMULATION
+-
+For Project1, you need to create a project wiki named Wiki1 that uses the Mermaid syntax to render a diagram.
+A sample of the desired output is stored in C : \Resources\TCPHandshake.png.
+
+======================================================================
+Topic 7 - Question 24
+https://www.examtopics.com/discussions/microsoft/view/49165-exam-az-400-topic-7-question-24-discussion/
+======================================================================
+SIMULATION -
+You plan to deploy a runbook that will create Azure AD user accounts.
+You need to ensure that runbooks can run the Azure PowerShell cmdlets for Azure Active Directory.
+To complete this task, sign in to the Microsoft Azure portal.
+
+======================================================================
+Topic 7 - Question 60
+https://www.examtopics.com/discussions/microsoft/view/96950-exam-az-400-topic-7-question-60-discussion/
+======================================================================
+SIMULATION -
+You have an Azure function hosted in an App Service plan named az400-123456789-func1.
+You need to configure az400-123456789-func1 to upgrade the functions automatically whenever new code is committed to the master branch of https:// github.com/Azure-Samples/functions-quickstart.
+To complete this task, sign in to the Microsoft Azure portal.
+
+======================================================================
+Topic 7 - Question 78
+https://www.examtopics.com/discussions/microsoft/view/21072-exam-az-400-topic-7-question-78-discussion/
+======================================================================
+SIMULATION -
+You plan to store signed images in an Azure Container Registry instance named az4009940427acr1.
+You need to modify the SKU for az4009940427acr1 to support the planned images. The solution must minimize costs.
+To complete this task, sign in to the Microsoft Azure portal.
+
+======================================================================
+Topic 8 - Question 2
+https://www.examtopics.com/discussions/microsoft/view/37479-exam-az-400-topic-8-question-2-discussion/
+======================================================================
+SIMULATION -
+You plan to deploy a template named D:\Deploy.json to a resource group named Deploy-lod123456789.
+You need to modify the template to meet the following requirements, and then to deploy the template:
+✑ The address space must be reduced to support only 256 total IP addresses.
+✑ The subnet address space must be reduced to support only 64 total IP addresses.
+To complete this task, sign in to the Microsoft Azure portal.
+
+======================================================================
+Topic 8 - Question 3
+https://www.examtopics.com/discussions/microsoft/view/94802-exam-az-400-topic-8-question-3-discussion/
+======================================================================
+SIMULATION -
+You need to configure an Azure web app named az400-123456789-main to contain an environmental variable named `MAX_ITEMS`. The environmental variable must have a value of 50.
+To complete this task, sign in to the Microsoft Azure portal.
+
+======================================================================
+Topic 8 - Question 7
+https://www.examtopics.com/discussions/microsoft/view/87249-exam-az-400-topic-8-question-7-discussion/
+======================================================================
+SIMULATION -
+You need to ensure that the https://contoso.com/statushook webhook is called every time a repository named az400123456789acr1 receives a new version of an image named dotnetapp.
+To complete this task, sign in to the Microsoft Azure portal.
+
+======================================================================
+Topic 8 - Question 17
+https://www.examtopics.com/discussions/microsoft/view/88199-exam-az-400-topic-8-question-17-discussion/
+======================================================================
+SIMULATION -
+You plan to add a new web farm that will be published by using an IP address of 10.0.0.5.
+You need to allow traffic from the web farm to an Azure Database for MySQL server named az400-123456789-mysql.
+To complete this task, sign in to the Microsoft Azure portal.
+
+======================================================================
+Topic 8 - Question 19
+https://www.examtopics.com/discussions/microsoft/view/17871-exam-az-400-topic-8-question-19-discussion/
+======================================================================
+SIMULATION -
+You need to create a virtual machine template in an Azure DevTest Labs environment named az400-123456789-dtl1. The template must be based on Windows
+Server 2019 Datacenter. Virtual machines created from the template must include the selenium tool and the Google Chrome browser.
+To complete this task, sign in to the Microsoft Azure portal.
+
+======================================================================
+Topic 8 - Question 23
+https://www.examtopics.com/discussions/microsoft/view/94812-exam-az-400-topic-8-question-23-discussion/
+======================================================================
+SIMULATION -
+You plan to implement a CI/CD strategy for an Azure Web App named az400-123456789-main.
+You need to configure a staging environment for az400-123456789-main.
+To complete this task, sign in to the Microsoft Azure portal.
+
+======================================================================
+Topic 8 - Question 24
+https://www.examtopics.com/discussions/microsoft/view/52162-exam-az-400-topic-8-question-24-discussion/
+======================================================================
+SIMULATION -
+You have several apps that use an Azure SQL Database named db1.
+You need to ensure that queries to db1 are tuned by Azure over time. The solution must only apply to db1.
+To complete this task, sign in to the Microsoft Azure portal.
+
+======================================================================
+Topic 8 - Question 35
+https://www.examtopics.com/discussions/microsoft/view/94816-exam-az-400-topic-8-question-35-discussion/
+======================================================================
+SIMULATION -
+You need to ensure that an Azure web app named az400-123456789-main supports rolling upgrades. The solution must ensure that only 10 percent of users who connect to az400-123456789-main use update versions of the app.
+The solution must minimize administrative effort.
+To complete this task, sign in to the Microsoft Azure portal.
+
+======================================================================
+Topic 8 - Question 43
+https://www.examtopics.com/discussions/microsoft/view/121081-exam-az-400-topic-8-question-43-discussion/
+======================================================================
+SIMULATION -
+You plan to deploy a website that will be hosted in two Azure regions.
+You need to create an Azure Traffic Manager profile named az400123456789n1-tm in a resource group named RG1lod123456789. The solution must ensure that users will always connect to a copy of the website that is in the same country.
+To complete this task, sign in to the Microsoft Azure portal.
+
+======================================================================
+Topic 8 - Question 78
+https://www.examtopics.com/discussions/microsoft/view/225293-exam-az-400-topic-8-question-78-discussion/
+======================================================================
+SIMULATION
+-
+You need to configure a virtual machine template in a DevTest Labs environment named az400-123456789-dtl1. The operating system must be based on Windows Server 2016 Datacenter. Virtual machines created from the DevTest Lab must include the Selenium tool and the Google Chrome browser.
+To complete this task, sign in to the Microsoft Azure portal.
+
+======================================================================
+Topic 9 - Question 54
+https://www.examtopics.com/discussions/microsoft/view/149793-exam-az-400-topic-9-question-54-discussion/
+======================================================================
+SIMULATION
+-
+Initialize the default main branch, if it does not exist already.
+In the User1-12345678 organization, you need to install the Microsoft Security DevOps extension.
+Next, create a new starter pipeline named starter1 that will use the following starter code.
+Ensure that starter1 includes a task that executes the extension and uses the following inputs:
+•	Command: run
+•	Policy: azuredevops
+•	Publish: true
+Save the pipeline to a new branch named starter.
+
+======================================================================
+Topic 9 - Question 55
+https://www.examtopics.com/discussions/microsoft/view/151084-exam-az-400-topic-9-question-55-discussion/
+======================================================================
+SIMULATION
+-
+Initialize the default main branch, if it does not exist already.
+In Project1, you need to create a new Azure Pipelines YAML pipeline by using the ASP.NET template.
+The pipeline must use Azure Repos as the hosting platform and must be created in a new branch named azure-pipelines.
