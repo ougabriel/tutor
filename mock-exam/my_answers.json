@@ -2016,8 +2016,8 @@
     "rationale": "User1 (Log Analytics Reader): Needs to search/view all log data in a Log Analytics workspace. Log Analytics Reader gives the minimum permissions to view and query workspace logs. Creating private dashboards needs no resource-level write access (private dashboards are saved in the user's own portal state).\nUser2 (Monitoring Reader): Needs only to view autoscale settings and alert activities/settings. Monitoring Reader is designed for ops/support who read monitoring configuration (autoscale rules, alerts) without the ability to modify them, satisfying least privilege."
   },
   "AZ-400|T2|Q45": {
-    "answer": "How long to close a work item: Lead Time; Completed backlog items: Velocity; Time to restore failed services: MTTR (Mean Time to Restore) or a custom widget",
-    "rationale": "Lead Time = creation to close. Velocity = completed items. MTTR = service restoration time."
+    "answer": "How long it takes to close a work item: Cycle time\nThe number of completed backlog items: Velocity\nHow long it takes to restore failed services: Lead time",
+    "rationale": "Cycle time: Elapsed time to complete a work item after active work has started on it, so it maps to how long it takes to close a work item.\nVelocity: Measures the volume of work (count or effort points of backlog items) delivered/completed within a sprint or iteration, matching the number of completed backlog items.\nLead time: Total time from when a request/issue is created until it is fully resolved, matching how long it takes to restore failed services."
   },
   "AZ-400|T2|Q48": {
     "answer": "Depends on the specific KQL query shown - cannot determine exact answers without seeing the exhibit",
