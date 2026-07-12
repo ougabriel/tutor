@@ -488,8 +488,8 @@
     "rationale": "Fixed-rate sampling for a .NET Core app is configured in Startup.cs (ApplicationInsights.config is for .NET Framework)."
   },
   "AZ-400|T2|Q38": {
-    "answer": "A",
-    "rationale": "Set the Application Insights connection string/instrumentation key in appsettings.json."
+    "answer": "A. appsettings.json",
+    "rationale": "A. appsettings.json (correct): Environment-specific settings such as the Application Insights instrumentation key / connection string should live in a configuration file rather than being hardcoded in source, so this is the file to modify.\nB. launchSettings.json: Used only for local development config (environment variables, IIS profiles); it is not deployed to production via Azure Pipelines.\nC. startup.cs: Registers the App Insights service in code (services.AddApplicationInsightsTelemetry()), but the reference to the specific AI1 instance should come from external configuration, not hardcoded here.\nD. project.json: An obsolete .NET Core file format, replaced entirely by .csproj."
   },
   "AZ-400|T2|Q42": {
     "answer": "AD",
