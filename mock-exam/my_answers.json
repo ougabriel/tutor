@@ -2008,8 +2008,8 @@
     "rationale": "Time filter: ago(1h) looks back exactly one hour from now; using timestamp >= ago(1h) returns everything from that point until now (the last hour). KQL does not use -gt (that is PowerShell syntax).\nField selection: project chooses/renames/drops specific columns, so it returns only timestamp, url, resultCode, and duration. 'select' is SQL, not KQL, and 'extend' adds new columns rather than narrowing to existing ones."
   },
   "AZ-400|T2|Q41": {
-    "answer": "Bottlenecks in a single iteration: Cumulative Flow Diagram; How long to close after started: Cycle Time",
-    "rationale": "CFD shows bottlenecks/WIP in an iteration. Cycle time = start to close."
+    "answer": "Bottlenecks in the software development process: Cumulative flow diagram (CFD)\nHow long it takes to close a work item after it was started: Cycle time\nA burndown chart for the work in a single iteration: Sprint burndown",
+    "rationale": "Cumulative flow diagram (CFD): Shows the count of work items in each backlog column state over time, so you can spot build-ups/bottlenecks at specific workflow stages.\nCycle time: Measures elapsed time from when a work item enters an active/Started state until it is closed (vs Lead time, which is creation to completion).\nSprint burndown: Tracks remaining work across a single defined sprint/iteration and whether the team is on pace to finish the committed scope by the end date."
   },
   "AZ-400|T2|Q44": {
     "answer": "User1 (read logs): Log Analytics Reader; User2 (write/manage): Log Analytics Contributor",
