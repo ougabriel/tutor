@@ -1992,8 +1992,8 @@
     "rationale": "Disable adaptive sampling: Adaptive sampling is on by default and dynamically adjusts telemetry volume on the client application. Changing it in code requires redeploying webapp1, so you must first disable it.\nModify Usage and estimated costs (ingestion sampling): Ingestion sampling happens at the Application Insights endpoint and filters received telemetry. It is configured in the Azure portal under the AppInsights1 resource's Usage and estimated costs settings, letting you adjust the sampling rate without changing code or redeploying."
   },
   "AZ-400|T2|Q36": {
-    "answer": "Logs | where TimeGenerated > ago(2d) | where Location contains 'Asia' (or equivalent ordering of filter then time range)",
-    "rationale": "Query: start with table, filter by time (ago(2d)), filter by location containing Asia."
+    "answer": "1. Logs\n2. | where timestamp > ago(2d)\n3. | join ( Events\n4. ) on RequestId\n5. | where continent == 'Asia'\n\nFull query: Logs | where timestamp > ago(2d) | join ( Events ) on RequestId | where continent == 'Asia'",
+    "rationale": "Logs + time filter first: In KQL, filter by time before running resource-intensive operations like joins. Restricting Logs to the last two days (ago(2d)) drastically reduces the data volume.\njoin ( Events then ) on RequestId: The 'join ( Events' statement opens a parenthesis that must be closed by ') on RequestId' (there are no inner filters for Events), joining Logs to Events on the shared RequestId column.\nwhere continent == 'Asia' last: The combined result is then filtered to only entries from Asia."
   },
   "AZ-400|T2|Q37": {
     "answer": "performanceCounters | where timestamp > ago(24h) | summarize avg(value) by bin(timestamp, 1h) | render timechart; plus threshold line at 75",
