@@ -1,4 +1,4 @@
-AI-300 - Extracted Questions (95 of 107)
+AI-300 - Extracted Questions (99 of 142)
 Source: ExamTopics question/discussion pages
 
 ======================================================================
@@ -1500,6 +1500,23 @@ You need to configure a safety evaluation pipeline that reliably evaluates model
 Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 
 ======================================================================
+Topic 5 - Question 16
+https://www.examtopics.com/discussions/microsoft/view/420719-exam-ai-300-topic-5-question-16-discussion/
+======================================================================
+
+You create an Azure Machine Learning workspace.
+You must use the Python SDK v2 to implement an experiment from a Jupyter notebook in the workspace. The experiment must log a list of numerical metrics.
+You need to implement a method to log a list of numerical metrics.
+Which method should you use?
+
+A. mlflow.log_batch()
+B. mlflow.log_metric()
+C. mlflow.log_artifact()
+D. mlflow.log_image()
+
+Suggested Answer (community most voted): A
+
+======================================================================
 Topic 6 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/404621-exam-ai-300-topic-6-question-1-discussion/
 ======================================================================
@@ -1604,6 +1621,72 @@ C. Increase token limits for all requests.
 D. Optimize the length of embedding vectors.
 
 Suggested Answer (community most voted): AB
+
+======================================================================
+Topic 6 - Question 8
+https://www.examtopics.com/discussions/microsoft/view/416081-exam-ai-300-topic-6-question-8-discussion/
+======================================================================
+
+HOTSPOT
+-
+Case Study
+-
+This is a case study. Case studies are not timed separately from other exam sections. You can use as much exam time as you would like to complete each case study. However, there might be additional case studies or other exam sections. Manage your time to ensure that you can complete all the exam sections in the time provided. Pay attention to the Exam Progress at the top of the screen so you have sufficient time to complete any exam sections that follow this case study.
+To answer the case study questions, you will need to reference information that is provided in the case. Case studies and associated questions might contain exhibits or other resources that provide more information about the scenario described in the case. Information provided in an individual question does not apply to the other questions in the case study.
+A Review Screen will appear at the end of this case study. From the Review Screen, you can review and change your answers before you move to the next exam section. After you leave this case study, you will NOT be able to return to it.
+To start the case study
+-
+To display the first question in this case study, select the "Next" button. To the left of the question, a menu provides links to information such as business requirements, the existing environment, and problem statements. Please read through all this information before answering any questions. When you are ready to answer a question, select the "Question" button to return to the question.
+Background
+-
+Fabrikam Inc. is a mid-sized healthcare analytics company that provides population health dashboards and predictive insights to regional hospital systems across the United States. Fabrikam Inc. customers rely on near real time analytics to monitor patient flow, staffing needs, and readmission risks. They use multiple traditional forecasting machine learning models for predictions.
+Fabrikam Inc. has an established Microsoft Azure footprint. The company uses Jupyter Notebooks that run on a local server as the primary development environment. The data science team is experiencing scalability, asset management and code management issues with the current development platform. Fabrikam Inc. plans to migrate to a cloud-based development environment to mitigate the issues.
+Additionally, the company plans to implement a Retrieval-Augmented Generation (RAG)-based chat application for client support. Leadership requires the application to be developed and deployed with a low operational risk.
+Current Environment
+-
+Fabrikam Inc. operates a single Azure subscription that has the following components:
+•	Azure Data Lake Storage Gen2 that contains de-identified clinical and operational datasets
+•	Azure AI Search indexing curated analytical documents and reference materials
+•	A small set of Python-based training scripts maintained by data scientists
+•	Azure OpenAI Service with deployed foundational models
+•	A Microsoft Foundry resource for building a RAG-based solution
+Evaluation data has manually defined expected responses.
+The current challenges faced by the data science team include the following:
+•	Model training jobs are run manually from notebooks.
+•	Experiment tracking is inconsistent
+•	Model versions are registered without standardized metadata.
+•	Deployment is performed manually by data scientists, with limited rollback capability.
+•	The team has no standardized evaluation process for generative AI outputs.
+The environment currently allows public network access. Authentication relies on user accounts rather than managed identities. Compute targets are manually created and shared across experiments. This has led to resource contention during peak usage.
+Business Requirements
+-
+Fabrikam Inc. has the following business requirements for the modernization initiative:
+•	Provide a conversational interface that answers analytics questions by using internal documents and datasets.
+•	Ensure that sensitive healthcare-related data is not exposed outside the Fabrikam Inc. Azure tenant.
+•	Enable repeatable and auditable model training and deployment processes.
+•	Support experimentation to compare prompt strategies and fine-tuned models.
+•	Align the model with the ranked preferences and optimize behavior for the long term.
+•	Minimize disruption to existing analytics workloads during rollout.
+Technical Requirements
+-
+To support the business goals, Fabrikam Inc. identifies these technical requirements:
+•	Use Azure Machine Learning workspaces to centrally manage data assets, models, and environments.
+•	Implement experiment tracking and model versioning for all training jobs.
+•	Orchestrate training and evaluation by using pipelines rather than manually running notebooks.
+•	Deploy traditional machine learning models with support for staged rollout and rollback.
+•	Improve RAG-based solution output quality.
+•	Use the existing evaluation datasets that are based on real data with input-output pairs.
+•	Apply advanced fine-tuning techniques only when prompt engineering is insufficient
+Issues and Constraints
+-
+Fabrikam Inc. must comply with internal security policies that require the company to restrict network access and avoid long-lived secrets. The data science team has limited Azure DevOps experience, so solutions must favor managed services and automation over custom infrastructure.
+Cost predictability is important. Leadership prefers serverless or managed compute options where possible but is willing to approve dedicated compute for stable production workloads.
+Problem Statement
+-
+Fabrikam Inc. must design and implement an Azure-based AI operations solution that enables reliable training, evaluation, deployment, and iteration of generative AI models. The solution must support experimentation and gradual rollout while ensuring governance, security, and operational stability. The data science and platform teams must collaborate to deliver this solution by using Azure Machine Learning and Microsoft Foundry capabilities.
+You need to configure an optimization method to meet Fabrikam Inc.’s technical requirements.
+Which strategy should you apply first? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
 
 ======================================================================
 Topic 6 - Question 9
@@ -1714,6 +1797,37 @@ A. Export model evaluation logs and use them directly as training data.
 B. Use a simulator to generate prompt-response interaction data that matches the target task.
 C. Enable A/B testing and capture live user traffic for data generation.
 D. Run a simulator to produce telemetry logs and trace data from user interactions.
+
+Suggested Answer (community most voted): B
+
+======================================================================
+Topic 6 - Question 17
+https://www.examtopics.com/discussions/microsoft/view/419531-exam-ai-300-topic-6-question-17-discussion/
+======================================================================
+
+DRAG DROP
+-
+A team is developing a Retrieval-Augmented Generation (RAG) system.
+The team requires improvements to the system's retrieval quality to ensure accurate, grounded responses.
+You need to assess RAG performance before you can suggest an improvement strategy.
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+
+======================================================================
+Topic 6 - Question 20
+https://www.examtopics.com/discussions/microsoft/view/420724-exam-ai-300-topic-6-question-20-discussion/
+======================================================================
+
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear on the review screen.
+You manage a Retrieval-Augmented Generation (RAG) application built on Microsoft Foundry.
+The application retrieves documents from an indexed knowledge base and generates answers for internal users.
+Recent feedback indicates that answers are fluent but sometimes include information that is not supported by the documents that were retrieved.
+You need to evaluate whether a proposed change improves RAG answer quality by using supported and measurable techniques.
+Solution: Review user feedback comments collected after deployment to determine whether answers appear more accurate.
+Does the solution meet the goal?
+
+A. Yes
+B. No
 
 Suggested Answer (community most voted): B
 
