@@ -1,11 +1,10 @@
-SC-100 - Extracted Questions (339 of 339)
+SC-100 - Extracted Questions (339)
 Source: ExamTopics question/discussion pages
 
 ======================================================================
 Topic 1 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/78352-exam-sc-100-topic-1-question-1-discussion/
 ======================================================================
-
 Your company has a Microsoft 365 ES subscription.
 The Chief Compliance Officer plans to enhance privacy management in the working environment.
 You need to recommend a solution to enhance the privacy management. The solution must meet the following requirements:
@@ -25,7 +24,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/78353-exam-sc-100-topic-1-question-2-discussion/
 ======================================================================
-
 You have an Azure subscription that has Microsoft Defender for Cloud enabled.
 Suspicious authentication activity alerts have been appearing in the Workload protections dashboard.
 You need to recommend a solution to evaluate and remediate the alerts by using workflow automation. The solution must minimize development effort.
@@ -42,7 +40,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/78354-exam-sc-100-topic-1-question-3-discussion/
 ======================================================================
-
 Your company is moving a big data solution to Azure.
 The company plans to use the following storage workloads:
 ✑ Azure Storage blob containers
@@ -63,7 +60,6 @@ Suggested Answer (community most voted): CD
 Topic 1 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/78559-exam-sc-100-topic-1-question-4-discussion/
 ======================================================================
-
 HOTSPOT -
 Your company is migrating data to Azure. The data contains Personally Identifiable Information (PII).
 The company plans to use Microsoft Information Protection for the PII data store in Azure.
@@ -76,7 +72,6 @@ Hot Area:
 Topic 1 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/78415-exam-sc-100-topic-1-question-5-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription and an Azure subscription.
 You are designing a Microsoft deployment.
 You need to recommend a solution for the security operations team. The solution must include custom views and a dashboard for analyzing security events.
@@ -93,7 +88,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 6
 https://www.examtopics.com/discussions/microsoft/view/78418-exam-sc-100-topic-1-question-6-discussion/
 ======================================================================
-
 Your company has a Microsoft 365 subscription and uses Microsoft Defender for Identity.
 You are informed about incidents that relate to compromised identities.
 You need to recommend a solution to expose several accounts for attackers to exploit. When the attackers attempt to exploit the accounts, an alert must be triggered.
@@ -110,7 +104,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 7
 https://www.examtopics.com/discussions/microsoft/view/78416-exam-sc-100-topic-1-question-7-discussion/
 ======================================================================
-
 Your company is moving all on-premises workloads to Azure and Microsoft 365.
 You need to design a security orchestration, automation, and response (SOAR) strategy in Microsoft Sentinel that meets the following requirements:
 ✑ Minimizes manual intervention by security operation analysts
@@ -128,7 +121,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 8
 https://www.examtopics.com/discussions/microsoft/view/78565-exam-sc-100-topic-1-question-8-discussion/
 ======================================================================
-
 You have an Azure subscription that contains virtual machines, storage accounts, and Azure SQL databases.
 All resources are backed up multiple times a day by using Azure Backup.
 You are developing a strategy to protect against ransomware attacks.
@@ -148,7 +140,6 @@ Suggested Answer (community most voted): AB
 Topic 1 - Question 9
 https://www.examtopics.com/discussions/microsoft/view/78360-exam-sc-100-topic-1-question-9-discussion/
 ======================================================================
-
 HOTSPOT -
 You are creating the security recommendations for an Azure App Service web app named App1. App1 has the following specifications:
 ✑ Users will request access to App1 through the My Apps portal. A human resources manager will approve the requests.
@@ -162,7 +153,6 @@ Hot Area:
 Topic 1 - Question 10
 https://www.examtopics.com/discussions/microsoft/view/78421-exam-sc-100-topic-1-question-10-discussion/
 ======================================================================
-
 HOTSPOT -
 Your company uses Microsoft Defender for Cloud and Microsoft Sentinel.
 The company is designing an application that will have the architecture shown in the following exhibit.
@@ -177,7 +167,6 @@ Hot Area:
 Topic 1 - Question 11
 https://www.examtopics.com/discussions/microsoft/view/78404-exam-sc-100-topic-1-question-11-discussion/
 ======================================================================
-
 Your company has a third-party security information and event management (SIEM) solution that uses Splunk and Microsoft Sentinel.
 You plan to integrate Microsoft Sentinel with Splunk.
 You need to recommend a solution to send security events from Microsoft Sentinel to Splunk.
@@ -194,7 +183,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 12
 https://www.examtopics.com/discussions/microsoft/view/78422-exam-sc-100-topic-1-question-12-discussion/
 ======================================================================
-
 A customer follows the Zero Trust model and explicitly verifies each attempt to access its corporate applications.
 The customer discovers that several endpoints are infected with malware.
 The customer suspends access attempts from the infected endpoints.
@@ -213,7 +201,6 @@ Suggested Answer (community most voted): AB
 Topic 1 - Question 13
 https://www.examtopics.com/discussions/microsoft/view/78424-exam-sc-100-topic-1-question-13-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 subscription and an Azure subscription. Microsoft 365 Defender and Microsoft Defender for Cloud are enabled.
 The Azure subscription contains a Microsoft Sentinel workspace. Microsoft Sentinel data connectors are configured for Microsoft 365, Microsoft 365 Defender,
@@ -228,7 +215,6 @@ Hot Area:
 Topic 1 - Question 14
 https://www.examtopics.com/discussions/microsoft/view/78376-exam-sc-100-topic-1-question-14-discussion/
 ======================================================================
-
 You have a customer that has a Microsoft 365 subscription and uses the Free edition of Azure Active Directory (Azure AD).
 The customer plans to obtain an Azure subscription and provision several Azure resources.
 You need to evaluate the customer's security environment.
@@ -245,7 +231,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 15
 https://www.examtopics.com/discussions/microsoft/view/78367-exam-sc-100-topic-1-question-15-discussion/
 ======================================================================
-
 You are designing the security standards for a new Azure environment.
 You need to design a privileged identity strategy based on the Zero Trust model.
 Which framework should you follow to create the design?
@@ -261,7 +246,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 16
 https://www.examtopics.com/discussions/microsoft/view/78428-exam-sc-100-topic-1-question-16-discussion/
 ======================================================================
-
 A customer has a hybrid cloud infrastructure that contains a Microsoft 365 E5 subscription and an Azure subscription.
 All on-premises servers in the perimeter network are prevented from connecting directly to the internet.
 The customer recently recovered from a ransomware attack.
@@ -283,7 +267,6 @@ Suggested Answer (community most voted): BC
 Topic 1 - Question 17
 https://www.examtopics.com/discussions/microsoft/view/78429-exam-sc-100-topic-1-question-17-discussion/
 ======================================================================
-
 Your company is developing a serverless application in Azure that will have the architecture shown in the following exhibit.
 You need to recommend a solution to isolate the compute components on an Azure virtual network.
 What should you include in the recommendation?
@@ -299,7 +282,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 18
 https://www.examtopics.com/discussions/microsoft/view/94530-exam-sc-100-topic-1-question-18-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You are planning the security levels for a security access strategy.
@@ -311,7 +293,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 19
 https://www.examtopics.com/discussions/microsoft/view/94827-exam-sc-100-topic-1-question-19-discussion/
 ======================================================================
-
 Your company plans to apply the Zero Trust Rapid Modernization Plan (RaMP) to its IT environment.
 You need to recommend the top three modernization areas to prioritize as part of the plan.
 Which three areas should you recommend based on RaMP? Each correct answer presents part of the solution.
@@ -329,7 +310,6 @@ Suggested Answer (community most voted): ACE
 Topic 1 - Question 20
 https://www.examtopics.com/discussions/microsoft/view/94375-exam-sc-100-topic-1-question-20-discussion/
 ======================================================================
-
 HOTSPOT -
 For a Microsoft cloud environment, you are designing a security architecture based on the Microsoft Cybersecurity Reference Architectures (MCRA).
 You need to protect against the following external threats of an attack chain:
@@ -342,7 +322,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 21
 https://www.examtopics.com/discussions/microsoft/view/94280-exam-sc-100-topic-1-question-21-discussion/
 ======================================================================
-
 For an Azure deployment, you are designing a security architecture based on the Microsoft Cloud Security Benchmark.
 You need to recommend a best practice for implementing service accounts for Azure API management.
 What should you include in the recommendation?
@@ -359,7 +338,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 22
 https://www.examtopics.com/discussions/microsoft/view/94409-exam-sc-100-topic-1-question-22-discussion/
 ======================================================================
-
 You have an Azure AD tenant that syncs with an Active Directory Domain Services (AD DS) domain. Client computers run Windows and are hybrid-joined to Azure AD.
 You are designing a strategy to protect endpoints against ransomware. The strategy follows Microsoft Security Best Practices.
 You plan to remove all the domain accounts from the Administrators groups on the Windows computers.
@@ -377,7 +355,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 23
 https://www.examtopics.com/discussions/microsoft/view/99491-exam-sc-100-topic-1-question-23-discussion/
 ======================================================================
-
 29 DRAG DROP
 For a Microsoft cloud environment, you need to recommend a security architecture that follows the Zero Trust principles of the Microsoft Cybersecurity Reference Architectures (MCRA).
 Which security methodologies should you include in the recommendation? To answer, drag the appropriate methodologies to the correct principles. Each methodology may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
@@ -387,7 +364,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 24
 https://www.examtopics.com/discussions/microsoft/view/99869-exam-sc-100-topic-1-question-24-discussion/
 ======================================================================
-
 You have legacy operational technology (OT) devices and IoT devices.
 You need to recommend best practices for applying Zero Trust principles to the OT and IoT devices based on the Microsoft Cybersecurity Reference Architectures (MCRA). The solution must minimize the risk of disrupting business operations.
 Which two security methodologies should you include in the recommendation? Each correct answer presents part of the solution.
@@ -404,7 +380,6 @@ Suggested Answer (community most voted): BD
 Topic 1 - Question 25
 https://www.examtopics.com/discussions/microsoft/view/105320-exam-sc-100-topic-1-question-25-discussion/
 ======================================================================
-
 You have an on-premises network and a Microsoft 365 subscription.
 You are designing a Zero Trust security strategy.
 Which two security controls should you include as part of the Zero Trust solution? Each correct answer presents part of the solution.
@@ -421,7 +396,6 @@ Suggested Answer (community most voted): CD
 Topic 1 - Question 26
 https://www.examtopics.com/discussions/microsoft/view/117012-exam-sc-100-topic-1-question-26-discussion/
 ======================================================================
-
 You are designing a ransomware response plan that follows Microsoft Security Best Practices.
 You need to recommend a solution to minimize the risk of a ransomware attack encrypting local user files.
 What should you include in the recommendation?
@@ -438,7 +412,6 @@ Suggested Answer (community most voted): E
 Topic 1 - Question 27
 https://www.examtopics.com/discussions/microsoft/view/117013-exam-sc-100-topic-1-question-27-discussion/
 ======================================================================
-
 You have an Azure AD tenant that syncs with an Active Directory Domain Services (AD DS) domain.
 You are designing an Azure DevOps solution to deploy applications to an Azure subscription by using continuous integration and continuous deployment (CI/CD) pipelines.
 You need to recommend which types of identities to use for the deployment credentials of the service connection. The solution must follow DevSecOps best practices from the Microsoft Cloud Adoption Framework for Azure.
@@ -455,7 +428,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 28
 https://www.examtopics.com/discussions/microsoft/view/117433-exam-sc-100-topic-1-question-28-discussion/
 ======================================================================
-
 You have an Azure Kubernetes Service (AKS) cluster that hosts Linux nodes.
 You need to recommend a solution to ensure that deployed worker nodes have the latest kernel updates. The solution must minimize administrative effort.
 What should you recommend?
@@ -470,7 +442,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 29
 https://www.examtopics.com/discussions/microsoft/view/117140-exam-sc-100-topic-1-question-29-discussion/
 ======================================================================
-
 You have the following on-premises servers that run Windows Server:
 •	Two domain controllers in an Active Directory Domain Services (AD DS) domain
 •	Two application servers named Server1 and Server2 that run ASP.NET web apps
@@ -490,7 +461,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 30
 https://www.examtopics.com/discussions/microsoft/view/117420-exam-sc-100-topic-1-question-30-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 E5 subscription that uses Microsoft Purview, SharePoint Online, and OneDrive for Business.
 You need to recommend a ransomware protection solution that meets the following requirements:
@@ -504,7 +474,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 31
 https://www.examtopics.com/discussions/microsoft/view/116992-exam-sc-100-topic-1-question-31-discussion/
 ======================================================================
-
 You are designing a security operations strategy based on the Zero Trust framework.
 You need to minimize the operational load on Tier 1 Microsoft Security Operations Center (SOC) analysts.
 What should you do?
@@ -520,7 +489,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 32
 https://www.examtopics.com/discussions/microsoft/view/122560-exam-sc-100-topic-1-question-32-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You are designing a security operations strategy based on the Zero Trust framework.
@@ -531,7 +499,6 @@ Based on the Zero Trust framework, which three deployment objectives should you 
 Topic 1 - Question 33
 https://www.examtopics.com/discussions/microsoft/view/155637-exam-sc-100-topic-1-question-33-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that contains multiple apps. The apps are managed by using continuous integration and continuous deployment (CCD) pipelines in Azure DevOps.
@@ -543,7 +510,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 34
 https://www.examtopics.com/discussions/microsoft/view/155638-exam-sc-100-topic-1-question-34-discussion/
 ======================================================================
-
 You have a Microsoft Entra tenant that contains 10 Windows 11 devices and two groups named Group1 and Group2. The Windows 11 devices are joined to the Microsoft Entra tenant and are managed by using Microsoft Intune.
 You are designing a privileged access strategy based on the rapid modernization plan (RaMP). The strategy will include the following configurations:
 •	Each user in Group1 will be assigned a Windows 11 device that will be configured as a privileged access device.
@@ -563,7 +529,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 35
 https://www.examtopics.com/discussions/microsoft/view/155589-exam-sc-100-topic-1-question-35-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Case Study
@@ -637,7 +602,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 36
 https://www.examtopics.com/discussions/microsoft/view/155644-exam-sc-100-topic-1-question-36-discussion/
 ======================================================================
-
 You have an Azure subscription.
 You plan to deploy enterprise-scale landing zones based on the Microsoft Cloud Adoption Framework for Azure. The deployment will include a single-platform landing zone for all shared services and three application landing zones that will each host a different Azure application.
 You need to recommend which resource to deploy to each landing zone. The solution must meet the Cloud Adoption Framework best-practice recommendations for enterprise-scale landing zones.
@@ -654,7 +618,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 37
 https://www.examtopics.com/discussions/microsoft/view/155590-exam-sc-100-topic-1-question-37-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have 1,000 on-premises servers that run Windows Server 2022 and 500 on-premises servers that run Linux.
@@ -669,7 +632,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 38
 https://www.examtopics.com/discussions/microsoft/view/169388-exam-sc-100-topic-1-question-38-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Active Directory Domain Services (AD DS) domain that contains a virtual desktop infrastructure (VDI). The VDI uses non-persistent images and cloned virtual machine templates. VDI devices are members of the domain.
@@ -685,7 +647,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 39
 https://www.examtopics.com/discussions/microsoft/view/155591-exam-sc-100-topic-1-question-39-discussion/
 ======================================================================
-
 You have 10 Azure subscriptions that contain 100 role-based access control (RBAC) role assignments.
 You plan to consolidate the role assignments.
 You need to recommend a solution to identify which role assignments were NOT used during the last 90 days. The solution must minimize administrative effort.
@@ -702,7 +663,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 40
 https://www.examtopics.com/discussions/microsoft/view/155639-exam-sc-100-topic-1-question-40-discussion/
 ======================================================================
-
 You have a Microsoft Entra tenant that syncs with an Active Directory Domain Services (AD DS) domain.
 You have an on-premises datacenter that contains 100 servers. The servers run Windows Server and are backed up by using Microsoft Azure Backup Server (MABS).
 You are designing a recovery solution for ransomware attacks. The solution follows Microsoft Security Best Practices.
@@ -720,7 +680,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 41
 https://www.examtopics.com/discussions/microsoft/view/155602-exam-sc-100-topic-1-question-41-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that contains multiple Azure Storage blobs and Azure Files shares.
@@ -735,7 +694,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 42
 https://www.examtopics.com/discussions/microsoft/view/155645-exam-sc-100-topic-1-question-42-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You need to design a solution to accelerate a Zero Trust security implementation. The solution must be based on the Zero Trust Rapid Modernization Plan (RaMP).
@@ -746,7 +704,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 43
 https://www.examtopics.com/discussions/microsoft/view/309536-exam-sc-100-topic-1-question-43-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription. The subscription contains an Azure SQL database named DB1 that stores customer data.
@@ -763,7 +720,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 44
 https://www.examtopics.com/discussions/microsoft/view/309538-exam-sc-100-topic-1-question-44-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure DevOps organization that is used to manage the development and deployment of internal apps to multiple Azure subscriptions.
@@ -777,7 +733,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 45
 https://www.examtopics.com/discussions/microsoft/view/309493-exam-sc-100-topic-1-question-45-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Your company uses Microsoft Defender for Cloud and Microsoft Sentinel.
@@ -792,7 +747,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 46
 https://www.examtopics.com/discussions/microsoft/view/309526-exam-sc-100-topic-1-question-46-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft Entra tenant named contoso.com. You have 30 Azure subscriptions that are linked to contoso.com. The tenant contains the management groups shown in the following table.
@@ -806,7 +760,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 47
 https://www.examtopics.com/discussions/microsoft/view/309491-exam-sc-100-topic-1-question-47-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that contains an Azure Kubernetes Service (AKS) cluster named AKS1. AKS1 hosts a Windows node pool named Pool1 and a Linux node pool named Pool2.
@@ -821,7 +774,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 48
 https://www.examtopics.com/discussions/microsoft/view/312876-exam-sc-100-topic-1-question-48-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that contains multiple apps. The apps are deployed by using continuous integration and continuous delivery (CI/CD) pipelines in Azure DevOps.
@@ -833,7 +785,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 49
 https://www.examtopics.com/discussions/microsoft/view/312947-exam-sc-100-topic-1-question-49-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that contains Azure App Service apps. The apps have the following characteristics:
@@ -851,7 +802,6 @@ NOTE: Each correct answer is worth one point.
 Topic 1 - Question 50
 https://www.examtopics.com/discussions/microsoft/view/316542-exam-sc-100-topic-1-question-50-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure DevOps organization that is used to manage the development and deployment of internal apps to multiple Azure subscriptions.
@@ -864,7 +814,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 51
 https://www.examtopics.com/discussions/microsoft/view/316543-exam-sc-100-topic-1-question-51-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have an Azure environment that contains multiple workloads deployed across multiple subscriptions.
@@ -878,7 +827,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 52
 https://www.examtopics.com/discussions/microsoft/view/384515-exam-sc-100-topic-1-question-52-discussion/
 ======================================================================
-
 You are designing a ransomware mitigation strategy.
 You perform a ransomware risk assessment and identify business-critical assets.
 You need to recommend a solution to mitigate ransomware threats. The solution must follow Microsoft security best practices.
@@ -896,7 +844,6 @@ Suggested Answer (community most voted): CD
 Topic 1 - Question 53
 https://www.examtopics.com/discussions/microsoft/view/384496-exam-sc-100-topic-1-question-53-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You are designing new Azure applications based on security best practices from the Microsoft Cloud Adoption Framework for Azure. Each application will be deployed to a dedicated and secure environment that will contain isolated instances of the following key Azure security resources:
@@ -914,7 +861,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 54
 https://www.examtopics.com/discussions/microsoft/view/384500-exam-sc-100-topic-1-question-54-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You plan to implement an Azure environment based on Microsoft Cloud Adoption Framework for enterprise-scale landing zone architecture principles. The environment will host three apps that have the following characteristics:
@@ -929,7 +875,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 55
 https://www.examtopics.com/discussions/microsoft/view/384503-exam-sc-100-topic-1-question-55-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains a group named Group1. The subscription contains 1,000 Windows devices that are joined to a Microsoft Entra tenant and managed by using Microsoft Intune. All users sign in to the devices by using standard user accounts.
 You plan to deploy a new app named App1 to the members of Group1. The Group1 members must have administrative rights to install new versions of App1.
 You need to ensure that the Group1 members can install new versions of App1. The solution must follow the principles of Zero Trust.
@@ -946,7 +891,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/78368-exam-sc-100-topic-2-question-1-discussion/
 ======================================================================
-
 You are evaluating an Azure environment for compliance.
 You need to design an Azure Policy implementation that can be used to evaluate compliance without changing any resources.
 Which effect should you use in Azure Policy?
@@ -962,7 +906,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/78430-exam-sc-100-topic-2-question-2-discussion/
 ======================================================================
-
 You have an Azure subscription that has Microsoft Defender for Cloud enabled.
 You are evaluating the Azure Security Benchmark V3 report as shown in the following exhibit.
 You need to verify whether Microsoft Defender for servers is installed on all the virtual machines that run Windows.
@@ -980,7 +923,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/78431-exam-sc-100-topic-2-question-3-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 E5 subscription and an Azure subscription.
 You need to evaluate the existing environment to increase the overall security posture for the following components:
@@ -995,7 +937,6 @@ Hot Area:
 Topic 2 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/78419-exam-sc-100-topic-2-question-4-discussion/
 ======================================================================
-
 Your company has an Azure subscription that has enhanced security enabled for Microsoft Defender for Cloud.
 The company signs a contract with the United States government.
 You need to review the current subscription for NIST 800-53 compliance.
@@ -1012,7 +953,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/78436-exam-sc-100-topic-2-question-5-discussion/
 ======================================================================
-
 You have an Azure subscription that has Microsoft Defender for Cloud enabled.
 You have an Amazon Web Services (AWS) implementation.
 You plan to extend the Azure security strategy to the AWS implementation. The solution will NOT use Azure Arc.
@@ -1031,7 +971,6 @@ Suggested Answer (community most voted): ACE
 Topic 2 - Question 6
 https://www.examtopics.com/discussions/microsoft/view/79921-exam-sc-100-topic-2-question-6-discussion/
 ======================================================================
-
 Your company has on-premises network in Seattle and an Azure subscription. The on-premises network contains a Remote Desktop server.
 The company contracts a third-party development firm from France to develop and deploy resources to the virtual machines hosted in the Azure subscription.
 Currently, the firm establishes an RDP connection to the Remote Desktop server. From the Remote Desktop connection, the firm can access the virtual machines hosted in Azure by using custom administrative tools installed on the Remote Desktop server. All the traffic to the Remote Desktop server is captured by a firewall, and the firewall only allows specific connections from France to the server.
@@ -1051,7 +990,6 @@ Suggested Answer (community most voted): CDE
 Topic 2 - Question 7
 https://www.examtopics.com/discussions/microsoft/view/78437-exam-sc-100-topic-2-question-7-discussion/
 ======================================================================
-
 HOTSPOT -
 Your company has a multi-cloud environment that contains a Microsoft 365 subscription, an Azure subscription, and Amazon Web Services (AWS) implementation.
 You need to recommend a security posture management solution for the following components:
@@ -1065,7 +1003,6 @@ Hot Area:
 Topic 2 - Question 8
 https://www.examtopics.com/discussions/microsoft/view/78438-exam-sc-100-topic-2-question-8-discussion/
 ======================================================================
-
 Your company has a hybrid cloud infrastructure.
 The company plans to hire several temporary employees within a brief period. The temporary employees will need to access applications and data on the company's on-premises network.
 The company's secutity policy prevents the use of personal devices for accessing company data and applications.
@@ -1083,7 +1020,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 9
 https://www.examtopics.com/discussions/microsoft/view/78439-exam-sc-100-topic-2-question-9-discussion/
 ======================================================================
-
 Your company is preparing for cloud adoption.
 You are designing security for Azure landing zones.
 Which two preventative controls can you implement to increase the secure score? Each correct answer presents a complete solution.
@@ -1101,7 +1037,6 @@ Suggested Answer (community most voted): AD
 Topic 2 - Question 10
 https://www.examtopics.com/discussions/microsoft/view/78440-exam-sc-100-topic-2-question-10-discussion/
 ======================================================================
-
 You are designing security for an Azure landing zone.
 Your company identifies the following compliance and privacy requirements:
 ✑ Encrypt cardholder data by using encryption keys managed by the company.
@@ -1120,7 +1055,6 @@ Suggested Answer (community most voted): BC
 Topic 2 - Question 11
 https://www.examtopics.com/discussions/microsoft/view/78441-exam-sc-100-topic-2-question-11-discussion/
 ======================================================================
-
 You have an Azure subscription that has Microsoft Defender for Cloud enabled.
 You need to enforce ISO 27001:2013 standards for the subscription. The solution must ensure that noncompliant resources are remediated automatically.
 What should you use?
@@ -1136,7 +1070,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 12
 https://www.examtopics.com/discussions/microsoft/view/78442-exam-sc-100-topic-2-question-12-discussion/
 ======================================================================
-
 DRAG DROP -
 You have a Microsoft 365 subscription.
 You need to recommend a security solution to monitor the following activities:
@@ -1150,7 +1083,6 @@ Select and Place:
 Topic 2 - Question 13
 https://www.examtopics.com/discussions/microsoft/view/78443-exam-sc-100-topic-2-question-13-discussion/
 ======================================================================
-
 Your company finalizes the adoption of Azure and is implementing Microsoft Defender for Cloud.
 You receive the following recommendations in Defender for Cloud
 ✑ Access to storage accounts with firewall and virtual network configurations should be restricted.
@@ -1171,7 +1103,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 14
 https://www.examtopics.com/discussions/microsoft/view/78444-exam-sc-100-topic-2-question-14-discussion/
 ======================================================================
-
 You receive a security alert in Microsoft Defender for Cloud as shown in the exhibit. (Click the Exhibit tab.)
 After remediating the threat, which policy definition should you assign to prevent the threat from reoccurring?
 
@@ -1186,7 +1117,6 @@ Suggested Answer (community most voted): C
 Topic 2 - Question 15
 https://www.examtopics.com/discussions/microsoft/view/78445-exam-sc-100-topic-2-question-15-discussion/
 ======================================================================
-
 You have 50 Azure subscriptions.
 You need to monitor the resource in the subscriptions for compliance with the ISO 27001:2013 standards. The solution must minimize the effort required to modify the list of monitored policy definitions for the subscriptions.
 What are two ways to achieve the goal? Each correct answer presents a complete solution.
@@ -1205,7 +1135,6 @@ Suggested Answer (community most voted): AF
 Topic 2 - Question 16
 https://www.examtopics.com/discussions/microsoft/view/78446-exam-sc-100-topic-2-question-16-discussion/
 ======================================================================
-
 HOTSPOT -
 You open Microsoft Defender for Cloud as shown in the following exhibit.
 Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
@@ -1216,7 +1145,6 @@ Hot Area:
 Topic 2 - Question 17
 https://www.examtopics.com/discussions/microsoft/view/78561-exam-sc-100-topic-2-question-17-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have an Azure subscription that has Microsoft Defender for Cloud enabled.
@@ -1235,7 +1163,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 18
 https://www.examtopics.com/discussions/microsoft/view/78447-exam-sc-100-topic-2-question-18-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have an Azure subscription that has Microsoft Defender for Cloud enabled.
@@ -1254,7 +1181,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 19
 https://www.examtopics.com/discussions/microsoft/view/78448-exam-sc-100-topic-2-question-19-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have an Azure subscription that has Microsoft Defender for Cloud enabled.
@@ -1273,7 +1199,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 20
 https://www.examtopics.com/discussions/microsoft/view/78449-exam-sc-100-topic-2-question-20-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 Your on-premises network contains an e-commerce web app that was developed in Angular and Node,js. The web app uses a MongoDB database.
@@ -1291,7 +1216,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 21
 https://www.examtopics.com/discussions/microsoft/view/78450-exam-sc-100-topic-2-question-21-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 Your on-premises network contains an e-commerce web app that was developed in Angular and Node,js. The web app uses a MongoDB database.
@@ -1309,7 +1233,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 22
 https://www.examtopics.com/discussions/microsoft/view/78451-exam-sc-100-topic-2-question-22-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 Your on-premises network contains an e-commerce web app that was developed in Angular and Node,js. The web app uses a MongoDB database.
@@ -1327,7 +1250,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 23
 https://www.examtopics.com/discussions/microsoft/view/78452-exam-sc-100-topic-2-question-23-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription and an Azure subscription. Microsoft 365 Defender and Microsoft Defender for Cloud are enabled.
 The Azure subscription contains 50 virtual machines. Each virtual machine runs different applications on Windows Server 2019.
 You need to recommend a solution to ensure that only authorized applications can run on the virtual machines. If an unauthorized application attempts to run or be installed, the application must be blocked automatically until an administrator authorizes the application.
@@ -1344,7 +1266,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 24
 https://www.examtopics.com/discussions/microsoft/view/78453-exam-sc-100-topic-2-question-24-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 Your on-premises network contains an e-commerce web app that was developed in Angular and Node,js. The web app uses a MongoDB database.
@@ -1362,7 +1283,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 25
 https://www.examtopics.com/discussions/microsoft/view/78454-exam-sc-100-topic-2-question-25-discussion/
 ======================================================================
-
 You have a customer that has a Microsoft 365 subscription and an Azure subscription.
 The customer has devices that run either Windows, iOS, Android, or macOS. The Windows devices are deployed on-premises and in Azure.
 You need to design a security solution to assess whether all the devices meet the customer's compliance rules.
@@ -1379,7 +1299,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 26
 https://www.examtopics.com/discussions/microsoft/view/78455-exam-sc-100-topic-2-question-26-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have an Azure subscription that has Microsoft Defender for Cloud enabled.
@@ -1398,7 +1317,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 27
 https://www.examtopics.com/discussions/microsoft/view/78456-exam-sc-100-topic-2-question-27-discussion/
 ======================================================================
-
 Your company has an Azure subscription that has enhanced security enabled for Microsoft Defender for Cloud.
 The company signs a contract with the United States government.
 You need to review the current subscription for NIST 800-53 compliance.
@@ -1415,7 +1333,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 28
 https://www.examtopics.com/discussions/microsoft/view/78457-exam-sc-100-topic-2-question-28-discussion/
 ======================================================================
-
 Your company has devices that run either Windows 10, Windows 11, or Windows Server.
 You are in the process of improving the security posture of the devices.
 You plan to use security baselines from the Microsoft Security Compliance Toolkit.
@@ -1432,7 +1349,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 29
 https://www.examtopics.com/discussions/microsoft/view/94487-exam-sc-100-topic-2-question-29-discussion/
 ======================================================================
-
 You have an Azure subscription that is used as an Azure landing zone for an application.
 You need to evaluate the security posture of all the workloads in the landing zone.
 What should you do first?
@@ -1448,7 +1364,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 30
 https://www.examtopics.com/discussions/microsoft/view/94937-exam-sc-100-topic-2-question-30-discussion/
 ======================================================================
-
 Your company has an Azure subscription that has enhanced security enabled for Microsoft Defender for Cloud.
 The company signs a contract with the United States government.
 You need to review the current subscription for NIST 800-53 compliance.
@@ -1465,7 +1380,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 31
 https://www.examtopics.com/discussions/microsoft/view/94938-exam-sc-100-topic-2-question-31-discussion/
 ======================================================================
-
 Your company has an Azure subscription that uses Microsoft Defender for Cloud.
 The company signs a contract with the United States government.
 You need to review the current subscription for NIST 800-53 compliance.
@@ -1480,7 +1394,6 @@ D. From Azure Policy, assign a built-in initiative that has a scope of the subsc
 Topic 2 - Question 32
 https://www.examtopics.com/discussions/microsoft/view/155735-exam-sc-100-topic-2-question-32-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft Entra tenant that is linked to a Microsoft 365 subscription and an Azure subscription. The tenant contains service principals that are used to access applications in the Azure subscription.
 You need to recommend a solution to detect risky sign-ins and other risky activities performed by the service principals in the tenant. The solution must minimize costs.
@@ -1491,7 +1404,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 33
 https://www.examtopics.com/discussions/microsoft/view/155773-exam-sc-100-topic-2-question-33-discussion/
 ======================================================================
-
 HOTSPOT -
 Your network contains an Active Directory Domain Services (AD DS) domain named Domain1.
 You have a Microsoft Entra tenant.
@@ -1506,7 +1418,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 34
 https://www.examtopics.com/discussions/microsoft/view/155701-exam-sc-100-topic-2-question-34-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains 1,000 Microsoft Exchange Online mailboxes.
 Incoming email from the internet is scanned for security threats by using a third-party cloud service.
 You are evaluating whether to replace the third-party service with Microsoft Defender for Office 365.
@@ -1523,7 +1434,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 35
 https://www.examtopics.com/discussions/microsoft/view/155751-exam-sc-100-topic-2-question-35-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant that contains two groups named Group1 and Group2.
 You use Microsoft Defender XDR to manage the tenants of your company’s customers.
 You need to ensure that the users in Group1 can perform security tasks in the tenant of each customer. The solution must meet the following requirements:
@@ -1544,7 +1454,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 36
 https://www.examtopics.com/discussions/microsoft/view/106122-exam-sc-100-topic-2-question-36-discussion/
 ======================================================================
-
 You have an Azure subscription.
 Your company has a governance requirement that resources must be created in the West Europe or North Europe Azure regions.
 What should you recommend using to enforce the governance requirement?
@@ -1560,7 +1469,6 @@ Suggested Answer (community most voted): C
 Topic 2 - Question 37
 https://www.examtopics.com/discussions/microsoft/view/117137-exam-sc-100-topic-2-question-37-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that is protected by using Microsoft 365 Defender.
@@ -1575,7 +1483,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 38
 https://www.examtopics.com/discussions/microsoft/view/117421-exam-sc-100-topic-2-question-38-discussion/
 ======================================================================
-
 You have an Azure subscription that has Microsoft Defender for Cloud enabled.
 You need to enforce ISO 27001:2013 standards for new resources deployed to the subscription. The solution must ensure that noncompliant resources are automatically detected.
 What should you use?
@@ -1591,7 +1498,6 @@ Suggested Answer (community most voted): C
 Topic 2 - Question 39
 https://www.examtopics.com/discussions/microsoft/view/117886-exam-sc-100-topic-2-question-39-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a hybrid Azure AD tenant that has pass-through authentication enabled.
@@ -1604,7 +1510,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 40
 https://www.examtopics.com/discussions/microsoft/view/117424-exam-sc-100-topic-2-question-40-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You are designing the security architecture for a cloud-only environment.
@@ -1619,7 +1524,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 41
 https://www.examtopics.com/discussions/microsoft/view/117425-exam-sc-100-topic-2-question-41-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that uses Microsoft Exchange Online.
@@ -1631,7 +1535,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 42
 https://www.examtopics.com/discussions/microsoft/view/117426-exam-sc-100-topic-2-question-42-discussion/
 ======================================================================
-
 HOTSPOT -
 Your network contains an on-premises Active Directory Domain Services (AD DS) domain. The domain contains a server that runs Windows Server and hosts shared folders. The domain syncs with Azure AD by using Azure AD Connect. Azure AD Connect has group writeback enabled.
 You have a Microsoft 365 subscription that uses Microsoft SharePoint Online.
@@ -1649,7 +1552,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 43
 https://www.examtopics.com/discussions/microsoft/view/124580-exam-sc-100-topic-2-question-43-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You are designing a privileged access strategy for a company named Contoso, Ltd. and its partner company named Fabrikam, Inc. Contoso has an Azure AD tenant named contoso.com. Fabrikam has an Azure AD tenant named fabrikam.com. Users at Fabrikam must access the resources in contoso.com.
@@ -1663,7 +1565,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 44
 https://www.examtopics.com/discussions/microsoft/view/123950-exam-sc-100-topic-2-question-44-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription and an Azure subscription. Microsoft 365 Defender and Microsoft Defender for Cloud are enabled.
 The Azure subscription contains 50 virtual machines. Each virtual machine runs different applications on Windows Server 2019.
 You need to recommend a solution to ensure that only authorized applications can run on the virtual machines. If an unauthorized application attempts to run or be installed, the application must be blocked automatically until an administrator authorizes the application.
@@ -1680,7 +1581,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 45
 https://www.examtopics.com/discussions/microsoft/view/155670-exam-sc-100-topic-2-question-45-discussion/
 ======================================================================
-
 You have a Microsoft Entra tenant. The tenant contains 500 Windows devices that have the Global Secure Access client deployed.
 You have a third-party software as a service (SaaS) app named App1.
 You plan to implement Global Secure Access to manage access to App1.
@@ -1698,7 +1598,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 46
 https://www.examtopics.com/discussions/microsoft/view/123951-exam-sc-100-topic-2-question-46-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription and an Azure subscription. Microsoft 365 Defender and Microsoft Defender for Cloud are enabled.
 The Azure subscription contains 50 virtual machines. Each virtual machine runs different applications on Windows Server 2019.
 You need to recommend a solution to ensure that only authorized applications can run on the virtual machines. If an unauthorized application attempts to run or be installed, the application must be blocked automatically until an administrator authorizes the application.
@@ -1715,7 +1614,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 47
 https://www.examtopics.com/discussions/microsoft/view/309543-exam-sc-100-topic-2-question-79-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft Entra tenant and an Azure subscription.
 You are evaluating the use of a risk-based Conditional Access policy to control the access of workload identities to resources.
@@ -1726,7 +1624,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 48
 https://www.examtopics.com/discussions/microsoft/view/155646-exam-sc-100-topic-2-question-48-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription.
 You have an Azure subscription.
 You need to implement a Microsoft Purview communication compliance solution for Microsoft Teams and Yammer. The solution must meet the following requirements:
@@ -1746,7 +1643,6 @@ Suggested Answer (community most voted): C
 Topic 2 - Question 49
 https://www.examtopics.com/discussions/microsoft/view/155647-exam-sc-100-topic-2-question-49-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that contains a Microsoft Sentinel workspace named MSW1. MSW11 includes 50 scheduled analytics rules.
@@ -1760,7 +1656,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 50
 https://www.examtopics.com/discussions/microsoft/view/155774-exam-sc-100-topic-2-question-50-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have three Microsoft Entra tenants named Tenant1, Tenant2, and Tenant3.
@@ -1776,7 +1671,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 51
 https://www.examtopics.com/discussions/microsoft/view/155648-exam-sc-100-topic-2-question-51-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Your company, named Contoso, Ltd., has a Microsoft Entra tenant named contoso.com. Contoso has a partner company named Fabrikam, Inc. that has a Microsoft Entra tenant named fabrikam.com.
@@ -1790,7 +1684,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 52
 https://www.examtopics.com/discussions/microsoft/view/155653-exam-sc-100-topic-2-question-52-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have multiple on-premises Hyper-V hosts that contain virtual machines. The virtual machines run Windows Server 2022.
@@ -1806,7 +1699,6 @@ NOTE: Each correct selection is worth one port.
 Topic 2 - Question 53
 https://www.examtopics.com/discussions/microsoft/view/155913-exam-sc-100-topic-2-question-53-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that contains 100 virtual machines. The virtual machines are accessed by using Azure Bastion.
@@ -1820,7 +1712,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 54
 https://www.examtopics.com/discussions/microsoft/view/155914-exam-sc-100-topic-2-question-54-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have the Azure subscriptions shown in the following table.
@@ -1837,7 +1728,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 55
 https://www.examtopics.com/discussions/microsoft/view/155775-exam-sc-100-topic-2-question-55-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that contains a virtual network named VNet1. VNet1 contains a 10-node virtual machine scale set that hosts a web search app named App1. Customers access App1 from the internet. The nodes establish outbound HTTP and HTTPS connections to the internet.
@@ -1851,7 +1741,6 @@ NOTE: Each correct answer is worth one point.
 Topic 2 - Question 56
 https://www.examtopics.com/discussions/microsoft/view/155686-exam-sc-100-topic-2-question-56-discussion/
 ======================================================================
-
 You have a Microsoft Entra tenant named contoso.com.
 You have an external partner that has a Microsoft Entra tenant named fabnkam.com.
 You need to recommend an identity governance solution for contoso.com that meets the following requirements:
@@ -1873,7 +1762,6 @@ Suggested Answer (community most voted): C
 Topic 2 - Question 57
 https://www.examtopics.com/discussions/microsoft/view/155685-exam-sc-100-topic-2-question-57-discussion/
 ======================================================================
-
 You have a multicloud environment that contains Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP) subscriptions.
 You need to discover and review role assignments across the subscriptions.
 What should you use?
@@ -1889,7 +1777,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 58
 https://www.examtopics.com/discussions/microsoft/view/156147-exam-sc-100-topic-2-question-58-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that contains a Microsoft Sentinel workspace named WS1.
@@ -1903,7 +1790,6 @@ NOTE: Each correct answer is worth one point.
 Topic 2 - Question 59
 https://www.examtopics.com/discussions/microsoft/view/155628-exam-sc-100-topic-2-question-59-discussion/
 ======================================================================
-
 You have multiple Azure subscriptions that each contains multiple resource groups.
 You need to identify the privileged role assignments in each subscription and any associated security risks. The solution must minimize administrative effort.
 What should you use?
@@ -1919,7 +1805,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 60
 https://www.examtopics.com/discussions/microsoft/view/155629-exam-sc-100-topic-2-question-60-discussion/
 ======================================================================
-
 Your on-premises network contains an Active Directory Domain Services (AD DS) domain and a hybrid deployment between a Microsoft Exchange Server 2019 organization and an Exchange Online tenant. The AD DS domain contains a group named Group1. Group1 is a member of the Organization Management role group for the Exchange deployment.
 You have a Microsoft 365 E5 subscription that uses Microsoft Defender.
 You have an Azure subscription that uses Microsoft Sentinel.
@@ -1937,7 +1822,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 61
 https://www.examtopics.com/discussions/microsoft/view/155657-exam-sc-100-topic-2-question-61-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have four Azure subscriptions named Sub1, Sub2, Sub3, and Sub4. Each subscription has a unique Microsoft Entra tenant that is linked to a Microsoft 365 subscription. Sub1 contains a user named User1.
@@ -1950,7 +1834,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 62
 https://www.examtopics.com/discussions/microsoft/view/155658-exam-sc-100-topic-2-question-62-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains 1,000 users and a group named Group1. All the users have Windows 11 devices. The users sign in to their devices by using their Microsoft Entra account. The users do NOT have administrative rights to their devices.
 The members of Group1 remotely assist the users by taking control of user sessions. The remote control sessions run in the security context of the users they are assisting.
 You need to recommend a solution that will enable the Group1 members to run apps that require administrative rights to the users' devices. The solution must ensure that the apps are run in the context of each signed-in standard user.
@@ -1967,7 +1850,6 @@ Suggested Answer (community most voted): C
 Topic 2 - Question 63
 https://www.examtopics.com/discussions/microsoft/view/155659-exam-sc-100-topic-2-question-63-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that contains 1,000 users and two groups named Group1 and Group2. All the users have devices that are onboarded to Microsoft Intune and Microsoft Defender for Endpoint. Group1 manages Microsoft Entra and Microsoft 365 services. Group2 manages Intune and Defender for Endpoint.
@@ -1979,7 +1861,6 @@ NOTE: Each correct answer is worth one point.
 Topic 2 - Question 64
 https://www.examtopics.com/discussions/microsoft/view/155660-exam-sc-100-topic-2-question-64-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription and an Azure subscription. Microsoft 365 Defender and Microsoft Defender for Cloud are enabled.
 The Azure subscription contains 50 virtual machines. Each virtual machine runs different applications on Windows Server 2019.
 You need to recommend a solution to ensure that only authorized applications can run on the virtual machines. If an unauthorized application attempts to run or be installed, the application must be blocked automatically until an administrator authorizes the application.
@@ -1996,7 +1877,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 65
 https://www.examtopics.com/discussions/microsoft/view/155661-exam-sc-100-topic-2-question-65-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains 1,000 users. Each user is assigned a Microsoft 365 E5 license.
 The subscription uses sensitivity labels to classify corporate documents. All the users have Windows 11 devices that are onboarded to Microsoft Defender for Endpoint and are configured to sync files to Microsoft OneDrive.
 You need to prevent the users from uploading the documents from OneDrive to external websites.
@@ -2013,7 +1893,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 66
 https://www.examtopics.com/discussions/microsoft/view/309542-exam-sc-100-topic-2-question-66-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a multicloud environment that contains an Azure subscription and an Amazon Web Services (AWS) subscription.
@@ -2030,7 +1909,6 @@ NOTE: Each correct answer is worth one point.
 Topic 2 - Question 67
 https://www.examtopics.com/discussions/microsoft/view/309525-exam-sc-100-topic-2-question-67-discussion/
 ======================================================================
-
 Your network contains an Active Directory Domain Services (AD DS) domain named Domain1.
 You have a Microsoft Entra tenant.
 Domain1 syncs with the tenant by using Microsoft Entra Connect.
@@ -2048,7 +1926,6 @@ Suggested Answer (community most voted): C
 Topic 2 - Question 68
 https://www.examtopics.com/discussions/microsoft/view/309505-exam-sc-100-topic-2-question-68-discussion/
 ======================================================================
-
 You have an Azure subscription and an Azure DevOps organization.
 You need to recommend a solution for connecting Azure DevOps pipelines to the resources in the subscription by using Azure Resource Manager (ARM) service connections. The solution must align with Microsoft Cloud Adoption Framework for Azure best practices, including the principle of least privilege.
 What should you include in the recommendation?
@@ -2064,7 +1941,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 69
 https://www.examtopics.com/discussions/microsoft/view/309495-exam-sc-100-topic-2-question-69-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription.
@@ -2080,7 +1956,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 70
 https://www.examtopics.com/discussions/microsoft/view/309547-exam-sc-100-topic-2-question-70-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription.
 You have an Azure subscription.
 You need to implement a Microsoft Purview communication compliance solution for Microsoft Teams and Yammer. The solution must meet the following requirements:
@@ -2100,7 +1975,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 71
 https://www.examtopics.com/discussions/microsoft/view/309544-exam-sc-100-topic-2-question-71-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -2113,7 +1987,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 72
 https://www.examtopics.com/discussions/microsoft/view/309489-exam-sc-100-topic-2-question-72-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that uses Microsoft Defender XDR and Microsoft Purview.
 On a Microsoft SharePoint Online site, you have a file named File1 that has a sensitivity label applied.
 You need to recommend a solution that will reevaluate Conditional Access policies when a user downloads Filel from the SharePoint site.
@@ -2130,7 +2003,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 73
 https://www.examtopics.com/discussions/microsoft/view/309486-exam-sc-100-topic-2-question-73-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Case Study
@@ -2212,7 +2084,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 74
 https://www.examtopics.com/discussions/microsoft/view/309492-exam-sc-100-topic-2-question-74-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Case Study
@@ -2294,7 +2165,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 75
 https://www.examtopics.com/discussions/microsoft/view/309540-exam-sc-100-topic-2-question-75-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription and an Azure subscription.
 You need to recommend a solution to enforce the Zero Trust principle of explicit verification for the subscriptions. The solution must be based on Zero Trust guidance in the Microsoft Cybersecurity Reference Architectures (MCRA).
 What should you include in the recommendation?
@@ -2310,7 +2180,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 76
 https://www.examtopics.com/discussions/microsoft/view/309528-exam-sc-100-topic-2-question-76-discussion/
 ======================================================================
-
 Your network contains an Active Directory Domain Services (AD DS) domain.
 You need to ensure that the built-in administrator account for the domain can be used only for interactive sign-ins to domain controllers.
 What should you configure?
@@ -2326,7 +2195,6 @@ Suggested Answer (community most voted): C
 Topic 2 - Question 77
 https://www.examtopics.com/discussions/microsoft/view/309548-exam-sc-100-topic-2-question-77-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that is protected by using Microsoft 365 Defender.
@@ -2341,7 +2209,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 78
 https://www.examtopics.com/discussions/microsoft/view/309550-exam-sc-100-topic-2-question-78-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription. The subscription contains 1,000 devices that run Windows 11 Pro and are enrolled in Microsoft Intune.
@@ -2355,7 +2222,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 79
 https://www.examtopics.com/discussions/microsoft/view/313060-exam-sc-100-topic-2-question-79-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft Entra tenant. The tenant contains a security group named Group1. Group1 contains the members of your company's IT support team.
@@ -2376,7 +2242,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 80
 https://www.examtopics.com/discussions/microsoft/view/313063-exam-sc-100-topic-2-question-80-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft Entra tenant named contoso.com that syncs with an Active Directory Domain Services (AD DS) domain named corp.contoso.com The domain contains 100 devices that have the following configurations:
@@ -2398,7 +2263,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 81
 https://www.examtopics.com/discussions/microsoft/view/313064-exam-sc-100-topic-2-question-81-discussion/
 ======================================================================
-
 You have an Azure subscription that is linked to a Microsoft Entra tenant.
 You plan deploy an enterprise application named App1. App1 requires LDAP to look up attributes related to Microsoft Entra users.
 You need to recommend a solution to support the LDAP requirement.
@@ -2415,7 +2279,6 @@ Suggested Answer (community most voted): C
 Topic 2 - Question 82
 https://www.examtopics.com/discussions/microsoft/view/313128-exam-sc-100-topic-2-question-82-discussion/
 ======================================================================
-
 You have a Microsoft Entra tenant named contoso.onmicrosoft.com and an Azure subscription named Sub1.
 You need to implement Microsoft Entra Verified ID by using Quick Verified ID setup.
 What should you create first?
@@ -2431,7 +2294,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 83
 https://www.examtopics.com/discussions/microsoft/view/313129-exam-sc-100-topic-2-question-83-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft 365 subscription that contains a Microsoft SharePoint Online site named Site1.
@@ -2445,7 +2307,6 @@ NOTE: More than one order of answer choices is correct. You will receive credit 
 Topic 2 - Question 84
 https://www.examtopics.com/discussions/microsoft/view/316757-exam-sc-100-topic-2-question-84-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains a group named Group1. The subscription is linked to a Microsoft Entra ID P1 tenant.
 You have an external software as a service (SaaS) application named App1. App1 is managed by using a web-based admin portal and supports the use of Microsoft Entra ID credentials.
 You need to ensure that only the members of Group1 who sign in from Microsoft Entra joined devices can access the admin portal of App1.
@@ -2462,7 +2323,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 85
 https://www.examtopics.com/discussions/microsoft/view/316818-exam-sc-100-topic-2-question-85-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription.
@@ -2474,7 +2334,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 86
 https://www.examtopics.com/discussions/microsoft/view/316819-exam-sc-100-topic-2-question-86-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have an Azure Storage account named storage1.
@@ -2487,7 +2346,6 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Topic 2 - Question 87
 https://www.examtopics.com/discussions/microsoft/view/316820-exam-sc-100-topic-2-question-87-discussion/
 ======================================================================
-
 You have an Azure subscription that contains 15 custom apps. The source files for the apps are stored in Git repositories. The apps are deployed by using Azure DevOps.
 You need to recommend a DevSecOps solution to implement static application security testing (SAST) of the app code to identify hard-coded secrets.
 What should you include in the recommendation?
@@ -2503,7 +2361,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 88
 https://www.examtopics.com/discussions/microsoft/view/316821-exam-sc-100-topic-2-question-88-discussion/
 ======================================================================
-
 You have an on-premises server named Server1. Server1 is an FTP server that can be accessed by only the users at your company.
 You have an Azure subscription.
 You need to recommend a Zero Trust Network Access (ZTNA) solution to enforce Conditional Access policies when users access Server1 from the internet.
@@ -2521,7 +2378,6 @@ Suggested Answer (community most voted): C
 Topic 2 - Question 89
 https://www.examtopics.com/discussions/microsoft/view/384505-exam-sc-100-topic-2-question-89-discussion/
 ======================================================================
-
 Your network contains an on-premises Active Directory Domain Services (AD DS) domain named Domain1. Domain1 contains 10 domain controllers.
 You have an Azure subscription named Sub1 that contains a Microsoft Sentinel workspace named WS1.
 You have a Microsoft 365 subscription that contains 5,000 users. Each user is assigned a Microsoft 365 E3 license.
@@ -2543,7 +2399,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 90
 https://www.examtopics.com/discussions/microsoft/view/384513-exam-sc-100-topic-2-question-90-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft Entra tenant named contoso.com that is linked to an Azure subscription named Sub1 and a Microsoft 365 subscription. Sub1 contains a publicly accessible Azure App Service web app named App1.
@@ -2559,7 +2414,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 91
 https://www.examtopics.com/discussions/microsoft/view/384508-exam-sc-100-topic-2-question-91-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription.
@@ -2572,7 +2426,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 92
 https://www.examtopics.com/discussions/microsoft/view/384494-exam-sc-100-topic-2-question-92-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Your company has offices in 10 countries.
@@ -2588,7 +2441,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 93
 https://www.examtopics.com/discussions/microsoft/view/384495-exam-sc-100-topic-2-question-93-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -2602,7 +2454,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 94
 https://www.examtopics.com/discussions/microsoft/view/384136-exam-sc-100-topic-2-question-94-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that uses Microsoft Purview.
 You need to recommend a solution that will provide guidance on how to ensure that Personally Identifiable Information (PII) in the subscription adheres to local privacy regulations. The solution must minimize administrative effort.
 Which Microsoft Purview solution should you include in the recommendation?
@@ -2618,7 +2469,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 95
 https://www.examtopics.com/discussions/microsoft/view/384497-exam-sc-100-topic-2-question-95-discussion/
 ======================================================================
-
 Your on-premises network contains an Active Directory Domain Services (AD DS) domain. The domain contains 500 Windows 11 devices.
 You have a Microsoft 365 subscription and an Azure subscription.
 You have a Microsoft Entra tenant that syncs with the domain and is linked to the subscriptions. The devices are Microsoft Entra hybrid joined.
@@ -2637,7 +2487,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 96
 https://www.examtopics.com/discussions/microsoft/view/384512-exam-sc-100-topic-2-question-96-discussion/
 ======================================================================
-
 You have an Azure subscription and a Microsoft 365 subscription. All users are assigned Microsoft 365 E5 licenses. All computers run Windows 11 and are Microsoft Entra joined.
 You need to recommend a solution to prevent computers that run early builds of Windows 11 from connecting to Microsoft 365 services.
 Which two types of policies should you include in the recommendation? Each correct answer presents part of the solution.
@@ -2655,7 +2504,6 @@ Suggested Answer (community most voted): CE
 Topic 2 - Question 97
 https://www.examtopics.com/discussions/microsoft/view/384507-exam-sc-100-topic-2-question-97-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that uses Microsoft Defender XDR and Microsoft Purview.
@@ -2667,7 +2515,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/78458-exam-sc-100-topic-3-question-1-discussion/
 ======================================================================
-
 You have Microsoft Defender for Cloud assigned to Azure management groups.
 You have a Microsoft Sentinel deployment.
 During the triage of alerts, you require additional information about the security events, including suggestions for remediation.
@@ -2685,7 +2532,6 @@ Suggested Answer (community most voted): AC
 Topic 3 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/78459-exam-sc-100-topic-3-question-2-discussion/
 ======================================================================
-
 A customer is deploying Docker images to 10 Azure Kubernetes Service (AKS) resources across four Azure subscriptions.
 You are evaluating the security posture of the customer.
 You discover that the AKS resources are excluded from the secure score recommendations.
@@ -2705,7 +2551,6 @@ Suggested Answer (community most voted): AB
 Topic 3 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/78460-exam-sc-100-topic-3-question-3-discussion/
 ======================================================================
-
 Your company has an office in Seattle.
 The company has two Azure virtual machine scale sets hosted on different virtual networks.
 The company plans to contract developers in India.
@@ -2728,7 +2573,6 @@ Suggested Answer (community most voted): AC
 Topic 3 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/78461-exam-sc-100-topic-3-question-4-discussion/
 ======================================================================
-
 HOTSPOT -
 You are designing security for a runbook in an Azure Automation account. The runbook will copy data to Azure Data Lake Storage Gen2.
 You need to recommend a solution to secure the components of the copy process.
@@ -2740,7 +2584,6 @@ Hot Area:
 Topic 3 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/78462-exam-sc-100-topic-3-question-5-discussion/
 ======================================================================
-
 You have Windows 11 devices and Microsoft 365 E5 licenses.
 You need to recommend a solution to prevent users from accessing websites that contain adult content such as gambling sites.
 What should you include in the recommendation?
@@ -2756,7 +2599,6 @@ Suggested Answer (community most voted): D
 Topic 3 - Question 6
 https://www.examtopics.com/discussions/microsoft/view/78465-exam-sc-100-topic-3-question-6-discussion/
 ======================================================================
-
 Your company has a Microsoft 365 E5 subscription.
 The company plans to deploy 45 mobile self-service kiosks that will run Windows 10.
 You need to provide recommendations to secure the kiosks. The solution must meet the following requirements:
@@ -2777,7 +2619,6 @@ Suggested Answer (community most voted): BC
 Topic 3 - Question 7
 https://www.examtopics.com/discussions/microsoft/view/78473-exam-sc-100-topic-3-question-7-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You need to recommend a solution to add a watermark to email attachments that contain sensitive data.
 What should you include in the recommendation?
@@ -2793,7 +2634,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 8
 https://www.examtopics.com/discussions/microsoft/view/79139-exam-sc-100-topic-3-question-8-discussion/
 ======================================================================
-
 Your company plans to deploy several Azure App Service web apps. The web apps will be deployed to the West Europe Azure region. The web apps will be accessed only by customers in Europe and the United States.
 You need to recommend a solution to prevent malicious bots from scanning the web apps for vulnerabilities. The solution must minimize the attack surface.
 What should you include in the recommendation?
@@ -2809,7 +2649,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 9
 https://www.examtopics.com/discussions/microsoft/view/79324-exam-sc-100-topic-3-question-9-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You are designing the encryption standards for data at rest for an Azure resource.
@@ -2826,7 +2665,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 10
 https://www.examtopics.com/discussions/microsoft/view/81117-exam-sc-100-topic-3-question-10-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You are designing the encryption standards for data at rest for an Azure resource.
@@ -2843,7 +2681,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 11
 https://www.examtopics.com/discussions/microsoft/view/81118-exam-sc-100-topic-3-question-11-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You are designing the encryption standards for data at rest for an Azure resource.
@@ -2860,7 +2697,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 12
 https://www.examtopics.com/discussions/microsoft/view/78557-exam-sc-100-topic-3-question-12-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You are designing a security strategy for providing access to Azure App Service web apps through an Azure Front Door instance.
@@ -2877,7 +2713,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 13
 https://www.examtopics.com/discussions/microsoft/view/79155-exam-sc-100-topic-3-question-13-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You are designing a security strategy for providing access to Azure App Service web apps through an Azure Front Door instance.
@@ -2894,7 +2729,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 14
 https://www.examtopics.com/discussions/microsoft/view/79156-exam-sc-100-topic-3-question-14-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You are designing a security strategy for providing access to Azure App Service web apps through an Azure Front Door instance.
@@ -2911,7 +2745,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 15
 https://www.examtopics.com/discussions/microsoft/view/78359-exam-sc-100-topic-3-question-15-discussion/
 ======================================================================
-
 Your company is designing an application architecture for Azure App Service Environment (ASE) web apps as shown in the exhibit. (Click the Exhibit tab.)
 Communication between the on-premises network and Azure uses an ExpressRoute connection.
 You need to recommend a solution to ensure that the web apps can communicate with the on-premises application server. The solution must minimize the number of public IP addresses that are allowed to access the on-premises network.
@@ -2928,7 +2761,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 16
 https://www.examtopics.com/discussions/microsoft/view/79175-exam-sc-100-topic-3-question-16-discussion/
 ======================================================================
-
 You are planning the security requirements for Azure Cosmos DB Core (SQL) API accounts.
 You need to recommend a solution to audit all users that access the data in the Azure Cosmos DB accounts.
 Which two configurations should you include in the recommendation? Each correct answer presents part of the solution.
@@ -2946,7 +2778,6 @@ Suggested Answer (community most voted): AC
 Topic 3 - Question 17
 https://www.examtopics.com/discussions/microsoft/view/80302-exam-sc-100-topic-3-question-17-discussion/
 ======================================================================
-
 You have an Azure subscription that contains several storage accounts. The storage accounts are accessed by legacy applications that are authenticated by using access keys.
 You need to recommend a solution to prevent new applications from obtaining the access keys of the storage accounts. The solution must minimize the impact on the legacy applications.
 What should you include in the recommendation?
@@ -2962,7 +2793,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 18
 https://www.examtopics.com/discussions/microsoft/view/79220-exam-sc-100-topic-3-question-18-discussion/
 ======================================================================
-
 You are designing the security standards for containerized applications onboarded to Azure.
 You are evaluating the use of Microsoft Defender for Containers.
 In which two environments can you use Defender for Containers to scan for known vulnerabilities? Each correct answer presents a complete solution.
@@ -2980,7 +2810,6 @@ Suggested Answer (community most voted): DE
 Topic 3 - Question 19
 https://www.examtopics.com/discussions/microsoft/view/79222-exam-sc-100-topic-3-question-19-discussion/
 ======================================================================
-
 Your company has a hybrid cloud infrastructure that contains an on-premises Active Directory Domain Services (AD DS) forest, a Microsoft 365 subscription, and an Azure subscription.
 The company's on-premises network contains internal web apps that use Kerberos authentication. Currently, the web apps are accessible only from the network.
 You have remote users who have personal devices that run Windows 11.
@@ -3001,7 +2830,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 20
 https://www.examtopics.com/discussions/microsoft/view/155779-exam-sc-100-topic-3-question-20-discussion/
 ======================================================================
-
 Your company has a main office and a branch office.
 The main office contains 20 on-premises servers that run Windows Server and host apps that are published by using Microsoft Entra application proxy. The main office contains 500 on-premises computers that run Windows 11. The branch office contains 100 on-premises computers that run Windows 11.
 All the main office computers are enrolled in Microsoft Intune. The branch office computers are NOT enrolled in Intune.
@@ -3023,7 +2851,6 @@ Suggested Answer (community most voted): AD
 Topic 3 - Question 21
 https://www.examtopics.com/discussions/microsoft/view/81138-exam-sc-100-topic-3-question-21-discussion/
 ======================================================================
-
 HOTSPOT -
 Your company has a Microsoft 365 ES subscription, an Azure subscription, on-premises applications, and Active Directory Domain Services (AD DS).
 You need to recommend an identity security strategy that meets the following requirements:
@@ -3038,7 +2865,6 @@ Hot Area:
 Topic 3 - Question 22
 https://www.examtopics.com/discussions/microsoft/view/79737-exam-sc-100-topic-3-question-22-discussion/
 ======================================================================
-
 You have an Azure subscription that contains virtual machines.
 Port 3389 and port 22 are disabled for outside access.
 You need to design a solution to provide administrators with secure remote access to the virtual machines. The solution must meet the following requirements:
@@ -3060,7 +2886,6 @@ Suggested Answer (community most voted): CD
 Topic 3 - Question 23
 https://www.examtopics.com/discussions/microsoft/view/79228-exam-sc-100-topic-3-question-23-discussion/
 ======================================================================
-
 Your company has on-premises Microsoft SQL Server databases.
 The company plans to move the databases to Azure.
 You need to recommend a secure architecture for the databases that will minimize operational requirements for patching and protect sensitive data by using dynamic data masking. The solution must minimize costs.
@@ -3077,7 +2902,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 24
 https://www.examtopics.com/discussions/microsoft/view/79229-exam-sc-100-topic-3-question-24-discussion/
 ======================================================================
-
 Your company plans to move all on-premises virtual machines to Azure.
 A network engineer proposes the Azure virtual network design shown in the following table.
 You need to recommend an Azure Bastion deployment to provide secure remote access to all the virtual machines.
@@ -3095,7 +2919,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 25
 https://www.examtopics.com/discussions/microsoft/view/79231-exam-sc-100-topic-3-question-25-discussion/
 ======================================================================
-
 HOTSPOT -
 Your company has an Azure App Service plan that is used to deploy containerized web apps.
 You are designing a secure DevOps strategy for deploying the web apps to the App Service plan.
@@ -3110,7 +2933,6 @@ Hot Area:
 Topic 3 - Question 26
 https://www.examtopics.com/discussions/microsoft/view/79233-exam-sc-100-topic-3-question-26-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You are designing the encryption standards for data at rest for an Azure resource.
@@ -3127,7 +2949,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 27
 https://www.examtopics.com/discussions/microsoft/view/78545-exam-sc-100-topic-3-question-27-discussion/
 ======================================================================
-
 A customer uses Azure to develop a mobile app that will be consumed by external users as shown in the following exhibit.
 You need to design an identity strategy for the app. The solution must meet the following requirements:
 ✑ Enable the usage of external IDs such as Google, Facebook, and Microsoft accounts.
@@ -3146,7 +2967,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 28
 https://www.examtopics.com/discussions/microsoft/view/78542-exam-sc-100-topic-3-question-28-discussion/
 ======================================================================
-
 Your company has a hybrid cloud infrastructure.
 Data and applications are moved regularly between cloud environments.
 The company's on-premises network is managed as shown in the following exhibit.
@@ -3168,7 +2988,6 @@ Suggested Answer (community most voted): CD
 Topic 3 - Question 29
 https://www.examtopics.com/discussions/microsoft/view/78548-exam-sc-100-topic-3-question-29-discussion/
 ======================================================================
-
 A customer has a Microsoft 365 E5 subscription and an Azure subscription.
 The customer wants to centrally manage security incidents, analyze logs, audit activities, and search for potential threats across all deployed services
 You need to recommend a solution for the customer.
@@ -3185,7 +3004,6 @@ Suggested Answer (community most voted): D
 Topic 3 - Question 30
 https://www.examtopics.com/discussions/microsoft/view/99457-exam-sc-100-topic-3-question-30-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Your company plans to follow DevSecOps best practices of the Microsoft Cloud Adoption Framework for Azure to integrate DevSecOps processes into continuous integration and continuous deployment (CI/CD) DevOps pipelines.
@@ -3197,7 +3015,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 31
 https://www.examtopics.com/discussions/microsoft/view/99757-exam-sc-100-topic-3-question-31-discussion/
 ======================================================================
-
 For a Microsoft cloud environment, you are designing a security architecture based on the Microsoft Cloud Security Benchmark.
 What are three best practices for identity management based on the Azure Security Benchmark? Each correct answer presents a complete solution.
 NOTE: Each correct selection is worth one point.
@@ -3214,7 +3031,6 @@ Suggested Answer (community most voted): ACE
 Topic 3 - Question 32
 https://www.examtopics.com/discussions/microsoft/view/99404-exam-sc-100-topic-3-question-32-discussion/
 ======================================================================
-
 Your company plans to follow DevSecOps best practices of the Microsoft Cloud Adoption Framework for Azure.
 You need to perform threat modeling by using a top-down approach based on the Microsoft Cloud Adoption Framework for Azure.
 What should you use to start the threat modeling process?
@@ -3229,7 +3045,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 33
 https://www.examtopics.com/discussions/microsoft/view/100185-exam-sc-100-topic-3-question-33-discussion/
 ======================================================================
-
 Your company has on-premises Microsoft SQL Server databases.
 The company plans to move the databases to Azure.
 You need to recommend a secure architecture for the databases that will minimize operational requirements for patching and protect sensitive data by using dynamic data masking. The solution must minimize costs.
@@ -3245,7 +3060,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 34
 https://www.examtopics.com/discussions/microsoft/view/106477-exam-sc-100-topic-3-question-34-discussion/
 ======================================================================
-
 You are designing a new Azure environment based on the security best practices of the Microsoft Cloud Adoption Framework for Azure. The environment will contain one subscription for shared infrastructure components and three separate subscriptions for applications.
 You need to recommend a deployment solution that includes network security groups (NSGs), Azure Firewall, Azure Key Vault, and Azure Bastion. The solution must minimize deployment effort and follow security best practices of the Microsoft Cloud Adoption Framework for Azure.
 What should you include in the recommendation?
@@ -3261,7 +3075,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 35
 https://www.examtopics.com/discussions/microsoft/view/106478-exam-sc-100-topic-3-question-35-discussion/
 ======================================================================
-
 Your company uses Azure Pipelines and Azure Repos to implement continuous integration and continuous deployment (CI/CD) workflows for the deployment of applications to Azure.
 You are updating the deployment process to align with DevSecOps controls guidance in the Microsoft Cloud Adoption Framework for Azure.
 You need to recommend a solution to ensure that all code changes are submitted by using pull requests before being deployed by the CI/CD workflow.
@@ -3276,7 +3089,6 @@ D. custom Azure roles
 Topic 3 - Question 36
 https://www.examtopics.com/discussions/microsoft/view/117471-exam-sc-100-topic-3-question-36-discussion/
 ======================================================================
-
 You have an Azure subscription that contains a Microsoft Sentinel workspace.
 Your on-premises network contains firewalls that support forwarding event logs in the Common Event Format (CEF). There is no built-in Microsoft Sentinel connector for the firewalls.
 You need to recommend a solution to ingest events from the firewalls into Microsoft Sentinel.
@@ -3293,7 +3105,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 37
 https://www.examtopics.com/discussions/microsoft/view/122729-exam-sc-100-topic-3-question-37-discussion/
 ======================================================================
-
 You have an on-premises datacenter and an Azure Kubernetes Service (AKS) cluster named AKS1.
 You need to restrict internet access to the public endpoint of AKS1. The solution must ensure that AKS1 can be accessed only from the public IP addresses associated with the on-premises datacenter.
 What should you use?
@@ -3309,7 +3120,6 @@ Suggested Answer (community most voted): D
 Topic 3 - Question 38
 https://www.examtopics.com/discussions/microsoft/view/123578-exam-sc-100-topic-3-question-38-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a multi-cloud environment that contains an Azure subscription and an Amazon Web Services (AWS) account.
@@ -3323,7 +3133,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 39
 https://www.examtopics.com/discussions/microsoft/view/122510-exam-sc-100-topic-3-question-39-discussion/
 ======================================================================
-
 You have an Azure subscription. The subscription contains 50 virtual machines that run Windows Server and 50 virtual machines that run Linux.
 You need to perform vulnerability assessments on the virtual machines. The solution must meet the following requirements:
 •	Identify missing updates and insecure configurations.
@@ -3341,7 +3150,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 40
 https://www.examtopics.com/discussions/microsoft/view/155718-exam-sc-100-topic-3-question-40-discussion/
 ======================================================================
-
 You have an Azure subscription that contains 100 virtual machines, a virtual network named VNet1, and 20 users. The virtual machines run Windows Server and are connected to VNet1. The users work remotely and access Azure resources from Linux workstations.
 You need to ensure that the users can connect to the virtual machines from the workstations by using Secure Shell (SSH). The solution must meet the following requirements:
 •	Ensure that the users authenticate by using their Microsoft Entra credentials.
@@ -3360,7 +3168,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 41
 https://www.examtopics.com/discussions/microsoft/view/155719-exam-sc-100-topic-3-question-41-discussion/
 ======================================================================
-
 You have an on-premises network that has several legacy applications. The applications perform LDAP queries against an existing directory service.
 You are migrating the on-premises infrastructure to a cloud-only infrastructure.
 You need to recommend an identity solution for the infrastructure that supports the legacy applications. The solution must minimize the administrative effort to maintain the infrastructure.
@@ -3377,7 +3184,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 42
 https://www.examtopics.com/discussions/microsoft/view/155781-exam-sc-100-topic-3-question-42-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant that contains 5,000 users and 5,000 Windows 11 devices. All users are assigned Microsoft 365 E5 licenses and the Microsoft Defender Vulnerability Management add-on. The Windows 11 devices are managed by using Microsoft Intune and Microsoft Defender for Endpoint. The Windows 11 devices are configured during deployment to comply with Center for Internet Security (CIS) benchmarks for Windows 11.
 You need to recommend a compliance solution for the Windows 11 devices. The solution must identify devices that were modified and no longer comply with the CIS benchmarks.
 What should you include in the recommendation?
@@ -3393,7 +3199,6 @@ Suggested Answer (community most voted): D
 Topic 3 - Question 43
 https://www.examtopics.com/discussions/microsoft/view/302404-exam-sc-100-topic-3-question-43-discussion/
 ======================================================================
-
 You plan to deploy 20 Azure Kubernetes Service (AKS) clusters. The cluster configuration will be managed declaratively by using Kubernetes manifest files stored in Azure Repos.
 You need to recommend a solution to ensure that the configuration of all the clusters remains consistent by using the manifest files stored in Azure Repos.
 What should you include in the recommendation?
@@ -3409,7 +3214,6 @@ Suggested Answer (community most voted): D
 Topic 3 - Question 44
 https://www.examtopics.com/discussions/microsoft/view/155957-exam-sc-100-topic-3-question-44-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have on-premises servers and virtual machines that run Windows Server, Red Hat Enterprise Linux (RHEL) 7, or RHEL 8.
@@ -3425,7 +3229,6 @@ NOTE: Each correct answer is worth one point.
 Topic 3 - Question 45
 https://www.examtopics.com/discussions/microsoft/view/155956-exam-sc-100-topic-3-question-45-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription. The subscription contains an Azure Bastion host and 100 virtual machines that run Windows Server 2022. The virtual machines have Microsoft Defender for Servers Plan 2 enabled.
@@ -3440,7 +3243,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 46
 https://www.examtopics.com/discussions/microsoft/view/155958-exam-sc-100-topic-3-question-46-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant named contoso.com.
 You need to ensure that users can authenticate only to contoso.com. The solution must meet the following requirements:
 •	Prevent the users from authenticating to other Microsoft 365 tenants.
@@ -3458,7 +3260,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 47
 https://www.examtopics.com/discussions/microsoft/view/155604-exam-sc-100-topic-3-question-47-discussion/
 ======================================================================
-
 You have on-premises Windows 11 devices that have the Global Secure Access client deployed.
 You have a Microsoft 365 subscription that uses Microsoft SharePoint Online and Exchange Online.
 You deploy Microsoft Entra Internet Access from the on-premises network to Microsoft 365. The deployment has the Microsoft 365 profile enabled and contains the following:
@@ -3478,7 +3279,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 48
 https://www.examtopics.com/discussions/microsoft/view/155688-exam-sc-100-topic-3-question-48-discussion/
 ======================================================================
-
 You have an Azure subscription that contains multiple network security groups (NSGs), multiple virtual machines, and an Azure Bastion host named bastion1.
 Several NSGs contain rules that allow direct RDP access to the virtual machines by bypassing bastion1.
 You need to ensure that the virtual machines can be accessed only by using bastion1. The solution must prevent the use of NSG rules to bypass bastion1.
@@ -3495,7 +3295,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 49
 https://www.examtopics.com/discussions/microsoft/view/155671-exam-sc-100-topic-3-question-49-discussion/
 ======================================================================
-
 Your company has 10 branch offices. Each office has a local internet connection that uses a static IP address.
 You have an Azure subscription. The subscription contains a storage account named storage1 that stores blobs.
 Users in the branch offices access the blobs via the internet.
@@ -3513,7 +3312,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 50
 https://www.examtopics.com/discussions/microsoft/view/157748-exam-sc-100-topic-3-question-50-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You plan to deploy a dynamically scaling, Linux-based Azure Virtual Machine Scale Set that will host jump servers. The jump servers will be used by support staff who connect from personal and kiosk devices via the internet. The subnet of the jump servers will be associated to a network security group (NSG).
@@ -3530,7 +3328,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 51
 https://www.examtopics.com/discussions/microsoft/view/155672-exam-sc-100-topic-3-question-51-discussion/
 ======================================================================
-
 Your company has a main office and 10 branch offices. Each branch office contains an on-premises file server that runs Windows Server and multiple devices that run either Windows 11 or macOS. The devices are enrolled in Microsoft Intune.
 You have a Microsoft Entra tenant.
 You need to deploy Global Secure Access to implement web filtering for device traffic to the internet. The solution must ensure that all the web traffic from the devices in the branch offices is controlled by using Global Secure Access.
@@ -3547,7 +3344,6 @@ Suggested Answer (community most voted): D
 Topic 3 - Question 52
 https://www.examtopics.com/discussions/microsoft/view/155673-exam-sc-100-topic-3-question-52-discussion/
 ======================================================================
-
 You have an Azure subscription that contains SQL Server on Azure virtual machines located in the West US Azure region. The virtual machines are only accessible by using private IP addresses.
 You plan to deploy a Windows-based Azure App Service web apps in the East US Azure region.
 You need to recommend a solution to provide the web apps access to the SQL Server databases.
@@ -3564,7 +3360,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 53
 https://www.examtopics.com/discussions/microsoft/view/155674-exam-sc-100-topic-3-question-53-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Your company has offices in New York City and Los Angeles.
@@ -3586,7 +3381,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 54
 https://www.examtopics.com/discussions/microsoft/view/155683-exam-sc-100-topic-3-question-54-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that contains two virtual machines named VM1 and VM2 and an Azure App Service Standard app named App1. VM1 is used to upload data to App1. App1 stores data on VM2.
@@ -3598,7 +3392,6 @@ NOTE: Each correct answer is worth one point.
 Topic 3 - Question 55
 https://www.examtopics.com/discussions/microsoft/view/156939-exam-sc-100-topic-3-question-55-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that contains the resources shown in the following table.
@@ -3613,7 +3406,6 @@ NOTE: Each correct answer is worth one point.
 Topic 3 - Question 56
 https://www.examtopics.com/discussions/microsoft/view/155684-exam-sc-100-topic-3-question-56-discussion/
 ======================================================================
-
 Your on-premises network contains an Active Directory Domain Services (AD DS) domain named corp.contoso.com and an AD DS-integrated application named App1.
 Your perimeter network contains a server named Server1that runs Windows Server.
 You have a Microsoft Entra tenant named contoso.com that syncs with corp.contoso.com.
@@ -3636,7 +3428,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 57
 https://www.examtopics.com/discussions/microsoft/view/155709-exam-sc-100-topic-3-question-57-discussion/
 ======================================================================
-
 You have a Microsoft Entra tenant named contoso.com and use Microsoft Intune. Each user in contoso.com has a Microsoft Entra ID P1 license and a Windows 11 device that has the Global Secure Access client deployed.
 You plan to deploy the following configuration of Microsoft Entra Internet Access:
 •	Enable a baseline profile.
@@ -3664,7 +3455,6 @@ Suggested Answer (community most voted): DE
 Topic 3 - Question 58
 https://www.examtopics.com/discussions/microsoft/view/309484-exam-sc-100-topic-3-question-58-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription. The subscription contains Windows 11 devices that are protected by using Microsoft Defender XDR.
@@ -3679,7 +3469,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 59
 https://www.examtopics.com/discussions/microsoft/view/309488-exam-sc-100-topic-3-question-59-discussion/
 ======================================================================
-
 You have a multicloud environment that contains an Azure subscription, an Amazon Web Services (AWS) subscription, and a Google Cloud Platform (GCP) subscription.
 You plan to assess data security and compliance.
 You need to design a Compliance Manager solution that meets the following requirements:
@@ -3699,7 +3488,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 60
 https://www.examtopics.com/discussions/microsoft/view/309497-exam-sc-100-topic-3-question-60-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have 1,000 on-premises servers that run Linux.
@@ -3718,7 +3506,6 @@ NOTE: Each correct answer is worth one point.
 Topic 3 - Question 61
 https://www.examtopics.com/discussions/microsoft/view/309531-exam-sc-100-topic-3-question-61-discussion/
 ======================================================================
-
 Your on-premises network contains an Active Directory Domain Services (AD DS) domain. The domain contains a server named Serve1 that runs Windows Server 2022.
 You have an Azure subscription that is linked to a hybrid Microsoft Entra tenant and contains a user named User1. User1 works remotely.
 You need to ensure that User1 can establish RDP connections to Server1 via the internet. The solution must ensure that User1 authenticates by using multifactor authentication (MFA).
@@ -3735,7 +3522,6 @@ Suggested Answer (community most voted): D
 Topic 3 - Question 62
 https://www.examtopics.com/discussions/microsoft/view/309546-exam-sc-100-topic-3-question-62-discussion/
 ======================================================================
-
 You have a multicloud environment that contains an Azure subscription, an Amazon Web Services (AWS) subscription, and a Google Cloud Platform (GCP) subscription.
 You plan to implement Cloud Security Posture Management (CSPM) by using Microsoft Defender for Cloud.
 You need to design a solution that will provide attack path analysis functionality for each subscription.
@@ -3752,7 +3538,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 63
 https://www.examtopics.com/discussions/microsoft/view/313142-exam-sc-100-topic-3-question-63-discussion/
 ======================================================================
-
 You have an Azure subscription. The subscription contains 200 virtual machines that run Windows Server 2022 and are protected by using Microsoft Defender for Servers Plan 1. You have an Amazon Web Services (AWS) subscription.
 To the AWS subscription, you plan to deploy 100 virtual machines that run Windows Server 2022.
 You need to recommend which agent to deploy to the virtual machines in the AWS subscription. The solution must meet the following requirements:
@@ -3771,7 +3556,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 64
 https://www.examtopics.com/discussions/microsoft/view/313143-exam-sc-100-topic-3-question-64-discussion/
 ======================================================================
-
 You have an Azure subscription. The subscription contains 100 virtual machines that run Linux on Windows Server. The subscription uses Microsoft Defender for Servers Plan 1.
 You need to recommend a solution to identify and remediate virtual machines that have the following characteristics:
 •	Are NOT onboarded to Defender for Servers
@@ -3791,7 +3575,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 65
 https://www.examtopics.com/discussions/microsoft/view/312697-exam-sc-100-topic-3-question-65-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription. The subscription contains 500 devices that run Windows 11 Pro and are enrolled in Microsoft Intune.
 You need to evaluate the use of Microsoft Defender Vulnerability Management to provide recommended configuration changes for the devices.
 Which Endpoint security settings should you use to review the recommended changes?
@@ -3807,7 +3590,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 66
 https://www.examtopics.com/discussions/microsoft/view/313144-exam-sc-100-topic-3-question-66-discussion/
 ======================================================================
-
 You have an Azure subscription that contains the Azure Virtual Machine Scale Sets shown in the following table.
 You are evaluating Azure Update Manager and automatic virtual machine guest patching.
 Which virtual machine scale sets will automatic guest patching support?
@@ -3824,7 +3606,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 67
 https://www.examtopics.com/discussions/microsoft/view/313145-exam-sc-100-topic-3-question-67-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that uses Microsoft Teams.
@@ -3839,7 +3620,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 68
 https://www.examtopics.com/discussions/microsoft/view/313146-exam-sc-100-topic-3-question-68-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have 500 Windows 11 devices and 200 macOS devices. The devices are managed by using Microsoft Intune and are subject to compliance policies.
@@ -3853,7 +3633,6 @@ NOTE: Each correct selection is worth one point
 Topic 3 - Question 69
 https://www.examtopics.com/discussions/microsoft/view/316829-exam-sc-100-topic-3-question-69-discussion/
 ======================================================================
-
 You have an Azure subscription named Sub1 that is linked to a Microsoft Entra tenant named contoso.com. Sub1 contains 20 virtual networks named Sub1_VNet1 through Sub1_VNet20.
 You have an Azure subscription named Sub2 that is linked to a Microsoft Entra tenant named fabrikam.com. Sub2 contains 20 virtual networks named Sub2_VNet1 through Sub2_VNet20.
 You need to deploy an Azure Virtual Network Manager solution that meets the following requirements:
@@ -3875,7 +3654,6 @@ Suggested Answer (community most voted): D
 Topic 3 - Question 70
 https://www.examtopics.com/discussions/microsoft/view/384514-exam-sc-100-topic-3-question-70-discussion/
 ======================================================================
-
 You have an Azure subscription.
 You have a subscription to a third-party cloud provider. The subscription contains 100 virtual machines.
 You manage cloud security for both subscriptions from the Azure subscription.
@@ -3895,7 +3673,6 @@ Suggested Answer (community most voted): BC
 Topic 3 - Question 71
 https://www.examtopics.com/discussions/microsoft/view/384506-exam-sc-100-topic-3-question-71-discussion/
 ======================================================================
-
 You have an Azure subscription that uses Microsoft Defender for Cloud.
 You have Amazon Web Services (AWS), Google Cloud Platform (GCP), and Oracle Cloud Infrastructure (OCI) subscriptions.
 You create a custom security standard in Defender for Cloud.
@@ -3913,7 +3690,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 72
 https://www.examtopics.com/discussions/microsoft/view/384129-exam-sc-100-topic-3-question-72-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription.
@@ -3926,7 +3702,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 73
 https://www.examtopics.com/discussions/microsoft/view/384501-exam-sc-100-topic-3-question-73-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription.
 You have a Conditional Access policy that has the following settings:
 •	Name: Policy 1
@@ -3955,7 +3730,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/78346-exam-sc-100-topic-4-question-1-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription and an Azure subscription. Microsoft 365 Defender and Microsoft Defender for Cloud are enabled.
 The Azure subscription contains 50 virtual machines. Each virtual machine runs different applications on Windows Server 2019.
 You need to recommend a solution to ensure that only authorized applications can run on the virtual machines. If an unauthorized application attempts to run or be installed, the application must be blocked automatically until an administrator authorizes the application.
@@ -3972,7 +3746,6 @@ Suggested Answer (community most voted): D
 Topic 4 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/79235-exam-sc-100-topic-4-question-2-discussion/
 ======================================================================
-
 Your company plans to provision blob storage by using an Azure Storage account. The blob storage will be accessible from 20 application servers on the internet.
 You need to recommend a solution to ensure that only the application servers can access the storage account.
 What should you recommend using to secure the blob storage?
@@ -3989,7 +3762,6 @@ Suggested Answer (community most voted): C
 Topic 4 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/79239-exam-sc-100-topic-4-question-3-discussion/
 ======================================================================
-
 Your company is developing a modern application that will un as an Azure App Service web app.
 You plan to perform threat modeling to identity potential security issues by using the Microsoft Threat Modeling Tool.
 Which type of diagram should you create?
@@ -4005,7 +3777,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/79246-exam-sc-100-topic-4-question-4-discussion/
 ======================================================================
-
 Your company has an on-premises network and an Azure subscription.
 The company does NOT have a Site-to-Site VPN or an ExpressRoute connection to Azure.
 You are designing the security standards for Azure App Service web apps. The web apps will access Microsoft SQL Server databases on the network.
@@ -4023,7 +3794,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/79329-exam-sc-100-topic-4-question-5-discussion/
 ======================================================================
-
 You are creating an application lifecycle management process based on the Microsoft Security Development Lifecycle (SDL).
 You need to recommend a security standard for onboarding applications to Azure. The standard will include recommendations for application design, development, and deployment.
 What should you include during the application design phase?
@@ -4039,7 +3809,6 @@ Suggested Answer (community most voted): C
 Topic 4 - Question 6
 https://www.examtopics.com/discussions/microsoft/view/80125-exam-sc-100-topic-4-question-6-discussion/
 ======================================================================
-
 DRAG DROP -
 Your company has Microsoft 365 E5 licenses and Azure subscriptions.
 The company plans to automatically label sensitive data stored in the following locations:
@@ -4055,7 +3824,6 @@ Select and Place:
 Topic 4 - Question 7
 https://www.examtopics.com/discussions/microsoft/view/79250-exam-sc-100-topic-4-question-7-discussion/
 ======================================================================
-
 Your company is developing a new Azure App Service web app.
 You are providing design assistance to verify the security of the web app.
 You need to recommend a solution to test the web app for vulnerabilities such as insecure server configurations, cross-site scripting (XSS), and SQL injection.
@@ -4072,7 +3840,6 @@ Suggested Answer (community most voted): A
 Topic 4 - Question 8
 https://www.examtopics.com/discussions/microsoft/view/78345-exam-sc-100-topic-4-question-8-discussion/
 ======================================================================
-
 Your company develops several applications that are accessed as custom enterprise applications in Azure Active Directory (Azure AD).
 You need to recommend a solution to prevent users on a specific list of countries from connecting to the applications.
 What should you include in the recommendation?
@@ -4089,7 +3856,6 @@ Suggested Answer (community most voted): C
 Topic 4 - Question 9
 https://www.examtopics.com/discussions/microsoft/view/79253-exam-sc-100-topic-4-question-9-discussion/
 ======================================================================
-
 Your company has an Azure subscription that uses Azure Storage.
 The company plans to share specific blobs with vendors.
 You need to recommend a solution to provide the vendors with secure access to specific blobs without exposing the blobs publicly. The access must be time- limited.
@@ -4106,7 +3872,6 @@ Suggested Answer (community most voted): D
 Topic 4 - Question 10
 https://www.examtopics.com/discussions/microsoft/view/79376-exam-sc-100-topic-4-question-10-discussion/
 ======================================================================
-
 Your company is developing an invoicing application that will use Azure Active Directory (Azure AD) B2C. The application will be deployed as an App Service web app.
 You need to recommend a solution to the application development team to secure the application from identity-related attacks.
 Which two configurations should you recommend? Each correct answer presents part of the solution.
@@ -4124,7 +3889,6 @@ Suggested Answer (community most voted): BC
 Topic 4 - Question 11
 https://www.examtopics.com/discussions/microsoft/view/78400-exam-sc-100-topic-4-question-11-discussion/
 ======================================================================
-
 Your company has a Microsoft 365 E5 subscription.
 Users use Microsoft Teams, Exchange Online, SharePoint Online, and OneDrive for sharing and collaborating.
 The company identifies protected health information (PHI) within stored documents and communications.
@@ -4141,7 +3905,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 12
 https://www.examtopics.com/discussions/microsoft/view/79382-exam-sc-100-topic-4-question-12-discussion/
 ======================================================================
-
 Your company has a Microsoft 365 E5 subscription.
 The company wants to identify and classify data in Microsoft Teams, SharePoint Online, and Exchange Online.
 You need to recommend a solution to identify documents that contain sensitive information.
@@ -4158,7 +3921,6 @@ Suggested Answer (community most voted): A
 Topic 4 - Question 13
 https://www.examtopics.com/discussions/microsoft/view/79467-exam-sc-100-topic-4-question-13-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You are designing a security strategy for providing access to Azure App Service web apps through an Azure Front Door instance.
@@ -4175,7 +3937,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 14
 https://www.examtopics.com/discussions/microsoft/view/79383-exam-sc-100-topic-4-question-14-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You are designing a security strategy for providing access to Azure App Service web apps through an Azure Front Door instance.
@@ -4192,7 +3953,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 15
 https://www.examtopics.com/discussions/microsoft/view/79537-exam-sc-100-topic-4-question-15-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You are designing a security strategy for providing access to Azure App Service web apps through an Azure Front Door instance.
@@ -4209,7 +3969,6 @@ Suggested Answer (community most voted): A
 Topic 4 - Question 16
 https://www.examtopics.com/discussions/microsoft/view/78553-exam-sc-100-topic-4-question-16-discussion/
 ======================================================================
-
 Your company has an on-premises network, an Azure subscription, and a Microsoft 365 E5 subscription.
 The company uses the following devices:
 ✑ Computers that run either Windows 10 or Windows 11
@@ -4228,7 +3987,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 17
 https://www.examtopics.com/discussions/microsoft/view/81464-exam-sc-100-topic-4-question-17-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You are designing a solution to protect confidential data in Microsoft SharePoint Online sites that contain more than one million documents.
 You need to recommend a solution to prevent Personally Identifiable Information (PII) from being shared.
@@ -4246,7 +4004,6 @@ Suggested Answer (community most voted): AD
 Topic 4 - Question 18
 https://www.examtopics.com/discussions/microsoft/view/79470-exam-sc-100-topic-4-question-18-discussion/
 ======================================================================
-
 Your company has the virtual machine infrastructure shown in the following table.
 The company plans to use Microsoft Azure Backup Server (MABS) to back up the virtual machines to Azure.
 You need to provide recommendations to increase the resiliency of the backup strategy to mitigate attacks such as ransomware.
@@ -4263,7 +4020,6 @@ Suggested Answer (community most voted): D
 Topic 4 - Question 19
 https://www.examtopics.com/discussions/microsoft/view/155710-exam-sc-100-topic-4-question-19-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant that uses Microsoft SharePoint Online and Microsoft Purview. Microsoft Purview has a sensitivity
 label named Label1 that is applied to the files stored on SharePoint Online sites.
 You need to recommend a Microsoft Purview Data Loss Prevention (DLP) policy that meets the following requirements:
@@ -4282,7 +4038,6 @@ Suggested Answer (community most voted): A
 Topic 4 - Question 20
 https://www.examtopics.com/discussions/microsoft/view/94692-exam-sc-100-topic-4-question-20-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a hybrid cloud infrastructure.
@@ -4294,7 +4049,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 21
 https://www.examtopics.com/discussions/microsoft/view/94614-exam-sc-100-topic-4-question-21-discussion/
 ======================================================================
-
 DRAG DROP
 -
 Your company wants to optimize ransomware incident investigations.
@@ -4305,7 +4059,6 @@ Which three actions should you recommend performing in sequence in the plan? To 
 Topic 4 - Question 22
 https://www.examtopics.com/discussions/microsoft/view/94615-exam-sc-100-topic-4-question-22-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that syncs with Active Directory Domain Services (AD DS).
 You need to define the recovery steps for a ransomware attack that encrypted data in the subscription. The solution must follow Microsoft Security Best Practices.
 What is the first step in the recovery plan?
@@ -4321,7 +4074,6 @@ Suggested Answer (community most voted): D
 Topic 4 - Question 23
 https://www.examtopics.com/discussions/microsoft/view/155839-exam-sc-100-topic-4-question-23-discussion/
 ======================================================================
-
 HOTSPOT -
 You have an Azure subscription.
 You plan to deploy a storage account named storage1 that will store confidential data. You will assign tags to the confidential data.
@@ -4333,7 +4085,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 24
 https://www.examtopics.com/discussions/microsoft/view/99891-exam-sc-100-topic-4-question-24-discussion/
 ======================================================================
-
 Your company is developing an invoicing application that will use Azure AD B2C. The application will be deployed as an App Service web app.
 You need to recommend a solution to the application development team to secure the application from identity-related attacks.
 Which two configurations should you recommend? Each correct answer presents part of the solution.
@@ -4350,7 +4101,6 @@ Suggested Answer (community most voted): AB
 Topic 4 - Question 25
 https://www.examtopics.com/discussions/microsoft/view/105326-exam-sc-100-topic-4-question-25-discussion/
 ======================================================================
-
 Your company plans to evaluate the security of its Azure environment based on the principles of the Microsoft Cloud Adoption Framework for Azure.
 You need to recommend a cloud-based service to evaluate whether the Azure resources comply with the National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF).
 What should you recommend?
@@ -4366,7 +4116,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 26
 https://www.examtopics.com/discussions/microsoft/view/155787-exam-sc-100-topic-4-question-26-discussion/
 ======================================================================
-
 HOTSPOT -
 You have two on-premises servers named Server1 and Server2 that run Windows Server. Server1 contains an app named App1 and is isolated from the internet.
 You have a Microsoft Entra tenant.
@@ -4379,7 +4128,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 27
 https://www.examtopics.com/discussions/microsoft/view/155786-exam-sc-100-topic-4-question-27-discussion/
 ======================================================================
-
 HOTSPOT -
 Your on-premises network contains an Active Directory Domain Services (AD DS) domain. The domain contains a group named Group1 and five servers that run Windows Server. Each server contains a standalone app. Each app is used by the members of Group1.
 You have a Microsoft Entra tenant that syncs with the domain.
@@ -4392,7 +4140,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 28
 https://www.examtopics.com/discussions/microsoft/view/155711-exam-sc-100-topic-4-question-28-discussion/
 ======================================================================
-
 You have an on-premises app named App1.
 Remote users access App1 by using VPN connections.
 You have a third-party software as a service (SaaS) app named App2.
@@ -4410,7 +4157,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 29
 https://www.examtopics.com/discussions/microsoft/view/105327-exam-sc-100-topic-4-question-29-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription.
 You need to design a solution to block file downloads from Microsoft SharePoint Online by authenticated users on unmanaged devices.
 Which two services should you include in the solution? Each correct answer presents part of the solution.
@@ -4428,7 +4174,6 @@ Suggested Answer (community most voted): AE
 Topic 4 - Question 30
 https://www.examtopics.com/discussions/microsoft/view/117427-exam-sc-100-topic-4-question-30-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure SQL database named DB1 that contains customer information.
@@ -4444,7 +4189,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 31
 https://www.examtopics.com/discussions/microsoft/view/117296-exam-sc-100-topic-4-question-31-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant. Your company uses a third-party software as a service (SaaS) app named App1. App1 supports authenticating users by using Azure AD credentials.
 You need to recommend a solution to enable users to authenticate to App1 by using their Azure AD credentials.
 What should you include in the recommendation?
@@ -4460,7 +4204,6 @@ Suggested Answer (community most voted): C
 Topic 4 - Question 32
 https://www.examtopics.com/discussions/microsoft/view/117428-exam-sc-100-topic-4-question-32-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant.
 Your company uses a third-party software as a service (SaaS) app named App1 that is integrated with an Azure AD tenant.
 You need to design a security strategy to meet the following requirements:
@@ -4480,7 +4223,6 @@ Suggested Answer (community most voted): A
 Topic 4 - Question 33
 https://www.examtopics.com/discussions/microsoft/view/117480-exam-sc-100-topic-4-question-33-discussion/
 ======================================================================
-
 You have an Azure subscription.
 You have a DNS domain named contoso.com that is hosted by a third-party DNS registrar.
 Developers use Azure DevOps to deploy web apps to App Service Environments. When a new app is deployed, a CNAME record for the app is registered in contoso.com.
@@ -4500,7 +4242,6 @@ Suggested Answer (community most voted): C
 Topic 4 - Question 34
 https://www.examtopics.com/discussions/microsoft/view/123634-exam-sc-100-topic-4-question-34-discussion/
 ======================================================================
-
 HOTSPOT -
 You have an on-premises datacenter named Site1.
 You have an Azure subscription that contains a virtual network named VNet1 and multiple Azure App Service apps. Site1 is connected to VNet1 by using a Site-to-Site (P2S) VPN connection. The apps are accessed by using public internet connections.
@@ -4516,7 +4257,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 35
 https://www.examtopics.com/discussions/microsoft/view/124578-exam-sc-100-topic-4-question-35-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft 365 subscription.
@@ -4530,7 +4270,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 36
 https://www.examtopics.com/discussions/microsoft/view/123636-exam-sc-100-topic-4-question-36-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You plan to automate the development and deployment of a Node.js-based app by using GitHub.
@@ -4546,7 +4285,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 37
 https://www.examtopics.com/discussions/microsoft/view/155797-exam-sc-100-topic-4-question-37-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription. The subscription contains an Azure application gateway that use Azure Web Application Firewall (WAF).
@@ -4561,7 +4299,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 38
 https://www.examtopics.com/discussions/microsoft/view/155803-exam-sc-100-topic-4-question-38-discussion/
 ======================================================================
-
 You have an Azure subscription. The subscription contains 100 virtual machines that run Windows Server. The virtual machines are managed by using Azure Policy and Microsoft Defender for Servers.
 You need to enhance security on the virtual machines. The solution must meet the following requirements:
 •	Ensure that only apps on an allowlist can be run.
@@ -4581,7 +4318,6 @@ Suggested Answer (community most voted): D
 Topic 4 - Question 39
 https://www.examtopics.com/discussions/microsoft/view/155802-exam-sc-100-topic-4-question-39-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 tenant.
@@ -4595,7 +4331,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 40
 https://www.examtopics.com/discussions/microsoft/view/155761-exam-sc-100-topic-4-question-40-discussion/
 ======================================================================
-
 You have an on-premises server that runs Windows Server and contains a Microsoft SQL Server database named DB1.
 You plan to migrate DB1 to Azure.
 You need to recommend an encrypted Azure database solution that meets the following requirements:
@@ -4617,7 +4352,6 @@ Suggested Answer (community most voted): D
 Topic 4 - Question 41
 https://www.examtopics.com/discussions/microsoft/view/155805-exam-sc-100-topic-4-question-41-discussion/
 ======================================================================
-
 Your company has a Microsoft 365 E5 subscription.
 The company wants to identify and classify data in Microsoft Teams, SharePoint Online, and Exchange Online.
 You need to recommend a solution to identify documents that contain sensitive information.
@@ -4634,7 +4368,6 @@ Suggested Answer (community most voted): A
 Topic 4 - Question 42
 https://www.examtopics.com/discussions/microsoft/view/155806-exam-sc-100-topic-4-question-42-discussion/
 ======================================================================
-
 You have an Azure subscription that contains multiple Azure Data Lake Storage accounts.
 You need to recommend a solution to encrypt the content of the accounts by using service-side encryption and customer-managed keys. The solution must ensure that individual encryption keys are applied at the most granular level.
 At which level should you recommend the encryption be applied?
@@ -4650,7 +4383,6 @@ Suggested Answer (community most voted): A
 Topic 4 - Question 43
 https://www.examtopics.com/discussions/microsoft/view/155789-exam-sc-100-topic-4-question-43-discussion/
 ======================================================================
-
 You have an Azure subscription.
 You plan to deploy multiple containerized microservice-based apps to Azure Kubernetes Service (AKS).
 You need to recommend a solution that meets the following requirements:
@@ -4671,7 +4403,6 @@ Suggested Answer (community most voted): C
 Topic 4 - Question 44
 https://www.examtopics.com/discussions/microsoft/view/155807-exam-sc-100-topic-4-question-44-discussion/
 ======================================================================
-
 You have an Azure subscription that contains multiple Azure Blob Storage accounts.
 You need to recommend a solution to detect threats in files after the files are uploaded to a blob container.
 What should you include in the recommendation?
@@ -4687,7 +4418,6 @@ Suggested Answer (community most voted): D
 Topic 4 - Question 45
 https://www.examtopics.com/discussions/microsoft/view/155809-exam-sc-100-topic-4-question-45-discussion/
 ======================================================================
-
 You have an Azure subscription.
 You plan to deploy Azure App Services apps by using Azure DevOps.
 You need to recommend a solution to ensure that deployed apps maintain compliance with Microsoft cloud security benchmark (MCSB) recommendations.
@@ -4704,7 +4434,6 @@ Suggested Answer (community most voted): C
 Topic 4 - Question 46
 https://www.examtopics.com/discussions/microsoft/view/155821-exam-sc-100-topic-4-question-46-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Your company has two offices named Office1 and Office2. The offices contain 1,000 on-premises Windows 11 devices that are Microsoft Entra joined.
@@ -4726,7 +4455,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 47
 https://www.examtopics.com/discussions/microsoft/view/155822-exam-sc-100-topic-4-question-47-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that contains multiple storage accounts. The accounts contain Azure Files shares and Azure Blob Storage containers. The accounts have encryption scopes and infrastructure encryption enabled.
@@ -4738,7 +4466,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 48
 https://www.examtopics.com/discussions/microsoft/view/155823-exam-sc-100-topic-4-question-48-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription.
@@ -4751,7 +4478,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 49
 https://www.examtopics.com/discussions/microsoft/view/155791-exam-sc-100-topic-4-question-49-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have an Azure subscription that contains a resources group named RG1. RG1 contains multiple Azure Files shares.
@@ -4765,7 +4491,6 @@ Which three actions should you recommend be performed in sequence? To answer, mo
 Topic 4 - Question 50
 https://www.examtopics.com/discussions/microsoft/view/155792-exam-sc-100-topic-4-question-50-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -4777,7 +4502,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 51
 https://www.examtopics.com/discussions/microsoft/view/309530-exam-sc-100-topic-4-question-51-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that contains App Service apps in four Azure regions. Users connect to the apps from the internet.
@@ -4792,7 +4516,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 52
 https://www.examtopics.com/discussions/microsoft/view/309537-exam-sc-100-topic-4-question-52-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You plan to deploy an Azure API Management solution that will enable different groups of developers to access different sets of APIs at random times and rates.
@@ -4807,7 +4530,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 53
 https://www.examtopics.com/discussions/microsoft/view/309541-exam-sc-100-topic-4-question-53-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that contains an Azure key vault named Vault1.
@@ -4823,7 +4545,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 54
 https://www.examtopics.com/discussions/microsoft/view/309534-exam-sc-100-topic-4-question-54-discussion/
 ======================================================================
-
 You have two Azure subscriptions named Sub1 and Sub2 that contain the vaults shown in the following table.
 You need to design a multi-user authorization (MUA) solution for security operations on the vaults. The solution must meet the following requirements:
 •	RSVault1 and RSVault2 must require MUA for disabling soft delete, removing MUA protection, and disabling immutability.
@@ -4841,7 +4562,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 55
 https://www.examtopics.com/discussions/microsoft/view/309485-exam-sc-100-topic-4-question-55-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have the resources shown in the following table.
@@ -4853,7 +4573,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 56
 https://www.examtopics.com/discussions/microsoft/view/309494-exam-sc-100-topic-4-question-56-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant. Your company uses a third-party software as a service (SaaS) app named App1. App1 supports authenticating users by using Microsoft Entra credentials.
 You need to recommend a solution to enable users to authenticate to App1 by using their Microsoft Entra credentials.
 What should you include in the recommendation?
@@ -4869,7 +4588,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 57
 https://www.examtopics.com/discussions/microsoft/view/309535-exam-sc-100-topic-4-question-57-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that contains a Microsoft Sentinel workspace named MWS1 and an Azure Data Lake Storage account named lake1. Firewall log data is ingested into MWS1.
@@ -4882,7 +4600,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 58
 https://www.examtopics.com/discussions/microsoft/view/309490-exam-sc-100-topic-4-question-58-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that contains a Microsoft SharePoint Online site named Site1. Site1 stores documents that are based on a predefined form and include confidential employee information.
@@ -4895,7 +4612,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 59
 https://www.examtopics.com/discussions/microsoft/view/309527-exam-sc-100-topic-4-question-59-discussion/
 ======================================================================
-
 Note: This section contains one or more sets of questions with the same scenario and problem. Each question presents a unique solution to the problem. You must determine whether the solution meets the stated goals. More than one solution in the set might solve the problem. It is also possible that none of the solutions in the set solve the problem.
 After you answer a question in this section, you will NOT be able to return. As a result, these questions do not appear on the Review Screen.
 You have a Microsoft 365 subscription that uses Microsoft Defender XDR. The subscription contains 500 devices that are enrolled in Microsoft Intune. The subscription contains 500 users that connect to external software as a service (SaaS) apps by using the devices.
@@ -4914,7 +4630,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 60
 https://www.examtopics.com/discussions/microsoft/view/309533-exam-sc-100-topic-4-question-60-discussion/
 ======================================================================
-
 Note: This section contains one or more sets of questions with the same scenario and problem. Each question presents a unique solution to the problem. You must determine whether the solution meets the stated goals. More than one solution in the set might solve the problem. It is also possible that none of the solutions in the set solve the problem.
 After you answer a question in this section, you will NOT be able to return. As a result, these questions do not appear on the Review Screen.
 You have a Microsoft 365 subscription that uses Microsoft Defender XDR. The subscription contains 500 devices that are enrolled in Microsoft Intune. The subscription contains 500 users that connect to external software as a service (SaaS) apps by using the devices.
@@ -4933,7 +4648,6 @@ Suggested Answer (community most voted): A
 Topic 4 - Question 61
 https://www.examtopics.com/discussions/microsoft/view/309549-exam-sc-100-topic-4-question-61-discussion/
 ======================================================================
-
 Note: This section contains one or more sets of questions with the same scenario and problem. Each question presents a unique solution to the problem. You must determine whether the solution meets the stated goals. More than one solution in the set might solve the problem. It is also possible that none of the solutions in the set solve the problem.
 After you answer a question in this section, you will NOT be able to return. As a result, these questions do not appear on the Review Screen.
 You have a Microsoft 365 subscription that uses Microsoft Defender XDR. The subscription contains 500 devices that are enrolled in Microsoft Intune. The subscription contains 500 users that connect to external software as a service (SaaS) apps by using the devices.
@@ -4952,7 +4666,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 62
 https://www.examtopics.com/discussions/microsoft/view/309532-exam-sc-100-topic-4-question-62-discussion/
 ======================================================================
-
 Note: This section contains one or more sets of questions with the same scenario and problem. Each question presents a unique solution to the problem. You must determine whether the solution meets the stated goals. More than one solution in the set might solve the problem. It is also possible that none of the solutions in the set solve the problem.
 After you answer a question in this section, you will NOT be able to return. As a result, these questions do not appear on the Review Screen.
 You have a Microsoft 365 subscription that uses Microsoft Defender XDR. The subscription contains 500 devices that are enrolled in Microsoft Intune. The subscription contains 500 users that connect to external software as a service (SaaS) apps by using the devices.
@@ -4971,7 +4684,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 63
 https://www.examtopics.com/discussions/microsoft/view/309529-exam-sc-100-topic-4-question-63-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription. The subscription contains 20 App Service web apps that provide services to external customers. Each web app has a unique certificate and key.
@@ -4988,7 +4700,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 64
 https://www.examtopics.com/discussions/microsoft/view/309539-exam-sc-100-topic-4-question-64-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that contains three Azure App Service web apps.
@@ -5003,7 +4714,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 65
 https://www.examtopics.com/discussions/microsoft/view/309487-exam-sc-100-topic-4-question-65-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription.
@@ -5017,7 +4727,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 66
 https://www.examtopics.com/discussions/microsoft/view/309496-exam-sc-100-topic-4-question-66-discussion/
 ======================================================================
-
 You have a Microsoft Entra tenant named contoso.com.
 You have a partner company that has a multi-tenant application named App1. App1 is registered to a Microsoft Entra tenant named fabrikam.com.
 You need to ensure that the users in contoso.com can authenticate to App1.
@@ -5034,7 +4743,6 @@ Suggested Answer (community most voted): A
 Topic 4 - Question 67
 https://www.examtopics.com/discussions/microsoft/view/313180-exam-sc-100-topic-4-question-67-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -5046,7 +4754,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 68
 https://www.examtopics.com/discussions/microsoft/view/313141-exam-sc-100-topic-4-question-68-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant.
 You have an Azure subscription that contains Azure App Service web apps. The apps have the following characteristics:
 •	The apps use third-party and open-source components.
@@ -5067,7 +4774,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 69
 https://www.examtopics.com/discussions/microsoft/view/313183-exam-sc-100-topic-4-question-69-discussion/
 ======================================================================
-
 You have an Azure subscription and a Microsoft 365 subscription.
 Your company uses several software as a service (SaaS) applications.
 To align with Microsoft cloud security benchmark (MCSB) and Microsoft Cybersecurity Reference Architectures (MCRA), you plan to design a solution to provide visibility into user activity across the applications and detect potentially risky behavior in real time.
@@ -5084,7 +4790,6 @@ Suggested Answer (community most voted): A
 Topic 4 - Question 70
 https://www.examtopics.com/discussions/microsoft/view/316849-exam-sc-100-topic-4-question-70-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an on-premises datacenter. The datacenter contains a server named Server1 that runs Windows Server 2022 and a firewall that prevents Server1 from connecting to the internet.
@@ -5097,7 +4802,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 71
 https://www.examtopics.com/discussions/microsoft/view/321693-exam-sc-100-topic-4-question-71-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have three on-premises servers that run Windows Server and contain shared folders. The folders contain 10,000 files.
@@ -5111,7 +4815,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 72
 https://www.examtopics.com/discussions/microsoft/view/321694-exam-sc-100-topic-4-question-72-discussion/
 ======================================================================
-
 You have an Azure subscription that contains a web app named App1. App1 uses a Microsoft Entra user account named SRV1 as a service account to authenticate to an Azure SQL database named DB1.
 You discover that a developer accessed DB1 directly by using SRV1.
 You need to recommend a secure authentication method that will prevent credential misuse outside of App1. The solution must minimize administrative effort.
@@ -5128,7 +4831,6 @@ Suggested Answer (community most voted): A
 Topic 4 - Question 73
 https://www.examtopics.com/discussions/microsoft/view/366442-exam-sc-100-topic-4-question-73-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription.
@@ -5143,7 +4845,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 74
 https://www.examtopics.com/discussions/microsoft/view/384511-exam-sc-100-topic-4-question-74-discussion/
 ======================================================================
-
 You have an Azure subscription.
 You have an on-premises datacenter that contains Microsoft SQL Server instances. Each instance contains multiple databases.
 You have a Microsoft 365 subscription.
@@ -5162,7 +4863,6 @@ Suggested Answer (community most voted): C
 Topic 4 - Question 75
 https://www.examtopics.com/discussions/microsoft/view/384510-exam-sc-100-topic-4-question-75-discussion/
 ======================================================================
-
 You have an Azure subscription.
 You have an on-premises datacenter. The datacenter contains 20 servers that run Windows Server. Each server is onboarded to Azure Arc and is protected by using Microsoft Defender for Servers Plan 1.
 You have a Microsoft 365 subscription.
@@ -5180,7 +4880,6 @@ Suggested Answer (community most voted): D
 Topic 4 - Question 76
 https://www.examtopics.com/discussions/microsoft/view/384499-exam-sc-100-topic-4-question-76-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription.
@@ -5193,7 +4892,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 77
 https://www.examtopics.com/discussions/microsoft/view/384504-exam-sc-100-topic-4-question-77-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Your company has offices in New York City and London. The London office contains an on-premises app named App1.
@@ -5213,7 +4911,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 78
 https://www.examtopics.com/discussions/microsoft/view/384498-exam-sc-100-topic-4-question-78-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains 500 users. Each user is assigned a Microsoft 365 E5 license and uses a Windows device.
 Microsoft Purview data loss prevention (DLP) policies are applied to Microsoft Exchange Online email and SharePoint Online sites.
 You plan to monitor the usage of third-party generative AI apps by using Microsoft Purview Data Security Posture Management for AI (DSPM for AI).
@@ -5230,7 +4927,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 79
 https://www.examtopics.com/discussions/microsoft/view/384509-exam-sc-100-topic-4-question-79-discussion/
 ======================================================================
-
 You have an Azure subscription. The subscription contains multiple Azure App Service web apps that are distributed across multiple Azure regions and are accessed via the internet.
 You need to ensure that all incoming requests to the apps are inspected for threats based on the Core Rule Set (CRS) from the Open Web Application Security Project (OWASP). The solution must meet the following requirements:
 •	Support the use of Microsoft-managed X.509 certificates.
@@ -5249,7 +4945,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 80
 https://www.examtopics.com/discussions/microsoft/view/384502-exam-sc-100-topic-4-question-80-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that contains an Azure Synapse Analytics workspace named workspace1. workspace1 contains a built-in serverless SQL pool and a dedicated SQL pool named Pool1.
@@ -5261,7 +4956,6 @@ NOTE: Each correct selection is worth one point.
 Topic 5 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/105507-exam-sc-100-topic-5-question-1-discussion/
 ======================================================================
-
 Your company wants to optimize using Microsoft Defender for Endpoint to protect its resources against ransomware based on Microsoft Security Best Practices.
 You need to prepare a post-breach response plan for compromised computers based on the Microsoft Detection and Response Team (DART) approach in Microsoft Security Best Practices.
 What should you include in the response plan?
@@ -5278,7 +4972,6 @@ Suggested Answer (community most voted): D
 Topic 5 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/105506-exam-sc-100-topic-5-question-2-discussion/
 ======================================================================
-
 You have an operational model based on the Microsoft Cloud Adoption Framework for Azure.
 You need to recommend a solution that focuses on cloud-centric control areas to protect resources such as endpoints, databases, files, and storage accounts.
 What should you include in the recommendation?
@@ -5294,7 +4987,6 @@ Suggested Answer (community most voted): D
 Topic 5 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/105482-exam-sc-100-topic-5-question-3-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You use Azure Policy with Azure Repos to implement continuous integration and continuous deployment (CI/CD) workflows.
@@ -5306,7 +4998,6 @@ NOTE: Each correct selection is worth one point.
 Topic 5 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/106551-exam-sc-100-topic-5-question-4-discussion/
 ======================================================================
-
 HOTSPOT -
 Your company wants to optimize using Azure to protect its resources from ransomware.
 You need to recommend which capabilities of Azure Backup and Azure Storage provide the strongest protection against ransomware attacks. The solution must follow Microsoft Security Best Practices.
@@ -5317,7 +5008,6 @@ NOTE: Each correct selection is worth one point.
 Topic 5 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/106419-exam-sc-100-topic-5-question-5-discussion/
 ======================================================================
-
 You have an Azure AD tenant that syncs with an Active Directory Domain Services (AD DS) domain.
 You have an on-premises datacenter that contains 100 servers. The servers run Windows Server and are backed up by using Microsoft Azure Backup Server (MABS).
 You are designing a recovery solution for ransomware attacks. The solution follows Microsoft Security Best Practices.
@@ -5335,7 +5025,6 @@ Suggested Answer (community most voted): A
 Topic 5 - Question 6
 https://www.examtopics.com/discussions/microsoft/view/106069-exam-sc-100-topic-5-question-6-discussion/
 ======================================================================
-
 You are designing a ransomware response plan that follows Microsoft Security Best Practices.
 You need to recommend a solution to limit the scope of damage of ransomware attacks without being locked out.
 What should you include in the recommendation?
@@ -5351,7 +5040,6 @@ Suggested Answer (community most voted): D
 Topic 5 - Question 7
 https://www.examtopics.com/discussions/microsoft/view/105617-exam-sc-100-topic-5-question-7-discussion/
 ======================================================================
-
 You design cloud-based software as a service (SaaS) solutions.
 You need to recommend a recovery solution for ransomware attacks. The solution must follow Microsoft Security Best Practices.
 What should you recommend doing first?
@@ -5367,7 +5055,6 @@ Suggested Answer (community most voted): D
 Topic 5 - Question 8
 https://www.examtopics.com/discussions/microsoft/view/105340-exam-sc-100-topic-5-question-8-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You need to recommend a security methodology for a DevOps development process based on the Microsoft Cloud Adoption Framework for Azure.
@@ -5378,7 +5065,6 @@ NOTE: Each correct selection is worth one point.
 Topic 5 - Question 9
 https://www.examtopics.com/discussions/microsoft/view/105982-exam-sc-100-topic-5-question-9-discussion/
 ======================================================================
-
 You use Azure Pipelines with Azure Repos to implement continuous integration and continuous deployment (CI/CD) workflows for the deployment of applications to Azure.
 You need to recommend what to include in dynamic application security testing (DAST) based on the principles of the Microsoft Cloud Adoption Framework for Azure.
 What should you recommend?
@@ -5394,7 +5080,6 @@ Suggested Answer (community most voted): B
 Topic 5 - Question 10
 https://www.examtopics.com/discussions/microsoft/view/105553-exam-sc-100-topic-5-question-10-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription.
 You are designing a user access solution that follows the Zero Trust principles of the Microsoft Cybersecurity Reference Architectures (MCRA).
 You need to recommend a solution that automatically restricts access to Microsoft Exchange Online, SharePoint Online, and Teams in near-real-time (NRT) in response to the following Azure AD events:
@@ -5417,7 +5102,6 @@ Suggested Answer (community most voted): AE
 Topic 5 - Question 11
 https://www.examtopics.com/discussions/microsoft/view/105554-exam-sc-100-topic-5-question-11-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription and an on-premises datacenter. The datacenter contains 100 servers that run Windows Server. All the servers are backed up to a Recovery Services vault by using Azure Backup and the Microsoft Azure Recovery Services (MARS) agent.
@@ -5431,7 +5115,6 @@ NOTE: Each correct selection is worth one point.
 Topic 5 - Question 12
 https://www.examtopics.com/discussions/microsoft/view/155836-exam-sc-100-topic-5-question-12-discussion/
 ======================================================================
-
 You have an Azure subscription.
 You plan to deploy Azure Kubernetes Service (AKS) clusters that will be used to host web services.
 You need to recommend an ingress controller solution that will protect the hosted web services.
@@ -5448,7 +5131,6 @@ Suggested Answer (community most voted): B
 Topic 5 - Question 13
 https://www.examtopics.com/discussions/microsoft/view/156067-exam-sc-100-topic-5-question-13-discussion/
 ======================================================================
-
 Your company has an Azure subscription that uses Microsoft Defender for Cloud.
 The company signs a contract with the United States government.
 You need to review the current subscription for NIST 800-53 compliance.
@@ -5465,7 +5147,6 @@ Suggested Answer (community most voted): A
 Topic 5 - Question 14
 https://www.examtopics.com/discussions/microsoft/view/309545-exam-sc-100-topic-5-question-14-discussion/
 ======================================================================
-
 Your company has on-premises datacenters in Seattle, Chicago, and New York City.
 You plan to migrate the on-premises workloads to the East US Azure region.
 You need to design a governance solution for the management group hierarchy. The solution must be based on Microsoft Cloud Adoption Framework for Azure principles and must ensure that the hierarchy aligns with the Azure landing conceptual architecture.
@@ -5482,7 +5163,6 @@ Suggested Answer (community most voted): D
 Topic 6 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/79403-exam-sc-100-topic-5-question-1-discussion/
 ======================================================================
-
 HOTSPOT -
 You need to recommend a strategy for securing the litware.com forest. The solution must meet the identity requirements.
 What should you include in the recommendation? To answer, select the appropriate options in the answer area.
@@ -5493,7 +5173,6 @@ Hot Area:
 Topic 6 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/79473-exam-sc-100-topic-5-question-2-discussion/
 ======================================================================
-
 HOTSPOT -
 You need to recommend a SIEM and SOAR strategy that meets the hybrid requirements, the Microsoft Sentinel requirements, and the regulatory compliance requirements.
 What should you recommend? To answer, select the appropriate options in the answer area.
@@ -5504,7 +5183,6 @@ Hot Area:
 Topic 6 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/79406-exam-sc-100-topic-5-question-3-discussion/
 ======================================================================
-
 HOTSPOT -
 You need to recommend a multi-tenant and hybrid security solution that meets to the business requirements and the hybrid requirements.
 What should you recommend? To answer, select the appropriate options in the answer area.
@@ -5515,7 +5193,6 @@ Hot Area:
 Topic 6 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/78356-exam-sc-100-topic-5-question-4-discussion/
 ======================================================================
-
 You need to recommend a solution for securing the landing zones. The solution must meet the landing zone requirements and the business requirements.
 What should you configure for each landing zone?
 
@@ -5530,7 +5207,6 @@ Suggested Answer (community most voted): B
 Topic 7 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/79484-exam-sc-100-topic-6-question-1-discussion/
 ======================================================================
-
 HOTSPOT -
 What should you create in Azure AD to meet the Contoso developer requirements?
 Hot Area:
@@ -5539,7 +5215,6 @@ Hot Area:
 Topic 7 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/80211-exam-sc-100-topic-6-question-2-discussion/
 ======================================================================
-
 You need to recommend a solution to meet the security requirements for the InfraSec group.
 What should you use to delegate the access?
 
@@ -5554,7 +5229,6 @@ Suggested Answer (community most voted): B
 Topic 8 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/80847-exam-sc-100-topic-7-question-1-discussion/
 ======================================================================
-
 HOTSPOT -
 You need to recommend a solution to meet the AWS requirements.
 What should you include in the recommendation? To answer, select the appropriate options in the answer area.
@@ -5565,7 +5239,6 @@ Hot Area:
 Topic 8 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/81480-exam-sc-100-topic-7-question-2-discussion/
 ======================================================================
-
 You need to recommend a solution to resolve the virtual machine issue.
 What should you include in the recommendation?
 
@@ -5580,7 +5253,6 @@ Suggested Answer (community most voted): A
 Topic 8 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/79503-exam-sc-100-topic-7-question-3-discussion/
 ======================================================================
-
 You need to recommend a solution to meet the security requirements for the virtual machines.
 What should you include in the recommendation?
 
@@ -5595,7 +5267,6 @@ Suggested Answer (community most voted): C
 Topic 8 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/80213-exam-sc-100-topic-7-question-4-discussion/
 ======================================================================
-
 HOTSPOT -
 You need to recommend a solution to meet the compliance requirements.
 What should you include in the recommendation? To answer, select the appropriate options in the answer area.
@@ -5606,7 +5277,6 @@ Hot Area:
 Topic 9 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/81483-exam-sc-100-topic-8-question-1-discussion/
 ======================================================================
-
 HOTSPOT -
 You need to recommend a solution to evaluate regulatory compliance across the entire managed environment. The solution must meet the regulatory compliance requirements and the business requirements.
 What should you recommend? To answer, select the appropriate options in the answer area.
@@ -5617,7 +5287,6 @@ Hot Area:
 Topic 10 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/79510-exam-sc-100-topic-9-question-1-discussion/
 ======================================================================
-
 You need to recommend a strategy for routing internet-bound traffic from the landing zones. The solution must meet the landing zone requirements.
 What should you recommend as part of the landing zone deployment?
 
@@ -5631,7 +5300,6 @@ Suggested Answer (community most voted): C
 Topic 10 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/81358-exam-sc-100-topic-9-question-2-discussion/
 ======================================================================
-
 HOTSPOT -
 You need to recommend a strategy for App Service web app connectivity. The solution must meet the landing zone requirements.
 What should you recommend? To answer, select the appropriate options in the answer area.
@@ -5642,7 +5310,6 @@ Hot Area:
 Topic 10 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/81653-exam-sc-100-topic-9-question-3-discussion/
 ======================================================================
-
 HOTSPOT -
 You need to recommend an identity security solution for the Azure AD tenant of Litware. The solution must meet the identity requirements and the regulatory compliance requirements.
 What should you recommend? To answer, select the appropriate options in the answer area.
@@ -5653,7 +5320,6 @@ Hot Area:
 Topic 11 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/81035-exam-sc-100-topic-10-question-1-discussion/
 ======================================================================
-
 HOTSPOT -
 You are evaluating the security of ClaimsApp.
 For each of the following statements, select Yes if the statement is true. Otherwise, select No.
@@ -5664,7 +5330,6 @@ Hot Area:
 Topic 11 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/78355-exam-sc-100-topic-10-question-2-discussion/
 ======================================================================
-
 You need to recommend a solution to scan the application code. The solution must meet the application development requirements.
 What should you include in the recommendation?
 
@@ -5679,7 +5344,6 @@ Suggested Answer (community most voted): A
 Topic 12 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/79424-exam-sc-100-topic-11-question-1-discussion/
 ======================================================================
-
 You need to design a strategy for securing the SharePoint Online and Exchange Online data. The solution must meet the application security requirements.
 Which two services should you leverage in the strategy? Each correct answer presents part of the solution.
 NOTE: Each correct selection is worth one point.
@@ -5696,7 +5360,6 @@ Suggested Answer (community most voted): AD
 Topic 12 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/79531-exam-sc-100-topic-11-question-2-discussion/
 ======================================================================
-
 To meet the application security requirements, which two authentication methods must the applications support? Each correct answer presents a complete solution.
 NOTE: Each correct selection is worth one point.
 
@@ -5711,7 +5374,6 @@ Suggested Answer (community most voted): AD
 Topic 13 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/79533-exam-sc-100-topic-12-question-1-discussion/
 ======================================================================
-
 You need to recommend a solution to secure the MedicalHistory data in the ClaimsDetail table. The solution must meet the Contoso developer requirements.
 What should you include in the recommendation?
 
@@ -5727,10 +5389,8 @@ Suggested Answer (community most voted): C
 Topic 13 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/81727-exam-sc-100-topic-12-question-2-discussion/
 ======================================================================
-
 HOTSPOT -
 You need to recommend a solution to meet the requirements for connections to ClaimsDB.
 What should you recommend using for each requirement? To answer, select the appropriate options in the answer area.
 NOTE: Each correct selection is worth one point.
 Hot Area:
-

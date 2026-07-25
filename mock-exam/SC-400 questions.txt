@@ -1,11 +1,10 @@
-SC-400 - Extracted Questions (346 of 387)
+SC-400 - Extracted Questions (387)
 Source: ExamTopics question/discussion pages
 
 ======================================================================
 Topic 1 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/53054-exam-sc-400-topic-1-question-1-discussion/
 ======================================================================
-
 You create three sensitivity labels named Sensitivity1, Sensitivity2, and Sensitivity3 and perform the following actions:
 ✑ Publish Sensitivity1.
 ✑ Create an auto-labeling policy for Sensitivity2.
@@ -23,7 +22,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/56086-exam-sc-400-topic-1-question-2-discussion/
 ======================================================================
-
 You have a Microsoft OneDrive for Business folder that contains the files shown in the following table.
 In Microsoft Cloud App Security, you create a file policy to automatically apply a classification.
 What is the effect of applying the policy?
@@ -39,7 +37,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/51770-exam-sc-400-topic-1-question-3-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 tenant named contoso.com that contains two users named User1 and User2. The tenant uses Microsoft Office 365 Message Encryption
 (OME).
@@ -53,7 +50,6 @@ Hot Area:
 Topic 1 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/51885-exam-sc-400-topic-1-question-4-discussion/
 ======================================================================
-
 HOTSPOT -
 You use project codes that have a format of three alphabetical characters that represent the project type, followed by three digits, for example Abc123.
 You need to create a new sensitive info type for the project codes.
@@ -65,7 +61,6 @@ Hot Area:
 Topic 1 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/51897-exam-sc-400-topic-1-question-5-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft SharePoint Online site named Site1 and a sensitivity label named Sensitivity1. Sensitivity1 adds a watermark and a header to content.
 You create a policy to automatically apply Sensitivity1 to emails in Microsoft Exchange Online and Site1.
@@ -77,7 +72,6 @@ Hot Area:
 Topic 1 - Question 6
 https://www.examtopics.com/discussions/microsoft/view/51786-exam-sc-400-topic-1-question-6-discussion/
 ======================================================================
-
 HOTSPOT -
 You need to implement an information compliance policy to meet the following requirements:
 ✑ Documents that contain passport numbers from the United States, Germany, Australia, and Japan must be identified automatically.
@@ -91,7 +85,6 @@ Hot Area:
 Topic 1 - Question 7
 https://www.examtopics.com/discussions/microsoft/view/55842-exam-sc-400-topic-1-question-7-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 E5 tenant.
 You create sensitivity labels as shown in the Sensitivity Labels exhibit.
@@ -105,7 +98,6 @@ Hot Area:
 Topic 1 - Question 8
 https://www.examtopics.com/discussions/microsoft/view/53112-exam-sc-400-topic-1-question-8-discussion/
 ======================================================================
-
 You are implementing a data classification solution.
 The research department at your company requires that documents containing programming code be labeled as Confidential. The department provides samples of the code from its document library. The solution must minimize administrative effort.
 What should you do?
@@ -119,7 +111,6 @@ D. Create a sensitive info type that uses a regular expression.
 Topic 1 - Question 9
 https://www.examtopics.com/discussions/microsoft/view/53113-exam-sc-400-topic-1-question-9-discussion/
 ======================================================================
-
 You have a new Microsoft 365 tenant.
 You need to ensure that custom trainable classifiers can be created in the tenant.
 To which role should you be assigned to perform the configuration?
@@ -135,7 +126,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 10
 https://www.examtopics.com/discussions/microsoft/view/52817-exam-sc-400-topic-1-question-10-discussion/
 ======================================================================
-
 You need to automatically apply a sensitivity label to documents that contain information about your company's network including computer names, IP addresses, and configuration information.
 Which two objects should you use? Each correct answer presents part of the solution. (Choose two.)
 NOTE: Each correct selection is worth one point.
@@ -153,7 +143,6 @@ Suggested Answer (community most voted): CF
 Topic 1 - Question 11
 https://www.examtopics.com/discussions/microsoft/view/53227-exam-sc-400-topic-1-question-11-discussion/
 ======================================================================
-
 You are creating a custom trainable classifier to identify organizational product codes referenced in Microsoft 365 content.
 You identify 300 files to use as seed content.
 Where should you store the seed content?
@@ -169,7 +158,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 12
 https://www.examtopics.com/discussions/microsoft/view/52821-exam-sc-400-topic-1-question-12-discussion/
 ======================================================================
-
 Each product group at your company must show a distinct product logo in encrypted emails instead of the standard Microsoft Office 365 logo.
 What should you do to create the branding templates?
 
@@ -184,7 +172,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 13
 https://www.examtopics.com/discussions/microsoft/view/56567-exam-sc-400-topic-1-question-13-discussion/
 ======================================================================
-
 You create a custom sensitive info type that uses Exact Data Match (EDM).
 You plan to periodically update and upload the data used for EDM.
 What is the maximum frequency with which the data can be uploaded?
@@ -201,7 +188,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 14
 https://www.examtopics.com/discussions/microsoft/view/56903-exam-sc-400-topic-1-question-14-discussion/
 ======================================================================
-
 HOTSPOT -
 You are implementing Microsoft Office 365 Message Encryption (OME) for a Microsoft 365 tenant named contoso.com.
 You need to meet the following requirements:
@@ -215,7 +201,6 @@ Hot Area:
 Topic 1 - Question 15
 https://www.examtopics.com/discussions/microsoft/view/59573-exam-sc-400-topic-1-question-15-discussion/
 ======================================================================
-
 A user reports that she can no longer access a Microsoft Excel file named Northwind Customer Data.xlsx.
 From the Cloud App Security portal, you discover the alert shown in the exhibit.
 You restore the file from quarantine.
@@ -233,7 +218,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 16
 https://www.examtopics.com/discussions/microsoft/view/56678-exam-sc-400-topic-1-question-16-discussion/
 ======================================================================
-
 HOTSPOT -
 You create a sensitivity label as shown in the Sensitivity Label exhibit.
 You create an auto-labeling policy as shown in the Auto Labeling Policy exhibit.
@@ -255,7 +239,6 @@ Hot Area:
 Topic 1 - Question 17
 https://www.examtopics.com/discussions/microsoft/view/56685-exam-sc-400-topic-1-question-17-discussion/
 ======================================================================
-
 You receive an email that contains a list of words that will be used for a sensitive information type.
 You need to create a file that can be used as the source of a keyword dictionary.
 In which format should you save the list?
@@ -271,7 +254,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 18
 https://www.examtopics.com/discussions/microsoft/view/57669-exam-sc-400-topic-1-question-18-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 tenant that uses a domain named contoso.com.
 A user named User1 sends link-based, branded emails that are encrypted by using Microsoft Office 365 Advanced Message Encryption to the recipients shown in the following table.
 For which recipients can User1 revoke the emails?
@@ -288,7 +270,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 19
 https://www.examtopics.com/discussions/microsoft/view/65114-exam-sc-400-topic-1-question-19-discussion/
 ======================================================================
-
 You need to test Microsoft Office 365 Message Encryption (OME) capabilities for your company. The test must verify the following information:
 ✑ The acquired default template names
 ✑ The encryption and decryption verification status
@@ -305,7 +286,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 20
 https://www.examtopics.com/discussions/microsoft/view/87229-exam-sc-400-topic-1-question-20-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant that uses trainable classifiers.
 You are creating a custom trainable classifier.
 You collect 300 sample file types from various geographical locations to use as seed content. Some of the file samples are encrypted.
@@ -322,7 +302,6 @@ E. Category1, Category2, Category3, Category4, and Category5
 Topic 1 - Question 21
 https://www.examtopics.com/discussions/microsoft/view/64266-exam-sc-400-topic-1-question-21-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant that uses Microsoft Office 365 Message Encryption (OME).
 You need to ensure that any emails containing attachments and sent to [email protected] are encrypted automatically by using OME.
 What should you do?
@@ -336,7 +315,6 @@ D. From the Microsoft 365 compliance center, configure an auto-apply retention l
 Topic 1 - Question 22
 https://www.examtopics.com/discussions/microsoft/view/63978-exam-sc-400-topic-1-question-22-discussion/
 ======================================================================
-
 You plan to implement sensitivity labels for Microsoft Teams.
 You need to ensure that you can view and apply sensitivity labels to new Microsoft Teams sites.
 What should you do first?
@@ -352,7 +330,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 23
 https://www.examtopics.com/discussions/microsoft/view/64731-exam-sc-400-topic-1-question-23-discussion/
 ======================================================================
-
 HOTSPOT -
 You have Microsoft 365 E5 tenant that has a domain name of M365x925027.onmicrosoft.com.
 You have a published sensitivity label.
@@ -365,7 +342,6 @@ Hot Area:
 Topic 1 - Question 24
 https://www.examtopics.com/discussions/microsoft/view/63979-exam-sc-400-topic-1-question-24-discussion/
 ======================================================================
-
 HOTSPOT -
 You plan to create a custom sensitive information type that will use Exact Data Match (EDM).
 You need to identify what to upload to Microsoft 365, and which tool to use for the upload.
@@ -377,7 +353,6 @@ Hot Area:
 Topic 1 - Question 25
 https://www.examtopics.com/discussions/microsoft/view/65119-exam-sc-400-topic-1-question-25-discussion/
 ======================================================================
-
 DRAG DROP -
 You have a Microsoft 365 tenant that uses data loss prevention (DLP).
 You have a custom employee information form named Template1.docx.
@@ -389,7 +364,6 @@ Select and Place:
 Topic 1 - Question 26
 https://www.examtopics.com/discussions/microsoft/view/64713-exam-sc-400-topic-1-question-26-discussion/
 ======================================================================
-
 Your company has a Microsoft 365 tenant that uses a domain named contoso.com.
 The company uses Microsoft Office 365 Message Encryption (OME) to encrypt email sent to users in fabrikam.com.
 A user named User1 erroneously sends an email to [email protected].
@@ -406,7 +380,6 @@ E. Instruct User1 to select Remove external access from Microsoft Outlook on the
 Topic 1 - Question 27
 https://www.examtopics.com/discussions/microsoft/view/64858-exam-sc-400-topic-1-question-27-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant.
 You discover that email does NOT use Microsoft Office 365 Message Encryption (OME).
 You need to ensure that OME can be applied to email.
@@ -423,7 +396,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 28
 https://www.examtopics.com/discussions/microsoft/view/65120-exam-sc-400-topic-1-question-28-discussion/
 ======================================================================
-
 HOTSPOT -
 You plan to implement a sensitive information type based on a trainable classifier. The sensitive information type will identify employment contracts.
 You need to copy the required files to Microsoft SharePoint Online folders to train the classifier.
@@ -435,7 +407,6 @@ Hot Area:
 Topic 1 - Question 29
 https://www.examtopics.com/discussions/microsoft/view/65972-exam-sc-400-topic-1-question-29-discussion/
 ======================================================================
-
 HOTSPOT -
 You plan to create a custom trainable classifier based on an organizational from template.
 You need to identify which role-based access control (RBAC) role is required to create the trainable classifier and where to store the seed content for the trainable classifier. The solution must use the principle of least privilege.
@@ -447,7 +418,6 @@ Hot Area:
 Topic 1 - Question 30
 https://www.examtopics.com/discussions/microsoft/view/64982-exam-sc-400-topic-1-question-30-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant.
 You create the following:
 ✑ A sensitivity label
@@ -466,7 +436,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 31
 https://www.examtopics.com/discussions/microsoft/view/82776-exam-sc-400-topic-1-question-31-discussion/
 ======================================================================
-
 HOTSPOT -
 You have the retention label policy shown in the Policy exhibit. (Click the Policy tab.)
 Users apply the retention label policy to files and set the asset ID as shown in the following table.
@@ -479,7 +448,6 @@ Hot Area:
 Topic 1 - Question 32
 https://www.examtopics.com/discussions/microsoft/view/65123-exam-sc-400-topic-1-question-32-discussion/
 ======================================================================
-
 You have a sensitive information type based on a trainable classifier.
 You are unsatisfied with the result of the result of trainable classifier.
 You need to retrain the classifier.
@@ -496,7 +464,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 33
 https://www.examtopics.com/discussions/microsoft/view/81992-exam-sc-400-topic-1-question-33-discussion/
 ======================================================================
-
 You receive an email that contains a list of words that will be used for a sensitive information type.
 You need to create a file that can be used as the source of a keyword dictionary.
 In which format should you save the list?
@@ -512,7 +479,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 34
 https://www.examtopics.com/discussions/microsoft/view/78642-exam-sc-400-topic-1-question-34-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 E5 tenant that contains three groups named Group1, Group2, and Group3.
 You have the users shown in the following table.
@@ -526,7 +492,6 @@ Hot Area:
 Topic 1 - Question 35
 https://www.examtopics.com/discussions/microsoft/view/80897-exam-sc-400-topic-1-question-35-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 E5 tenant that contains a sensitivity label named label1.
 You plan to enable co-authoring for encrypted files.
@@ -539,7 +504,6 @@ Hot Area:
 Topic 1 - Question 36
 https://www.examtopics.com/discussions/microsoft/view/96520-exam-sc-400-topic-1-question-36-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -552,7 +516,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 37
 https://www.examtopics.com/discussions/microsoft/view/96521-exam-sc-400-topic-1-question-37-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant that uses the following sensitivity labels:
 •	Confidential:
 o	Internal
@@ -571,7 +534,6 @@ D. Run the Execute-AzureAdLabelSync cmdlet.
 Topic 1 - Question 38
 https://www.examtopics.com/discussions/microsoft/view/98600-exam-sc-400-topic-1-question-38-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You need to create a trainable classifier that can be used as a condition in an auto-apply retention label policy.
@@ -581,7 +543,6 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Topic 1 - Question 39
 https://www.examtopics.com/discussions/microsoft/view/96151-exam-sc-400-topic-1-question-39-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 tenant.
 You need to add a new keyword dictionary.
 What should you create?
@@ -597,7 +558,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 40
 https://www.examtopics.com/discussions/microsoft/view/96523-exam-sc-400-topic-1-question-40-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 E5 subscription that contains two users named User1 and User2 and a group named Group1. User1 is a member of Group1.
 The subscription contains the sensitivity labels shown in the following table.
@@ -630,7 +590,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 41
 https://www.examtopics.com/discussions/microsoft/view/96895-exam-sc-400-topic-1-question-41-discussion/
 ======================================================================
-
 You plan to implement Microsoft Office 365 Advanced Message Encryption.
 You need to ensure that encrypted email sent to external recipients expires after seven days.
 What should you create first?
@@ -647,7 +606,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 42
 https://www.examtopics.com/discussions/microsoft/view/96777-exam-sc-400-topic-1-question-42-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that contains the users shown in the following table.
@@ -659,7 +617,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 43
 https://www.examtopics.com/discussions/microsoft/view/104370-exam-sc-400-topic-1-question-43-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 tenant that contains a trainable classifier named Classifier1.
@@ -671,7 +628,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 44
 https://www.examtopics.com/discussions/microsoft/view/105631-exam-sc-400-topic-1-question-44-discussion/
 ======================================================================
-
 You need to be alerted when users share sensitive documents from Microsoft OneDrive to any users outside your company.
 What should you do?
 
@@ -684,7 +640,6 @@ D. From the Exchange admin center, create a data loss prevention (DLP) policy.
 Topic 1 - Question 45
 https://www.examtopics.com/discussions/microsoft/view/103783-exam-sc-400-topic-1-question-45-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 tenant.
@@ -696,7 +651,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 46
 https://www.examtopics.com/discussions/microsoft/view/125175-exam-sc-400-topic-1-question-46-discussion/
 ======================================================================
-
 HOTSPOT -
 The subscription contains the users shown in the following table.
 You create the mail flow rules shown in the following table.
@@ -707,7 +661,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 47
 https://www.examtopics.com/discussions/microsoft/view/125176-exam-sc-400-topic-1-question-47-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that uses Microsoft Defender for Cloud Apps.
 You need to ensure that you receive an alert when a user uploads a document to a third-party cloud storage service.
 What should you use?
@@ -723,7 +676,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 48
 https://www.examtopics.com/discussions/microsoft/view/125666-exam-sc-400-topic-1-question-48-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription.
@@ -735,7 +687,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 49
 https://www.examtopics.com/discussions/microsoft/view/125667-exam-sc-400-topic-1-question-49-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have a Microsoft 365 E5 subscription.
@@ -752,7 +703,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 50
 https://www.examtopics.com/discussions/microsoft/view/125668-exam-sc-400-topic-1-question-50-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have a Microsoft 365 E5 subscription.
@@ -769,7 +719,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 51
 https://www.examtopics.com/discussions/microsoft/view/125669-exam-sc-400-topic-1-question-51-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have a Microsoft 365 E5 subscription.
@@ -786,7 +735,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 52
 https://www.examtopics.com/discussions/microsoft/view/127460-exam-sc-400-topic-1-question-52-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You need to ensure that encrypted email messages sent to an external recipient can be revoked or will expire within seven days.
 What should you configure first?
@@ -802,7 +750,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 53
 https://www.examtopics.com/discussions/microsoft/view/129381-exam-sc-400-topic-1-question-53-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Your network contains an on-premises Active Directory domain named contoso.com. The domain contains the groups shown in the following table.
@@ -816,7 +763,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 54
 https://www.examtopics.com/discussions/microsoft/view/132791-exam-sc-400-topic-1-question-54-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 tenant.
@@ -830,7 +776,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 55
 https://www.examtopics.com/discussions/microsoft/view/132983-exam-sc-400-topic-1-question-55-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant that has data loss prevention (DLP) policies.
 You need to review DLP policy matches for the tenant.
 What should you use?
@@ -846,7 +791,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 56
 https://www.examtopics.com/discussions/microsoft/view/132477-exam-sc-400-topic-1-question-56-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains two users named User1 and User2.
 On January 1, you create the sensitivity label shown in the following table.
 On January 2, you publish Label1 to User1.
@@ -866,7 +810,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 57
 https://www.examtopics.com/discussions/microsoft/view/134313-exam-sc-400-topic-1-question-57-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have a Microsoft 365 E5 subscription.
@@ -883,7 +826,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 58
 https://www.examtopics.com/discussions/microsoft/view/132225-exam-sc-400-topic-1-question-58-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains the users shown in the following table.
@@ -897,7 +839,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 59
 https://www.examtopics.com/discussions/microsoft/view/134121-exam-sc-400-topic-1-question-59-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 tenant that contains a user named User1. User1 is assigned the Compliance Administrator role.
 User1 cannot view the regular expression in the IP Address sensitive info type.
 You need to ensure that User1 can view the regular expression.
@@ -914,7 +855,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 60
 https://www.examtopics.com/discussions/microsoft/view/134315-exam-sc-400-topic-1-question-60-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You need to ensure that any message or document containing a credit card number is deleted automatically 12 months after it was created. The solution must minimize administrative effort.
 Which two components should you create? Each correct answer presents part of the solution.
@@ -932,7 +872,6 @@ Suggested Answer (community most voted): CD
 Topic 1 - Question 61
 https://www.examtopics.com/discussions/microsoft/view/132289-exam-sc-400-topic-1-question-61-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription.
 You create a new trainable classifier.
 You need to train the classifier.
@@ -949,7 +888,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 62
 https://www.examtopics.com/discussions/microsoft/view/132753-exam-sc-400-topic-1-question-62-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains the users shown in the following table.
@@ -962,7 +900,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 63
 https://www.examtopics.com/discussions/microsoft/view/132794-exam-sc-400-topic-1-question-63-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have two Microsoft 365 subscriptions named Contoso and Fabrikam. The subscriptions contain the users shown in the following table.
@@ -975,7 +912,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 64
 https://www.examtopics.com/discussions/microsoft/view/133812-exam-sc-400-topic-1-question-64-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft 365 E5 subscription.
@@ -991,7 +927,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 65
 https://www.examtopics.com/discussions/microsoft/view/132754-exam-sc-400-topic-1-question-65-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains two users named User1 and User2.
@@ -1013,7 +948,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 66
 https://www.examtopics.com/discussions/microsoft/view/132293-exam-sc-400-topic-1-question-66-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains 100 users and a Microsoft 365 group named Group1.
 All users have Windows 10 devices and use Microsoft SharePoint Online and Exchange Online.
 A sensitivity label named Label1 is published as the default label for Group1.
@@ -1032,7 +966,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 67
 https://www.examtopics.com/discussions/microsoft/view/132294-exam-sc-400-topic-1-question-67-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that has the trainable classifiers shown in the following table.
 Which trainable classifiers can you retrain?
 
@@ -1047,7 +980,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 68
 https://www.examtopics.com/discussions/microsoft/view/137686-exam-sc-400-topic-1-question-68-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that uses Microsoft Exchange Online and Teams.
@@ -1059,7 +991,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 69
 https://www.examtopics.com/discussions/microsoft/view/136140-exam-sc-400-topic-1-question-69-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -1072,7 +1003,6 @@ NOTE: Each selection is worth one point.
 Topic 1 - Question 70
 https://www.examtopics.com/discussions/microsoft/view/136547-exam-sc-400-topic-1-question-70-discussion/
 ======================================================================
-
 You have a Microsoft 365 alert named Alert2 as shown in the following exhibit.
 You need to manage the status of Alert2.
 To which status can you change Alert2?
@@ -1089,7 +1019,6 @@ Suggested Answer (community most voted): E
 Topic 1 - Question 71
 https://www.examtopics.com/discussions/microsoft/view/136510-exam-sc-400-topic-1-question-71-discussion/
 ======================================================================
-
 You have a Microsoft SharePoint Online site named Site1 that contains a document library. The library contains more than 1,000 documents. Some of the documents are job applicant resumes. All the documents are in the English language.
 You plan to apply a sensitivity label automatically to any document identified as a resume. Only documents that contain work experience, education, and accomplishments must be labeled automatically.
 You need to identify and categorize the resumes. The solution must minimize administrative effort.
@@ -1106,7 +1035,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 72
 https://www.examtopics.com/discussions/microsoft/view/137199-exam-sc-400-topic-1-question-72-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 sensitivity label that is published to all the users in your Microsoft Entra tenant as shown in the following exhibit.
@@ -1117,7 +1045,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 73
 https://www.examtopics.com/discussions/microsoft/view/136148-exam-sc-400-topic-1-question-73-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains a Microsoft 365 group named Group1. Group1 contains 100 users and has dynamic user membership.
 All users have Windows 10 devices and use Microsoft SharePoint Online and Exchange Online.
 You create a sensitivity label named Label1 and publish Label1 as the default label for Group1.
@@ -1137,7 +1064,6 @@ Suggested Answer (community most voted): CD
 Topic 1 - Question 74
 https://www.examtopics.com/discussions/microsoft/view/140711-exam-sc-400-topic-1-question-74-discussion/
 ======================================================================
-
 SIMULATION
 -
 Use the following login credentials as needed:
@@ -1159,7 +1085,6 @@ To complete this task, sign in to the appropriate admin center.
 Topic 1 - Question 75
 https://www.examtopics.com/discussions/microsoft/view/140134-exam-sc-400-topic-1-question-75-discussion/
 ======================================================================
-
 SIMULATION
 -
 Use the following login credentials as needed:
@@ -1179,7 +1104,6 @@ To complete this task, sign in to the appropriate admin center.
 Topic 1 - Question 76
 https://www.examtopics.com/discussions/microsoft/view/145882-exam-sc-400-topic-1-question-76-discussion/
 ======================================================================
-
 SIMULATION
 -
 Use the following login credentials as needed:
@@ -1196,10 +1120,32 @@ You need to create a label that will add a watermark of “Project Falcon” in 
 To complete this task, sign in to the appropriate admin center.
 
 ======================================================================
+Topic 1 - Question 77
+https://www.examtopics.com/discussions/microsoft/view/338938-exam-sc-400-topic-1-question-77-discussion/
+======================================================================
+SIMULATION
+-
+Use the following login credentials as needed:
+To enter your username, place your cursor in the Sign in box and click on the username below.
+To enter your password, place your cursor in the Enter password box and click on the password below.
+Microsoft 365 Username: [email protected]
+Microsoft 365 Password: **********
+If the Microsoft 365 portal does not load successfully in the browser, press CTRL-K to reload the portal in a new browser tab.
+The following information is for technical support purposes only:
+Lab Instance: 12345678
+-
+You plan to create a data loss prevention (DIP) policy that will apply to content containing the following keywords:
+•	Tailspin
+•	Litware
+•	Falcon
+You need to create a keyword list that can be used in the DLP policy.
+You do NOT need to create the DLP policy at this time.
+To complete this task, sign in to the appropriate admin center.
+
+======================================================================
 Topic 1 - Question 78
 https://www.examtopics.com/discussions/microsoft/view/137690-exam-sc-400-topic-1-question-78-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains the groups shown in the following table.
@@ -1212,7 +1158,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 79
 https://www.examtopics.com/discussions/microsoft/view/138706-exam-sc-400-topic-1-question-79-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains the data loss prevention (DLP) policies shown in the following table.
@@ -1225,7 +1170,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 80
 https://www.examtopics.com/discussions/microsoft/view/139143-exam-sc-400-topic-1-question-80-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 subscription that contains a sensitivity label named Contoso Confidential.
 You publish Contoso Confidential to all users.
@@ -1238,7 +1182,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 81
 https://www.examtopics.com/discussions/microsoft/view/149742-exam-sc-400-topic-1-question-81-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains the groups shown in the following table.
@@ -1252,7 +1195,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 82
 https://www.examtopics.com/discussions/microsoft/view/150437-exam-sc-400-topic-1-question-82-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant that is opt-in for trainable classifiers.
 You need to ensure that a user named User1 can create custom trainable classifiers. The solution must use the principle of least privilege.
 Which role should you assign to User1?
@@ -1268,7 +1210,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 83
 https://www.examtopics.com/discussions/microsoft/view/149743-exam-sc-400-topic-1-question-83-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that has data loss prevention (DLP) implemented.
@@ -1281,7 +1222,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 84
 https://www.examtopics.com/discussions/microsoft/view/150441-exam-sc-400-topic-1-question-84-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -1294,7 +1234,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 85
 https://www.examtopics.com/discussions/microsoft/view/150843-exam-sc-400-topic-1-question-85-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft 365 E5 subscription that has data loss prevention (DLP) implemented.
@@ -1309,7 +1248,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 86
 https://www.examtopics.com/discussions/microsoft/view/156190-exam-sc-400-topic-1-question-86-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 tenant that contains a published sensitivity label named Sensitivity1.
@@ -1321,7 +1259,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 87
 https://www.examtopics.com/discussions/microsoft/view/157544-exam-sc-400-topic-1-question-87-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -1334,7 +1271,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 88
 https://www.examtopics.com/discussions/microsoft/view/154938-exam-sc-400-topic-1-question-88-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains a retention policy named RP1 as shown in the following table.
 You place a preservation lock on RP1.
 You need to modify RP1.
@@ -1354,7 +1290,6 @@ Suggested Answer (community most voted): CF
 Topic 1 - Question 89
 https://www.examtopics.com/discussions/microsoft/view/302910-exam-sc-400-topic-1-question-89-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You have a Microsoft Entra tenant named contoso.com.
 Your company collaborates with a partner company that has a Microsoft Entra tenant named fabrikam.com.
@@ -1373,7 +1308,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 90
 https://www.examtopics.com/discussions/microsoft/view/156033-exam-sc-400-topic-1-question-90-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains two Microsoft SharePoint Online sites named Site1 and Site2.
 You plan to use policies to meet the following requirements:
 •	Add a watermark of Confidential to a document if the document contains the words Project1 or Project2.
@@ -1394,7 +1328,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 91
 https://www.examtopics.com/discussions/microsoft/view/155025-exam-sc-400-topic-1-question-91-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft 365 E5 subscription.
@@ -1408,7 +1341,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 92
 https://www.examtopics.com/discussions/microsoft/view/156035-exam-sc-400-topic-1-question-92-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription.
@@ -1424,7 +1356,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 93
 https://www.examtopics.com/discussions/microsoft/view/156036-exam-sc-400-topic-1-question-93-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft E5 subscription that contains two users named User1 and User2.
@@ -1438,7 +1369,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 94
 https://www.examtopics.com/discussions/microsoft/view/302911-exam-sc-400-topic-1-question-94-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that uses retention label policies.
 You need to identify all the changes made to retention labels during the last 30 days.
 What should you use in the Microsoft Purview compliance portal?
@@ -1454,7 +1384,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 95
 https://www.examtopics.com/discussions/microsoft/view/155026-exam-sc-400-topic-1-question-95-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You use the following services:
 •	Microsoft Teams
@@ -1477,7 +1406,6 @@ Suggested Answer (community most voted): BE
 Topic 1 - Question 96
 https://www.examtopics.com/discussions/microsoft/view/154785-exam-sc-400-topic-1-question-96-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains the sensitive information types (SITs) shown in the following table.
@@ -1489,7 +1417,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 97
 https://www.examtopics.com/discussions/microsoft/view/157778-exam-sc-400-topic-1-question-97-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that uses Microsoft Purview Audit (Premium) with the 10-Year Audit Log Retention add-on license.
@@ -1499,10 +1426,95 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 
 ======================================================================
+Topic 1 - Question 98
+https://www.examtopics.com/discussions/microsoft/view/379682-exam-sc-400-topic-1-question-98-discussion/
+======================================================================
+You have a Microsoft 365 E5 subscription.
+You need to enable support for sensitivity labels in Microsoft SharePoint Online.
+What should you use?
+
+A. the SharePoint admin center
+B. the Microsoft Entra admin center
+C. the Microsoft 365 admin center
+D. the Microsoft Purview compliance portal
+
+======================================================================
+Topic 1 - Question 99
+https://www.examtopics.com/discussions/microsoft/view/379638-exam-sc-400-topic-1-question-99-discussion/
+======================================================================
+HOTSPOT
+-
+You have a Microsoft 365 subscription that contains the sensitive information types (SITs) shown in the following exhibit.
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 1 - Question 100
+https://www.examtopics.com/discussions/microsoft/view/379646-exam-sc-400-topic-1-question-100-discussion/
+======================================================================
+HOTSPOT
+-
+You have a Microsoft 365 E5 subscription that contains the sensitive information types (SITs) shown in the following table.
+You plan to create the policies shown in the following table and assign them to a Microsoft SharePoint Online site.
+Which policies can use SIT1, and which policies can use SIT2? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 1 - Question 101
+https://www.examtopics.com/discussions/microsoft/view/379650-exam-sc-400-topic-1-question-101-discussion/
+======================================================================
+You have a Microsoft 365 E5 subscription that has a Microsoft Purview exact data match (EDM) classifier named EDM1.
+You plan to create the Microsoft Purview policies shown in the following table.
+Which policies can use EDM1?
+
+A. DLP1 only
+B. Retention1 only
+C. DLP1 and Insider1 only
+D. Insider1 and Retention1 only
+E. DLP1, Insider1, and Retention1
+
+======================================================================
+Topic 1 - Question 102
+https://www.examtopics.com/discussions/microsoft/view/379680-exam-sc-400-topic-1-question-102-discussion/
+======================================================================
+HOTSPOT
+-
+You have a Microsoft 365 E5 subscription.
+In Microsoft Exchange Online, you have the mail flow rule shown in the following exhibit.
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 1 - Question 103
+https://www.examtopics.com/discussions/microsoft/view/390982-exam-sc-400-topic-1-question-103-discussion/
+======================================================================
+You have a Microsoft 36S E5 subscription that uses Microsoft Purview.
+You are creating an exact data match (EDM) classifier named EDM1.
+For EDM1, you upload a schema file that contains the fields shown in the following table.
+What is the maximum number of primary elements that EDM1 can have?
+
+A. 1
+B. 2
+C. 3
+D. 4
+
+======================================================================
+Topic 1 - Question 104
+https://www.examtopics.com/discussions/microsoft/view/390974-exam-sc-400-topic-1-question-104-discussion/
+======================================================================
+You have a Microsoft 365 E5 subscription. The subscription has a trainable classifier that is used to automatically apply a retention label.
+You need to retrain the classifier.
+What should you use in the Microsoft Purview portal?
+
+A. Activity explorer
+B. Content explorer
+C. Records management
+D. Content search
+
+======================================================================
 Topic 2 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/53361-exam-sc-400-topic-2-question-1-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You implement Microsoft 365 Endpoint data loss prevention (Endpoint DLP).
@@ -1520,7 +1532,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/64723-exam-sc-400-topic-2-question-2-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant that uses 100 data loss prevention (DLP) policies.
 A Microsoft Exchange administrator frequently investigates emails that were blocked due to DLP policy violations.
 You need recommend which DLP report the Exchange administrator can use to identify how many messages were blocked based on each DLP policy.
@@ -1537,7 +1548,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/53230-exam-sc-400-topic-2-question-3-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You are configuring a file policy in Microsoft Cloud App Security.
@@ -1554,7 +1564,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/55625-exam-sc-400-topic-2-question-4-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You are configuring a file policy in Microsoft Cloud App Security.
@@ -1571,7 +1580,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/86060-exam-sc-400-topic-2-question-5-discussion/
 ======================================================================
-
 Your company has a Microsoft 365 tenant that uses a domain named contoso.com.
 You are implementing data loss prevention (DLP).
 The company's default browser is Microsoft Edge.
@@ -1594,7 +1602,6 @@ Suggested Answer (community most voted): CD
 Topic 2 - Question 6
 https://www.examtopics.com/discussions/microsoft/view/56914-exam-sc-400-topic-2-question-6-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 tenant that uses Microsoft Teams.
 You create a data loss prevention (DLP) policy to prevent Microsoft Teams users from sharing sensitive information.
@@ -1609,7 +1616,6 @@ Hot Area:
 Topic 2 - Question 7
 https://www.examtopics.com/discussions/microsoft/view/56917-exam-sc-400-topic-2-question-7-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a data loss prevention (DLP) policy that has the advanced DLP rules shown in the following table.
 You need to identify which rules will apply when content matches multiple advanced DLP rules.
@@ -1621,7 +1627,6 @@ Hot Area:
 Topic 2 - Question 8
 https://www.examtopics.com/discussions/microsoft/view/58215-exam-sc-400-topic-2-question-8-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You implement Microsoft 365 Endpoint data loss prevention (Endpoint DLP).
@@ -1637,7 +1642,6 @@ B. No
 Topic 2 - Question 9
 https://www.examtopics.com/discussions/microsoft/view/56919-exam-sc-400-topic-2-question-9-discussion/
 ======================================================================
-
 You create a data loss prevention (DLP) policy. The Advanced DLP rules page is shown in the Rules exhibit.
 The Review your settings page is shown in the Review exhibit.
 You need to review the potential impact of enabling the policy without applying the actions.
@@ -1654,7 +1658,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 10
 https://www.examtopics.com/discussions/microsoft/view/58216-exam-sc-400-topic-2-question-10-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You recently discovered that the developers at your company emailed Azure Storage keys in plain text to third parties.
@@ -1671,7 +1674,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 11
 https://www.examtopics.com/discussions/microsoft/view/58217-exam-sc-400-topic-2-question-11-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You recently discovered that the developers at your company emailed Azure Storage keys in plain text to third parties.
@@ -1688,7 +1690,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 12
 https://www.examtopics.com/discussions/microsoft/view/58218-exam-sc-400-topic-2-question-12-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You recently discovered that the developers at your company emailed Azure Storage keys in plain text to third parties.
@@ -1705,7 +1706,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 13
 https://www.examtopics.com/discussions/microsoft/view/56921-exam-sc-400-topic-2-question-13-discussion/
 ======================================================================
-
 You are creating an advanced data loss prevention (DLP) rule in a DLP policy named Policy1 that will have all locations selected.
 Which two conditions can you use in the rule? Each correct answer presents a complete solution. (Choose two.)
 NOTE: Each correct selection is worth one point.
@@ -1722,7 +1722,6 @@ Suggested Answer (community most voted): AB
 Topic 2 - Question 14
 https://www.examtopics.com/discussions/microsoft/view/56922-exam-sc-400-topic-2-question-14-discussion/
 ======================================================================
-
 You need to provide a user with the ability to view data loss prevention (DLP) alerts in the Microsoft 365 compliance center. The solution must use the principle of least privilege.
 Which role should you assign to the user?
 
@@ -1737,7 +1736,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 15
 https://www.examtopics.com/discussions/microsoft/view/81786-exam-sc-400-topic-2-question-15-discussion/
 ======================================================================
-
 You need to be alerted when users share sensitive documents from Microsoft OneDrive to any users outside your company.
 What should you do?
 
@@ -1752,7 +1750,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 16
 https://www.examtopics.com/discussions/microsoft/view/63865-exam-sc-400-topic-2-question-16-discussion/
 ======================================================================
-
 You need to protect documents that contain credit card numbers from being opened by users outside your company. The solution must ensure that users at your company can open the documents.
 What should you use?
 
@@ -1767,7 +1764,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 17
 https://www.examtopics.com/discussions/microsoft/view/63841-exam-sc-400-topic-2-question-17-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant that contains a Microsoft SharePoint Online site named Site1.
 You have the users shown in the following table.
 You create a data loss prevention (DLP) policy for Site1 that detects credit card number information. You configure the policy to use the following protection action:
@@ -1788,7 +1784,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 18
 https://www.examtopics.com/discussions/microsoft/view/64536-exam-sc-400-topic-2-question-18-discussion/
 ======================================================================
-
 You have a data loss prevention (DLP) policy that applies to the Devices location. The policy protects documents that contain United States passport numbers.
 Users report that they cannot upload documents to a travel management website because of the policy.
 You need to ensure that the users can upload the documents to the travel management website. The solution must prevent the protected content from being uploaded to other locations.
@@ -1805,7 +1800,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 19
 https://www.examtopics.com/discussions/microsoft/view/63842-exam-sc-400-topic-2-question-19-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant that has devices onboarded to Microsoft Defender for Endpoint as shown in the following table.
 You plan to start using Microsoft 365 Endpoint data loss protection (Endpoint DLP).
 Which devices support Endpoint DLP?
@@ -1822,7 +1816,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 20
 https://www.examtopics.com/discussions/microsoft/view/63843-exam-sc-400-topic-2-question-20-discussion/
 ======================================================================
-
 A compliance administrator recently created several data loss prevention (DLP) policies.
 After the policies are created, you receive a higher than expected volume of DLP alerts.
 You need to identify which rules are generating the alerts.
@@ -1839,7 +1832,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 21
 https://www.examtopics.com/discussions/microsoft/view/64557-exam-sc-400-topic-2-question-21-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 tenant that uses data loss prevention (DLP) to protect sensitive information.
 You create a new custom sensitive info type that has the matching element shown in the following exhibit.
@@ -1853,7 +1845,6 @@ Hot Area:
 Topic 2 - Question 22
 https://www.examtopics.com/discussions/microsoft/view/65323-exam-sc-400-topic-2-question-22-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have a Microsoft 365 tenant and 500 computers that run Windows 10. The computers are onboarded to the Microsoft 365 compliance center.
@@ -1871,7 +1862,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 23
 https://www.examtopics.com/discussions/microsoft/view/76894-exam-sc-400-topic-2-question-23-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have a Microsoft 365 tenant and 500 computers that run Windows 10. The computers are onboarded to the Microsoft 365 compliance center.
@@ -1889,7 +1879,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 24
 https://www.examtopics.com/discussions/microsoft/view/71206-exam-sc-400-topic-2-question-24-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have a Microsoft 365 tenant and 500 computers that run Windows 10. The computers are onboarded to the Microsoft 365 compliance center.
@@ -1907,7 +1896,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 25
 https://www.examtopics.com/discussions/microsoft/view/63932-exam-sc-400-topic-2-question-25-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You are configuring a file policy in Microsoft Cloud App Security.
@@ -1922,7 +1910,6 @@ B. No
 Topic 2 - Question 26
 https://www.examtopics.com/discussions/microsoft/view/63519-exam-sc-400-topic-2-question-26-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You are configuring a file policy in Microsoft Cloud App Security.
@@ -1939,7 +1926,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 27
 https://www.examtopics.com/discussions/microsoft/view/70352-exam-sc-400-topic-2-question-27-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You are configuring a file policy in Microsoft Cloud App Security.
@@ -1956,7 +1942,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 28
 https://www.examtopics.com/discussions/microsoft/view/65091-exam-sc-400-topic-2-question-28-discussion/
 ======================================================================
-
 You have a data loss prevention (DLP) policy configured for endpoints as shown in the following exhibit.
 From a computer named Computer1, a user can sometimes upload files to cloud services and sometimes cannot. Other users experience the same issue.
 What are two possible causes of the issue? Each correct answer presents a complete solution.
@@ -1974,7 +1959,6 @@ Suggested Answer (community most voted): CE
 Topic 2 - Question 29
 https://www.examtopics.com/discussions/microsoft/view/65246-exam-sc-400-topic-2-question-29-discussion/
 ======================================================================
-
 You are planning a data loss prevention (DLP) solution that will apply to computers that run Windows 10.
 You need to ensure that when users attempt to copy a file that contains sensitive information to a USB storage device, the following requirements are met:
 ✑ If the users are members of a group named Group1, the users must be allowed to copy the file, and an event must be recorded in the audit log.
@@ -1991,7 +1975,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 30
 https://www.examtopics.com/discussions/microsoft/view/64855-exam-sc-400-topic-2-question-30-discussion/
 ======================================================================
-
 You need to be alerted when users share sensitive documents from Microsoft OneDrive to any users outside your company.
 What should you do?
 
@@ -2006,7 +1989,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 31
 https://www.examtopics.com/discussions/microsoft/view/67414-exam-sc-400-topic-2-question-31-discussion/
 ======================================================================
-
 Your company has a Microsoft 365 tenant.
 The company performs annual employee assessments. The assessment results are recorded in a document named AssessmentTemplate.docx that is created by using a Microsoft Word template. Copies of the employee assessments are sent to employees and their managers. The assessment copies are stored in mailboxes, Microsoft SharePoint Online sites, and OneDrive for Business folders. A copy of each assessment is also stored in a SharePoint Online folder named
 Assessments.
@@ -2024,7 +2006,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 32
 https://www.examtopics.com/discussions/microsoft/view/64861-exam-sc-400-topic-2-question-32-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that uses Microsoft Exchange Online.
 You need to receive an alert if a user emails sensitive documents to specific external domains.
 What should you create?
@@ -2040,7 +2021,6 @@ Suggested Answer (community most voted): C
 Topic 2 - Question 33
 https://www.examtopics.com/discussions/microsoft/view/53229-exam-sc-400-topic-2-question-33-discussion/
 ======================================================================
-
 HOTSPOT -
 You create a data loss prevention (DLP) policy that meets the following requirements:
 ✑ Prevents guest users from accessing a sensitive document shared during a Microsoft Teams chat
@@ -2053,7 +2033,6 @@ Hot Area:
 Topic 2 - Question 34
 https://www.examtopics.com/discussions/microsoft/view/51918-exam-sc-400-topic-2-question-34-discussion/
 ======================================================================
-
 You are configuring a data loss prevention (DLP) policy to report when credit card data is found on a Windows 10 device joined to Azure Active Directory (Azure
 AD).
 You plan to use information from the policy to restrict the ability to copy the sensitive data to the clipboard.
@@ -2070,7 +2049,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 35
 https://www.examtopics.com/discussions/microsoft/view/56277-exam-sc-400-topic-2-question-35-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 E5 tenant.
 Data loss prevention (DLP) policies are applied to Exchange email, SharePoint sites, and OneDrive accounts locations.
@@ -2083,7 +2061,6 @@ Hot Area:
 Topic 2 - Question 36
 https://www.examtopics.com/discussions/microsoft/view/53784-exam-sc-400-topic-2-question-36-discussion/
 ======================================================================
-
 HOTSPOT -
 You plan to implement Microsoft 365 Endpoint data loss prevention (Endpoint DLP).
 You need to identify which end user activities can be audited on the endpoints, and which activities can be restricted on the endpoints.
@@ -2095,7 +2072,6 @@ Hot Area:
 Topic 2 - Question 37
 https://www.examtopics.com/discussions/microsoft/view/55706-exam-sc-400-topic-2-question-37-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 tenant and the Windows 10 devices shown in the following table.
 To which devices can you apply Microsoft 365 Endpoint data loss prevention (Endpoint DLP) settings?
 
@@ -2111,7 +2087,6 @@ Suggested Answer (community most voted): C
 Topic 2 - Question 38
 https://www.examtopics.com/discussions/microsoft/view/56166-exam-sc-400-topic-2-question-38-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft SharePoint Online site that contains the following files.
 Users are assigned roles for the site as shown in the following table.
@@ -2123,7 +2098,6 @@ Hot Area:
 Topic 2 - Question 39
 https://www.examtopics.com/discussions/microsoft/view/53358-exam-sc-400-topic-2-question-39-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You implement Microsoft 365 Endpoint data loss prevention (Endpoint DLP).
@@ -2141,7 +2115,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 40
 https://www.examtopics.com/discussions/microsoft/view/53359-exam-sc-400-topic-2-question-40-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You implement Microsoft 365 Endpoint data loss prevention (Endpoint DLP).
@@ -2157,7 +2130,6 @@ B. No
 Topic 2 - Question 41
 https://www.examtopics.com/discussions/microsoft/view/71693-exam-sc-400-topic-2-question-41-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have a Microsoft 365 tenant and 500 computers that run Windows 10. The computers are onboarded to the Microsoft 365 compliance center.
@@ -2173,7 +2145,6 @@ B. No
 Topic 2 - Question 42
 https://www.examtopics.com/discussions/microsoft/view/64813-exam-sc-400-topic-2-question-42-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You recently discovered that the developers at your company emailed Azure Storage keys in plain text to third parties.
@@ -2190,7 +2161,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 43
 https://www.examtopics.com/discussions/microsoft/view/96527-exam-sc-400-topic-2-question-43-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains the devices shown in the following table.
@@ -2202,7 +2172,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 44
 https://www.examtopics.com/discussions/microsoft/view/103458-exam-sc-400-topic-2-question-44-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -2214,7 +2183,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 45
 https://www.examtopics.com/discussions/microsoft/view/96528-exam-sc-400-topic-2-question-45-discussion/
 ======================================================================
-
 You are creating a data loss prevention (DLP) policy that will apply to all available locations.
 You configure an advanced DLP rule in the policy.
 Which type of condition can you use in the rule?
@@ -2230,7 +2198,6 @@ Suggested Answer (community most voted): C
 Topic 2 - Question 46
 https://www.examtopics.com/discussions/microsoft/view/98789-exam-sc-400-topic-2-question-46-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains a Microsoft SharePoint Online site named Site1.
 You need to create a data loss prevention (DLP) policy to prevent the sharing of files that contain source code. The solution must minimize administrative effort.
 What should you include in the solution?
@@ -2246,7 +2213,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 47
 https://www.examtopics.com/discussions/microsoft/view/96530-exam-sc-400-topic-2-question-47-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains a data loss prevention (DLP) policy named DLP1.
 DLP1 has a rule that triggers numerous alerts.
 You need to reduce the number of alert notifications that are generated. The solution must maintain the sensitivity of DLP1.
@@ -2263,7 +2229,6 @@ Suggested Answer (community most voted): C
 Topic 2 - Question 48
 https://www.examtopics.com/discussions/microsoft/view/96532-exam-sc-400-topic-2-question-48-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Your company has offices in 30 countries.
@@ -2279,7 +2244,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 49
 https://www.examtopics.com/discussions/microsoft/view/96475-exam-sc-400-topic-2-question-49-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 tenant.
 You create a data loss prevention (DLP) policy.
 You need to ensure that the policy protects documents in Microsoft Teams chat sessions.
@@ -2296,7 +2260,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 50
 https://www.examtopics.com/discussions/microsoft/view/103460-exam-sc-400-topic-2-question-50-discussion/
 ======================================================================
-
 You have a Microsoft SharePoint Online site named Site1 that contains the following files:
 •	File1.docx
 •	File2.xlsx
@@ -2316,7 +2279,6 @@ Suggested Answer (community most voted): C
 Topic 2 - Question 51
 https://www.examtopics.com/discussions/microsoft/view/105638-exam-sc-400-topic-2-question-51-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -2328,7 +2290,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 52
 https://www.examtopics.com/discussions/microsoft/view/103462-exam-sc-400-topic-2-question-52-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -2340,7 +2301,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 53
 https://www.examtopics.com/discussions/microsoft/view/103463-exam-sc-400-topic-2-question-53-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You need to create a Microsoft Defender for Cloud Apps policy that will detect data loss prevention (DLP) violations.
 What should you create?
@@ -2354,7 +2314,6 @@ D. a file policy
 Topic 2 - Question 54
 https://www.examtopics.com/discussions/microsoft/view/103464-exam-sc-400-topic-2-question-54-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 tenant that uses Microsoft Teams and contains two users named User1 and User2.
 You create a data loss prevention (DLP) policy that is applied to the Teams chat and channel messages location for User1 and User2.
 Which Teams entities will have DLP protection?
@@ -2369,7 +2328,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 55
 https://www.examtopics.com/discussions/microsoft/view/103465-exam-sc-400-topic-2-question-55-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains a Microsoft SharePoint Online site named Site1 and the users shown in the following table.
@@ -2383,7 +2341,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 56
 https://www.examtopics.com/discussions/microsoft/view/105639-exam-sc-400-topic-2-question-56-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have a Microsoft 365 tenant and 500 computers that run Windows 10. The computers are onboarded to the Microsoft 365 compliance center.
@@ -2401,7 +2358,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 57
 https://www.examtopics.com/discussions/microsoft/view/134494-exam-sc-400-topic-2-question-57-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that uses data loss prevention (DLP) to protect sensitive information.
@@ -2415,7 +2371,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 58
 https://www.examtopics.com/discussions/microsoft/view/125294-exam-sc-400-topic-2-question-58-discussion/
 ======================================================================
-
 You have a Microsoft SharePoint Online site named Site1 that contains the files shown in the following table.
 You have a data loss prevention (DLP) policy named DLP1 that has the advanced DLP rules shown in the following table.
 You apply DLP1 to Site1.
@@ -2432,7 +2387,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 59
 https://www.examtopics.com/discussions/microsoft/view/125296-exam-sc-400-topic-2-question-59-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 tenant that has devices onboarded to Microsoft Defender for Endpoint as shown in the following table.
 You plan to start using Microsoft 365 Endpoint data loss protection (Endpoint DLP).
 Which devices support Endpoint DLP?
@@ -2449,7 +2403,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 60
 https://www.examtopics.com/discussions/microsoft/view/141220-exam-sc-400-topic-2-question-60-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains multiple data loss prevention (DLP) policies.
 You need to identify which DLP rules include conditions that can trigger the DLP policies.
 Which report should you use from the Microsoft Purview compliance portal?
@@ -2463,7 +2416,6 @@ D. Third-party DLP policy matches
 Topic 2 - Question 61
 https://www.examtopics.com/discussions/microsoft/view/127689-exam-sc-400-topic-2-question-61-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You need to prevent users from uploading data loss prevention (DLP)-protected documents to the following third-party websites:
 •	web1.contoso.com
@@ -2482,7 +2434,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 62
 https://www.examtopics.com/discussions/microsoft/view/127186-exam-sc-400-topic-2-question-62-discussion/
 ======================================================================
-
 You plan to create a new data loss prevention (DLP) policy named DIP1.
 DLP1 will be applied to the Exchange email location.
 You need to exclude two users named User1 and User2 from DLP1.
@@ -2499,7 +2450,6 @@ Suggested Answer (community most voted): C
 Topic 2 - Question 63
 https://www.examtopics.com/discussions/microsoft/view/127187-exam-sc-400-topic-2-question-63-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that uses an Azure AD tenant named contoso.com.
@@ -2529,7 +2479,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 64
 https://www.examtopics.com/discussions/microsoft/view/127188-exam-sc-400-topic-2-question-64-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 Users access their mailbox by using the following apps:
 •	Outlook Win32
@@ -2554,7 +2503,6 @@ Suggested Answer (community most voted): C
 Topic 2 - Question 65
 https://www.examtopics.com/discussions/microsoft/view/127804-exam-sc-400-topic-2-question-65-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains a device named Device1.
 You need to enable Endpoint data loss prevention (Endpoint DLP) for Device1.
 What should you do first in the Microsoft Purview compliance portal?
@@ -2571,7 +2519,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 66
 https://www.examtopics.com/discussions/microsoft/view/127189-exam-sc-400-topic-2-question-66-discussion/
 ======================================================================
-
 You have Microsoft 365 E5 subscription that uses data loss prevention (DLP) to protect sensitive information.
 You have a document named Form.docx.
 You plan to use PowerShell to create a document fingerprint based on Form.docx.
@@ -2589,7 +2536,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 67
 https://www.examtopics.com/discussions/microsoft/view/134568-exam-sc-400-topic-2-question-67-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft 365 subscription that contains 20 data loss prevention (DLP) policies.
@@ -2604,7 +2550,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 68
 https://www.examtopics.com/discussions/microsoft/view/132656-exam-sc-400-topic-2-question-68-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft 365 E5 subscription.
@@ -2616,7 +2561,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 69
 https://www.examtopics.com/discussions/microsoft/view/133495-exam-sc-400-topic-2-question-69-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains the users shown in the following table.
@@ -2631,7 +2575,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 70
 https://www.examtopics.com/discussions/microsoft/view/133496-exam-sc-400-topic-2-question-70-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You plan to provide a user named User1 with the ability to view data loss prevention (DLP) reports.
@@ -2645,7 +2588,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 71
 https://www.examtopics.com/discussions/microsoft/view/133498-exam-sc-400-topic-2-question-71-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft 365 E5 subscription that uses Microsoft Defender for Cloud Apps.
@@ -2659,7 +2601,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 72
 https://www.examtopics.com/discussions/microsoft/view/137940-exam-sc-400-topic-2-question-72-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -2674,7 +2615,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 73
 https://www.examtopics.com/discussions/microsoft/view/136532-exam-sc-400-topic-2-question-73-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft SharePoint Online site named Site1 that contains the files shown in the following table.
@@ -2687,7 +2627,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 74
 https://www.examtopics.com/discussions/microsoft/view/137941-exam-sc-400-topic-2-question-74-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant.
 You have a database that stores customer details. Each customer has a unique 13-digit identifier that consists of a fixed pattern of numbers and letters.
 You need to implement a data loss prevention (DLP) solution that meets the following requirements:
@@ -2708,7 +2647,6 @@ Suggested Answer (community most voted): CD
 Topic 2 - Question 75
 https://www.examtopics.com/discussions/microsoft/view/137942-exam-sc-400-topic-2-question-75-discussion/
 ======================================================================
-
 You create a label that encrypts email data.
 Users report that they cannot use the label in Outlook on the web to protection the email messages they send.
 You need to ensure that the users can use the new label to protect their email.
@@ -2725,7 +2663,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 76
 https://www.examtopics.com/discussions/microsoft/view/140741-exam-sc-400-topic-2-question-76-discussion/
 ======================================================================
-
 SIMULATION
 -
 Use the following login credentials as needed:
@@ -2744,7 +2681,6 @@ To complete this task, sign in to the appropriate admin center.
 Topic 2 - Question 77
 https://www.examtopics.com/discussions/microsoft/view/144535-exam-sc-400-topic-2-question-77-discussion/
 ======================================================================
-
 SIMULATION
 -
 Use the following login credentials as needed:
@@ -2763,7 +2699,6 @@ To complete this task, sign in to the appropriate admin center.
 Topic 2 - Question 78
 https://www.examtopics.com/discussions/microsoft/view/147881-exam-sc-400-topic-2-question-78-discussion/
 ======================================================================
-
 SIMULATION
 -
 Use the following login credentials as needed:
@@ -2784,7 +2719,6 @@ To complete this task, sign in to the appropriate admin center.
 Topic 2 - Question 79
 https://www.examtopics.com/discussions/microsoft/view/150361-exam-sc-400-topic-2-question-79-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You are creating a data loss prevention (DLP) policy named DLP1 as shown in the following exhibit.
@@ -2795,7 +2729,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 80
 https://www.examtopics.com/discussions/microsoft/view/151120-exam-sc-400-topic-2-question-80-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains the users shown in the following table.
@@ -2809,7 +2742,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 81
 https://www.examtopics.com/discussions/microsoft/view/150493-exam-sc-400-topic-2-question-81-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You create a data loss prevention (DLP) policy and select Use Notifications to inform your users and help educate them on the proper use of sensitive info.
 Which apps will show the policy tip?
@@ -2827,7 +2759,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 82
 https://www.examtopics.com/discussions/microsoft/view/150494-exam-sc-400-topic-2-question-82-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You need to apply data loss prevention (DLP) policies to the following:
 •	Microsoft Exchange Online mailboxes
@@ -2849,7 +2780,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 83
 https://www.examtopics.com/discussions/microsoft/view/169144-exam-sc-400-topic-2-question-83-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You recently discovered that the developers at your company emailed Azure Storage keys in plain text to third parties.
@@ -2866,7 +2796,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 84
 https://www.examtopics.com/discussions/microsoft/view/303220-exam-sc-400-topic-2-question-84-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You plan to create an exact data match (EDM) classifier named EDM1.
 You need to grant permissions to hash and upload the sensitive information source table for EDM1.
@@ -2881,10 +2810,23 @@ E. a Microsoft Purview role group named EDM_DataUploaders
 Suggested Answer (community most voted): B
 
 ======================================================================
+Topic 2 - Question 85
+https://www.examtopics.com/discussions/microsoft/view/345851-exam-sc-400-topic-2-question-85-discussion/
+======================================================================
+You have a Microsoft 365 E5 subscription.
+A security manager receives an email message every time a data loss prevention (DLP) policy match occurs.
+You need to limit alert notifications to actionable DLP events.
+What should you do?
+
+A. From the Microsoft Purview compliance portal, modify the User overrides settings of a DLP policy.
+B. From the Microsoft Purview compliance portal, modify the matched activities threshold of an alert policy.
+C. From the Microsoft Purview compliance portal, modify the Policy Tips settings of a DLP policy.
+D. From the Microsoft Defender portal, apply a filter to the alerts.
+
+======================================================================
 Topic 2 - Question 86
 https://www.examtopics.com/discussions/microsoft/view/169143-exam-sc-400-topic-2-question-86-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains a Microsoft SharePoint Online site named Site1 and the data loss prevention (DLP) policies shown in the following table.
 The DLP rules are configured as shown in the following table.
 All the policies are assigned to Site1.
@@ -2902,7 +2844,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 87
 https://www.examtopics.com/discussions/microsoft/view/155737-exam-sc-400-topic-2-question-87-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains two users named User1 and User2. The subscription has a data loss prevention (DLP) policy named Policy1.
 User2 sends an outbound message that generates a false positive for Policy1.
 You need to ensure that User1 can download the message that generated the alert. The solution must follow the principle of least privilege.
@@ -2919,7 +2860,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 88
 https://www.examtopics.com/discussions/microsoft/view/379658-exam-sc-400-topic-2-question-88-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains three users named User1, User2, and User3. The subscription contains the groups shown in the following table.
@@ -2930,10 +2870,39 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 
 ======================================================================
+Topic 2 - Question 89
+https://www.examtopics.com/discussions/microsoft/view/379663-exam-sc-400-topic-2-question-89-discussion/
+======================================================================
+You are creating a DLP policy named Policy1 that will be applied to the locations as shown in the following exhibit.
+Policy1 contains an advanced data loss prevention (DLP) rule named Rule1.
+Which two conditions can you use in Rule1? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+
+A. Content is shared from Microsoft 365
+B. Attachment's file extension is
+C. Content contains
+D. Document property is
+E. Document size equals or is greater than
+
+======================================================================
+Topic 2 - Question 90
+https://www.examtopics.com/discussions/microsoft/view/390973-exam-sc-400-topic-2-question-90-discussion/
+======================================================================
+You have Microsoft 365 E5 subscription that uses data loss prevention (DLP) to protect sensitive information.
+You have a document named Form.docx.
+You plan to use PowerShell to create a document fingerprint based on Form.docx.
+You need to first connect to the subscription.
+Which cmdlet should you run?
+
+A. Connect-MgGraph
+B. Connect Exchange-Online
+C. Connect-SPOService
+D. Connect-IPPSSession
+
+======================================================================
 Topic 3 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/79611-exam-sc-400-topic-3-question-1-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 tenant that contains the policies shown in the following table.
 A file named File1 has all the policies applied.
 How long will File1 be retained?
@@ -2949,7 +2918,6 @@ Suggested Answer (community most voted): D
 Topic 3 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/81800-exam-sc-400-topic-3-question-2-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant that uses Microsoft Teams.
 You need to ensure that all internal communication is stored for a minimum of seven years.
 What should you create first?
@@ -2965,7 +2933,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/56506-exam-sc-400-topic-3-question-3-discussion/
 ======================================================================
-
 In Microsoft Exchange Online, you have a retention policy named Policy1 that applies a retention tag named Tag1.
 You plan to remove Tag1 from Policy1.
 What will occur when you remove the tag from Policy1?
@@ -2980,7 +2947,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/78756-exam-sc-400-topic-3-question-4-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 tenant that contains a user named User1.
 You need to identify the type and number of holds placed on the mailbox of User1.
 What should you do first?
@@ -2996,7 +2962,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/78755-exam-sc-400-topic-3-question-5-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant that uses Microsoft Exchange Online.
 You need to recover deleted email messages from a user's mailbox.
 Which two PowerShell cmdlets should you use? Each correct answer presents part of the solution.
@@ -3014,7 +2979,6 @@ Suggested Answer (community most voted): AD
 Topic 3 - Question 6
 https://www.examtopics.com/discussions/microsoft/view/84308-exam-sc-400-topic-3-question-6-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 E5 tenant that contains the users shown in the following table.
 You have a retention policy that has the following configurations:
@@ -3030,7 +2994,6 @@ Hot Area:
 Topic 3 - Question 7
 https://www.examtopics.com/discussions/microsoft/view/86454-exam-sc-400-topic-3-question-7-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft E5 365 tenant.
 You need to ensure that you can use sensitivity labels to declare regulatory records.
@@ -3042,7 +3005,6 @@ Hot Area:
 Topic 3 - Question 8
 https://www.examtopics.com/discussions/microsoft/view/59623-exam-sc-400-topic-3-question-8-discussion/
 ======================================================================
-
 DRAG DROP -
 You have a Microsoft 365 tenant.
 A new regulatory requirement states that all documents containing a patent ID be labeled, retained for 10 years, and then deleted. The policy used to apply the retention settings must never be disabled or deleted by anyone.
@@ -3054,7 +3016,6 @@ Select and Place:
 Topic 3 - Question 9
 https://www.examtopics.com/discussions/microsoft/view/58247-exam-sc-400-topic-3-question-9-discussion/
 ======================================================================
-
 You have a Microsoft SharePoint Online site that contains employee contracts in a document library named Contracts.
 The contracts must be treated as records in accordance with your company's records management policy.
 You need to implement a solution to automatically mark all the contracts as records when they are uploaded to Contracts.
@@ -3074,7 +3035,6 @@ Suggested Answer (community most voted): CE
 Topic 3 - Question 10
 https://www.examtopics.com/discussions/microsoft/view/78740-exam-sc-400-topic-3-question-10-discussion/
 ======================================================================
-
 You need to create a retention policy to delete content after seven years from the following locations:
 ✑ Exchange Online email
 ✑ SharePoint Online sites
@@ -3095,7 +3055,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 11
 https://www.examtopics.com/discussions/microsoft/view/53770-exam-sc-400-topic-3-question-11-discussion/
 ======================================================================
-
 HOTSPOT -
 You create a retention policy as shown in the following exhibit.
 A user named User1 deletes a file named File1.docx from a Microsoft SharePoint Online site named Site1.
@@ -3108,7 +3067,6 @@ Hot Area:
 Topic 3 - Question 12
 https://www.examtopics.com/discussions/microsoft/view/53479-exam-sc-400-topic-3-question-12-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant that uses records management.
 You use a retention label to mark legal files stored in a Microsoft SharePoint Online document library as regulatory records.
 What can you do to the legal files?
@@ -3124,7 +3082,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 13
 https://www.examtopics.com/discussions/microsoft/view/51869-exam-sc-400-topic-3-question-13-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant that contains the users shown in the following table.
 You configure a retention label to trigger a disposition review at the end of the retention period.
 Which users can access the Disposition tab in the Microsoft 365 compliance center to review the content?
@@ -3141,7 +3098,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 14
 https://www.examtopics.com/discussions/microsoft/view/81803-exam-sc-400-topic-3-question-14-discussion/
 ======================================================================
-
 HOTSPOT -
 While creating a retention label, you discover that the following options are missing:
 ✑ Mark items as a record
@@ -3155,7 +3111,6 @@ Hot Area:
 Topic 3 - Question 15
 https://www.examtopics.com/discussions/microsoft/view/53430-exam-sc-400-topic-3-question-15-discussion/
 ======================================================================
-
 You need to ensure that documents in a Microsoft SharePoint Online site that contain a reference to Project Alpha are retained for two years, and then deleted.
 Which two objects should you create? Each correct answer presents part of the solution. (Choose two.)
 NOTE: Each correct selection is worth one point.
@@ -3173,7 +3128,6 @@ Suggested Answer (community most voted): BD
 Topic 3 - Question 16
 https://www.examtopics.com/discussions/microsoft/view/53431-exam-sc-400-topic-3-question-16-discussion/
 ======================================================================
-
 You are configuring a retention label named Label1 as shown in the following exhibit.
 You need to ensure that documents that have Label1 applied are deleted three years after the end of your company's fiscal year.
 What should you do?
@@ -3189,7 +3143,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 17
 https://www.examtopics.com/discussions/microsoft/view/53435-exam-sc-400-topic-3-question-17-discussion/
 ======================================================================
-
 HOTSPOT -
 You enable archive mailboxes for all the users at your company.
 The Default MRM Policy is shown in the MRM exhibit.
@@ -3205,7 +3158,6 @@ Hot Area:
 Topic 3 - Question 18
 https://www.examtopics.com/discussions/microsoft/view/57428-exam-sc-400-topic-3-question-18-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant.
 You have a Microsoft SharePoint Online site that contains employment contracts in a folder named EmploymentContracts. All the files in EmploymentContracts are marked as records.
 You need to recommend a process to ensure that when a record is updated, the previous version of the record is kept as a version of the updated record.
@@ -3222,7 +3174,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 19
 https://www.examtopics.com/discussions/microsoft/view/57430-exam-sc-400-topic-3-question-19-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant.
 All Microsoft OneDrive for Business content is retained for five years.
 A user named User1 left your company a year ago, after which the account of User1 was deleted from Azure Active Directory (Azure AD).
@@ -3240,7 +3191,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 20
 https://www.examtopics.com/discussions/microsoft/view/56928-exam-sc-400-topic-3-question-20-discussion/
 ======================================================================
-
 HOTSPOT -
 You have the files shown in the following table.
 You configure a retention policy as shown in the exhibit.
@@ -3253,7 +3203,6 @@ Hot Area:
 Topic 3 - Question 21
 https://www.examtopics.com/discussions/microsoft/view/56831-exam-sc-400-topic-3-question-21-discussion/
 ======================================================================
-
 At the end of a project, you upload project documents to a Microsoft SharePoint Online library that contains many files. The following is a sample of the project document file names:
 ✑ aei_AA989.docx
 ✑ bci_WS098.docx
@@ -3274,7 +3223,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 22
 https://www.examtopics.com/discussions/microsoft/view/56930-exam-sc-400-topic-3-question-22-discussion/
 ======================================================================
-
 You need to create a retention policy to retain all the files from Microsoft Teams channel conversations and private chats.
 Which two locations should you select in the retention policy? Each correct answer presents part of the solution. (Choose two.)
 NOTE: Each correct selection is worth one point.
@@ -3292,7 +3240,6 @@ Suggested Answer (community most voted): AD
 Topic 3 - Question 23
 https://www.examtopics.com/discussions/microsoft/view/58255-exam-sc-400-topic-3-question-23-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant that uses records management.
 You use a retention label to mark legal files stored in a Microsoft SharePoint Online document library as regulatory records.
 What can you do to the legal files?
@@ -3306,7 +3253,6 @@ D. Copy the content of the files.
 Topic 3 - Question 24
 https://www.examtopics.com/discussions/microsoft/view/58257-exam-sc-400-topic-3-question-24-discussion/
 ======================================================================
-
 HOTSPOT -
 You create a retention label policy named Contoso_Policy that contains the following labels:
 ✑ 10 years then delete
@@ -3325,7 +3271,6 @@ Hot Area:
 Topic 3 - Question 25
 https://www.examtopics.com/discussions/microsoft/view/58258-exam-sc-400-topic-3-question-25-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 tenant.
 A retention hold is applied to all the mailboxes in Microsoft Exchange Online.
@@ -3339,7 +3284,6 @@ Hot Area:
 Topic 3 - Question 26
 https://www.examtopics.com/discussions/microsoft/view/68455-exam-sc-400-topic-3-question-26-discussion/
 ======================================================================
-
 Your company manufactures parts that are each assigned a unique 12-character alphanumeric serial number. Emails between the company and its customers reference the serial number.
 You need to ensure that only Microsoft Exchange Online emails containing the serial numbers are retained for five years.
 Which three objects should you create? Each correct answer presents part of the solution.
@@ -3357,7 +3301,6 @@ G. a data loss prevention (DLP) policy
 Topic 3 - Question 27
 https://www.examtopics.com/discussions/microsoft/view/66407-exam-sc-400-topic-3-question-27-discussion/
 ======================================================================
-
 You plan to import a file plan to the Microsoft 365 compliance center.
 Which object type can you create by importing a records management file plan?
 
@@ -3370,7 +3313,6 @@ D. retention labels
 Topic 3 - Question 28
 https://www.examtopics.com/discussions/microsoft/view/64966-exam-sc-400-topic-3-question-28-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 tenant that uses a domain named contoso.com.
 A user named User1 leaves your company. The mailbox of User1 is placed on Litigation Hold, and then the account of User1 is deleted from Azure Active
@@ -3384,7 +3326,6 @@ Hot Area:
 Topic 3 - Question 29
 https://www.examtopics.com/discussions/microsoft/view/66408-exam-sc-400-topic-3-question-29-discussion/
 ======================================================================
-
 You create a retention label that has a retention period of seven years.
 You need to ensure that documents containing a credit card number are retained for seven years. Other documents must not be retained.
 What should you create?
@@ -3398,7 +3339,6 @@ D. a retention label policy of type auto-apply
 Topic 3 - Question 30
 https://www.examtopics.com/discussions/microsoft/view/96541-exam-sc-400-topic-3-question-30-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that contains a Microsoft SharePoint site named Site1.
@@ -3412,7 +3352,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 31
 https://www.examtopics.com/discussions/microsoft/view/96378-exam-sc-400-topic-3-question-31-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains the users shown in the following table.
 You create the retention label shown in the following exhibit.
 Which users can perform a disposition review of content that has Retention1 applied?
@@ -3430,7 +3369,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 32
 https://www.examtopics.com/discussions/microsoft/view/96379-exam-sc-400-topic-3-question-32-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You need to create static retention policies for the following locations:
 •	Teams chats
@@ -3452,7 +3390,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 33
 https://www.examtopics.com/discussions/microsoft/view/96380-exam-sc-400-topic-3-question-33-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant that uses records management.
 You use a retention label to mark legal files stored in a Microsoft SharePoint Online document library as regulatory records.
 What can you do to the legal files?
@@ -3468,7 +3405,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 34
 https://www.examtopics.com/discussions/microsoft/view/96381-exam-sc-400-topic-3-question-34-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains a Microsoft SharePoint Online site named Site1 and the users shown in the following table.
@@ -3491,7 +3427,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 35
 https://www.examtopics.com/discussions/microsoft/view/96382-exam-sc-400-topic-3-question-35-discussion/
 ======================================================================
-
 HOTSPOT
 -
 While creating a retention label, you discover that the Mark items as a regulatory record option is unavailable.
@@ -3503,7 +3438,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 36
 https://www.examtopics.com/discussions/microsoft/view/96383-exam-sc-400-topic-3-question-36-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains a Microsoft SharePoint Online site named Site1.
 You need to implement a records management solution for the files stored on Site1. The solution must meet the following requirements:
 •	The files must be retained for seven years.
@@ -3521,7 +3455,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 37
 https://www.examtopics.com/discussions/microsoft/view/104707-exam-sc-400-topic-3-question-37-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 tenant that contains a Microsoft SharePoint Online document library named Library1.
 You need to declare a collection of files that are stored in Library1 as regulatory records.
 What should you use?
@@ -3535,7 +3468,6 @@ D. data loss prevention (DLP) policy
 Topic 3 - Question 38
 https://www.examtopics.com/discussions/microsoft/view/103633-exam-sc-400-topic-3-question-38-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains a Microsoft SharePoint Online site named Site1. Site1 contains a file named File1.
 You have a retention policy named Retention1 that has the following settings:
 •	Retention items for a specific period
@@ -3556,7 +3488,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 39
 https://www.examtopics.com/discussions/microsoft/view/104708-exam-sc-400-topic-3-question-39-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 tenant that contains a Microsoft SharePoint Online site named Site1 and a user named User1. The tenant has auditing enabled.
 You need to ensure that User1 can perform disposition reviews. The solution must use the principle of the least privilege.
 What should you do?
@@ -3570,7 +3501,6 @@ D. Add User1 to the Content Explorer Content Viewer role group.
 Topic 3 - Question 40
 https://www.examtopics.com/discussions/microsoft/view/103634-exam-sc-400-topic-3-question-40-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains a trainable classifier named Trainable1.
 You plan to create the items shown in the following table.
 Which items can use Trainable1?
@@ -3586,7 +3516,6 @@ Suggested Answer (community most voted): D
 Topic 3 - Question 41
 https://www.examtopics.com/discussions/microsoft/view/104713-exam-sc-400-topic-3-question-41-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -3599,7 +3528,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 42
 https://www.examtopics.com/discussions/microsoft/view/150244-exam-sc-400-topic-3-question-42-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains a Microsoft SharePoint Online site named Site1. Site1 contains a file named File1.
 You have a retention policy named Retention1 that has the following settings:
 •	Retention items for a specific period
@@ -3617,10 +3545,21 @@ D. Move File1 to a new folder and list the excluded locations for Retention1.
 Suggested Answer (community most voted): C
 
 ======================================================================
+Topic 3 - Question 43
+https://www.examtopics.com/discussions/microsoft/view/345844-exam-sc-400-topic-3-question-43-discussion/
+======================================================================
+HOTSPOT
+-
+You have a Microsoft 365 E5 tenant and an Exact Data Match (EDM) schema rule package file named rulepack.xml.
+You plan to create a custom data loss prevention (DLP) sensitive info type that will use rulepack.xml.
+You need to import rulepack.xml.
+How should you complete the PowerShell command? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
 Topic 4 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/125182-exam-sc-400-topic-4-question-1-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant that has a retention label policy.
 You need to configure the policy to meet the following requirements:
 •	Prevent the disabling or deletion of the policy.
@@ -3637,7 +3576,6 @@ D. Create a preservation lock.
 Topic 4 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/125136-exam-sc-400-topic-4-question-2-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You create a role group named Role1.
 You need to add a role to Role1 that will enable group members to view the metadata of records that were tagged for deletion automatically at the end of the records’ retention period. The solution must use the principle of least privilege.
@@ -3655,7 +3593,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/125183-exam-sc-400-topic-4-question-3-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains a Microsoft SharePoint Online site named Site1.
 You need to implement Microsoft Purview data lifecycle management.
 What should you create first?
@@ -3671,7 +3608,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/125137-exam-sc-400-topic-4-question-4-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You plan to implement retention policies for Microsoft Teams.
 Which item types can be retained?
@@ -3686,7 +3622,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/125139-exam-sc-400-topic-4-question-5-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains the adaptive scopes shown in the following table.
 You create the retention policies shown in the following table.
 Which retention policies support a preservation lock?
@@ -3703,7 +3638,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 6
 https://www.examtopics.com/discussions/microsoft/view/127202-exam-sc-400-topic-4-question-6-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription.
@@ -3716,7 +3650,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 7
 https://www.examtopics.com/discussions/microsoft/view/127203-exam-sc-400-topic-4-question-7-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription.
 You need to ensure that users can apply retention labels to individual documents in their Microsoft SharePoint libraries.
 Which two actions should you perform? Each correct answer presents part of the solution.
@@ -3734,7 +3667,6 @@ Suggested Answer (community most voted): AC
 Topic 4 - Question 8
 https://www.examtopics.com/discussions/microsoft/view/127879-exam-sc-400-topic-4-question-8-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains two Microsoft SharePoint Online sites named Site1 and Site2.
 You plan to configure a retention label named Label1 and apply Label1 to all the files in Site1.
 You need to ensure that two years after a file is created in Site1, the file moves automatically to Site2.
@@ -3751,7 +3683,6 @@ Suggested Answer (community most voted): A
 Topic 4 - Question 9
 https://www.examtopics.com/discussions/microsoft/view/127204-exam-sc-400-topic-4-question-9-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains two users named Admin1 and User1, a Microsoft SharePoint Online site named Site1, and a retention label named Retention1.
@@ -3770,7 +3701,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 10
 https://www.examtopics.com/discussions/microsoft/view/127206-exam-sc-400-topic-4-question-10-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription.
@@ -3783,7 +3713,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 11
 https://www.examtopics.com/discussions/microsoft/view/129749-exam-sc-400-topic-4-question-11-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that uses Microsoft Teams and contains the users shown in the following table.
@@ -3796,7 +3725,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 12
 https://www.examtopics.com/discussions/microsoft/view/140313-exam-sc-400-topic-4-question-12-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 tenant that contains two users named User1 and User2 and a Microsoft SharePoint Online site named Site1 as shown in the following exhibit.
@@ -3809,7 +3737,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 13
 https://www.examtopics.com/discussions/microsoft/view/136238-exam-sc-400-topic-4-question-13-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains the resources shown in the following table.
 You have a retention label configured as shown in the following exhibit.
 You publish the retention label and set the scope as shown in the following exhibit.
@@ -3828,7 +3755,6 @@ Suggested Answer (community most voted): E
 Topic 4 - Question 14
 https://www.examtopics.com/discussions/microsoft/view/134480-exam-sc-400-topic-4-question-14-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains a Microsoft SharePoint Online site named Site1 and a sensitivity label named Label1.
@@ -3842,7 +3768,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 15
 https://www.examtopics.com/discussions/microsoft/view/133530-exam-sc-400-topic-4-question-15-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft SharePoint Online site named Site1 that contains the users shown in following table.
@@ -3856,7 +3781,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 16
 https://www.examtopics.com/discussions/microsoft/view/136240-exam-sc-400-topic-4-question-16-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription.
 You have a team named Team1 in Microsoft Teams.
 You plan to place all the content in Team1 on hold.
@@ -3874,7 +3798,6 @@ Suggested Answer (community most voted): A
 Topic 4 - Question 17
 https://www.examtopics.com/discussions/microsoft/view/148709-exam-sc-400-topic-4-question-17-discussion/
 ======================================================================
-
 SIMULATION
 -
 Use the following login credentials as needed:
@@ -3895,7 +3818,6 @@ To complete this task, sign in to the appropriate admin center.
 Topic 4 - Question 18
 https://www.examtopics.com/discussions/microsoft/view/143327-exam-sc-400-topic-4-question-18-discussion/
 ======================================================================
-
 SIMULATION
 -
 Use the following login credentials as needed:
@@ -3914,7 +3836,6 @@ To complete this task, sign in to the appropriate admin center.
 Topic 4 - Question 19
 https://www.examtopics.com/discussions/microsoft/view/138035-exam-sc-400-topic-4-question-19-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains a Microsoft SharePoint Online site named Project1.
 You need to recommend a record management solution that meets the following requirements:
 •	Retains files in Project1 for a minimum of 10 years
@@ -3934,7 +3855,6 @@ Suggested Answer (community most voted): CD
 Topic 4 - Question 20
 https://www.examtopics.com/discussions/microsoft/view/138068-exam-sc-400-topic-4-question-20-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 tenant that contains the objects shown in the following table.
@@ -3946,7 +3866,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 21
 https://www.examtopics.com/discussions/microsoft/view/151098-exam-sc-400-topic-4-question-21-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 tenant that has a retention label named Label1.
 You need to create an auto-labeling policy that will apply Label1.
 To which location can Label1 be applied?
@@ -3962,7 +3881,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 22
 https://www.examtopics.com/discussions/microsoft/view/150840-exam-sc-400-topic-4-question-22-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains four Microsoft SharePoint Online sites named Site1, Site2, Site3, and Site4.
@@ -3976,7 +3894,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 23
 https://www.examtopics.com/discussions/microsoft/view/151644-exam-sc-400-topic-4-question-23-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains a Microsoft SharePoint Online site named Site1. Site contains resumes saved as Microsoft Word documents. A new collection of resumes is loaded to Site1 every three months.
 You plan to implement records management. The solution must meet the following requirements:
 •	The resumes must be retained for two years.
@@ -3994,7 +3911,6 @@ D. ModificationAgeInDays
 Topic 4 - Question 24
 https://www.examtopics.com/discussions/microsoft/view/303481-exam-sc-400-topic-4-question-24-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that has a retention label named Retention1. The subscription contains the files shown in the following table.
@@ -4007,7 +3923,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 25
 https://www.examtopics.com/discussions/microsoft/view/169734-exam-sc-400-topic-4-question-25-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains the resources shown in the following table.
@@ -4020,10 +3935,84 @@ Which resources can you add as additional Stage1 and Stage2 reviewers? To answer
 NOTE: Each correct selection is worth one point.
 
 ======================================================================
+Topic 4 - Question 26
+https://www.examtopics.com/discussions/microsoft/view/379678-exam-sc-400-topic-4-question-26-discussion/
+======================================================================
+You have a Microsoft 365 subscription. You create a retention policy and apply the policy to Exchange Online mailboxes.
+You need to ensure that the retention policy tags can be assigned to mailbox items as soon as possible.
+What should you do?
+
+A. From Exchange Online PowerShell, run Start-RetentionAutoTagLearning.
+B. From the Microsoft Purview portal, create a label policy.
+C. From Exchange Online PowerShell, run Start-ManagedFolderAssistant.
+D. From the Microsoft Purview portal, create a data loss prevention (DLP) policy.
+
+======================================================================
+Topic 4 - Question 27
+https://www.examtopics.com/discussions/microsoft/view/379644-exam-sc-400-topic-4-question-27-discussion/
+======================================================================
+HOTSPOT
+-
+You have a Microsoft 365 E5 subscription that contains two Microsoft 365 groups named Group1 and Group2. Both groups use the following resources:
+•	A group mailbox
+•	Microsoft Teams channel messages
+•	A Microsoft SharePoint Online teams site
+You create the objects shown in the following table.
+To which resources will AutoApply1 and Retention1 be applied? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 4 - Question 28
+https://www.examtopics.com/discussions/microsoft/view/390980-exam-sc-400-topic-4-question-28-discussion/
+======================================================================
+HOTSPOT
+-
+You have a Microsoft SharePoint Online site named Site1 that has the users shown in the following table.
+You create the retention labels shown in the following table.
+You publish the retention labels to Site1.
+On March 1, 2023, you assign the retention labels to the files shown in the following table.
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 4 - Question 29
+https://www.examtopics.com/discussions/microsoft/view/390981-exam-sc-400-topic-4-question-29-discussion/
+======================================================================
+HOTSPOT
+-
+You have the retention label shown in the Retention exhibit. (Click the Retention tab.)
+Users apply the retention label to files and set the asset ID as shown in the following table.
+On December 1, 2020, you create the event shown in the Event exhibit. (Click the Event tab.)
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 4 - Question 30
+https://www.examtopics.com/discussions/microsoft/view/390972-exam-sc-400-topic-4-question-30-discussion/
+======================================================================
+HOTSPOT
+-
+You have a Microsoft 365 E5 subscription that contains the users shown in the following table.
+You have the Microsoft Purview Compliance Manager assessments shown in the following table.
+In Compliance Manager, the User access settings are configured as shown in the following table.
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 4 - Question 31
+https://www.examtopics.com/discussions/microsoft/view/390971-exam-sc-400-topic-4-question-31-discussion/
+======================================================================
+HOTSPOT
+-
+You have a Microsoft 365 E5 tenant.
+You need to ensure that you can mark items as regulatory records.
+Which PowerShell cmdlet should you run, and which type of policy should you use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
 Topic 5 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/125596-exam-sc-400-topic-5-question-1-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that uses Microsoft Purview.
@@ -4035,7 +4024,6 @@ NOTE: Each correct selection is worth one point.
 Topic 5 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/125184-exam-sc-400-topic-5-question-2-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -4048,7 +4036,6 @@ NOTE: Each correct selection is worth one point.
 Topic 5 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/125597-exam-sc-400-topic-5-question-3-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains a user named User1.
 You need to ensure that all email messages that contain attachments are encrypted automatically by using Microsoft Purview Message Encryption.
 What should you create?
@@ -4064,7 +4051,6 @@ Suggested Answer (community most voted): D
 Topic 5 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/125185-exam-sc-400-topic-5-question-4-discussion/
 ======================================================================
-
 You have a Microsoft 365 E3 subscription.
 You plan to audit all Microsoft Exchange Online user and admin activities.
 You need to ensure that all the Exchange audit log records are retained for one year.
@@ -4081,7 +4067,6 @@ Suggested Answer (community most voted): D
 Topic 5 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/127208-exam-sc-400-topic-5-question-5-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains the users shown in the following table.
@@ -4093,7 +4078,6 @@ NOTE: Each correct selection is worth one point.
 Topic 5 - Question 6
 https://www.examtopics.com/discussions/microsoft/view/126030-exam-sc-400-topic-5-question-6-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains the users shown in the following table.
 You have the core eDiscovery cases shown in the following table.
 You need to ensure that Admin3 can create holds in Case1 and Case2. The solution must use the principle of least privilege.
@@ -4110,7 +4094,6 @@ Suggested Answer (community most voted): D
 Topic 5 - Question 7
 https://www.examtopics.com/discussions/microsoft/view/125141-exam-sc-400-topic-5-question-7-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that contains two groups named Group1 and Group2.
@@ -4127,7 +4110,6 @@ NOTE: Each correct selection is worth one point.
 Topic 5 - Question 8
 https://www.examtopics.com/discussions/microsoft/view/125695-exam-sc-400-topic-5-question-8-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription. Auditing is enabled.
@@ -4140,7 +4122,6 @@ Which two activities should you use in the search? To answer, select the appropr
 Topic 5 - Question 9
 https://www.examtopics.com/discussions/microsoft/view/126478-exam-sc-400-topic-5-question-9-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You need to export the details of a retention label. The export must include the following information:
 •	Is record
@@ -4160,7 +4141,6 @@ Suggested Answer (community most voted): B
 Topic 5 - Question 10
 https://www.examtopics.com/discussions/microsoft/view/125696-exam-sc-400-topic-5-question-10-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have a Microsoft 365 subscription.
@@ -4180,7 +4160,6 @@ Suggested Answer (community most voted): B
 Topic 5 - Question 11
 https://www.examtopics.com/discussions/microsoft/view/125697-exam-sc-400-topic-5-question-11-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have a Microsoft 365 subscription.
@@ -4200,7 +4179,6 @@ Suggested Answer (community most voted): B
 Topic 5 - Question 12
 https://www.examtopics.com/discussions/microsoft/view/125698-exam-sc-400-topic-5-question-12-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have a Microsoft 365 subscription.
@@ -4218,7 +4196,6 @@ B. No
 Topic 5 - Question 13
 https://www.examtopics.com/discussions/microsoft/view/128340-exam-sc-400-topic-5-question-13-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription.
 You need to be notified by email whenever an administrator starts an eDiscovery search.
 What should you do from the Microsoft Purview compliance portal?
@@ -4234,7 +4211,6 @@ Suggested Answer (community most voted): D
 Topic 5 - Question 14
 https://www.examtopics.com/discussions/microsoft/view/127209-exam-sc-400-topic-5-question-14-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains a user named User1.
 You need to assign User1 permissions to search Microsoft Office 365 audit logs.
 What should you use?
@@ -4250,7 +4226,6 @@ Suggested Answer (community most voted): B
 Topic 5 - Question 15
 https://www.examtopics.com/discussions/microsoft/view/128011-exam-sc-400-topic-5-question-15-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains two users named User1 and User2.
@@ -4265,7 +4240,6 @@ NOTE: Each correct selection is worth one point.
 Topic 5 - Question 16
 https://www.examtopics.com/discussions/microsoft/view/134625-exam-sc-400-topic-5-question-16-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have a Microsoft 365 subscription.
@@ -4285,7 +4259,6 @@ Suggested Answer (community most voted): A
 Topic 5 - Question 17
 https://www.examtopics.com/discussions/microsoft/view/134626-exam-sc-400-topic-5-question-17-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription.
 You create and run a content search from the Microsoft Purview compliance portal.
 You need to download the results of the content search.
@@ -4302,7 +4275,6 @@ Suggested Answer (community most voted): C
 Topic 5 - Question 18
 https://www.examtopics.com/discussions/microsoft/view/134719-exam-sc-400-topic-5-question-18-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You need to review the compliance of the subscription with the General Data Protection Regulation (GDPR) by using Compliance Manager. The solution must minimize administrative effort.
 What should you create first?
@@ -4318,7 +4290,6 @@ Suggested Answer (community most voted): A
 Topic 5 - Question 19
 https://www.examtopics.com/discussions/microsoft/view/132513-exam-sc-400-topic-5-question-19-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains two users named User1 and Admin1. Admin1 manages audit retention policies for the subscription.
 You need to ensure that the audit logs of User1 will be retained for 10 years.
 What should you do first?
@@ -4334,7 +4305,6 @@ Suggested Answer (community most voted): D
 Topic 5 - Question 20
 https://www.examtopics.com/discussions/microsoft/view/132514-exam-sc-400-topic-5-question-20-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription.
 The Global Administrator role is assigned to your user account.
 You have a user named Admin1.
@@ -4352,7 +4322,6 @@ Suggested Answer (community most voted): B
 Topic 5 - Question 21
 https://www.examtopics.com/discussions/microsoft/view/132515-exam-sc-400-topic-5-question-21-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription linked to a Microsoft Entra tenant that contains a user named User1.
 You need to grant User1 permission to search Microsoft 365 audit logs. The solution must use the principle of least privilege.
 Which role should you assign to User1?
@@ -4368,7 +4337,6 @@ Suggested Answer (community most voted): B
 Topic 5 - Question 22
 https://www.examtopics.com/discussions/microsoft/view/134630-exam-sc-400-topic-5-question-22-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains a security group named Group1 and the users shown in the following table.
@@ -4381,7 +4349,6 @@ NOTE: Each correct selection is worth one point.
 Topic 5 - Question 23
 https://www.examtopics.com/discussions/microsoft/view/136284-exam-sc-400-topic-5-question-23-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains a user named User1 and a Microsoft SharePoint Online site named Site1.
 You create the alert policy shown in the following exhibit.
 To Site1, User1 uploads the files shown in the following table.
@@ -4399,7 +4366,6 @@ Suggested Answer (community most voted): B
 Topic 5 - Question 24
 https://www.examtopics.com/discussions/microsoft/view/136141-exam-sc-400-topic-5-question-24-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription.
 From Microsoft Purview, you plan to create a content search for email messages that have a recipient of either [email protected] or user2.contoso.com.
 You need to add a condition to the KQL editor for the content search.
@@ -4414,7 +4380,6 @@ D. Recipients= “ [email protected] ” OR Recipients= “ [email protected] 
 Topic 5 - Question 25
 https://www.examtopics.com/discussions/microsoft/view/136143-exam-sc-400-topic-5-question-25-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 tenant that has data loss prevention (DLP) policies.
 You need to create a report that includes the following:
 •	Documents that have a matched DLP policy.
@@ -4433,7 +4398,6 @@ Suggested Answer (community most voted): D
 Topic 5 - Question 26
 https://www.examtopics.com/discussions/microsoft/view/151745-exam-sc-400-topic-5-question-26-discussion/
 ======================================================================
-
 SIMULATION
 -
 Use the following login credentials as needed:
@@ -4453,7 +4417,6 @@ To complete this task, sign in to the appropriate admin center.
 Topic 5 - Question 27
 https://www.examtopics.com/discussions/microsoft/view/138285-exam-sc-400-topic-5-question-27-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft 365 E5 subscription and use Microsoft Purview.
@@ -4469,7 +4432,6 @@ NOTE: Each correct selection is worth one point.
 Topic 5 - Question 28
 https://www.examtopics.com/discussions/microsoft/view/139298-exam-sc-400-topic-5-question-28-discussion/
 ======================================================================
-
 You have a Microsoft 365 E3 subscription.
 You plan to assess compliance with ISO/IEC 27001:2013.
 From Compliance Manager, you discover that the ISO/IEC 27001:2013 regulatory template for Microsoft 365 is inactive.
@@ -4486,7 +4448,6 @@ Suggested Answer (community most voted): A
 Topic 5 - Question 29
 https://www.examtopics.com/discussions/microsoft/view/151752-exam-sc-400-topic-5-question-29-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have a Microsoft 365 subscription that contains 1.000 user mailboxes.
@@ -4504,7 +4465,6 @@ Suggested Answer (community most voted): A
 Topic 5 - Question 30
 https://www.examtopics.com/discussions/microsoft/view/151753-exam-sc-400-topic-5-question-30-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have a Microsoft 365 subscription that contains 1.000 user mailboxes.
@@ -4522,7 +4482,6 @@ Suggested Answer (community most voted): B
 Topic 5 - Question 31
 https://www.examtopics.com/discussions/microsoft/view/151754-exam-sc-400-topic-5-question-31-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have a Microsoft 365 subscription that contains 1.000 user mailboxes.
@@ -4540,7 +4499,6 @@ Suggested Answer (community most voted): A
 Topic 5 - Question 32
 https://www.examtopics.com/discussions/microsoft/view/139302-exam-sc-400-topic-5-question-32-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains the administrators shown in the following table.
@@ -4551,7 +4509,6 @@ For each of the following statements, select Yes if the statement is true. Other
 Topic 5 - Question 33
 https://www.examtopics.com/discussions/microsoft/view/151755-exam-sc-400-topic-5-question-33-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You plan to use Microsoft Purview insider risk management.
 You need to create an insider risk management policy that will detect data theft from Microsoft SharePoint Online by users that submitted their resignation or are near their employment termination date.
@@ -4565,10 +4522,24 @@ D. Onboard devices to Microsoft Defender for Endpoint.
 Suggested Answer (community most voted): B
 
 ======================================================================
+Topic 5 - Question 34
+https://www.examtopics.com/discussions/microsoft/view/337051-exam-sc-400-topic-5-question-34-discussion/
+======================================================================
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You have a Microsoft 365 subscription that contains 1,000 user mailboxes.
+An administrator named Admin1 must be able to search for the name of a competing company in the mailbox of a user named User5.
+You need to ensure that Admin1 can search the mailbox of User5 successfully. The solution must prevent Admin1 from sending email messages as User5.
+Solution: You modify the privacy profile, and then create a Data Subject Request (DSR) case.
+Does this meet the goal?
+
+A. Yes
+B. No
+
+======================================================================
 Topic 5 - Question 35
 https://www.examtopics.com/discussions/microsoft/view/149820-exam-sc-400-topic-5-question-35-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription.
 Users have devices that run Windows 11.
 You plan to create a Microsoft Purview insider risk management policy that will detect when a user performs the following actions:
@@ -4589,7 +4560,6 @@ Suggested Answer (community most voted): B
 Topic 5 - Question 36
 https://www.examtopics.com/discussions/microsoft/view/151756-exam-sc-400-topic-5-question-36-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft 365 E5 subscription.
@@ -4602,7 +4572,6 @@ Which three actions should you perform in sequence from Microsoft Purview Compli
 Topic 5 - Question 37
 https://www.examtopics.com/discussions/microsoft/view/149821-exam-sc-400-topic-5-question-37-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You create a sensitivity label named Label1 and publish Label1 to all users and groups.
 You have the following files on a computer:
@@ -4621,10 +4590,19 @@ D. File1.doc, File2.docx, File3.xlsx, and File4.txt
 Suggested Answer (community most voted): B
 
 ======================================================================
+Topic 5 - Question 38
+https://www.examtopics.com/discussions/microsoft/view/337053-exam-sc-400-topic-5-question-38-discussion/
+======================================================================
+HOTSPOT
+-
+From the Microsoft Purview compliance portal, you review the activity details as shown in the following exhibit.
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
 Topic 5 - Question 39
 https://www.examtopics.com/discussions/microsoft/view/303545-exam-sc-400-topic-5-question-39-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 Microsoft Purview Compliance Manager has the improvement actions shown in the following table.
 Automatic testing is disabled for all improvement actions.
@@ -4642,7 +4620,6 @@ Suggested Answer (community most voted): C
 Topic 5 - Question 40
 https://www.examtopics.com/discussions/microsoft/view/155222-exam-sc-400-topic-5-question-40-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains the users shown in the following table.
 You review the audit retention period of each user.
 Which users' audit logs are retained for nine months?
@@ -4658,7 +4635,6 @@ Suggested Answer (community most voted): A
 Topic 5 - Question 41
 https://www.examtopics.com/discussions/microsoft/view/156869-exam-sc-400-topic-5-question-41-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains a user named User1.
 User1 plans to export a history of Microsoft Purview communication compliance policy changes.
 You need to add User1 to a role group in Microsoft Purview. The solution must follow the principle of least privilege.
@@ -4675,7 +4651,6 @@ Suggested Answer (community most voted): B
 Topic 5 - Question 42
 https://www.examtopics.com/discussions/microsoft/view/154915-exam-sc-400-topic-5-question-42-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription.
 You are evaluating whether to use the Microsoft Purview auditing solutions shown in the following table.
 You plan to implement Microsoft Purview Audit (Standard).
@@ -4693,7 +4668,6 @@ Suggested Answer (community most voted): A
 Topic 5 - Question 43
 https://www.examtopics.com/discussions/microsoft/view/303547-exam-sc-400-topic-5-question-43-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -4708,7 +4682,6 @@ NOTE: Each correct selection is worth one point.
 Topic 5 - Question 44
 https://www.examtopics.com/discussions/microsoft/view/155223-exam-sc-400-topic-5-question-44-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains the users shown in the following table.
@@ -4718,10 +4691,139 @@ For each of the following statements, select Yes if the statement is true. Other
 NOTE: Each correct selection is worth one point.
 
 ======================================================================
+Topic 5 - Question 45
+https://www.examtopics.com/discussions/microsoft/view/379653-exam-sc-400-topic-5-question-45-discussion/
+======================================================================
+You have a Microsoft 365 E5 subscription.
+You need to enable Microsoft Purview to log events when administrators perform searches in Microsoft Exchange Online and specific Microsoft SharePoint Online sites.
+What should you do?
+
+A. Purchase an add-on.
+B. Configure eDiscovery (Premium).
+C. Configure Audit (Premium).
+D. Add a data connector.
+
+======================================================================
+Topic 5 - Question 46
+https://www.examtopics.com/discussions/microsoft/view/379655-exam-sc-400-topic-5-question-46-discussion/
+======================================================================
+DRAG DROP
+-
+You have a Microsoft 365 subscription that contains three users named User1, User2, and User3.
+You need to delegate Microsoft Purview Compliance Manager administration tasks for the ISO 27005:2018 standard. The solution must meet the following requirements:
+•	User1 must be able to edit data and create assessments.
+•	User2 must be able to edit data only.
+•	User3 must be able to assign improvement actions.
+•	The principle of least privilege must be followed.
+Which Compliance Manager role should you assign to each user? To answer, drag the appropriate roles to the correct users. Each role may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 5 - Question 47
+https://www.examtopics.com/discussions/microsoft/view/379641-exam-sc-400-topic-5-question-47-discussion/
+======================================================================
+HOTSPOT
+-
+You have a Microsoft 365 E5 tenant that contains the users shown in the following table.
+You need to implement sensitivity labels.
+Which users can create sensitivity labels, and which portal should the users use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 5 - Question 48
+https://www.examtopics.com/discussions/microsoft/view/379676-exam-sc-400-topic-5-question-48-discussion/
+======================================================================
+HOTSPOT
+-
+You have a Microsoft 365 E5 subscription that contains two users named User1 and User2.
+You have the Compliance Manager alert policy shown in the following exhibit.
+Actions are performed in Compliance Manager as shown in the following table.
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 5 - Question 49
+https://www.examtopics.com/discussions/microsoft/view/379677-exam-sc-400-topic-5-question-49-discussion/
+======================================================================
+You have a Microsoft 365 E3 subscription.
+From Microsoft Purview Compliance Manager, you plan to implement an assessment for the ISO 27001 standard.
+What should you do first?
+
+A. Add the 90-day Microsoft Purview solutions trial.
+B. Create a custom template for Compliance Manager.
+C. Create an assessment group.
+D. Update the Data Protection Baseline default assessment.
+
+======================================================================
+Topic 5 - Question 50
+https://www.examtopics.com/discussions/microsoft/view/379640-exam-sc-400-topic-5-question-50-discussion/
+======================================================================
+HOTSPOT
+-
+You have a Microsoft 365 E5 subscription that uses Microsoft Purview.
+You need to perform a content search for email messages that meet the following requirements:
+•	Are delivered to both [email protected] and [email protected]
+•	Are sent from a user account that has a name that starts with the word Compliance
+How should you complete the query in the KQL editor? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 5 - Question 51
+https://www.examtopics.com/discussions/microsoft/view/390970-exam-sc-400-topic-5-question-51-discussion/
+======================================================================
+DRAG DROP
+-
+You have a Microsoft 365 E5 subscription that contains two users named User1 and User2.
+You plan to delegate communication compliance tasks to both users. The solution must meet the following requirements:
+•	User1 must be able to view message metadata and content, escalate compliance issues to reviewers, send notifications, and resolve alerts.
+•	User2 must be able to manage communication compliance policies, global settings, and role group assignments. User 2 must NOT be able to view message alerts.
+•	The principle of least privilege must be followed.
+To which Microsoft Purview role group should you add each user? To answer, drag the appropriate role groups to the correct users. Each role group may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 5 - Question 52
+https://www.examtopics.com/discussions/microsoft/view/390969-exam-sc-400-topic-5-question-52-discussion/
+======================================================================
+You have Microsoft 365 E5 subscription.
+You create two alert policies named Policy 1 and Policy2 that will be triggered at the times shown in the following table.
+How many alerts will be added to the Microsoft Purview portal?
+
+A. 2
+B. 3
+C. 4
+D. 5
+E. 6
+
+======================================================================
+Topic 5 - Question 53
+https://www.examtopics.com/discussions/microsoft/view/390968-exam-sc-400-topic-5-question-53-discussion/
+======================================================================
+You have a Microsoft 365 subscription that contains the devices shown in the following table.
+From which devices can Microsoft Purview insider risk management capture forensic evidence?
+
+A. Device1 only
+B. Device2 only
+C. Device1 and Device2 only
+D. Device2 and Device3 only
+E. Device1, Device2, and Device3
+
+======================================================================
+Topic 5 - Question 54
+https://www.examtopics.com/discussions/microsoft/view/390967-exam-sc-400-topic-5-question-54-discussion/
+======================================================================
+DRAG DROP
+-
+You have a Microsoft 365 E5 subscription.
+You plan to implement Microsoft Purview insider risk management.
+You need to implement the HR data connector.
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
 Topic 6 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/125144-exam-sc-400-topic-6-question-1-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that uses Microsoft Teams and contains a user named User1.
 You configure Microsoft Purview Information Barriers.
 You need to identify which information barrier policies apply to User1.
@@ -4738,7 +4840,6 @@ Suggested Answer (community most voted): B
 Topic 6 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/125143-exam-sc-400-topic-6-question-2-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You are implementing insider risk management.
 You need to maximize the amount of historical data that is collected when an event is triggered.
@@ -4755,7 +4856,6 @@ Suggested Answer (community most voted): C
 Topic 6 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/125146-exam-sc-400-topic-6-question-3-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains a user named User1 and the groups shown in the following table.
@@ -4768,7 +4868,6 @@ NOTE: Each correct selection is worth one point.
 Topic 6 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/125145-exam-sc-400-topic-6-question-4-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -4782,7 +4881,6 @@ NOTE: Each correct selection is worth one point.
 Topic 6 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/125619-exam-sc-400-topic-6-question-5-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that uses Microsoft Purview. The subscription contains two groups named Group1 and Group2.
 You need to implement a policy to detect messages that present a conflict of interest between the users in Group1 and the users in Group2.
 What should you use in the Microsoft Purview compliance portal?
@@ -4798,7 +4896,6 @@ Suggested Answer (community most voted): D
 Topic 6 - Question 6
 https://www.examtopics.com/discussions/microsoft/view/125699-exam-sc-400-topic-6-question-6-discussion/
 ======================================================================
-
 DRAG DROP
 -
 Your company has two departments named department1 and department2 and a Microsoft 365 E5 subscription.
@@ -4810,7 +4907,6 @@ NOTE: Each correct selection is worth one point.
 Topic 6 - Question 7
 https://www.examtopics.com/discussions/microsoft/view/127210-exam-sc-400-topic-6-question-7-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You need to identify personal data stored in the subscription and control the transfer of personal data between users and groups.
 Which type of license should you acquire?
@@ -4826,7 +4922,6 @@ Suggested Answer (community most voted): B
 Topic 6 - Question 8
 https://www.examtopics.com/discussions/microsoft/view/131849-exam-sc-400-topic-6-question-8-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains a Microsoft SharePoint Online site named Site1.
 You create an information barrier segment named Segment1.
 You need to add Segment1 to Site1.
@@ -4843,7 +4938,6 @@ Suggested Answer (community most voted): C
 Topic 6 - Question 9
 https://www.examtopics.com/discussions/microsoft/view/126740-exam-sc-400-topic-6-question-9-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains the users shown in the following table.
@@ -4856,7 +4950,6 @@ NOTE: Each correct selection is worth one point.
 Topic 6 - Question 10
 https://www.examtopics.com/discussions/microsoft/view/125150-exam-sc-400-topic-6-question-10-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You plan to use insider risk management to collect and investigate forensic evidence.
 You need to enable forensic evidence capturing.
@@ -4873,7 +4966,6 @@ Suggested Answer (community most voted): D
 Topic 6 - Question 11
 https://www.examtopics.com/discussions/microsoft/view/127211-exam-sc-400-topic-6-question-11-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that uses Yammer.
 You need to create a Microsoft Purview communication compliance policy that will detect inappropriate images in Yammer conversations.
 What should you do first?
@@ -4889,7 +4981,6 @@ Suggested Answer (community most voted): B
 Topic 6 - Question 12
 https://www.examtopics.com/discussions/microsoft/view/127212-exam-sc-400-topic-6-question-12-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that uses Privacy Risk Management in Microsoft Priva.
 You need to review the personal data type instances that were detected in the subscription.
 What should you use in the Microsoft Purview compliance portal?
@@ -4905,7 +4996,6 @@ Suggested Answer (community most voted): A
 Topic 6 - Question 13
 https://www.examtopics.com/discussions/microsoft/view/128348-exam-sc-400-topic-6-question-13-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft 365 E5 subscription that contains two users named User1 and User2.
@@ -4920,7 +5010,6 @@ NOTE: Each correct selection is worth one point.
 Topic 6 - Question 14
 https://www.examtopics.com/discussions/microsoft/view/128349-exam-sc-400-topic-6-question-14-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains the users shown in the following table.
 You need to prevent users in the finance department from sharing files with users in the research department.
 Which type of policy should you configure?
@@ -4936,7 +5025,6 @@ Suggested Answer (community most voted): B
 Topic 6 - Question 15
 https://www.examtopics.com/discussions/microsoft/view/128027-exam-sc-400-topic-6-question-15-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains the users and groups shown in the following table.
@@ -4949,7 +5037,6 @@ NOTE: Each correct selection is worth one point.
 Topic 6 - Question 16
 https://www.examtopics.com/discussions/microsoft/view/130661-exam-sc-400-topic-6-question-16-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains a user named User1 and the groups shown in the following table.
@@ -4961,7 +5048,6 @@ NOTE: Each correct selection is worth one point.
 Topic 6 - Question 17
 https://www.examtopics.com/discussions/microsoft/view/128033-exam-sc-400-topic-6-question-17-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a hybrid Microsoft 365 deployment that contains the users shown in the following table.
@@ -4973,7 +5059,6 @@ NOTE: Each correct selection is worth one point.
 Topic 6 - Question 18
 https://www.examtopics.com/discussions/microsoft/view/138357-exam-sc-400-topic-6-question-18-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that has Enable Security defaults set to No in Azure AD.
@@ -4992,7 +5077,6 @@ NOTE: Each correct selection is worth one point.
 Topic 6 - Question 19
 https://www.examtopics.com/discussions/microsoft/view/132516-exam-sc-400-topic-6-question-19-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You plan to implement information barriers (IBs).
 You need to create an IB segment named Segment1.
@@ -5009,7 +5093,6 @@ Suggested Answer (community most voted): A
 Topic 6 - Question 20
 https://www.examtopics.com/discussions/microsoft/view/134643-exam-sc-400-topic-6-question-20-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft 365 E5 subscription.
@@ -5021,7 +5104,6 @@ NOTE: Each correct selection is worth one point.
 Topic 6 - Question 21
 https://www.examtopics.com/discussions/microsoft/view/136393-exam-sc-400-topic-6-question-21-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You need to create a subject rights request.
 What can be configured as a search location?
@@ -5038,7 +5120,6 @@ Suggested Answer (community most voted): C
 Topic 6 - Question 22
 https://www.examtopics.com/discussions/microsoft/view/137335-exam-sc-400-topic-6-question-22-discussion/
 ======================================================================
-
 You plan to implement inside 365 E5 subscription.
 You plan to implement insider risk management for users that manage sensitive data associated with a project.
 You need to create a protection policy for the users. The solution must meet the following requirements:
@@ -5057,7 +5138,6 @@ Suggested Answer (community most voted): C
 Topic 6 - Question 23
 https://www.examtopics.com/discussions/microsoft/view/136394-exam-sc-400-topic-6-question-23-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft 365 E5 subscription.
@@ -5072,7 +5152,6 @@ NOTE: Each correct selection is worth one point.
 Topic 6 - Question 24
 https://www.examtopics.com/discussions/microsoft/view/140348-exam-sc-400-topic-6-question-24-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that uses Privacy risk management.
 You need to recommend which type of policy can evaluate the external sharing of personal data on Microsoft SharePoint Online sites.
 Which policy type should you recommend?
@@ -5089,7 +5168,6 @@ Suggested Answer (community most voted): B
 Topic 6 - Question 25
 https://www.examtopics.com/discussions/microsoft/view/139314-exam-sc-400-topic-6-question-25-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -5103,7 +5181,6 @@ NOTE: Each correct selection is worth one point.
 Topic 6 - Question 26
 https://www.examtopics.com/discussions/microsoft/view/150929-exam-sc-400-topic-6-question-26-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription. Microsoft Priva Privacy Risk Management licenses are assigned to all users.
 You need to review and delete all the personal data that relates to a former employee. The solution must minimize administrative effort.
 What should you do first?
@@ -5119,7 +5196,6 @@ Suggested Answer (community most voted): C
 Topic 6 - Question 27
 https://www.examtopics.com/discussions/microsoft/view/150403-exam-sc-400-topic-6-question-27-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription.
@@ -5131,7 +5207,6 @@ NOTE: Each correct selection is worth one point.
 Topic 6 - Question 28
 https://www.examtopics.com/discussions/microsoft/view/151815-exam-sc-400-topic-6-question-28-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft 365 E5 subscription.
@@ -5147,7 +5222,6 @@ NOTE: Each correct selection is worth one point.
 Topic 6 - Question 29
 https://www.examtopics.com/discussions/microsoft/view/151529-exam-sc-400-topic-6-question-29-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 Your company has two departments named department1 and department2.
 You configure an information barrier (IB) policy that prevents communication between the users in department1 and department2.
@@ -5163,10 +5237,21 @@ D. the IB segments
 Suggested Answer (community most voted): B
 
 ======================================================================
+Topic 6 - Question 30
+https://www.examtopics.com/discussions/microsoft/view/345854-exam-sc-400-topic-6-question-30-discussion/
+======================================================================
+HOTSPOT
+-
+You have a Microsoft 365 E5 subscription that contains the users shown in the following table.
+You have Microsoft Purview information barriers (IB) that have multi-segment disabled. The IB segments are configured as shown in the following table.
+You have the policies shown in the following table.
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
 Topic 6 - Question 31
 https://www.examtopics.com/discussions/microsoft/view/154919-exam-sc-400-topic-6-question-31-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -5176,10 +5261,23 @@ What should you do first, and in which format should you import the data? To ans
 NOTE: Each correct selection is worth one point.
 
 ======================================================================
+Topic 6 - Question 32
+https://www.examtopics.com/discussions/microsoft/view/345850-exam-sc-400-topic-6-question-32-discussion/
+======================================================================
+DRAG DROP
+-
+You have a Microsoft 365 E5 subscription that contains a user named User1.
+You need to ensure that User1 can perform the following tasks:
+•	View the Privacy risk management Data profile page and subject rights request reports.
+•	Add approvers for subject rights requests.
+The solution must follow the principle of least privilege.
+To which role group should you add User1 for each task? To answer, drag the appropriate role groups to the correct tasks. Each role group may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
 Topic 6 - Question 33
 https://www.examtopics.com/discussions/microsoft/view/154922-exam-sc-400-topic-6-question-33-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription the uses Microsoft Priva.
@@ -5191,7 +5289,6 @@ NOTE: Each correct selection is worth one point.
 Topic 6 - Question 34
 https://www.examtopics.com/discussions/microsoft/view/156923-exam-sc-400-topic-6-question-34-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains the users shown in the following table.
@@ -5207,7 +5304,6 @@ NOTE: Each correct selection is worth one point.
 Topic 6 - Question 35
 https://www.examtopics.com/discussions/microsoft/view/157511-exam-sc-400-topic-6-question-35-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that uses Microsoft Purview.
 You create a sensitive information type (SIT) named SIT1.
 You plan to create the communication compliance polices shown in the following table.
@@ -5225,7 +5321,6 @@ Suggested Answer (community most voted): A
 Topic 6 - Question 36
 https://www.examtopics.com/discussions/microsoft/view/155285-exam-sc-400-topic-6-question-36-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that contains the users shown in the following table.
@@ -5239,7 +5334,6 @@ NOTE: Each correct selection is worth one point.
 Topic 6 - Question 37
 https://www.examtopics.com/discussions/microsoft/view/154923-exam-sc-400-topic-6-question-37-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains the groups shown in the following table.
 You need to create a Privacy Risk Management policy in Microsoft Priva.
 To which groups can you apply the policy?
@@ -5256,7 +5350,6 @@ Suggested Answer (community most voted): A
 Topic 6 - Question 38
 https://www.examtopics.com/discussions/microsoft/view/154924-exam-sc-400-topic-6-question-38-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -5265,10 +5358,133 @@ Which policies can you apply to Microsoft Exchange Online email, and which polic
 NOTE: Each correct selection is worth one point.
 
 ======================================================================
+Topic 6 - Question 39
+https://www.examtopics.com/discussions/microsoft/view/379674-exam-sc-400-topic-6-question-39-discussion/
+======================================================================
+You have a Microsoft 365 subscription.
+A former consultant at your company requires a report of all the data in the subscription that contains the following information:
+•	The consultant's name
+•	The consultant's email address
+•	Content authored by the consultant and stored in Microsoft SharePoint Online
+You need to recommend a solution that will provide the report by using the minimum amount of administrative effort.
+What should you include in the recommendation?
+
+A. subject rights requests
+B. eDiscovery (Premium)
+C. data lifecycle management
+D. Privacy Risk Management
+
+======================================================================
+Topic 6 - Question 40
+https://www.examtopics.com/discussions/microsoft/view/379665-exam-sc-400-topic-6-question-40-discussion/
+======================================================================
+You have a Microsoft 365 E5 subscription.
+You plan to implement Microsoft Purview insider risk management.
+You implement the HR data connector.
+You need to prepare the data that will be imported by the data connector.
+In which format should you prepare the data?
+
+A. XML
+B. PRN
+C. JSON
+D. TSV
+E. CSV
+
+======================================================================
+Topic 6 - Question 41
+https://www.examtopics.com/discussions/microsoft/view/390979-exam-sc-400-topic-6-question-41-discussion/
+======================================================================
+HOTSPOT
+-
+You have a Microsoft 365 E5 subscription that uses Microsoft Purview.
+You plan to implement communication compliance policies.
+You need to ensure that policy alerts and actions meet the following requirements:
+• Show the display names of users in communication compliance alerts for all policy matches.
+• Show positive, neutral, or negative labels for policy matches.
+Which communication compliance setting should you configure for each requirement? To answer, select the appropriate options the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 6 - Question 42
+https://www.examtopics.com/discussions/microsoft/view/390978-exam-sc-400-topic-6-question-42-discussion/
+======================================================================
+HOTSPOT
+-
+You have a Microsoft 365 E5 subscription that contains the devices shown in the following table.
+You plan to implement insider risk management and capture forensic evidence.
+Which devices support the collection of forensic evidence, and what should you do to prepare each supported device? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 6 - Question 43
+https://www.examtopics.com/discussions/microsoft/view/390977-exam-sc-400-topic-6-question-43-discussion/
+======================================================================
+HOTSPOT
+-
+You have a Microsoft 365 E5 subscription.
+Users conduct meetings by using Zoom.
+You plan to analyze message and meeting content in Zoom by using a communication compliance policy.
+You need to recommend what should you add to the subscription, and the information required to configure the addition.
+What should you include in the recommendation? To answer, select the appropriate options in the answer area.
+NOTE: Each connect selection is worth one point.
+
+======================================================================
+Topic 6 - Question 44
+https://www.examtopics.com/discussions/microsoft/view/390976-exam-sc-400-topic-6-question-44-discussion/
+======================================================================
+HOTSPOT
+-
+You have a Microsoft 365 subscription.
+You need to implement a compliance solution that meets the following requirements:
+• Receives an alert when a user emails an Azure Storage Account Key.
+• Detects communication when users share insider information about stocks.
+What should you do for each requirement? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 6 - Question 45
+https://www.examtopics.com/discussions/microsoft/view/390975-exam-sc-400-topic-6-question-45-discussion/
+======================================================================
+You have a Microsoft 365 E5 subscription that contains a Microsoft SharePoint Online site named Site1.
+You need to deploy a Microsoft Purview insider risk management solution that will generate an alert when users share sensitive information on Site1 with external recipients.
+Which two actions should you perform? Each correct answer presents part of the solution.
+NOTE: Each correct answer is worth one point.
+
+A. Turn on analytics.
+B. Configure adaptive protection.
+C. Turn on indicators.
+D. Create a data loss prevention (DLP) policy.
+E. Create an insider risk policy.
+
+======================================================================
+Topic 6 - Question 46
+https://www.examtopics.com/discussions/microsoft/view/390966-exam-sc-400-topic-6-question-46-discussion/
+======================================================================
+HOTSPOT
+-
+You have a Microsoft 365 E5 subscription that contains the users shown in the following table.
+You create a Microsoft Priva policy named Policy1 by using the Data transfers policy template. Policy1 has the Data to monitor settings shown in the Data exhibit. (Click the Data tab.)
+Policy1 has the Review and finish settings shown in the Review exhibit. (Click the Review tab.)
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 6 - Question 47
+https://www.examtopics.com/discussions/microsoft/view/390964-exam-sc-400-topic-6-question-47-discussion/
+======================================================================
+You have a Microsoft 365 subscription.
+You receive a Microsoft Priva alert that a user shared a link to a Microsoft OneDrive folder that allows public access.
+Which type of policy generated the alert?
+
+A. data loss prevention (DLP)
+B. data minimization
+C. data overexposure
+D. data transfer
+
+======================================================================
 Topic 7 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/65567-exam-sc-400-topic-4-question-1-discussion/
 ======================================================================
-
 You need to recommend a solution that meets the Data Loss Prevention requirements for the HR department.
 Which three actions should you perform? Each correct answer presents part of the solution. (Choose three.)
 NOTE: Each correct selection is worth one point.
@@ -5285,7 +5501,6 @@ Suggested Answer (community most voted): ABC
 Topic 7 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/53804-exam-sc-400-topic-4-question-2-discussion/
 ======================================================================
-
 You need to recommend a solution that meets the compliance requirements for protecting the documents in the Data shared folder.
 What should you recommend?
 
@@ -5300,7 +5515,6 @@ Suggested Answer (community most voted): B
 Topic 7 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/58274-exam-sc-400-topic-4-question-3-discussion/
 ======================================================================
-
 DRAG DROP -
 You need to recommend a solution that meets the sales requirements.
 Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. (Choose three.)
@@ -5310,7 +5524,6 @@ Select and Place:
 Topic 7 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/68264-exam-sc-400-topic-4-question-4-discussion/
 ======================================================================
-
 HOTSPOT -
 You need to implement a solution to encrypt email. The solution must meet the compliance requirements.
 What should you create in the Exchange admin center and the Microsoft 365 compliance center? To answer, select the appropriate options in the answer area.
@@ -5321,7 +5534,6 @@ Hot Area:
 Topic 8 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/53441-exam-sc-400-topic-5-question-1-discussion/
 ======================================================================
-
 HOTSPOT -
 You need to meet the technical requirements for the confidential documents.
 What should you create first, and what should you use for the detection method? To answer, select the appropriate options in the answer area.
@@ -5332,7 +5544,6 @@ Hot Area:
 Topic 8 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/57805-exam-sc-400-topic-5-question-2-discussion/
 ======================================================================
-
 You need to meet the technical requirements for the Site3 documents.
 What should you create?
 
@@ -5347,7 +5558,6 @@ Suggested Answer (community most voted): B
 Topic 8 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/57806-exam-sc-400-topic-5-question-3-discussion/
 ======================================================================
-
 You need to meet the technical requirements for the creation of the sensitivity labels.
 To which user or users must you grant the Sensitivity label administrator role?
 
@@ -5363,7 +5573,6 @@ Suggested Answer (community most voted): D
 Topic 8 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/66297-exam-sc-400-topic-5-question-4-discussion/
 ======================================================================
-
 DRAG DROP -
 You need to meet the technical requirements for the Site1 documents.
 Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
@@ -5373,7 +5582,6 @@ Select and Place:
 Topic 9 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/68265-exam-sc-400-topic-6-question-1-discussion/
 ======================================================================
-
 You need to recommend a solution that meets the compliance requirements for viewing DLP tooltip justifications.
 What should you recommend?
 
@@ -5388,7 +5596,6 @@ Suggested Answer (community most voted): A
 Topic 9 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/57953-exam-sc-400-topic-6-question-2-discussion/
 ======================================================================
-
 You need to recommend a solution that meets the compliance requirements for Dropbox.
 What should you recommend?
 
@@ -5403,7 +5610,6 @@ Suggested Answer (community most voted): A
 Topic 9 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/59589-exam-sc-400-topic-6-question-3-discussion/
 ======================================================================
-
 You need to implement a solution that meets the compliance requirements for the Windows 10 computers.
 Which two actions should you perform? Each correct answer presents part of the solution. (Choose two.)
 NOTE: Each correct selection is worth one point.
@@ -5420,7 +5626,6 @@ Suggested Answer (community most voted): AE
 Topic 9 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/68266-exam-sc-400-topic-6-question-4-discussion/
 ======================================================================
-
 You need to recommend a solution to configure the Microsoft 365 Records management settings by using the CSV file. The solution must meet the compliance requirements.
 What should you recommend?
 
@@ -5433,7 +5638,6 @@ D. Use a PowerShell command that pipes the Import-Csv cmdlet to the New-Label cm
 Topic 10 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/57954-exam-sc-400-topic-7-question-1-discussion/
 ======================================================================
-
 HOTSPOT -
 How many files in Site2 will be visible to User1 and User2 after you turn on DLPpolicy1? To answer, select the appropriate options in the answer area.
 NOTE: Each correct selection is worth one point.
@@ -5443,7 +5647,6 @@ Hot Area:
 Topic 10 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/57961-exam-sc-400-topic-7-question-2-discussion/
 ======================================================================
-
 You are evaluating the technical requirements for the DLP reports.
 Which user can currently view the DLP reports?
 
@@ -5459,7 +5662,6 @@ Suggested Answer (community most voted): E
 Topic 11 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/59467-exam-sc-400-topic-8-question-1-discussion/
 ======================================================================
-
 HOTSPOT -
 You are reviewing policies for the SharePoint Online environment.
 For each of the following statements, select Yes if the statement is true. Otherwise, select No.
@@ -5470,7 +5672,6 @@ Hot Area:
 Topic 11 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/52884-exam-sc-400-topic-8-question-2-discussion/
 ======================================================================
-
 You need to meet the retention requirement for the users' Microsoft 365 data.
 What is the minimum number of retention policies that you should use?
 
@@ -5486,7 +5687,6 @@ Suggested Answer (community most voted): B
 Topic 12 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/64338-exam-sc-400-topic-9-question-1-discussion/
 ======================================================================
-
 You need to recommend a solution that meets the executive requirements.
 What should you recommend?
 
@@ -5501,10 +5701,8 @@ Suggested Answer (community most voted): D
 Topic 12 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/64865-exam-sc-400-topic-9-question-2-discussion/
 ======================================================================
-
 HOTSPOT -
 You need to recommend an information governance solution that meets the HR requirements for handling employment applications and resumes.
 What is the minimum number of information governance solution components that you should create? To answer, select the appropriate options in the answer area.
 NOTE: Each correct selection is worth one point.
 Hot Area:
-

@@ -1,11 +1,10 @@
-MD-102 - Extracted Questions (404 of 409)
+MD-102 - Extracted Questions (409)
 Source: ExamTopics question/discussion pages
 
 ======================================================================
 Topic 1 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/118256-exam-md-102-topic-1-question-1-discussion/
 ======================================================================
-
 HOTSPOT -
 Case study -
 Overview -
@@ -76,7 +75,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/118184-exam-md-102-topic-1-question-2-discussion/
 ======================================================================
-
 Case study -
 Overview -
 ADatum Corporation is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.
@@ -152,7 +150,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/118286-exam-md-102-topic-1-question-3-discussion/
 ======================================================================
-
 HOTSPOT -
 Case study -
 Overview -
@@ -223,7 +220,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/118093-exam-md-102-topic-1-question-4-discussion/
 ======================================================================
-
 Case study -
 Overview -
 ADatum Corporation is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.
@@ -300,7 +296,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/118252-exam-md-102-topic-1-question-5-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 subscription.
 You use Microsoft Intune Suite to manage devices.
@@ -312,7 +307,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 6
 https://www.examtopics.com/discussions/microsoft/view/117832-exam-md-102-topic-1-question-6-discussion/
 ======================================================================
-
 DRAG DROP -
 You have a Microsoft 365 E5 subscription and a computer that runs Windows 11.
 You need to create a customized installation of Microsoft 365 Apps for enterprise.
@@ -322,7 +316,6 @@ Which four actions should you perform in sequence? To answer, move the appropria
 Topic 1 - Question 7
 https://www.examtopics.com/discussions/microsoft/view/118169-exam-md-102-topic-1-question-7-discussion/
 ======================================================================
-
 You have devices enrolled in Microsoft Intune as shown in the following table.
 On which devices can you apply app configuration policies?
 
@@ -338,7 +331,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 8
 https://www.examtopics.com/discussions/microsoft/view/118172-exam-md-102-topic-1-question-8-discussion/
 ======================================================================
-
 HOTSPOT -
 You have an Azure AD tenant named contoso.com that contains the devices shown in the following table.
 All devices contain an app named App1 and are enrolled in Microsoft Intune.
@@ -350,7 +342,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 9
 https://www.examtopics.com/discussions/microsoft/view/118049-exam-md-102-topic-1-question-9-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that uses Microsoft Intune Suite.
 You use Microsoft Intune to manage devices.
 You plan to deploy two apps named App1 and App2 to all Windows devices. App1 must be installed before App2.
@@ -369,7 +360,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 10
 https://www.examtopics.com/discussions/microsoft/view/118729-exam-md-102-topic-1-question-10-discussion/
 ======================================================================
-
 You have a Microsoft Intune subscription.
 You have devices enrolled in Intune as shown in the following table.
 An app named App1 is installed on each device.
@@ -387,7 +377,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 11
 https://www.examtopics.com/discussions/microsoft/view/117839-exam-md-102-topic-1-question-11-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains 100 iOS devices enrolled in Microsoft Intune.
 You need to deploy a custom line-of-business (LOB) app to the devices by using Intune.
 Which extension should you select for the app package file?
@@ -403,7 +392,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 12
 https://www.examtopics.com/discussions/microsoft/view/117900-exam-md-102-topic-1-question-12-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains a user named User1 and a web app named App1.
 App1 must only accept modern authentication requests.
 You plan to create a Conditional Access policy named CAPolicy1 that will have the following settings:
@@ -427,7 +415,6 @@ Suggested Answer (community most voted): E
 Topic 1 - Question 13
 https://www.examtopics.com/discussions/microsoft/view/119749-exam-md-102-topic-1-question-13-discussion/
 ======================================================================
-
 HOTSPOT -
 All users have Microsoft 365 apps deployed.
 You need to configure Microsoft 365 apps to meet the following requirements:
@@ -440,7 +427,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 14
 https://www.examtopics.com/discussions/microsoft/view/117901-exam-md-102-topic-1-question-14-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription.
 You have 10 computers that run Windows 10 and are enrolled in mobile device management (MDM).
 You need to deploy the Microsoft 365 Apps for enterprise suite to all the computers.
@@ -457,7 +443,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 15
 https://www.examtopics.com/discussions/microsoft/view/117902-exam-md-102-topic-1-question-15-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that uses Microsoft Intune Suite.
 You use Microsoft Intune to manage devices.
 You have a Windows 11 device named Device1 that is enrolled in Intune. Device1 has been offline for 30 days.
@@ -475,7 +460,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 16
 https://www.examtopics.com/discussions/microsoft/view/118174-exam-md-102-topic-1-question-16-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that uses Microsoft Intune Suite.
 You use Microsoft Intune to manage devices.
 You need to review the startup times and restart frequencies of the devices.
@@ -492,7 +476,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 17
 https://www.examtopics.com/discussions/microsoft/view/118018-exam-md-102-topic-1-question-17-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 E5 subscription.
 You create a new update rings policy named Policy1 as shown in the following exhibit.
@@ -503,7 +486,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 18
 https://www.examtopics.com/discussions/microsoft/view/118289-exam-md-102-topic-1-question-18-discussion/
 ======================================================================
-
 You have computers that run Windows 10 and connect to an Azure Log Analytics workspace. The workspace is configured to collect all available events from the Windows event logs.
 The computers have the logged events shown in the following table.
 Which events are collected in the Log Analytics workspace?
@@ -520,7 +502,6 @@ Suggested Answer (community most voted): E
 Topic 1 - Question 19
 https://www.examtopics.com/discussions/microsoft/view/118732-exam-md-102-topic-1-question-19-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains 10 Android Enterprise devices. Each device has a corporate-owned work profile and is enrolled in Microsoft Intune.
 You need to configure the devices to run a single app in kiosk mode.
 Which Configuration settings should you modify in the device restrictions profile?
@@ -536,7 +517,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 20
 https://www.examtopics.com/discussions/microsoft/view/117908-exam-md-102-topic-1-question-20-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains 500 macOS devices enrolled in Microsoft Intune.
 You need to ensure that you can apply Microsoft Defender for Endpoint antivirus policies to the macOS devices. The solution must minimize administrative effort.
 What should you do?
@@ -552,7 +532,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 21
 https://www.examtopics.com/discussions/microsoft/view/118516-exam-md-102-topic-1-question-21-discussion/
 ======================================================================
-
 You have an Azure AD tenant and 100 Windows 10 devices that are Azure AD joined and managed by using Microsoft Intune.
 You need to configure Microsoft Defender Firewall and Microsoft Defender Antivirus on the devices. The solution must minimize administrative effort.
 Which two actions should you perform? Each correct answer presents part of the solution.
@@ -571,7 +550,6 @@ Suggested Answer (community most voted): DE
 Topic 1 - Question 22
 https://www.examtopics.com/discussions/microsoft/view/118518-exam-md-102-topic-1-question-22-discussion/
 ======================================================================
-
 You have an Azure AD group named Group1. Group1 contains two Windows 10 Enterprise devices named Device1 and Device2.
 You create a device configuration profile named Profile1. You assign Profile1 to Group1.
 You need to ensure that Profile1 applies to Device1 only.
@@ -588,7 +566,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 23
 https://www.examtopics.com/discussions/microsoft/view/118176-exam-md-102-topic-1-question-23-discussion/
 ======================================================================
-
 DRAG DROP -
 You have a Microsoft 365 subscription that includes Microsoft Intune.
 You need to implement a Microsoft Defender for Endpoint solution that meets the following requirements:
@@ -601,7 +578,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 24
 https://www.examtopics.com/discussions/microsoft/view/117909-exam-md-102-topic-1-question-24-discussion/
 ======================================================================
-
 Your network contains an on-premises Active Directory domain and an Azure AD tenant.
 The Default Domain Policy Group Policy Object (GPO) contains the settings shown in the following table.
 You need to migrate the existing Default Domain Policy GPO settings to a device configuration profile.
@@ -618,7 +594,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 25
 https://www.examtopics.com/discussions/microsoft/view/118572-exam-md-102-topic-1-question-25-discussion/
 ======================================================================
-
 You have 100 computers that run Windows 10 and connect to an Azure Log Analytics workspace.
 Which three types of data can you collect from the computers by using Log Analytics? Each correct answer presents a complete solution.
 NOTE: Each correct selection is worth one point.
@@ -635,7 +610,6 @@ Suggested Answer (community most voted): ACD
 Topic 1 - Question 26
 https://www.examtopics.com/discussions/microsoft/view/118820-exam-md-102-topic-1-question-26-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription. The subscription contains 25 computers that run Windows 11 and are enrolled in Microsoft Intune.
 You need to onboard the devices to Microsoft Defender for Endpoint.
 What should you create in the Microsoft Intune admin center?
@@ -652,7 +626,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 27
 https://www.examtopics.com/discussions/microsoft/view/118822-exam-md-102-topic-1-question-27-discussion/
 ======================================================================
-
 Your company uses Microsoft Intune to manage devices.
 You need to ensure that only Android devices that use Android work profiles can enroll in Intune.
 Which two configurations should you perform in the device enrollment restrictions? Each correct answer presents part of the solution.
@@ -669,7 +642,6 @@ Suggested Answer (community most voted): BD
 Topic 1 - Question 28
 https://www.examtopics.com/discussions/microsoft/view/118823-exam-md-102-topic-1-question-28-discussion/
 ======================================================================
-
 HOTSPOT -
 You have the device configuration profile shown in the following exhibit.
 Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
@@ -679,7 +651,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 29
 https://www.examtopics.com/discussions/microsoft/view/118824-exam-md-102-topic-1-question-29-discussion/
 ======================================================================
-
 HOTSPOT -
 You have 100 Windows 10 devices enrolled in Microsoft Intune.
 You need to configure the devices to retrieve Windows updates from the internet and from other computers on a local network.
@@ -690,7 +661,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 30
 https://www.examtopics.com/discussions/microsoft/view/118354-exam-md-102-topic-1-question-30-discussion/
 ======================================================================
-
 HOTSPOT -
 You have an Azure AD tenant that contains the users shown in the following table.
 You have devices enrolled in Microsoft Intune as shown in the following table.
@@ -702,7 +672,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 31
 https://www.examtopics.com/discussions/microsoft/view/118837-exam-md-102-topic-1-question-31-discussion/
 ======================================================================
-
 You use Microsoft Intune and Intune Data Warehouse.
 You need to create a device inventory report that includes the data stored in the data warehouse.
 What should you use to create the report?
@@ -718,7 +687,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 32
 https://www.examtopics.com/discussions/microsoft/view/118821-exam-md-102-topic-1-question-32-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription and 25 Apple iPads.
 You need to enroll the iPads in Microsoft Intune by using the Apple Configurator enrollment method.
 What should you do first?
@@ -734,7 +702,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 33
 https://www.examtopics.com/discussions/microsoft/view/118564-exam-md-102-topic-1-question-33-discussion/
 ======================================================================
-
 HOTSPOT -
 You have 100 computers that run Windows 10. You have no servers. All the computers are joined to Azure AD.
 The computers have different update settings, and some computers are configured for manual updates.
@@ -749,7 +716,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 34
 https://www.examtopics.com/discussions/microsoft/view/118021-exam-md-102-topic-1-question-34-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains 150 hybrid Azure AD joined Windows devices. All the devices are enrolled in Microsoft Intune.
 You need to configure Delivery Optimization on the devices to meet the following requirements:
 Allow downloads from the internet and from other computers on the local network.
@@ -767,7 +733,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 35
 https://www.examtopics.com/discussions/microsoft/view/118400-exam-md-102-topic-1-question-35-discussion/
 ======================================================================
-
 Your network contains an Active Directory domain named contoso.com. The domain contains a computer named Computer1 that runs Windows 10.
 You have the groups shown in the following table.
 Which groups can you add to Group4?
@@ -783,7 +748,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 36
 https://www.examtopics.com/discussions/microsoft/view/118177-exam-md-102-topic-1-question-36-discussion/
 ======================================================================
-
 DRAG DROP -
 You have a Microsoft 365 subscription. The subscription contains computers that run Windows 11 and are enrolled in Microsoft Intune.
 You need to create a compliance policy that meets the following requirements:
@@ -796,7 +760,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 37
 https://www.examtopics.com/discussions/microsoft/view/118846-exam-md-102-topic-1-question-37-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 E5 subscription that uses Microsoft Intune.
 You have the Windows 11 devices shown in the following table.
@@ -808,7 +771,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 38
 https://www.examtopics.com/discussions/microsoft/view/118847-exam-md-102-topic-1-question-38-discussion/
 ======================================================================
-
 DRAG DROP -
 You have a Microsoft 365 subscription that contains the devices shown in the following table.
 You need to ensure that only devices running trusted firmware or operating system builds can access network resources.
@@ -819,7 +781,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 39
 https://www.examtopics.com/discussions/microsoft/view/118851-exam-md-102-topic-1-question-39-discussion/
 ======================================================================
-
 DRAG DROP -
 You have a Microsoft 365 subscription that contains 1,000 Windows 11 devices enrolled in Microsoft Intune.
 You plan to create and monitor the results of a compliance policy used to validate the BIOS version of the devices.
@@ -829,7 +790,6 @@ Which four actions should you perform in sequence? To answer, move the appropria
 Topic 1 - Question 40
 https://www.examtopics.com/discussions/microsoft/view/118410-exam-md-102-topic-1-question-40-discussion/
 ======================================================================
-
 DRAG DROP -
 You have a computer that runs Windows 10 and contains two local users named User1 and User2.
 You need to ensure that the users can perform the following actions:
@@ -843,7 +803,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 41
 https://www.examtopics.com/discussions/microsoft/view/118852-exam-md-102-topic-1-question-41-discussion/
 ======================================================================
-
 HOTSPOT -
 You have an Azure AD tenant named contoso.com.
 You have the devices shown in the following table.
@@ -854,7 +813,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 42
 https://www.examtopics.com/discussions/microsoft/view/118412-exam-md-102-topic-1-question-42-discussion/
 ======================================================================
-
 HOTSPOT -
 You have an Azure AD tenant named contoso.com that contains the users shown in the following table.
 You have a computer named Computer1 that runs Windows 10. Computer1 is in a workgroup and has the local users shown in the following table.
@@ -866,7 +824,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 43
 https://www.examtopics.com/discussions/microsoft/view/118312-exam-md-102-topic-1-question-43-discussion/
 ======================================================================
-
 Your network contains an Active Directory domain. The domain contains a user named Admin1. All computers run Windows 10.
 You enable Windows PowerShell remoting on the computers.
 You need to ensure that Admin1 can establish remote PowerShell connections to the computers. The solution must use the principle of least privilege.
@@ -883,7 +840,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 44
 https://www.examtopics.com/discussions/microsoft/view/118660-exam-md-102-topic-1-question-44-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft Intune subscription.
 You are creating a Windows Autopilot deployment profile named Profile1 as shown in the following exhibit. Profile1 will be deployed to Windows 10 devices.
@@ -894,7 +850,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 45
 https://www.examtopics.com/discussions/microsoft/view/118955-exam-md-102-topic-1-question-45-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a server named Server1 and computers that run Windows 10. Server1 has the Microsoft Deployment Toolkit (MDT) installed.
 You plan to upgrade the Windows 10 computers to Windows 11 by using the MDT deployment wizard.
@@ -906,7 +861,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 46
 https://www.examtopics.com/discussions/microsoft/view/118834-exam-md-102-topic-1-question-46-discussion/
 ======================================================================
-
 DRAG DROP -
 You have a Microsoft Deployment Toolkit (MDT) server named MDT1.
 When computers start from the LiteTouchPE_x64.iso image and connect to MDT1, the welcome screen appears as shown in the following exhibit.
@@ -917,7 +871,6 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Topic 1 - Question 47
 https://www.examtopics.com/discussions/microsoft/view/118854-exam-md-102-topic-1-question-47-discussion/
 ======================================================================
-
 You use Windows Admin Center to remotely administer computers that run Windows 10.
 When connecting to Windows Admin Center, you receive the message shown in the following exhibit.
 You need to prevent the message from appearing when you connect to Windows Admin Center.
@@ -933,7 +886,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 48
 https://www.examtopics.com/discussions/microsoft/view/118855-exam-md-102-topic-1-question-48-discussion/
 ======================================================================
-
 HOTSPOT -
 You have an Azure AD tenant named contoso.com that contains the devices shown in the following table.
 Contoso.com contains the Azure AD groups shown in the following table.
@@ -945,7 +897,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 49
 https://www.examtopics.com/discussions/microsoft/view/118683-exam-md-102-topic-1-question-49-discussion/
 ======================================================================
-
 HOTSPOT -
 Your network contains an Active Directory domain. The domain contains 1,000 computers that run Windows 11.
 You need to configure the Remote Desktop settings of all the computers. The solution must meet the following requirements:
@@ -958,7 +909,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 50
 https://www.examtopics.com/discussions/microsoft/view/118685-exam-md-102-topic-1-question-50-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 subscription that uses Microsoft Intune Suite.
 You use Microsoft Intune to manage devices.
@@ -973,7 +923,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 51
 https://www.examtopics.com/discussions/microsoft/view/118686-exam-md-102-topic-1-question-51-discussion/
 ======================================================================
-
 DRAG DROP -
 You have 100 computers that run Windows 10.
 You plan to deploy Windows 11 to the computers by performing a wipe and load installation.
@@ -984,7 +933,6 @@ Which three actions should you recommend be performed in sequence? To answer, mo
 Topic 1 - Question 52
 https://www.examtopics.com/discussions/microsoft/view/118856-exam-md-102-topic-1-question-52-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that uses Microsoft Intune Suite.
 You use Microsoft Intune to manage devices.
 You use Windows Autopilot to deploy Windows 11 to devices.
@@ -1003,7 +951,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 53
 https://www.examtopics.com/discussions/microsoft/view/118360-exam-md-102-topic-1-question-53-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains a user named User1 and uses Microsoft Intune Suite.
 You use Microsoft Intune to manage devices.
 You have a device named Devic1 that is enrolled in Intune.
@@ -1024,7 +971,6 @@ Suggested Answer (community most voted): ABF
 Topic 1 - Question 54
 https://www.examtopics.com/discussions/microsoft/view/118681-exam-md-102-topic-1-question-54-discussion/
 ======================================================================
-
 You have a Windows 11 capable device named Device1 that runs the 64-bit version of Windows 10 Enterprise and has Microsoft Office 2019 installed.
 You have the Windows 11 Enterprise images shown in the following table.
 Which images can be used to perform an in-place upgrade of Device1?
@@ -1039,7 +985,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 55
 https://www.examtopics.com/discussions/microsoft/view/118682-exam-md-102-topic-1-question-55-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 subscription that uses Microsoft Intune Suite.
 Your network contains an on-premises Active Directory Domain Services (AD DS) domain that syncs with an Azure AD tenant by using Azure AD Connect.
@@ -1055,7 +1000,6 @@ NOTE: Each correct selection is worth point.
 Topic 1 - Question 56
 https://www.examtopics.com/discussions/microsoft/view/118857-exam-md-102-topic-1-question-56-discussion/
 ======================================================================
-
 You have a Microsoft Deployment Toolkit (MDT) deployment share named DS1.
 In the Out-of-Box Drivers node, you create folders that contain drivers for different hardware models.
 You need to configure the Inject Drivers MDT task to use PnP detection to install the drivers for one of the hardware models.
@@ -1072,7 +1016,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 57
 https://www.examtopics.com/discussions/microsoft/view/118951-exam-md-102-topic-1-question-57-discussion/
 ======================================================================
-
 You have an on-premises server named Server1 that hosts a Microsoft Deployment Toolkit (MDT) deployment share named MDT1.
 You need to ensure that MDT1 supports multicast deployments.
 What should you install on Server1?
@@ -1088,7 +1031,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 58
 https://www.examtopics.com/discussions/microsoft/view/118663-exam-md-102-topic-1-question-58-discussion/
 ======================================================================
-
 Your company standardizes on Windows 10 Enterprise for all users.
 Some users purchase their own computer from a retail store. The computers run Windows 10 Pro.
 You need to recommend a solution to upgrade the computers to Windows 10 Enterprise, join the computers to Azure AD, and install several Microsoft Store apps. The solution must meet the following requirements:
@@ -1107,7 +1049,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 59
 https://www.examtopics.com/discussions/microsoft/view/118678-exam-md-102-topic-1-question-59-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 Your company has an Azure AD tenant named contoso.com that contains several Windows 10 devices.
@@ -1125,7 +1066,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 60
 https://www.examtopics.com/discussions/microsoft/view/118679-exam-md-102-topic-1-question-60-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 Your company has an Azure AD tenant named contoso.com that contains several Windows 10 devices.
@@ -1143,7 +1083,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 61
 https://www.examtopics.com/discussions/microsoft/view/118680-exam-md-102-topic-1-question-61-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 Your company has an Azure AD tenant named contoso.com that contains several Windows 10 devices.
@@ -1161,7 +1100,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 62
 https://www.examtopics.com/discussions/microsoft/view/120112-exam-md-102-topic-1-question-62-discussion/
 ======================================================================
-
 Case study -
 Overview -
 Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York.
@@ -1210,7 +1148,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 63
 https://www.examtopics.com/discussions/microsoft/view/119973-exam-md-102-topic-1-question-63-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Case study
@@ -1262,7 +1199,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 64
 https://www.examtopics.com/discussions/microsoft/view/120925-exam-md-102-topic-1-question-64-discussion/
 ======================================================================
-
 Case study -
 Overview -
 Contoso, Ltd. is a consulting company that has a main office in Montreal and two branch offices in Seattle and New York.
@@ -1312,7 +1248,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 65
 https://www.examtopics.com/discussions/microsoft/view/119983-exam-md-102-topic-1-question-65-discussion/
 ======================================================================
-
 HOTSPOT -
 Case study -
 Overview -
@@ -1355,7 +1290,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 66
 https://www.examtopics.com/discussions/microsoft/view/120207-exam-md-102-topic-1-question-66-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Case study
@@ -1406,7 +1340,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 67
 https://www.examtopics.com/discussions/microsoft/view/120208-exam-md-102-topic-1-question-67-discussion/
 ======================================================================
-
 Your network contains an Active Directory domain named contoso.com. The domain contains two computers named Computer1 and Computer2 that run Windows 10.
 On Computer1, you need to run the Invoke-Command cmdlet to execute several PowerShell commands on Computer2.
 What should you do first?
@@ -1422,7 +1355,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 68
 https://www.examtopics.com/discussions/microsoft/view/120214-exam-md-102-topic-1-question-68-discussion/
 ======================================================================
-
 You have an Azure AD tenant that contains the devices shown in the following table.
 Which devices can be activated by using subscription activation?
 
@@ -1437,7 +1369,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 69
 https://www.examtopics.com/discussions/microsoft/view/120217-exam-md-102-topic-1-question-69-discussion/
 ======================================================================
-
 You have 25 computers that run Windows 10 Pro.
 You have a Microsoft 365 E5 subscription that uses Microsoft Intune.
 You need to upgrade the computers to Windows 11 Enterprise by using an in-place upgrade. The solution must minimize administrative effort.
@@ -1454,7 +1385,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 70
 https://www.examtopics.com/discussions/microsoft/view/121129-exam-md-102-topic-1-question-70-discussion/
 ======================================================================
-
 You use the Microsoft Deployment Toolkit (MDT) to manage Windows 11 deployments.
 From Deployment Workbench, you modify the WinPE settings and add PowerShell support.
 You need to generate a new set of WinPE boot image files that contain the updated settings.
@@ -1471,7 +1401,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 71
 https://www.examtopics.com/discussions/microsoft/view/120392-exam-md-102-topic-1-question-71-discussion/
 ======================================================================
-
 You are replacing 100 company-owned Windows devices.
 You need to use the Microsoft Deployment Toolkit (MDT) to securely wipe and decommission the devices. The solution must meet the following requirements:
 •	Back up the user state.
@@ -1489,7 +1418,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 72
 https://www.examtopics.com/discussions/microsoft/view/121165-exam-md-102-topic-1-question-72-discussion/
 ======================================================================
-
 Your network contains an Active Directory domain. The domain contains a computer named Computer1 that runs Windows 11.
 You need to enable the Windows Remote Management (WinRM) service on Computer1 and perform the following configurations:
 •	For the WinRM service, set Startup type to Automatic.
@@ -1508,7 +1436,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 73
 https://www.examtopics.com/discussions/microsoft/view/120527-exam-md-102-topic-1-question-73-discussion/
 ======================================================================
-
 HOTSPOT -
 Your network contains an on-premises Active Directory Domain Services (AD DS) domain that syncs with an Azure AD tenant. The tenant contains the users shown in the following table.
 You assign Windows 10/11 Enterprise E5 licenses to Group1 and User2.
@@ -1520,7 +1447,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 74
 https://www.examtopics.com/discussions/microsoft/view/121167-exam-md-102-topic-1-question-74-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Your network contains an Active Directory domain named adatum.com, a workgroup, and computers that run Windows 10. The computers are configured as shown in the following table.
@@ -1534,7 +1460,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 75
 https://www.examtopics.com/discussions/microsoft/view/120529-exam-md-102-topic-1-question-75-discussion/
 ======================================================================
-
 You have a Hyper-V host that contains the virtual machines shown in the following table.
 On which virtual machines can you install Windows 11?
 
@@ -1550,7 +1475,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 76
 https://www.examtopics.com/discussions/microsoft/view/120121-exam-md-102-topic-1-question-76-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that uses Microsoft Intune and contains the users shown in the following table.
@@ -1565,7 +1489,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 77
 https://www.examtopics.com/discussions/microsoft/view/120921-exam-md-102-topic-1-question-77-discussion/
 ======================================================================
-
 QUESTION NO: 77 -
 You have a Microsoft 365 subscription that contains a user named User1. User1 is assigned a Windows 10/11 Enterprise E3 license.
 You use Microsoft Intune Suite to manage devices.
@@ -1586,7 +1509,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 78
 https://www.examtopics.com/discussions/microsoft/view/121381-exam-md-102-topic-1-question-78-discussion/
 ======================================================================
-
 DRAG DROP
 -
 Your company has a computer named Computer1 that runs Windows 10.
@@ -1599,7 +1521,6 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Topic 1 - Question 79
 https://www.examtopics.com/discussions/microsoft/view/120531-exam-md-102-topic-1-question-79-discussion/
 ======================================================================
-
 You use the Microsoft Deployment Toolkit (MDT) to deploy Windows 11.
 You create a new task sequence by using the Standard Client Task Sequence template to deploy Windows 11 Enterprise to new computers. The computers have a single hard disk.
 You need to modify the task sequence to create a system volume and a data volume.
@@ -1616,7 +1537,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 80
 https://www.examtopics.com/discussions/microsoft/view/120540-exam-md-102-topic-1-question-80-discussion/
 ======================================================================
-
 You have a Microsoft Deployment Toolkit (MDT) deployment share.
 From the Deployment Workbench, you open the New Task Sequence Wizard and select the Standard Client Upgrade Task Sequence task sequence template.
 You discover that there are no operating system images listed on the Select OS page as shown in the following exhibit.
@@ -1634,7 +1554,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 81
 https://www.examtopics.com/discussions/microsoft/view/120923-exam-md-102-topic-1-question-81-discussion/
 ======================================================================
-
 Your company implements Azure AD, Microsoft 365, Microsoft Intune, and Azure Information Protection.
 The company's security policy states the following:
 •	Personal devices do not need to be enrolled in Intune.
@@ -1655,7 +1574,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 82
 https://www.examtopics.com/discussions/microsoft/view/120173-exam-md-102-topic-1-question-82-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains 500 Android Enterprise devices.
 All the devices are enrolled in Microsoft Intune.
 You need to deliver bookmarks to the Chrome browser on the devices.
@@ -1672,7 +1590,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 83
 https://www.examtopics.com/discussions/microsoft/view/120924-exam-md-102-topic-1-question-83-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription and 100 computers that run Windows 10.
 You need to deploy Microsoft Office Professional Plus 2019 to the computers by using Microsoft Office Deployment Tool (ODT).
 What should you use to create a customization file for ODT?
@@ -1688,7 +1605,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 84
 https://www.examtopics.com/discussions/microsoft/view/120536-exam-md-102-topic-1-question-84-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains 1,000 Windows 11 devices enrolled in Microsoft Intune.
 You plan to use Intune to deploy an application named App1 that contains multiple installation files.
 What should you do first?
@@ -1704,7 +1620,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 85
 https://www.examtopics.com/discussions/microsoft/view/121169-exam-md-102-topic-1-question-85-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have groups that use the Dynamic Device membership type as shown in the following table.
@@ -1718,7 +1633,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 86
 https://www.examtopics.com/discussions/microsoft/view/120538-exam-md-102-topic-1-question-86-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription. All devices run Windows 10.
 You need to prevent users from enrolling the devices in the Windows Insider Program.
 What two configurations should you perform from the Microsoft Intune admin center? Each correct answer is a complete solution.
@@ -1736,7 +1650,6 @@ Suggested Answer (community most voted): AE
 Topic 1 - Question 87
 https://www.examtopics.com/discussions/microsoft/view/120926-exam-md-102-topic-1-question-87-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains 100 Windows 10 devices enrolled in Microsoft Intune.
 You plan to use Endpoint analytics.
 You need to create baseline metrics.
@@ -1753,7 +1666,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 88
 https://www.examtopics.com/discussions/microsoft/view/121173-exam-md-102-topic-1-question-88-discussion/
 ======================================================================
-
 You install a feature update on a computer that runs Windows 10.
 How many days do you have to roll back the update?
 
@@ -1768,7 +1680,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 89
 https://www.examtopics.com/discussions/microsoft/view/121174-exam-md-102-topic-1-question-89-discussion/
 ======================================================================
-
 You have a Microsoft Azure subscription that contains an Azure Log Analytics workspace.
 You deploy a new computer named Computer1 that runs Windows 10. Computer1 is in a workgroup.
 You need to ensure that you can use Log Analytics to query events from Computer1.
@@ -1785,7 +1696,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 90
 https://www.examtopics.com/discussions/microsoft/view/121175-exam-md-102-topic-1-question-90-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription and 100 unmanaged iPad devices.
 You need to deploy a specific iOS update to the devices. Users must be prevented from manually installing a more recent version of iOS.
 Which two actions should you perform? Each correct answer presents part of the solution.
@@ -1803,7 +1713,6 @@ Suggested Answer (community most voted): AE
 Topic 1 - Question 91
 https://www.examtopics.com/discussions/microsoft/view/121390-exam-md-102-topic-1-question-91-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that includes Microsoft Intune.
 You have an update ring named UpdateRing1 that contains the following settings:
 •	Automatic update behavior: Auto install and restart at a scheduled time
@@ -1824,7 +1733,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 92
 https://www.examtopics.com/discussions/microsoft/view/120928-exam-md-102-topic-1-question-92-discussion/
 ======================================================================
-
 You have a hybrid deployment of Azure AD that contains 50 Windows 10 devices. All the devices are enrolled in Microsoft Intune.
 You discover that Group Policy settings override the settings configured in Microsoft Intune policies.
 You need to ensure that the settings configured in Microsoft Intune override the Group Policy settings.
@@ -1841,7 +1749,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 93
 https://www.examtopics.com/discussions/microsoft/view/120225-exam-md-102-topic-1-question-93-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that uses Microsoft Intune Suite.
 You use Microsoft Intune to manage devices.
 You need to ensure that the startup performance of managed Windows 11 devices is captured and available for review in the Intune admin center.
@@ -1858,7 +1765,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 94
 https://www.examtopics.com/discussions/microsoft/view/120544-exam-md-102-topic-1-question-94-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that uses Microsoft Intune.
@@ -1872,7 +1778,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 95
 https://www.examtopics.com/discussions/microsoft/view/120226-exam-md-102-topic-1-question-95-discussion/
 ======================================================================
-
 You have a Microsoft Intune deployment that contains the resources shown in the following table.
 You create a policy set named Set1 and add Comply1 to Set1.
 Which additional resources can you add to Set1?
@@ -1889,7 +1794,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 96
 https://www.examtopics.com/discussions/microsoft/view/120227-exam-md-102-topic-1-question-96-discussion/
 ======================================================================
-
 You use Microsoft Defender for Endpoint to protect computers that run Windows 10.
 You need to assess the differences between the configuration of Microsoft Defender for Endpoint and the Microsoft-recommended configuration baseline.
 Which tool should you use?
@@ -1905,7 +1809,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 97
 https://www.examtopics.com/discussions/microsoft/view/123091-exam-md-102-topic-1-question-97-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains 1,000 Windows 11 devices. All the devices are enrolled in Microsoft Intune.
 You plan to integrate Intune with Microsoft Defender for Endpoint.
 You need to establish a service-to-service connection between Intune and Defender for Endpoint.
@@ -1922,7 +1825,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 98
 https://www.examtopics.com/discussions/microsoft/view/122088-exam-md-102-topic-1-question-98-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft Intune subscription that is configured to use a PFX certificate connector to an on-premises Enterprise certification authority (CA).
@@ -1933,7 +1835,6 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Topic 1 - Question 99
 https://www.examtopics.com/discussions/microsoft/view/120553-exam-md-102-topic-1-question-99-discussion/
 ======================================================================
-
 Your company uses Microsoft Intune.
 More than 500 Android and iOS devices are enrolled in the Intune tenant.
 You plan to deploy new Intune policies. Different policies will apply depending on the version of Android or iOS installed on the device.
@@ -1951,7 +1852,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 100
 https://www.examtopics.com/discussions/microsoft/view/120556-exam-md-102-topic-1-question-100-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have 500 Windows 10 devices enrolled in Microsoft Intune.
@@ -1966,7 +1866,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 101
 https://www.examtopics.com/discussions/microsoft/view/121387-exam-md-102-topic-1-question-101-discussion/
 ======================================================================
-
 You have an Azure AD tenant named contoso.com.
 You have a workgroup computer named Computer1 that runs Windows 11.
 You need to add Computer1 to contoso.com.
@@ -1983,7 +1882,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 102
 https://www.examtopics.com/discussions/microsoft/view/120969-exam-md-102-topic-1-question-102-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that uses Microsoft Intune Suite.
 You use Microsoft Intune to manage Windows 11 devices.
 You need to implement passwordless authentication that requires users to use number matching.
@@ -2000,7 +1898,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 103
 https://www.examtopics.com/discussions/microsoft/view/121395-exam-md-102-topic-1-question-103-discussion/
 ======================================================================
-
 You use a Microsoft Intune subscription to manage iOS devices.
 You configure a device compliance policy that blocks jailbroken iOS devices.
 You need to enable Enhanced jailbreak detection.
@@ -2017,7 +1914,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 104
 https://www.examtopics.com/discussions/microsoft/view/121320-exam-md-102-topic-1-question-104-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft 365 subscription that contains two users named User1 and User2.
@@ -2032,7 +1928,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 105
 https://www.examtopics.com/discussions/microsoft/view/120628-exam-md-102-topic-1-question-105-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft Intune subscription that has the following device compliance policy settings:
@@ -2058,7 +1953,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 106
 https://www.examtopics.com/discussions/microsoft/view/120630-exam-md-102-topic-1-question-106-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 subscription that includes Microsoft Intune.
 You have computers that run Windows 11 as shown in the following table.
@@ -2072,7 +1966,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 107
 https://www.examtopics.com/discussions/microsoft/view/121402-exam-md-102-topic-1-question-107-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 Your company has an Azure AD tenant named contoso.com that contains several Windows 10 devices.
@@ -2090,7 +1983,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 108
 https://www.examtopics.com/discussions/microsoft/view/120632-exam-md-102-topic-1-question-108-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant that contains the objects shown in the following table.
 You are creating a compliance policy named Compliance1.
 Which objects can you specify in Compliance1 as additional recipients of noncompliance notifications?
@@ -2107,7 +1999,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 109
 https://www.examtopics.com/discussions/microsoft/view/120551-exam-md-102-topic-1-question-109-discussion/
 ======================================================================
-
 HOTSPOT -
 You have an Azure AD tenant named contoso.com that contains a user named User1. User1 has a user principal name (UPN) of [email protected].
 You join a Windows 11 device named Client1 to contoso.com.
@@ -2119,7 +2010,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 110
 https://www.examtopics.com/discussions/microsoft/view/120983-exam-md-102-topic-1-question-110-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription.
 You need to provide a user the ability Security defaults and create Conditional Access policies. The solution must use the principle of least privilege.
 Which role should you assign to the user?
@@ -2135,7 +2025,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 111
 https://www.examtopics.com/discussions/microsoft/view/122279-exam-md-102-topic-1-question-111-discussion/
 ======================================================================
-
 HOTSPOT -
 In Microsoft Intune, you have the device compliance policies shown in the following table.
 The Intune compliance policy settings are configured as shown in the following exhibit.
@@ -2147,7 +2036,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 112
 https://www.examtopics.com/discussions/microsoft/view/120277-exam-md-102-topic-1-question-112-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains a user named User1 and uses Microsoft Intune Suite.
 You use Microsoft Intune to manage devices that run Windows 11.
 User provides remote support for 75 devices in the marketing department.
@@ -2165,7 +2053,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 113
 https://www.examtopics.com/discussions/microsoft/view/121363-exam-md-102-topic-1-question-113-discussion/
 ======================================================================
-
 HOTSPOT -
 You have an Azure AD tenant named contoso.com that contains the users shown in the following table.
 For contoso.com, the Mobility (MDM and MAM) settings have the following configurations:
@@ -2178,7 +2065,6 @@ For each of the following statements, select Yes if the statement is true. Other
 Topic 1 - Question 114
 https://www.examtopics.com/discussions/microsoft/view/123984-exam-md-102-topic-1-question-114-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that uses Microsoft Intune Suite.
 You use Microsoft Intune to deploy and manage Windows devices.
 You have 100 devices from users that left your company.
@@ -2196,7 +2082,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 115
 https://www.examtopics.com/discussions/microsoft/view/121531-exam-md-102-topic-1-question-115-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You create a Windows Autopilot deployment profile.
@@ -2210,7 +2095,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 116
 https://www.examtopics.com/discussions/microsoft/view/121366-exam-md-102-topic-1-question-116-discussion/
 ======================================================================
-
 You have a computer named Computer1 that runs Windows 11.
 A user named User1 plans to use Remote Desktop to connect to Computer1.
 You need to ensure that the device of User1 is authenticated before the Remote Desktop connection is established and the sign in page appears.
@@ -2227,7 +2111,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 117
 https://www.examtopics.com/discussions/microsoft/view/120634-exam-md-102-topic-1-question-117-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that uses Microsoft Intune Suite.
 You use Microsoft Intune to manage devices.
 You have the devices shown in the following table.
@@ -2244,7 +2127,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 118
 https://www.examtopics.com/discussions/microsoft/view/121822-exam-md-102-topic-1-question-118-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Your network contains an Active Directory domain named adatum.com. The domain contains two computers named Computer1 and Computer2 that run Windows 10. Remote Desktop is enabled on Computer2.
@@ -2258,7 +2140,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 119
 https://www.examtopics.com/discussions/microsoft/view/121408-exam-md-102-topic-1-question-119-discussion/
 ======================================================================
-
 You have two computers named Computer1 and Computer2 that run Windows 10. Computer2 has Remote Desktop enabled.
 From Computer1, you connect to Computer2 by using Remote Desktop Connection.
 You need to ensure that you can access the local drives on Computer1 from within the Remote Desktop session.
@@ -2275,7 +2156,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 120
 https://www.examtopics.com/discussions/microsoft/view/121001-exam-md-102-topic-1-question-120-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that uses Microsoft Intune.
 You have five new Windows 11 Pro devices.
 You need to prepare the devices for corporate use. The solution must meet the following requirements:
@@ -2298,7 +2178,6 @@ Suggested Answer (community most voted): BDE
 Topic 1 - Question 121
 https://www.examtopics.com/discussions/microsoft/view/125863-exam-md-102-topic-1-question-121-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft Deployment Toolkit (MDT) deployment share named DS1.
@@ -2311,7 +2190,6 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Topic 1 - Question 122
 https://www.examtopics.com/discussions/microsoft/view/121409-exam-md-102-topic-1-question-122-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have the devices shown in the following table.
@@ -2323,7 +2201,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 123
 https://www.examtopics.com/discussions/microsoft/view/121533-exam-md-102-topic-1-question-123-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription.
 You plan to use Windows Autopilot to provision 25 Windows 11 devices.
 You need to configure the Out-of-box experience (OOBE) settings.
@@ -2341,7 +2218,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 124
 https://www.examtopics.com/discussions/microsoft/view/121164-exam-md-102-topic-1-question-124-discussion/
 ======================================================================
-
 You have an Azure AD tenant that contains the devices shown in the following table.
 You purchase Windows 11 Enterprise E5 licenses.
 Which devices can use Subscription Activation to upgrade to Windows 11 Enterprise?
@@ -2357,7 +2233,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 125
 https://www.examtopics.com/discussions/microsoft/view/122281-exam-md-102-topic-1-question-125-discussion/
 ======================================================================
-
 You have a Microsoft 365 Subscription that uses Microsoft Intune.
 You add apps to Intune as shown in the following table.
 You need to create an app configuration policy named Policy1 for the Android Enterprise platform.
@@ -2375,7 +2250,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 126
 https://www.examtopics.com/discussions/microsoft/view/123266-exam-md-102-topic-1-question-126-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that uses Microsoft Intune.
 You need to ensure that you can deploy apps to Android Enterprise devices.
 What should you do first?
@@ -2391,7 +2265,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 127
 https://www.examtopics.com/discussions/microsoft/view/120284-exam-md-102-topic-1-question-127-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant that uses Microsoft Intune.
 You use the Company Portal app to access and install published apps to enrolled devices.
 From the Microsoft Intune admin center, you add a Microsoft Store app.
@@ -2409,7 +2282,6 @@ Suggested Answer (community most voted): AB
 Topic 1 - Question 128
 https://www.examtopics.com/discussions/microsoft/view/122282-exam-md-102-topic-1-question-128-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have 200 computers that run Windows 10. The computers are joined to Azure AD and enrolled in Microsoft Intune.
@@ -2421,7 +2293,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 129
 https://www.examtopics.com/discussions/microsoft/view/121410-exam-md-102-topic-1-question-129-discussion/
 ======================================================================
-
 You have computers that run Windows 11 Pro. The computers are joined to Azure AD and enrolled in Microsoft Intune.
 You need to upgrade the computers to Windows 11 Enterprise.
 What should you configure in Intune?
@@ -2437,7 +2308,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 130
 https://www.examtopics.com/discussions/microsoft/view/121004-exam-md-102-topic-1-question-130-discussion/
 ======================================================================
-
 You have computers that run Windows 10 and are managed by using Microsoft Intune.
 Users store their files in a folder named D:\Folder1.
 You need to ensure that only a trusted list of applications is granted write access to D:\Folder1.
@@ -2454,7 +2324,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 131
 https://www.examtopics.com/discussions/microsoft/view/121007-exam-md-102-topic-1-question-131-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains 100 Windows 10 devices enrolled in Microsoft Intune.
@@ -2468,7 +2337,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 132
 https://www.examtopics.com/discussions/microsoft/view/120285-exam-md-102-topic-1-question-132-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains 100 devices enrolled in Microsoft Intune.
 You need to review the startup processes and how often each device restarts.
 What should you use?
@@ -2484,7 +2352,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 133
 https://www.examtopics.com/discussions/microsoft/view/123824-exam-md-102-topic-1-question-133-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft 365 subscription that contains devices enrolled in Microsoft Intune.
@@ -2498,7 +2365,6 @@ Which Endpoint security feature should you use for each requirement? To answer, 
 Topic 1 - Question 134
 https://www.examtopics.com/discussions/microsoft/view/121414-exam-md-102-topic-1-question-134-discussion/
 ======================================================================
-
 Your company has 200 computers that run Windows 10. The computers are managed by using Microsoft Intune.
 Currently, Windows updates are downloaded without using Delivery Optimization.
 You need to configure the computers to use Delivery Optimization.
@@ -2515,7 +2381,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 135
 https://www.examtopics.com/discussions/microsoft/view/121009-exam-md-102-topic-1-question-135-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that uses Microsoft Intune Suite.
 You use Microsoft Intune to manage devices.
 Auto-enrollment in Intune is configured.
@@ -2534,7 +2399,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 136
 https://www.examtopics.com/discussions/microsoft/view/121415-exam-md-102-topic-1-question-136-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 tenant that uses Microsoft Intune to manage personal and corporate devices. The tenant contains Windows 10 devices as shown in the following exhibit.
@@ -2545,7 +2409,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 137
 https://www.examtopics.com/discussions/microsoft/view/120307-exam-md-102-topic-1-question-137-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that uses Microsoft Intune Suite.
 You use Microsoft Intune to manage devices. All devices are in the same time zone.
 You create an update rings policy and assign the policy to all Windows devices.
@@ -2564,7 +2427,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 138
 https://www.examtopics.com/discussions/microsoft/view/121416-exam-md-102-topic-1-question-138-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains the devices shown in the following table.
 All devices have Microsoft Edge installed.
 From the Microsoft Intune admin center, you create a Microsoft Edge Baseline profile named Edge1.
@@ -2583,7 +2445,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 139
 https://www.examtopics.com/discussions/microsoft/view/120308-exam-md-102-topic-1-question-139-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that uses Microsoft Intune.
@@ -2596,7 +2457,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 140
 https://www.examtopics.com/discussions/microsoft/view/120309-exam-md-102-topic-1-question-140-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant.
 You have devices enrolled in Microsoft Intune.
 You assign a conditional access policy named Policy1 to a group named Group1. Policy1 restricts devices marked as noncompliant from accessing Microsoft OneDrive for Business.
@@ -2614,7 +2474,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 141
 https://www.examtopics.com/discussions/microsoft/view/123360-exam-md-102-topic-1-question-141-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You use Microsoft Intune to manage Windows 10 devices.
@@ -2630,7 +2489,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 142
 https://www.examtopics.com/discussions/microsoft/view/120323-exam-md-102-topic-1-question-142-discussion/
 ======================================================================
-
 Your network contains an Active Directory domain. The domain contains 2,000 computers that run Windows 10.
 You implement hybrid Azure AD and Microsoft Intune.
 You need to automatically register all the existing computers to Azure AD and enroll the computers in Intune. The solution must minimize administrative effort.
@@ -2647,7 +2505,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 143
 https://www.examtopics.com/discussions/microsoft/view/121424-exam-md-102-topic-1-question-143-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have two computers that run Windows 10. The computers are enrolled in Microsoft Intune as shown in the following table.
@@ -2659,7 +2516,6 @@ What is the effect of the configurations on Computer1 and Computer2? To answer, 
 Topic 1 - Question 144
 https://www.examtopics.com/discussions/microsoft/view/121425-exam-md-102-topic-1-question-144-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have 200 computers that run Windows 10. The computers are joined to Azure AD and enrolled in Microsoft Intune.
@@ -2673,7 +2529,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 145
 https://www.examtopics.com/discussions/microsoft/view/120338-exam-md-102-topic-1-question-145-discussion/
 ======================================================================
-
 You have following types of devices enrolled in Microsoft Intune:
 •	Windows 10
 •	Android
@@ -2692,7 +2547,6 @@ Suggested Answer (community most voted): E
 Topic 1 - Question 146
 https://www.examtopics.com/discussions/microsoft/view/121426-exam-md-102-topic-1-question-146-discussion/
 ======================================================================
-
 You are creating a device configuration profile in Microsoft Intune.
 You need to configure specific OMA-URI settings in the profile.
 Which profile type template should you use?
@@ -2708,7 +2562,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 147
 https://www.examtopics.com/discussions/microsoft/view/123247-exam-md-102-topic-1-question-147-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that uses Microsoft Intune and contains the users shown in the following table.
@@ -2721,7 +2574,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 148
 https://www.examtopics.com/discussions/microsoft/view/121430-exam-md-102-topic-1-question-148-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that contains 1,000 iOS devices. The devices are enrolled in Microsoft Intune as follows:
@@ -2735,7 +2587,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 149
 https://www.examtopics.com/discussions/microsoft/view/123890-exam-md-102-topic-1-question-149-discussion/
 ======================================================================
-
 HOTSPOT -
 Case study -
 Overview -
@@ -2806,7 +2657,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 150
 https://www.examtopics.com/discussions/microsoft/view/124429-exam-md-102-topic-1-question-150-discussion/
 ======================================================================
-
 Case study -
 Overview -
 ADatum Corporation is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.
@@ -2883,7 +2733,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 151
 https://www.examtopics.com/discussions/microsoft/view/124115-exam-md-102-topic-1-question-151-discussion/
 ======================================================================
-
 HOTSPOT -
 Case study -
 Overview -
@@ -2955,7 +2804,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 152
 https://www.examtopics.com/discussions/microsoft/view/124612-exam-md-102-topic-1-question-152-discussion/
 ======================================================================
-
 Case study -
 Overview -
 ADatum Corporation is a consulting company that has a main office in Montreal and branch offices in Seattle and New York.
@@ -3031,7 +2879,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 153
 https://www.examtopics.com/discussions/microsoft/view/124374-exam-md-102-topic-1-question-153-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains 1,000 iOS devices and includes Microsoft Intune.
 You need to prevent the printing of corporate data from managed apps on the devices.
 What should you configure?
@@ -3047,7 +2894,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 154
 https://www.examtopics.com/discussions/microsoft/view/124430-exam-md-102-topic-1-question-154-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains the users shown in the following table.
 In the Microsoft 365 Apps admin center, you create a Microsoft Office customization.
 Which users can download the Office customization file from the admin center?
@@ -3064,7 +2910,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 155
 https://www.examtopics.com/discussions/microsoft/view/124633-exam-md-102-topic-1-question-155-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You need to download a report that lists all the devices that are NOT enrolled in Microsoft Intune and are assigned an app protection policy.
 What should you select in the Microsoft Intune admin center?
@@ -3080,7 +2925,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 156
 https://www.examtopics.com/discussions/microsoft/view/123876-exam-md-102-topic-1-question-156-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant that contains the objects shown in the following table.
 In the Microsoft Intune admin center, you are creating a Microsoft 365 Apps app named App1.
 To which objects can you assign App1?
@@ -3097,7 +2941,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 157
 https://www.examtopics.com/discussions/microsoft/view/124615-exam-md-102-topic-1-question-157-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 E5 subscription.
 You create an app protection policy for Android device named Policy1 as shown in the following exhibit.
@@ -3108,7 +2951,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 158
 https://www.examtopics.com/discussions/microsoft/view/123826-exam-md-102-topic-1-question-158-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that includes Microsoft Intune.
 You have 500 corporate-owned Android devices enrolled as fully managed devices.
 You need to prepare an app named App1 for deployment to the devices.
@@ -3126,7 +2968,6 @@ Suggested Answer (community most voted): BC
 Topic 1 - Question 159
 https://www.examtopics.com/discussions/microsoft/view/123807-exam-md-102-topic-1-question-159-discussion/
 ======================================================================
-
 You have the Windows 10 devices shown in the following table.
 You plan to upgrade the devices to Windows 11 Enterprise.
 On which devices can you perform a direct in-place upgrade to Windows 11 Enterprise?
@@ -3143,7 +2984,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 160
 https://www.examtopics.com/discussions/microsoft/view/123808-exam-md-102-topic-1-question-160-discussion/
 ======================================================================
-
 HOTSPOT -
 Your network contains an on-premises Active Directory domain named contoso.com that syncs to Azure AD.
 A user named User1 uses the domain-joined devices shown in the following table.
@@ -3156,7 +2996,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 161
 https://www.examtopics.com/discussions/microsoft/view/124383-exam-md-102-topic-1-question-161-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft Deployment Toolkit (MDT) deployment share named Share1.
 You add Windows 10 images to Share1 as shown in the following table.
@@ -3167,7 +3006,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 162
 https://www.examtopics.com/discussions/microsoft/view/123830-exam-md-102-topic-1-question-162-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft 365 subscription that uses Microsoft Intune.
@@ -3182,7 +3020,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 163
 https://www.examtopics.com/discussions/microsoft/view/123833-exam-md-102-topic-1-question-163-discussion/
 ======================================================================
-
 Your company has a Remote Desktop Gateway (RD Gateway).
 You have a server named Server1 that is accessible by using Remote Desktop Services (RDS) through the RD Gateway.
 You need to configure a Remote Desktop connection to connect through the gateway.
@@ -3199,7 +3036,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 164
 https://www.examtopics.com/discussions/microsoft/view/123834-exam-md-102-topic-1-question-164-discussion/
 ======================================================================
-
 You have a Microsoft Deployment Toolkit (MDT) deployment share.
 You plan to deploy Windows 11 by using the Standard Client Task Sequence template.
 You need to modify the task sequence to perform the following actions:
@@ -3218,7 +3054,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 165
 https://www.examtopics.com/discussions/microsoft/view/123835-exam-md-102-topic-1-question-165-discussion/
 ======================================================================
-
 DRAG DROP
 -
 Your network contains an Active Directory domain.
@@ -3231,7 +3066,6 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Topic 1 - Question 166
 https://www.examtopics.com/discussions/microsoft/view/124055-exam-md-102-topic-1-question-166-discussion/
 ======================================================================
-
 You have the Microsoft Deployment Toolkit (MDT) installed.
 You install and customize Windows 11 on a reference computer.
 You need to capture an image of the reference computer and ensure that the image can be deployed to multiple computers.
@@ -3248,7 +3082,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 167
 https://www.examtopics.com/discussions/microsoft/view/123836-exam-md-102-topic-1-question-167-discussion/
 ======================================================================
-
 Your network contains an on-premises Active Directory domain. The domain contains two computers named Computer1 and Computer2 that run Windows 10.
 You install Windows Admin Center on Computer1.
 You need to manage Computer2 from Computer1 by using Windows Admin Center.
@@ -3265,7 +3098,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 168
 https://www.examtopics.com/discussions/microsoft/view/123838-exam-md-102-topic-1-question-168-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a hybrid Azure AD tenant.
@@ -3277,7 +3109,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 169
 https://www.examtopics.com/discussions/microsoft/view/123841-exam-md-102-topic-1-question-169-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that uses Microsoft Intune Suite.
@@ -3292,7 +3123,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 170
 https://www.examtopics.com/discussions/microsoft/view/123842-exam-md-102-topic-1-question-170-discussion/
 ======================================================================
-
 You have an Azure AD tenant named contoso.com.
 You plan to use Windows Autopilot to configure the Windows 10 devices shown in the following table.
 Which devices can be configured by using Windows Autopilot self-deploying mode?
@@ -3308,7 +3138,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 171
 https://www.examtopics.com/discussions/microsoft/view/123843-exam-md-102-topic-1-question-171-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Your network contains an on-premises Active Directory Domain Services (AD DS) domain that syncs with an Azure AD tenant.
@@ -3326,7 +3155,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 172
 https://www.examtopics.com/discussions/microsoft/view/123844-exam-md-102-topic-1-question-172-discussion/
 ======================================================================
-
 You have 200 computers that run Windows 10 and are joined to an Active Directory domain.
 You need to enable Windows Remote Management (WinRM) on all the computers by using Group Policy.
 Which three actions should you perform? Each correct answer presents part of the solution.
@@ -3345,7 +3173,6 @@ Suggested Answer (community most voted): BCF
 Topic 1 - Question 173
 https://www.examtopics.com/discussions/microsoft/view/124057-exam-md-102-topic-1-question-173-discussion/
 ======================================================================
-
 You have a Microsoft 365 Business Standard subscription and 100 Windows 10 Pro devices.
 You purchase a Microsoft 365 E5 subscription.
 You need to upgrade the Windows 10 Pro devices to Windows 10 Enterprise. The solution must minimize administrative effort.
@@ -3362,7 +3189,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 174
 https://www.examtopics.com/discussions/microsoft/view/123845-exam-md-102-topic-1-question-174-discussion/
 ======================================================================
-
 HOTSPOT -
 You have devices that are not rooted enrolled in Microsoft Intune as shown in the following table.
 The devices are members of a group named Group1.
@@ -3386,7 +3212,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 175
 https://www.examtopics.com/discussions/microsoft/view/123846-exam-md-102-topic-1-question-175-discussion/
 ======================================================================
-
 You need to implement mobile device management (MDM) for personal devices that run Windows 11. The solution must meet the following requirements:
 •	Ensure that you can manage the personal devices by using Microsoft Intune.
 •	Ensure that users can access company data seamlessly from their personal devices.
@@ -3403,7 +3228,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 176
 https://www.examtopics.com/discussions/microsoft/view/124449-exam-md-102-topic-1-question-176-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription.
@@ -3416,7 +3240,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 177
 https://www.examtopics.com/discussions/microsoft/view/123861-exam-md-102-topic-1-question-177-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 subscription that contains two security groups named Group1 and Group2. Microsoft 365 uses Microsoft Intune Suite.
 You use Microsoft Intune to manage devices.
@@ -3431,7 +3254,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 178
 https://www.examtopics.com/discussions/microsoft/view/123862-exam-md-102-topic-1-question-178-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have devices enrolled in Microsoft Intune as shown in the following table.
@@ -3444,7 +3266,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 179
 https://www.examtopics.com/discussions/microsoft/view/123863-exam-md-102-topic-1-question-179-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that contains a user named User1. The subscription contains devices enrolled in Microsoft Intune as shown in the following table.
@@ -3466,7 +3287,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 180
 https://www.examtopics.com/discussions/microsoft/view/123866-exam-md-102-topic-1-question-180-discussion/
 ======================================================================
-
 You have an Azure AD tenant named contoso.com.
 You need to ensure that users are not added automatically to the local Administrators group when they join their Windows 11 device to contoso.com.
 What should you configure?
@@ -3482,7 +3302,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 181
 https://www.examtopics.com/discussions/microsoft/view/123867-exam-md-102-topic-1-question-181-discussion/
 ======================================================================
-
 Your company has devices enrolled in Microsoft Intune as shown in the following table.
 In Microsoft Intune admin center, you define the company’s network as a location named Location1.
 Which devices can use network location-based compliance policies?
@@ -3499,7 +3318,6 @@ Suggested Answer (community most voted): E
 Topic 1 - Question 182
 https://www.examtopics.com/discussions/microsoft/view/123868-exam-md-102-topic-1-question-182-discussion/
 ======================================================================
-
 You have an Azure subscription.
 You have an on-premises Windows 11 device named Device1.
 You plan to monitor Device1 by using Azure Monitor.
@@ -3517,7 +3335,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 183
 https://www.examtopics.com/discussions/microsoft/view/124288-exam-md-102-topic-1-question-183-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 subscription that uses Microsoft Intune Suite.
 You use Microsoft Intune to manage devices.
@@ -3532,7 +3349,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 184
 https://www.examtopics.com/discussions/microsoft/view/124292-exam-md-102-topic-1-question-184-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -3547,7 +3363,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 185
 https://www.examtopics.com/discussions/microsoft/view/124542-exam-md-102-topic-1-question-185-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains 500 computers that run Windows 11. The computers are Azure AD joined and are enrolled in Microsoft Intune.
 You plan to manage Microsoft Defender Antivirus on the computers.
 You need to prevent users from disabling Microsoft Defender Antivirus.
@@ -3564,7 +3379,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 186
 https://www.examtopics.com/discussions/microsoft/view/124395-exam-md-102-topic-1-question-186-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have 1,000 computers that run Windows 10 and are members of an Active Directory domain.
@@ -3576,7 +3390,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 187
 https://www.examtopics.com/discussions/microsoft/view/124608-exam-md-102-topic-1-question-187-discussion/
 ======================================================================
-
 You have a computer named Computer5 that has Windows 10 installed.
 You create a Windows PowerShell script named config.ps1.
 You need to ensure that config.ps1 runs after feature updates are installed on Computer5.
@@ -3593,7 +3406,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 188
 https://www.examtopics.com/discussions/microsoft/view/124398-exam-md-102-topic-1-question-188-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 tenant and an internal certification authority (CA).
@@ -3605,7 +3417,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 189
 https://www.examtopics.com/discussions/microsoft/view/124609-exam-md-102-topic-1-question-189-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Your company uses Microsoft Defender for Endpoint. Microsoft Defender for Endpoint includes the device groups shown in the following table.
@@ -3617,7 +3428,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 190
 https://www.examtopics.com/discussions/microsoft/view/124042-exam-md-102-topic-1-question-190-discussion/
 ======================================================================
-
 You manage 1,000 devices by using Microsoft Intune.
 You review the Device compliance trends report.
 For how long will the report display trend data?
@@ -3633,7 +3443,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 191
 https://www.examtopics.com/discussions/microsoft/view/123875-exam-md-102-topic-1-question-191-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains 100 iOS devices enrolled in Microsoft Intune.
 You need to ensure that notifications of iOS updates are deferred for 30 days after the updates are released.
 What should you create?
@@ -3649,7 +3458,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 192
 https://www.examtopics.com/discussions/microsoft/view/124549-exam-md-102-topic-1-question-192-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 subscription that uses Microsoft Intune and contains 100 Windows 10 devices.
 You need to create Intune configuration profiles to perform the following actions on the devices:
@@ -3662,7 +3470,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 193
 https://www.examtopics.com/discussions/microsoft/view/124047-exam-md-102-topic-1-question-193-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription.
@@ -3677,7 +3484,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 194
 https://www.examtopics.com/discussions/microsoft/view/124550-exam-md-102-topic-1-question-194-discussion/
 ======================================================================
-
 You have a Windows 10 device named Device1 that is joined to Active Directory and enrolled in Microsoft Intune.
 Device1 is managed by using Group Policy and Intune.
 You need to ensure that the Intune settings override the Group Policy settings.
@@ -3694,7 +3500,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 195
 https://www.examtopics.com/discussions/microsoft/view/125217-exam-md-102-topic-1-question-195-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure AD Premium P2 subscription that contains the users shown in the following table.
@@ -3709,7 +3514,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 196
 https://www.examtopics.com/discussions/microsoft/view/124302-exam-md-102-topic-1-question-196-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have the MDM Security Baseline profile shown in the MDM exhibit. (Click the MDM tab.)
@@ -3726,7 +3530,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 197
 https://www.examtopics.com/discussions/microsoft/view/125268-exam-md-102-topic-1-question-197-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have an on-premises Active Directory domain that syncs to Azure AD tenant.
@@ -3739,7 +3542,6 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Topic 1 - Question 198
 https://www.examtopics.com/discussions/microsoft/view/124303-exam-md-102-topic-1-question-198-discussion/
 ======================================================================
-
 Your network contains an Active Directory Domain Services (AD DS) domain. The domain contains 100 client computers that run Windows 10.
 Currently, your company does NOT have a deployment infrastructure.
 The company purchases Windows 11 licenses through a volume licensing agreement.
@@ -3757,7 +3559,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 199
 https://www.examtopics.com/discussions/microsoft/view/125715-exam-md-102-topic-1-question-199-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains a user named User1 and uses Microsoft Intune Suite.
 You use Microsoft Intune to manage devices that run Windows 11.
 You need to remove User1 from the local Administrators group on all enrolled devices.
@@ -3773,7 +3574,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 200
 https://www.examtopics.com/discussions/microsoft/view/124233-exam-md-102-topic-1-question-200-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have computers that run Windows 10 and are configured by using Windows Autopilot.
@@ -3789,7 +3589,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 201
 https://www.examtopics.com/discussions/microsoft/view/124611-exam-md-102-topic-1-question-201-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft Deployment Toolkit (MDT) solution that is used to manage Windows 11 deployment tasks.
@@ -3804,7 +3603,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 202
 https://www.examtopics.com/discussions/microsoft/view/123883-exam-md-102-topic-1-question-202-discussion/
 ======================================================================
-
 You have a workgroup computer named Client1 that runs Windows 11 and connects to a public network.
 You need to enable PowerShell remoting on Client1. The solution must ensure that PowerShell remoting connections are accepted from the local subnet only.
 Which PowerShell command should you run?
@@ -3820,7 +3618,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 203
 https://www.examtopics.com/discussions/microsoft/view/124236-exam-md-102-topic-1-question-203-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription.
@@ -3835,7 +3632,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 204
 https://www.examtopics.com/discussions/microsoft/view/124607-exam-md-102-topic-1-question-204-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription.
@@ -3851,7 +3647,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 205
 https://www.examtopics.com/discussions/microsoft/view/123884-exam-md-102-topic-1-question-205-discussion/
 ======================================================================
-
 You manage 1,000 computers that run Windows 10. All the computers are enrolled in Microsoft Intune. You manage the servicing channel settings of the computers by using Intune.
 You need to review the servicing status of a computer.
 What should you do?
@@ -3867,7 +3662,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 206
 https://www.examtopics.com/discussions/microsoft/view/126168-exam-md-102-topic-1-question-206-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Your network contains an Active Directory domain. Active Directory is synced with Azure AD.
@@ -3881,7 +3675,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 207
 https://www.examtopics.com/discussions/microsoft/view/125420-exam-md-102-topic-1-question-207-discussion/
 ======================================================================
-
 You have a Microsoft Intune subscription associated to an Azure AD tenant named contoso.com.
 Users use one of the following three suffixes when they sign in to the tenant: us.contoso.com, eu.contoso.com, or contoso.com.
 You need to ensure that the users are NOT required to specify the mobile device management (MDM) enrollment URL as part of the enrollment process. The solution must minimize the number of changes.
@@ -3898,7 +3691,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 208
 https://www.examtopics.com/discussions/microsoft/view/124489-exam-md-102-topic-1-question-208-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription.
@@ -3913,7 +3705,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 209
 https://www.examtopics.com/discussions/microsoft/view/124490-exam-md-102-topic-1-question-209-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 tenant that uses Microsoft Intune and contains the devices shown in the following table.
@@ -3925,7 +3716,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 210
 https://www.examtopics.com/discussions/microsoft/view/124643-exam-md-102-topic-1-question-210-discussion/
 ======================================================================
-
 DRAG DROP
 -
 Your company has a Microsoft 365 E5 tenant.
@@ -3937,7 +3727,6 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Topic 1 - Question 211
 https://www.examtopics.com/discussions/microsoft/view/124493-exam-md-102-topic-1-question-211-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft 365 subscription that uses Microsoft Defender for Endpoint.
@@ -3951,7 +3740,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 212
 https://www.examtopics.com/discussions/microsoft/view/123934-exam-md-102-topic-1-question-212-discussion/
 ======================================================================
-
 You have a Windows 10 device named Computer1 enrolled in Microsoft Intune.
 You need to configure Computer1 as a public workstation that will run a single customer-facing, full-screen application.
 Which configuration profile type template should you use in Microsoft Intune admin center?
@@ -3967,7 +3755,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 213
 https://www.examtopics.com/discussions/microsoft/view/124561-exam-md-102-topic-1-question-213-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that uses Microsoft Intune Suite.
 You use Microsoft Intune to manage Windows 11 devices.
 You create a new policy set named Set and add five device configuration profiles for Windows 10 and later.
@@ -3986,7 +3773,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 214
 https://www.examtopics.com/discussions/microsoft/view/125341-exam-md-102-topic-1-question-214-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Your network contains an on-premises Active Directory domain that contains the locations shown in the following table.
@@ -3999,7 +3785,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 215
 https://www.examtopics.com/discussions/microsoft/view/124495-exam-md-102-topic-1-question-215-discussion/
 ======================================================================
-
 You have 200 computers that run Windows 10. The computers are joined to Azure AD and enrolled in Microsoft Intune.
 You need to enable self-service password reset on the sign-in screen.
 Which settings should you configure from the Microsoft Intune admin center?
@@ -4015,7 +3800,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 216
 https://www.examtopics.com/discussions/microsoft/view/123936-exam-md-102-topic-1-question-216-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Microsoft 365 tenant that uses Microsoft Intune.
 From the Microsoft Intune admin center, you plan to create a baseline to monitor the Startup score and the App reliability score of enrolled Windows 10 devices.
@@ -4027,7 +3811,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 217
 https://www.examtopics.com/discussions/microsoft/view/123937-exam-md-102-topic-1-question-217-discussion/
 ======================================================================
-
 You are implementing Microsoft Intune Suite.
 You enroll devices in Intune as shown in the following table.
 The performance of which devices can be analyzed by using Endpoint analytics?
@@ -4044,7 +3827,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 218
 https://www.examtopics.com/discussions/microsoft/view/124333-exam-md-102-topic-1-question-218-discussion/
 ======================================================================
-
 You have the devices shown in the following table.
 You plan to implement Microsoft Defender for Endpoint.
 You need to identify which devices can be onboarded to Microsoft Defender for Endpoint.
@@ -4062,7 +3844,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 219
 https://www.examtopics.com/discussions/microsoft/view/124618-exam-md-102-topic-1-question-219-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription.
 You use app protection policies to protect corporate data on Android devices.
 You need to ensure that any user connecting from an Android device can only access the corporate data if they connect from an app that supports mobile application management (MAM).
@@ -4079,7 +3860,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 220
 https://www.examtopics.com/discussions/microsoft/view/126176-exam-md-102-topic-1-question-220-discussion/
 ======================================================================
-
 Your company has a Microsoft 365 subscription.
 All the users in the finance department own personal devices that run iOS or Android. All the devices are enrolled in Microsoft Intune.
 The finance department adds new users each month.
@@ -4098,7 +3878,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 221
 https://www.examtopics.com/discussions/microsoft/view/125343-exam-md-102-topic-1-question-221-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft 365 subscription that contains the devices shown in the following table.
@@ -4110,7 +3889,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 222
 https://www.examtopics.com/discussions/microsoft/view/124332-exam-md-102-topic-1-question-222-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that uses Microsoft Intune. The subscription contains the users shown in the following table.
 Group2 and Group3 are members of Group1.
 All the users use Microsoft Excel.
@@ -4122,7 +3900,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 223
 https://www.examtopics.com/discussions/microsoft/view/125441-exam-md-102-topic-1-question-223-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains a computer named Computer1 that runs Windows 11. Computer1 is enrolled in Microsoft Intune.
@@ -4134,7 +3911,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 224
 https://www.examtopics.com/discussions/microsoft/view/124563-exam-md-102-topic-1-question-224-discussion/
 ======================================================================
-
 You have a Microsoft 365 tenant that contains the devices shown in the following table.
 The devices are managed by using Microsoft Intune.
 You create a compliance policy named Policy1 and assign Policy1 to Group1. Policy1 is configured to mark a device as Compliant only if the device security settings match the settings specified in the policy.
@@ -4153,7 +3929,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 225
 https://www.examtopics.com/discussions/microsoft/view/124584-exam-md-102-topic-1-question-225-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Your company has an infrastructure that has the following:
@@ -4172,7 +3947,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 226
 https://www.examtopics.com/discussions/microsoft/view/124335-exam-md-102-topic-1-question-226-discussion/
 ======================================================================
-
 You have an Azure AD tenant named contoso.com.
 You plan to purchase 25 computers that run Windows 11. You plan to deliver the computers directly to users.
 You need to ensure that during the out-of-box experience (OBE), users are prompted to sign in, and then the computers are configured to use Microsoft Intune.
@@ -4191,7 +3965,6 @@ Suggested Answer (community most voted): BE
 Topic 1 - Question 227
 https://www.examtopics.com/discussions/microsoft/view/124336-exam-md-102-topic-1-question-227-discussion/
 ======================================================================
-
 You need to assign the same deployment profile to all the computers that are configured by using Windows Autopilot.
 Which two actions should you perform? Each correct answer presents part of the solution.
 NOTE: Each correct selection is worth one point.
@@ -4209,7 +3982,6 @@ Suggested Answer (community most voted): AC
 Topic 1 - Question 228
 https://www.examtopics.com/discussions/microsoft/view/125796-exam-md-102-topic-1-question-228-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft Deployment Toolkit (MDT) deployment share that has a path of D:\MDTShare.
@@ -4220,7 +3992,6 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Topic 1 - Question 229
 https://www.examtopics.com/discussions/microsoft/view/124586-exam-md-102-topic-1-question-229-discussion/
 ======================================================================
-
 You plan to deploy Windows 11 Pro to 200 new computers by using the Microsoft Deployment Toolkit (MDT) and Windows Deployment Services (WDS).
 The company has a Volume Licensing Agreement and uses a product key to activate Windows 11.
 You need to ensure that the new computers will be configured to have the correct product key during the installation.
@@ -4237,7 +4008,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 230
 https://www.examtopics.com/discussions/microsoft/view/124587-exam-md-102-topic-1-question-230-discussion/
 ======================================================================
-
 HOTSPOT -
 You manage a Microsoft Deployment Toolkit (MDT) deployment share named DS1. DS1 contains an Out-of-Box Drivers folder named Windows 11 x64 that has subfolders in the format of {make name}\{model name}.
 You need to modify a deployment task sequence to ensure that all the drivers in the folder that match the make and model of the computers are installed without using PnP detection or selection profiles.
@@ -4248,7 +4018,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 231
 https://www.examtopics.com/discussions/microsoft/view/124588-exam-md-102-topic-1-question-231-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You use the Microsoft Deployment Toolkit (MDT) to deploy Windows 11.
@@ -4263,7 +4032,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 232
 https://www.examtopics.com/discussions/microsoft/view/126064-exam-md-102-topic-1-question-232-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure AD tenant that contains the following:
@@ -4278,7 +4046,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 233
 https://www.examtopics.com/discussions/microsoft/view/125424-exam-md-102-topic-1-question-233-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that contains the devices shown in the following table.
@@ -4291,7 +4058,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 234
 https://www.examtopics.com/discussions/microsoft/view/124341-exam-md-102-topic-1-question-234-discussion/
 ======================================================================
-
 Your network contains an Active Directory domain. The domain contains 10 computers that run Windows 10. Users in the finance department use the computers.
 You have a computer named Computer1 that runs Windows 10.
 From Computer1, you plan to run a script that executes Windows PowerShell commands on the finance department computers.
@@ -4309,7 +4075,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 235
 https://www.examtopics.com/discussions/microsoft/view/123940-exam-md-102-topic-1-question-235-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that includes Microsoft Intune.
 You plan to use Windows Autopilot to deploy Windows 11 devices.
 You need to meet the following requirements during Autopilot provisioning:
@@ -4328,7 +4093,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 236
 https://www.examtopics.com/discussions/microsoft/view/124062-exam-md-102-topic-1-question-236-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription. The subscription contains 1,000 computers that run Windows 11 and are enrolled in Microsoft Intune.
@@ -4342,7 +4106,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 237
 https://www.examtopics.com/discussions/microsoft/view/124564-exam-md-102-topic-1-question-237-discussion/
 ======================================================================
-
 Your network contains an Active Directory domain named contoso.com. The domain contains 25 computers that run Windows 11.
 You have a Microsoft 365 subscription
 You have an Azure AD tenant that syncs with contoso.com.
@@ -4361,7 +4124,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 238
 https://www.examtopics.com/discussions/microsoft/view/131510-exam-md-102-topic-1-question-238-discussion/
 ======================================================================
-
 You have devices enrolled in Microsoft Intune as shown in the following table.
 For which devices can you manage updates by using Intune?
 
@@ -4377,7 +4139,6 @@ Suggested Answer (community most voted): E
 Topic 1 - Question 239
 https://www.examtopics.com/discussions/microsoft/view/131511-exam-md-102-topic-1-question-239-discussion/
 ======================================================================
-
 You have 500 computers that run Windows 10. The computers are joined to Azure AD and enrolled in Microsoft Intune.
 You plan to distribute certificates to the computers by using Simple Certificate Enrollment Protocol (SCEP).
 You have the servers shown in the following table.
@@ -4397,7 +4158,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 240
 https://www.examtopics.com/discussions/microsoft/view/131512-exam-md-102-topic-1-question-240-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that contains the devices shown in the following table.
@@ -4409,7 +4169,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 241
 https://www.examtopics.com/discussions/microsoft/view/131514-exam-md-102-topic-1-question-241-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have two Windows 10 devices enrolled in Microsoft Intune as shown in the following table.
@@ -4422,7 +4181,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 242
 https://www.examtopics.com/discussions/microsoft/view/131517-exam-md-102-topic-1-question-242-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have 100 computers that run Windows 10. The computers are joined to Azure AD and enrolled in Microsoft Intune.
@@ -4436,7 +4194,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 243
 https://www.examtopics.com/discussions/microsoft/view/131520-exam-md-102-topic-1-question-243-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have devices enrolled in Microsoft Intune as shown in the following table.
@@ -4449,7 +4206,6 @@ What should you identify? To answer, select the appropriate options in the answe
 Topic 1 - Question 244
 https://www.examtopics.com/discussions/microsoft/view/131523-exam-md-102-topic-1-question-244-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure AD tenant named contoso.com that contains the devices shown in the following table.
@@ -4462,7 +4218,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 245
 https://www.examtopics.com/discussions/microsoft/view/131528-exam-md-102-topic-1-question-245-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have the Microsoft Deployment Toolkit (MDT) installed in three sites as shown in the following table.
@@ -4476,7 +4231,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 246
 https://www.examtopics.com/discussions/microsoft/view/131531-exam-md-102-topic-1-question-246-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains 1,000 Android devices enrolled in Microsoft Intune.
 You create an app configuration policy that contains the following settings:
 •	Device enrollment type: Managed devices
@@ -4497,7 +4251,6 @@ Suggested Answer (community most voted): AD
 Topic 1 - Question 247
 https://www.examtopics.com/discussions/microsoft/view/131532-exam-md-102-topic-1-question-247-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription.
 You have devices enrolled in Microsoft Intune as shown in the following table.
 To which devices can you deploy apps by using Intune?
@@ -4514,7 +4267,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 248
 https://www.examtopics.com/discussions/microsoft/view/131534-exam-md-102-topic-1-question-248-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that uses Microsoft Intune. The subscription contains the resources shown in the following table.
@@ -4528,7 +4280,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 249
 https://www.examtopics.com/discussions/microsoft/view/131535-exam-md-102-topic-1-question-249-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that uses Microsoft Intune Suite.
@@ -4541,7 +4292,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 250
 https://www.examtopics.com/discussions/microsoft/view/131538-exam-md-102-topic-1-question-250-discussion/
 ======================================================================
-
 DRAG DROP
 -
 Your on-premises network contains an Active Directory Domain Services (AD DS) domain.
@@ -4558,7 +4308,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 251
 https://www.examtopics.com/discussions/microsoft/view/131611-exam-md-102-topic-1-question-251-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Your network contains an Active Directory domain.
@@ -4576,7 +4325,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 252
 https://www.examtopics.com/discussions/microsoft/view/131597-exam-md-102-topic-1-question-252-discussion/
 ======================================================================
-
 You have a Hyper-V host. The host contains virtual machines that run Windows 10 as shown in following table.
 Which virtual machines can be upgraded to Windows 11?
 
@@ -4591,7 +4339,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 253
 https://www.examtopics.com/discussions/microsoft/view/131596-exam-md-102-topic-1-question-253-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that uses Microsoft Intune Suite.
 You use Intune to manage all devise.
 Users have iOS devices with Microsoft apps installed.
@@ -4609,7 +4356,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 254
 https://www.examtopics.com/discussions/microsoft/view/131595-exam-md-102-topic-1-question-254-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that uses Microsoft Intune Suite.
 You use Intune to manage devices.
 You need to review details about device wipes initiated through Intune.
@@ -4626,7 +4372,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 255
 https://www.examtopics.com/discussions/microsoft/view/131594-exam-md-102-topic-1-question-255-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription. The subscription contains 500 computers that run Windows 11 and are enrolled in Microsoft Intune.
 You need to manage the deployment of monthly security updates. The solution must meet the following requirements:
 •	Updates must be deployed to a group of test computers for quality assurance.
@@ -4644,7 +4389,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 256
 https://www.examtopics.com/discussions/microsoft/view/131612-exam-md-102-topic-1-question-256-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Your company has computers that run Windows 10 and are Microsoft Entra joined.
@@ -4656,7 +4400,6 @@ What should you create in Azure and what should you configure on the computers? 
 Topic 1 - Question 257
 https://www.examtopics.com/discussions/microsoft/view/131613-exam-md-102-topic-1-question-257-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains 500 computers that run Windows 11. The computers are Azure AD joined and are enrolled in Microsoft Intune.
 You plan to manage Microsoft Defender Antivirus on the computers.
 You need to prevent users from disabling Microsoft Defender for Endpoint.
@@ -4673,7 +4416,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 258
 https://www.examtopics.com/discussions/microsoft/view/135401-exam-md-102-topic-1-question-258-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that has Windows 365 Enterprise licenses.
 You plan to use a custom Windows 11 image as a template for Cloud PCs.
 You have a Hyper-V virtual machine that runs Windows 11 and has the following configurations:
@@ -4696,7 +4438,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 259
 https://www.examtopics.com/discussions/microsoft/view/135400-exam-md-102-topic-1-question-259-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Your on-premises network contains an Active Directory domain named contoso.com. The domain contains a user account named Admin1 and the resources shown in the following table.
@@ -4712,7 +4453,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 260
 https://www.examtopics.com/discussions/microsoft/view/135404-exam-md-102-topic-1-question-260-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription.
 Each user is assigned a Windows 365 Enterprise license.
 You need to deploy Cloud PCs that will be Microsoft Entra hybrid joined.
@@ -4729,7 +4469,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 261
 https://www.examtopics.com/discussions/microsoft/view/135558-exam-md-102-topic-1-question-261-discussion/
 ======================================================================
-
 Your on-premises network contains an Active Directory Domain Services (AD DS) domain named contoso.com.
 The domain contains a domain controller named dc1.contoso.com.
 You have a Microsoft 365 E5 subscription that uses Microsoft Intune Suite.
@@ -4751,7 +4490,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 262
 https://www.examtopics.com/discussions/microsoft/view/135310-exam-md-102-topic-1-question-262-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft 365 E5 subscription that includes Microsoft Intune.
@@ -4764,7 +4502,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 263
 https://www.examtopics.com/discussions/microsoft/view/135312-exam-md-102-topic-1-question-263-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription.
@@ -4779,7 +4516,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 264
 https://www.examtopics.com/discussions/microsoft/view/135314-exam-md-102-topic-1-question-264-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains the security groups shown in the following table.
@@ -4792,7 +4528,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 265
 https://www.examtopics.com/discussions/microsoft/view/135546-exam-md-102-topic-1-question-265-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that uses Microsoft Intune.
@@ -4806,7 +4541,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 266
 https://www.examtopics.com/discussions/microsoft/view/135321-exam-md-102-topic-1-question-266-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that uses Microsoft Intune Suite.
 You use Intune to manage Windows 11 devices.
 You need to implement Windows Local Administrator Password Solution (Windows LAPS).
@@ -4823,7 +4557,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 267
 https://www.examtopics.com/discussions/microsoft/view/135412-exam-md-102-topic-1-question-267-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains 500 computers that run Windows 11. The computers are Microsoft Entra joined and are enrolled in Microsoft Intune.
 You plan to manage Microsoft Defender for Endpoint on the computers.
 You need to prevent users from disabling Microsoft Defender for Endpoint.
@@ -4840,7 +4573,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 268
 https://www.examtopics.com/discussions/microsoft/view/135324-exam-md-102-topic-1-question-268-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that includes Microsoft Intune.
 You need to deploy a custom app to Android devices. The app uses the APK file format.
 Which type of app should you select for the deployment?
@@ -4857,7 +4589,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 269
 https://www.examtopics.com/discussions/microsoft/view/135325-exam-md-102-topic-1-question-269-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You use Microsoft Intune to manage all devices.
 You need to prepare a Win32 app named App1.exe for deployment.
@@ -4874,7 +4605,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 270
 https://www.examtopics.com/discussions/microsoft/view/143855-exam-md-102-topic-1-question-270-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that includes Microsoft Intune.
 For macOS devices, you create an update policy named Policy1 that has the following settings:
 •	All other updates (OS, built-in apps): Download and install
@@ -4895,7 +4625,6 @@ Suggested Answer (community most voted): BE
 Topic 1 - Question 271
 https://www.examtopics.com/discussions/microsoft/view/143857-exam-md-102-topic-1-question-271-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that includes Microsoft Intune. The subscription contains a group named Group1. Group1 contains devices enrolled in Intune.
@@ -4908,7 +4637,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 272
 https://www.examtopics.com/discussions/microsoft/view/143858-exam-md-102-topic-1-question-272-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that includes Microsoft Intune and contains a user named Admin1.
 Admin1 must use the Microsoft Intune admin center to perform the following tasks:
 •	Create and assign apps and policies to users and devices by using Intune.
@@ -4930,7 +4658,6 @@ Suggested Answer (community most voted): E
 Topic 1 - Question 273
 https://www.examtopics.com/discussions/microsoft/view/143859-exam-md-102-topic-1-question-273-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that includes Microsoft Intune. The subscription contains Windows 11 devices enrolled in Intune. The subscription contains three groups named Departement1, Department2, and Department3.
 You need to deploy Microsoft 365 Apps to the Windows 11 devices. The solution must meet the following requirements:
 •	Users in Department1 and Department2 must receive the full Microsoft 365 Apps suite, including Microsoft Project and Visio.
@@ -4949,7 +4676,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 274
 https://www.examtopics.com/discussions/microsoft/view/143860-exam-md-102-topic-1-question-274-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that uses Microsoft Intune.
 You configure Intune to send log data to Log Analytics.
 You need to review events involving devices that fail to enroll in Intune.
@@ -4966,7 +4692,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 275
 https://www.examtopics.com/discussions/microsoft/view/143862-exam-md-102-topic-1-question-275-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that includes Microsoft Intune. The subscription contains corporate-owned, fully managed Android Enterprise devices.
 You plan to deploy a configuration profile that will have a device restrictions profile type named Profile1. Profile1 will assign maintenance windows for system updates.
 What should you configure from the Configuration settings for Profile1?
@@ -4982,7 +4707,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 276
 https://www.examtopics.com/discussions/microsoft/view/143863-exam-md-102-topic-1-question-276-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -4997,7 +4721,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 277
 https://www.examtopics.com/discussions/microsoft/view/143864-exam-md-102-topic-1-question-277-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that includes Microsoft Intune.
 You create a new Android app protection policy named Policy1 that prevents screen captures in all Microsoft apps.
 You discover that an unmanaged email client installed on Android devices can still capture screens.
@@ -5015,7 +4738,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 278
 https://www.examtopics.com/discussions/microsoft/view/143865-exam-md-102-topic-1-question-278-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 All Windows devices are enrolled in Microsoft Intune.
 You need to create an app protection policy named Policy1 and apply Policy1 to the devices.
@@ -5032,7 +4754,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 279
 https://www.examtopics.com/discussions/microsoft/view/143866-exam-md-102-topic-1-question-279-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You use Microsoft Intune to manage all Windows 11 devices.
 You create an attack surface reduction (ASR) policy named Profile1 based on the Attack Surface Reduction Rules profile and assign Profile1 to all the devices.
@@ -5051,7 +4772,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 280
 https://www.examtopics.com/discussions/microsoft/view/143867-exam-md-102-topic-1-question-280-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 All devices are enrolled in Microsoft Intune.
 You need to ensure that devices that have NOT checked in for 30 days are deleted from Intune.
@@ -5068,7 +4788,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 281
 https://www.examtopics.com/discussions/microsoft/view/143868-exam-md-102-topic-1-question-281-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 All devices are enrolled in Microsoft Intune.
 You create a Conditional Access policy named Policy1 that requires multifactor authentication (MFA).
@@ -5087,7 +4806,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 282
 https://www.examtopics.com/discussions/microsoft/view/143869-exam-md-102-topic-1-question-282-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft Entra tenant that contains the devices shown in the following table.
@@ -5100,7 +4818,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 283
 https://www.examtopics.com/discussions/microsoft/view/143870-exam-md-102-topic-1-question-283-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 tenant that uses Microsoft Intune to manage the devices shown in the following table.
@@ -5114,7 +4831,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 284
 https://www.examtopics.com/discussions/microsoft/view/143871-exam-md-102-topic-1-question-284-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Your network contains an on-premises Active Directory Domain Services (AD DS) domain.
@@ -5130,7 +4846,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 285
 https://www.examtopics.com/discussions/microsoft/view/143872-exam-md-102-topic-1-question-285-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription and use Microsoft Intune.
@@ -5144,7 +4859,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 286
 https://www.examtopics.com/discussions/microsoft/view/143873-exam-md-102-topic-1-question-286-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You need to configure the automated investigation and response (AIR) remediation level for a device named Device1 to require approval for all folders.
 What should you create?
@@ -5160,7 +4874,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 287
 https://www.examtopics.com/discussions/microsoft/view/143874-exam-md-102-topic-1-question-287-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -5172,7 +4885,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 288
 https://www.examtopics.com/discussions/microsoft/view/143875-exam-md-102-topic-1-question-288-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that includes Microsoft Intune.
@@ -5186,7 +4898,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 289
 https://www.examtopics.com/discussions/microsoft/view/150707-exam-md-102-topic-1-question-289-discussion/
 ======================================================================
-
 You have a Microsoft Intune subscription.
 You have devices enrolled in Intune as shown in the following table.
 An app named App1 is installed on each device.
@@ -5204,7 +4915,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 290
 https://www.examtopics.com/discussions/microsoft/view/149766-exam-md-102-topic-1-question-290-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription. All devices are enrolled in Microsoft Intune.
@@ -5217,7 +4927,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 291
 https://www.examtopics.com/discussions/microsoft/view/149095-exam-md-102-topic-1-question-291-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription and use Microsoft Intune. The subscription contains a Microsoft Entra tenant that syncs with an on-premises Active Directory Domain Services (AD DS) domain. The tenant has Windows Local Administrator Password Solution (Windows LAPS) enabled.
@@ -5230,7 +4939,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 292
 https://www.examtopics.com/discussions/microsoft/view/149357-exam-md-102-topic-1-question-292-discussion/
 ======================================================================
-
 You have a Microsot Entra tenant named contoso.com.
 You have a workgroup computer named Computer1 that runs Windows 11.
 You need to add Computer1 to contoso.com.
@@ -5246,7 +4954,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 293
 https://www.examtopics.com/discussions/microsoft/view/149275-exam-md-102-topic-1-question-293-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that includes Microsoft Intune.
@@ -5261,7 +4968,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 294
 https://www.examtopics.com/discussions/microsoft/view/149317-exam-md-102-topic-1-question-294-discussion/
 ======================================================================
-
 You have a Microsoft 365 Business Standard subscription and 100 Windows 10 Pro devices that are joined to Microsoft Entra.
 You purchase Microsoft 365 E5 licenses for all users.
 You need to upgrade the Windows 10 Pro devices to Windows 10 Enterprise. The solution must minimize administrative effort.
@@ -5278,7 +4984,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 295
 https://www.examtopics.com/discussions/microsoft/view/149319-exam-md-102-topic-1-question-295-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription.
 You have 10 computers that run Windows 10 and are enrolled in Microsoft Intune.
 You need to deploy the Microsoft 365 Apps for enterprise suite to all the computers.
@@ -5295,7 +5000,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 296
 https://www.examtopics.com/discussions/microsoft/view/149316-exam-md-102-topic-1-question-296-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You have a Windows device named Device1 that is enrolled in Microsoft Intune.
 On January 1,2024, you assign an app named App1 to Device1 as a required app.
@@ -5313,7 +5017,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 297
 https://www.examtopics.com/discussions/microsoft/view/148897-exam-md-102-topic-1-question-297-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains the devices shown in the following table.
 All the devices are enrolled in Microsoft Intune and have Microsoft 365 Apps for enterprise installed.
 On which devices can you use the Cloud Policy service for Microsoft 365 to manage Microsoft 365 Apps for enterprise?
@@ -5330,7 +5033,6 @@ Suggested Answer (community most voted): E
 Topic 1 - Question 298
 https://www.examtopics.com/discussions/microsoft/view/149094-exam-md-102-topic-1-question-298-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that is linked to a Microsoft Entra tenant. The tenant contains the devices shown in the following table.
@@ -5343,7 +5045,6 @@ For each of the following statements, select Yes if the statement is true. Other
 Topic 1 - Question 299
 https://www.examtopics.com/discussions/microsoft/view/150452-exam-md-102-topic-1-question-299-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains 500 computers that run Windows 11. The computers are Microsoft Entra joined and are enrolled in Microsoft Intune.
 You plan to manage Microsoft Defender for Endpoint on the computers.
 You need to prevent users from disabling Microsoft Defender for Endpoint.
@@ -5360,7 +5061,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 300
 https://www.examtopics.com/discussions/microsoft/view/150771-exam-md-102-topic-1-question-300-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You need to manage operating system updates for corporate-owned Android Enterprise devices enrolled in Microsoft Intune.
 What should you use?
@@ -5376,7 +5076,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 301
 https://www.examtopics.com/discussions/microsoft/view/151065-exam-md-102-topic-1-question-301-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription.
 You use Microsoft Intune to manage devices.
 You plan to deploy two apps named App1 and App2 to all Windows devices. App1 must be installed before App2.
@@ -5394,7 +5093,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 302
 https://www.examtopics.com/discussions/microsoft/view/150777-exam-md-102-topic-1-question-302-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft Entra tenant that contains the users shown in the following table.
@@ -5406,7 +5104,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 303
 https://www.examtopics.com/discussions/microsoft/view/151066-exam-md-102-topic-1-question-303-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains Windows 11 devices enrolled in Microsoft Intune.
 You need to use Device query to identify whether a critical security patch was installed on a device.
 Which table should you target?
@@ -5423,7 +5120,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 304
 https://www.examtopics.com/discussions/microsoft/view/150772-exam-md-102-topic-1-question-304-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 All Windows devices are enrolled in Microsoft Intune.
 You need to deploy the Remote Help app to all the devices. The solution must minimize administrative effort.
@@ -5440,7 +5136,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 305
 https://www.examtopics.com/discussions/microsoft/view/151031-exam-md-102-topic-1-question-305-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains devices enrolled in Microsoft Intune as shown in the following table.
 On which devices can you use Device query?
 
@@ -5455,7 +5150,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 306
 https://www.examtopics.com/discussions/microsoft/view/151068-exam-md-102-topic-1-question-306-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You need to use Device query to gather information about all the devices that are managed by using Microsoft Intune.
 What should you do first?
@@ -5471,7 +5165,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 307
 https://www.examtopics.com/discussions/microsoft/view/151071-exam-md-102-topic-1-question-307-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains two devices named Device1 and Device2.
@@ -5486,7 +5179,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 308
 https://www.examtopics.com/discussions/microsoft/view/151072-exam-md-102-topic-1-question-308-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription and use Microsoft Intune.
 You plan to implement a Microsoft Cloud PKI solution that will deploy personal user certificates to all Windows devices.
 What is the minimum number of configuration profiles required to support the solution?
@@ -5502,7 +5194,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 309
 https://www.examtopics.com/discussions/microsoft/view/150776-exam-md-102-topic-1-question-309-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft 365 subscription that contains the following devices enrolled in Microsoft Intune:
@@ -5517,7 +5208,6 @@ Which remote action should you use on each device? To answer, drag the appropria
 Topic 1 - Question 310
 https://www.examtopics.com/discussions/microsoft/view/151074-exam-md-102-topic-1-question-310-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You need to enroll Android Enterprise devices in Microsoft Intune by using zero-touch enrollment.
 What should you do first?
@@ -5533,7 +5223,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 311
 https://www.examtopics.com/discussions/microsoft/view/151085-exam-md-102-topic-1-question-311-discussion/
 ======================================================================
-
 You have a Microsoft Entra tenant named contoso.com that contains a group named Contoso Help Desk.
 You need to ensure that Contoso Help Desk is added to the local Administrators group whenever a Windows device is joined to contoso.com.
 What should you do?
@@ -5549,7 +5238,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 312
 https://www.examtopics.com/discussions/microsoft/view/151086-exam-md-102-topic-1-question-312-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft Entra tenant.
@@ -5562,7 +5250,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 313
 https://www.examtopics.com/discussions/microsoft/view/151088-exam-md-102-topic-1-question-313-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft 365 E5 subscription that is linked to a Microsoft Entra tenant named contoso.com. The subscription contains a user named User1 and a new Windows 11 device named Device1.
@@ -5574,7 +5261,6 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Topic 1 - Question 314
 https://www.examtopics.com/discussions/microsoft/view/151089-exam-md-102-topic-1-question-314-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains three Windows devices named Device1, Device2, and Device3.
@@ -5599,7 +5285,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 315
 https://www.examtopics.com/discussions/microsoft/view/150790-exam-md-102-topic-1-question-315-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription and use Microsoft Intune.
@@ -5611,7 +5296,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 316
 https://www.examtopics.com/discussions/microsoft/view/150846-exam-md-102-topic-1-question-316-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription and use Microsoft Intune Suite.
 The subscription contains devices enrolled in Intune as shown in the following table.
 Which devices support Device query?
@@ -5627,7 +5311,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 317
 https://www.examtopics.com/discussions/microsoft/view/150849-exam-md-102-topic-1-question-317-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains devices enrolled in Microsoft Intune.
 You plan to use Device query to provide on-demand information about the state of the devices. The solution must minimize costs.
 What should you do first?
@@ -5643,7 +5326,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 318
 https://www.examtopics.com/discussions/microsoft/view/150979-exam-md-102-topic-1-question-318-discussion/
 ======================================================================
-
 You have a Microsoft Entra tenant that contains the devices shown in the following table.
 On which devices can you implement Endpoint Privilege Management (EPM)?
 
@@ -5659,7 +5341,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 319
 https://www.examtopics.com/discussions/microsoft/view/151091-exam-md-102-topic-1-question-319-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 ES subscription and use Microsoft Intune Suite.
@@ -5675,7 +5356,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 320
 https://www.examtopics.com/discussions/microsoft/view/150783-exam-md-102-topic-1-question-320-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that includes Microsoft Intune and Microsoft Defender for Endpoint.
@@ -5689,7 +5369,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 321
 https://www.examtopics.com/discussions/microsoft/view/150851-exam-md-102-topic-1-question-321-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains the devices shown in the following table.
@@ -5701,7 +5380,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 322
 https://www.examtopics.com/discussions/microsoft/view/150789-exam-md-102-topic-1-question-322-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft 365 subscription.
@@ -5716,7 +5394,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 323
 https://www.examtopics.com/discussions/microsoft/view/150852-exam-md-102-topic-1-question-323-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a hybrid environment that contains a Microsoft Entra tenant and an on-premises Active Directory Domain Services (AD DS) domain. The environment contains the devices shown in the following table.
@@ -5727,7 +5404,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 324
 https://www.examtopics.com/discussions/microsoft/view/151092-exam-md-102-topic-1-question-324-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains a group named Group1.
 You need to ensure that only the members of Group1 can join devices to the Microsoft Entra tenant.
 What should you configure in the Microsoft Entra admin center?
@@ -5743,7 +5419,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 325
 https://www.examtopics.com/discussions/microsoft/view/151168-exam-md-102-topic-1-question-325-discussion/
 ======================================================================
-
 You have a Microsoft Entra tenant named contoso.com that contains a Windows 11 device named Device1 and a user named User1.
 User1 registers Device1 in contoso.com.
 Which capability is available to Device1 after registering in contoso.com?
@@ -5759,7 +5434,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 326
 https://www.examtopics.com/discussions/microsoft/view/151123-exam-md-102-topic-1-question-326-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains the devices shown in the following table.
@@ -5773,7 +5447,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 327
 https://www.examtopics.com/discussions/microsoft/view/151223-exam-md-102-topic-1-question-327-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You need to create a dynamic device group that will contain any device that has the word Marketing in its name.
 Which device membership rule should you use?
@@ -5789,7 +5462,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 328
 https://www.examtopics.com/discussions/microsoft/view/151502-exam-md-102-topic-1-question-328-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You need to ensure that when a Windows device is joined to the Microsoft Entra tenant, the device is enrolled automatically in Microsoft Intune.
 What should you configure?
@@ -5805,7 +5477,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 329
 https://www.examtopics.com/discussions/microsoft/view/151280-exam-md-102-topic-1-question-329-discussion/
 ======================================================================
-
 Note: This section contains one or more sets of questions with the same scenario and problem. Each question presents a unique solution to the problem. You must determine whether the solution meets the stated goals. More than one solution in the set might solve the problem. It is also possible that none of the solutions in the set solve the problem.
 After you answer a question in this section, you will NOT be able to return. As a result, these questions do not appear on the Review Screen.
 You have a Microsoft Entra tenant named contoso.com.
@@ -5823,7 +5494,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 330
 https://www.examtopics.com/discussions/microsoft/view/151538-exam-md-102-topic-1-question-330-discussion/
 ======================================================================
-
 Note: This section contains one or more sets of questions with the same scenario and problem. Each question presents a unique solution to the problem. You must determine whether the solution meets the stated goals. More than one solution in the set might solve the problem. It is also possible that none of the solutions in the set solve the problem.
 After you answer a question in this section, you will NOT be able to return. As a result, these questions do not appear on the Review Screen.
 You have a Microsoft Entra tenant named contoso.com.
@@ -5841,7 +5511,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 331
 https://www.examtopics.com/discussions/microsoft/view/152766-exam-md-102-topic-1-question-331-discussion/
 ======================================================================
-
 Note: This section contains one or more sets of questions with the same scenario and problem. Each question presents a unique solution to the problem. You must determine whether the solution meets the stated goals. More than one solution in the set might solve the problem. It is also possible that none of the solutions in the set solve the problem.
 After you answer a question in this section, you will NOT be able to return. As a result, these questions do not appear on the Review Screen.
 You have a Microsoft Entra tenant named contoso.com.
@@ -5859,7 +5528,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 332
 https://www.examtopics.com/discussions/microsoft/view/151034-exam-md-102-topic-1-question-332-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 tenant that contains Windows devices enrolled in Microsoft Intune as shown in the following table.
@@ -5882,7 +5550,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 333
 https://www.examtopics.com/discussions/microsoft/view/153499-exam-md-102-topic-1-question-333-discussion/
 ======================================================================
-
 Note: This section contains one or more sets of questions with the same scenario and problem. Each question presents a unique solution to the problem. You must determine whether the solution meets the stated goals. More than one solution in the set might solve the problem. It is also possible that none of the solutions in the set solve the problem.
 After you answer a question in this section, you will NOT be able to return. As a result, these questions do not appear on the Review Screen.
 You have a Microsoft 365 E5 subscription. The subscription contains devices that are Microsoft Entra joined and enrolled in Microsoft Intune.
@@ -5900,7 +5567,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 334
 https://www.examtopics.com/discussions/microsoft/view/153500-exam-md-102-topic-1-question-334-discussion/
 ======================================================================
-
 Note: This section contains one or more sets of questions with the same scenario and problem. Each question presents a unique solution to the problem. You must determine whether the solution meets the stated goals. More than one solution in the set might solve the problem. It is also possible that none of the solutions in the set solve the problem.
 After you answer a question in this section, you will NOT be able to return. As a result, these questions do not appear on the Review Screen.
 You have a Microsoft 365 E5 subscription. The subscription contains devices that are Microsoft Entra joined and enrolled in Microsoft Intune.
@@ -5918,7 +5584,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 335
 https://www.examtopics.com/discussions/microsoft/view/154047-exam-md-102-topic-1-question-335-discussion/
 ======================================================================
-
 Note: This section contains one or more sets of questions with the same scenario and problem. Each question presents a unique solution to the problem. You must determine whether the solution meets the stated goals. More than one solution in the set might solve the problem. It is also possible that none of the solutions in the set solve the problem.
 After you answer a question in this section, you will NOT be able to return. As a result, these questions do not appear on the Review Screen.
 You have a Microsoft 365 E5 subscription. The subscription contains devices that are Microsoft Entra joined and enrolled in Microsoft Intune.
@@ -5936,7 +5601,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 336
 https://www.examtopics.com/discussions/microsoft/view/156495-exam-md-102-topic-1-question-336-discussion/
 ======================================================================
-
 Note: This section contains one or more sets of questions with the same scenario and problem. Each question presents a unique solution to the problem. You must determine whether the solution meets the stated goals. More than one solution in the set might solve the problem. It is also possible that none of the solutions in the set solve the problem.
 After you answer a question in this section, you will NOT be able to return. As a result, these questions do not appear on the Review Screen.
 You have a Microsoft Entra tenant named contoso.com.
@@ -5954,7 +5618,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 337
 https://www.examtopics.com/discussions/microsoft/view/156931-exam-md-102-topic-1-question-337-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains devices enrolled in Microsoft intune.
 You need to review security tasks in the Microsoft Intune admin center.
 What should you do first?
@@ -5971,7 +5634,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 338
 https://www.examtopics.com/discussions/microsoft/view/155038-exam-md-102-topic-1-question-338-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You purchase the following types of devices:
 •	Windows
@@ -5993,7 +5655,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 339
 https://www.examtopics.com/discussions/microsoft/view/155299-exam-md-102-topic-1-question-339-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that contains the devices shown in the following table.
@@ -6005,7 +5666,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 340
 https://www.examtopics.com/discussions/microsoft/view/156088-exam-md-102-topic-1-question-340-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft Entra tenant that contains the groups shown in the following table.
@@ -6018,7 +5678,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 341
 https://www.examtopics.com/discussions/microsoft/view/154860-exam-md-102-topic-1-question-341-discussion/
 ======================================================================
-
 You have a Microsoft Entra tenant that contains a device named Device1. Device1 is Microsoft Entra joined.
 You need to validate the Microsoft Entra ID primary refresh token (PRT) for Device1.
 Which command should you run?
@@ -6034,7 +5693,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 342
 https://www.examtopics.com/discussions/microsoft/view/153496-exam-md-102-topic-1-question-342-discussion/
 ======================================================================
-
 Your on-premises network contains an Active Directory Domain Services (AD DS) domain that syncs with a Microsoft Entra tenant.
 You need to enable users to connect to Microsoft 365 services from their personal Windows devices by using single sign-on (SSO). The solution must minimize organizational control of the devices.
 Which join type should you use?
@@ -6050,7 +5708,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 343
 https://www.examtopics.com/discussions/microsoft/view/154862-exam-md-102-topic-1-question-343-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft Entra tenant that contains the devices shown in the following table.
@@ -6061,7 +5718,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 344
 https://www.examtopics.com/discussions/microsoft/view/154863-exam-md-102-topic-1-question-344-discussion/
 ======================================================================
-
 Your network contains an on-premises Active Directory Domain Services (AD DS) domain that syncs with a Microsoft Entra tenant named contoso.com.
 You need to deploy 100 Windows 11 devices to contoso.com. The solution must meet the following requirements:
 •	Ensure that from the devices, users can access shares on an on-premises file server without being prompted for credentials.
@@ -6079,7 +5735,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 345
 https://www.examtopics.com/discussions/microsoft/view/153688-exam-md-102-topic-1-question-345-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains a device named Device1.
 Device1 is Microsoft Entra joined.
 You manage Device1 by using Microsoft Intune.
@@ -6097,7 +5752,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 346
 https://www.examtopics.com/discussions/microsoft/view/154864-exam-md-102-topic-1-question-346-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains devices enrolled in Microsoft intune as shown in the following table.
 You need to use a bulk device action to send custom notifications.
 To which devices can you send the custom notifications?
@@ -6114,7 +5768,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 347
 https://www.examtopics.com/discussions/microsoft/view/156363-exam-md-102-topic-1-question-347-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft 365 E5 subscription and use Microsoft Intune.
@@ -6125,7 +5778,6 @@ Which four actions should you perform in sequence? To answer move the appropriat
 Topic 1 - Question 348
 https://www.examtopics.com/discussions/microsoft/view/154867-exam-md-102-topic-1-question-348-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that uses Microsoft Intune Suite.
@@ -6140,7 +5792,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 349
 https://www.examtopics.com/discussions/microsoft/view/154901-exam-md-102-topic-1-question-349-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that contains devices enrolled in Microsoft Intune as shown in the following table.
@@ -6155,7 +5806,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 350
 https://www.examtopics.com/discussions/microsoft/view/157061-exam-md-102-topic-1-question-350-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription and use Microsoft Intune Suite.
 You plan to use Microsoft Cloud PKI to support the signing and encryption of email messages.
 What should you do first?
@@ -6172,7 +5822,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 351
 https://www.examtopics.com/discussions/microsoft/view/156084-exam-md-102-topic-1-question-351-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains the devices shown in the following table.
@@ -6184,7 +5833,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 352
 https://www.examtopics.com/discussions/microsoft/view/153563-exam-md-102-topic-1-question-352-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription.
 You plan to enroll 25 new devices in Microsoft Intune.
 You need to configure an enrollment notification for the new devices.
@@ -6203,7 +5851,6 @@ Suggested Answer (community most voted): DE
 Topic 1 - Question 353
 https://www.examtopics.com/discussions/microsoft/view/154868-exam-md-102-topic-1-question-353-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft Entra tenant named contoso.com that contains the users shown in the following table.
@@ -6218,7 +5865,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 354
 https://www.examtopics.com/discussions/microsoft/view/157010-exam-md-102-topic-1-question-354-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains a Windows device named Device1.
@@ -6233,7 +5879,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 355
 https://www.examtopics.com/discussions/microsoft/view/157189-exam-md-102-topic-1-question-355-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription and use Microsoft Intune.
@@ -6246,7 +5891,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 356
 https://www.examtopics.com/discussions/microsoft/view/157191-exam-md-102-topic-1-question-356-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains the following types of devices:
 •	Windows 11
 •	Android
@@ -6267,7 +5911,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 357
 https://www.examtopics.com/discussions/microsoft/view/157199-exam-md-102-topic-1-question-357-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription and use Microsoft Intune Suite.
 You plan to use Intune to run remediation script packages.
 What should you do first in the Microsoft Intune admin center?
@@ -6283,7 +5926,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 358
 https://www.examtopics.com/discussions/microsoft/view/157193-exam-md-102-topic-1-question-358-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that contains 5,000 Windows devices enrolled in Microsoft Intune.
@@ -6295,7 +5937,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 359
 https://www.examtopics.com/discussions/microsoft/view/157194-exam-md-102-topic-1-question-359-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You manage devices by using Microsoft Intune. Automatic Intune enrollment is disabled.
@@ -6311,7 +5952,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 360
 https://www.examtopics.com/discussions/microsoft/view/157195-exam-md-102-topic-1-question-360-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription and use Microsoft Intune.
 You need to use a Sync bulk device action on all corporate-owned Windows devices.
 What is the maximum number of devices you can include the action?
@@ -6328,7 +5968,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 361
 https://www.examtopics.com/discussions/microsoft/view/157361-exam-md-102-topic-1-question-361-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft Entra tenant named contoso.com that contains the users shown in the following table.
@@ -6341,7 +5980,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 362
 https://www.examtopics.com/discussions/microsoft/view/302597-exam-md-102-topic-1-question-362-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft Entra tenant named contoso.com that contains the dynamic membership groups shown in the following table.
@@ -6353,7 +5991,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 363
 https://www.examtopics.com/discussions/microsoft/view/157201-exam-md-102-topic-1-question-363-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You have a Microsoft Intune enrollment profile for Android Enterprise devices that has the following settings:
 •	Name: Profile1
@@ -6372,7 +6009,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 364
 https://www.examtopics.com/discussions/microsoft/view/157202-exam-md-102-topic-1-question-364-discussion/
 ======================================================================
-
 You use Microsoft Defender for Office 365.
 You plan to automate an attack simulation campaign.
 Any users that fail the simulation must take additional training based on the simulation results.
@@ -6389,7 +6025,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 365
 https://www.examtopics.com/discussions/microsoft/view/157204-exam-md-102-topic-1-question-365-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -6403,7 +6038,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 366
 https://www.examtopics.com/discussions/microsoft/view/157392-exam-md-102-topic-1-question-366-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription and use Microsoft Defender for Cloud Apps.
 You plan to perform a security audit of all the apps detected by Cloud Discovery.
 You need to track which apps were audited. The solution must ensure that the list of audited apps can be displayed in the cloud app catalog.
@@ -6421,7 +6055,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 367
 https://www.examtopics.com/discussions/microsoft/view/157247-exam-md-102-topic-1-question-367-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription that contains Windows 11 devices.
 All the devices are onboarded to Microsoft Defender for Endpoint.
 You need to compare the configuration of the devices against industry standard benchmarks.
@@ -6438,7 +6071,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 368
 https://www.examtopics.com/discussions/microsoft/view/157245-exam-md-102-topic-1-question-368-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -6450,7 +6082,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 369
 https://www.examtopics.com/discussions/microsoft/view/157244-exam-md-102-topic-1-question-369-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -6463,7 +6094,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 370
 https://www.examtopics.com/discussions/microsoft/view/157208-exam-md-102-topic-1-question-370-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains devices enrolled in Microsoft Intune as shown in the following table.
@@ -6476,7 +6106,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 371
 https://www.examtopics.com/discussions/microsoft/view/305420-exam-md-102-topic-1-question-371-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription and use the Microsoft Intune Suite.
@@ -6489,7 +6118,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 372
 https://www.examtopics.com/discussions/microsoft/view/305599-exam-md-102-topic-1-question-372-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft Entra tenant named contoso.com that contains the users shown in the following table.
@@ -6504,7 +6132,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 373
 https://www.examtopics.com/discussions/microsoft/view/305615-exam-md-102-topic-1-question-373-discussion/
 ======================================================================
-
 SIMULATION
 -
 Username and password
@@ -6524,7 +6151,6 @@ You need to create a compliance policy to validate whether all the Windows 10 or
 Topic 1 - Question 374
 https://www.examtopics.com/discussions/microsoft/view/333132-exam-md-102-topic-1-question-374-discussion/
 ======================================================================
-
 SIMULATION
 -
 Username and password
@@ -6544,7 +6170,6 @@ You need to create a Conditional Access policy for the sg-Legal group that requi
 Topic 1 - Question 375
 https://www.examtopics.com/discussions/microsoft/view/308685-exam-md-102-topic-1-question-375-discussion/
 ======================================================================
-
 SIMULATION
 -
 Username and password
@@ -6561,10 +6186,47 @@ Lab Instance: 48262079
 You need to ensure that when the members of a group named sg-Engineering join their Windows devices to Microsoft Entra, the devices are enrolled automatically in Microsoft Intune. The solution must affect only the sg-Engineering group members.
 
 ======================================================================
+Topic 1 - Question 376
+https://www.examtopics.com/discussions/microsoft/view/333131-exam-md-102-topic-1-question-376-discussion/
+======================================================================
+SIMULATION
+-
+Username and password
+-
+Use the following login credentials as needed:
+To enter your username, place your cursor in the Sign in box and select the username below.
+To enter your password, place your cursor in the Enter password box and select the password below.
+Microsoft 365 Username: [email protected]
+Microsoft 365 Password: i7A4$3o^HGD3L~=c[9xuOhM%^4:s11Ai
+If the Microsoft Edge browser or Microsoft 365 portal does not load successfully, select the Microsoft Edge browser icon from the task bar, type the URL “https://portal.office.com”, and press Enter.
+The following information is for technical support purposes only:
+Lab Instance: 48262079
+-
+You need to deploy Microsoft 365 Apps for Windows 10 and later to Windows devices. The solution must ensure that the default file format is set to Office Open Document Format, and the update channel is set to Monthly Enterprise Channel. All other settings must use the default settings.
+
+======================================================================
+Topic 1 - Question 377
+https://www.examtopics.com/discussions/microsoft/view/333130-exam-md-102-topic-1-question-377-discussion/
+======================================================================
+SIMULATION
+-
+Username and password
+-
+Use the following login credentials as needed:
+To enter your username, place your cursor in the Sign in box and select the username below.
+To enter your password, place your cursor in the Enter password box and select the password below.
+Microsoft 365 Username: [email protected]
+Microsoft 365 Password: i7A4$3o^HGD3L~=c[9xuOhM%^4:s11Ai
+If the Microsoft Edge browser or Microsoft 365 portal does not load successfully, select the Microsoft Edge browser icon from the task bar, type the URL “https://portal.office.com”, and press Enter.
+The following information is for technical support purposes only:
+Lab Instance: 48262079
+-
+You need to deploy an update ring that will upgrade Windows 10 devices to Windows 11. The update ring must be assigned to all devices, and all the other update ring settings must use the default settings.
+
+======================================================================
 Topic 1 - Question 378
 https://www.examtopics.com/discussions/microsoft/view/333129-exam-md-102-topic-1-question-378-discussion/
 ======================================================================
-
 SIMULATION
 -
 Username and password
@@ -6582,10 +6244,50 @@ You need to manually register your computer to Windows Autopilot.
 The Get-WindowsAutopilotInfo.ps1 PowerShell script is stored in C:\Scripts.
 
 ======================================================================
+Topic 1 - Question 379
+https://www.examtopics.com/discussions/microsoft/view/333128-exam-md-102-topic-1-question-379-discussion/
+======================================================================
+SIMULATION
+-
+Username and password
+-
+Use the following login credentials as needed:
+To enter your username, place your cursor in the Sign in box and select the username below.
+To enter your password, place your cursor in the Enter password box and select the password below.
+Microsoft 365 Username: [email protected]
+Microsoft 365 Password: i7A4$3o^HGD3L~=c[9xuOhM%^4:s11Ai
+If the Microsoft Edge browser or Microsoft 365 portal does not load successfully, select the Microsoft Edge browser icon from the task bar, type the URL “https://portal.office.com”, and press Enter.
+The following information is for technical support purposes only:
+Lab Instance: 48262079
+-
+You need to join your computer to the Microsoft Entra tenant.
+
+======================================================================
+Topic 1 - Question 380
+https://www.examtopics.com/discussions/microsoft/view/333123-exam-md-102-topic-1-question-380-discussion/
+======================================================================
+SIMULATION
+-
+Username and password
+-
+Use the following login credentials as needed:
+To enter your username, place your cursor in the Sign in box and select the username below.
+To enter your password, place your cursor in the Enter password box and select the password below.
+Microsoft 365 Username: [email protected]
+Microsoft 365 Password: i7A4$3o^HGD3L~=c[9xuOhM%^4:s11Ai
+If the Microsoft Edge browser or Microsoft 365 portal does not load successfully, select the Microsoft Edge browser icon from the task bar, type the URL “https://portal.office.com”, and press Enter.
+The following information is for technical support purposes only:
+Lab Instance: 48262079
+-
+You need to create a Compliance policy notification message template that will send an email containing the following:
+•	Locale: English (United States)
+•	Subject: Compliance Failure
+•	Message: There has been a compliance failure on your device, please contact your helpdesk.
+
+======================================================================
 Topic 1 - Question 381
 https://www.examtopics.com/discussions/microsoft/view/316702-exam-md-102-topic-1-question-381-discussion/
 ======================================================================
-
 SIMULATION
 -
 Username and password
@@ -6602,10 +6304,28 @@ Lab Instance: 48262079
 You need to create a configuration profile that will enable Single app, full-screen kiosk mode for Windows 10 and later devices in a group named sg-IT. The solution must sign in a local user named KioskUser automatically and display Microsoft Edge with the https://bing.com homepage.
 
 ======================================================================
+Topic 1 - Question 382
+https://www.examtopics.com/discussions/microsoft/view/333126-exam-md-102-topic-1-question-382-discussion/
+======================================================================
+SIMULATION
+-
+Username and password
+-
+Use the following login credentials as needed:
+To enter your username, place your cursor in the Sign in box and select the username below.
+To enter your password, place your cursor in the Enter password box and select the password below.
+Microsoft 365 Username: [email protected]
+Microsoft 365 Password: i7A4$3o^HGD3L~=c[9xuOhM%^4:s11Ai
+If the Microsoft Edge browser or Microsoft 365 portal does not load successfully, select the Microsoft Edge browser icon from the task bar, type the URL “https://portal.office.com”, and press Enter.
+The following information is for technical support purposes only:
+Lab Instance: 48262079
+-
+You need to configure a policy to ensure that all Microsoft Intune-enrolled Windows devices back up their local admin account password to Microsoft Entra only.
+
+======================================================================
 Topic 1 - Question 383
 https://www.examtopics.com/discussions/microsoft/view/311056-exam-md-102-topic-1-question-383-discussion/
 ======================================================================
-
 SIMULATION
 -
 Username and password
@@ -6625,7 +6345,6 @@ You need to create an endpoint security policy to turn on Windows SmartScreen fo
 Topic 1 - Question 384
 https://www.examtopics.com/discussions/microsoft/view/306455-exam-md-102-topic-1-question-384-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains three Windows devices named Device1, Device2, and Device3. The devices are managed by using Microsoft Intune. Each device contains a file named Script1.ps1.
@@ -6659,7 +6378,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 385
 https://www.examtopics.com/discussions/microsoft/view/305695-exam-md-102-topic-1-question-385-discussion/
 ======================================================================
-
 Note: This section contains one or more sets of questions with the same scenario and problem. Each question presents a unique solution to the problem. You must determine whether the solution meets the stated goals. More than one solution in the set might solve the problem. It is also possible that none of the solutions in the set solve the problem.
 After you answer a question in this section, you will NOT be able to return. As a result, these questions do not appear on the Review Screen.
 You have a Microsoft 365 E5 subscription. The subscription contains devices that are Microsoft Entra joined and enrolled in Microsoft Intune.
@@ -6677,7 +6395,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 386
 https://www.examtopics.com/discussions/microsoft/view/309761-exam-md-102-topic-1-question-386-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription and use the Microsoft Intune Suite.
 You have the devices shown in the following table.
 All the devices are enrolled in Intune.
@@ -6695,7 +6412,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 387
 https://www.examtopics.com/discussions/microsoft/view/309759-exam-md-102-topic-1-question-387-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that contains the users shown in the following table.
@@ -6711,7 +6427,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 388
 https://www.examtopics.com/discussions/microsoft/view/309766-exam-md-102-topic-1-question-388-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains 500 Android devices. The devices are managed by using Microsoft Intune.
 You need to ensure that you can manage software updates for the devices by using Android FOTA.
 What should you do first?
@@ -6727,7 +6442,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 389
 https://www.examtopics.com/discussions/microsoft/view/309765-exam-md-102-topic-1-question-389-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains 500 Windows devices and the resources shown in the following table.
@@ -6740,7 +6454,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 390
 https://www.examtopics.com/discussions/microsoft/view/309762-exam-md-102-topic-1-question-390-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription.
 You purchase the devices shown in the following table.
 Which devices can be enrolled in Microsoft Intune by using automatic enrollment?
@@ -6757,7 +6470,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 391
 https://www.examtopics.com/discussions/microsoft/view/309764-exam-md-102-topic-1-question-391-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a hybrid environment that contains a Microsoft Entra tenant and an on-premises Active Directory Domain Services (AD DS) domain.
@@ -6769,7 +6481,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 392
 https://www.examtopics.com/discussions/microsoft/view/309763-exam-md-102-topic-1-question-392-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription and use Microsoft Intune.
 You need to implement Microsoft Tunnel for Mobile Application Management (MAM) for personal Android devices.
 You perform the following actions:
@@ -6789,7 +6500,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 393
 https://www.examtopics.com/discussions/microsoft/view/309758-exam-md-102-topic-1-question-393-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains 500 Windows devices enrolled in Microsoft Intune.
@@ -6802,7 +6512,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 394
 https://www.examtopics.com/discussions/microsoft/view/309760-exam-md-102-topic-1-question-394-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that includes Microsoft Intune.
@@ -6817,7 +6526,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 395
 https://www.examtopics.com/discussions/microsoft/view/309757-exam-md-102-topic-1-question-395-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains the devices shown in the following table.
@@ -6836,7 +6544,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 396
 https://www.examtopics.com/discussions/microsoft/view/394001-exam-md-102-topic-1-question-396-discussion/
 ======================================================================
-
 You have a Microsoft 365 E5 subscription and use the Microsoft Intune Suite. The subscription contains a Microsoft SharePoint Online site named Site1 and 500 Windows devices enrolled in Intune.
 You have the apps shown in the following table.
 You need to deploy the apps to the devices by using Intune.
@@ -6854,7 +6561,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 397
 https://www.examtopics.com/discussions/microsoft/view/394010-exam-md-102-topic-1-question-397-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains a user named User1 and 500 Windows devices enrolled in Microsoft Intune.
 You configure an attack surface reduction (ASR) rule and enable the rule in Warn mode.
 User1 downloads a file named file1.exe. When User1 attempts to run file1.exe he receives a prompt that the content has been blocked. The user unblocks the content.
@@ -6871,7 +6577,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 398
 https://www.examtopics.com/discussions/microsoft/view/394006-exam-md-102-topic-1-question-398-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that contains 1,000 Windows devices enrolled in Microsoft Intune.
 You have the apps shown in the following table.
 You need to deploy App1 to the devices.
@@ -6888,7 +6593,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 399
 https://www.examtopics.com/discussions/microsoft/view/393999-exam-md-102-topic-1-question-399-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription.
@@ -6901,7 +6605,6 @@ NOTE: Each correct selection is worth one point
 Topic 1 - Question 400
 https://www.examtopics.com/discussions/microsoft/view/394008-exam-md-102-topic-1-question-400-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that uses Microsoft Intune.
 You have a Google account.
 You plan to enroll Android devices in Intune.
@@ -6919,7 +6622,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 401
 https://www.examtopics.com/discussions/microsoft/view/393997-exam-md-102-topic-1-question-401-discussion/
 ======================================================================
-
 You have devices enrolled in Microsoft Intune as shown in the following table.
 On which devices can you apply app configuration policies for the managed devices?
 
@@ -6935,7 +6637,6 @@ Suggested Answer (community most voted): E
 Topic 1 - Question 402
 https://www.examtopics.com/discussions/microsoft/view/394002-exam-md-102-topic-1-question-402-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft Entra tenant that contains the groups shown in the following table.
@@ -6948,7 +6649,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 403
 https://www.examtopics.com/discussions/microsoft/view/394004-exam-md-102-topic-1-question-403-discussion/
 ======================================================================
-
 Note: This section contains one or more sets of questions with the same scenario and problem. Each question presents a unique solution to the problem. You must determine whether the solution meets the stated goals. More than one solution in the set might solve the problem. It is also possible that none of the solutions in the set solve the problem.
 After you answer a question in this section, you will NOT be able to return. As a result, these questions do not appear on the Review Screen.
 You have a Microsoft Entra tenant named contoso.com.
@@ -6966,7 +6666,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 404
 https://www.examtopics.com/discussions/microsoft/view/394007-exam-md-102-topic-1-question-404-discussion/
 ======================================================================
-
 You have an Android Enterprise fully managed device named Device1 that is enrolled in Microsoft Intune. Devicel is assigned a device profile.
 You plan to manage software updates for Device1 by using Android firmware over-the-air (FOTA). You discover that FOTA is unavailable for Device1.
 You need to manage software updates for Device1 by using Intune instead.
@@ -6983,7 +6682,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 405
 https://www.examtopics.com/discussions/microsoft/view/394009-exam-md-102-topic-1-question-405-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that uses Microsoft Intune and has the following advanced analytics reports enabled:
 •	Endpoint analytics
 •	Application reliability
@@ -7003,7 +6701,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 406
 https://www.examtopics.com/discussions/microsoft/view/394005-exam-md-102-topic-1-question-406-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 subscription that uses Microsoft Intune and contains a Microsoft Tunnel for Mobile Application.
@@ -7016,7 +6713,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 407
 https://www.examtopics.com/discussions/microsoft/view/394003-exam-md-102-topic-1-question-407-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that uses Microsoft Intune and contains a group named Group1.
 You have a line-of-business (LOB) app named App1 that supports in-app notifications. App1 is assigned to all the users in the subscription.
 You need to ensure that the users in Group1 receive a custom notification when they launch App1.
@@ -7033,7 +6729,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 408
 https://www.examtopics.com/discussions/microsoft/view/393998-exam-md-102-topic-1-question-408-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a Microsoft 365 E5 subscription that contains a group named Group1 and 500 mobile devices that run Android or iOS.
@@ -7049,7 +6744,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 409
 https://www.examtopics.com/discussions/microsoft/view/394000-exam-md-102-topic-1-question-409-discussion/
 ======================================================================
-
 You have a Microsoft 365 subscription that uses Microsoft Intune.
 You need to ensure that users are prompted for multifactor authentication (MFA) when they enroll a personal device in Intune. The solution must minimize administrative effort.
 What should you create?
@@ -7060,4 +6754,3 @@ C. an authentication method policy
 D. a Conditional Access policy
 
 Suggested Answer (community most voted): D
-

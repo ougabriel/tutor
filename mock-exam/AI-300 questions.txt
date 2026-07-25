@@ -1,11 +1,10 @@
-AI-300 - Extracted Questions (99 of 142)
+AI-300 - Extracted Questions (142)
 Source: ExamTopics question/discussion pages
 
 ======================================================================
 Topic 2 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/404549-exam-ai-300-topic-2-question-1-discussion/
 ======================================================================
-
 Case Study -
 This is a case study. Case studies are not timed separately from other exam sections. You can use as much exam time as you would like to complete each case study. However, there might be additional case studies or other exam sections. Manage your time to ensure that you can complete all the exam sections in the time provided. Pay attention to the Exam Progress at the top of the screen so you have sufficient time to complete any exam sections that follow this case study.
 To answer the case study questions, you will need to reference information that is provided in the case. Case studies and associated questions might contain exhibits or other resources that provide more information about the scenario described in the case. Information provided in an individual question does not apply to the other questions in the case study.
@@ -67,7 +66,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/404550-exam-ai-300-topic-2-question-2-discussion/
 ======================================================================
-
 Case Study -
 This is a case study. Case studies are not timed separately from other exam sections. You can use as much exam time as you would like to complete each case study. However, there might be additional case studies or other exam sections. Manage your time to ensure that you can complete all the exam sections in the time provided. Pay attention to the Exam Progress at the top of the screen so you have sufficient time to complete any exam sections that follow this case study.
 To answer the case study questions, you will need to reference information that is provided in the case. Case studies and associated questions might contain exhibits or other resources that provide more information about the scenario described in the case. Information provided in an individual question does not apply to the other questions in the case study.
@@ -129,7 +127,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/404551-exam-ai-300-topic-2-question-3-discussion/
 ======================================================================
-
 HOTSPOT -
 A team trains an MLflow model that scores customer churn risk. The model will be consumed by different downstream systems.
 One system requests predictions synchronously during customer interactions.
@@ -142,7 +139,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/404552-exam-ai-300-topic-2-question-4-discussion/
 ======================================================================
-
 You manage an Azure Machine learning workspace. You develop a machine learning model.
 You must deploy the model to use a low-priority VM with a pricing discount.
 You need to deploy the model.
@@ -159,7 +155,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/404553-exam-ai-300-topic-2-question-5-discussion/
 ======================================================================
-
 A team manages an Azure Machine Learning workspace where they deploy models to online endpoints.
 The team needs to introduce a new version of a model to production without disrupting existing users.
 The team must validate the new version before full rollout.
@@ -177,7 +172,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 6
 https://www.examtopics.com/discussions/microsoft/view/404554-exam-ai-300-topic-2-question-6-discussion/
 ======================================================================
-
 You have a deployment of an Azure OpenAI Service base model.
 You plan to fine-tune the model.
 You need to prepare a file that contains training data.
@@ -194,7 +188,6 @@ Suggested Answer (community most voted): C
 Topic 2 - Question 7
 https://www.examtopics.com/discussions/microsoft/view/404555-exam-ai-300-topic-2-question-7-discussion/
 ======================================================================
-
 You have a deployment of an Azure OpenAI Service base model.
 You plan to fine-tune the model.
 You need to prepare a file that contains training data for multi-turn chat.
@@ -211,7 +204,6 @@ Suggested Answer (community most voted): C
 Topic 2 - Question 8
 https://www.examtopics.com/discussions/microsoft/view/404556-exam-ai-300-topic-2-question-8-discussion/
 ======================================================================
-
 You are fine-tuning a base language model to analyze customer feedback.
 You label examples of support tickets. You must improve classification accuracy by configuring and fine-tuning the base model in Microsoft Foundry.
 You need to configure and run fine-tuning.
@@ -228,7 +220,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 9
 https://www.examtopics.com/discussions/microsoft/view/404557-exam-ai-300-topic-2-question-9-discussion/
 ======================================================================
-
 A team is working in Microsoft Foundry to test and compare large language model (LLM) prompt variants in a development environment.
 The team requires consistent inputs to evaluate prompt variants without relying on live user traffic.
 You need to create a controlled evaluation of input data.
@@ -245,7 +236,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 10
 https://www.examtopics.com/discussions/microsoft/view/404558-exam-ai-300-topic-2-question-10-discussion/
 ======================================================================
-
 DRAG DROP -
 A team maintains Infrastructure as Code (IaC) templates to provision Azure Machine Learning resources.
 Provisioning must be triggered by changes in the templates and executed without manual intervention.
@@ -257,7 +247,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 11
 https://www.examtopics.com/discussions/microsoft/view/404559-exam-ai-300-topic-2-question-11-discussion/
 ======================================================================
-
 An organization maintains separate Azure Machine Learning workspaces for development and production.
 Both environments must use the same validated assets without duplicating them.
 Assets must be shared across workspaces while maintaining centralized governance and version control.
@@ -275,7 +264,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 12
 https://www.examtopics.com/discussions/microsoft/view/404560-exam-ai-300-topic-2-question-12-discussion/
 ======================================================================
-
 An Azure Machine Learning workspace processes sensitive training data.
 The workspace must NOT be accessible from the public internet.
 You need to restrict network access.
@@ -292,7 +280,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 13
 https://www.examtopics.com/discussions/microsoft/view/404561-exam-ai-300-topic-2-question-13-discussion/
 ======================================================================
-
 A team is experimenting with traditional models for a classification workflow in Azure Machine Learning.
 The team requires a consistent way to manage assets that are created during experimentation.
 You need to ensure that artifacts can be reused and governed across projects.
@@ -309,7 +296,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 14
 https://www.examtopics.com/discussions/microsoft/view/404562-exam-ai-300-topic-2-question-14-discussion/
 ======================================================================
-
 HOTSPOT -
 You manage an Azure Machine Learning workspace named workspace1 by using the Python SDK v2.
 The default datastore of workspace1 contains a folder named sample_data. The folder structure contains the following content:
@@ -322,7 +308,6 @@ NOTE: Each correct selection is worth one point
 Topic 2 - Question 15
 https://www.examtopics.com/discussions/microsoft/view/404563-exam-ai-300-topic-2-question-15-discussion/
 ======================================================================
-
 HOTSPOT -
 You manage an Azure Machine Learning workspace named workspace1 by using the Python SDK v2. You create a General Purpose v2 Azure storage account named mlstorage1. The storage account includes a publicly accessible container named mlcontainer1. The container stores 10 blobs with files in the CSV format.
 You must develop Python SDK v2 code to create a data asset referencing all blobs in the container named mlcontainer1.
@@ -334,7 +319,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 16
 https://www.examtopics.com/discussions/microsoft/view/404564-exam-ai-300-topic-2-question-16-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear on the review screen.
 You manage an Azure Machine Learning workspace. The Python script named script.py reads an argument named training_data. The training_data argument specifies the path to the training data in a file named dataset1.csv.
@@ -352,7 +336,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 17
 https://www.examtopics.com/discussions/microsoft/view/404565-exam-ai-300-topic-2-question-17-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear on the review screen.
 You manage an Azure Machine Learning workspace. The Python script named script.py reads an argument named training_data. The training_data argument specifies the path to the training data in a file named dataset1.csv.
@@ -370,7 +353,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 18
 https://www.examtopics.com/discussions/microsoft/view/404566-exam-ai-300-topic-2-question-18-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear on the review screen.
 You manage an Azure Machine Learning workspace. The Python script named script.py reads an argument named training_data. The training_data argument specifies the path to the training data in a file named dataset1.csv.
@@ -386,7 +368,6 @@ B. No
 Topic 2 - Question 19
 https://www.examtopics.com/discussions/microsoft/view/415889-exam-ai-300-topic-2-question-19-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You review the following Azure CLI command and the relevant Bicep excerpt.
@@ -398,7 +379,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 20
 https://www.examtopics.com/discussions/microsoft/view/415890-exam-ai-300-topic-2-question-20-discussion/
 ======================================================================
-
 DRAG DROP
 -
 A team performs interactive experimentation during development. The team also runs scalable jobs for model training.
@@ -411,7 +391,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 21
 https://www.examtopics.com/discussions/microsoft/view/415891-exam-ai-300-topic-2-question-21-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have an existing GitHub repository containing Azure Machine Learning project files.
@@ -423,7 +402,6 @@ NOTE: More than one order of answer choices is correct. You will receive credit 
 Topic 2 - Question 22
 https://www.examtopics.com/discussions/microsoft/view/415892-exam-ai-300-topic-2-question-22-discussion/
 ======================================================================
-
 You manage an Azure Machine Learning workspace. You have an environment for training jobs which uses an existing Docker image.
 A new version of the Docker image is available.
 You need to use the latest version of the Docker image for the environment configuration by using the Azure Machine Learning SDK v2.
@@ -440,7 +418,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 23
 https://www.examtopics.com/discussions/microsoft/view/415893-exam-ai-300-topic-2-question-23-discussion/
 ======================================================================
-
 You manage an Azure Machine Learning workspace.
 You need to define an environment from a Docker image by using the Azure Machine Learning Python SDK v2.
 Which parameter should you use?
@@ -453,10 +430,23 @@ D. image
 Suggested Answer (community most voted): D
 
 ======================================================================
+Topic 2 - Question 24
+https://www.examtopics.com/discussions/microsoft/view/415894-exam-ai-300-topic-2-question-24-discussion/
+======================================================================
+A company has multiple data science teams working on separate machine learning projects.
+The company requires models to be auditable, reusable, and governed centrally across teams. The models must allow team-level isolation for billing.
+You need to establish the foundation for governed machine learning operations.
+Which action should you perform first?
+
+A. Register shared datasets in a central storage account.
+B. Create a shared hub workspace and project workspaces for each team.
+C. Create a resource group for shared machine learning assets.
+D. Create a shared Azure Machine Learning workspace.
+
+======================================================================
 Topic 2 - Question 25
 https://www.examtopics.com/discussions/microsoft/view/415895-exam-ai-300-topic-2-question-25-discussion/
 ======================================================================
-
 A team provisions an Azure Machine Learning environment by triggering pull requests.
 Deployments must be automated, auditable, and require approval before running.
 You need to select a deployment automation tool.
@@ -473,7 +463,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 26
 https://www.examtopics.com/discussions/microsoft/view/415896-exam-ai-300-topic-2-question-26-discussion/
 ======================================================================
-
 A team develops and manages a conversational assistant by using Microsoft Foundry.
 The team requires generative AI to automatically evaluate every pull request of an agentic application and fail the build if safety thresholds are exceeded.
 You need to automate evaluations as part of CI.
@@ -487,10 +476,23 @@ D. GitHub Actions workflow that executes the runs
 Suggested Answer (community most voted): D
 
 ======================================================================
+Topic 2 - Question 27
+https://www.examtopics.com/discussions/microsoft/view/420692-exam-ai-300-topic-2-question-27-discussion/
+======================================================================
+A team runs training and inference jobs in Azure Machine Learning.
+The team experiences inconsistent runtime dependencies that cause variation in results.
+You need to ensure that all jobs use the same execution dependencies.
+Which asset should you define?
+
+A. Azure Machine Learning job configuration
+B. Azure Machine Learning job input/output bindings
+C. Azure Monitor alert
+D. Azure Machine Learning environment
+
+======================================================================
 Topic 3 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/404567-exam-ai-300-topic-3-question-1-discussion/
 ======================================================================
-
 Case Study -
 This is a case study. Case studies are not timed separately from other exam sections. You can use as much exam time as you would like to complete each case study. However, there might be additional case studies or other exam sections. Manage your time to ensure that you can complete all the exam sections in the time provided. Pay attention to the Exam Progress at the top of the screen so you have sufficient time to complete any exam sections that follow this case study.
 To answer the case study questions, you will need to reference information that is provided in the case. Case studies and associated questions might contain exhibits or other resources that provide more information about the scenario described in the case. Information provided in an individual question does not apply to the other questions in the case study.
@@ -552,7 +554,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/404600-exam-ai-300-topic-3-question-2-discussion/
 ======================================================================
-
 HOTSPOT -
 A machine learning model is deployed to production in Azure Machine Learning and is actively serving predictions for a business application. The model was trained by using a historical dataset that represented expected input patterns at the time of deployment.
 The team working on the model must ensure the following:
@@ -566,7 +567,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/404601-exam-ai-300-topic-3-question-3-discussion/
 ======================================================================
-
 You create a binary classification model. You use the Fairlearn package to assess model fairness.
 You must eliminate the need to retrain the model.
 You need to implement the Fairlearn package.
@@ -583,7 +583,6 @@ Suggested Answer (community most voted): D
 Topic 3 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/404602-exam-ai-300-topic-3-question-4-discussion/
 ======================================================================
-
 DRAG DROP -
 A real-time endpoint is deployed in Azure Machine Learning to serve predictions to a web application.
 Users report intermittent failures and unexpected responses when calling the endpoint.
@@ -595,7 +594,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/404603-exam-ai-300-topic-3-question-5-discussion/
 ======================================================================
-
 A team manages an Azure Machine Learning workspace and deploys a model to an endpoint.
 A deployed online endpoint shows inconsistent response times during periods of high traffic.
 You need to identify potential performance degradation.
@@ -614,7 +612,6 @@ Suggested Answer (community most voted): BCE
 Topic 3 - Question 6
 https://www.examtopics.com/discussions/microsoft/view/404604-exam-ai-300-topic-3-question-6-discussion/
 ======================================================================
-
 DRAG DROP -
 A team deploys a machine learning model to a managed online endpoint. The team monitors model performance and data quality metrics in production.
 When monitoring thresholds are exceeded, the team requires an automated operational response that notifies downstream systems.
@@ -626,7 +623,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 7
 https://www.examtopics.com/discussions/microsoft/view/404605-exam-ai-300-topic-3-question-7-discussion/
 ======================================================================
-
 HOTSPOT -
 You use Azure Machine Learning to train models across multiple experiments by using the same workspace.
 You must record training runs in a centralized location to compare results from different jobs.
@@ -639,7 +635,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 8
 https://www.examtopics.com/discussions/microsoft/view/404606-exam-ai-300-topic-3-question-8-discussion/
 ======================================================================
-
 A data science team trains a classification model that predicts loan approval outcomes.
 Before registering the model, the team must ensure the following:
 Predictions must not disproportionately impact protected groups.
@@ -660,7 +655,6 @@ Suggested Answer (community most voted): DE
 Topic 3 - Question 9
 https://www.examtopics.com/discussions/microsoft/view/404568-exam-ai-300-topic-3-question-9-discussion/
 ======================================================================
-
 A team deploys a model to a real-time endpoint in Azure Machine Learning. You deploy some updates to the endpoint.
 The endpoint returns errors after the new deployment is released.
 You need to restore the service as quickly as possible.
@@ -677,7 +671,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 10
 https://www.examtopics.com/discussions/microsoft/view/404569-exam-ai-300-topic-3-question-10-discussion/
 ======================================================================
-
 HOTSPOT -
 You train a model in Azure Machine Learning.
 You plan to capture experiment details for later comparison. The training code must log parameters and metrics for each run.
@@ -689,7 +682,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 11
 https://www.examtopics.com/discussions/microsoft/view/404570-exam-ai-300-topic-3-question-11-discussion/
 ======================================================================
-
 A data science team completes multiple training runs within an experiment by using MLflow.
 The team wants to store a selected model in Azure Machine Learning so that it can be versioned and deployed later.
 The model must be versioned centrally for reuse across environments.
@@ -708,7 +700,6 @@ Suggested Answer (community most voted): AB
 Topic 3 - Question 12
 https://www.examtopics.com/discussions/microsoft/view/404571-exam-ai-300-topic-3-question-12-discussion/
 ======================================================================
-
 DRAG DROP -
 A team deploys a classification model to production and monitors performance and data changes.
 The team wants to ensure that significant drops in prediction accuracy automatically trigger the following:
@@ -721,7 +712,6 @@ Which four actions should you perform in sequence? To answer, move the appropria
 Topic 3 - Question 13
 https://www.examtopics.com/discussions/microsoft/view/404572-exam-ai-300-topic-3-question-13-discussion/
 ======================================================================
-
 An Azure Machine Learning workspace contains multiple registered versions of a model that is used in production.
 An older model version must no longer be deployable, but it must remain available for compliance review and potential rollback.
 You need to change the state of the model version to meet the requirements.
@@ -738,7 +728,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 14
 https://www.examtopics.com/discussions/microsoft/view/404573-exam-ai-300-topic-3-question-14-discussion/
 ======================================================================
-
 A team is deploying machine learning models to a production inference endpoint in Azure Machine Learning.
 The team requires a safe way to validate a new model version without disrupting existing users.
 You need to recommend a deployment strategy for controlled testing of a new model version.
@@ -755,7 +744,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 15
 https://www.examtopics.com/discussions/microsoft/view/404574-exam-ai-300-topic-3-question-15-discussion/
 ======================================================================
-
 HOTSPOT -
 You are monitoring a fine-tuned large language model deployed in Microsoft Foundry.
 You evaluate the model before and after fine-tuning by using the same evaluation dataset.
@@ -764,10 +752,74 @@ You need to determine whether the fine-tuned model shows improved performance wi
 NOTE: Each correct selection is worth one point.
 
 ======================================================================
+Topic 3 - Question 16
+https://www.examtopics.com/discussions/microsoft/view/415897-exam-ai-300-topic-3-question-16-discussion/
+======================================================================
+HOTSPOT
+-
+Case Study
+-
+This is a case study. Case studies are not timed separately from other exam sections. You can use as much exam time as you would like to complete each case study. However, there might be additional case studies or other exam sections. Manage your time to ensure that you can complete all the exam sections in the time provided. Pay attention to the Exam Progress at the top of the screen so you have sufficient time to complete any exam sections that follow this case study.
+To answer the case study questions, you will need to reference information that is provided in the case. Case studies and associated questions might contain exhibits or other resources that provide more information about the scenario described in the case. Information provided in an individual question does not apply to the other questions in the case study.
+A Review Screen will appear at the end of this case study. From the Review Screen, you can review and change your answers before you move to the next exam section. After you leave this case study, you will NOT be able to return to it.
+To start the case study
+-
+To display the first question in this case study, select the "Next" button. To the left of the question, a menu provides links to information such as business requirements, the existing environment, and problem statements. Please read through all this information before answering any questions. When you are ready to answer a question, select the "Question" button to return to the question.
+Background
+-
+Fabrikam Inc. is a mid-sized healthcare analytics company that provides population health dashboards and predictive insights to regional hospital systems across the United States. Fabrikam Inc. customers rely on near real time analytics to monitor patient flow, staffing needs, and readmission risks. They use multiple traditional forecasting machine learning models for predictions.
+Fabrikam Inc. has an established Microsoft Azure footprint. The company uses Jupyter Notebooks that run on a local server as the primary development environment. The data science team is experiencing scalability, asset management and code management issues with the current development platform. Fabrikam Inc. plans to migrate to a cloud-based development environment to mitigate the issues.
+Additionally, the company plans to implement a Retrieval-Augmented Generation (RAG)-based chat application for client support. Leadership requires the application to be developed and deployed with a low operational risk.
+Current Environment
+-
+Fabrikam Inc. operates a single Azure subscription that has the following components:
+•	Azure Data Lake Storage Gen2 that contains de-identified clinical and operational datasets
+•	Azure AI Search indexing curated analytical documents and reference materials
+•	A small set of Python-based training scripts maintained by data scientists
+•	Azure OpenAI Service with deployed foundational models
+•	A Microsoft Foundry resource for building a RAG-based solution
+Evaluation data has manually defined expected responses.
+The current challenges faced by the data science team include the following:
+•	Model training jobs are run manually from notebooks.
+•	Experiment tracking is inconsistent
+•	Model versions are registered without standardized metadata.
+•	Deployment is performed manually by data scientists, with limited rollback capability.
+•	The team has no standardized evaluation process for generative AI outputs.
+The environment currently allows public network access. Authentication relies on user accounts rather than managed identities. Compute targets are manually created and shared across experiments. This has led to resource contention during peak usage.
+Business Requirements
+-
+Fabrikam Inc. has the following business requirements for the modernization initiative:
+•	Provide a conversational interface that answers analytics questions by using internal documents and datasets.
+•	Ensure that sensitive healthcare-related data is not exposed outside the Fabrikam Inc. Azure tenant.
+•	Enable repeatable and auditable model training and deployment processes.
+•	Support experimentation to compare prompt strategies and fine-tuned models.
+•	Align the model with the ranked preferences and optimize behavior for the long term.
+•	Minimize disruption to existing analytics workloads during rollout.
+Technical Requirements
+-
+To support the business goals, Fabrikam Inc. identifies these technical requirements:
+•	Use Azure Machine Learning workspaces to centrally manage data assets, models, and environments.
+•	Implement experiment tracking and model versioning for all training jobs.
+•	Orchestrate training and evaluation by using pipelines rather than manually running notebooks.
+•	Deploy traditional machine learning models with support for staged rollout and rollback.
+•	Improve RAG-based solution output quality.
+•	Use the existing evaluation datasets that are based on real data with input-output pairs.
+•	Apply advanced fine-tuning techniques only when prompt engineering is insufficient
+Issues and Constraints
+-
+Fabrikam Inc. must comply with internal security policies that require the company to restrict network access and avoid long-lived secrets. The data science team has limited Azure DevOps experience, so solutions must favor managed services and automation over custom infrastructure.
+Cost predictability is important. Leadership prefers serverless or managed compute options where possible but is willing to approve dedicated compute for stable production workloads.
+Problem Statement
+-
+Fabrikam Inc. must design and implement an Azure-based AI operations solution that enables reliable training, evaluation, deployment, and iteration of generative AI models. The solution must support experimentation and gradual rollout while ensuring governance, security, and operational stability. The data science and platform teams must collaborate to deliver this solution by using Azure Machine Learning and Microsoft Foundry capabilities.
+You need to deploy the RAG-based chat application that meets Fabrikam Inc.’s business and technical requirements.
+Which configuration should you use for each requirement? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
 Topic 3 - Question 17
 https://www.examtopics.com/discussions/microsoft/view/415898-exam-ai-300-topic-3-question-17-discussion/
 ======================================================================
-
 Case Study -
 This is a case study. Case studies are not timed separately from other exam sections. You can use as much exam time as you would like to complete each case study. However, there might be additional case studies or other exam sections. Manage your time to ensure that you can complete all the exam sections in the time provided. Pay attention to the Exam Progress at the top of the screen so you have sufficient time to complete any exam sections that follow this case study.
 To answer the case study questions, you will need to reference information that is provided in the case. Case studies and associated questions might contain exhibits or other resources that provide more information about the scenario described in the case. Information provided in an individual question does not apply to the other questions in the case study.
@@ -829,7 +881,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 18
 https://www.examtopics.com/discussions/microsoft/view/415899-exam-ai-300-topic-3-question-18-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have an Azure Machine Learning workspace. You connect to a terminal session from the Notebooks page in Azure Machine Learning studio.
@@ -847,7 +898,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 19
 https://www.examtopics.com/discussions/microsoft/view/415900-exam-ai-300-topic-3-question-19-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have an Azure Machine Learning workspace. You connect to a terminal session from the Notebooks page in Azure Machine Learning studio.
@@ -865,7 +915,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 20
 https://www.examtopics.com/discussions/microsoft/view/415901-exam-ai-300-topic-3-question-20-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have an Azure Machine Learning workspace. You connect to a terminal session from the Notebooks page in Azure Machine Learning studio.
@@ -883,7 +932,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 21
 https://www.examtopics.com/discussions/microsoft/view/415902-exam-ai-300-topic-3-question-21-discussion/
 ======================================================================
-
 HOTSPOT
 -
 A biomedical research company plans to enroll people in an experimental medical treatment trial.
@@ -897,7 +945,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 22
 https://www.examtopics.com/discussions/microsoft/view/415903-exam-ai-300-topic-3-question-22-discussion/
 ======================================================================
-
 You are authoring a notebook in Azure Machine Learning studio.
 You must install packages from the notebook into the currently running kernel. The installation must be limited to the currently running kernel only.
 You need to install the packages.
@@ -914,7 +961,6 @@ Suggested Answer (community most voted): D
 Topic 3 - Question 23
 https://www.examtopics.com/discussions/microsoft/view/415904-exam-ai-300-topic-3-question-23-discussion/
 ======================================================================
-
 You create a workspace by using Azure Machine Learning Studio.
 You must run a Python SDK v2 notebook in the workspace by using Azure Machine Learning Studio.
 You need to reset the state of the notebook.
@@ -933,7 +979,6 @@ Suggested Answer (community most voted): ABD
 Topic 3 - Question 24
 https://www.examtopics.com/discussions/microsoft/view/415905-exam-ai-300-topic-3-question-24-discussion/
 ======================================================================
-
 A data science team plans to evaluate multiple hyperparameter values automatically while training a model in Azure Machine Learning.
 The tuning process must run multiple training trials without manually modifying the training script for each run.
 You need to automate hyperparameter tuning for the training job.
@@ -950,7 +995,6 @@ Suggested Answer (community most voted): D
 Topic 3 - Question 25
 https://www.examtopics.com/discussions/microsoft/view/415906-exam-ai-300-topic-3-question-25-discussion/
 ======================================================================
-
 DRAG DROP
 -
 An organization is deploying generative AI solutions by using Microsoft Foundry to support multiple production workloads.
@@ -965,7 +1009,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 26
 https://www.examtopics.com/discussions/microsoft/view/415907-exam-ai-300-topic-3-question-26-discussion/
 ======================================================================
-
 You create an Azure Machine Learning workspace. You train an MLflow-formatted regression model by using tabular structured data.
 You must use a Responsible AI dashboard to assess the model.
 You need to use the Azure Machine Learning studio UI to generate the Responsible AI dashboard.
@@ -982,7 +1025,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 27
 https://www.examtopics.com/discussions/microsoft/view/415908-exam-ai-300-topic-3-question-27-discussion/
 ======================================================================
-
 DRAG DROP
 -
 A customer-facing web application uses a foundational model deployed through Microsoft Foundry.
@@ -994,7 +1036,6 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Topic 3 - Question 28
 https://www.examtopics.com/discussions/microsoft/view/415909-exam-ai-300-topic-3-question-28-discussion/
 ======================================================================
-
 DRAG DROP
 -
 A team operates a generative AI-powered customer support assistant built on Microsoft Foundry. The application serves users globally and supports both real-time chat interactions and batch summarization jobs.
@@ -1008,7 +1049,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 29
 https://www.examtopics.com/discussions/microsoft/view/415910-exam-ai-300-topic-3-question-29-discussion/
 ======================================================================
-
 DRAG DROP
 -
 A team deploys a classification model to production and scores incoming customer data daily.
@@ -1018,10 +1058,21 @@ Which action should you perform for each observed signal? To answer, move the ap
 NOTE: Each correct selection is worth one point.
 
 ======================================================================
+Topic 3 - Question 30
+https://www.examtopics.com/discussions/microsoft/view/415911-exam-ai-300-topic-3-question-30-discussion/
+======================================================================
+HOTSPOT
+-
+A team manages an Azure Machine Learning workspace to train and register machine learning models.
+Previous model versions must be retained for audit and rollback purposes but must not be used for new deployments.
+You need to manage model versions.
+What should you do for each requirement? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
 Topic 3 - Question 31
 https://www.examtopics.com/discussions/microsoft/view/415912-exam-ai-300-topic-3-question-31-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You use Azure Machine Learning to implement hyperparameter tuning for an Azure ML Python SDK v2-based model training.
@@ -1031,10 +1082,20 @@ Which values should you use? To answer, select the appropriate options in the an
 NOTE: Each correct selection is worth one point.
 
 ======================================================================
+Topic 3 - Question 32
+https://www.examtopics.com/discussions/microsoft/view/415913-exam-ai-300-topic-3-question-32-discussion/
+======================================================================
+DRAG DROP
+-
+A data science team plans to evaluate multiple algorithms and hyperparameters for a classification problem without manually authoring separate training scripts.
+The team must run an automated machine learning (AutoML) job that compares models and identifies the best-performing configuration.
+You need to configure and run an AutoML training job.
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+
+======================================================================
 Topic 3 - Question 33
 https://www.examtopics.com/discussions/microsoft/view/415914-exam-ai-300-topic-3-question-33-discussion/
 ======================================================================
-
 A team is validating a generative AI assistant for a company. The assistant generates responses by using internal knowledge sources.
 The company requires assurance that responses are accurate, supported by sources, and related to the user prompts before enabling production access.
 You need to implement quality metrics that confirm the assistant produces reliable and meaningful responses.
@@ -1053,7 +1114,6 @@ Suggested Answer (community most voted): AB
 Topic 3 - Question 34
 https://www.examtopics.com/discussions/microsoft/view/415915-exam-ai-300-topic-3-question-34-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You use Azure Machine Learning to deploy a model as a real-time web service.
@@ -1062,10 +1122,22 @@ Which functions should you include in the script? To answer, drag the appropriat
 NOTE: Each correct selection is worth one point.
 
 ======================================================================
+Topic 3 - Question 35
+https://www.examtopics.com/discussions/microsoft/view/415916-exam-ai-300-topic-3-question-35-discussion/
+======================================================================
+HOTSPOT
+-
+A regression model is deployed to a production online endpoint and is actively serving predictions.
+Business stakeholders report that the model’s prediction quality has changed.
+The endpoint remains available and responsive.
+You need to determine which metric to examine to validate each quality concern.
+Which metric should you review for each concern? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
 Topic 3 - Question 36
 https://www.examtopics.com/discussions/microsoft/view/415917-exam-ai-300-topic-3-question-36-discussion/
 ======================================================================
-
 You are training machine learning models in Azure Machine Learning. You use Hyperdrive to tune the hyperparameters.
 In previous model training and tuning runs, many models showed similar performance.
 You need to select an early termination policy that meets the following requirements:
@@ -1082,10 +1154,25 @@ D. Truncation selection
 Suggested Answer (community most voted): CD
 
 ======================================================================
+Topic 3 - Question 37
+https://www.examtopics.com/discussions/microsoft/view/415918-exam-ai-300-topic-3-question-37-discussion/
+======================================================================
+You have an Azure subscription named Sub1 that contains an Azure Machine Learning workspace named Workspace1. Workspace1 contains the following assets:
+•	a registered MLflow model named Model1
+•	an online endpoint named Endpoint1
+Outbound network connectivity from Endpoint1 is blocked.
+You need to deploy Model1 to Endpoint1.
+What should you do first?
+
+A. In Sub1, create an Azure Machine Learning registry.
+B. In Workspace1, create a linked service.
+C. In Workspace1, create a package.
+D. In Sub1, create a private endpoint.
+
+======================================================================
 Topic 3 - Question 38
 https://www.examtopics.com/discussions/microsoft/view/415919-exam-ai-300-topic-3-question-38-discussion/
 ======================================================================
-
 DRAG DROP
 -
 A data science team trains a model that depends on features that are stored in a managed feature store.
@@ -1099,10 +1186,233 @@ Which feature store entity should you select for each requirement? To answer, mo
 NOTE: Each correct selection is worth one point.
 
 ======================================================================
+Topic 3 - Question 39
+https://www.examtopics.com/discussions/microsoft/view/420693-exam-ai-300-topic-3-question-39-discussion/
+======================================================================
+Case Study -
+This is a case study. Case studies are not timed separately from other exam sections. You can use as much exam time as you would like to complete each case study. However, there might be additional case studies or other exam sections. Manage your time to ensure that you can complete all the exam sections in the time provided. Pay attention to the Exam Progress at the top of the screen so you have sufficient time to complete any exam sections that follow this case study.
+To answer the case study questions, you will need to reference information that is provided in the case. Case studies and associated questions might contain exhibits or other resources that provide more information about the scenario described in the case. Information provided in an individual question does not apply to the other questions in the case study.
+A Review Screen will appear at the end of this case study. From the Review Screen, you can review and change your answers before you move to the next exam section. After you leave this case study, you will NOT be able to return to it.
+To start the case study -
+To display the first question in this case study, select the "Next" button. To the left of the question, a menu provides links to information such as business requirements, the existing environment, and problem statements. Please read through all this information before answering any questions. When you are ready to answer a question, select the "Question" button to return to the question.
+Background -
+Fabrikam Inc. is a mid-sized healthcare analytics company that provides population health dashboards and predictive insights to regional hospital systems across the United States. Fabrikam Inc. customers rely on near real time analytics to monitor patient flow, staffing needs, and readmission risks. They use multiple traditional forecasting machine learning models for predictions.
+Fabrikam Inc. has an established Microsoft Azure footprint. The company uses Jupyter Notebooks that run on a local server as the primary development environment. The data science team is experiencing scalability, asset management and code management issues with the current development platform. Fabrikam Inc. plans to migrate to a cloud-based development environment to mitigate the issues.
+Additionally, the company plans to implement a Retrieval-Augmented Generation (RAG)-based chat application for client support. Leadership requires the application to be developed and deployed with a low operational risk.
+Current Environment -
+Fabrikam Inc. operates a single Azure subscription that has the following components:
+•	Azure Data Lake Storage Gen2 that contains de-identified clinical and operational datasets
+•	Azure AI Search indexing curated analytical documents and reference materials
+•	A small set of Python-based training scripts maintained by data scientists
+•	Azure OpenAI Service with deployed foundational models
+•	A Microsoft Foundry resource for building a RAG-based solution
+Evaluation data has manually defined expected responses.
+The current challenges faced by the data science team include the following:
+•	Model training jobs are run manually from notebooks.
+•	Experiment tracking is inconsistent
+•	Model versions are registered without standardized metadata.
+•	Deployment is performed manually by data scientists, with limited rollback capability.
+•	The team has no standardized evaluation process for generative AI outputs.
+The environment currently allows public network access. Authentication relies on user accounts rather than managed identities. Compute targets are manually created and shared across experiments. This has led to resource contention during peak usage.
+Business Requirements -
+Fabrikam Inc. has the following business requirements for the modernization initiative:
+•	Provide a conversational interface that answers analytics questions by using internal documents and datasets.
+•	Ensure that sensitive healthcare-related data is not exposed outside the Fabrikam Inc. Azure tenant.
+•	Enable repeatable and auditable model training and deployment processes.
+•	Support experimentation to compare prompt strategies and fine-tuned models.
+•	Align the model with the ranked preferences and optimize behavior for the long term.
+•	Minimize disruption to existing analytics workloads during rollout.
+Technical Requirements -
+To support the business goals, Fabrikam Inc. identifies these technical requirements:
+•	Use Azure Machine Learning workspaces to centrally manage data assets, models, and environments.
+•	Implement experiment tracking and model versioning for all training jobs.
+•	Orchestrate training and evaluation by using pipelines rather than manually running notebooks.
+•	Deploy traditional machine learning models with support for staged rollout and rollback.
+•	Improve RAG-based solution output quality.
+•	Use the existing evaluation datasets that are based on real data with input-output pairs.
+•	Apply advanced fine-tuning techniques only when prompt engineering is insufficient
+Issues and Constraints -
+Fabrikam Inc. must comply with internal security policies that require the company to restrict network access and avoid long-lived secrets. The data science team has limited Azure DevOps experience, so solutions must favor managed services and automation over custom infrastructure.
+Cost predictability is important. Leadership prefers serverless or managed compute options where possible but is willing to approve dedicated compute for stable production workloads.
+Problem Statement -
+Fabrikam Inc. must design and implement an Azure-based AI operations solution that enables reliable training, evaluation, deployment, and iteration of generative AI models. The solution must support experimentation and gradual rollout while ensuring governance, security, and operational stability. The data science and platform teams must collaborate to deliver this solution by using Azure Machine Learning and Microsoft Foundry capabilities.
+You need to make model training repeatable and auditable to address Fabrikam Inc.'s current environment challenges and technical requirements.
+What should you use?
+
+A. Workflow automation by using Azure Logic Apps
+B. Training pipelines in Azure Machine Learning
+C. Serverless execution by using Azure Functions
+D. Scheduled notebook runs by using Azure Machine Learning jobs
+
+======================================================================
+Topic 3 - Question 40
+https://www.examtopics.com/discussions/microsoft/view/420694-exam-ai-300-topic-3-question-40-discussion/
+======================================================================
+You run Azure Machine Learning training experiments. The training scripts directory contains 100 files that includes a file named .amlignore. The directory also contains subdirectories named ./outputs and ./logs.
+There are 20 files in the training scripts directory that must be excluded from the snapshot to the compute targets. You create a file named .gitignore in the root of the directory. You add the names of the 20 files to the .gitignore file. These 20 files continue to be copied to the compute targets.
+You need to exclude the 20 files.
+What should you do?
+
+A. Move the file named .gitignore to the ./logs directory.
+B. Move the file named .gitignore to the ./outputs directory.
+C. Add the contents of the file named .amlignore to the file named .gitignore.
+D. Copy the contents of the file named .gitignore to the file named .amlignore.
+
+======================================================================
+Topic 3 - Question 41
+https://www.examtopics.com/discussions/microsoft/view/420695-exam-ai-300-topic-3-question-41-discussion/
+======================================================================
+HOTSPOT
+-
+You have an Azure Machine Learning workspace named Workspace1.
+You plan to train an image classification model by using Automated ML in Workspace1.
+You need to complete the provided Azure Machine Learning Python SDK v2 code to bring labeled image data as input for model training.
+How should you complete the code? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 3 - Question 42
+https://www.examtopics.com/discussions/microsoft/view/420696-exam-ai-300-topic-3-question-42-discussion/
+======================================================================
+HOTSPOT
+-
+You create an Azure Machine Learning workspace and install the MLflow library.
+You need to log different types of data by using the MLflow library.
+Which method should you use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 3 - Question 43
+https://www.examtopics.com/discussions/microsoft/view/420697-exam-ai-300-topic-3-question-43-discussion/
+======================================================================
+HOTSPOT
+-
+You have an Azure Machine Learning workspace.
+You plan to use Azure Machine Learning Python SDK v2 to define a pipeline component that trains an image classification model. The execution logic of the component is contained in the
+train() function in the file named model_train.py.
+You write code to import all required libraries and store it as train_component.py in the same folder that contains model_train.py.
+You need to complete the remaining code in train_component.py.
+How should you complete the code? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 3 - Question 44
+https://www.examtopics.com/discussions/microsoft/view/420698-exam-ai-300-topic-3-question-44-discussion/
+======================================================================
+HOTSPOT
+-
+You monitor an Azure Machine Learning classification training experiment named train_classification on Azure Notebooks.
+You must store a table named table as an artifact in Azure Machine Learning Studio during model training.
+You need to collect and list the metrics by using MLflow.
+How should you complete the code segment? To answer, select the appropriate option in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 3 - Question 45
+https://www.examtopics.com/discussions/microsoft/view/420699-exam-ai-300-topic-3-question-45-discussion/
+======================================================================
+A data science team registers an MLflow model in Azure Machine Learning.
+The model must support low latency predictions and automatically scale based on incoming request volume.
+You need to deploy the model.
+Which deployment option should you use?
+
+A. Batch endpoint
+B. Managed online endpoint
+C. Server less endpoint
+D. Azure OpenAI endpoint
+
+======================================================================
+Topic 3 - Question 46
+https://www.examtopics.com/discussions/microsoft/view/420700-exam-ai-300-topic-3-question-46-discussion/
+======================================================================
+You manage an Azure Machine Learning workspace. You build a model for which you must configure a Responsible Al dashboard.
+Based on what you learn from the dashboard, you must perform the following activities:
+•	Determine what must be done to get a desirable outcome from the model.
+•	Identify the features that have the most direct effect on your outcome of interest.
+You need to select the components to use for the Responsible Al dashboard configuration.
+Which two components should you add? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+
+A. counterfactuals
+B. error analysis
+C. causal
+D. explanation
+
+======================================================================
+Topic 3 - Question 47
+https://www.examtopics.com/discussions/microsoft/view/420701-exam-ai-300-topic-3-question-47-discussion/
+======================================================================
+HOTSPOT
+-
+You are using hyperparameter tuning in Azure Machine Learning Python SDK v2 to train a model.
+You configure the hyperparameter tuning experiment by running the following code:
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 3 - Question 48
+https://www.examtopics.com/discussions/microsoft/view/420702-exam-ai-300-topic-3-question-48-discussion/
+======================================================================
+DRAG DROP
+-
+A team is deploying a new version of a customer scoring model to a production online endpoint in Azure Machine Learning.
+The team must minimize risk by gradually introducing the new model version and ensuring that traffic can be reverted immediately if issues occur.
+You need to roll out the new model according to the requirements.
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+
+======================================================================
+Topic 3 - Question 49
+https://www.examtopics.com/discussions/microsoft/view/420703-exam-ai-300-topic-3-question-49-discussion/
+======================================================================
+DRAG DROP
+-
+You manage an Azure Machine Learning workspace. You train a model named model1.
+You must identify the features to modify for a differing model prediction result.
+You need to configure the Responsible AI (RAI) dashboard for model1.
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+
+======================================================================
+Topic 3 - Question 50
+https://www.examtopics.com/discussions/microsoft/view/420704-exam-ai-300-topic-3-question-50-discussion/
+======================================================================
+DRAG DROP
+-
+You are fine-tuning an LLM base model by using Microsoft Foundry. You have a labeled dataset of customer emails.
+You need to improve task-specific prediction accuracy so that the model can be tested and deployed later.
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+
+======================================================================
+Topic 3 - Question 51
+https://www.examtopics.com/discussions/microsoft/view/420705-exam-ai-300-topic-3-question-51-discussion/
+======================================================================
+A data science team plans to evaluate multiple hyperparameter values automatically while training a model in Azure Machine Learning.
+The tuning process must run multiple training trials without manually modifying the training script for each run.
+You need to automate hyperparameter tuning for the training job.
+What should you do?
+
+A. Manually change hyperparameter values between training runs.
+B. Create a tuning job that runs multiple trials with different parameter values.
+C. Duplicate the training script for each parameter combination.
+D. Adjust hyperparameters after model deployment.
+
+======================================================================
+Topic 3 - Question 52
+https://www.examtopics.com/discussions/microsoft/view/420706-exam-ai-300-topic-3-question-52-discussion/
+======================================================================
+You create a workspace by using Azure Machine Learning Studio.
+You must run a Python SDK v2 notebook in the workspace by using Azure Machine Learning Studio. You must preserve the current values of variables set in the notebook for the current instance.
+You need to maintain the state of the notebook.
+What should you do?
+
+A. Change the compute.
+B. Change the current kernel.
+C. Stop the current kernel.
+D. Stop the compute.
+
+======================================================================
 Topic 4 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/404575-exam-ai-300-topic-4-question-1-discussion/
 ======================================================================
-
 DRAG DROP -
 A team runs training jobs by using multiple Azure Machine Learning pipelines.
 The team must ensure that all runs use the same Python packages and system libraries. The solution must allow dependency updates to be versioned without modifying training code.
@@ -1113,7 +1423,6 @@ Which four actions should you perform in sequence? To answer, move the appropria
 Topic 4 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/404576-exam-ai-300-topic-4-question-2-discussion/
 ======================================================================
-
 DRAG DROP -
 A company is standardizing generative AI development across multiple teams.
 Each team requires an isolated workspace. Governance and shared connections must be centrally managed.
@@ -1125,7 +1434,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/404577-exam-ai-300-topic-4-question-3-discussion/
 ======================================================================
-
 A financial services company is deploying Microsoft Foundry to host generative AI workloads that process regulated customer data. The Microsoft Foundry environment must prevent any public network exposure while still allowing services managed by Microsoft Foundry to communicate with dependent Azure resources.
 Security auditors require that all traffic to and from the Microsoft Foundry resource remain on private networks, with no public endpoints available.
 You need to configure the Microsoft Foundry environment so that network access is restricted while maintaining full platform functionality.
@@ -1144,7 +1452,6 @@ Suggested Answer (community most voted): AD
 Topic 4 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/404578-exam-ai-300-topic-4-question-4-discussion/
 ======================================================================
-
 DRAG DROP -
 An organization uses Microsoft Foundry to develop generative AI projects that access shared Azure resources such as storage accounts and vector databases.
 The organization s security policy requires eliminating secret key-based authentication and enforcing least-privilege access.
@@ -1159,7 +1466,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/404579-exam-ai-300-topic-4-question-5-discussion/
 ======================================================================
-
 DRAG DROP -
 A company plans to deploy a foundation model in Microsoft Foundry.
 The mode must support the following workloads:
@@ -1173,7 +1479,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 6
 https://www.examtopics.com/discussions/microsoft/view/404580-exam-ai-300-topic-4-question-6-discussion/
 ======================================================================
-
 DRAG DROP -
 A team manages prompts that are used by a generative AI application built on Microsoft Foundry. Multiple developers contribute prompt updates, and changes must be reviewed and tracked over time.
 The team requires that:
@@ -1188,7 +1493,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 7
 https://www.examtopics.com/discussions/microsoft/view/404607-exam-ai-300-topic-4-question-7-discussion/
 ======================================================================
-
 A team develops multiple AI applications in Microsoft Foundry that rely on shared prompt templates.
 The team requires a centralized way to track, version, and reuse prompt content across projects.
 You need to recommend a solution to track and reuse prompt content.
@@ -1205,7 +1509,6 @@ Suggested Answer (community most voted): A
 Topic 4 - Question 8
 https://www.examtopics.com/discussions/microsoft/view/404608-exam-ai-300-topic-4-question-8-discussion/
 ======================================================================
-
 A team plans to deploy a large foundation model in Microsoft Foundry as part of a new enterprise AI capability.
 Different business units across the team's organization will access the model from various internal applications.
 You need to deploy a foundation model by minimizing latency.
@@ -1220,7 +1523,6 @@ D. Global Batch
 Topic 4 - Question 9
 https://www.examtopics.com/discussions/microsoft/view/404609-exam-ai-300-topic-4-question-9-discussion/
 ======================================================================
-
 A company's platform engineers manage the resource settings and governance of Microsoft Foundry.
 Developers must be able to create and update project assets but must not be able to change resource-level configurations.
 You need to enforce least privilege access for the engineers and developers.
@@ -1238,7 +1540,6 @@ Suggested Answer (community most voted): AC
 Topic 4 - Question 10
 https://www.examtopics.com/discussions/microsoft/view/404610-exam-ai-300-topic-4-question-10-discussion/
 ======================================================================
-
 You have a Microsoft Foundry project.
 You plan to use the Microsoft Foundry portal to fine-tune a base Azure OpenAI Service model that can accept both text and images as input.
 You need to choose the suitable model.
@@ -1255,7 +1556,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 11
 https://www.examtopics.com/discussions/microsoft/view/404611-exam-ai-300-topic-4-question-11-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear on the review screen.
 You work in Microsoft Foundry with a prompt flow.
@@ -1273,7 +1573,6 @@ Suggested Answer (community most voted): A
 Topic 4 - Question 12
 https://www.examtopics.com/discussions/microsoft/view/404612-exam-ai-300-topic-4-question-12-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear on the review screen.
 You work in Microsoft Foundry with a prompt flow.
@@ -1291,7 +1590,6 @@ Suggested Answer (community most voted): A
 Topic 4 - Question 13
 https://www.examtopics.com/discussions/microsoft/view/404613-exam-ai-300-topic-4-question-13-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear on the review screen.
 You work in Microsoft Foundry with a prompt flow.
@@ -1309,7 +1607,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 14
 https://www.examtopics.com/discussions/microsoft/view/416072-exam-ai-300-topic-4-question-14-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You work in Microsoft Foundry with a prompt flow.
@@ -1327,7 +1624,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 15
 https://www.examtopics.com/discussions/microsoft/view/416073-exam-ai-300-topic-4-question-15-discussion/
 ======================================================================
-
 A product team is building a customer support assistant that must respond consistently across multiple channels.
 Early testing shows that small wording changes in prompts cause large differences in tone and factual accuracy.
 The team needs prompts that are reliable, reusable, and adaptable across multiple use cases without retraining the underlying model.
@@ -1347,7 +1643,6 @@ Suggested Answer (community most voted): BC
 Topic 4 - Question 16
 https://www.examtopics.com/discussions/microsoft/view/416074-exam-ai-300-topic-4-question-16-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You develop a Prompt flow in Microsoft Foundry project.
@@ -1357,10 +1652,21 @@ Which tools should you use? To answer, move the appropriate tools to the correct
 NOTE: Each correct selection is worth one point.
 
 ======================================================================
+Topic 4 - Question 17
+https://www.examtopics.com/discussions/microsoft/view/416075-exam-ai-300-topic-4-question-17-discussion/
+======================================================================
+DRAG DROP
+-
+An organization is adopting Microsoft Foundry to support multiple generative AI projects across different teams. Microsoft Foundry platform administrators require centralized governance. Development teams need isolated environments for experimentation and deployment.
+Shared policies must be enforced consistently while allowing teams to work independently.
+You need to configure the Microsoft Foundry environment to meet the requirements.
+Which Microsoft Foundry components should you configure? To answer, move the appropriate configurations to the correct responsibilities. You may use each configuration once, more than once, or not at all. You may need to move the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
 Topic 4 - Question 18
 https://www.examtopics.com/discussions/microsoft/view/416076-exam-ai-300-topic-4-question-18-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Microsoft Foundry project with a connected Azure OpenAI Service model.
@@ -1373,7 +1679,6 @@ Which four actions should you perform in sequence? To answer, move the appropria
 Topic 4 - Question 19
 https://www.examtopics.com/discussions/microsoft/view/416077-exam-ai-300-topic-4-question-19-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You complete the fine-tuning of a generative model in Microsoft Foundry. The fine-tuned model now appears as a new model variant in your development environment.
@@ -1382,10 +1687,98 @@ You need to promote the fine-tuned model from development to production.
 Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 
 ======================================================================
+Topic 4 - Question 20
+https://www.examtopics.com/discussions/microsoft/view/420707-exam-ai-300-topic-4-question-20-discussion/
+======================================================================
+HOTSPOT
+-
+A team is standardizing MLOps practices by using automated deployments.
+The team requires infrastructure to be defined declaratively and deployed through automation pipelines.
+You need to configure infrastructure deployment.
+What should you configure for each requirement? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 4 - Question 21
+https://www.examtopics.com/discussions/microsoft/view/420708-exam-ai-300-topic-4-question-21-discussion/
+======================================================================
+HOTSPOT
+-
+You manage an Azure Machine Learning workspace named workspace1.
+You must register an Azure Blob storage datastore in workspace1 by using an access key. You develop Python SDK v2 code to import all modules required to register the datastore.
+You need to complete the Python SDK v2 code to define the datastore.
+How should you complete the code? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 4 - Question 22
+https://www.examtopics.com/discussions/microsoft/view/420709-exam-ai-300-topic-4-question-22-discussion/
+======================================================================
+HOTSPOT
+-
+You have an Azure Machine Learning workspace and a collection of image files stored in two Azure Blob Storage accounts.
+You need to configure data asset properties.
+Which values should you use in your configuration? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 4 - Question 23
+https://www.examtopics.com/discussions/microsoft/view/420710-exam-ai-300-topic-4-question-23-discussion/
+======================================================================
+You are designing a new machine learning solution to predict customer churn by using Azure Machine Learning. You have raw data in CSV format stored in Azure Data Lake.
+You need to design the solution so that it can efficiently handle large-scale model training and iterative development.
+Which two actions should you perform? Each correct answer presents part of the solution. Choose two.
+NOTE: Each correct selection is worth one point.
+
+A. Convert the data into the JSONL format and upload into Blob Storage.
+B. Schedule training using an Azure Data Factory pipeline.
+C. Configure an Azure Machine Learning compute cluster for model training.
+D. Register the data as a tabular dataset in the Azure Machine Learning workspace.
+E. Configure an Azure Machine Learning compute instance for model training.
+
+======================================================================
+Topic 4 - Question 24
+https://www.examtopics.com/discussions/microsoft/view/420711-exam-ai-300-topic-4-question-24-discussion/
+======================================================================
+A team manages prompts used by a generative AI application built on Microsoft Foundry. Prompt updates are frequent, and prior changes have caused unexpected behavior in production.
+The team requires that new prompt versions can be tested and reviewed without affecting production behavior.
+You need to implement a source control practice that allows safe prompt experimentation.
+What should you do?
+
+A. Create a GitHub Action workflow.
+B. Revert the prompt in the production environment to a previous commit.
+C. Create a feature git branch for each prompt change.
+
+======================================================================
+Topic 4 - Question 25
+https://www.examtopics.com/discussions/microsoft/view/420712-exam-ai-300-topic-4-question-25-discussion/
+======================================================================
+HOTSPOT
+-
+You manage a Microsoft Foundry project.
+You are developing a solution to generate content based on text and images. The solution requires the ability to manage high-volume processing and avoid disruptions to the online workloads.
+You need to deploy the solution.
+Which deployment type and large language model (LLM) should you use? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 4 - Question 26
+https://www.examtopics.com/discussions/microsoft/view/420713-exam-ai-300-topic-4-question-26-discussion/
+======================================================================
+DRAG DROP
+-
+You develop a flow for a Microsoft Foundry project.
+You plan to use outputs generated by running the flow to determine the following information:
+•	the number of tokens used by each large language model (LLM) node of the flow
+•	the accuracy of the model used by the flow
+You need to examine the output that provides the required information.
+Which output type should you examine? To answer, move the appropriate output types to the correct evaluations. You may use each output type once, more than once, or not at all. You may need to move the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
 Topic 5 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/404614-exam-ai-300-topic-5-question-1-discussion/
 ======================================================================
-
 DRAG DROP -
 A team iterates prompts used by a generative AI agent. The team must support internal review before releasing changes.
 The team must:
@@ -1399,7 +1792,6 @@ NOTE: Each correct selection is worth one point.
 Topic 5 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/404615-exam-ai-300-topic-5-question-2-discussion/
 ======================================================================
-
 DRAG DROP -
 A team deploys a generative AI application that uses a model deployed in Microsoft Foundry. The application must support latency monitoring under production load.
 You need to enable performance observability.
@@ -1409,7 +1801,6 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Topic 5 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/404616-exam-ai-300-topic-5-question-3-discussion/
 ======================================================================
-
 A team is developing a generative AI assistant. The team is experimenting with multiple prompt variants to improve the user experience.
 When comparing prompt variants, the team plans to assess whether the generated responses are grammatically correct.
 You need to evaluate the quality of the language from the generated responses.
@@ -1426,7 +1817,6 @@ Suggested Answer (community most voted): D
 Topic 5 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/404617-exam-ai-300-topic-5-question-4-discussion/
 ======================================================================
-
 You manage a Microsoft Foundry project. You build a multi-turn chatbot application.
 You plan to filter your traces to identify issues while observing how the application is responding. The solution must not use an external knowledge base.
 You need to select an evaluation metric.
@@ -1443,7 +1833,6 @@ Suggested Answer (community most voted): D
 Topic 5 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/404618-exam-ai-300-topic-5-question-5-discussion/
 ======================================================================
-
 DRAG DROP -
 An organization operates a generative AI application in production by using Microsoft Foundry. The application serves live user traffic and is updated by a data scientist team regularly as prompts and models evolve.
 The application intermittently times out during production use, which requires ongoing visibility into runtime behavior.
@@ -1456,7 +1845,6 @@ NOTE: Each correct selection is worth one point.
 Topic 5 - Question 6
 https://www.examtopics.com/discussions/microsoft/view/404619-exam-ai-300-topic-5-question-6-discussion/
 ======================================================================
-
 An organization validates generative AI applications during CI/CD Microsoft Foundry.
 Evaluation must run automatically and block releases when quality thresholds are NOT met. Manual evaluation is no longer acceptable.
 Evaluation must use both predefined quality metrics and custom safety checks.
@@ -1474,7 +1862,6 @@ Suggested Answer (community most voted): D
 Topic 5 - Question 7
 https://www.examtopics.com/discussions/microsoft/view/404620-exam-ai-300-topic-5-question-7-discussion/
 ======================================================================
-
 A team develops and manages a conversational assistant by using Microsoft Foundry.
 The team must be able to validate that the assistant does not produce hateful responses before the application is exposed to any users.
 You need to evaluate the model output for hateful responses as part of a repeatable validation process.
@@ -1488,10 +1875,36 @@ D. Content safety
 Suggested Answer (community most voted): D
 
 ======================================================================
+Topic 5 - Question 8
+https://www.examtopics.com/discussions/microsoft/view/416078-exam-ai-300-topic-5-question-8-discussion/
+======================================================================
+HOTSPOT
+-
+You manage a Microsoft Foundry project.
+You plan to build a RAG solution.
+The solution must include two models:
+•	One for text output, named Model1. This model must resemble human language and read naturally.
+•	One for creating embeddings, named Model2. This model must maximize the retrieval of relevant results (high recall) while minimizing irrelevant or incorrect matches (high precision).
+You need to compare different models by using benchmarking metrics to select the appropriate models for Model1 and Model2.
+Which benchmarking metric should you select for each model? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 5 - Question 9
+https://www.examtopics.com/discussions/microsoft/view/416079-exam-ai-300-topic-5-question-9-discussion/
+======================================================================
+HOTSPOT
+-
+A team is provisioning a new Azure Machine Learning workspace for a production project.
+The workspace must support secure secret storage and operational monitoring. The team requires the workspace to be created with the correct dependent resources to meet security and monitoring requirements.
+You need to configure the required dependencies when the team creates the workspace.
+Which resources should you associate with the workspace? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
 Topic 5 - Question 10
 https://www.examtopics.com/discussions/microsoft/view/416080-exam-ai-300-topic-5-question-10-discussion/
 ======================================================================
-
 DRAG DROP
 -
 A team validates a generative AI application that produces free-form text responses by using Microsoft Foundry SDK.
@@ -1500,10 +1913,72 @@ You need to configure a safety evaluation pipeline that reliably evaluates model
 Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 
 ======================================================================
+Topic 5 - Question 11
+https://www.examtopics.com/discussions/microsoft/view/420714-exam-ai-300-topic-5-question-11-discussion/
+======================================================================
+HOTSPOT
+-
+A team retrains a machine learning model on a weekly basis by using updated training data.
+The team must be able to rerun any previous experiment by using the exact data that was available at the time it was originally run. The solution must preserve historical versions of the data without duplicating training scripts.
+You need to manage the data so that experiments can be reproduced reliably.
+Which workspace actions should you perform? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 5 - Question 12
+https://www.examtopics.com/discussions/microsoft/view/420715-exam-ai-300-topic-5-question-12-discussion/
+======================================================================
+HOTSPOT
+-
+You have an Azure Machine Learning workspace.
+You plan to set up logging and tracking experiments by using MLflow Tracking.
+You need to log the accuracy as a numerical value and the training loss as a plot.
+How should you complete the commands? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 5 - Question 13
+https://www.examtopics.com/discussions/microsoft/view/420716-exam-ai-300-topic-5-question-13-discussion/
+======================================================================
+An organization runs a customer-facing generative AI application built by using Microsoft Foundry. The application uses multiple prompts linked to multiple workflows to generate responses in production.
+The application occasionally returns incomplete responses. The model call succeeds, but the final message sometimes stops early.
+The issue cannot be reproduced reliably in development.
+You need to identify where and why response generation is terminating early in production.
+Which approach should you use?
+
+A. Run a pre-release evaluation workflow to score groundedness and relevance on a test dataset.
+B. Enable tracing and logging so that each workflow can be inspected.
+C. Increase max_tokens and temperature to reduce the chance of early termination.
+D. Replace the deployed model with a smaller model to reduce variability across responses.
+
+======================================================================
+Topic 5 - Question 14
+https://www.examtopics.com/discussions/microsoft/view/420717-exam-ai-300-topic-5-question-14-discussion/
+======================================================================
+HOTSPOT
+-
+A team deploys a generative AI application built by using Microsoft Foundry to production and receives variable traffic throughout the day.
+The team requires uninterrupted insight into the application s health and model behavior to detect issues without relying on manual inspection.
+You need to select the monitoring capabilities that provide real-time operational visibility into the application.
+Which monitoring capability should you use for each requirement? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 5 - Question 15
+https://www.examtopics.com/discussions/microsoft/view/420718-exam-ai-300-topic-5-question-15-discussion/
+======================================================================
+HOTSPOT
+-
+A team is preparing a generative AI application for production deployment. The application generates structured responses that must be evaluated for quality before each release.
+The organization requires repeatable evaluation results that can be compared across builds and environments.
+You need to configure evaluation inputs so quality metrics can be reliably calculated across test runs.
+How should you prepare the evaluation inputs? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
 Topic 5 - Question 16
 https://www.examtopics.com/discussions/microsoft/view/420719-exam-ai-300-topic-5-question-16-discussion/
 ======================================================================
-
 You create an Azure Machine Learning workspace.
 You must use the Python SDK v2 to implement an experiment from a Jupyter notebook in the workspace. The experiment must log a list of numerical metrics.
 You need to implement a method to log a list of numerical metrics.
@@ -1520,7 +1995,6 @@ Suggested Answer (community most voted): A
 Topic 6 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/404621-exam-ai-300-topic-6-question-1-discussion/
 ======================================================================
-
 An organization is deploying several generative AI workloads by using Microsoft Foundry. Each workload must meet different requirements related to data governance, task specialization, and operational cost control.
 The organization requires models that meet the following requirements:
 Model behavior aligns with the task being performed.
@@ -1542,7 +2016,6 @@ Suggested Answer (community most voted): ADE
 Topic 6 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/404622-exam-ai-300-topic-6-question-2-discussion/
 ======================================================================
-
 HOTSPOT -
 A team is building a generative AI agent by using Retrieval-Augmented Generation (RAG) in Microsoft Foundry.
 The team frequently updates prompt content. The team must be able to track changes across contributors while avoiding full application redeployments.
@@ -1554,7 +2027,6 @@ NOTE: Each correct selection is worth one point.
 Topic 6 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/404623-exam-ai-300-topic-6-question-3-discussion/
 ======================================================================
-
 HOTSPOT -
 A company is creating an internal tool that summarizes long meeting transcripts and extracts action items.
 The model must:
@@ -1569,7 +2041,6 @@ NOTE: Each correct selection is worth one point.
 Topic 6 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/404624-exam-ai-300-topic-6-question-4-discussion/
 ======================================================================
-
 HOTSPOT -
 You manage a Retrieval-Augmented Generation (RAG) system that retrieves internal policy documents from a vector index.
 Recent analysis shows that:
@@ -1583,7 +2054,6 @@ NOTE: Each correct selection is worth one point.
 Topic 6 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/404625-exam-ai-300-topic-6-question-5-discussion/
 ======================================================================
-
 HOTSPOT -
 You are reviewing a dataset that will be used for an advanced fine-tuning job in Microsoft Foundry.
 The fine-tuning job uses preference comparison data.
@@ -1595,7 +2065,6 @@ NOTE: Each correct selection is worth one point.
 Topic 6 - Question 6
 https://www.examtopics.com/discussions/microsoft/view/404626-exam-ai-300-topic-6-question-6-discussion/
 ======================================================================
-
 HOTSPOT -
 You manage a Retrieval-Augmented Generation (RAG) system that uses Azure AI Search to retrieve documents from an indexed knowledge base.
 The system must support the following retrieval requirements:
@@ -1609,7 +2078,6 @@ NOTE: Each correct selection is worth one point.
 Topic 6 - Question 7
 https://www.examtopics.com/discussions/microsoft/view/404627-exam-ai-300-topic-6-question-7-discussion/
 ======================================================================
-
 A Retrieval-Augmented Generation (RAG) solution returns incomplete answers because relevant content is inconsistently retrieved from the knowledge source.
 You need to improve RAG accuracy without changing the embedding model currently in use. You need to achieve this goal while minimizing operational costs.
 Which two actions should you perform? Each correct answer presents part of the solution. Choose two.
@@ -1626,7 +2094,6 @@ Suggested Answer (community most voted): AB
 Topic 6 - Question 8
 https://www.examtopics.com/discussions/microsoft/view/416081-exam-ai-300-topic-6-question-8-discussion/
 ======================================================================
-
 HOTSPOT
 -
 Case Study
@@ -1692,7 +2159,6 @@ NOTE: Each correct selection is worth one point.
 Topic 6 - Question 9
 https://www.examtopics.com/discussions/microsoft/view/416082-exam-ai-300-topic-6-question-9-discussion/
 ======================================================================
-
 Case Study -
 This is a case study. Case studies are not timed separately from other exam sections. You can use as much exam time as you would like to complete each case study. However, there might be additional case studies or other exam sections. Manage your time to ensure that you can complete all the exam sections in the time provided. Pay attention to the Exam Progress at the top of the screen so you have sufficient time to complete any exam sections that follow this case study.
 To answer the case study questions, you will need to reference information that is provided in the case. Case studies and associated questions might contain exhibits or other resources that provide more information about the scenario described in the case. Information provided in an individual question does not apply to the other questions in the case study.
@@ -1754,7 +2220,6 @@ Suggested Answer (community most voted): B
 Topic 6 - Question 10
 https://www.examtopics.com/discussions/microsoft/view/416083-exam-ai-300-topic-6-question-10-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You manage a Microsoft Foundry project.
@@ -1770,7 +2235,6 @@ NOTE: Each correct selection is worth one point.
 Topic 6 - Question 11
 https://www.examtopics.com/discussions/microsoft/view/416084-exam-ai-300-topic-6-question-11-discussion/
 ======================================================================
-
 A team is building a Retrieval-Augmented Generation (RAG) system.
 The team observes that the retrieved documents are often irrelevant or incomplete.
 You need to improve retrieval accuracy.
@@ -1787,7 +2251,6 @@ Suggested Answer (community most voted): D
 Topic 6 - Question 12
 https://www.examtopics.com/discussions/microsoft/view/416085-exam-ai-300-topic-6-question-12-discussion/
 ======================================================================
-
 You are preparing training data for a fine-tuning job in Microsoft Foundry.
 Real production conversations cannot be used due to compliance requirements.
 You need to generate synthetic interaction data that can be used for fine-tuning a generative model.
@@ -1801,10 +2264,106 @@ D. Run a simulator to produce telemetry logs and trace data from user interactio
 Suggested Answer (community most voted): B
 
 ======================================================================
+Topic 6 - Question 13
+https://www.examtopics.com/discussions/microsoft/view/416086-exam-ai-300-topic-6-question-13-discussion/
+======================================================================
+DRAG DROP
+-
+A team is developing a generative AI assistant. The team is experimenting with two prompt variants to improve performance before rolling out changes to production.
+The team observes the following prompt results:
+•	PromptA variant generates longer responses and may be more expensive to operate.
+•	PromptB may produce lower-quality answers.
+The team must control operating costs while still selecting the better-performing prompt.
+You need to identify cost drivers and compare the output quality of the two prompt variances to make an informed decision.
+Which actions should you perform? To answer, move the appropriate actions to the correct requirements. You may use each action once, more than once, or not at all. You may need to move the split bar between panes or scroll to view content.
+
+======================================================================
+Topic 6 - Question 14
+https://www.examtopics.com/discussions/microsoft/view/416087-exam-ai-300-topic-6-question-14-discussion/
+======================================================================
+DRAG DROP
+-
+A team deploys a machine learning model to production and monitors it continuously. Alerts are configured on performance and data quality metrics.
+Multiple alerts are triggered during normal operation.
+You need to perform the appropriate action for each model alert condition.
+Which action should you perform for each alert condition? To answer, move the appropriate actions to the correct model alert conditions. You may use each action once, more than once, or not at all. You may need to move the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+
+======================================================================
+Topic 6 - Question 15
+https://www.examtopics.com/discussions/microsoft/view/420720-exam-ai-300-topic-6-question-15-discussion/
+======================================================================
+Case Study -
+This is a case study. Case studies are not timed separately from other exam sections. You can use as much exam time as you would like to complete each case study. However, there might be additional case studies or other exam sections. Manage your time to ensure that you can complete all the exam sections in the time provided. Pay attention to the Exam Progress at the top of the screen so you have sufficient time to complete any exam sections that follow this case study.
+To answer the case study questions, you will need to reference information that is provided in the case. Case studies and associated questions might contain exhibits or other resources that provide more information about the scenario described in the case. Information provided in an individual question does not apply to the other questions in the case study.
+A Review Screen will appear at the end of this case study. From the Review Screen, you can review and change your answers before you move to the next exam section. After you leave this case study, you will NOT be able to return to it.
+To start the case study -
+To display the first question in this case study, select the "Next" button. To the left of the question, a menu provides links to information such as business requirements, the existing environment, and problem statements. Please read through all this information before answering any questions. When you are ready to answer a question, select the "Question" button to return to the question.
+Background -
+Fabrikam Inc. is a mid-sized healthcare analytics company that provides population health dashboards and predictive insights to regional hospital systems across the United States. Fabrikam Inc. customers rely on near real time analytics to monitor patient flow, staffing needs, and readmission risks. They use multiple traditional forecasting machine learning models for predictions.
+Fabrikam Inc. has an established Microsoft Azure footprint. The company uses Jupyter Notebooks that run on a local server as the primary development environment. The data science team is experiencing scalability, asset management and code management issues with the current development platform. Fabrikam Inc. plans to migrate to a cloud-based development environment to mitigate the issues.
+Additionally, the company plans to implement a Retrieval-Augmented Generation (RAG)-based chat application for client support. Leadership requires the application to be developed and deployed with a low operational risk.
+Current Environment -
+Fabrikam Inc. operates a single Azure subscription that has the following components:
+•	Azure Data Lake Storage Gen2 that contains de-identified clinical and operational datasets
+•	Azure AI Search indexing curated analytical documents and reference materials
+•	A small set of Python-based training scripts maintained by data scientists
+•	Azure OpenAI Service with deployed foundational models
+•	A Microsoft Foundry resource for building a RAG-based solution
+Evaluation data has manually defined expected responses.
+The current challenges faced by the data science team include the following:
+•	Model training jobs are run manually from notebooks.
+•	Experiment tracking is inconsistent
+•	Model versions are registered without standardized metadata.
+•	Deployment is performed manually by data scientists, with limited rollback capability.
+•	The team has no standardized evaluation process for generative AI outputs.
+The environment currently allows public network access. Authentication relies on user accounts rather than managed identities. Compute targets are manually created and shared across experiments. This has led to resource contention during peak usage.
+Business Requirements -
+Fabrikam Inc. has the following business requirements for the modernization initiative:
+•	Provide a conversational interface that answers analytics questions by using internal documents and datasets.
+•	Ensure that sensitive healthcare-related data is not exposed outside the Fabrikam Inc. Azure tenant.
+•	Enable repeatable and auditable model training and deployment processes.
+•	Support experimentation to compare prompt strategies and fine-tuned models.
+•	Align the model with the ranked preferences and optimize behavior for the long term.
+•	Minimize disruption to existing analytics workloads during rollout.
+Technical Requirements -
+To support the business goals, Fabrikam Inc. identifies these technical requirements:
+•	Use Azure Machine Learning workspaces to centrally manage data assets, models, and environments.
+•	Implement experiment tracking and model versioning for all training jobs.
+•	Orchestrate training and evaluation by using pipelines rather than manually running notebooks.
+•	Deploy traditional machine learning models with support for staged rollout and rollback.
+•	Improve RAG-based solution output quality.
+•	Use the existing evaluation datasets that are based on real data with input-output pairs.
+•	Apply advanced fine-tuning techniques only when prompt engineering is insufficient
+Issues and Constraints -
+Fabrikam Inc. must comply with internal security policies that require the company to restrict network access and avoid long-lived secrets. The data science team has limited Azure DevOps experience, so solutions must favor managed services and automation over custom infrastructure.
+Cost predictability is important. Leadership prefers serverless or managed compute options where possible but is willing to approve dedicated compute for stable production workloads.
+Problem Statement -
+Fabrikam Inc. must design and implement an Azure-based AI operations solution that enables reliable training, evaluation, deployment, and iteration of generative AI models. The solution must support experimentation and gradual rollout while ensuring governance, security, and operational stability. The data science and platform teams must collaborate to deliver this solution by using Azure Machine Learning and Microsoft Foundry capabilities.
+You need to refine a GPT-5 model so that its performance and behavior align with the technical and business requirements of Fabrikam Inc.
+Which two Foundry strategies should you apply? Each correct answer presents a complete solution. Choose two.
+NOTE: Each correct selection is worth one point.
+
+A. Supervised fine-tuning
+B. Evaluations
+C. Guardrails
+D. Synthetic data generation
+
+======================================================================
+Topic 6 - Question 16
+https://www.examtopics.com/discussions/microsoft/view/420721-exam-ai-300-topic-6-question-16-discussion/
+======================================================================
+DRAG DROP
+-
+You manage an Microsoft Foundry project.
+You deploy a large language model from the model catalog.
+You need to manually evaluate the model, collect the statistics, and be able to review the results later.
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+
+======================================================================
 Topic 6 - Question 17
 https://www.examtopics.com/discussions/microsoft/view/419531-exam-ai-300-topic-6-question-17-discussion/
 ======================================================================
-
 DRAG DROP
 -
 A team is developing a Retrieval-Augmented Generation (RAG) system.
@@ -1813,10 +2372,40 @@ You need to assess RAG performance before you can suggest an improvement strateg
 Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 
 ======================================================================
+Topic 6 - Question 18
+https://www.examtopics.com/discussions/microsoft/view/420722-exam-ai-300-topic-6-question-18-discussion/
+======================================================================
+You are implementing hyperparameter tuning by using Bayesian sampling for an Azure ML Python SDK v2-based model training from a notebook. The notebook is in an Azure Machine Learning workspace. The notebook uses a training script that runs on a compute cluster with 20 nodes.
+The code implements Bandit termination policy with slackjactor set to 0.2 and a sweep job with max_concurrent_trials set to 10.
+You must increase effectiveness of the tuning process by improving sampling convergence.
+You need to select which sampling convergence to use.
+What should you select?
+
+A. Set the value of max_concurrent_trials to 20.
+B. Set the value of slack_factor of early_termination policy to 0.9.
+C. Set the value of max_concurrent_trials to 4.
+D. Set the value of slack_factor of early_termination policy to 0.1.
+
+======================================================================
+Topic 6 - Question 19
+https://www.examtopics.com/discussions/microsoft/view/420723-exam-ai-300-topic-6-question-19-discussion/
+======================================================================
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear on the review screen.
+You manage a Retrieval-Augmented Generation (RAG) application built on Microsoft Foundry.
+The application retrieves documents from an indexed knowledge base and generates answers for internal users.
+Recent feedback indicates that answers are fluent but sometimes include information that is not supported by the documents that were retrieved.
+You need to evaluate whether a proposed change improves RAG answer quality by using supported and measurable techniques.
+Solution: Compare embedding vector dimensions used by the retrieval pipeline before and after the change.
+Does the solution meet the goal?
+
+A. Yes
+B. No
+
+======================================================================
 Topic 6 - Question 20
 https://www.examtopics.com/discussions/microsoft/view/420724-exam-ai-300-topic-6-question-20-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear on the review screen.
 You manage a Retrieval-Augmented Generation (RAG) application built on Microsoft Foundry.
@@ -1831,3 +2420,18 @@ B. No
 
 Suggested Answer (community most voted): B
 
+======================================================================
+Topic 6 - Question 21
+https://www.examtopics.com/discussions/microsoft/view/420725-exam-ai-300-topic-6-question-21-discussion/
+======================================================================
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear on the review screen.
+You manage a Retrieval-Augmented Generation (RAG) application built on Microsoft Foundry.
+The application retrieves documents from an indexed knowledge base and generates answers for internal users.
+Recent feedback indicates that answers are fluent but sometimes include information that is not supported by the documents that were retrieved.
+You need to evaluate whether a proposed change improves RAG answer quality by using supported and measurable techniques.
+Solution: Measure token throughput and average response latency before and after applying the proposed change.
+Does the solution meet the goal?
+
+A. Yes
+B. No

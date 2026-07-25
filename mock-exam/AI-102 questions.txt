@@ -1,11 +1,10 @@
-AI-102 - Extracted Questions (333 of 333)
+AI-102 - Extracted Questions (333)
 Source: ExamTopics question/discussion pages
 
 ======================================================================
 Topic 1 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/54103-exam-ai-102-topic-1-question-1-discussion/
 ======================================================================
-
 DRAG DROP -
 You have 100 chatbots that each has its own Language Understanding model.
 Frequently, you must add the same phrases to each model.
@@ -19,7 +18,6 @@ Select and Place:
 Topic 1 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/74339-exam-ai-102-topic-1-question-2-discussion/
 ======================================================================
-
 DRAG DROP -
 You plan to use a Language Understanding application named app1 that is deployed to a container.
 App1 was developed by using a Language Understanding authoring resource named lu1.
@@ -32,7 +30,6 @@ Select and Place:
 Topic 1 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/54105-exam-ai-102-topic-1-question-3-discussion/
 ======================================================================
-
 You need to build a chatbot that meets the following requirements:
 ✑ Supports chit-chat, knowledge base, and multilingual models
 ✑ Performs sentiment analysis on user messages
@@ -50,7 +47,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/76962-exam-ai-102-topic-1-question-4-discussion/
 ======================================================================
-
 Your company wants to reduce how long it takes for employees to log receipts in expense reports. All the receipts are in English.
 You need to extract top-level information from the receipts, such as the vendor and the transaction total. The solution must minimize development effort.
 Which Azure service should you use?
@@ -66,7 +62,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/54748-exam-ai-102-topic-1-question-5-discussion/
 ======================================================================
-
 HOTSPOT -
 You need to create a new resource that will be used to perform sentiment analysis and optical character recognition (OCR). The solution must meet the following requirements:
 ✑ Use a single key and endpoint to access multiple services.
@@ -80,7 +75,6 @@ Hot Area:
 Topic 1 - Question 6
 https://www.examtopics.com/discussions/microsoft/view/74870-exam-ai-102-topic-1-question-6-discussion/
 ======================================================================
-
 You are developing a new sales system that will process the video and text from a public-facing website.
 You plan to monitor the sales system to ensure that it provides equitable results regardless of the user's location or background.
 Which two responsible AI principles provide guidance to meet the monitoring requirements? Each correct answer presents part of the solution.
@@ -98,7 +92,6 @@ Suggested Answer (community most voted): BC
 Topic 1 - Question 7
 https://www.examtopics.com/discussions/microsoft/view/74867-exam-ai-102-topic-1-question-7-discussion/
 ======================================================================
-
 DRAG DROP -
 You plan to use containerized versions of the Anomaly Detector API on local devices for testing and in on-premises datacenters.
 You need to ensure that the containerized deployments meet the following requirements:
@@ -112,7 +105,6 @@ Select and Place:
 Topic 1 - Question 8
 https://www.examtopics.com/discussions/microsoft/view/54790-exam-ai-102-topic-1-question-8-discussion/
 ======================================================================
-
 HOTSPOT -
 You plan to deploy a containerized version of an Azure Cognitive Services service that will be used for text analysis.
 You configure https://contoso.cognitiveservices.azure.com as the endpoint URI for the service, and you pull the latest version of the Text Analytics
@@ -126,7 +118,6 @@ Hot Area:
 Topic 1 - Question 9
 https://www.examtopics.com/discussions/microsoft/view/57153-exam-ai-102-topic-1-question-9-discussion/
 ======================================================================
-
 You have the following C# method for creating Azure Cognitive Services resources programmatically.
 You need to call the method to create a free Azure resource in the West US Azure region. The resource will be used to generate captions of images automatically.
 Which code should you use?
@@ -142,7 +133,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 10
 https://www.examtopics.com/discussions/microsoft/view/54752-exam-ai-102-topic-1-question-10-discussion/
 ======================================================================
-
 You successfully run the following HTTP request.
 POST https://management.azure.com/subscriptions/18c51a87-3a69-47a8-aedc-a54745f708a1/resourceGroups/RG1/providers/
 Microsoft.CognitiveServices/accounts/contoso1/regenerateKey?api-version=2017-04-18
@@ -160,7 +150,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 11
 https://www.examtopics.com/discussions/microsoft/view/75686-exam-ai-102-topic-1-question-11-discussion/
 ======================================================================
-
 You build a custom Form Recognizer model.
 You receive sample files to use for training the model as shown in the following table.
 Which three files can you use to train the model? Each correct answer presents a complete solution.
@@ -179,7 +168,6 @@ Suggested Answer (community most voted): ACF
 Topic 1 - Question 12
 https://www.examtopics.com/discussions/microsoft/view/60024-exam-ai-102-topic-1-question-12-discussion/
 ======================================================================
-
 A customer uses Azure Cognitive Search.
 The customer plans to enable a server-side encryption and use customer-managed keys (CMK) stored in Azure.
 What are three implications of the planned change? Each correct answer presents a complete solution.
@@ -198,7 +186,6 @@ Suggested Answer (community most voted): ABF
 Topic 1 - Question 13
 https://www.examtopics.com/discussions/microsoft/view/60125-exam-ai-102-topic-1-question-13-discussion/
 ======================================================================
-
 You are developing a new sales system that will process the video and text from a public-facing website.
 You plan to notify users that their data has been processed by the sales system.
 Which responsible AI principle does this help meet?
@@ -214,7 +201,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 14
 https://www.examtopics.com/discussions/microsoft/view/60131-exam-ai-102-topic-1-question-14-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You create a web app named app1 that runs on an Azure virtual machine named vm1. Vm1 is on an Azure virtual network named vnet1.
@@ -232,7 +218,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 15
 https://www.examtopics.com/discussions/microsoft/view/61294-exam-ai-102-topic-1-question-15-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You create a web app named app1 that runs on an Azure virtual machine named vm1. Vm1 is on an Azure virtual network named vnet1.
@@ -250,7 +235,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 16
 https://www.examtopics.com/discussions/microsoft/view/62211-exam-ai-102-topic-1-question-16-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You create a web app named app1 that runs on an Azure virtual machine named vm1. Vm1 is on an Azure virtual network named vnet1.
@@ -268,7 +252,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 17
 https://www.examtopics.com/discussions/microsoft/view/75106-exam-ai-102-topic-1-question-17-discussion/
 ======================================================================
-
 You plan to perform predictive maintenance.
 You collect IoT sensor data from 100 industrial machines for a year. Each machine has 50 different sensors that generate data at one-minute intervals. In total, you have 5,000 time series datasets.
 You need to identify unusual values in each time series to help predict machinery failures.
@@ -285,7 +268,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 18
 https://www.examtopics.com/discussions/microsoft/view/62494-exam-ai-102-topic-1-question-18-discussion/
 ======================================================================
-
 HOTSPOT -
 You are developing a streaming Speech to Text solution that will use the Speech SDK and MP3 encoding.
 You need to develop a method to convert speech to text for streaming MP3 data.
@@ -297,7 +279,6 @@ Hot Area:
 Topic 1 - Question 19
 https://www.examtopics.com/discussions/microsoft/view/62493-exam-ai-102-topic-1-question-19-discussion/
 ======================================================================
-
 HOTSPOT -
 You are developing an internet-based training solution for remote learners.
 Your company identifies that during the training, some learners leave their desk for long periods or become distracted.
@@ -310,7 +291,6 @@ Hot Area:
 Topic 1 - Question 20
 https://www.examtopics.com/discussions/microsoft/view/61023-exam-ai-102-topic-1-question-20-discussion/
 ======================================================================
-
 You plan to provision a QnA Maker service in a new resource group named RG1.
 In RG1, you create an App Service plan named AP1.
 Which two Azure resources are automatically created in RG1 when you provision the QnA Maker service? Each correct answer presents part of the solution.
@@ -328,7 +308,6 @@ Suggested Answer (community most voted): DE
 Topic 1 - Question 21
 https://www.examtopics.com/discussions/microsoft/view/86971-exam-ai-102-topic-1-question-21-discussion/
 ======================================================================
-
 You are building a language model by using a Language Understanding (classic) service.
 You create a new Language Understanding (classic) resource.
 You need to add more contributors.
@@ -344,7 +323,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 22
 https://www.examtopics.com/discussions/microsoft/view/74847-exam-ai-102-topic-1-question-22-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have an Azure Cognitive Search service.
@@ -363,7 +341,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 23
 https://www.examtopics.com/discussions/microsoft/view/76149-exam-ai-102-topic-1-question-23-discussion/
 ======================================================================
-
 DRAG DROP -
 You need to develop an automated call handling system that can respond to callers in their own language. The system will support only French and English.
 Which Azure Cognitive Services service should you use to meet each requirement? To answer, drag the appropriate services to the correct requirements. Each service may be used once, more than once, or not at all. You may need to drag the split bat between panes or scroll to view content.
@@ -374,7 +351,6 @@ Select and Place:
 Topic 1 - Question 24
 https://www.examtopics.com/discussions/microsoft/view/74350-exam-ai-102-topic-1-question-24-discussion/
 ======================================================================
-
 You have receipts that are accessible from a URL.
 You need to extract data from the receipts by using Form Recognizer and the SDK. The solution must use a prebuilt model.
 Which client and method should you use?
@@ -390,7 +366,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 25
 https://www.examtopics.com/discussions/microsoft/view/75221-exam-ai-102-topic-1-question-25-discussion/
 ======================================================================
-
 You have a collection of 50,000 scanned documents that contain text.
 You plan to make the text available through Azure Cognitive Search.
 You need to configure an enrichment pipeline to perform optical character recognition (OCR) and text analytics. The solution must minimize costs.
@@ -407,7 +382,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 26
 https://www.examtopics.com/discussions/microsoft/view/77572-exam-ai-102-topic-1-question-26-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have an Azure Cognitive Search service.
@@ -426,7 +400,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 27
 https://www.examtopics.com/discussions/microsoft/view/77540-exam-ai-102-topic-1-question-27-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have an Azure Cognitive Search service.
@@ -445,7 +418,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 28
 https://www.examtopics.com/discussions/microsoft/view/77541-exam-ai-102-topic-1-question-28-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You create a web app named app1 that runs on an Azure virtual machine named vm1. Vm1 is on an Azure virtual network named vnet1.
@@ -463,7 +435,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 29
 https://www.examtopics.com/discussions/microsoft/view/75222-exam-ai-102-topic-1-question-29-discussion/
 ======================================================================
-
 You have a Language Understanding resource named lu1.
 You build and deploy an Azure bot named bot1 that uses lu1.
 You need to ensure that bot1 adheres to the Microsoft responsible AI principle of inclusiveness.
@@ -480,7 +451,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 30
 https://www.examtopics.com/discussions/microsoft/view/80844-exam-ai-102-topic-1-question-30-discussion/
 ======================================================================
-
 HOTSPOT -
 You are building an app that will process incoming email and direct messages to either French or English language support teams.
 Which Azure Cognitive Services API should you use? To answer, select the appropriate options in the answer area.
@@ -491,7 +461,6 @@ Hot Area:
 Topic 1 - Question 31
 https://www.examtopics.com/discussions/microsoft/view/82100-exam-ai-102-topic-1-question-31-discussion/
 ======================================================================
-
 You have an Azure Cognitive Search instance that indexes purchase orders by using Form Recognizer.
 You need to analyze the extracted information by using Microsoft Power BI. The solution must minimize development effort.
 What should you add to the indexer?
@@ -507,7 +476,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 32
 https://www.examtopics.com/discussions/microsoft/view/82535-exam-ai-102-topic-1-question-32-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have an Azure Cognitive Search service.
@@ -526,7 +494,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 33
 https://www.examtopics.com/discussions/microsoft/view/84645-exam-ai-102-topic-1-question-33-discussion/
 ======================================================================
-
 SIMULATION -
 You need to create a Text Analytics service named Text12345678, and then enable logging for Text12345678. The solution must ensure that any changes to
 Text12345678 will be stored in a Log Analytics workspace.
@@ -536,7 +503,6 @@ To complete this task, sign in to the Azure portal.
 Topic 1 - Question 34
 https://www.examtopics.com/discussions/microsoft/view/125117-exam-ai-102-topic-1-question-34-discussion/
 ======================================================================
-
 SIMULATION -
 You need to create a search service named search12345678 that will index a sample Azure Cosmos DB database named hotels-sample. The solution must ensure that only English language fields are retrievable.
 To complete this task, sign in to the Azure portal.
@@ -545,7 +511,6 @@ To complete this task, sign in to the Azure portal.
 Topic 1 - Question 35
 https://www.examtopics.com/discussions/microsoft/view/82103-exam-ai-102-topic-1-question-35-discussion/
 ======================================================================
-
 SIMULATION -
 You plan to create a solution to generate captions for images that will be read from Azure Blob Storage.
 You need to create a service in Azure Cognitive Services for the solution. The service must be named captions12345678 and must use the Free pricing tier.
@@ -555,7 +520,6 @@ To complete this task, sign in to the Azure portal.
 Topic 1 - Question 36
 https://www.examtopics.com/discussions/microsoft/view/125119-exam-ai-102-topic-1-question-36-discussion/
 ======================================================================
-
 SIMULATION -
 You need to create a Form Recognizer resource named fr12345678.
 Use the Form Recognizer sample labeling tool at https://fott-2-1.azurewebsites.net/ to analyze the invoice located in the C:\Resources\Invoices folder.
@@ -566,7 +530,6 @@ To complete this task, sign in to the Azure portal and open the Form Recognizer 
 Topic 1 - Question 37
 https://www.examtopics.com/discussions/microsoft/view/82105-exam-ai-102-topic-1-question-37-discussion/
 ======================================================================
-
 You have a factory that produces food products.
 You need to build a monitoring solution for staff compliance with personal protective equipment (PPE) requirements. The solution must meet the following requirements:
 * Identify staff who have removed masks or safety glasses.
@@ -585,7 +548,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 38
 https://www.examtopics.com/discussions/microsoft/view/80176-exam-ai-102-topic-1-question-38-discussion/
 ======================================================================
-
 You have an Azure Cognitive Search solution and a collection of blog posts that include a category field.
 You need to index the posts. The solution must meet the following requirements:
 * Include the category field in the search results.
@@ -604,7 +566,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 39
 https://www.examtopics.com/discussions/microsoft/view/96461-exam-ai-102-topic-1-question-39-discussion/
 ======================================================================
-
 SIMULATION -
 Use the following login credentials as needed:
 To enter your username, place your cursor in the Sign in box and click on the username below.
@@ -622,7 +583,6 @@ To complete this task, sign in to the Azure portal.
 Topic 1 - Question 40
 https://www.examtopics.com/discussions/microsoft/view/87191-exam-ai-102-topic-1-question-40-discussion/
 ======================================================================
-
 SIMULATION -
 Use the following login credentials as needed:
 To enter your username, place your cursor in the Sign in box and click on the username below.
@@ -641,7 +601,6 @@ To complete this task, sign in to the Azure portal.
 Topic 1 - Question 41
 https://www.examtopics.com/discussions/microsoft/view/125786-exam-ai-102-topic-1-question-41-discussion/
 ======================================================================
-
 SIMULATION -
 Use the following login credentials as needed:
 To enter your username, place your cursor in the Sign in box and click on the username below.
@@ -659,7 +618,6 @@ To complete this task, sign in to the Azure Video Analyzer for Media at https://
 Topic 1 - Question 42
 https://www.examtopics.com/discussions/microsoft/view/102407-exam-ai-102-topic-1-question-42-discussion/
 ======================================================================
-
 SIMULATION -
 Use the following login credentials as needed:
 To enter your username, place your cursor in the Sign in box and click on the username below.
@@ -678,7 +636,6 @@ To complete this task, sign in to the Azure portal.
 Topic 1 - Question 43
 https://www.examtopics.com/discussions/microsoft/view/91127-exam-ai-102-topic-1-question-43-discussion/
 ======================================================================
-
 SIMULATION -
 Use the following login credentials as needed:
 To enter your username, place your cursor in the Sign in box and click on the username below.
@@ -696,7 +653,6 @@ To complete this task, sign in to the Azure portal.
 Topic 1 - Question 44
 https://www.examtopics.com/discussions/microsoft/view/106675-exam-ai-102-topic-1-question-44-discussion/
 ======================================================================
-
 SIMULATION -
 Use the following login credentials as needed:
 To enter your username, place your cursor in the Sign in box and click on the username below.
@@ -713,7 +669,6 @@ To complete this task, sign in to the Azure portal.
 Topic 1 - Question 45
 https://www.examtopics.com/discussions/microsoft/view/106686-exam-ai-102-topic-1-question-45-discussion/
 ======================================================================
-
 You have an Azure IoT hub that receives sensor data from machinery.
 You need to build an app that will perform the following actions:
 • Perform anomaly detection across multiple correlated sensors.
@@ -733,7 +688,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 46
 https://www.examtopics.com/discussions/microsoft/view/102672-exam-ai-102-topic-1-question-46-discussion/
 ======================================================================
-
 You have an app that analyzes images by using the Computer Vision API.
 You need to configure the app to provide an output for users who are vision impaired. The solution must provide the output in complete sentences.
 Which API call should you perform?
@@ -749,7 +703,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 47
 https://www.examtopics.com/discussions/microsoft/view/102671-exam-ai-102-topic-1-question-47-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Custom Vision service project that performs object detection. The project uses the General domain for classification and contains a trained model.
@@ -760,7 +713,6 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Topic 1 - Question 48
 https://www.examtopics.com/discussions/microsoft/view/111815-exam-ai-102-topic-1-question-48-discussion/
 ======================================================================
-
 You are building an AI solution that will use Sentiment Analysis results from surveys to calculate bonuses for customer service staff.
 You need to ensure that the solution meets the Microsoft responsible AI principles.
 What should you do?
@@ -776,7 +728,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 49
 https://www.examtopics.com/discussions/microsoft/view/108848-exam-ai-102-topic-1-question-49-discussion/
 ======================================================================
-
 You have an Azure subscription that contains a Language service resource named ta1 and a virtual network named vnet1.
 You need to ensure that only resources in vnet1 can access ta1.
 What should you configure?
@@ -792,7 +743,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 50
 https://www.examtopics.com/discussions/microsoft/view/109884-exam-ai-102-topic-1-question-50-discussion/
 ======================================================================
-
 You are developing a monitoring system that will analyze engine sensor data, such as rotation speed, angle, temperature, and pressure. The system must generate an alert in response to atypical values.
 What should you include in the solution?
 
@@ -807,7 +757,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 51
 https://www.examtopics.com/discussions/microsoft/view/108815-exam-ai-102-topic-1-question-51-discussion/
 ======================================================================
-
 You have an app named App1 that uses an Azure Cognitive Services model to identify anomalies in a time series data stream.
 You need to run App1 in a location that has limited connectivity. The solution must minimize costs.
 What should you use to host the model?
@@ -823,7 +772,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 52
 https://www.examtopics.com/discussions/microsoft/view/106252-exam-ai-102-topic-1-question-52-discussion/
 ======================================================================
-
 HOTSPOT -
 You have an Azure Cognitive Search resource named Search1 that is used by multiple apps.
 You need to secure Search1. The solution must meet the following requirements:
@@ -836,7 +784,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 53
 https://www.examtopics.com/discussions/microsoft/view/112132-exam-ai-102-topic-1-question-53-discussion/
 ======================================================================
-
 You are building a solution that will detect anomalies in sensor data from the previous 24 hours.
 You need to ensure that the solution scans the entire dataset, at the same time, for anomalies.
 Which type of detection should you use?
@@ -851,7 +798,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 54
 https://www.examtopics.com/discussions/microsoft/view/112133-exam-ai-102-topic-1-question-54-discussion/
 ======================================================================
-
 DRAG DROP -
 You are building an app that will scan confidential documents and use the Language service to analyze the contents.
 You provision an Azure Cognitive Services resource.
@@ -862,7 +808,6 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Topic 1 - Question 55
 https://www.examtopics.com/discussions/microsoft/view/112134-exam-ai-102-topic-1-question-55-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that has the following configurations:
@@ -877,7 +822,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 56
 https://www.examtopics.com/discussions/microsoft/view/112154-exam-ai-102-topic-1-question-56-discussion/
 ======================================================================
-
 You have an Azure subscription that contains an Anomaly Detector resource.
 You deploy a Docker host server named Server1 to the on-premises network.
 You need to host an instance of the Anomaly Detector service on Server1.
@@ -894,7 +838,6 @@ Suggested Answer (community most voted): B
 Topic 1 - Question 57
 https://www.examtopics.com/discussions/microsoft/view/122901-exam-ai-102-topic-1-question-57-discussion/
 ======================================================================
-
 You are building an app that will use the Speech service.
 You need to ensure that the app can authenticate to the service by using a Microsoft Azure Active Directory (Azure AD), part of Microsoft Entra, token.
 Which two actions should you perform? Each correct answer presents part of the solution.
@@ -912,7 +855,6 @@ Suggested Answer (community most voted): BD
 Topic 1 - Question 58
 https://www.examtopics.com/discussions/microsoft/view/134922-exam-ai-102-topic-1-question-58-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You plan to deploy an Azure OpenAI resource by using an Azure Resource Manager (ARM) template.
@@ -924,7 +866,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 59
 https://www.examtopics.com/discussions/microsoft/view/135092-exam-ai-102-topic-1-question-59-discussion/
 ======================================================================
-
 DRAG DROP -
 You have an app that manages feedback.
 You need to ensure that the app can detect negative comments by using the Sentiment Analysis API in Azure AI Language. The solution must ensure that the managed feedback remains on your company’s internal network.
@@ -935,7 +876,6 @@ NOTE: More than one order of answer choices is correct. You will receive credit 
 Topic 1 - Question 60
 https://www.examtopics.com/discussions/microsoft/view/135042-exam-ai-102-topic-1-question-60-discussion/
 ======================================================================
-
 HOTSPOT -
 You have an Azure OpenAI resource named AI1 that hosts three deployments of the GPT 3.5 model. Each deployment is optimized for a unique workload.
 You plan to deploy three apps. Each app will access AI1 by using the REST API and will use the deployment that was optimized for the app's intended workload.
@@ -947,7 +887,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 61
 https://www.examtopics.com/discussions/microsoft/view/135070-exam-ai-102-topic-1-question-61-discussion/
 ======================================================================
-
 You build a bot by using the Microsoft Bot Framework SDK.
 You start the bot on a local computer.
 You need to validate the functionality of the bot.
@@ -964,7 +903,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 62
 https://www.examtopics.com/discussions/microsoft/view/135059-exam-ai-102-topic-1-question-62-discussion/
 ======================================================================
-
 You have an Azure OpenAI model named AI1.
 You are building a web app named App1 by using the Azure OpenAI SDK.
 You need to configure App1 to connect to AI1.
@@ -981,7 +919,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 63
 https://www.examtopics.com/discussions/microsoft/view/135106-exam-ai-102-topic-1-question-63-discussion/
 ======================================================================
-
 You are building a solution in Azure that will use Azure Cognitive Service for Language to process sensitive customer data.
 You need to ensure that only specific Azure processes can access the Language service. The solution must minimize administrative effort.
 What should you include in the solution?
@@ -997,7 +934,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 64
 https://www.examtopics.com/discussions/microsoft/view/135071-exam-ai-102-topic-1-question-64-discussion/
 ======================================================================
-
 You plan to perform predictive maintenance.
 You collect IoT sensor data from 100 industrial machines for a year. Each machine has 50 different sensors that generate data at one-minute intervals. In total, you have 5,000 time series datasets.
 You need to identify unusual values in each time series to help predict machinery failures.
@@ -1014,7 +950,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 65
 https://www.examtopics.com/discussions/microsoft/view/135060-exam-ai-102-topic-1-question-65-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You plan to deploy a containerized version of an Azure Cognitive Services service that will be used for sentiment analysis.
@@ -1027,7 +962,6 @@ NOTE: Each correct selection is worth one point.
 Topic 1 - Question 66
 https://www.examtopics.com/discussions/microsoft/view/135094-exam-ai-102-topic-1-question-66-discussion/
 ======================================================================
-
 You are developing a system that will monitor temperature data from a data stream. The system must generate an alert in response to atypical values. The solution must minimize development effort.
 What should you include in the solution?
 
@@ -1042,7 +976,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 67
 https://www.examtopics.com/discussions/microsoft/view/135030-exam-ai-102-topic-1-question-67-discussion/
 ======================================================================
-
 You have a Microsoft OneDrive folder that contains a 20-GB video file named File1.avi.
 You need to index File1.avi by using the Azure Video Indexer website.
 What should you do?
@@ -1058,7 +991,6 @@ Suggested Answer (community most voted): D
 Topic 1 - Question 68
 https://www.examtopics.com/discussions/microsoft/view/135194-exam-ai-102-topic-1-question-68-discussion/
 ======================================================================
-
 You have an Azure subscription that contains an Azure AI Service resource named CSAccount1 and a virtual network named VNet1. CSAaccount1 is connected to VNet1.
 You need to ensure that only specific resources can access CSAccount1. The solution must meet the following requirements:
 •	Prevent external access to CSAccount1.
@@ -1078,7 +1010,6 @@ Suggested Answer (community most voted): AE
 Topic 1 - Question 69
 https://www.examtopics.com/discussions/microsoft/view/135061-exam-ai-102-topic-1-question-69-discussion/
 ======================================================================
-
 You are building an internet-based training solution. The solution requires that a user's camera and microphone remain enabled.
 You need to monitor a video stream of the user and detect when the user asks an instructor a question. The solution must minimize development effort.
 What should you include in the solution?
@@ -1094,7 +1025,6 @@ Suggested Answer (community most voted): A
 Topic 1 - Question 70
 https://www.examtopics.com/discussions/microsoft/view/150682-exam-ai-102-topic-1-question-70-discussion/
 ======================================================================
-
 You have an Azure DevOps pipeline named Pipeline1 that is used to deploy an app. Pipeline1 includes a step that will create an Azure AI services account.
 You need to add a step to Pipeline1 that will identify the created Azure AI services account. The solution must minimize development effort.
 Which Azure Command-Line Interface (CLI) command should you run?
@@ -1110,7 +1040,6 @@ Suggested Answer (community most voted): C
 Topic 1 - Question 71
 https://www.examtopics.com/discussions/microsoft/view/150683-exam-ai-102-topic-1-question-71-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have 1,000 scanned images of hand-written survey responses. The surveys do NOT have a consistent layout.
@@ -1124,7 +1053,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/54796-exam-ai-102-topic-2-question-1-discussion/
 ======================================================================
-
 HOTSPOT -
 You are developing an application that will use the Computer Vision client library. The application has the following code.
 For each of the following statements, select Yes if the statement is true. Otherwise, select No.
@@ -1135,7 +1063,6 @@ Hot Area:
 Topic 2 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/74739-exam-ai-102-topic-2-question-2-discussion/
 ======================================================================
-
 You are developing a method that uses the Computer Vision client library. The method will perform optical character recognition (OCR) in images. The method has the following code.
 During testing, you discover that the call to the GetReadResultAsync method occurs before the read operation is complete.
 You need to prevent the GetReadResultAsync method from proceeding until the read operation is complete.
@@ -1153,7 +1080,6 @@ Suggested Answer (community most voted): BD
 Topic 2 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/60330-exam-ai-102-topic-2-question-3-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a Computer Vision resource named contoso1 that is hosted in the West US Azure region.
 You need to use contoso1 to make a different size of a product photo by using the smart cropping feature.
@@ -1165,7 +1091,6 @@ Hot Area:
 Topic 2 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/77130-exam-ai-102-topic-2-question-4-discussion/
 ======================================================================
-
 DRAG DROP -
 You are developing a webpage that will use the Azure Video Analyzer for Media (previously Video Indexer) service to display videos of internal company meetings.
 You embed the Player widget and the Cognitive Insights widget into the page.
@@ -1181,7 +1106,6 @@ Select and Place:
 Topic 2 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/60335-exam-ai-102-topic-2-question-5-discussion/
 ======================================================================
-
 DRAG DROP -
 You train a Custom Vision model to identify a company's products by using the Retail domain.
 You plan to deploy the model as part of an app for Android phones.
@@ -1193,7 +1117,6 @@ Select and Place:
 Topic 2 - Question 6
 https://www.examtopics.com/discussions/microsoft/view/82128-exam-ai-102-topic-2-question-6-discussion/
 ======================================================================
-
 HOTSPOT -
 You are developing an application to recognize employees' faces by using the Face Recognition API. Images of the faces will be accessible from a URI endpoint.
 The application has the following code.
@@ -1205,7 +1128,6 @@ Hot Area:
 Topic 2 - Question 7
 https://www.examtopics.com/discussions/microsoft/view/62223-exam-ai-102-topic-2-question-7-discussion/
 ======================================================================
-
 DRAG DROP -
 You have a Custom Vision resource named acvdev in a development environment.
 You have a Custom Vision resource named acvprod in a production environment.
@@ -1218,7 +1140,6 @@ Select and Place:
 Topic 2 - Question 8
 https://www.examtopics.com/discussions/microsoft/view/74355-exam-ai-102-topic-2-question-8-discussion/
 ======================================================================
-
 DRAG DROP -
 You are developing an application that will recognize faults in components produced on a factory production line. The components are specific to your business.
 You need to use the Custom Vision API to help detect common faults.
@@ -1229,7 +1150,6 @@ Select and Place:
 Topic 2 - Question 9
 https://www.examtopics.com/discussions/microsoft/view/74741-exam-ai-102-topic-2-question-9-discussion/
 ======================================================================
-
 HOTSPOT -
 You are building a model that will be used in an iOS app.
 You have images of cats and dogs. Each image contains either a cat or a dog.
@@ -1242,7 +1162,6 @@ Hot Area:
 Topic 2 - Question 10
 https://www.examtopics.com/discussions/microsoft/view/75691-exam-ai-102-topic-2-question-10-discussion/
 ======================================================================
-
 You have an Azure Video Analyzer for Media (previously Video Indexer) service that is used to provide a search interface over company videos on your company's website.
 You need to be able to search for videos based on who is present in the video.
 What should you do?
@@ -1259,7 +1178,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 11
 https://www.examtopics.com/discussions/microsoft/view/75223-exam-ai-102-topic-2-question-11-discussion/
 ======================================================================
-
 You use the Custom Vision service to build a classifier.
 After training is complete, you need to evaluate the classifier.
 Which two metrics are available for review? Each correct answer presents a complete solution.
@@ -1277,7 +1195,6 @@ Suggested Answer (community most voted): AD
 Topic 2 - Question 12
 https://www.examtopics.com/discussions/microsoft/view/55440-exam-ai-102-topic-2-question-12-discussion/
 ======================================================================
-
 DRAG DROP -
 You are developing a call to the Face API. The call must find similar faces from an existing list named employeefaces. The employeefaces list contains 60,000 images.
 How should you complete the body of the HTTP request? To answer, drag the appropriate values to the correct targets. Each value may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
@@ -1288,7 +1205,6 @@ Select and Place:
 Topic 2 - Question 13
 https://www.examtopics.com/discussions/microsoft/view/54793-exam-ai-102-topic-2-question-13-discussion/
 ======================================================================
-
 DRAG DROP -
 You are developing a photo application that will find photos of a person based on a sample image by using the Face API.
 You need to create a POST request to find the photos.
@@ -1301,7 +1217,6 @@ Select and Place:
 Topic 2 - Question 14
 https://www.examtopics.com/discussions/microsoft/view/84342-exam-ai-102-topic-2-question-14-discussion/
 ======================================================================
-
 HOTSPOT -
 You develop a test method to verify the results retrieved from a call to the Computer Vision API. The call is used to analyze the existence of company logos in images. The call returns a collection of brands named brands.
 You have the following code segment.
@@ -1313,7 +1228,6 @@ Hot Area:
 Topic 2 - Question 15
 https://www.examtopics.com/discussions/microsoft/view/54794-exam-ai-102-topic-2-question-15-discussion/
 ======================================================================
-
 HOTSPOT -
 You develop an application that uses the Face API.
 You need to add multiple images to a person group.
@@ -1325,7 +1239,6 @@ Hot Area:
 Topic 2 - Question 16
 https://www.examtopics.com/discussions/microsoft/view/77610-exam-ai-102-topic-2-question-16-discussion/
 ======================================================================
-
 Your company uses an Azure Cognitive Services solution to detect faces in uploaded images. The method to detect the faces uses the following code.
 You discover that the solution frequently fails to detect faces in blurred images and in images that contain sideways faces.
 You need to increase the likelihood that the solution can detect faces in blurred images and images that contain sideways faces.
@@ -1342,7 +1255,6 @@ Suggested Answer (community most voted): D
 Topic 2 - Question 17
 https://www.examtopics.com/discussions/microsoft/view/81643-exam-ai-102-topic-2-question-17-discussion/
 ======================================================================
-
 You have the following Python function for creating Azure Cognitive Services resources programmatically. def create_resource (resource_name, kind, account_tier, location) : parameters = CognitiveServicesAccount(sku=Sku(name=account_tier), kind=kind, location=location, properties={}) result = client.accounts.create(resource_group_name, resource_name, parameters)
 You need to call the function to create a free Azure resource in the West US Azure region. The resource will be used to generate captions of images automatically.
 Which code should you use?
@@ -1358,7 +1270,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 18
 https://www.examtopics.com/discussions/microsoft/view/81861-exam-ai-102-topic-2-question-18-discussion/
 ======================================================================
-
 You are developing a method that uses the Computer Vision client library. The method will perform optical character recognition (OCR) in images. The method has the following code.
 During testing, you discover that the call to the GetReadResultAsync method occurs before the read operation is complete.
 You need to prevent the GetReadResultAsync method from proceeding until the read operation is complete.
@@ -1376,7 +1287,6 @@ Suggested Answer (community most voted): BD
 Topic 2 - Question 19
 https://www.examtopics.com/discussions/microsoft/view/83146-exam-ai-102-topic-2-question-19-discussion/
 ======================================================================
-
 HOTSPOT -
 You are building an app that will enable users to upload images. The solution must meet the following requirements:
 * Automatically suggest alt text for the images.
@@ -1391,7 +1301,6 @@ Hot Area:
 Topic 2 - Question 20
 https://www.examtopics.com/discussions/microsoft/view/91092-exam-ai-102-topic-2-question-20-discussion/
 ======================================================================
-
 You need to build a solution that will use optical character recognition (OCR) to scan sensitive documents by using the Computer Vision API. The solution must
 NOT be deployed to the public cloud.
 What should you do?
@@ -1407,7 +1316,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 21
 https://www.examtopics.com/discussions/microsoft/view/102684-exam-ai-102-topic-2-question-21-discussion/
 ======================================================================
-
 You have an Azure Cognitive Search solution and a collection of handwritten letters stored as JPEG files.
 You plan to index the collection. The solution must ensure that queries can be performed on the contents of the letters.
 You need to create an indexer that has a skillset.
@@ -1424,7 +1332,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 22
 https://www.examtopics.com/discussions/microsoft/view/102936-exam-ai-102-topic-2-question-22-discussion/
 ======================================================================
-
 HOTSPOT -
 You have a library that contains thousands of images.
 You need to tag the images as photographs, drawings, or clipart.
@@ -1435,7 +1342,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 23
 https://www.examtopics.com/discussions/microsoft/view/102569-exam-ai-102-topic-2-question-23-discussion/
 ======================================================================
-
 You have an app that captures live video of exam candidates.
 You need to use the Face service to validate that the subjects of the videos are real people.
 What should you do?
@@ -1451,7 +1357,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 24
 https://www.examtopics.com/discussions/microsoft/view/102686-exam-ai-102-topic-2-question-24-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You make an API request and receive the results shown in the following exhibits.
@@ -1462,7 +1367,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 25
 https://www.examtopics.com/discussions/microsoft/view/108276-exam-ai-102-topic-2-question-25-discussion/
 ======================================================================
-
 You have an Azure subscription that contains an AI enrichment pipeline in Azure Cognitive Search and an Azure Storage account that has 10 GB of scanned documents and images.
 You need to index the documents and images in the storage account. The solution must minimize how long it takes to build the index.
 What should you do?
@@ -1478,7 +1382,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 26
 https://www.examtopics.com/discussions/microsoft/view/110625-exam-ai-102-topic-2-question-26-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You need to analyze video content to identify any mentions of specific company names.
@@ -1488,7 +1391,6 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Topic 2 - Question 27
 https://www.examtopics.com/discussions/microsoft/view/108600-exam-ai-102-topic-2-question-27-discussion/
 ======================================================================
-
 You have a mobile app that manages printed forms.
 You need the app to send images of the forms directly to Forms Recognizer to extract relevant information. For compliance reasons, the image files must not be stored in the cloud.
 In which format should you send the images to the Form Recognizer API endpoint?
@@ -1503,7 +1405,6 @@ Suggested Answer (community most voted): A
 Topic 2 - Question 28
 https://www.examtopics.com/discussions/microsoft/view/107293-exam-ai-102-topic-2-question-28-discussion/
 ======================================================================
-
 You plan to build an app that will generate a list of tags for uploaded images. The app must meet the following requirements:
 •	Generate tags in a user's preferred language.
 •	Support English, French, and Spanish.
@@ -1522,7 +1423,6 @@ Suggested Answer (community most voted): C
 Topic 2 - Question 29
 https://www.examtopics.com/discussions/microsoft/view/108601-exam-ai-102-topic-2-question-29-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You develop a test method to verify the results retrieved from a call to the Computer Vision API. The call is used to analyze the existence of company logos in images. The call returns a collection of brands named brands.
@@ -1534,7 +1434,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 30
 https://www.examtopics.com/discussions/microsoft/view/108602-exam-ai-102-topic-2-question-30-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a factory that produces cardboard packaging for food products. The factory has intermittent internet connectivity.
@@ -1547,7 +1446,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 31
 https://www.examtopics.com/discussions/microsoft/view/112135-exam-ai-102-topic-2-question-31-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You are building a model to detect objects in images.
@@ -1559,7 +1457,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 32
 https://www.examtopics.com/discussions/microsoft/view/122477-exam-ai-102-topic-2-question-32-discussion/
 ======================================================================
-
 You are building an app that will include one million scanned magazine articles. Each article will be stored as an image file.
 You need to configure the app to extract text from the images. The solution must minimize development effort.
 What should you include in the solution?
@@ -1575,7 +1472,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 33
 https://www.examtopics.com/discussions/microsoft/view/122636-exam-ai-102-topic-2-question-33-discussion/
 ======================================================================
-
 You have a 20-GB video file named File1.avi that is stored on a local drive.
 You need to index File1.avi by using the Azure Video Indexer website.
 What should you do first?
@@ -1591,7 +1487,6 @@ Suggested Answer (community most voted): C
 Topic 2 - Question 34
 https://www.examtopics.com/discussions/microsoft/view/134929-exam-ai-102-topic-2-question-34-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You are building an app that will share user images.
@@ -1606,7 +1501,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 35
 https://www.examtopics.com/discussions/microsoft/view/134935-exam-ai-102-topic-2-question-35-discussion/
 ======================================================================
-
 You are building an app that will share user images.
 You need to configure the app to perform the following actions when a user uploads an image:
 •	Categorize the image as either a photograph or a drawing.
@@ -1627,7 +1521,6 @@ Suggested Answer (community most voted): CD
 Topic 2 - Question 36
 https://www.examtopics.com/discussions/microsoft/view/134936-exam-ai-102-topic-2-question-36-discussion/
 ======================================================================
-
 You are building an app that will use the Azure AI Video Indexer service.
 You plan to train a language model to recognize industry-specific terms.
 You need to upload a file that contains the industry-specific terms.
@@ -1644,7 +1537,6 @@ Suggested Answer (community most voted): B
 Topic 2 - Question 37
 https://www.examtopics.com/discussions/microsoft/view/135013-exam-ai-102-topic-2-question-37-discussion/
 ======================================================================
-
 DRAG DROP -
 You have an app that uses Azure AI and a custom trained classifier to identify products in images.
 You need to add new products to the classifier. The solution must meet the following requirements:
@@ -1656,7 +1548,6 @@ Which five actions should you perform in sequence? To answer, move the appropria
 Topic 2 - Question 38
 https://www.examtopics.com/discussions/microsoft/view/136424-exam-ai-102-topic-2-question-38-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You are developing an application that will use the Azure AI Vision client library. The application has the following code.
@@ -1667,7 +1558,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 39
 https://www.examtopics.com/discussions/microsoft/view/145183-exam-ai-102-topic-2-question-39-discussion/
 ======================================================================
-
 You are developing a method that uses the Azure AI Vision client library. The method will perform optical character recognition (OCR) in images. The method has the following code.
 During testing, you discover that the call to the get_read_result method occurs before the read operation is complete.
 You need to prevent the get_read_result method from proceeding until the read operation is complete.
@@ -1685,7 +1575,6 @@ Suggested Answer (community most voted): BD
 Topic 2 - Question 40
 https://www.examtopics.com/discussions/microsoft/view/145640-exam-ai-102-topic-2-question-40-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You are developing an app that will use the Azure AI Vision API to analyze an image.
@@ -1697,7 +1586,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 41
 https://www.examtopics.com/discussions/microsoft/view/150068-exam-ai-102-topic-2-question-41-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that contains an Azure AI Video Indexer account.
@@ -1709,7 +1597,6 @@ NOTE: Each correct selection is worth one point.
 Topic 2 - Question 42
 https://www.examtopics.com/discussions/microsoft/view/150146-exam-ai-102-topic-2-question-42-discussion/
 ======================================================================
-
 You have a local folder that contains the files shown in the following table.
 You need to analyze the files by using Azure AI Video Indexer.
 Which files can you upload to the Video Indexer website?
@@ -1726,7 +1613,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/55511-exam-ai-102-topic-3-question-1-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You build a language model by using a Language Understanding service. The language model is used to search for information on a contact list by using an intent named FindContact.
@@ -1747,7 +1633,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/56451-exam-ai-102-topic-3-question-2-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You develop an application to identify species of flowers by training a Custom Vision model.
@@ -1765,7 +1650,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/56452-exam-ai-102-topic-3-question-3-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You develop an application to identify species of flowers by training a Custom Vision model.
@@ -1783,7 +1667,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/56454-exam-ai-102-topic-3-question-4-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You develop an application to identify species of flowers by training a Custom Vision model.
@@ -1801,7 +1684,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/56455-exam-ai-102-topic-3-question-5-discussion/
 ======================================================================
-
 HOTSPOT -
 You are developing a service that records lectures given in English (United Kingdom).
 You have a method named AppendToTranscriptFile that takes translated text and a language identifier.
@@ -1815,7 +1697,6 @@ Hot Area:
 Topic 3 - Question 6
 https://www.examtopics.com/discussions/microsoft/view/60473-exam-ai-102-topic-3-question-6-discussion/
 ======================================================================
-
 DRAG DROP -
 You train a Custom Vision model used in a mobile app.
 You receive 1,000 new images that do not have any associated data.
@@ -1827,7 +1708,6 @@ Select and Place:
 Topic 3 - Question 7
 https://www.examtopics.com/discussions/microsoft/view/80186-exam-ai-102-topic-3-question-7-discussion/
 ======================================================================
-
 You are building a Conversational Language Understanding model for an e-commerce chatbot. Users can speak or type their billing address when prompted by the chatbot.
 You need to construct an entity to capture billing addresses.
 Which entity type should you use?
@@ -1843,7 +1723,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 8
 https://www.examtopics.com/discussions/microsoft/view/60238-exam-ai-102-topic-3-question-8-discussion/
 ======================================================================
-
 You are building an Azure WebJob that will create knowledge bases from an array of URLs.
 You instantiate a QnAMakerClient object that has the relevant API keys and assign the object to a variable named client.
 You need to develop a method to create the knowledge bases.
@@ -1861,7 +1740,6 @@ Suggested Answer (community most voted): BD
 Topic 3 - Question 9
 https://www.examtopics.com/discussions/microsoft/view/60311-exam-ai-102-topic-3-question-9-discussion/
 ======================================================================
-
 HOTSPOT -
 You are developing an application that includes language translation.
 The application will translate text retrieved by using a function named getTextToBeTranslated. The text can be in one of many languages. The content of the text must remain within the Americas Azure geography.
@@ -1874,7 +1752,6 @@ Hot Area:
 Topic 3 - Question 10
 https://www.examtopics.com/discussions/microsoft/view/75998-exam-ai-102-topic-3-question-10-discussion/
 ======================================================================
-
 You are building a conversational language understanding model.
 You need to enable active learning.
 What should you do?
@@ -1890,7 +1767,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 11
 https://www.examtopics.com/discussions/microsoft/view/80189-exam-ai-102-topic-3-question-11-discussion/
 ======================================================================
-
 HOTSPOT -
 You run the following command.
 For each of the following statements, select Yes if the statement is true. Otherwise, select No.
@@ -1901,7 +1777,6 @@ Hot Area:
 Topic 3 - Question 12
 https://www.examtopics.com/discussions/microsoft/view/54402-exam-ai-102-topic-3-question-12-discussion/
 ======================================================================
-
 You are building a Language Understanding model for an e-commerce platform.
 You need to construct an entity to capture billing addresses.
 Which entity type should you use for the billing address?
@@ -1918,7 +1793,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 13
 https://www.examtopics.com/discussions/microsoft/view/77612-exam-ai-102-topic-3-question-13-discussion/
 ======================================================================
-
 You need to upload speech samples to a Speech Studio project for use in training.
 How should you upload the samples?
 
@@ -1933,7 +1807,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 14
 https://www.examtopics.com/discussions/microsoft/view/77617-exam-ai-102-topic-3-question-14-discussion/
 ======================================================================
-
 You are developing a method for an application that uses the Translator API.
 The method will receive the content of a webpage, and then translate the content into Greek (el). The result will also contain a transliteration that uses the Roman alphabet.
 You need to create the URI for the call to the Translator API.
@@ -1955,7 +1828,6 @@ Suggested Answer (community most voted): CDF
 Topic 3 - Question 15
 https://www.examtopics.com/discussions/microsoft/view/75236-exam-ai-102-topic-3-question-15-discussion/
 ======================================================================
-
 You have a chatbot that was built by using the Microsoft Bot Framework.
 You need to debug the chatbot endpoint remotely.
 Which two tools should you install on a local computer? Each correct answer presents part of the solution.
@@ -1974,7 +1846,6 @@ Suggested Answer (community most voted): CE
 Topic 3 - Question 16
 https://www.examtopics.com/discussions/microsoft/view/77618-exam-ai-102-topic-3-question-16-discussion/
 ======================================================================
-
 DRAG DROP -
 You are building a retail chatbot that will use a QnA Maker service.
 You upload an internal support document to train the model. The document contains the following question: "What is your warranty period?"
@@ -1989,7 +1860,6 @@ Select and Place:
 Topic 3 - Question 17
 https://www.examtopics.com/discussions/microsoft/view/54520-exam-ai-102-topic-3-question-18-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You build a language model by using a Language Understanding service. The language model is used to search for information on a contact list by using an intent named FindContact.
@@ -2010,7 +1880,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 18
 https://www.examtopics.com/discussions/microsoft/view/74742-exam-ai-102-topic-3-question-19-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You build a language model by using a Language Understanding service. The language model is used to search for information on a contact list by using an intent named FindContact.
@@ -2031,7 +1900,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 19
 https://www.examtopics.com/discussions/microsoft/view/76239-exam-ai-102-topic-3-question-20-discussion/
 ======================================================================
-
 You are training a Language Understanding model for a user support system.
 You create the first intent named GetContactDetails and add 200 examples.
 You need to decrease the likelihood of a false positive.
@@ -2048,7 +1916,6 @@ Suggested Answer (community most voted): D
 Topic 3 - Question 20
 https://www.examtopics.com/discussions/microsoft/view/77006-exam-ai-102-topic-3-question-21-discussion/
 ======================================================================
-
 DRAG DROP -
 You are building a Language Understanding model for purchasing tickets.
 You have the following utterance for an intent named PurchaseAndSendTickets.
@@ -2062,7 +1929,6 @@ Select and Place:
 Topic 3 - Question 21
 https://www.examtopics.com/discussions/microsoft/view/75322-exam-ai-102-topic-3-question-22-discussion/
 ======================================================================
-
 You have the following C# method.
 You need to deploy an Azure resource to the East US Azure region. The resource will be used to perform sentiment analysis.
 How should you call the method?
@@ -2078,7 +1944,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 22
 https://www.examtopics.com/discussions/microsoft/view/85823-exam-ai-102-topic-3-question-23-discussion/
 ======================================================================
-
 You build a Conversational Language Understanding model by using the Language Services portal.
 You export the model as a JSON file as shown in the following sample.
 To what does the Weather.Historic entity correspond in the utterance?
@@ -2094,7 +1959,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 23
 https://www.examtopics.com/discussions/microsoft/view/87857-exam-ai-102-topic-3-question-24-discussion/
 ======================================================================
-
 You are examining the Text Analytics output of an application.
 The text analyzed is: `Our tour guide took us up the Space Needle during our trip to Seattle last week.`
 The response contains the data shown in the following table.
@@ -2111,7 +1975,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 24
 https://www.examtopics.com/discussions/microsoft/view/147102-exam-ai-102-topic-3-question-24-discussion/
 ======================================================================
-
 SIMULATION -
 You need to configure and publish bot12345678 to support task management. The intent must be named TaskReminder. The LUDown for the intent is in the C:
 \Resources\LU folder.
@@ -2121,7 +1984,6 @@ To complete this task, use the Microsoft Bot Framework Composer.
 Topic 3 - Question 25
 https://www.examtopics.com/discussions/microsoft/view/88019-exam-ai-102-topic-3-question-26-discussion/
 ======================================================================
-
 SIMULATION -
 You need to configure bot12345678 support the French (FR-FR) language.
 Export the bot to C:\Resources\Bot\Bot1.zip.
@@ -2131,7 +1993,6 @@ To complete this task, use the Microsoft Bot Framework Composer.
 Topic 3 - Question 26
 https://www.examtopics.com/discussions/microsoft/view/199999-exam-ai-102-topic-3-question-26-discussion/
 ======================================================================
-
 SIMULATION -
 You need to configure and publish bot12345678 to answer questions by using the frequently asked questions (FAQ) located at https://docs.microsoft.com/en-us/ azure/bot-service/bot-service-resources-bot-framework-faq. The solution must use bot%@lab.LabInstance.Id-qna-qna%.
 To complete this task, use the Microsoft Bot Framework Composer.
@@ -2140,7 +2001,6 @@ To complete this task, use the Microsoft Bot Framework Composer.
 Topic 3 - Question 27
 https://www.examtopics.com/discussions/microsoft/view/88194-exam-ai-102-topic-3-question-28-discussion/
 ======================================================================
-
 You need to measure the public perception of your brand on social media by using natural language processing.
 Which Azure service should you use?
 
@@ -2155,7 +2015,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 28
 https://www.examtopics.com/discussions/microsoft/view/83483-exam-ai-102-topic-3-question-29-discussion/
 ======================================================================
-
 HOTSPOT -
 You are developing an application that includes language translation.
 The application will translate text retrieved by using a function named get_text_to_be_translated. The text can be in one of many languages. The content of the text must remain within the Americas Azure geography.
@@ -2168,7 +2027,6 @@ Hot Area:
 Topic 3 - Question 29
 https://www.examtopics.com/discussions/microsoft/view/88196-exam-ai-102-topic-3-question-30-discussion/
 ======================================================================
-
 You have the following data sources:
 ✑ Finance: On-premises Microsoft SQL Server database
 ✑ Sales: Azure Cosmos DB using the Core (SQL) API
@@ -2188,7 +2046,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 30
 https://www.examtopics.com/discussions/microsoft/view/111617-exam-ai-102-topic-3-question-30-discussion/
 ======================================================================
-
 SIMULATION -
 Use the following login credentials as needed:
 To enter your username, place your cursor in the Sign in box and click on the username below.
@@ -2206,7 +2063,6 @@ To complete this task, sign in to the Language Understanding portal at httptc//w
 Topic 3 - Question 31
 https://www.examtopics.com/discussions/microsoft/view/200006-exam-ai-102-topic-3-question-31-discussion/
 ======================================================================
-
 SIMULATION -
 Use the following login credentials as needed:
 To enter your username, place your cursor in the Sign in box and click on the username below.
@@ -2223,7 +2079,6 @@ To complete this task, sign in to the Language Understanding portal at https://w
 Topic 3 - Question 32
 https://www.examtopics.com/discussions/microsoft/view/102570-exam-ai-102-topic-3-question-32-discussion/
 ======================================================================
-
 You have a Language service resource that performs the following:
 • Sentiment analysis
 • Named Entity Recognition (NER)
@@ -2242,7 +2097,6 @@ Suggested Answer (community most voted): D
 Topic 3 - Question 33
 https://www.examtopics.com/discussions/microsoft/view/102571-exam-ai-102-topic-3-question-33-discussion/
 ======================================================================
-
 You have an Azure Cognitive Services model named Model1 that identifies the intent of text input.
 You develop an app in C# named App1.
 You need to configure App1 to use Model1.
@@ -2259,7 +2113,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 34
 https://www.examtopics.com/discussions/microsoft/view/102572-exam-ai-102-topic-3-question-34-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You are building content for a video training solution.
@@ -2271,7 +2124,6 @@ NOTE: Each correct answer is worth one point.
 Topic 3 - Question 35
 https://www.examtopics.com/discussions/microsoft/view/111618-exam-ai-102-topic-3-question-35-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You are building a call handling system that will receive calls from French-speaking and German-speaking callers. The system must perform the following tasks:
@@ -2284,7 +2136,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 36
 https://www.examtopics.com/discussions/microsoft/view/102574-exam-ai-102-topic-3-question-36-discussion/
 ======================================================================
-
 You are building a social media extension that will convert text to speech. The solution must meet the following requirements:
 •	Support messages of up to 400 characters.
 •	Provide users with multiple voice options.
@@ -2303,7 +2154,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 37
 https://www.examtopics.com/discussions/microsoft/view/102802-exam-ai-102-topic-3-question-37-discussion/
 ======================================================================
-
 You develop a custom question answering project in Azure Cognitive Service for Language. The project will be used by a chatbot.
 You need to configure the project to engage in multi-turn conversations.
 What should you do?
@@ -2319,7 +2169,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 38
 https://www.examtopics.com/discussions/microsoft/view/104894-exam-ai-102-topic-3-question-38-discussion/
 ======================================================================
-
 HOTSPOT -
 You are building a solution that students will use to find references for essays.
 You use the following code to start building the solution.
@@ -2330,7 +2179,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 39
 https://www.examtopics.com/discussions/microsoft/view/110101-exam-ai-102-topic-3-question-39-discussion/
 ======================================================================
-
 You train a Conversational Language Understanding model to understand the natural language input of users.
 You need to evaluate the accuracy of the model before deploying it.
 What are two methods you can use? Each correct answer presents a complete solution.
@@ -2347,7 +2195,6 @@ Suggested Answer (community most voted): AC
 Topic 3 - Question 40
 https://www.examtopics.com/discussions/microsoft/view/108982-exam-ai-102-topic-3-question-40-discussion/
 ======================================================================
-
 DRAG DROP -
 You develop an app in C# named App1 that performs speech-to-speech translation.
 You need to configure App1 to translate English to German.
@@ -2358,7 +2205,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 41
 https://www.examtopics.com/discussions/microsoft/view/111850-exam-ai-102-topic-3-question-41-discussion/
 ======================================================================
-
 You have an Azure subscription that contains an Azure Cognitive Service for Language resource.
 You need to identify the URL of the REST interface for the Language service.
 Which blade should you use in the Azure portal?
@@ -2374,7 +2220,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 42
 https://www.examtopics.com/discussions/microsoft/view/111851-exam-ai-102-topic-3-question-42-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You are building a transcription service for technical podcasts.
@@ -2386,7 +2231,6 @@ Which five actions should you perform in sequence? To answer, move the appropria
 Topic 3 - Question 43
 https://www.examtopics.com/discussions/microsoft/view/108161-exam-ai-102-topic-3-question-43-discussion/
 ======================================================================
-
 You are building a retail kiosk system that will use a custom neural voice.
 You acquire audio samples and consent from the voice talent.
 You need to create a voice talent profile.
@@ -2403,7 +2247,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 44
 https://www.examtopics.com/discussions/microsoft/view/111250-exam-ai-102-topic-3-question-44-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Language Understanding solution that runs in a Docker container.
@@ -2415,7 +2258,6 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Topic 3 - Question 45
 https://www.examtopics.com/discussions/microsoft/view/108985-exam-ai-102-topic-3-question-45-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You are building a text-to-speech app that will use a custom neural voice.
@@ -2429,7 +2271,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 46
 https://www.examtopics.com/discussions/microsoft/view/143420-exam-ai-102-topic-3-question-79-discussion/
 ======================================================================
-
 You are building an Azure AI Language Understanding solution.
 You discover that many intents have similar utterances containing airport names or airport codes.
 You need to minimize the number of utterances used to train the model.
@@ -2446,7 +2287,6 @@ Suggested Answer (community most voted): D
 Topic 3 - Question 47
 https://www.examtopics.com/discussions/microsoft/view/108116-exam-ai-102-topic-3-question-47-discussion/
 ======================================================================
-
 You have a text-based chatbot.
 You need to enable content moderation by using the Text Moderation API of Content Moderator.
 Which two service responses should you use? Each correct answer presents part of the solution.
@@ -2464,7 +2304,6 @@ Suggested Answer (community most voted): BE
 Topic 3 - Question 48
 https://www.examtopics.com/discussions/microsoft/view/112136-exam-ai-102-topic-3-question-48-discussion/
 ======================================================================
-
 HOTSPOT -
 You are developing a text processing solution.
 You have the function shown below.
@@ -2476,7 +2315,6 @@ For each of the following statements, select Yes if the statement is true. Other
 Topic 3 - Question 49
 https://www.examtopics.com/discussions/microsoft/view/112137-exam-ai-102-topic-3-question-49-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You are building an Azure web app named App1 that will translate text from English to Spanish.
@@ -2488,7 +2326,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 50
 https://www.examtopics.com/discussions/microsoft/view/112140-exam-ai-102-topic-3-question-50-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a Docker host named Host1 that contains a container base image.
@@ -2500,7 +2337,6 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Topic 3 - Question 51
 https://www.examtopics.com/discussions/microsoft/view/112141-exam-ai-102-topic-3-question-51-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You build a language model by using a Conversational Language Understanding. The language model is used to search for information on a contact list by using an intent named FindContact.
@@ -2521,7 +2357,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 52
 https://www.examtopics.com/discussions/microsoft/view/112143-exam-ai-102-topic-3-question-52-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a question answering project in Azure Cognitive Service for Language.
@@ -2532,7 +2367,6 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Topic 3 - Question 53
 https://www.examtopics.com/discussions/microsoft/view/112145-exam-ai-102-topic-3-question-53-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You are building a customer support chatbot.
@@ -2547,7 +2381,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 54
 https://www.examtopics.com/discussions/microsoft/view/123329-exam-ai-102-topic-3-question-54-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You are building an app by using the Speech SDK. The app will translate speech from French to German by using natural language processing.
@@ -2559,7 +2392,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 55
 https://www.examtopics.com/discussions/microsoft/view/123688-exam-ai-102-topic-3-question-55-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a collection of Microsoft Word documents and PowerPoint presentations in German.
@@ -2573,7 +2405,6 @@ Which three actions should you perform in sequence to complete the solution? To 
 Topic 3 - Question 56
 https://www.examtopics.com/discussions/microsoft/view/123659-exam-ai-102-topic-3-question-56-discussion/
 ======================================================================
-
 You have the following C# function.
 You call the function by using the following code.
 Which output will you receive?
@@ -2589,7 +2420,6 @@ Suggested Answer (community most voted): D
 Topic 3 - Question 57
 https://www.examtopics.com/discussions/microsoft/view/124687-exam-ai-102-topic-3-question-57-discussion/
 ======================================================================
-
 You have the following Python method.
 You need to deploy an Azure resource to the East US Azure region. The resource will be used to perform sentiment analysis.
 How should you call the method?
@@ -2605,7 +2435,6 @@ Suggested Answer (community most voted): D
 Topic 3 - Question 58
 https://www.examtopics.com/discussions/microsoft/view/122483-exam-ai-102-topic-3-question-58-discussion/
 ======================================================================
-
 DRAG DROP -
 You develop a Python app named App1 that performs speech-to-speech translation.
 You need to configure App1 to translate English to German.
@@ -2616,7 +2445,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 59
 https://www.examtopics.com/discussions/microsoft/view/122496-exam-ai-102-topic-3-question-59-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You are developing a streaming Speech to Text solution that will use the Speech SDK and MP3 encoding.
@@ -2628,7 +2456,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 60
 https://www.examtopics.com/discussions/microsoft/view/134937-exam-ai-102-topic-3-question-60-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You are building a chatbot.
@@ -2640,7 +2467,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 61
 https://www.examtopics.com/discussions/microsoft/view/135625-exam-ai-102-topic-3-question-61-discussion/
 ======================================================================
-
 You are developing an app that will use the Decision and Language APIs.
 You need to provision resources for the app. The solution must ensure that each service is accessed by using a single endpoint and credential.
 Which type of resource should you create?
@@ -2656,7 +2482,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 62
 https://www.examtopics.com/discussions/microsoft/view/135626-exam-ai-102-topic-3-question-62-discussion/
 ======================================================================
-
 You are building a chatbot.
 You need to ensure that the bot will recognize the names of your company’s products and codenames. The solution must minimize development effort.
 Which Azure Cognitive Service for Language service should you include in the solution?
@@ -2672,7 +2497,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 63
 https://www.examtopics.com/discussions/microsoft/view/135943-exam-ai-102-topic-3-question-63-discussion/
 ======================================================================
-
 You have an Azure subscription that contains an Azure App Service app named App1.
 You provision a multi-service Azure Cognitive Services resource named CSAccount1.
 You need to configure App1 to access CSAccount1. The solution must minimize administrative effort.
@@ -2689,7 +2513,6 @@ Suggested Answer (community most voted): D
 Topic 3 - Question 64
 https://www.examtopics.com/discussions/microsoft/view/134939-exam-ai-102-topic-3-question-64-discussion/
 ======================================================================
-
 You have an Azure subscription that contains a multi-service Azure Cognitive Services Translator resource named Translator1.
 You are building an app that will translate text and documents by using Translator1.
 You need to create the REST API request for the app.
@@ -2706,7 +2529,6 @@ Suggested Answer (community most voted): D
 Topic 3 - Question 65
 https://www.examtopics.com/discussions/microsoft/view/134971-exam-ai-102-topic-3-question-65-discussion/
 ======================================================================
-
 You have a file share that contains 5,000 images of scanned invoices.
 You need to analyze the images. The solution must extract the following data:
 •	Invoice items
@@ -2725,7 +2547,6 @@ Suggested Answer (community most voted): D
 Topic 3 - Question 66
 https://www.examtopics.com/discussions/microsoft/view/135016-exam-ai-102-topic-3-question-66-discussion/
 ======================================================================
-
 HOTSPOT -
 You are developing a text processing solution.
 You have the function shown below.
@@ -2737,7 +2558,6 @@ For each of the following statements, select Yes if the statement is true. Other
 Topic 3 - Question 67
 https://www.examtopics.com/discussions/microsoft/view/135017-exam-ai-102-topic-3-question-67-discussion/
 ======================================================================
-
 HOTSPOT -
 You are developing a text processing solution.
 You develop the following method.
@@ -2750,7 +2570,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 68
 https://www.examtopics.com/discussions/microsoft/view/136760-exam-ai-102-topic-3-question-68-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You are developing a service that records lectures given in English (United Kingdom).
@@ -2763,7 +2582,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 69
 https://www.examtopics.com/discussions/microsoft/view/135068-exam-ai-102-topic-3-question-69-discussion/
 ======================================================================
-
 You are developing an app that will use the text-to-speech capability of the Azure AI Speech service. The app will be used in motor vehicles.
 You need to optimize the quality of the synthesized voice output.
 Which Speech Synthesis Markup Language (SSML) attribute should you configure?
@@ -2779,7 +2597,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 70
 https://www.examtopics.com/discussions/microsoft/view/135087-exam-ai-102-topic-3-question-70-discussion/
 ======================================================================
-
 You are designing a content management system.
 You need to ensure that the reading experience is optimized for users who have reduced comprehension and learning differences, such as dyslexia. The solution must minimize development effort.
 Which Azure service should you include in the solution?
@@ -2795,7 +2612,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 71
 https://www.examtopics.com/discussions/microsoft/view/135018-exam-ai-102-topic-3-question-71-discussion/
 ======================================================================
-
 HOTSPOT -
 You are building an app that will answer customer calls about the status of an order. The app will query a database for the order details and provide the customers with a spoken response.
 You need to identify which Azure AI service APIs to use. The solution must minimize development effort.
@@ -2806,7 +2622,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 72
 https://www.examtopics.com/discussions/microsoft/view/135048-exam-ai-102-topic-3-question-72-discussion/
 ======================================================================
-
 You have an Azure AI service model named Model1 that identifies the intent of text input.
 You develop a Python app named App1.
 You need to configure App1 to use Model1.
@@ -2823,7 +2638,6 @@ Suggested Answer (community most voted): B
 Topic 3 - Question 73
 https://www.examtopics.com/discussions/microsoft/view/135148-exam-ai-102-topic-3-question-73-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You are building an app that will automatically translate speech from English to French, German, and Spanish by using Azure AI service.
@@ -2835,7 +2649,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 74
 https://www.examtopics.com/discussions/microsoft/view/135056-exam-ai-102-topic-3-question-74-discussion/
 ======================================================================
-
 DRAG DROP -
 You plan to implement an Azure AI Search resource that will use custom skill based on sentiment analysis.
 You need to create a custom model and configure Azure AI Search use the model.
@@ -2845,7 +2658,6 @@ Which five actions should you perform in sequence? To answer, move the appropria
 Topic 3 - Question 75
 https://www.examtopics.com/discussions/microsoft/view/135062-exam-ai-102-topic-3-question-75-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a collection of press releases stored as PDF files.
@@ -2857,7 +2669,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 76
 https://www.examtopics.com/discussions/microsoft/view/143318-exam-ai-102-topic-3-question-76-discussion/
 ======================================================================
-
 You are building an internet-based training solution. The solution requires that a user's camera and microphone remain enabled.
 You need to monitor a video stream of the user and verify that the user is alone and is not collaborating with another user. The solution must minimize development effort.
 What should you include in the solution?
@@ -2873,7 +2684,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 77
 https://www.examtopics.com/discussions/microsoft/view/144085-exam-ai-102-topic-3-question-77-discussion/
 ======================================================================
-
 You are developing an app that will use the Speech and Language APIs.
 You need to provision resources for the app. The solution must ensure that each service is accessed by using a single endpoint and credential.
 Which type of resource should you create?
@@ -2889,7 +2699,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 78
 https://www.examtopics.com/discussions/microsoft/view/145783-exam-ai-102-topic-3-question-78-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You are building an app that will automatically translate speech from English to French, German, and Spanish by using Azure AI service.
@@ -2901,7 +2710,6 @@ NOTE: Each correct selection is worth one point.
 Topic 3 - Question 79
 https://www.examtopics.com/discussions/microsoft/view/150739-exam-ai-102-topic-3-question-79-discussion/
 ======================================================================
-
 You are developing a text processing solution.
 You have the following function.
 You call the function and use the following string as the second argument.
@@ -2919,7 +2727,6 @@ Suggested Answer (community most voted): A
 Topic 3 - Question 80
 https://www.examtopics.com/discussions/microsoft/view/152249-exam-ai-102-topic-3-question-80-discussion/
 ======================================================================
-
 You have the following Python function.
 You call the function by using the following code.
 my_function(text_analytics_client, "the quick brown fox jumps over the lazy dog")
@@ -2936,7 +2743,6 @@ Suggested Answer (community most voted): C
 Topic 3 - Question 81
 https://www.examtopics.com/discussions/microsoft/view/150396-exam-ai-102-topic-3-question-81-discussion/
 ======================================================================
-
 You have an Azure subscription.
 You need to deploy an Azure AI Search resource that will recognize geographic locations.
 Which built-in skill should you include in the skillset for the resource?
@@ -2952,7 +2758,6 @@ Suggested Answer (community most voted): C
 Topic 4 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/55451-exam-ai-102-topic-4-question-1-discussion/
 ======================================================================
-
 HOTSPOT -
 You are developing a text processing solution.
 You develop the following method.
@@ -2966,7 +2771,6 @@ Hot Area:
 Topic 4 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/54888-exam-ai-102-topic-4-question-2-discussion/
 ======================================================================
-
 You deploy a web app that is used as a management portal for indexing in Azure Cognitive Search. The app is configured to use the primary admin key.
 During a security review, you discover unauthorized changes to the search index. You suspect that the primary access key is compromised.
 You need to prevent unauthorized access to the index management endpoint. The solution must minimize downtime.
@@ -2983,7 +2787,6 @@ Suggested Answer (community most voted): C
 Topic 4 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/56501-exam-ai-102-topic-4-question-3-discussion/
 ======================================================================
-
 You have an existing Azure Cognitive Search service.
 You have an Azure Blob storage account that contains millions of scanned documents stored as images and PDFs.
 You need to make the scanned documents available to search as quickly as possible.
@@ -3000,7 +2803,6 @@ Suggested Answer (community most voted): D
 Topic 4 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/75329-exam-ai-102-topic-4-question-4-discussion/
 ======================================================================
-
 You need to implement a table projection to generate a physical expression of an Azure Cognitive Search index.
 Which three properties should you specify in the skillset definition JSON configuration table node? Each correct answer presents part of the solution.
 NOTE: Each correct selection is worth one point.
@@ -3017,7 +2819,6 @@ Suggested Answer (community most voted): ABE
 Topic 4 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/56510-exam-ai-102-topic-4-question-5-discussion/
 ======================================================================
-
 HOTSPOT -
 You are creating an enrichment pipeline that will use Azure Cognitive Search. The knowledge store contains unstructured JSON data and scanned PDF documents that contain text.
 Which projection type should you use for each data type? To answer, select the appropriate options in the answer area.
@@ -3028,7 +2829,6 @@ Hot Area:
 Topic 4 - Question 6
 https://www.examtopics.com/discussions/microsoft/view/78061-exam-ai-102-topic-4-question-6-discussion/
 ======================================================================
-
 HOTSPOT -
 You are building an Azure Cognitive Search custom skill.
 You have the following custom skill schema definition.
@@ -3040,7 +2840,6 @@ Hot Area:
 Topic 4 - Question 7
 https://www.examtopics.com/discussions/microsoft/view/77620-exam-ai-102-topic-4-question-7-discussion/
 ======================================================================
-
 You have the following data sources:
 ✑ Finance: On-premises Microsoft SQL Server database
 ✑ Sales: Azure Cosmos DB using the Core (SQL) API
@@ -3060,7 +2859,6 @@ Suggested Answer (community most voted): B
 Topic 4 - Question 8
 https://www.examtopics.com/discussions/microsoft/view/60582-exam-ai-102-topic-4-question-8-discussion/
 ======================================================================
-
 You are developing a solution to generate a word cloud based on the reviews of a company's products.
 Which Text Analytics REST API endpoint should you use?
 
@@ -3075,7 +2873,6 @@ Suggested Answer (community most voted): A
 Topic 4 - Question 9
 https://www.examtopics.com/discussions/microsoft/view/60820-exam-ai-102-topic-4-question-9-discussion/
 ======================================================================
-
 DRAG DROP -
 You have a web app that uses Azure Cognitive Search.
 When reviewing billing for the app, you discover much higher than expected charges. You suspect that the query key is compromised.
@@ -3087,7 +2884,6 @@ Select and Place:
 Topic 4 - Question 10
 https://www.examtopics.com/discussions/microsoft/view/77927-exam-ai-102-topic-4-question-10-discussion/
 ======================================================================
-
 You are developing an application that will use Azure Cognitive Search for internal documents.
 You need to implement document-level filtering for Azure Cognitive Search.
 Which three actions should you include in the solution? Each correct answer presents part of the solution.
@@ -3106,7 +2902,6 @@ Suggested Answer (community most voted): CDF
 Topic 4 - Question 11
 https://www.examtopics.com/discussions/microsoft/view/81122-exam-ai-102-topic-4-question-11-discussion/
 ======================================================================
-
 You have an Azure Cognitive Search solution and an enrichment pipeline that performs Sentiment Analysis on social media posts.
 You need to define a knowledge store that will include the social media posts and the Sentiment Analysis results.
 Which two fields should you include in the definition? Each correct answer presents part of the solution.
@@ -3124,7 +2919,6 @@ Suggested Answer (community most voted): BE
 Topic 4 - Question 12
 https://www.examtopics.com/discussions/microsoft/view/125536-exam-ai-102-topic-4-question-12-discussion/
 ======================================================================
-
 SIMULATION -
 Use the following login credentials as needed:
 To enter your username, place your cursor in the Sign in box and click on the username below.
@@ -3141,7 +2935,6 @@ To complete this task, sign in to the Azure portal.
 Topic 4 - Question 13
 https://www.examtopics.com/discussions/microsoft/view/112664-exam-ai-102-topic-4-question-13-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You create a knowledge store for Azure Cognitive Search by using the following JSON.
@@ -3152,7 +2945,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 14
 https://www.examtopics.com/discussions/microsoft/view/109370-exam-ai-102-topic-4-question-14-discussion/
 ======================================================================
-
 You plan create an index for an Azure Cognitive Search service by using the Azure portal. The Cognitive Search service will connect to an Azure SQL database.
 The Azure SQL database contains a table named UserMessages. Each row in UserMessages has a field named MessageCopy that contains the text of social media messages sent by a user.
 Users will perform full text searches against the MessageCopy field, and the values of the field will be shown to the users.
@@ -3170,7 +2962,6 @@ Suggested Answer (community most voted): D
 Topic 4 - Question 15
 https://www.examtopics.com/discussions/microsoft/view/143504-exam-ai-102-topic-4-question-25-discussion/
 ======================================================================
-
 HOTSPOT -
 You have an Azure subscription that contains an Azure AI Document Intelligence resource named DI1.
 You create a PDF document named Test.pdf that contains tabular data.
@@ -3182,7 +2973,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 16
 https://www.examtopics.com/discussions/microsoft/view/136922-exam-ai-102-topic-4-question-16-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You plan to provision Azure Cognitive Services resources by using the following method.
@@ -3194,7 +2984,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 17
 https://www.examtopics.com/discussions/microsoft/view/135946-exam-ai-102-topic-4-question-17-discussion/
 ======================================================================
-
 HOTSPOT -
 You have an app named App1 that uses Azure AI Document Intelligence to analyze medical records and provide pharmaceutical dosage recommendations for patients.
 You send a request to App1 and receive the following response.
@@ -3205,7 +2994,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 18
 https://www.examtopics.com/discussions/microsoft/view/134940-exam-ai-102-topic-4-question-18-discussion/
 ======================================================================
-
 HOTSPOT -
 You have an Azure subscription that contains an Azure AI Document Intelligence resource named DI1.
 You build an app named App1 that analyzes PDF files for handwritten content by using DI1.
@@ -3216,7 +3004,6 @@ How should you complete the code? To answer, select the appropriate options in t
 Topic 4 - Question 19
 https://www.examtopics.com/discussions/microsoft/view/135947-exam-ai-102-topic-4-question-19-discussion/
 ======================================================================
-
 You have an app named App1 that uses a custom Azure AI Document Intelligence model to recognize contract documents.
 You need to ensure that the model supports an additional contract format. The solution must minimize development effort.
 What should you do?
@@ -3232,7 +3019,6 @@ Suggested Answer (community most voted): C
 Topic 4 - Question 20
 https://www.examtopics.com/discussions/microsoft/view/135063-exam-ai-102-topic-4-question-20-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription.
@@ -3244,7 +3030,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 21
 https://www.examtopics.com/discussions/microsoft/view/136704-exam-ai-102-topic-4-question-21-discussion/
 ======================================================================
-
 You are building an app named App1 that will use Azure AI Document Intelligence to extract the following data from scanned documents:
 •	Shipping address
 •	Billing address
@@ -3267,7 +3052,6 @@ Suggested Answer (community most voted): C
 Topic 4 - Question 22
 https://www.examtopics.com/discussions/microsoft/view/143493-exam-ai-102-topic-4-question-22-discussion/
 ======================================================================
-
 You have the following data sources:
 •	Finance: On-premises Microsoft SQL Server database
 •	Sales: Azure Cosmos DB using the Core (SQL) API
@@ -3287,7 +3071,6 @@ Suggested Answer (community most voted): C
 Topic 4 - Question 23
 https://www.examtopics.com/discussions/microsoft/view/143494-exam-ai-102-topic-4-question-23-discussion/
 ======================================================================
-
 You are building an app that will process scanned expense claims and extract and label the following data:
 •	Merchant information
 •	Time of transaction
@@ -3308,7 +3091,6 @@ Suggested Answer (community most voted): D
 Topic 4 - Question 24
 https://www.examtopics.com/discussions/microsoft/view/143503-exam-ai-102-topic-4-question-24-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You are building a language learning solution.
@@ -3323,7 +3105,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 25
 https://www.examtopics.com/discussions/microsoft/view/150067-exam-ai-102-topic-4-question-25-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription.
@@ -3339,7 +3120,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 26
 https://www.examtopics.com/discussions/microsoft/view/150069-exam-ai-102-topic-4-question-26-discussion/
 ======================================================================
-
 You have an Azure AI Search resource named Search1.
 You have an app named App1 that uses Search1 to index content.
 You need to add a custom skill to App1 to ensure that the app can recognize and retrieve properties from invoices by using Search1.
@@ -3356,7 +3136,6 @@ Suggested Answer (community most voted): C
 Topic 4 - Question 27
 https://www.examtopics.com/discussions/microsoft/view/150443-exam-ai-102-topic-4-question-27-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription.
@@ -3373,7 +3152,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 28
 https://www.examtopics.com/discussions/microsoft/view/150257-exam-ai-102-topic-4-question-28-discussion/
 ======================================================================
-
 You have an Azure subscription that contains an Azure AI Document Intelligence resource named AIdoc1 in the S0 tier.
 You have the files shown in the following table.
 You need to train a custom extraction model by using AIdoc1.
@@ -3391,7 +3169,6 @@ Suggested Answer (community most voted): E
 Topic 4 - Question 29
 https://www.examtopics.com/discussions/microsoft/view/149782-exam-ai-102-topic-4-question-29-discussion/
 ======================================================================
-
 You have an Azure subscription that contains an Azure AI Document Intelligence resource named DI1. DI1 uses the Standard S0 pricing tier.
 You have the files shown in the following table.
 Which files can you analyze by using DI1?
@@ -3408,7 +3185,6 @@ Suggested Answer (community most voted): C
 Topic 4 - Question 30
 https://www.examtopics.com/discussions/microsoft/view/149783-exam-ai-102-topic-4-question-30-discussion/
 ======================================================================
-
 HOTSPOT -
 You have an Azure subscription that contains an Azure AI Document Intelligence resource named DI1.
 You build an app named App1 that analyzes PDF files for handwritten content by using DI1.
@@ -3420,7 +3196,6 @@ NOTE: Each correct selection is worth one point.
 Topic 4 - Question 31
 https://www.examtopics.com/discussions/microsoft/view/149767-exam-ai-102-topic-4-question-31-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have an Azure subscription that contains a storage account named sa1 and an Azure AI Document Intelligence resource named DI1.
@@ -3431,7 +3206,6 @@ Which four actions should you perform in sequence? To answer, move the appropria
 Topic 4 - Question 32
 https://www.examtopics.com/discussions/microsoft/view/150444-exam-ai-102-topic-4-question-32-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have an Azure subscription that contains an Azure AI Document Intelligence resource named DI1 and a storage account named sa1. The sa1 account contains a blob container named blob1 and an Azure Files share named share1.
@@ -3445,7 +3219,6 @@ NOTE: More than one order of answer choices is correct. You will receive credit 
 Topic 4 - Question 33
 https://www.examtopics.com/discussions/microsoft/view/149785-exam-ai-102-topic-4-question-33-discussion/
 ======================================================================
-
 You have an Azure subscription that contains an Azure AI Document Intelligence resource named AIdoc1.
 You have an app named App1 that uses AIdoc1. App1 analyzes business cards by calling business card model v2.1.
 You need to update App1 to ensure that the app can interpret QR codes. The solution must minimize administrative effort.
@@ -3462,7 +3235,6 @@ Suggested Answer (community most voted): B
 Topic 5 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/61688-exam-ai-102-topic-5-question-1-discussion/
 ======================================================================
-
 You build a bot by using the Microsoft Bot Framework SDK and the Azure Bot Service.
 You plan to deploy the bot to Azure.
 You register the bot by using the Bot Channels Registration service.
@@ -3481,7 +3253,6 @@ Suggested Answer (community most voted): CE
 Topic 5 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/56834-exam-ai-102-topic-5-question-2-discussion/
 ======================================================================
-
 HOTSPOT -
 You are building a chatbot by using the Microsoft Bot Framework Composer.
 You have the dialog design shown in the following exhibit.
@@ -3493,7 +3264,6 @@ Hot Area:
 Topic 5 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/91978-exam-ai-102-topic-5-question-3-discussion/
 ======================================================================
-
 You are building a multilingual chatbot.
 You need to send a different answer for positive and negative messages.
 Which two Language service APIs should you use? Each correct answer presents part of the solution.
@@ -3511,7 +3281,6 @@ Suggested Answer (community most voted): BD
 Topic 5 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/76495-exam-ai-102-topic-5-question-4-discussion/
 ======================================================================
-
 DRAG DROP -
 You plan to build a chatbot to support task tracking.
 You create a Language Understanding service named lu1.
@@ -3523,7 +3292,6 @@ Select and Place:
 Topic 5 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/56546-exam-ai-102-topic-5-question-5-discussion/
 ======================================================================
-
 You are building a bot on a local computer by using the Microsoft Bot Framework. The bot will use an existing Language Understanding model.
 You need to translate the Language Understanding model locally by using the Bot Framework CLI.
 What should you do first?
@@ -3539,7 +3307,6 @@ Suggested Answer (community most voted): B
 Topic 5 - Question 6
 https://www.examtopics.com/discussions/microsoft/view/75984-exam-ai-102-topic-5-question-6-discussion/
 ======================================================================
-
 DRAG DROP -
 You are using a Language Understanding service to handle natural language input from the users of a web-based customer agent.
 The users report that the agent frequently responds with the following generic response: "Sorry, I don't understand that."
@@ -3551,7 +3318,6 @@ Select and Place:
 Topic 5 - Question 7
 https://www.examtopics.com/discussions/microsoft/view/57089-exam-ai-102-topic-5-question-7-discussion/
 ======================================================================
-
 You build a conversational bot named bot1.
 You need to configure the bot to use a QnA Maker application.
 From the Azure Portal, where can you find the information required by bot1 to connect to the QnA Maker application?
@@ -3567,7 +3333,6 @@ Suggested Answer (community most voted): C
 Topic 5 - Question 8
 https://www.examtopics.com/discussions/microsoft/view/57093-exam-ai-102-topic-5-question-8-discussion/
 ======================================================================
-
 HOTSPOT -
 You are building a chatbot for a Microsoft Teams channel by using the Microsoft Bot Framework SDK. The chatbot will use the following code.
 For each of the following statements, select Yes if the statement is true. Otherwise, select No.
@@ -3578,7 +3343,6 @@ Hot Area:
 Topic 5 - Question 9
 https://www.examtopics.com/discussions/microsoft/view/55006-exam-ai-102-topic-5-question-9-discussion/
 ======================================================================
-
 HOTSPOT -
 You are reviewing the design of a chatbot. The chatbot includes a language generation file that contains the following fragment.
 # Greet(user)
@@ -3591,7 +3355,6 @@ Hot Area:
 Topic 5 - Question 10
 https://www.examtopics.com/discussions/microsoft/view/66453-exam-ai-102-topic-5-question-10-discussion/
 ======================================================================
-
 HOTSPOT -
 You are building a chatbot by using the Microsoft Bot Framework SDK.
 You use an object named UserProfile to store user profile information and an object named ConversationData to store information related to a conversation.
@@ -3605,7 +3368,6 @@ Hot Area:
 Topic 5 - Question 11
 https://www.examtopics.com/discussions/microsoft/view/54965-exam-ai-102-topic-5-question-11-discussion/
 ======================================================================
-
 HOTSPOT -
 You are building a chatbot that will provide information to users as shown in the following exhibit.
 Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
@@ -3616,7 +3378,6 @@ Hot Area:
 Topic 5 - Question 12
 https://www.examtopics.com/discussions/microsoft/view/62325-exam-ai-102-topic-5-question-12-discussion/
 ======================================================================
-
 HOTSPOT -
 You are building a bot and that will use Language Understanding.
 You have a LUDown file that contains the following content.
@@ -3628,7 +3389,6 @@ Hot Area:
 Topic 5 - Question 13
 https://www.examtopics.com/discussions/microsoft/view/62268-exam-ai-102-topic-5-question-13-discussion/
 ======================================================================
-
 HOTSPOT -
 You are designing a conversation flow to be used in a chatbot.
 You need to test the conversation flow by using the Microsoft Bot Framework Emulator.
@@ -3640,7 +3400,6 @@ Hot Area:
 Topic 5 - Question 14
 https://www.examtopics.com/discussions/microsoft/view/75647-exam-ai-102-topic-5-question-14-discussion/
 ======================================================================
-
 You are building a chatbot by using the Microsoft Bot Framework Composer as shown in the exhibit. (Click the Exhibit tab.)
 The chatbot contains a dialog named GetUserDetails. GetUserDetails contains a TextInput control that prompts users for their name.
 The user input will be stored in a property named name.
@@ -3658,7 +3417,6 @@ Suggested Answer (community most voted): A
 Topic 5 - Question 15
 https://www.examtopics.com/discussions/microsoft/view/77633-exam-ai-102-topic-5-question-15-discussion/
 ======================================================================
-
 DRAG DROP -
 You have a chatbot that uses a QnA Maker application.
 You enable active learning for the knowledge base used by the QnA Maker application.
@@ -3670,7 +3428,6 @@ Select and Place:
 Topic 5 - Question 16
 https://www.examtopics.com/discussions/microsoft/view/77634-exam-ai-102-topic-5-question-16-discussion/
 ======================================================================
-
 You need to enable speech capabilities for a chatbot.
 Which three actions should you perform? Each correct answer presents part of the solution.
 NOTE: Each correct selection is worth one point.
@@ -3688,7 +3445,6 @@ Suggested Answer (community most voted): ABC
 Topic 5 - Question 17
 https://www.examtopics.com/discussions/microsoft/view/80793-exam-ai-102-topic-5-question-17-discussion/
 ======================================================================
-
 You use the Microsoft Bot Framework Composer to build a chatbot that enables users to purchase items.
 You need to ensure that the users can cancel in-progress transactions. The solution must minimize development effort.
 What should you add to the bot?
@@ -3704,7 +3460,6 @@ Suggested Answer (community most voted): C
 Topic 5 - Question 18
 https://www.examtopics.com/discussions/microsoft/view/200012-exam-ai-102-topic-5-question-18-discussion/
 ======================================================================
-
 SIMULATION -
 You need to create and publish a bot that will use Language Understanding and QnA Maker. The bot must be named bot12345678. You must publish the bot by using the [email protected] account.
 NOTE: Complete this task first. It may take several minutes to complete the required deployment steps. While this is taking place, you can complete tasks 2-6 in this lab during the deployment.
@@ -3714,7 +3469,6 @@ To complete this task, use the Microsoft Bot Framework Composer.
 Topic 5 - Question 19
 https://www.examtopics.com/discussions/microsoft/view/125598-exam-ai-102-topic-5-question-19-discussion/
 ======================================================================
-
 SIMULATION -
 You need to create a QnA Maker service named QNA12345678 in the East US Azure region. QNA12345678 must contain a knowledge base that uses the questions and answers available at https://support.microsoft.com/en-us/help/12435/windows-10-upgrade-faq.
 To complete this task, sign in to the Azure portal and the QnA Maker portal.
@@ -3723,7 +3477,6 @@ To complete this task, sign in to the Azure portal and the QnA Maker portal.
 Topic 5 - Question 20
 https://www.examtopics.com/discussions/microsoft/view/125599-exam-ai-102-topic-5-question-20-discussion/
 ======================================================================
-
 SIMULATION -
 You need to add a question pair to the published knowledge base used by a QnA Maker service named QNA12345678. The question must be: `What will be the next version of Windows?`
 The answer must be: `Windows 11`.
@@ -3733,7 +3486,6 @@ To complete this task, sign in to the QnA Maker portal.
 Topic 5 - Question 21
 https://www.examtopics.com/discussions/microsoft/view/147571-exam-ai-102-topic-5-question-21-discussion/
 ======================================================================
-
 SIMULATION -
 Use the following login credentials as needed:
 To enter your username, place your cursor in the Sign in box and click on the username below.
@@ -3751,7 +3503,6 @@ To complete this task, sign in to the Azure portal.
 Topic 5 - Question 22
 https://www.examtopics.com/discussions/microsoft/view/102918-exam-ai-102-topic-5-question-22-discussion/
 ======================================================================
-
 You are designing a conversational interface for an app that will be used to make vacation requests. The interface must gather the following data:
 • The start date of a vacation
 • The end date of a vacation
@@ -3770,7 +3521,6 @@ Suggested Answer (community most voted): C
 Topic 5 - Question 23
 https://www.examtopics.com/discussions/microsoft/view/111023-exam-ai-102-topic-5-question-23-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You build a bot by using the Microsoft Bot Framework SDK.
@@ -3782,7 +3532,6 @@ NOTE: More than one order of answer choices is correct. You will receive credit 
 Topic 5 - Question 24
 https://www.examtopics.com/discussions/microsoft/view/102798-exam-ai-102-topic-5-question-24-discussion/
 ======================================================================
-
 You create a bot by using the Microsoft Bot Framework SDK.
 You need to configure the bot to respond to events by using custom text responses.
 What should you use?
@@ -3798,7 +3547,6 @@ Suggested Answer (community most voted): B
 Topic 5 - Question 25
 https://www.examtopics.com/discussions/microsoft/view/105994-exam-ai-102-topic-5-question-25-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You build a bot named app1 by using the Microsoft Bot Framework.
@@ -3811,7 +3559,6 @@ NOTE: Each correct selection is worth one point.
 Topic 5 - Question 26
 https://www.examtopics.com/discussions/microsoft/view/102920-exam-ai-102-topic-5-question-26-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have a chatbot that uses question answering in Azure Cognitive Service for Language.
@@ -3829,7 +3576,6 @@ Suggested Answer (community most voted): B
 Topic 5 - Question 27
 https://www.examtopics.com/discussions/microsoft/view/102921-exam-ai-102-topic-5-question-27-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have a chatbot that uses question answering in Azure Cognitive Service for Language.
@@ -3847,7 +3593,6 @@ Suggested Answer (community most voted): B
 Topic 5 - Question 28
 https://www.examtopics.com/discussions/microsoft/view/102922-exam-ai-102-topic-5-question-28-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have a chatbot that uses question answering in Azure Cognitive Service for Language.
@@ -3865,7 +3610,6 @@ Suggested Answer (community most voted): A
 Topic 5 - Question 29
 https://www.examtopics.com/discussions/microsoft/view/102800-exam-ai-102-topic-5-question-29-discussion/
 ======================================================================
-
 You create five bots by using Microsoft Bot Framework Composer.
 You need to make a single bot available to users that combines the bots. The solution must support dynamic routing to the bots based on user input.
 Which three actions should you perform? Each correct answer presents part of the solution.
@@ -3884,7 +3628,6 @@ Suggested Answer (community most voted): BCF
 Topic 5 - Question 30
 https://www.examtopics.com/discussions/microsoft/view/111868-exam-ai-102-topic-5-question-30-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You are building a chatbot that will use question answering in Azure Cognitive Service for Language.
@@ -3905,7 +3648,6 @@ Suggested Answer (community most voted): A
 Topic 5 - Question 31
 https://www.examtopics.com/discussions/microsoft/view/117064-exam-ai-102-topic-5-question-31-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You are building a chatbot that will use question answering in Azure Cognitive Service for Language.
@@ -3926,7 +3668,6 @@ Suggested Answer (community most voted): B
 Topic 5 - Question 32
 https://www.examtopics.com/discussions/microsoft/view/111024-exam-ai-102-topic-5-question-32-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You are building a chatbot that will use question answering in Azure Cognitive Service for Language.
@@ -3947,7 +3688,6 @@ Suggested Answer (community most voted): B
 Topic 5 - Question 33
 https://www.examtopics.com/discussions/microsoft/view/111870-exam-ai-102-topic-5-question-33-discussion/
 ======================================================================
-
 You have a Conversational Language Understanding model.
 You export the model as a JSON file. The following is a sample of the file.
 What represents the Weather.Historic entity in the sample utterance?
@@ -3963,7 +3703,6 @@ Suggested Answer (community most voted): B
 Topic 5 - Question 34
 https://www.examtopics.com/discussions/microsoft/view/111027-exam-ai-102-topic-5-question-34-discussion/
 ======================================================================
-
 You are building a chatbot by using Microsoft Bot Framework Composer.
 You need to configure the chatbot to present a list of available options. The solution must ensure that an image is provided for each option.
 Which two features should you use? Each correct answer presents part of the solution.
@@ -3981,7 +3720,6 @@ Suggested Answer (community most voted): DE
 Topic 5 - Question 35
 https://www.examtopics.com/discussions/microsoft/view/111871-exam-ai-102-topic-5-question-35-discussion/
 ======================================================================
-
 You are building a chatbot.
 You need to configure the bot to guide users through a product setup process.
 Which type of dialog should you use?
@@ -3997,7 +3735,6 @@ Suggested Answer (community most voted): C
 Topic 5 - Question 36
 https://www.examtopics.com/discussions/microsoft/view/107302-exam-ai-102-topic-5-question-36-discussion/
 ======================================================================
-
 You have a chatbot that was built by using Microsoft Bot Framework and deployed to Azure.
 You need to configure the bot to support voice interactions. The solution must support multiple client apps.
 Which type of channel should you use?
@@ -4012,7 +3749,6 @@ Suggested Answer (community most voted): C
 Topic 5 - Question 37
 https://www.examtopics.com/discussions/microsoft/view/107309-exam-ai-102-topic-5-question-37-discussion/
 ======================================================================
-
 You are building a bot by using Microsoft Bot Framework.
 You need to configure the bot to respond to spoken requests. The solution must minimize development effort.
 What should you do?
@@ -4028,7 +3764,6 @@ Suggested Answer (community most voted): A
 Topic 5 - Question 38
 https://www.examtopics.com/discussions/microsoft/view/117065-exam-ai-102-topic-5-question-38-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have a chatbot that uses question answering in Azure Cognitive Service for Language.
@@ -4046,7 +3781,6 @@ Suggested Answer (community most voted): B
 Topic 5 - Question 39
 https://www.examtopics.com/discussions/microsoft/view/106151-exam-ai-102-topic-5-question-39-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You are building a chatbot.
@@ -4058,7 +3792,6 @@ NOTE: Each correct selection is worth one point.
 Topic 5 - Question 40
 https://www.examtopics.com/discussions/microsoft/view/111874-exam-ai-102-topic-5-question-40-discussion/
 ======================================================================
-
 You are building a chatbot for a travel agent. The bot will ask users for a destination and must repeat the question until a valid input is received, or the user closes the conversation.
 Which type of dialog should you use?
 
@@ -4073,7 +3806,6 @@ Suggested Answer (community most voted): A
 Topic 5 - Question 41
 https://www.examtopics.com/discussions/microsoft/view/111875-exam-ai-102-topic-5-question-41-discussion/
 ======================================================================
-
 You are building a chatbot.
 You need to configure the chatbot to query a knowledge base.
 Which dialog class should you use?
@@ -4089,7 +3821,6 @@ Suggested Answer (community most voted): A
 Topic 5 - Question 42
 https://www.examtopics.com/discussions/microsoft/view/112146-exam-ai-102-topic-5-question-42-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a chatbot.
@@ -4101,7 +3832,6 @@ NOTE: Each correct selection is worth one point.
 Topic 5 - Question 43
 https://www.examtopics.com/discussions/microsoft/view/112147-exam-ai-102-topic-5-question-43-discussion/
 ======================================================================
-
 You develop a Conversational Language Understanding model by using Language Studio.
 During testing, users receive incorrect responses to requests that do NOT relate to the capabilities of the model.
 You need to ensure that the model identifies spurious requests.
@@ -4118,7 +3848,6 @@ Suggested Answer (community most voted): C
 Topic 5 - Question 44
 https://www.examtopics.com/discussions/microsoft/view/112148-exam-ai-102-topic-5-question-44-discussion/
 ======================================================================
-
 You have a Speech resource and a bot that was built by using the Microsoft Bot Framework Composer.
 You need to add support for speech-based channels to the bot.
 Which three actions should you perform? Each correct answer presents part of the solution.
@@ -4137,7 +3866,6 @@ Suggested Answer (community most voted): ABE
 Topic 5 - Question 45
 https://www.examtopics.com/discussions/microsoft/view/112149-exam-ai-102-topic-5-question-45-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You are building a bot.
@@ -4148,7 +3876,6 @@ Which three actions should you perform in sequence? To answer, move the appropri
 Topic 5 - Question 46
 https://www.examtopics.com/discussions/microsoft/view/112150-exam-ai-102-topic-5-question-46-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a bot that was built by using the Microsoft Bot Framework composer as shown in the following exhibit.
@@ -4159,7 +3886,6 @@ NOTE: Each correct selection is worth one point.
 Topic 5 - Question 47
 https://www.examtopics.com/discussions/microsoft/view/112151-exam-ai-102-topic-5-question-47-discussion/
 ======================================================================
-
 You are building a flight booking bot by using the Microsoft Bot Framework SDK.
 The bot will ask users for the departure date. The bot must repeat the question until a valid date is given, or the users cancel the transaction.
 Which type of dialog should you use?
@@ -4175,7 +3901,6 @@ Suggested Answer (community most voted): A
 Topic 5 - Question 48
 https://www.examtopics.com/discussions/microsoft/view/112152-exam-ai-102-topic-5-question-48-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a chatbot.
@@ -4187,7 +3912,6 @@ NOTE: Each correct selection is worth one point.
 Topic 5 - Question 49
 https://www.examtopics.com/discussions/microsoft/view/125686-exam-ai-102-topic-5-question-52-discussion/
 ======================================================================
-
 HOTSPOT -
 You are building a chatbot by using the Microsoft Bot Framework SDK.
 You use an object named UserProfile to store user profile information and an object named ConversationData to store information related to a conversation.
@@ -4200,7 +3924,6 @@ NOTE: Each correct selection is worth one point.
 Topic 5 - Question 50
 https://www.examtopics.com/discussions/microsoft/view/125072-exam-ai-102-topic-5-question-50-discussion/
 ======================================================================
-
 You build a bot.
 You create an Azure Bot resource.
 You need to deploy the bot to Azure.
@@ -4217,7 +3940,6 @@ Suggested Answer (community most voted): A
 Topic 5 - Question 51
 https://www.examtopics.com/discussions/microsoft/view/125138-exam-ai-102-topic-5-question-51-discussion/
 ======================================================================
-
 You are building a chatbot by using the Microsoft Bot Framework SDK. The bot will be used to accept food orders from customers and allow the customers to customize each food item.
 You need to configure the bot to ask the user for additional input based on the type of item ordered. The solution must minimize development effort.
 Which two types of dialogs should you use? Each correct answer presents part of the solution.
@@ -4235,7 +3957,6 @@ Suggested Answer (community most voted): CD
 Topic 5 - Question 52
 https://www.examtopics.com/discussions/microsoft/view/135602-exam-ai-102-topic-5-question-52-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You are building a chatbot that will use question answering in Azure Cognitive Service for Language.
@@ -4256,7 +3977,6 @@ Suggested Answer (community most voted): B
 Topic 6 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/135661-exam-ai-102-topic-6-question-1-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have a monitoring solution that uses the Azure AI Anomaly Detector service.
@@ -4268,7 +3988,6 @@ Which four actions should you perform in sequence? To answer, move the appropria
 Topic 7 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/134925-exam-ai-102-topic-7-question-1-discussion/
 ======================================================================
-
 You have an Azure subscription. The subscription contains an Azure OpenAI resource that hosts a GPT-4 model named Model1 and an app named App1. App1 uses Model1.
 You need to ensure that App1 will NOT return answers that include hate speech.
 What should you configure for Model1?
@@ -4284,7 +4003,6 @@ Suggested Answer (community most voted): C
 Topic 7 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/134943-exam-ai-102-topic-7-question-2-discussion/
 ======================================================================
-
 You have an Azure subscription. The subscription contains an Azure OpenAI resource that hosts a GPT-3.5 Turbo model named Model1.
 You configure Model1 to use the following system message: “You are an AI assistant that helps people solve mathematical puzzles. Explain your answers as if the request is by a 4-year-old.”
 Which type of prompt engineering technique is this an example of?
@@ -4300,7 +4018,6 @@ Suggested Answer (community most voted): D
 Topic 7 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/134944-exam-ai-102-topic-7-question-3-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You build a chatbot by using Azure OpenAI Studio.
@@ -4312,7 +4029,6 @@ NOTE: Each correct answer is worth one point.
 Topic 7 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/135146-exam-ai-102-topic-7-question-4-discussion/
 ======================================================================
-
 You are building a chatbot for a travel agent. The chatbot will use the Azure OpenAI GPT 3.5 model and will be used to make travel reservations.
 You need to maximize the accuracy of the responses from the chatbot.
 What should you do?
@@ -4328,7 +4044,6 @@ Suggested Answer (community most voted): C
 Topic 7 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/135054-exam-ai-102-topic-7-question-5-discussion/
 ======================================================================
-
 You build a chatbot that uses the Azure OpenAI GPT 3.5 model.
 You need to improve the quality of the responses from the chatbot. The solution must minimize development effort.
 What are two ways to achieve the goal? Each correct answer presents a complete solution.
@@ -4346,7 +4061,6 @@ Suggested Answer (community most voted): BC
 Topic 7 - Question 6
 https://www.examtopics.com/discussions/microsoft/view/135215-exam-ai-102-topic-7-question-6-discussion/
 ======================================================================
-
 HOTSPOT -
 You have an Azure subscription that contains an Azure OpenAI resource named AI1.
 You build a chatbot that will use AI1 to provide generative answers to specific questions.
@@ -4358,7 +4072,6 @@ NOTE: Each correct selection is worth one point.
 Topic 7 - Question 7
 https://www.examtopics.com/discussions/microsoft/view/135487-exam-ai-102-topic-7-question-7-discussion/
 ======================================================================
-
 DRAG DROP
 -
 You have an Azure subscription that contains an Azure OpenAI resource named AI1.
@@ -4370,7 +4083,6 @@ Which three actions should you perform in sequence in Azure OpenAI Studio? To an
 Topic 7 - Question 8
 https://www.examtopics.com/discussions/microsoft/view/135102-exam-ai-102-topic-7-question-8-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that contains an Azure OpenAI resource named AI1.
@@ -4383,7 +4095,6 @@ NOTE: Each correct selection is worth one point.
 Topic 7 - Question 9
 https://www.examtopics.com/discussions/microsoft/view/135064-exam-ai-102-topic-7-question-9-discussion/
 ======================================================================
-
 HOTSPOT -
 You have an Azure subscription that contains an Azure OpenAI resource.
 You configure a model that has the following settings:
@@ -4398,7 +4109,6 @@ NOTE: Each correct selection is worth one point.
 Topic 7 - Question 10
 https://www.examtopics.com/discussions/microsoft/view/136127-exam-ai-102-topic-7-question-10-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that contains an Azure OpenAI resource named AI1.
@@ -4411,7 +4121,6 @@ NOTE: Each correct selection is worth one point.
 Topic 7 - Question 11
 https://www.examtopics.com/discussions/microsoft/view/136128-exam-ai-102-topic-7-question-11-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that contains an Azure OpenAI resource named AI1.
@@ -4424,7 +4133,6 @@ NOTE: Each correct selection is worth one point.
 Topic 7 - Question 12
 https://www.examtopics.com/discussions/microsoft/view/135219-exam-ai-102-topic-7-question-12-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription.
@@ -4436,7 +4144,6 @@ NOTE: Each correct selection is worth one point.
 Topic 7 - Question 13
 https://www.examtopics.com/discussions/microsoft/view/143505-exam-ai-102-topic-7-question-13-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a chatbot that uses Azure OpenAI to generate responses.
@@ -4448,7 +4155,6 @@ NOTE: Each correct selection is worth one point.
 Topic 7 - Question 14
 https://www.examtopics.com/discussions/microsoft/view/143924-exam-ai-102-topic-7-question-14-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that is linked to a Microsoft Entra tenant. The subscription ID is x1xx11x1-x111-xxxx-xxxx-x1111xxx11x1 and the tenant ID is 1y1y1yyy-1y1y-y1y1-yy11-y1y1y11111y1.
@@ -4461,7 +4167,6 @@ NOTE: Each correct selection is worth one point.
 Topic 7 - Question 15
 https://www.examtopics.com/discussions/microsoft/view/143643-exam-ai-102-topic-7-question-15-discussion/
 ======================================================================
-
 HOTSPOT
 -
 In Azure OpenAI Studio, you are prototyping a chatbot by using Chat playground.
@@ -4475,7 +4180,6 @@ NOTE: Each correct answer is worth one point.
 Topic 7 - Question 16
 https://www.examtopics.com/discussions/microsoft/view/143644-exam-ai-102-topic-7-question-16-discussion/
 ======================================================================
-
 You have an Azure subscription.
 You need to build an app that will compare documents for semantic similarity. The solution must meet the following requirements:
 •	Return numeric vectors that represent the tokens of each document.
@@ -4493,7 +4197,6 @@ Suggested Answer (community most voted): C
 Topic 7 - Question 17
 https://www.examtopics.com/discussions/microsoft/view/149920-exam-ai-102-topic-7-question-17-discussion/
 ======================================================================
-
 You have an Azure OpenAI model.
 You have 500 prompt-completion pairs that will be used as training data to fine-tune the model.
 You need to prepare the training data.
@@ -4510,7 +4213,6 @@ Suggested Answer (community most voted): C
 Topic 7 - Question 18
 https://www.examtopics.com/discussions/microsoft/view/149574-exam-ai-102-topic-7-question-18-discussion/
 ======================================================================
-
 You have a custom Azure OpenAI model.
 You have the files shown in the following table.
 You need to prepare training data for the model by using the OpenAI CLI data preparation tool.
@@ -4530,7 +4232,6 @@ Suggested Answer (community most voted): A
 Topic 7 - Question 19
 https://www.examtopics.com/discussions/microsoft/view/150032-exam-ai-102-topic-7-question-19-discussion/
 ======================================================================
-
 You have an Azure subscription that contains an Azure OpenAI resource named OpenAI1 and a user named User1.
 You need to ensure that User1 can upload datasets to OpenAI1 and finetune the existing models. The solution must follow the principle of least privilege.
 Which role should you assign to User1?
@@ -4546,7 +4247,6 @@ Suggested Answer (community most voted): A
 Topic 7 - Question 20
 https://www.examtopics.com/discussions/microsoft/view/150420-exam-ai-102-topic-7-question-20-discussion/
 ======================================================================
-
 You have an Azure subscription and 10,000 ASCII files.
 You need to identify files that contain specific phrases. The solution must use cosine similarity.
 Which Azure OpenAI model should you use?
@@ -4562,7 +4262,6 @@ Suggested Answer (community most voted): A
 Topic 7 - Question 21
 https://www.examtopics.com/discussions/microsoft/view/150033-exam-ai-102-topic-7-question-21-discussion/
 ======================================================================
-
 You have an Azure subscription that contains an Azure OpenAI resource named AI1 and a user named User1.
 You need to ensure that User1 can perform the following actions in Azure OpenAI Studio:
 •	Identify resource endpoints.
@@ -4582,7 +4281,6 @@ Suggested Answer (community most voted): A
 Topic 7 - Question 22
 https://www.examtopics.com/discussions/microsoft/view/149575-exam-ai-102-topic-7-question-22-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have a chatbot that uses Azure OpenAI to generate responses.
@@ -4594,7 +4292,6 @@ NOTE: Each correct selection is worth one point.
 Topic 7 - Question 23
 https://www.examtopics.com/discussions/microsoft/view/149739-exam-ai-102-topic-7-question-23-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You are building an app that will provide users with definitions of common AI terms.
@@ -4606,7 +4303,6 @@ NOTE: Each correct selection is worth one point.
 Topic 8 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/150421-exam-ai-102-topic-8-question-1-discussion/
 ======================================================================
-
 You have an Azure subscription that contains an Azure OpenAI resource named AI1.
 You build a chatbot that uses AI1 to provide generative answers to specific questions.
 You need to ensure that the chatbot checks all input and output for objectionable content.
@@ -4623,7 +4319,6 @@ Suggested Answer (community most voted): B
 Topic 8 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/149577-exam-ai-102-topic-8-question-2-discussion/
 ======================================================================
-
 You have an Azure subscription that contains an Azure AI Content Safety resource named CS1.
 You create a test image that contains a circle.
 You submit the test image to CS1 by using the curl command and the following command-line parameters.
@@ -4640,7 +4335,6 @@ Suggested Answer (community most voted): A
 Topic 8 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/149674-exam-ai-102-topic-8-question-3-discussion/
 ======================================================================
-
 You have an Azure subscription.
 You are building a social media app that will enable users to share images.
 You need to ensure that inappropriate content uploaded by the users is blocked. The solution must minimize development effort.
@@ -4659,7 +4353,6 @@ Suggested Answer (community most voted): CD
 Topic 8 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/149966-exam-ai-102-topic-8-question-4-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that contains an Azure AI Content Safety resource named CS1.
@@ -4671,7 +4364,6 @@ NOTE: Each correct selection is worth one point.
 Topic 8 - Question 5
 https://www.examtopics.com/discussions/microsoft/view/149967-exam-ai-102-topic-8-question-5-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have an Azure subscription that contains an Azure OpenAI resource named AI1 and an Azure AI Content Safety resource named CS1.
@@ -4689,7 +4381,6 @@ Suggested Answer (community most voted): B
 Topic 8 - Question 6
 https://www.examtopics.com/discussions/microsoft/view/149968-exam-ai-102-topic-8-question-6-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have an Azure subscription that contains an Azure OpenAI resource named AI1 and an Azure AI Content Safety resource named CS1.
@@ -4707,7 +4398,6 @@ Suggested Answer (community most voted): A
 Topic 8 - Question 7
 https://www.examtopics.com/discussions/microsoft/view/149969-exam-ai-102-topic-8-question-7-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have an Azure subscription that contains an Azure OpenAI resource named AI1 and an Azure AI Content Safety resource named CS1.
@@ -4725,7 +4415,6 @@ Suggested Answer (community most voted): B
 Topic 8 - Question 8
 https://www.examtopics.com/discussions/microsoft/view/150482-exam-ai-102-topic-8-question-8-discussion/
 ======================================================================
-
 Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
 After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
 You have an Azure subscription that contains an Azure OpenAI resource named AI1 and an Azure AI Content Safety resource named CS1.
@@ -4743,7 +4432,6 @@ Suggested Answer (community most voted): B
 Topic 8 - Question 9
 https://www.examtopics.com/discussions/microsoft/view/149970-exam-ai-102-topic-8-question-9-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that contains an Azure AI Content Safety resource.
@@ -4756,7 +4444,6 @@ NOTE: Each correct selection is worth one point.
 Topic 8 - Question 10
 https://www.examtopics.com/discussions/microsoft/view/150483-exam-ai-102-topic-8-question-10-discussion/
 ======================================================================
-
 You have an Azure subscription that contains an Azure AI Content Safety resource named CS1.
 You plan to build an app that will analyze user-generated documents and identify obscure offensive terms.
 You need to create a dictionary that will contain the offensive terms. The solution must minimize development effort.
@@ -4773,7 +4460,6 @@ Suggested Answer (community most voted): D
 Topic 8 - Question 11
 https://www.examtopics.com/discussions/microsoft/view/149922-exam-ai-102-topic-8-question-11-discussion/
 ======================================================================
-
 HOTSPOT
 -
 You have an Azure subscription that contains an Azure AI Content Safety resource named CS1.
@@ -4785,7 +4471,6 @@ NOTE: Each correct selection is worth one point.
 Topic 8 - Question 12
 https://www.examtopics.com/discussions/microsoft/view/149971-exam-ai-102-topic-8-question-12-discussion/
 ======================================================================
-
 You have an Azure subscription that contains an Azure OpenAI resource named AI1.
 You build a chatbot that uses AI1 to provide generative answers to specific questions.
 You need to ensure that questions intended to circumvent built-in safety features are blocked.
@@ -4802,7 +4487,6 @@ Suggested Answer (community most voted): B
 Topic 9 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/81465-exam-ai-102-topic-6-question-1-discussion/
 ======================================================================
-
 DRAG DROP -
 You are developing the smart e-commerce project.
 You need to design the skillset to include the contents of PDFs in searches.
@@ -4814,7 +4498,6 @@ Select and Place:
 Topic 10 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/78040-exam-ai-102-topic-8-question-1-discussion/
 ======================================================================
-
 HOTSPOT -
 You build a QnA Maker resource to meet the chatbot requirements.
 Which RBAC role should you assign to each group? To answer, select the appropriate options in the answer area.
@@ -4825,7 +4508,6 @@ Hot Area:
 Topic 11 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/78075-exam-ai-102-topic-9-question-1-discussion/
 ======================================================================
-
 DRAG DROP -
 You are planning the product creation project.
 You need to recommend a process for analyzing videos.
@@ -4836,7 +4518,6 @@ Select and Place:
 Topic 11 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/62731-exam-ai-102-topic-9-question-2-discussion/
 ======================================================================
-
 HOTSPOT -
 You need to develop code to upload images for the product creation project. The solution must meet the accessibility requirements.
 How should you complete the code? To answer, select the appropriate options in the answer area.
@@ -4847,7 +4528,6 @@ Hot Area:
 Topic 12 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/77636-exam-ai-102-topic-10-question-1-discussion/
 ======================================================================
-
 DRAG DROP -
 You are developing a solution for the Management-Bookkeepers group to meet the document processing requirements. The solution must contain the following components:
 ✑ A From Recognizer resource
@@ -4860,7 +4540,6 @@ Select and Place:
 Topic 12 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/76783-exam-ai-102-topic-10-question-2-discussion/
 ======================================================================
-
 You are developing the knowledgebase.
 You use Azure Video Analyzer for Media (previously Video indexer) to obtain transcripts of webinars.
 You need to ensure that the solution meets the knowledgebase requirements.
@@ -4877,7 +4556,6 @@ Suggested Answer (community most voted): A
 Topic 13 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/60817-exam-ai-102-topic-11-question-1-discussion/
 ======================================================================
-
 HOTSPOT -
 You are planning the product creation project.
 You need to build the REST endpoint to create the multilingual product descriptions.
@@ -4889,7 +4567,6 @@ Hot Area:
 Topic 14 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/76784-exam-ai-102-topic-12-question-1-discussion/
 ======================================================================
-
 You need to develop an extract solution for the receipt images. The solution must meet the document processing requirements and the technical requirements.
 You upload the receipt images to the Form Recognizer API for analysis, and the API returns the following JSON.
 Which expression should you use to trigger a manual review of the extracted information by a member of the Consultant-Bookkeeper group?
@@ -4905,7 +4582,6 @@ Suggested Answer (community most voted): B
 Topic 15 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/66853-exam-ai-102-topic-13-question-1-discussion/
 ======================================================================
-
 You are developing the smart e-commerce project.
 You need to implement autocompletion as part of the Cognitive Search solution.
 Which three actions should you perform? Each correct answer presents part of the solution.
@@ -4924,7 +4600,6 @@ Suggested Answer (community most voted): ABF
 Topic 16 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/76535-exam-ai-102-topic-14-question-1-discussion/
 ======================================================================
-
 You are developing the document processing workflow.
 You need to identify which API endpoints to use to extract text from the financial documents. The solution must meet the document processing requirements.
 Which two API endpoints should you identify? Each correct answer presents part of the solution.
@@ -4942,7 +4617,6 @@ Suggested Answer (community most voted): BC
 Topic 16 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/77702-exam-ai-102-topic-14-question-2-discussion/
 ======================================================================
-
 HOTSPOT -
 You are developing the knowledgebase by using Azure Cognitive Search.
 You need to build a skill that will be used by indexers.
@@ -4954,7 +4628,6 @@ Hot Area:
 Topic 16 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/75979-exam-ai-102-topic-14-question-3-discussion/
 ======================================================================
-
 You are developing the knowledgebase by using Azure Cognitive Search.
 You need to process wiki content to meet the technical requirements.
 What should you include in the solution?
@@ -4970,7 +4643,6 @@ Suggested Answer (community most voted): D
 Topic 16 - Question 4
 https://www.examtopics.com/discussions/microsoft/view/77728-exam-ai-102-topic-14-question-4-discussion/
 ======================================================================
-
 You are developing the knowledgebase by using Azure Cognitive Search.
 You need to meet the knowledgebase requirements for searching equivalent terms.
 What should you include in the solution?
@@ -4986,7 +4658,6 @@ Suggested Answer (community most voted): A
 Topic 17 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/89941-exam-ai-102-topic-15-question-1-discussion/
 ======================================================================
-
 HOTSPOT -
 You are developing the shopping on-the-go project.
 You need to build the Adaptive Card for the chatbot.
@@ -4998,7 +4669,6 @@ Hot Area:
 Topic 17 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/57607-exam-ai-102-topic-15-question-2-discussion/
 ======================================================================
-
 HOTSPOT -
 You are developing the shopping on-the-go project.
 You are configuring access to the QnA Maker (classic) resources.
@@ -5010,7 +4680,6 @@ Hot Area:
 Topic 17 - Question 3
 https://www.examtopics.com/discussions/microsoft/view/77001-exam-ai-102-topic-15-question-3-discussion/
 ======================================================================
-
 HOTSPOT -
 You are developing the shopping on-the-go project.
 You need to build the Adaptive Card for the chatbot.
@@ -5022,7 +4691,6 @@ Hot Area:
 Topic 18 - Question 1
 https://www.examtopics.com/discussions/microsoft/view/75514-exam-ai-102-topic-7-question-1-discussion/
 ======================================================================
-
 You are developing the chatbot.
 You create the following components:
 ✑ A QnA Maker resource
@@ -5041,7 +4709,6 @@ Suggested Answer (community most voted): D
 Topic 18 - Question 2
 https://www.examtopics.com/discussions/microsoft/view/75955-exam-ai-102-topic-7-question-2-discussion/
 ======================================================================
-
 You are developing the chatbot.
 You create the following components:
 ✑ A QnA Maker resource
@@ -5055,4 +4722,3 @@ C. Orchestrator
 D. chatdown
 
 Suggested Answer (community most voted): C
-
